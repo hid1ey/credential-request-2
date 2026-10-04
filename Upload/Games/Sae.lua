@@ -1,3 +1,23616 @@
--- This file was protected using Luraph Obfuscator v14.9 [https://lura.ph/]
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+do
+    local str
 
-return({r_=bit32.bnot,VM=function(n,T,Q,p,c,h)if c==0X12 then(Q)[h+0X02]=T;c=0X49;elseif c==0X3f then c=n:FM(p,c,Q,h);else if c~=0B1001001 then else(Q)[h+0B1_1]=(9);return 36924,c;end;end;return nil,c;end,MC=function(n,T,Q)T=0X75+((n.v_((n.w_(Q[0X4_3_b]+Q[0X7_45a_],n.t[7])),(Q[11358])))-Q[27459]);Q[0x79B5]=(T);return T;end,hC=function(n,T,Q,p,c)if p==52 then if c>0B101 then T=n:XC(Q,T,c);else T=Q[56]();end;p=(0X3);return p,5248,T;else if p~=0x3 then else return p,64991,T;end;end;return p,nil,T;end,N_=function(n,n,T)n=T[0X73__88];return n;end,S=function(n,T,Q)Q=102+(n.Z_(n.t[0x5]-Q-n.t[0b100]+n.t[0B01]));T[13079]=Q;return Q;end,nC=function(n,T,Q)Q[0Xf_fd]=(0x59__2f2C13+((n.H_(Q[0X6b43],(Q[3503])))-Q[0X7329]-n.t[8]-Q[6086]));T=0XA_+(Q[0X43c4]+Q[10081]+Q[0x194C]-Q[0X334b]<Q[10081]and Q[30111]or Q[0x2C5e_]);Q[21910]=T;return T;end,fM=function(n,n,T,Q)Q[T]=n-n%0B01;end,SC=function(n,T,Q,p,c)if T>0x6c then else if not(T<0XdF)then else c=n:xC(p,c,Q);end;end;return c;end,O=table,LC=function(n,T,Q,p,c)local h;p[0X37]=nil;Q=(0X1b);repeat h,Q=n:DC(p,T,c,Q);if h==0x9__849 then break;else if h==0X005812 then continue;end;end;until false;p[56]=(function()local n=p[0X14](p[40],p[12]);p[0Xc]=(p[12]+4);return n;end);p[57]=(nil);(p)[0x3a]=nil;p[59]=(nil);(p)[0X3C]=(nil);(p)[0b111101]=(nil);return Q;end,R="r\ea\z  d\1053\u{0032}",XC=function(n,T,Q,p)local c,h=66;while true do Q,h,c=n:pC(Q,p,T,c);if h==2984 then break;else if h~=0XC82D then else continue;end;end;end;return Q;end,M=string.gsub,FM=function(n,n,T,Q,p)(Q)[p+1]=n;T=0B10010;return T;end,l_=bit32.bor,wM=function(n,n,T)n=(#T);return n;end,W=pcall,rM=function(n,n,T,Q,p)local c=(#T[0x13]);(T[0b10011])[c+0X1]=(p);T[0X13_][c+0X2]=(n);T[0b10011][c+3]=Q;end,OM=function(n,T,Q,p,c,h,H,F,u,l,K)local O;K=(H[52]()-0Xb58B);c=H[0x23](K);l=nil;T=nil;Q=(nil);h=(nil);F=(nil);p=(nil);for W=0B10_10000,292,0X35 do F,l,O,h,Q,T,p=n:qM(T,p,K,h,W,l,Q,F,H);if O==0x7A96 then continue;end;end;u=nil;return c,u,Q,F,p,K,T,l,h;end,_C=function(n,n,T)T=n[0X2E]();return T;end,yC=function(n,n)if not(0B1_01000)then else return-0b10,n[0B0101111];end;return 0X1DF2;end,zM=function(n,n,T,Q,p)if n==0b101_1000 then T=p[0X36__]();else if n~=120 then else Q=T%0X8_;return T,5826,Q;end;end;return T,nil,Q;end,n_=function(n,T,Q)Q=(-30+((n.Z_((n.Z_(T[13706]+T[0X6c_12]))))+T[0X759F]));(T)[0x147]=(Q);return Q;end,a=buffer,Y=function(n,T,Q,p)Q[6]=n.Z;if not(not T[0X358a])then p=T[13706];else p=n:f(p,T);end;return p;end,EM=function(n,n,T)(T)[0X2_e]=(-0XB5);n=(0X2__8);return n;end,q_=function(n,n,T)n=T[0X004dFa];return n;end,DC=function(n,T,Q,p,c)if c==0x1b then T[53]=(coroutine.wrap);if not(not p[0x2c81])then c=p[0X2c8__1];else(p)[0X1Bec]=(0X2C+(n.w_((n.y_((n.J_(n.t[0X8],n.t[0B10]))==p[24386]and p[0X92_7]or p[0X6B43])),n.t[0x5],p[0X3b40])));c=-15791+(p[6476]-p[0XDAf__]+p[0x7C53]+n.t[0X1]-p[0x15B9]);p[0x2c81]=(c);end;elseif c==0X3e then c=n:WC(T,p,c);return 22546,c;else if c~=0X5 then else n:uC(Q,T);return 38985,c;end;end;return nil,c;end,F_=table.create,yM=function(n,n,T)(n)[T+0X3]=0x7;end,g=function(n,n,T)T=(n[2343]);return T;end,gC=function(n,T)T[19]=n.U;end,R_=string.match,VC=function(n,T,Q,p)while true do if not(T>=0X26)then T=n:HC(T,Q,p);continue;else(p)[0B1100__11]=(function()local Q,c=p[0b1100__01](),p[0x31]();if c==0X0 then return Q;else if c>=p[0X19]then c=n:cC(c,p);end;end;local h=(0x64);repeat if h>100 then return c*p[4]+Q;else if h<115 then h=n:RC(h);continue;end;end;until false;end);break;end;end;(p)[52]=function()local Q,c,h,H,F=0,(59);repeat h,Q,F,c,H=n:FC(c,Q,F,p);if h==17477 then continue;elseif h==-0X2 then return H;else if h==-0X1_ then return;end;end;until false;end;p[0X35]=(nil);(p)[0B1_10110_]=nil;return T;end,r=string.char,x=function(n,n,T)n=T[18584];return n;end,bM=function(n,T,Q)if T==35 then T=(0B100110);Q[0B1_01001__][0x001a]=n.o;else if T==0X26 then Q[41][0x1B]=n.j.bor;return 57516,T;else if T~=0B1010100 then else T=0b100_011;Q[41][0B101__01]=n.u;end;end;end;return nil,T;end,PM=function(n,T,Q,p,c)T=function()local h;h=(nil);h=(nil);local H,F,u,l;F,l,u=n:TC(c,F,l,u);local K;F,h,l,K,H=n:eC(l,F,K,c,u);if h==-0B1 then return;else if h~=-0x2_ then else return H;end;end;if c[0B1_0__1__111]==c[0x26__]then h,H=n:KC(u,c);if h~=-2 then else return H;end;end;(c)[0B1010]=(nil);for F=0X6__C,0X123_,0X4b do h,H=n:NM(c,K,F);if h~=-0B10 then else return H;end;end;end;if not(not Q[7241])then p=Q[7241];else Q[0X7914]=-2798552078+(n.r_((n.J_(Q[10026]+Q[0X2337]+n.t[0X8]))));p=-3112322378+((Q[0X69bf]>=Q[0X46__72]and Q[10277]or Q[11393])-Q[7148]+Q[4408]>=Q[0x3f9__0]and n.t[0b110]or Q[31827]);(Q)[0X1_C49]=(p);end;return p,T;end,kM=function(n,T,Q,p,c,h,H)if Q==0XB then Q=(0X6e);if H==0b10001111 then n:oM(H,h);end;return 0Xf5e5,Q;else if Q==0X6E then if h[0X1f][p]then n:jM(h,p,T,c);else local H,F,u=0X0032;while true do if not(H>0X32)then F=p/0B100;H=0b1101001;continue;else if H<=0X34 then(c)[T]=u;break;else H,u=n:QM(u,p,F,h,H);continue;end;end;end;end;return 0xAE0_0,Q;end;end;return nil,Q;end,uC=function(n,T,Q)Q[0x37]=(T[n.D]);end,M_=function(n,T,Q,p,c,h,H,F)local u;while true do u,h=n:t_(H,Q,h);if u==53965 then break;else if u~=49062 then else continue;end;end;end;Q[0x29][0X2]=(Q[0X2E]);h=(0X59_);while true do if h>0B01011001 then u,h=n:O_(H,h,Q,T,c);if not(u)then else return{n._(u)},h;end;else if Q[58]==Q[0X7]then else n:a_(Q,p);for T=0X2A,0B11101000,0X5F do if T>137 then n:z_(Q);else if T<0B11101_000 and T>0X2A then Q[0X29][0B100]=n.t;else if not(T<0x8_9)then else Q[41][0B10000]=Q[0B11__1101];continue;end;end;end;end;end;Q[0X29][0B10__1]=F;if not(not H[327])then h=H[0X1__47];else h=n:n_(H,h);end;end;end;return nil,h;end,GC=function(n,T,Q,p)local c,h=(0X34);while true do c,h,p=n:hC(p,Q,c,T);if h==0XfDDF then break;else if h~=0X001480 then else continue;end;end;end;return p;end,G=function(n,T,Q,p,c)Q[0xf]=nil;c=(0X15);repeat if c<0X22 and c>0Xf then(Q)[0Xb]={};if not T[0X43b]then c=(112+(n.Z_((n.r_((n.w_(n.t[0X6]))+n.t[4])))));T[1083]=c;else c=(T[1083]);end;elseif c<21 then c=n:X(c,Q,p,T);else if c>0b100010 then c=n:h(c,Q,T);continue;else if c<0X70 and c>0b10101 then Q[0Xf]=p.readu16;break;end;end;end;until false;Q[0b10000]=p[n.R];(Q)[0B10001]=nil;Q[18]=(nil);return c;end,BM=function(n,T,Q,p,c,h,H,F,u)while true do if F>0B1__110 then if not(F<124)then F=0X2B;u=H[0x31]();else F=14;p=(u/0X2);end;else if c==0Xc5_ then else(H)[0X1d]=-H[0B1__11010];Q,H[0X31]=H[17],(c-H[0X29]);end;break;end;end;F=0b1000100;while true do if F==0B1000100 then F,h=n:YM(h,F,H,c,T,p,u);continue;else if F==83 then h+=0x1;break;end;end;end;return Q,F,h,u,p;end,YM=function(n,T,Q,p,c,h,H,F)if F%0x2_~=0b0 then local F;for u=0X58,0B1__1000101_,42 do if u==0x82 then F=p[49]();break;else if u==88 then T=p[0B110001]();end;end;end;for p=H-H%0X1,T do h[p]=F;end;else if c==0B11001__111 then else n:fM(H,T,h);end;end;Q=(0X53);return Q,T;end,vM=function(n,T,Q,p,c,h,H,F,u,l,K)if h<0X13__4 and h>0x09e then H=Q%8;elseif h>308 then T=(u-l)/0X8;return c,60794,Q,T,p,H;else if h<0X1_7f and h>233 then p=(K%0X8);return c,40593,Q,T,p,H;else if h>0B1010011 and h<0B11101001 then Q=n:MM(F,Q);return c,0X9E91,Q,T,p,H;else if h<0X9E then c=n:ZM(c,F);end;end;end;end;return c,nil,Q,T,p,H;end,UM=function(n,n,T,Q,p,c,h,H,F)h=(H-Q)/0b1000;(p)[c]=(F);(n)[c]=(h);T=0x77;return T,h;end,s=function(n,T,Q,p)(T)[0b111]=9007199254740992;(T)[8]=n.R_;if not Q[0X19__4C]then p=(-0X593145f6+(n.J_((n.y_(n.t[0x8]))+n.t[0X8]<=n.t[0X5]and n.t[0x8]or Q[18584],Q[10081],n.t[0X1])));(Q)[0X1_94C]=(p);else p=n:B(p,Q);end;return p;end,b=function(n,T,Q,p,c)Q=(123);repeat if Q==0B1111011 then T[0X1__1]={};if not c[0x3b40_]then Q=n:I(Q,c);else Q=c[0X3b40];end;else if Q~=30 then else(T)[0B10010]=p[n.J];break;end;end;until false;(T)[19]=n.U;T[0X14]=nil;(T)[0b10101]=nil;T[0X16]=nil;(T)[0x17__]=nil;Q=0B1011000;return Q;end,ZM=function(n,n,T)n=T[0x36]();return n;end,TM=function(n,n,T)(n)[0B1011]=(T);end,jM=function(n,n,T,Q,p)p[Q]=(n[0B11111][T]);end,U=nil,gM=function(n,T,Q)T=(-17900869+(n.v_(Q[28485]-n.t[0B11__]+Q[0x1b_e_C__]-n.t[0X9],(Q[26203]))));(Q)[29576]=(T);return T;end,T=string.unpack,RM=function(n,T,Q,p,c)if T==0x3e_ then n:cM(Q,p,c);return 48143;else p[c+0X3]=0B1000;end;return nil;end,dC=function(n,n,T)n=T[0X30__]();return n;end,pM=function(n,n,T)T=n[0x17e0];return T;end,sC=function(n,T,Q,p,c,h)if c==0B0111100 then p,c=n:YC(p,T,h,c);elseif c==0b10001 then c=(0X3C);if T[0X4]==T[47]then while true do Q=n:BC(T,Q);end;return p,Q,-0x2,c,T[0B110_01];end;else if c~=0X6B then else return p,Q,61465,c;end;end;return p,Q,nil,c;end,h=function(n,T,Q,p)(Q)[12]=(0B0__0__);if not p[11358]then T=(-66478781+(((n.H_(n.t[0X8],(0X9)))-p[0x358a]~=n.t[0B110]and n.t[7]or T)+p[1083]));p[11358]=(T);else T=p[11358];end;return T;end,eM=function(n,T)local Q;if T[0X3d]~=T[0X7]then local p=(0X1c);while true do Q,p=n:IM(T,p);if Q==0X28EF then break;end;end;p=(0B1010100);repeat Q,p=n:bM(p,T);if Q==57516 then break;end;until false;end;end,Z_=bit32.countlz,hM=function(n,T,Q,p,c,h)(p)[62]=(nil);c=nil;h=(nil);Q=0X7E;repeat if Q<0B111111 then Q,c=n:PM(c,T,Q,p);continue;else if Q<0B1000101 and Q>0X12 then p[0B111110]=function()local H,F,u,l,K,O,W,U,e,N;u,N,O,U,e,F,K,l,W=n:OM(K,O,e,u,W,p,U,N,l,F);local Y,E;E,Y,H,N=n:DM(E,O,K,N,p,U,e,u,l,Y,W,F);if H~=-0x1 then else return;end;u=(0X1);l=nil;O=nil;W=nil;E=(0X1C);repeat if E==0X1c then l=p[52]();O=p[0X23](l);E=0x4B_;continue;else if E==0B100101__1 then W=n:LM(W);break;end;end;until false;E=(0X3E);repeat H,E=n:xM(E,Y,W,p,e,l,O);if H~=39144 then else break;end;until false;for F=0X1,p[0B1_10001](),0X1 do H,F,E=(nil);F,H,E=n:SM(E,F,H);e,E,u,H,F=n:BM(Y,e,F,W,u,p,E,H);end;return e;end;if not(not T[0X6C12])then Q=(T[0X6c12]);else Q=(-26+((T[0X2825]>=T[0X927]and T[0X3317]or T[0x745a])-T[1083]-T[6476]<T[0x2e8]and T[0X1BeC]or T[0XDAF]));T[0X6C__1_2_]=(Q);end;else if Q>96 then(p)[0B111001]=(function()local H;for F=0X74,0XC3,0B1001111 do if F==0b1110100 then H=n:sM(p,H);else if F==0Xc3 then p[12]=p[12]+8;end;end;end;return H;end);if not(not T[28485])then Q=n:AM(T,Q);else Q=(63+((n.J_(T[0x79B5],T[4408]))-T[11358]-T[0x7_9B5]+T[0x272a]));T[28485]=Q;end;continue;elseif Q<73 and Q>0x3f then(p)[0x3a]=(function()local H,F,u;u,H,F=n:dM(u,H,F);repeat if u==0x61 then u=76;F=p[0B110111](p[0B101000],p[0B1100],H);continue;elseif u==0X00A then u=(0b1100001);H=p[52]();else if u~=0b1001100 then else p[0B1100]=p[0B1100]+H;break;end;end;until false;return F;end);if not T[6112]then Q=(-4294958239+(n.H_((n.l_((n.r_(T[0x927]))))+T[0X2c5e],(T[0X5596]))));T[6112]=Q;else Q=n:pM(T,Q);end;else if Q<126 and Q>0B100100_1 then(p)[0X3b]=function()local H,F,u;for l=58,0Xde,0B10011_ do if not(l<=0X4d)then if not(l<0X73)then return u;else p[0B110_11](u,0,p[0X28],p[0XC],F);p[0b1100]=p[0xC]+F;end;else F,H,u=n:XM(p,l,u,F);if H~=47927 then else continue;end;end;end;end;p[0X3C]=function(...)local H=p[0B10]('\z  #',...);if H==0X0 then return H,p[0b010001];end;return H,{...};end;(p)[0X3D]=function(H,F)local u,l=H[6],(H[11]);local K,O,W,U,e,N,Y,E=H[0XA],H[4],H[0X7],H[0B11],H[0B1__001],H[0X8],H[0X5];E=(function(...)local R=p[0X23](u);local u,M=p[0X3C](...);local z,f,x,Z,b,P,D,j,_,B=0b1,0X1,(p[30]()),0b0,0X1;local o,A,J,k=p[0b101100](function()local w,q,S,t,v,L,i,s,I,V;while true do local d=(U[f]);if not(d<109)then if d>=0Xa3 then if not(d>=190)then if not(d>=176)then if not(d<0Xa_9)then if not(d>=0B1_0101100)then if not(d>=0Xaa)then w=R;I=K[f];s=R;else if d~=0B10101011 then w=nil;I=nil;s=(0XC);while true do if s==123 then I=0X0;break;else if s==0b1100 then w=(0B1010101);s=-0xf89+(p[0X29][0x13]((p[0x29][0X001a](K[f]-O[f],(s)))-O[f]));end;end;end;i=4503599627370495;I*=i;i=(p[0x29]);S=(0x1a);s=(62);while true do if s==0X3E then i=i[S];s=(-0XbC+((p[41][27](O[f]-s+d,d,O[f]))-s));else if s==0X5 then S=(p[41]);break;end;end;end;v=0X19;s=(25);repeat if s==0X19 then S=S[v];s=(0B111101+((s+O[f]~=s and K[f]or K[f])-K[f]-s));continue;else if s~=36 then else v=(p[0x29]);break;end;end;until false;t=(0b10100);q=(nil);s=0X7c;while true do if s<0x7C then q=(0B11001__);break;else if s>0X2B then v=(v[t]);t=(p[0B1010__01]);s=(-0Xd1+(p[0X29][0X1b](s+s+s-s,s)));continue;end;end;end;s=66;repeat if s>0X39 then t=t[q];s=-4294963927+(p[0X29][0B110__10]((p[41][0X1C_](O[f]))-s-d,K[f]));else if not(s<0X42)then else q=(p[0X29]);break;end;end;until false;V=0X19;s=0B11100;while true do if not(s>0x1c)then q=q[V];s=(-0X05F+((p[0B101_001][22](d-s-K[f],O[f]))>=s and d or s));else if not(s>=0x4B)then q=q(V);break;else V=K[f];s=(-0X39+((p[0X029][28]((p[41][0X1B](K[f],s,d))))+K[f]+s));continue;end;end;end;s=(106);repeat if s==0x41 then q=(O[f]);s=(0B101100+(p[0B101001][0X1C]((p[0B101001__][0X13]((p[41][25](K[f]))+s)))));continue;elseif s==0B101100 then V=O[f];break;else if s~=106 then else t=t(q);s=-4294966716+((p[0X29][0X13](d+K[f]+d))-d);end;end;until false;v=v(t,q,V);t=(K[f]);v+=t;s=0;while true do if s==0b1011111 then v=(O[f]);i=i(S,v);break;else if s~=0X0 then else S=S(v);s=(0x4_F+(K[f]-s+K[f]+K[f]+K[f]));continue;end;end;end;s=0X67;while true do if not(s>0x1a)then if not(s>=0B11010)then I+=i;break;else i-=S;s=(-0X6__7FF__ffCF+(p[41][0X1a]((p[0B101001][0B10100](s==K[f]and O[f]or O[f],s))+s,(s))));end;else if s>0X31 then if s==0x67 then S=(O[f]);s=-0X04D+((p[0b101001][0X16]((p[41][0X16](K[f]-K[f],K[f])),K[f]))+s);continue;else i+=S;s=(-159+(s+s+s-O[f]~=K[f]and d or d));continue;end;else S=(K[f]);s=0x5c+(p[0x29][0X14](s-s-K[f]<=d and d or s,K[f]));continue;end;end;end;s=0X5D;while true do if not(s>0B10_111)then if not(s<0B10111)then w=(R);s=(-13+(p[0x29][20]((p[0X29][25](d+O[f]))+s,s,s)));continue;else I=K[f];s=0B1010111+((p[41][0B11001](O[f]+s))+s>=s and s or d);end;elseif not(s>0X18)then(U)[f]=w;s=-147+((p[0X0029][0X18]((p[0X29][20](s==s and O[f]or s)),(s)))<s and O[f]or d);continue;else if not(s>=97)then w+=I;s=(-2415918992+((p[0B101001][22]((p[41][0B11011](s-K[f])),K[f]))-s));else w=(w[I]);break;end;end;end;I=(R);i=O[f];s=(48);repeat if s==0X30 then I=I[i];s=0X4F+(p[0x29][0B11100]((p[0x29][0b10011]((p[0X29][24](s,K[f]))+s))));else if s~=0B1001111 then else w=w==I;break;end;end;until false;if not(w)then else for y=117,249,0x39 do if y==174 then f=w;break;else if y~=0B1110101 then else w=(Y[f]);end;end;end;end;else R[O[f]]=R[K[f]]==R[Y[f]];end;end;else if d>=0XAe then if d~=0Xaf then I=(I[s]);s=(w);w=0b10;else i=(R);S=O[f];end;else if d==0B1__0101101 then w=Y[f];I,s,i=P();if I then(R)[w+0X1]=(s);(R)[w+0X2]=(i);f=(O[f]);end;else(R)[K[f]]=(p[45](R[O[f]],R[Y[f]]));end;end;end;else if d>=166 then if d>=0Xa7 then if d==0xa8 then(R)[Y[f]]=p[0Xc];else(R)[O[f]]=R[K[f]]*e[f];end;else I=(R);end;else if not(d<164)then if d==165 then w=(O[f]);(R)[w]=R[w](R[w+0X1]);b=w;else R[Y[f]]=R[K[f]]%N[f];end;else w=(F);end;end;end;else if d>=0Xb7 then if d<186 then if d<0B10111000 then I=(K[f]);s={};else if d~=185 then s=w;w=(2);else s=0x3;end;end;else if not(d>=0X00_BC)then if d==0Xbb then w=R;I=(K[f]);else w=(Y[f]);I=O[f];b=(w+I-0x001);if D then for y,G in D do if y>=1 then(G)[3]=G;G[0X1__]=(R[y]);(G)[0B10]=(1);(D)[y]=(nil);end;end;end;return true,w,I;end;else if d~=0XBD then w=(false);P+=_;if _<=0 then w=(P>=j);else w=P<=j;end;if not(w)then else R[Y[f]+0B11]=P;f=O[f];end;else(R)[Y[f]]=(R[O[f]]+R[K[f]]);end;end;end;else if not(d>=0Xb3)then if not(d<0XB__1__)then if d~=0xB_2 then w=(R);I=Y[f];s=x;else w=(F[O[f]]);R[K[f]]=w[3][w[0x2]][R[Y[f]]];end;else w=F[K[f]];(R)[Y[f]]=(w[0x3][w[0X2]]);end;else if d>=0B10110101 then if d~=182 then if not(not(R[K[f]]<R[Y[f]]))then else f=O[f];end;else I=K[f];w=w[I];I=(R);end;else if d~=0Xb4 then i=(Y[f]);else w=Y[f];R[w]=R[w](p[0B1000__00](b,w+0B1,R));b=w;end;end;end;end;end;else if d>=0xCC then if d<0B110100_11 then if not(d<0XCF)then if not(d<0B11010001)then if d==0XD2 then i=(W[f]);s=s[i];w[I]=(s);elseif R[O[f]]then f=(Y[f]);end;else if d==0xD0 then R[Y[f]]=(not R[O[f]]);else I=(Y[f]);s=(R);end;end;else if d>=0B11001101 then if d~=0B011_001110 then s=e[f];else Z=(K[f]);for y=1,Z do R[y]=(M[y]);end;z=Z+1;end;else R[K[f]]=(O);end;end;else if not(d>=0xd6)then if d>=212 then if d~=0XD5 then if not R[O[f]]then f=(K[f]);end;else(p[0X29])[Y[f]]=(R[K[f]]);end;else w=(R);I=O[f];end;else if d<216 then if d~=0XD7__ then I=(Y[f]);s=x;else R[K[f]]=(R[Y[f]][R[O[f]]]);end;else if d~=0B11011__001 then i=N[f];else(w)[I]=s;end;end;end;end;else if d<0xc5 then if not(d>=0Xc1)then if d<191 then w=R;else if d~=0XC0 then if R[Y[f]]==R[O[f]]then else f=(K[f]);end;else w=0B010;s=s[w];end;end;else if d>=195 then if d==196 then i=(K[f]);s=s[i];else w=O[f];R[w](R[w+1]);b=(w-0X1);end;else if d==0B11000010 then w=R;i=(K[f]);else for y=0X1,O[f]do(R)[y]=M[y];end;end;end;end;else if d>=0B11001000 then if not(d<0Xca)then if d==0B11001011 then I=(W[f]);else R[O[f]][W[f]]=R[Y[f]];end;else if d==0xC_9 then i=Y[f];s=s[i];i=R;else(R)[K[f]]=(p[0b10110](R[O[f]],e[f]));end;end;else if d>=0b11000110 then if d~=199 then S=(S[w]);else w=N[f];end;else w=O[f];I=(u-Z-1);if not(I<0)then else I=(-0X1);end;s=(0b0);for u=w,w+I do(R)[u]=(M[z+s]);s+=0b1;end;b=w+I;end;end;end;end;end;else if not(d>=136)then if d<0X7a_ then if not(d<0X73)then if not(d<0X76)then if d<120 then if d==0B001110111 then R[Y[f]]=(R[K[f]]//R[O[f]]);else if not(not(e[f]<=R[O[f]]))then else f=(K[f]);end;end;else if d==0B1111001 then(R[K[f]])[R[O[f]]]=R[Y[f]];else s=Y[f];i=w;end;end;else if d<0X74 then w=O[f];I=(R[Y[f]]);R[w+1]=I;R[w]=I[W[f]];else if d==0B1__110101 then f=(Y[f]);else I=(I[s]);end;end;end;else if d>=0b1110000 then if d>=0b1110001 then if d==114 then R[O[f]]=R[Y[f]]%R[K[f]];else w=F;I=(Y[f]);w=(w[I]);end;else R[O[f]]=(R[Y[f]][W[f]]);end;else if not(d>=0B1101110)then i=Y[f];s=(s[i]);else if d==111 then if not(D)then else for u,M in D do if u>=1 then(M)[3]=(M);(M)[1]=(R[u]);(M)[2]=(0X1);(D)[u]=(nil);end;end;end;w=(K[f]);return false,w,w;else s=w;w=(0B10);end;end;end;end;else if not(d<0X81)then if d>=132 then if not(d>=0X8__6)then if d==133 then w=K[f];(R[w])(R[w+0B1],R[w+0B10]);b=w-0X1;else I=O[f];w=(w[I]);I=(w);end;else if d~=0X87 then w=w[I];else w=(O[f]);I=(R);s=(Y[f]);i=(nil);S=(nil);v=(nil);t=0B11111;repeat if t<0X6D and t>0X43 then S=(S[v]);t=(0X6D+(p[0B101001][0X17]((p[0B101001][0X14]((p[0X29][0X14](d,d))+t,t)),(0X15))));elseif t>0B1110010 then i*=S;t=(0XCA+((p[0x29][0x17](d+t+t,(0b10001)))-d));continue;elseif t<0B0_1000110 and t>0X29 then S=(p[0X29]);v=0x13;t=3+((p[0B1_01001][0B10011](t-t-t))<t and t or d);continue;elseif t<0X29 then I=I[s];s=(-4294966628);t=-0X35_+((p[0X29][0X00_1C]((p[41][0X18](d-d,(t)))))+d);continue;elseif t>109 and t<0X74_ then i=0B0;t=0B101001+(p[0X29][25]((p[0B101001][0B10110]((p[41][0X18](d,(25)))-t,(0Xf)))));continue;elseif t<114 and t>0X46 then v=p[0b101001];break;else if not(t<0X43 and t>0X1f)then else S=(4503599627370495);t=-0X13+(p[0X0_29_][27]((p[0B101001][25](t+d+t)),d,d));continue;end;end;until false;q=0X15;v=v[q];q=p[0X29];V=(0X1C);q=q[V];L=nil;t=0X0064;while true do if not(t<=0X3__6)then if t==0X73 then L=(d);t=(74+((p[41][0X1_4](t+d<=t and t or t))-d));continue;else V=(U[f]);t=(-4294959525+((p[0X2_9][0x13]((p[0B101001][0B1_1010](t+d,(0x5)))))-d));continue;end;else if not(t>0x1d)then V-=L;break;else V+=L;L=U[f];t=0B10111+(p[0B101001][0x14](t+t+d~=t and t or t,d,t));continue;end;end;end;t=0B1100010;repeat if t==0B1100010 then q=q(V);t=(-0x008_6f20+((p[41][0X1A](d,(0b01100)))-d+t-t));else if t==89 then V=(d);break;end;end;until false;q+=V;t=48;repeat if t<=0B1001111 then if t==0x30_ then V=(d);q+=V;t=-17694689+(p[0b101001][21]((p[0X29][0B11010](t-d==d and d or d,(0X11))),t));else V=(d);t=(-4287627165+(p[41][0X16]((p[0B101001][0B10011](d<d and d or d))+t,(0XF_))));end;else if t>0B1011001 then v=v(q,V);t=0X59+((p[0X29__][0X19]((p[0X29][0X13](t))))-d+d);else q=(d);break;end;end;until false;t=(68);repeat if t<=0X44 then if t<0B1000__100 then i+=S;t=(103+((p[41][21](d<d and d or t))+t-t));else v+=q;t=(15+((p[0x2__9][0B11100]((p[0x29][0X18](d+t,(p[0B101001][0x1D]("<i\56","\5\0\0\z\u{00}\u{00}\0\0\0"))))))<=t and t or d));continue;end;elseif not(t>0x53)then S=S(v);t=(0B10000011+((p[0x29][0B1_110_0]((p[0B101__001][23](t-d,(26)))))-d));else s+=i;break;end;until false;t=(109);while true do if t==0X5a then(s)[i]=S;t=-0X17__E+((d==t and t or d)+t+d+d);continue;elseif t==0B1101_101 then(U)[f]=s;t=(-0X72+(((p[41][0x01__6_](t,(0B11__)))+d~=t and t or d)+t));continue;elseif t==0B111000_1 then s=(R);break;elseif t==104 then s=(R);i=w;S=(1);t=(-0X041+((p[0x29__][0B11010](t-t<d and t or t,(0X4)))>=t and t or t));else if t~=0X27 then else i+=S;S=I;t=0X5A+(p[0B10100__1][28]((p[0x29][0X15]((p[0B101001][19](t-t)),t,d))));continue;end;end;end;t=0X32;while true do if t==3 then S=S[v];t=-4294967179+(p[0X29][21]((p[0B1__01001][0B11011]((p[0x0029][28](d))))-d,t,t));elseif t==0x34 then v=W[f];t=-319+(d+d+d-d+t);continue;else if t==105 then S=I;t=(-0b0010000011+((p[0X29][0B10101](d+t,t))+d-t));continue;else if t==0X32 then i=w;t=(103+(p[0B101001][20]((p[0x29][0X1c]((p[0X29][0B11001](t))+t)),d)));continue;else if t==6 then s[i]=S;break;end;end;end;end;end;end;end;else if not(d<0B10000010_)then if d~=0B010000011 then S=(0X3);i=(i[S]);else w=nil;I=(nil);s=nil;i=(0B110001);while true do if i>0B110001 then I=0x0;s=4503599627370495;I*=s;s=(p[41]);break;else if not(i<92)then else w=-0B110__1011;i=(0x5C+(p[0X29][0B10__011]((p[0X29][27]((p[0x2_9][0X13]((p[0b101001][0x19](i)))))))));end;end;end;S=(nil);v=(nil);i=90;while true do if i==0b1__110001 then s=s[S];i=(-536870881+((p[0b101001][21]((p[0X029][23](i-d,(0b1_1))),i))+i));elseif i==28 then S=(p[0x29]);v=(24);break;else if i==0B01011010 then S=(0X1a);i=(0X17+((p[0x29][0X14]((p[0B101001][0x0__016__]((p[41][0B10101](i,i)),(0B1111)))))~=i and i or i));continue;end;end;end;S=S[v];v=p[0b1__01001];t=0X1c;q=(nil);i=(0B1000101);repeat if i<96 and i>0B111_111 then v=v[t];i=(-0x23+((p[0X29][0X14]((p[0x29][0B10101]((p[0X29][23](d,(0X17))),d,d)),i,i))==i and i or d));elseif i>0B1000101 then t=U[f];i=(-68+(i-i+i+d-i));continue;else if not(i<0X45)then else q=U[f];break;end;end;until false;i=0B1000110;while true do if i<0B110110_1 then t+=q;i=(39+((p[0X29][0x15]((p[41][26](i,(0B0))),i))-i==d and i or i));else if i>0B1000110 then v=v(t);break;end;end;end;t=(0x8);i=(0B00_1000001);repeat if i==44 then v=(0B1__0000);break;else if i==0b1_000001 then S=S(v,t);i=-0x57+((i+d-d<d and i or i)<d and d or d);continue;end;end;until false;s=s(S,v);S=(d);i=(0X75);while true do if i~=0X75 then S=(d);break;else s-=S;i=-0X25+(((p[41][0X1C](i))-i~=i and d or d)~=d and i or i);continue;end;end;s=s>S;i=0B1010011;while true do if i>0X16 then if not(s)then else s=d;end;i=(-2+(p[41][0B111__00]((i-i<i and i or d)<=d and d or i)));else if not(i<0B1010011)then else if not s then s=(U[f]);end;break;end;end;end;S=(d);i=0X5A;while true do if i>0B11100 and i<53 then(U)[f]=(w);w=(R);i=-1468006216+((p[41][0X18]((p[41][0B11011](i<=i and d or d,i,i)),(0X17)))-d);elseif i>0b001001011 and i<0X71 then s-=S;i=(-4294784910+(p[41][0X18]((p[0x29][0X19__](i>i and i or d))-i,(p[0X29][0X1d]('\60i8','\11\0\0\0\z  \0\0\z\u{0}\0')))));elseif i>46 and i<0X4B then I=Y[f];break;elseif i<0X2e then s+=S;I+=s;i=-56+((p[0X29][0X1_7](i-d+d,(i)))~=d and d or d);continue;elseif i>0B011__0101 and i<0b0101_1010 then w+=I;i=-0X41882D2+(p[41][0X18]((p[0b101001__][0x1__A](d,(0xC)))+d+d,(0B111)));else if i>0X5A then S=(U[f]);i=(-4294967154+(p[0x29][0X13_]((p[0B1010_01][26](d+i,(0x15)))<i and i or i)));continue;end;end;end;s=x;i=(0X72);while true do if not(i<=0X29)then if not(i<=114)then w[I]=(s);break;else S=N[f];i=(41+(((p[0X0029][0X1c](i+i))==d and i or d)-d));continue;end;else s=s[S];i=(-4294966827+((p[0X2__9][0B10011](d+d-i))-d));end;end;end;else b=O[f];R[b]();b-=0X1;end;end;else if d<0x7d then if not(d<0X7B)then if d==0B1_111100 then R[Y[f]]=(R[K[f]]..N[f]);else w=F[Y[f]];(R)[O[f]]=w[0x3][w[0X002]][W[f]];end;else w=(W[f]);I=w[2];s=#I;i=(s>0 and{});S=p[0X3d](w,i);(p[0X2a])(S,x);(R)[Y[f]]=S;if not(i)then else for u=0x1,s do w=(I[u]);S=(w[0B11__]);v=w[0X2];if S==3 then if not(not D)then else D=({});end;t=D[v];if not(not t)then else t=({[0X002]=v,[0X3]=R});D[v]=t;end;(i)[u-0X1]=t;elseif S==0B10 then(i)[u-0b1]=R[v];else if S~=0b1 then else i[u-1]=(F[v]);end;end;end;end;end;else if d<0B1111111 then if d==0X7E then R[O[f]][W[f]]=(e[f]);else B=({[1]=B,[0X3]=P,[0X5]=_,[2]=j});b=(K[f]);w=p[53](function(...)p[0X6]();for u,M in...do(p[6])(true,u,M);end;end);(w)(R[b],R[b+0b1],R[b+0X2]);P=(w);f=O[f];end;else if d~=0X80 then I=(w);s=3;I=I[s];else w=w[i];I[s]=(w);end;end;end;end;end;else if not(d<0X95)then if d>=0X9C then if d<0X9f then if not(d>=0X9d)then w=w[I];else if d==0X9e then s=s[i];else(R)[Y[f]]=R[K[f]]+N[f];end;end;else if d>=0Xa1 then if d~=162 then w=R;I=(O[f]);s=R;else s=0X3;I=(I[s]);s=(w);end;else if d~=0xA__0 then s-=i;w[I]=(s);else if not(D)then else for u,M in D do if u>=0x1 then(M)[0B11]=M;M[1]=(R[u]);(M)[2]=1;D[u]=(nil);end;end;end;w=Y[f];return false,w,w+K[f]-0X02;end;end;end;else if not(d<0X98)then if d<0B10011010 then if d==0X99 then s=N[f];else if D then for u,M in D do if not(u>=0X1)then else(M)[0X3_]=M;(M)[0X1]=(R[u]);M[0B10__]=(0X1);D[u]=nil;end;end;end;return;end;else if d~=155 then(R)[K[f]]={};else for u=O[f],K[f]do R[u]=(nil);end;end;end;else if not(d<0X96)then if d~=151 then s+=i;(w)[I]=s;else R[O[f]]=e[f];end;else F[K[f]][R[Y[f]]]=(R[O[f]]);end;end;end;else if not(d<0B010001110)then if d<0X91 then if d<143 then w=(N[f]);else if d~=144 then I=(O[f]);s=R;else w=(R);I=K[f];end;end;else if d<0X9_3 then if d~=0X92 then i=N[f];s=(s[i]);(w)[I]=s;else(R)[O[f]]=e[f]*R[K[f]];end;else if d==0x94 then i=(N[f]);else R[Y[f]]=(R[K[f]]==N[f]);end;end;end;else if not(d<0X8B)then if not(d<0X8C)then if d~=0B10_001101 then w=R;I=Y[f];else R[K[f]][R[Y[f]]]=N[f];end;else if R[O[f]]==e[f]then else f=K[f];end;end;else if d>=0x89 then if d==138 then(R)[O[f]]=(Y);else w=Y[f];b=w+K[f]-1;(R)[w]=R[w](p[0B100000](b,w+0X1,R));b=w;end;else i=i[S];I[s]=i;end;end;end;end;end;end;else if not(d>=0X36)then if not(d<27)then if not(d>=40)then if d>=0x21 then if not(d>=36)then if d<0B100__010 then R[Y[f]]=(nil);else if d~=0b100011 then R[K[f]]=R[Y[f]]-N[f];else I=O[f];s=e[f];end;end;else if not(d<0X26)then if d~=39 then for u=w,I do s=(R);i=(u);u=nil;s[i]=u;end;else R[O[f]]=R[Y[f]]*R[K[f]];end;else if d==37 then R[Y[f]]=(N[f]..R[K[f]]);else(F[K[f]])[N[f]]=e[f];end;end;end;else if d>=30 then if not(d>=0B11111)then(R)[Y[f]]=p[0X0023](K[f]);else if d==0x020_ then i=W[f];else s=s[w];end;end;else if not(d<0x1c)then if d~=29 then I=O[f];else(R)[Y[f]]=R[K[f]]//N[f];end;else(R)[K[f]]=R[O[f]];end;end;end;else if d<0x2F then if d<0B101011 then if d<0X29 then R[K[f]]=p[0x29][O[f]];else if d==0x2A then B={[0B1]=B,[0X3]=P,[5]=_,[0X2]=j};w=K[f];_=(R[w+0X2]+0X0);j=R[w+0X001]+0;P=(R[w]-_);f=Y[f];else I=(O[f]);s=e[f];w[I]=(s);end;end;else if not(d<0x2d)then if d~=0X2E then R[K[f]]=(F[Y[f]][N[f]]);else S=O[f];i=(i[S]);s=s[i];end;else if d==0B1011_00 then I=(W[f]);s=(R);else i=K[f];s=(s[i]);i=e[f];end;end;end;else if d<0X32 then if d>=0X30 then if d==0X31 then R[O[f]]=(F[Y[f]]);else S=w;w=0x2;end;else I=(w);end;else if d<52 then if d~=0X33 then(R)[Y[f]]=U;else s-=i;w[I]=(s);end;elseif d~=0b110101 then if D then for u,M in D do if u>=0B1 then(M)[3]=M;(M)[0x1]=R[u];M[0X2]=0X1;D[u]=(nil);end;end;end;return false,K[f],b;else w=(F);I=Y[f];w=w[I];end;end;end;end;else if d>=0XD then if not(d<20)then if d<0X17 then if not(d>=0X15)then i=(R);else if d==0X16 then s=(not s);(w)[I]=(s);else s=(s[i]);end;end;else if not(d<0B11001)then if d==0X1a then R[K[f]]=(#R[Y[f]]);else(R)[Y[f]]=N[f]^R[K[f]];end;else if d==0X18 then(R)[Y[f]]=(x[N[f]]);else w=(F[O[f]]);(w[0X3])[w[0b10]]=(R[K[f]]);end;end;end;else if not(d>=0B10000)then if d<0B01110 then if not(R[O[f]]<=R[Y[f]])then f=(K[f]);end;else if d==0Xf then R[K[f]]=(p[0B101101](R[O[f]],e[f]));else s/=i;w[I]=(s);end;end;else if d>=0x12 then if d~=19 then s=R;i=(Y[f]);s=(s[i]);else R[K[f]]=R[Y[f]]~=R[O[f]];end;else if d==17 then w=K[f];R[w]=R[w](R[w+0X1__],R[w+0b1__0]);b=w;else w=(R);I=(O[f]);s=F;end;end;end;end;else if not(d>=0x6)then if d>=0X3 then if d>=0X4 then if d==0X5 then i=(O[f]);else(R)[O[f]]=R[K[f]]..R[Y[f]];end;elseif not(R[O[f]]<=W[f])then f=Y[f];end;else if not(d<0X1)then if d~=0X2 then s=(R);i=O[f];s=(s[i]);else end;else w=O[f];I=Y[f];s=K[f];if I~=0 then b=(w+I-1);end;i,S=nil;if I==0x1 then i,S=p[60](R[w]());else i,S=p[0B111100](R[w](p[0B1__00000](b,w+0X1,R)));end;if s==0B1 then b=(w-0B1);else if s==0B0 then i=(i+w-0X1);b=i;else i=(w+s-2);b=(i+0B1);end;I=(0);for u=w,i do I+=0X1;(R)[u]=S[I];end;end;end;end;else if not(d>=0x9)then if not(d<0B111)then if d==0B1000 then i=N[f];s%=i;else w=(K[f]);I=Y[f];s=R[w];(p[0X1])(R,w+0X1,b,I+0b1,s);end;else I=K[f];w=w[I];end;else if not(d>=0XB)then if d~=0Xa then R[O[f]]=R[K[f]]>=R[Y[f]];else w=O[f];I=Y[f];s=(R[w]);p[1](R,w+0B1,w+K[f],I+0B1,s);end;else if d==12 then w=(R);I=Y[f];else(R)[O[f]]=(-R[Y[f]]);end;end;end;end;end;end;else if not(d<81)then if d<0b1011111 then if not(d<0x58)then if not(d<0b1__0_11011)then if not(d<0x5D)then if d==0x05E then R[O[f]]=R[Y[f]]~=W[f];else(I)[s]=w;end;else if d~=0x5C then I=(K[f]);s=(R);i=O[f];else w=F;end;end;else if d>=0X59 then if d==0b1011010 then i=Y[f];s=(s[i]);else R[O[f]]=(p[28](R[K[f]],e[f]));end;else i=i[S];s=s[i];w[I]=s;end;end;else if d>=0b1010100 then if not(d>=0B1010110)then if d==0X55 then if D then for u,M in D do if u>=0B1 then M[3]=(M);M[0B01]=(R[u]);M[2]=(0x1);D[u]=(nil);end;end;end;return true,K[f],0X0;else if R[K[f]]~=R[O[f]]then else f=(Y[f]);end;end;else if d~=0X57 then w=nil;I=(nil);s=nil;i=(0b1000101);while true do if i<=0B111111 then if i~=0X3f then I*=s;break;else s=(4503599627370495);i=(-0X0044+(p[0B1__01001][21]((p[0b101__00__1][0X16]((p[0X29][0X17]((p[0b101001][0X18](d,(0X3))),(0b11110_))),(0xC))),d)));continue;end;else if not(i<=0B1000101)then I=(0X0);i=(-0B10_1__10111+(p[0X29][27](d-d+i+d,d)));else w=(0X0070);i=0X47+(p[0B101001][0X15]((p[0X29][0B11001]((p[41][0B110__10](i+i,(0X18))))),i,i));continue;end;end;end;S=nil;i=(0B100_1__10);repeat if i>72 then S=(0X13__);i=(-0X64+(p[0X29][21](((p[0X29][0b10101](i))==i and d or d)+d)));continue;elseif i<72 then s=p[0X29];i=(-0XB+((p[0x29][20](i-d-i,d,i))+d));continue;else if not(i<0X4_d_ and i>0X026)then else s=(s[S]);break;end;end;until false;S=(p[0X29]);v=0B10100;S=S[v];t=(nil);i=0X66;repeat if i>0b10001 then if not(i<=0X47)then if not(i>=122)then v=U[f];i=0x83+(d-i-d+d-i);else t=d;i=-1442842511+(p[0x29][0B101_10_]((p[0B101001][0X16]((p[41][0X15](i,i,i)),(0X14)))+d,(0X8)));end;else if not v then v=(U[f]);end;i=(-0b100_011+((i+i-i<i and i or i)+d));end;else if not(i>8)then v=v>=t;if not(v)then else v=(U[f]);end;i=(0X54+((p[41][0B11001](d~=d and d or i))-i-i));continue;else if i==0b10001 then v+=t;break;else t=(U[f]);i=(-5+(((i<i and i or d)>=i and i or i)-i+i));continue;end;end;end;until false;i=0X4f;while true do if i>0X4F then if v then v=(U[f]);end;break;else if not(i<0X62)then else t=(d);v=v==t;i=19+((p[0B101001][28]((p[0b101001][28](d))))-i>=i and i or i);end;end;end;if not(not v)then else v=d;end;S=S(v);s=s(S);i=0B1111001;while true do if not(i<=4)then if not(i<=0B10011)then S=U[f];i=-4294967059+((p[41][0X13]((p[41][0B1110__0](i))+d))-i);else S=(U[f]);break;end;else s-=S;i=-2415918914+((p[0B101001][22]((p[0x29][0B011100](d)),(i)))-d-d);end;end;s=s~=S;i=(0b1001000);repeat if i>0X7 then if s then s=d;end;if not(not s)then else s=U[f];end;S=(U[f]);i=-65+((p[0X29][0x18](d,(0X13)))+i-i==d and d or i);else s-=S;break;end;until false;I+=s;i=(0x22);repeat if i==0X19 then U[f]=w;i=-2885681116+(p[0B1__01001][0x1a](i-i-d>=d and d or d,(i)));else if i==51 then I=O[f];break;else if i==0X22 then w+=I;i=-95+((d<=d and i or i)-i+i+d);continue;else if i==0X24 then w=R;i=(0x33+(p[0X29][0X19]((p[0B101001][0X13](d))-d+i)));end;end;end;end;until false;s=(R);S=(Y[f]);i=(0X5B);while true do if i<=0x45 then w[I]=(s);break;else if i==0B1111110 then s=s[S];i=(-0X8f+((p[0x29][0B1__0111](d-d,(0B11111)))+i+d));else s=s[S];S=W[f];i=0X2D+(d+d-i+i-i);continue;end;end;end;else R[O[f]]=R[Y[f]]/R[K[f]];end;end;else if d<0X52_ then R[Y[f]]=(K);else if d~=0X53 then s=(R);i=(K[f]);else S=(K[f]);i=(i[S]);s=s..i;end;end;end;end;else if not(d>=0X66)then if d>=98 then if not(d<0B1100100)then if d==0x65 then if not(e[f]<R[K[f]])then f=(O[f]);end;else w=F[Y[f]];(w[0X3])[w[0B10]]=(N[f]);end;else if d==0X63 then I=O[f];else s=s[i];i=(N[f]);end;end;else if d<96 then local u=K[f];if D then for U,M in D do if not(U>=u)then else M[0X3_]=(M);(M)[0B1__]=R[U];M[0B10]=1;(D)[U]=nil;end;end;end;else if d==97 then w=(F);I=(O[f]);w=(w[I]);else w[I]=s;end;end;end;else if d>=0B11__01001 then if not(d>=0B1101011)then if d==0B1101__010 then R[O[f]]=(R[Y[f]]>R[K[f]]);else s=(s[i]);w[I]=(s);end;else if d~=0X6c then s=(s[w]);else S=(0X3);i=i[S];end;end;else if d<0X06__7 then P=B[0B11];j=(B[0b10]);_=(B[5]);B=B[0X1];else if d==0x68 then R[O[f]]=H;else w=F[Y[f]];(w[0X3][w[0X2__]])[R[O[f]]]=(R[K[f]]);end;end;end;end;end;else if not(d>=0X43)then if not(d<60)then if not(d<0x3f)then if d>=0X41 then if d~=66 then s=R;else w=(Y[f]);b=w+K[f]-1;R[w](p[0X20__](b,w+1,R));b=w-0x1;end;else if d==0x40 then s=Y[f];i=(w);else R[O[f]]=(R[Y[f]]-R[K[f]]);end;end;else if d<0x3D then s=R;else if d~=62 then w=w[I];I=W[f];s=e[f];else I=(w);s=3;end;end;end;else if not(d>=57)then if not(d<55)then if d~=0X38 then I=K[f];s=(R);else s=({});(w)[I]=(s);end;else R[Y[f]]=R;end;else if not(d>=0X3a)then if R[O[f]]~=W[f]then else f=(Y[f]);end;else if d==0X3B then w=w[i];(I)[s]=(w);else I[s]=w;end;end;end;end;else if not(d<0B1001010)then if d<77 then if not(d<0X4b)then if d==0B1001__100 then b=O[f];R[b]=R[b]();else if not(not(R[K[f]]<N[f]))then else f=(Y[f]);end;end;else s=(s[w]);w=(R);i=(K[f]);end;else if not(d>=79)then if d~=0X4e then w=R;else w=(O[f]);I=(K[f]);end;else if d==80 then i=i[S];I[s]=(i);else w=(Y[f]);(R[w])(p[32](b,w+0X1,R));b=w-0X1;end;end;end;else if d>=0x46 then if not(d<72)then if d==0B1001001 then R[O[f]]=F[K[f]][R[Y[f]]];else S=(w);w=(2);S=S[w];end;else if d~=0b10_00111 then w=W[f];I=w[0x2];w=#I;s=(w>0B0__ and{});if s then for H=0B1,w do i=I[H];S=(i[0b11]);v=(i[0B10]);if S==0x3 then if not(not D)then else D={};end;i=(D[v]);if not(not i)then else i={[0X2]=v,[0X3]=R};(D)[v]=i;end;s[H-0X1]=i;elseif S==0X1__ then(s)[H-1]=(F[v]);else if S~=0x2 then else(s)[H-0B1]=R[v];end;end;end;end;w=n[N[f]](s);p[0B101_010](w,x);R[Y[f]]=w;else R[O[f]]=R[K[f]]/e[f];end;end;else if not(d<0X44)then if d~=0X45 then s=s[i];w[I]=(s);else(R)[O[f]]=W[f]+R[Y[f]];end;else(R)[Y[f]]=p[0X28__];end;end;end;end;end;end;end;f+=0B1;end;end);if not(o)then if not(D)then else for H,F in D do if not(H>=1)then else F[0X3]=(F);(F)[1]=R[H];F[0x2]=(0B1);(D)[H]=nil;end;end;end;if p[0X17_](A)~='st\114in\103'then(p[0x2_b])(A,0);else if p[8](A,':(%\zd\u{02B})[:\13\n]')then(p[0B10_1011])("\Lura\112h Sc\u{0072}\i\u{70}\116:"..(l[f]or'(\u{0069}\110\x74\z\x65rnal\41').."\u{003A}\32"..p[0X21](A),0x0);else p[43](A,0);end;end;elseif A then if k==0b1 then return R[J]();else return R[J](p[0B100_000](b,J+1,R));end;else if J then return p[32](k,J,R);end;end;end);return E;end;if not(not T[0X69bf])then Q=(T[0X0069Bf]);else Q=(0X30+((n.l_((n.y_(T[13131]+T[4408])),n.t[0X5],n.t[0x7]))>=T[0X272a]and T[5561]or n.t[0X7]));(T)[27071]=Q;end;else if Q>0B1_00010_1 and Q<0X60 then h=function(...)return(...)();end;break;end;end;end;end;end;until false;return h,c,Q;end,f=function(n,T,Q)Q[0X02761]=0x46_+(n.Z_(n.t[0X2]+n.t[0x8]-n.t[0X1__]~=n.t[7]and n.t[0X9]or Q[18584]));T=(33+(n.v_((n.U_((n.c_(n.t[0X3],(0B11__111))),(0X5)))<n.t[0x2]and n.t[0X4]or n.t[0x5],(0x1__D))));Q[0x358a]=(T);return T;end,ZC=function(n,T,Q,p)Q[0B101000]=Q[0X27]([=[LPH$!!9Y-!;IZ2"o&,n+S]19@/*(`#5Da(:\[-KFE7Y9B5VF(@e`Xl4nrCZA,*;'p`'!/pc8*qp`]EYpf$sMIn088G\'VXFDaZlEb/lpC%tBs2Y_4c!9sU[pilK6p_NX\p`9,Dph]^fpbDOTp^6d(p`fKEph9G8IffCIFD51f<;84)48:N)"SaJASbOH)?MG!)<VS3A1ADLW3;?PL&bm7=8GEVgE;3T2A,%,?FSKbK7//A/9)&_fG5,890DK>XEqi`2!!!##p]pQpp]L:>pd+ZWpbV[Npe^`%pb2DIph';&pd4`cp_W^1pjDiephKRTp_3E*pb_bjpg*YUp^$XTpepl(phfd@pa5bMpdt5k@g7EI@:O1n]-j\%,PXH[;7(#<2up$$a7qD5l2_^dWN6/*X>]pb1F*l(5!"D!X.-0jY+Rm.6T4TUIm;:jF`'VO$%I#5DfTc+DJ=38l3I)qo;i-GX<FGuA%QrP8Lnk`G6ECSXE8/b*7#k+@8ISd6o&FtFDc"a:i(&jFDbf2Vs:;W=TO!RATA$*1Nd5:/_d?^@Hn!RlBM&IGPD<]E,Go1D..HnG6i\>ATVX,TJeNIR:g'%5N8+MVpk.:!^u;U"FhfoATW3,__QP>")R7Y!m\K\"h3b'kZ\_%XJbhL:2k7p\#e6Wpc.[dImNj/DKTOsDeX<'J"HFQFCdrLG&h.mpgmrLIa>)93qt8L%Kp.?!KH@EDc[6pE-#f8pgmrD7gXZ:AP@2WBQRm)H*$-&X<QY&+#-L^#<u\!lAPE_1ACn"pS9>Z<X4,3DffK#,-3P?l56:+7/-stX9V\h4k;W:ATJ'*FCSluX9Nn6"OZ#n<dqEWTZ!o="Fhep>shgZPZ^teJ"HESAp%PeXE%la*&':1cs&r?P,#)j#(I@$FCB$!l)\Q.l4m[>DtjEiP-sGRrkb`p.dA"9Bb5atFDbZ#AU.m%F^o!-Ir]ILEa_cKpiLCb3R=cPQ1uaS"FgXMEa`Wk"o&;sF`I_:DJ=!+D^2>rB^-s1PUEO60'Y:kC^Y^oA7]XmDJ<]o"b1&oF^eomnAVJAFnd;48o,lV&X9?skP-MAl2j*5,3f14J!0R-F(I`EH#I_F0"/Qs"fCQEYt&f8"UF<5!!6!2s8W*!l9+kAa6Ec'"]=Oc*;C<EGjd&^.*Sb98a:\1Ba0%fEb0<0!Y4L;>-(Ws^(ktV!!!$5s8W-!d]@-WX;L4@*:bi-J,''=i2eF'IiUToEcP^p:4I;&+D#4cF^eomBl"o)Ea`utF(lbBEFj/5ATDL-DJpY.@<G6dCiCM>De=*"/otlMASb0c+D#V&DImd*F!+m6DfBZ<F<G[GASYdi!3@epp];bWXQB4.$u9?fd@sXB)-s=*#Ce]EFD5c>X>k?6#nRc^EG6f%`ltM7r2^bBp^C)]X9J?s%N]Q-l3*UA2sLVR#.Wq!&GY5Z^1m_N"<?\O@UT@gXBPC?%#DEpl3(\`"b-YMAS,LaXP`en+I&)%407fDX9/!K/uGS>7ZZ`6G6raTF),f7ARf.f!3Bc,Ig?#SF)tao)g$+3r4WK;X9(TN!5$Xg"FlC*FEhA7./7fWF#;jWXJ>P)!0oH`j5rt8!?:;ZDFFh\F@g=lM>1q!l3C/NqQ'_$IjP2uEcP_-BcqG7Eb-A2+EDC@A8YghB5VF"TWBL8p]i)rNI@lmX6LE5Nu"f%"FhaNASkjNhlKTJX>OL:/4T1<&$-*4X>OJ$!!X:0BL.t(Mef!5XO6)a[-Bm3lAPE?!NZJ*X8i8P0fdeE$_&!7#QO'I6EL+[X<qHi1$;-[Qs#]UIua:gFCdr\B5V-W:NUJcEcj`eE^=8[DIlLOIqWq:@<-Pp;M_Dnf'68K!=S/sPuto)Gm/[&A8GgkEh8,hlgUu5$0j!1BaT=jCh$srEclGAOqb!/O/rFYX;A4X27t(Cp]NA;!iG7GC?g*>;[%XQASbdbZE+'$l2V;C6g=o$#:f!>F!ibnAS-$q+=D>MDJilm@j#l3B5V-kDIjr%DfTQ8DIm[&AoAf6G%kS3D]iq/@qBCaX=<pd0$lr3W9M^2F:bMZ"b-[KD.uC<!!!0XQKgZL3X^E=.qBqS%6@]B;X.Np!B]QIdB&Q,l9(YR!9sVW7iQp[DbtOeBln'1DGP.gG&h^m@rakHB5V9SZE._]X=AoS,?f[MX91cR1Y2;PAOd#UH#l8n"Fjp!Ec623X96N."uFs,]W<7NX:Q(N("<FZ;[$L/priGBhZU#<m&VcdIjKmQBgbr(#*nIjX9&Xl%`'npX;VH23\^]JU:q67s"'^^XT/>#(iG-cSjTEW"GH%^l3!@;a/f?;l2V915-+j[l2d%&C`<D(lJ&8f;lg"@l4=Y1?D%CW,XDg(l9F:N,HLq&X8kIM#OW(rf9HWC:(Db3<HNIs<ci%nDffK#!N>:(H%3<u>:hEL?#q;rATAo!DK9lAFCfM9G&Cl'DKTP>DeX<'/hSPiEZce`EclJ8F!VrH/hSb)DIjq>F!*#EASlO#@<>q"-tR4(,$Q1:>p=>9/g*;"I3:-p+F>4^DJ<Hb+F%I.AS3,KDImF%/gr,k.4Hl%.4KZfXFU'g"DNuLPC3S8IkLL"Bjk'OEc4EhCh[QMpp0[*pkAKbO=%&%VlUb"X8oG=$4+8f#(J/uEcl;A9DE(.X8rdq"a/b1)X?AXYm%34#_,&mASkjnFCAj,S+qO/<(D)45VB,cMX!+P"3g$4fdX>18I0f)Bl$.Xl?$oT%"A9fF`Ctj6$.0Z@r?R5e+b!ZDaOh\@qBOqXCPma1-&`9Fcuj-![-bLR]J3EpiH4Ll:.j&6EDd@Ili%FF`V0uL,uDFXM%Lo,P.mlX9>9_%'*O9#ChC$Ci=6$XDVHX.MZ);Ftl:aXKhOE4>+6XDJ96'%"E2-Ch[QMD.QUUA7]q&;$_!>X;\/?5cc;:X:Z2@"S/bXDdrp"#(Lo;D/sQ,7JLt5eCX)h8HXG_R&iSpIi5u0Cia:tF)Pl)XCZEp&5WjR-7-j:#7'MoE-MS:Ci!NiF(ko0@<,e"&ZfVcX;17>=h1D3AS26tDImF%f<),t!3@#Ql9>9G?2+G9PNlTO7n0Q\S#cZ`l6rWS-*.:HX?&t)!c=,%X9>`l!6:uHVQ<8^l7IEk#CcadAp%ccXCZ3["jf^ho#=WJ!<qc=p]LQ]"in?:s8N'!"b6RPF_kJeB+09$ASlO#@<>q"Iq<G*FCfM%@<?'tCgpgpSE(W#0'^XNUh-V3:dH$XXC:nB%5C'rX9:6B)oc:/X9!M0#`mdFe+1ecB*WoDDJ=3(oW2tCX;/Zg$+F9Z@<gt:lLjoaIeWq_i6n:"X1#)3L\Nj<`BTBa?O)'&A8Z*ganU*lWN8#QIkuT:F(K@rXCZ6k.Y]2AX9E5$!"NGdWpM@="ISI&oc'3uD$5>Fph4bXgCp[%OW,,&lDNh]1TUU&)[Fb7hnG6TrYo8?psGUDF9m@PD09`7XE%l]2-[-99GJeR;?EpJrouYi!EeUjIfXZV>shfuASqU"2s;3)$%IP<Ec5W4EcYT05k1pcHKl5,Sij(TE3'n*p`KU>Np`uUPH5?GX8r;%'E"jcX9Y!T3?bq4*3@K]p`$9?FTd2Tpc)l-#B8sI(P@[J@K_0Il?$r^N9UF*Io#hEFCfLuG&Cl''NlNZl_U[=UoYNil6Hq\U%eeZr2^8#p^Lj3XEjRO3eA:6rqJYOnuN8ppcNEO6NM[ZAo8$,Ec5i*Bl%3pS?-:Jp`%uR:'uKo:3:_lAR]M!X;gqT+@+XeDbpaiF$XnhIq*AA@;frhEccA5ph+JY@KV+J'C'UV!^c/U@oE\`DImC"XD)fI#bg:1nX7.n!<MI[h5lY3X?M\10fN%JX9!A,!1#'=p]2i/XD[gZ)%DA=ktDtrX@)an!!S^3\G1dQ)Z^$*KH_WeVs8j..;>je#(Hh@A8YgR(T_IlX98ST*F*sV($_amlMR^eX8"O&r9DQ%<E02'bkOBPnORGs=obWB!IlicIinGfEckk"FDbZ1ASu3uCdSMY:31JbIq<J*Ec4\Y8ShgPlCmu`$@`3_FE;"]BmFW;3ilt3l9G!:<NH9*X9^BU!1)[F,SXOc!a+^pD^<<'=aPWG+EDUC+CTCdBm+B*D/O94+EVL4F(K9#FDl%>E-64EFE2;=@;fs)Ec3(2@;fs)EccA5/8&j7AS?0.De<R$Gp$[=@3B]2FWb79CgpgjDfd+5ATMu:Eck%u-YRI-9ICs(:1$Og:fUju<D5\Z+=C)VEarNp:TQ0epbe:EIj+T570J)?XDN)t*33X:]tTT0l6Q-)"b-T\@;]n&"e,3u:OiEF]Qba(;>@46')3"%9<:DRpcKB97hU;2DbtOeBln'1DGP.gG&h^m#"n/lX94(>.',.<.BJm2X;$sc(KU"?O6RJTO3+I*!V\.XdW3O4)]\W8VK\i`p`KTe63Mf:XD;<S4XhP<X9,Hf#[hFqF)hJ7FCo6#LLSo;3Z"k+;><4Kl3I@Sa7oa6fX]k?!>k#PAQB%cEc6&0iC/5PL#Ii@XbPf8iJE6HK]/k`Y(bhmiN\-rL#IrC]S>CIiJ`HKL>f.dMM0s'iLttaK]0=nVM3u[iOO^%L#I]<]S>CF@r#)G"jZC&!InYTgBHkSJ,fQQ"(ga]Q0La38.0nK;fHi#Bm+N.e`p^U"q0\sS*GFs#3hc]8#*t!!!PUQpcX--pp'TuB4\0G#(JhE@<+h)U$?3+MeT6npoFmkIg.`t@UX?^.]d2tX>3ge&KQ7!Ed%e=F_,Z/"Fi0_CL^dlDds$%Ecc2AlB_3k/bfR,Ch!WuXCZHk0.h;\p]CT_[Y(Y-!3?/,p]1?pX@N&h"&FQO"rj]>q",rkJ)0mOE-ZO0XCcB^)]f9(5!U3kBC;i$Z`GBYl5HE+hAZJVXH+<.(OfjQ"+QX3pgSAe"?l%3p]bg)"Np#``>_hPXJb/!/Lfs"!!R`EX?TM]2N9f5$i!!^)[(`WJK16"oI':46NqrDASuF&`O:,p(db;fhWcrjXRl2j!HbW7(T_lVp^W5Lpmq2f7L4K7:2OoiXCZ6W$Qt.YJ,fQQFA/c=L9(AZX>rY,!3Es"X9'4'$YksoEnY<1lAbNCENBB=p`IX)RhMkq:A?/KX;VE1CX7\_Y72Nl!D_p1fkV>(J<-c?9WTctp_n3R=:H4:L9.q9Ij!2<H#m[-A8GgkASbgal2bbe>T3b:poq4]q"+9(pceHk!!')^;tp=nl3(/Qg%Y^?lrM--F,d7*kP,#ZJ,X2aJ#2p%DJqlIFCSm"gs_Ce<F;g1\Z@chX>OW[!&G]GBQjT/M>21$WuI`,lEUA0d.dVjId:+;EX%"=F_"ol"KgrK@<;X%qlFRSIlU6VATMu"FCA^#XNL<H'Da?.4f-6$XL.ac'gd1cY'KN<Isq),DfTY!ATV@&"b-gPCgggm6_:AqX/m46J,@juFCB"i(Op+.+D#4c@<?'tCgpgpF(lb.@rH0+XCPmX*P6u[8$%(4paXo\C_)#9Cij`,A7]XmDJ<]o&aEn<&r1r<#mgnF5V=/c.PE1r/hSb-/hSb/+<VdL/hS7h.P*,',pOfk/jMZK#mgnF+=\c^0.\4g,paca5X6YC,pklB0/"_%-n$`%,pOW_-mKr].Om)"+>,2r+<VdL-nd5)#mr:3+<Vd5/g)Vs5X7R\5X7S"+=ng(-7CJh-9sg]-71&d5X7R]-9sg]/1N%m/hSb//hSb/5X6VF+>,'-/gDni+:/>]/g)es5X7R]5X7S"-m0W^+<W3]-7C>d5X7R],pklB/hAJ#+<VdL+<VdL+<VdL.P*1p-m^)d-9sgG.Nfi`#mgqi0-Dej5X7S"+=]WA+=JQd0.&"s,;1T#5UIg(-mh2E5X7R]5X7S"5X7S"/1Ml0/hSb/-8-o&5X7S"5X7S",q^;g+<Ust+<VmO5X7RZ0.K4P/g)H*0.nOq/1rJ%0.\S+/hAJ*.OZr$5X7S"5X7S"5X7S"5X7R\5X7S"/gEVH5X7RZ-9sg]$7-fI0-DAD5UITr5X7S"-pU$_+<s,t.OHJl5X7R]-8-T/5X7S"/gVes5X6VH5X7S"5VFEK/1;i1/1_nd/hSb-,q:#[,="LZ#mr.)/g)8]5X7R]5X7S"5X7S",q(/m5X7S"+>+m(/0H&X,="L@.OIDG5UJ*+5X7S",;(Mo5X7S"5X6YL5X6_D0.8/4/1)br$7mhQ+>5,c5U[`t,pjrc5X7R]+=o/m-mLu.5X7S"+<VdX+<VdL5X6P:5UJ$85VF6,5X7S",pO]e5X7S"+<W't.NfiV5X7S",qLB./g)bm+<W<E,:kJm-9sg]0/"^u5X7RZ5U@O+5UJ`]/grtM+<VdL5X6YI0.JS&,p4<[+=]WA5U@Nq5X7S"+<Vsq+<VdL5X6_?/h/7r-7(8s0-CTS5X6tU+<W3^5X6YE+<W3[00h05-7UPh5X7S"5X6Y@-m^)a-9rk*5VF605X7S"+>,!+5X7RZ5X6Y@,pam'5X7S"/1*VI5Un08,mkkM5UJ*0-8$Dc,="LZ5X6tF-7(oB-9sg]+<W9i-nd+o/1N;$0.n@i5X7R]5X7S"/3lHc/gr%r5X6VK5UIs*,:GfB/hSb),:4ro$84Xo-8$T0-8$Df-9sg]+<VdV5UJ-,5X7S"5X7S"5X7S"-9sg]0-`_I5X6VD5X7S"5X7S"+<W3^5X7R_5X7S"5X7S"5V+QR5X7S".OHbm/1)\N/g)Gd+<W-\5VF6&/grtM-nHJ`5X7S"-nco40/"t30-DYf5X7R]5X7S"5X7S"5X7S"/0H&`5X7R]5X7S"+=nj)-9sgE-pTF8,q]NX-pT",5X6tF+=KK?5X7Ra00hcf+<VdL5U@m&5X7S"/g`hK+=9?)+=n`g5X6YK5X7S",;()`0.%tp5X6PF+=]WA5Umm!.PE,6+:9SF/h\P(5X7RZ5X7S"+<VdX5X6YG-7gbq-mh2E+<VdX,q(;e5UIdB5X7S"5X7S"/1N8#5VF6&5X7S"5X7S"+<W3^+<VdL5X7R\$8*qr/g)W/5X7R\5X7S"+<W't+<VdL+<W9Z5X6_?5X7S"+=KK?+<VdL.P;hd5UId*5X7S"5X7S"-9sg]+<W3`.P<A,+<Vsq5X6tF0.n@n5Th0V-8$Dj5X7S"/g`hK+<VdL+<VdL+<VdL-8-to.R66a5X6YK5X7S"+=nj)/1N,#+<VdZ.P*1p/gr%p,="L?.R5:&5V+$#/0H6(-4(#(5VF625X7S"+<W.!+<VdL+<VdL+<VdL+<VdL,;()]5X7S"5X7S"5UA$45X7S"5X6kK5X7S",qL/c+<W9b+<VdL,sWe0$6q)E0-DAD5X6eA,="LZ+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL,p4<Q/1r87+:/B"+=JW\5X6YK+=]WA+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL-9rdu$6q)S+<Vd5+>+un5X6YI+<W4#+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL-m0WT/1r87#mgq`/gDJ]5UA$*0-D`0+>5uF+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL5VF6&-nHtt#mgnF+<W<i/gWb--9rk"/0c\s+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL5VF6&0.ne@#mgnF-n6>^5U.Bo/g)bm5X6_?,sX^\+<W3g+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL5VF6&.P<8;#mgnF+>5AS-9rk"5Umm-5X7S"-pU$_,sWk$+<W9i+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL,9S*O+=ocC#mgqe+<Uss/g)Vg,="L@5U[a--9sg]5X6eO5X7S"/gWbJ/h\[s+<VdL+<VdL+<VdL+<VdL/h.td/h//"/3lHI#mr=.#mgnE/g)W/5X7R\/0HJi5V=045X7S"5X7S",q^`65X7S"/g)H*5X7R]5U.C$-8$nt.P*&75X6V<.Ng>j#mgnF+<Uss+<W<[5X6YG/1!PH.NfiV5X6YE/g`hK5X6P:.R66a5X6P:-m0g$+=]WA+<W9f5X6tF+=]WA#mgqe#mgnE/gEV(5U.m(5X7S"/1;i1+<VdZ+<VdL+<VdL+<VdL+<VdL/g)8Z,q(5o5X7R]/g`hK#mr(5#mgnE-6NU$+<W9b,qgkn5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"/grtM$7I;F#mgnE#mgnE,:jr[+>,,s+<VdL/hS7h/1`>'/1`>'/hSb/+<VdL+<VdL0.\4gIgQN-@<>EWEb0?5H!tMc7I"o)&FZ\'Ep>lhpg3_!XJ5JK;d/YSN_mK`RgESbn,BCQNp6U^F:!F#ARf.hCL^d^E,u24l>CfS#(HcGFCB94l)\rKX=3'p,Ep&Ql2h7VJZJlJX>.EF09lM<@:B@hC91r`l7<c\7B?`@X;G%,(m.P;XAAqI-V<(0l3,]'#cn%Vl7>b8e+`s;339F\X<6ep/s<!1p]7AZIuO0rFCdrSB5V-W:NUJcEcj`e0s"r0pc&'@r(3tekSkDbIt94>Eck%[XCuQ]'F1CsF0%k+pb4_)!Rp=kBi>.a$%HN4@<>pGARo^ROFXEKX8!o(QU`R-J$/PrE,Ke&phOAJ!cR@@p]coHIp)PfA7f]fD/sQ4H>.2(!=%h#l)]X7pDL]X!L`3TF%HXeG&h.m"b1Q(@;KLc!!!1Jq<GZo'QpJ\blnO]Im2*#DJ<\c$`0q8!3@V&Igq+.G@>LrIro77F)Ok\DeX<-"o%;"Ig?&>D09_#XE%l]0GV[Tp]J:rkG,,X)#/>QKI-8l#K>s.>6nQ:*MBJuhQ/ltX?)(7"+,YTDfc87Bl\<:"0?-Ql7CO71?nstaq:]U266cYIh@"JDfTk'ATV@&X9H`2,onnFp]V#ii>@'W]BZ*"P.0_Hm&cE:OmTB;Q*K\8IuB!GDfS;RCgg@]*irpql2d$qiV3H4K_T3TZhX@k4fkOUIkKN,E+O%l#,IHaXB>5t3H2C.&F,n_!A*L:)IlOD!'mUc''a'npjVuA!Cc:fIg"NkDII#ZphXMO4G^(o$\'BF6Zcm0A8GsnXDVTi+lllBc0!!H;\4F8DaSVXDfTr;Bl?gaXE/K$!!*'"Egp(1pbDOXXA/Jc,Rkc'<9mqn$)"@U\u[H1l3\[l%BKg1l2V&R!!ND0Im3o5@<+g@hEb^i"LIBQH#s1=2u$s'DFk+`DIIX.UTA$:X8iU&/@?,-p]2c-l;mZi!VZ[d%QG0(:^2Ck12(c<jm&p8C\RmBE+T9'l>'"%R]HQhIh".hDKShaG&h.mXCYmU'>sc@5QCcf6jeE.De!j&@qBOq@g7F)FCAa$W6VJUAd'I$pciA&XA/K;,0Z1aDFFh\GuSX'G-#7opbX1h7L"?=ARoUq!^GsjX9"FJ$I\W_6mqT-pu_>rH7l;RV"apo0<Cf@X9&Tj!!WOt2#&s'IfY&aG@>LrXE8#p&UZpDp]Iqhl5B@+CA7he,5=V%kcB@1X8qf02\dJ;#QL-l_IfkL1?pT9+en6&p]:?Y"`N[R@:o^m8??B>X9FTi'bcc3#cqk;p`I5j!<DC',7tEe!Y=R9F%HXeA9Dums7gMH@ecJgX9E2#.P?>jO8gc4phBLcZn/;>J#jNZpc)cr6&D\CK^'ThY%IG0m*l*q#7,q`,N8rNb@L^H#6roh(?u-I<rnWme-V$<!n0@7#7#AV#@AF"B,^l,#=9eV!O*q)QNnE6#eN"r2[=I10*/+,FU%rJ)_VF$#6_=S!J^]BFU&$7Nrb:HZ2pKsLBd3'Y=E"/0*[16"NLiK!P&9P$GQ]+!Nlk"!Ug3<s%3<Q!p=2)`t"_'?ig!+#-Srk!S.=5he+"n!f%9s)m:0@#-S'8'_`U)'Xn*q%_i83qZ4GT#B^7Q\k@MlFU)=c#6WrjX&f=g#B^7U!PAYM#L`^356l<9569+9QNmT?"Og-I#7#AV!Rq40FU(Z+G8@apUBgC%#B^7U<uX@/#B^8H*udEL#B^7h#k%nWg&_4J.1a`/#9iA>Wb2@!!LF#m?O*?E-c-*<!PW,pFU&,')_VF$#6NWj",[>+LB3_H#6C:p<sJtQ?O&e7B*U(/<sLZ'!N$)6ncs:B!LF#oQNW@FrrJl"(ClK/#k%f&5R">UQOMb)hZ8<6Y7-a.$K"AZ$GQq?%&X,^FU&*!YTH(7#O2Np<rnWmFU&$7T*q7r%bFD]"P3^db5mYQ#B^7TYV-$<%u1Aj!M^(d"7H?lT)lA*k5gnO!P^l*"O@R=%IX=L%eg?lB*Y&"!Jh$5!kSm(QW+!H#7#k^0/j,Y#;6+Y!Rq/AFU*@K#6hC<ZVLUg#B^7P0,m+\FU&'8G6Eg/o+no1#B^7Q!O,Wa)fGrd)g;N?FU'W[#6BSbRgB,.#B^7R!fIcXj&Z8>#B^7RFU&!A)_VF$#6XQ>&GcWSDZQ10QNmZ!!h"65#6u_kb:af!#B^7QQNmVm!T#a9_$>)f3=kZ^#6OEk0\QbS7feq]QNmT_!o$KORg4'@#B^7R(E5"4QNoL]irP2A#B^7QATn?A!N#qGNsBe4!O+K`Nrb:H)Nl9F(BKR%#6X!F#6tKVRNDRH!LF$6A-W>e0*`E<2[9j457\PLV?Dc.#B^7P!hK[dQ<+*F#B^7SQNmSTZ2o^]!LF#s"H!5@QN<EXLB?$-)@%_m567)UFU%rjQNnE6!P:8kLBhr,CC'qM2_Pfa#;6+k""+m<#7#AV#6C2&e-!et#C\<,#6tKV!J:Vh`WpVk9*(Xe"1\i'q?M-JAH@QT#B9n:#?qFU!mq6q&#r9HFU%u^JLS/8:B?@VFU&$2)d`gTJHlEE"R]UtOp?+7AH@i'"RZAH?O(]YjoN+"FU(PBAd8PGT*+NemfB0o:BuXV$i^795R`u4$^V+m!J1is!q-/VmmmZ7NsXD>LB32@)eTB\#6gth#6tKV&'"oe!M^/)!N-F:`rWUr5Smc0"2>;c!J1C)$,6Y15=c6e"9/M]$g.PHQNn>L"dWd%NsBe4!O+3XNrb:H)#>EW(BKR%A-Y=P3JoH+-NTP=QNo4=-^$t#<rnWm_INlV7feZ$M$F'c#B^7P!J^a5c:46q#B^7T"/cMAK*(?C567Y`UH8iN!!:%>zRf_o[#B^7QnmhtI%IYYgk6&J=Ifo-?%c7Temqr9SLC;uD"TN6F$,6Rt$K;)H3XjUf0...R-O0[VWWAY<FU(8QFU'E%#<Td-dLQAF!LF$G+s.mC#8\nr#p5%8!s`rR#7#AV#6C2&0,Gu@)Q*_ars,/ic31TYV[qqk2BM#s&VghI!OiH_#<i@T(UjWlpGN`+#="@T(CpP5#6D%6Z7R./_ZpDM5iNR\(BKj-QNop1(FL:*!s\k2(C,'f@0*b`#B^8S#B^8X!j`(96OPs[!!!!`m-F]P#70Vs7gB9A!TPgP#7#AV7fh+DFU&Af]E`'SlO96`#B^7WAQK'#!Lj/F#7#AV7i*+'#6D%NQNmTO#4k%[Rg4'@3<mV4FU&dK#6f_b#>YSIUH8Lh#B^7Ye-MNK#88`k2_PDY.5(_8$3t\YIfYl@FU&-JB*+P-Rlup-#B^7U932>($G/fco*9CC3CiWI#77G4#@@^Y"Hrl!#A+2GFU&*A)_VF$#6BAt#<E*4ZTeJW#B^7TFU&9NQNn]>"1hh?B*">(QNm]b#0Uoc:Bu"IpItpKLBFOX2`E/m0*/+,FU%r%)d`gT#6KKI3EH6J#7#AVM^K;o#B^7U!O*q)QNnE6#L>=0!M^!W%AsArLB4hJ".s3/mfp6dJdfs6Nsta`8->1Z!q-A\!Jgs#FU(Q8B0DC_M[7dC#B^7U!O*qI#6C+q!KdV0G68&$FU%reM[eAF566ZH#B^8e#:a@8!OZPf#6L2!7qW'LLBdja!K^q!^LmZKhe*Q/PQfAALIJ3DT*PB##6OW#B1EbN#6D&)FU&-2<s&7(P7`[F#B^7PQNmQN0*a]B!L=68WX!YOJRrIb#6K__:Bq,I!fohjmnF&-<ski2"g9R`!M0M1%[RRl!SI_H?O$qA:Brft7gB82"hIJK567)UFU%s%Qk'E,!gX&lG68>dFU&#TQO1D3Nrc![0+Yf'#knA.5RsD>"h+c(!J1dT%^-5Ca%-]d[g)j9T)j`K#6NT\UK7J_#B^7P!M*k9B*TTC#7j$8]/]Xt#B^7RZ6Epo(M<shh]8%b&\h'Y"cj7^7i8^3^CUam`t"^V)!>uX)o!9"GoF/$Q3VO;3>011#6C;Y#Kd9o?NHJuFU&#T56e+m#AGf%#9!hiJO]a-#B^7P$Y<BXFU%rp<tU;pnH5@o#B^7RQNm]bB*VK=D[.p7"2d&:M?e8/Me.AgFU&3V#6i6T#Ccc@/f,H[#7#AV!Rq1=#6^Md#6tKV#9Nu_,I1hbQNn&T#7i0_6RJ74nHX1A#:a']#A+2GFU&#W#6FW*7gB9A!S/nC#7#AVnK/]'#B^7PMCgIt/N4IK!f@,<567)UFU&&3QNnE6!J*01Z3PLW!LF#r)b1,t#6N0m"0)TK!K.)CFU(K&YQneGB4hGM'!_P/%'KfS&"a)8cS#C8QNP80f)`Dl!maXK"kNdX8nS@+"g8$#T0!/T#7Q1pB.!_H#6D&1FU&&8'+i:kgKsu>#B^7PFU&#/-5F)sra,\a#B^7P#A+2G!NRk4/Pd09"4@=0<rnWmFU&$2,%kNnB*Uc75A*b.V?[.+#B^7T:E+K_?Q4J"#=9eN#B^83$\nr4RK]$P.0R*]!jMu3p+HHr#B^7S94n9V"ecs2M$J/.\k@MT#6CM!2`CtaRKikt!LF#rFU'p.#6g7q#@@LuL(>4V#B^7Q!O,p$)c$\DJHlEM!gugb\d*?_!LF#m#6F+&ibnja!LF#n#6^`E"eGsA3Kd$bFU&)9VZc`!+4"j6&"a'0\dmmt.0?[W#93M8nlGjY!LF#n:B?#R$kW^o!qucfVZQ/g_ZHS65=7L6!!7c\zb6%"B#B^7P!Mp#+"o9$265N^M-V%Nj7gB'O7n!sR#B^7R#B**;Z7SQW/Pcm?_A>_b$!2HV0*cV)=ok0IO>d3D2[#HJcOpW#QOf\paoR_/f*.3^Y5t6sh[&*C"M[Y9!hUjG#9Q/Z-P#u`$0i]^!O)f!,"G-.#?*&)#=/T;"6To3!KS>S_$:3X2qf>S-NTP=QNo76+-J8X2Z]6MQNnAm#=guZ56h4n@0*c+#B^8P#8]l8E=&Nj$.f48f7+2&h[H[q"8?[C!RD5<QO1EBNX26[G9"I#T/mD<A-Xaq#<+5d5;gSo3iZ]q$dTm'%iV?M!Rqm?"O@\C!L!tZ'qYuVml;![Qk'E&#Rgq=#71PE&IfHmz!pm2mFU&)>]E^q3#4l=*)@(Bi<rnWm.RsN_f3_#Q?PccE-Wa)h!hWgkVZDld`s/FD"eS'dD$\HX%egI"!NuWmNs`@'%[U9!FU%uk0a@pgLC(G&!QRn?>Ajb=Ns,J!k5h.ak6.+PLB6'1)g;Ms&SD>UXCj0kB4kiXB,:TSdQ[k!!Ko)c#6]rt#9!hi-U.Wu#6BZ/-XIE5#B^7b!PAY-#5\Z&#7#AV!Rq>&#6Np5#6tKV0*`jZ#9"BtAiBaW:Bu"I6Q..=:Bu"IrrJ3oY6b.2$*QW'D$61i#-SB;!Nuic<s=plB*e66:JZ7#)?HC)#B^8PgLWkn#6O2lB5\#t5A+U3:JXc3<uM+1WWAYl#6VjG?O$gY!OGRIdg("##B^7Q(CLHaFU%ucFU&!Rf4R;Q=)V.@58jQnDZSI.#B^9#!RM&f#6Kf"CMF)sOWOU^#B^7Q(oJCX%hJ+g569A+!M)GNf1unq5?CV]"0)Bm!S:B`FU'?sE#LqG#6D.I!o!s&-O4c!<WTi<FU%rZP<QP_*s%9##B^8-FU&'@_$:2M)@m>ZWXfnbJfeq6MZKt&!QH2^&dNOa!K.#6#6L2-%rV\qB*SIAB*#\a!Mj?]#71I+"MY1aT1oTX&,-tN#9$Ae7oo_X>8e\ml3DG:!LF#p)D;UK#6jAtc8Pcj#:_)%#A+2G!LOB&#:u;Kl9><9!LF#p)c$]/QNnEf7gW5tP@"PEY#c&6#B^7R#A+2G58tCDFU%r%&MF@o$F_Ynh[,oL03]5!Sp(7>mf\CHf`COJ[KEu>#B^7P0/3\:(E5:<QNmVm"0+Qd7feq]!Jr0W0.PBTRl:A2#B^7P?Q4J"#8(kZ!N^2mZ>XZ"5Aq>=.ahsTB*"/K!O*)Q]l.NgB.mlu!ho^kFU%s;YTGM'2[9Qg"0*.V567)UFU%s(Ad8PG)Fm!s#6TM^Yu_0Q7fg@+FU%uaYR`r'5;rfJ^Gc2,9a8?6T.^`Lf)a2&2[QAd$,6MZ%Bg&8cN9gHfaZO=(CJapl3A4dFp"<d#6`mBB3tmd#6UtM#B)=%NY`XY#B^7Q!Lc4X[gC@c%#7O\"LeR":DZMM#8mab"V:o]b6.K:NW\;C!!!!%lb!2t#6M45%i5In!m:VP#B^8%-Q=]D#B)7#$"XV[FU%s=#6LA"%gN>^!fIj6P6Z48#B^7Q!PKR&FU)+u56Inj"0*/-*s&8]#B^8#5<ge3$,6e-pBB_SNt(gb"0)k4$cab^&*F>8(C6?;<^/f-rs*ZO'*t3B0+T(Y"0+:EWXhTY!N."AFU'oK^C$;4!gcUlcOB7qk6f61!Q5KO"Q'L*WX')ik6ffC`rXioAM4Z&FU)&M]cSU,!J)U!&dNOa;$geM#7#AV(BM>W!LF$0QNn-F#:V#$%h]+i!KJ%/0*cV)WWAn+U_brlJHMnQ2cMF2#B^8p!!!!*dJs7I"2b3+iWjT2!LF#rM'jZ8/D:=0-NU+mFU&#T,!R^c5<g=^2Zp&tMa&RR#B^7Q#B)g3%l":o%nm35(GQ."(JG&=!LF$00aA42)_VFDQNnEF#73<i!Rh9r)@(Bi0*.CE%fZXG&dc$A+"78P#B^8#!L"lqe8kj-#>78^2\H@<#<r6e)@(1F567Z@9n*K$!q-Q<!KR]A.mFY2"K)@Z^CC:BFU'E)Da+I3FU(A@$O8TqMb=[A!LYSA8I'AC569.:FU%rr-T&+67n6'>59Bp>?9]f-&dNOa!K-uP#6CtT(6SoF0*-t[FU%r`M'jq]#7h%?56j,%)9Na77feq]#8&m")AtImFU%rEFU(bKLDRE)(=*a<!PK!k0aA4:?O+V)k7-TK(L&g/%Gq3D#58.i$&8eq$\nc9QNo+b.uHOl7feq]FU%r5V`,4n58$0]#>%-M!X]0T!!!oYYlFb(!W)ra*sZon#C6E`!J(I\Rn!]*#6tJ7"mQ>+%fr"%#B^7R!S7P]%fu,0"8;hX$'teh)@W5t(BKj-#9"Zh!LF$0.MiI?FU&B]]E]5X#9F6R#7h&^#:;*L)!;-HY5sD+(G?"'FU&4+(G?!urrJ/kQPX'70*UeT#1j6<!P&=4mfKt*`rW=Q0+-S;#EO($V`P@N(G?"'(G?"8FU)M+#;s@'_@H[6!LF$?/KZnf#;64;*sW#o!JUgq#R>JW!RiP,Nrd"."p)=:4$O*?z!pcKZFU%r:YQk[D)Y++6%fqh(!M'`3#:h@2%hAnf)o;WH!Mg5:%gN9d%gN=U`s2X4/fs`i%hBPm"k!FI@:'Q&f*gI@#3RWE!Oi.)"nr&.Xq/QsT*G#j^If"Ih[$t*#QHjq!O)e>%m\PJ.1ZHB#mYSX":'&S!!!0'RfEEg#AXD,#6tKV(CpP_l2dFd^B`'g[fN63#78]d!P\ZD5RiJj$c`JO!J1]7$',1\cU\DHf+%H[[fM9o)^bjp#;;ef#;6+E!s]D[#7#AV#mYAjLBhr,#nG8_!<sKu!!!&g`rH)>!M]_^k6H,7F;`+82[9V\'WNf&-NTP=U1=K6#6CS22[9S1!eU_rU'GfG!LF$-hZ]W*[fN6+*s'+e#PS8-5QU=4mfp7&k5g/?NrlKf%$sKp$NC1R"ht(og*/I7FU'E$5=[pCV$@5iJi>Uh0fMNF@g@,]#7#AV2]ihp#6D%V!M)/.!V75`2[=I1#6D%fO>dI.2[@q8h\$$PVZOm@JcV)Brrg)+f)_KQ(H2R,YWk'*#?(j.#6tKV\fUsh!LF$3#<\G&2_P2u#6D%6-WE#j#B^83Jh8nl"-OH+iYOh+M+;mo#B^7PU*;NT`sKKns$'p#0*L/7$eGcYLB4qu`rhA'mfBR"2\2Ma^C%_J3t/:o$-*R;!JLWZ#_s#lLKY/%QP86iQN;^K`s09p#PT\O!LOB&(H2R(YV.p_2`CsB4c092#B^7`"Ut_E!='JK!!!TA`rH)>!J:I>7gF/A#6D%>!OYE^FU&9nDa+I3#6U.p6/i,l0*.CE!O*)!,!S9s56jBP2`D6`4fSORFU%rR_$:2M4G"p]0*.CEQNo+r#<t-J#mUL82@"@056l<96)#Pf&,-7"!fo!CY:gF\pC=q>k5i+&LC;]B`rW=E57dJnf*(h?3s4@G2a7Z,56h4n3/SnE2]"[`P%4e^k8WRn&>qr))93inf*&i=64(CA';#_prrEPsQk'E=-U.h:Y6P*4!K]MVpHJ]A!M9u/!S7P5/YW91T*C>e^C.dW@1*#A0+ZAVQN;jp\HMX3T*hIsXp:R'pB1ErcUpD1f*%uP$.h6C!O)enSNf=D#7Tku56huh#6D%^FU%r0h\_CZ[fP"o23K$k7gE+B#6tJG5<f1F5=H.;#B^7pat5go/OpTXl5r0p:/?3<$O:eZ"VDUX%gNOM!!!!6l`^?h#6F]'%gN>^#6t9s*s'jtFU%s%_ZpDO"5c$<!M]jc!oF<Nk5i"]"ckSGLB?p0JdBBtY6M028-5Ch%GqJQ!Jh'F']KSr567)U0,mCd!JNH;?QTLXFU&3XcNND9k5id4".UGH$NC?W!M^1W$hj\bhZ:/=#+m7Q$)^9Y!J1g%!nRt/QUh.\T*armNrb%C)_VEs)`J!4`<QVi*sY"25;sqi56h4n-NVR!#B^7p#B^9#!R;2\YQl6T-O0kW#6tbY&K_%M#mYSX!q/bgq]c6EY6(m/Nrmc5!!!!$lcfD0FU)CXYU;X?#6tJ76U(U&iWjT2!LF$4pB7rYRX\$42^psN!O*Y1[6HST#74<0#5SRI7feq].Q7F0Qk'E,#6tJ7%i58_+!5G7(BN,0QNnDF+U9@q],q('#B^7Q!M(Sc00_5G56h4n)nI4X0,HhX#B^85)<V;"&aoaeOB2XIrsA,p5n94^V[j7*QS31bY5uZF%(@#RhcL)<Dc[/J#7H+gpFcQ6UB62]V[UTH!OaofpHJfT!foSL$i^7*+"%)@[n$SHNt%-SVZDS`,!S9t56h;]5<h(C56h4n1ZBTC58QNhnmhtISMrJXa"l'D.gtMX%&XWV!OWW.+27p0!J)#Y#@R\k#<)m1CGQ"(Jd6E'!K/!#YSUA:?O$f:#6un$5$%d&q?M-J!K/iV#6DqB0-:FA%gN-@"H"ci+(mM;QNmSD(tpnL567)U#B^8K#A+2G#B^7p"6Tpu6NmDn5<Aq!!!!!,Pf3V&!ic&!_?Y2gMa"`dnrl9=#B^7P[=^#f566ZC#6Fjo$-rj!!QljS$.fNV!Qkl:$-rsN!Qmp4$-rsN!Qkh^$0MYf!QlSF$-rsN!Ql\ACAS@1%gR4^pM_R5$0MO"Ws8ZZFU%ra$1A*(#6j!(^DdLR"6pC'`sMcbf*VH`U'^i#!LF#lZGR$)#B^7P)[b1%`s2s,#6BMcFU'(J#7',k_@sKt!LF#l#?&/uM@Tr7$28BA!LF$8"L8@6LB3_H#6MaL$BG4S#6M*8cNa\t"lC7+)[b1%hZjLT$D/7EE!;sH$I9(Bo*7T0#B^8q]?<[$566ZC#6D'P^BY!d#?MiN$,9.=QNmQNY6i5M#=9dEFU()$q?`c!$*S:O7D]A7!M9D8)[W\Q[g*)o#?MiN$+ES5FU&f]57it_!P$lqFU)'U!O96A#7#AV[i5U6#aYc$%fuDDT5Xq=#`f2rZ3LDa!LF#r#@Z@Ok6D67#i?R,)[Pm;#6t<c#j26+E!2%/"o8Mf567)U#6L6MUZ2T%#B^7P#P&1fiX+L]!LF#l$-rq@_ZrLUFU%u5#6O`,$GQV."kj<UT*hK8E!;C3N2$``#B^7Qasm_D#6CFtT,S*_$.fCg%gg8qhf&an$-rh_ZNgMbFU%r,Ad8PG$*OR=T*=s.E!3HQ^BY(S#?MiN$,9.=QNmQNY6i5M#=9dEQNm`SZ3d]8!LF$<"I]Y+^B'Z+#?p^*dLQS*$BK-,$BGOL$BG5>V[AJWgBruB#B^8Y]E\eA!JQ^<FU&!9N!7f<M?eG.!LF#o!LLD_ap3%oAI6B]:$WLgf*?F'H3()L#6a;sUH\dGFU%u1P8Ce8!K-u2s0E$h#B^7PLB5Z3&\:UB#6CUk!TF?,`rVM3-OHs_!oaGOY5ssp#:K'K$+Br%QNmQ6_[4'Y.LE:P-OPn>Yi>sT#B^7Q673)c#>LZmpBLqG!KSW1QNmTW.t^%eY6T1TatLU<RK9#]!LF#q:nn>pWX!YOULcXok(<]@#B^7PE!GS<rs&ml#6BMb#6BJS"d0+5MZNJAK*mqGFU%r-#6hsL$/YcM)[Y[40DYkHmfAa[RL.RP$28Kh!Mp#+U(7S)$3+rJ#6Da&(kN!8LB3_H-OK5Knco2P!LF$+U(7S)$3+rJ673*&$0MNuZ3BtA!LF$1$.fLPpN%aOV$@53lO!:d#B^7W)[_W2#6tBe$BG4=FU&Q>-OK5H1"-@o#7#AVh\ulW$',;s#6LeBLB59t#7^82#I4SWhZ9&K$0MO"g'.3i!LF$+$.fLPpN%aOV$@53%ght2s)8.9!KFDl#7#AVk8O`*$*OR<[g+i2#6C8"FU)p0V[)2d40rK)FU'+kdL"M1T)m(URL.:IT)m(@U']-QT)m(lM@%T9T)m)!g'Q(4T)m(lg'Q(4T)m(uWX6uYT)m(lFU'?&$1A*(o*5;MFU%u7q])U@!K.!N#@t/*'tOWmMZLu4]'DQ]#B^7PE!F/i[g*&>!J`'+E!2%/M@Tj)"NPHa#6F@QY6P;T#IbWY)[WtY-+X?U^B'Z+#?8kQM@Tr7$(#T6+U8=G#9L/U$)[fj#6Lri#9!hi#hK*DKa>^("j.&N567)U#6EVl#7:]Y_`n0g#B^7f"QB`[RL-`J!LF#m$*OZUdg&2eFU%riRL,Sk$.!Pl0$4LH!M9D8#6M'o&&SWpMG"8R#8Qhg$/Yu1!PJi$$1A2X!M'PcmgPp/RZh:h!edTU#7#AVh\umJ$.fCc#7"<LT*a+CE!G#&!h'GQk5gnS#:-V^6`LB6!K2H>f:*)E#B^7PE!2%/M@TpK#3Tq.QNmc<rs(ahmfAm^!P[k(]*EH`#B^7j#6EQM/uo5"Rg4'@#B^8VFU(b?9Ete-$(hO5$,:F7QNmS\Y6i5M#=9dE#6D>m$0MP9k<B:AV$@53Y6j(ekAX<)h[/0H$0Ms.#6Lm"(rll(!Nu^r%Z_I)cQ4">!MQ7t#7#AVT,S*g!R_JbcO&KJf*U=@q[)-\#B^7fAt)3Z$/YcA#6M3C#6tKVQO1,pE!G#&!h'G1`rVM3-OHs_#P/0e#7#AVpDXFBq?`bt$+Fk))[X7a9Etf(du+OI#B^7P!LF$($/Z'h)BoND!LF$0gPZE".LH+Uf*U%6!h(,9#,2FU!M9D8QNmPCK*eFV#B^8e$-,Aa_`6+VFU%u"#6T_d"-Nm4567)UFU'(j#6F)p$3($mmfC;ciWgq>!LF$Xk6D:e#6BMaQNmYn0:P0,_?Y2g!LF#lNs?#I#=f^?pDXI+!$<!_=h>$%WX!YOX(=LO#@rI%U(7KO$3+rJ673*&$0MNuf*1%NErkh<%cRf`rrJGk!N4ZYV[%>LE$`("+R09RcN0@;!TBLSZ3PLW!epL`]0?=S#B^7oKa7V_,H:tL567)U#6BsF#6tKV`s2i]"KraO)[amrf*;Yd$ATQ-FU%uKT*h1qVZGBV$D0ot$D.?s$D.ZtT)tH%aode6irPbQ#B^8k)6sS+Y6j**E!=r$#d4Qt$1DgW$1A2`$0M?&"kj6cL'd<f#B^7TQNm_P^Bpe=EuBQ91Qi(=LB3_H$24Z39reL2b6N.pFU%r]$25>C_ZZ07FU%u!WX4^k$-.)p".oX]$.f4,&d+I2#6+o%!R_+6`s2Xc#6thIV],rg!TAqCRKms?!iOL:$)[f^#6EK+"6p,6[fMg##6ENb$,6M-$*QS"U@SU>#B^7P$-,0>q[8m)FU%rpVaT5D)Ok:E#6F\5=K;[L#7#AV!JLm$$HEAV#6_4L[i5\##6Ce2#+l-C%gRChVf2de#6s/lgHP_*#B^7lKa6K?"j.&N567)U#6BVGpBLqG"lC7*)[ZNLLBdmI$-sOt!Mp#+\do,I$AWR&E!;sH$24df[Kf,H#B^7V#A+2GFU'J0`u;,dcN/k7ru:,B^B&ip58<r!!SElQ#6Dr1$.fE)UB/"4#=\cj#_E;(567)U#6Be4Je&*/"OD$I"NLV:"O@,#(^C2iM@V?9"P7Sq#6DZi#<E*4X$6WO#B^7R!Q,-I!icQ^567)U#6D-:#D*2'gLU\hq1A_=#B^7PANpR.%%0NL%gR4^QZ*(b"H!]rq?`d5!LF#nf[C/)#B^7PQNnb0q[(:DFU%sEq_P5W!K.!XH'8Q4#7#AV`u>Ap$GQfK`sM2R]aC)5V[;MeX:!8\[gJ`.#=9dF#6E9%$(hHFcYs*ZiX*p;T)m(<!j[^bU'GfG7gRF2#6tO\#fct`QNmSlcNcZ8`rVY8#6M.9l44,B"1N4k)["+cg(+7?"4(ojE$M@n[EA[(#B^7PTSjfD566ZDFU*3hRmllQ566ZLFU*$#!O00@Z3PLWM\Mp5M[H'W#B^81569I'_ZnO^FU%rj#77R=A(q$s#6EeQY6P;T"lC7*)[WtY9Etf($'tt-^MjAI#6L>#$-*(5673)C#6hsL$)[fjFU*;X56f78j#5Y'FU%rH-OHs]!TF>NVZE+h#6V[H#6tKV$'tm/YAaa;\d>PHT)m(>QNoPP8dV[%[fMg##6iff$,6M-$*OB<#6tJ`#i>ZZe0hR-o*F4SFU%rk!P\F9W_3Zu!V#[c_Zt;h#B^8E!LcL`!jW=A7o)p"!MTUSFU'q5-K>=9$-*(r#6Er`WTse3#B^7P"G-rPY6hCOaonFFP6%9V#B^8+KaQuJ$B>>lT*KKDE!?(E#6,"Ea%ZTTLB<nN$-+J#673)C1'sQXY6hCOao[_4q>m2h!LF#lHi",I%gR4^s)8(O"elM6mg=hh#=9dEFU&r!lN+R%566ZD#6LF=LBe',#i?R-)[VQ1#6t:M$&8Q!#6CX<#;QO,$0M>UQNopaM@&_P!LF#l*m4la#:^&CQNmT'"1CDp#7#AV_ZscY#B^8AE!4l*"1JNm!S7S."3Ll+567)UFU(O."H!]pV?t:^#B^7WE!,)1[nd%>^B)pe2OY-W%fsFaa)Es5!QQ8_!QP5m-iqX!"H!^Kb5p46#B^8u1#iAQ$1@nQ#6L?P+!1`1#798fh\umB$-rh_RgJ6s#B^8bKa7V_<20[!#7#AV$+ES5"Hj(XiX*A=!LF#l$*OZURKl/,!LF#p$apAFM?e8/!LF#l%Y4qaM$J/.""BZJ2rb4bap3%oMZWkdS^Te(#B^7Q56:N5iuI>WFU%r+!J[ocUBboH$/Yf\b9=Gi#B^8`FU&St`u!V<[fOA_#k&!(#6]f$#8%7!!Q,-IM@U!E#hO"uE!2%/!kJZp567)UFU'"X#j2Et#703+`u><Q_ZpDMK*^W@#B^8,#O`#?$HE1\$HEJQ!ho^k#6CKuf*;P'#IbWW)[G7*WXf?$#Np%VKa637#MKC`567)UFU*!Z#7?Ls>+5Pp#6BD!$1A+A#7!RC[i5YB*NBVTk6^m%f*V0XRgJfi#B^9#$.fL8f)hB]arosUJcVJE!LF#m=R-9kY6T1T9ag[t"f`+%V^Vhr$*OR?#6ji@<uVITFU&-B$'tl%Jd2=1!LF#o!hd.iWs<bPFU%r[$-rh]#6j!(<uVItf1ZDS$43=2dg=oNFU%rQ!O.IeUBboH3B`f3#>C=G1SP+s!K1CX!Vc1MRKms?!N<=*Rm-q3#B^7\$D.ZtT)tH%ap,Ea#6CFtT,S-0!KO2eM$J/.#B^7TE!5_Bk6D=N"Rd99!LF$(YHnQ(#B^7P)[Y[4mfs$j$-sOs)[Z6Drs&kF$.g+&&IIn2!M]GrOp?+7!LF#o#@\"k$/YcMQNmcd_[5K,#B^86!Mp#+U(7S)$3+rJ673*&QNoPVq[)-\#B^7Q)[YC,k6D:M#PT/DE!2%/B\Nj^\d*?_AI?I,b5ma+#B^8\!qHYicO%p:aon.>#6CFth\umJ!T1cu&dNOaZ`@Y%#A;cl&[DXa'&dCdFU*9j#77R=_t*oA!h%L<_Zt;h#B^8KVZH&Z#HCE'FU(;*589jtlNYd1FU%u*P"=%,$)[k0#6EHJM@Tr7#2aA%f*8][dK\S0!LF#r#7Qe\\do$g$0Q72$/Z'H$0M?@E!;sHf*;WF#6BMb/WpFTq[(kq#B^8+Ka6K?AE*mqM?e8/!LF#m0B3A:#7#AVh\ulW$',;s#6O?5LB59t#7$CulTYE:FU%r@#6al.$3($m$1C(,2Q@!3gLU\h!S?XVRg4'@FU%u'Rh1_f!K.#0#9F3/$*OSVQNoi)YAdAG_?mCPT)m(9$*OR7b6@VZ#B^7d$.hGrgG4[u#B^7fQNoXI$aDns#7#AV<uVItf1ZDSZ3d-0$/]\,#6L+L"I]R<VZE+h$.fCg%gejIhf&UZh[.U8hZ;=8"hG3NisFmf#B^7q$AUUii@KjZ#B^7`[nI#3g'OAX$,:E_QNmS\Y6i5M#=9dEFU&tG510rH`s9Y(N<d3'%kZcAa)D'Z41Yq-cNhd8GmD(hl44-?#KLd+E!4#gG3]CZ#7#AV!JLd!"H!]p%gU-ocYs#E#6al.Ys/8U#B^7ZQNmPKT'JTA#B^7P0r$I\N^!Q&#B^7a#6C0tqZd@KQN>S`!QE4h%gR4^QZ*Rh!hT]!!lA"e567)UFU("/nd1on$.!Pq(m53O!M9D8#6F4MLW]pF!thg>#>4#@$MF^Idg("#FU%u:$24Z0%gejIs)8"ers@iprrL^X"elM6#7?6*!JLjS#8E"")#FP\W_3Yr!V1k6ap3%o!KsJl$/YcA#6KJR%EA]rQV@t!#G5'-rs$5BScmpZ"0Z&4!SIPSV[!Zd"J6V<!Q,-IT*GUn#/;)^)[E8G#6tI2#G2%7QNmSTk)2G)#B^7P)[Xgqf*;K:#?MiN$.hiU!h'FfP6p,cFU%u#$+C-E#7"<LT*_u#E!:h"!TFF#`rVM3-OHs_G1-[_LBhr,!PAXEgB!=e#B^7YE!,A9$+C5]a*A!+#BnQ&$*OSVRKl/,!LF#pJFa)F#B^7Q!Mp#+!m1i$hZ9&K!J$@?b6N.pFU%rZ#7@X>$(_11#6F;"Y6P;T#?MiOY5s1Z!fa5fWX!YOAI57:X8=E"#B^7P]E\ea!N;IgFU'VT$BGDsQNp#""90;I)[`2B(Wm79WX>YC!LF$OOq.o'$FasZ#6E/G2kpV#56DY3#6E,>0rbJ$dq&i`2tI'c#7#AVh\umB$-rh[%ge:9f5LiWf*T1uf)aJ0"elM6`sLXB#=9dE#6EqeM@Tr7#G5r<E!2%/M@Tri#Hr(LE!2%/3J%LF567)UFU&A6#==RY$,6M-$*O]m&E3pE!K.>j#92D^l44,B!j?PDQNm`+#8o`,#*K46Y1$rH#6`KV#6tKVrs&d@"-4B-s%EY&#:7P"%A=#LcNeRt#=9dE#I4Z.cO%p:at3Aq#6CFth\umJ#76+g6@oGbMZK@.\*H6Z#B^7P$-+oTo.Sj0#B^8:)[YC,k6D-n$.g+&E!2%/hZjJV#6BMbFU&YN!M6%klN_P;#B^88!TFEPY6hCOaomk6#6CFtpDXFB!RARdiWjT2M\bnRTaAa?#B^7hQNm`cQIA&!#B^7POR#Bq566ZDFU&ZWgGXoo!K-u4'$1I+#7#AVLDpR"JHlD_P6q6i#B^8V]E\c;b:&8L#B^7^!o*t*23J2j567)UFU)WE#7&*NmQU`=#B^7Q)[W\Qg(+DN$+FjSRL-_6.]N^S^O@,bW[bjl$,:p&#6C=CM@Tr7!mbfgE!2%/#PnMR567)U#B^7h568+VK+>1[#B^8Z!LF$0QNmkY$0N67!LF$0LT:cS.LM4<Ad8PG$.fCe#703+cPm2J"H!]r#79R4!JLj3"H!]pq?bbm!LF#qG1-cT&dNOaNrbRP#7[pF[g*.\#?MiN$+ES5E$>UT!h'G1`rVM3#90fPFL)3p+pW5qLB3_H$24Z3cNa[e$25AFFU*3Xa!dYe2M5QIFU(L5c91q.566ZG#6C"RI+&=CJd6E'Mdl8ggBjbY#B^7RE!;C8+R0*E567)U#6D>u!ga.7!Q>eW(UkHH!Q>MG+KGU*#7#AVh\ulW$',;s%g(?%QZ*(b$&8`lq?I%T!LF#p#:5j(#6tKV#>te=o038BFU%rO$-*8U%g_VC$.!Q?!Mp#+^BY(c$-*tkQNmT/rX#J'#B^7X!p9pb&DmN7#6E_7Xigrl#B^7PE'UuFM@TcL!gdj/E!2%/M@Tc\!iKu?E!2%/M@Tcl!k3+OE!2%/M@Td'!lo6_FU&&X#=YBm$,6^fa)_XRV$@538dWN=!N-7E$-rq(RN2^\#6`]]'(-!IRKms?!LF#m$*OZUT*I\1Dukh&$*OZ=!QkS7OFmS+#B^7P)[Xgq$(hCqf5Lt`$/YsoJ;[JJ#B^7P)[YC,!kSep#7#AVh\um*$+C-C#7"<LM[?jdFU%r/Ad8PG"H!]pM@&`j!LF$$'SZplo*9CCFU%s?#6Xf-$3($mmfEICcNbp+!PAXD*TIF#iWjT2AI7f<])g38#B^7^ANpCIXM\7p#B^7P)[W\Q[g*)o#?MiN$+ES5#Jpe6dg<d.#B^7i)[amrf*;KR$E"gM)[bI-"d9:cW<[PN3C):((@qjiTa,]F#B^7_)[HBJLBe'n%pp7]O)P?p#QG#7l3@?D!LF$5!RUF&Z3PLWAI57BRfT+m#B^87]E\bXK+lN2#B^8b]E\c+_]5'F#B^82FU)Ka$-rh]%gfuif5LhT$-*8WmKWcH#B^7[E!;sH#k&(T#7!RCpDXD,#8Y_k#kn@d)[QHK#6tOtlNmMa#B^7j$%`9Adg=&TFU%sG#6]nh$C:d[LB<"DRKk;L!TNE%$)[f^#6Fh)(QerF,iVH]FU)TLAd8PG#8a'=*V'GX!K.3+#86nu"gSAUVZE+h$*OR?T*=s.E"7a3^BY(SdoRIp#B^8-)[WtY9Etf($'tt-$,:FWFU&-@#6s`($/YcME!NZZ$.fLHkBRBS#ApdR$(hHFYAaW5dL!)`T)m(;#:$5L$)[fj)[W\Q$(hCq[r;J=#6M^J/Fj$g!K1OD",dJ`K*QN(#B^8_)[W\Q[g*)o#?MiN$+ES5!l>81RL-`J!LF#mjl6Zf#B^7P^J"k;#6L>#$-*(5673)C#7[g@0T$*XZXjH@#?Qh-$cWEo0oAUg#6FXa&<[9@."c(qFU*/D#8`R/k6D67#6BMb#6C?q#HA#O!K.r3kaMn1#B^7PQNmPccO/h9#=9dFFU&PF#=3qH#aYRYRL#MjOs1,3#bQPL#J(#kq?W^BIKeF,V[!L"#IbWX#6D]jM@Tr7#.JOSE!2%/#3lE-567)URg.IL^';UY#B^7]673)c!P-)QP6Z489*qL4#AO'U#*K46.+;`lFU)'%$&8`j#703+V],r'_ZpDI[L%]i#B^7f3RVobisLPDFU%s#JdJUc[fOV]#7()3$)[fjFU)B^#6X8s#20<)567)UFU'5!!SR&L#7#AV#@@bg#6E__#4`"AMZJD+q[)EdFU%r8"H!]pY6_%F#9a<XQNmVedt9jc#B^7P#A+2GFU)cQ$&8`j#703+f,G$W_ZpDIW<n=\#B^7i"54$ah[/Ib57-KZ$/Z'HhaJ!sQNnE8]*[X$$.f46$'tlHcYs-#+plR%!M9D8#6E)u$^(a;MZN[LmAiGP#B^7P90['i&BR>o#7#AVLDpS]JHlD_M[GLGFU%r$#6FZ+$)[fj)[W\Q[g*)o#?MiN$+ES5#6EDN$0MP9#7!RCh\umbnd3nO$1Dp9QNmW(dL#pS!LF$J$1A4V#6BZ/#6F/^\!%&>9*qKs5I1USM?e8/!K.7?!KXiW#7#AVh\ulW$',;s#6Wj&LB59t!PmFrNsBe4-Oc=L#QG$163dOF567)UFU)3Q#6hsL$EjJs)[a%Z^BXl0$1Af?$C;+?$0M?&FU&MjLG?pVaHL0B!NEC+#7#AVh\ulW$',;s#6XuFLB59t!eR0RQNqX<E!#kB!h'GQk5gnS-OJ**Rem=V#B^7P#6D]:NT17d#B^7PQNmS\cO&b8#=9dE#6BbCXJ6#C#B^7P!Q,-If*;T5!V[N=)[P=+#<Dq,#j25TFU'(h#6`H[b<H#oFU%rm#6EN`gHP_*#B^8.KaHoI/u&XPRKms?AI58(+cC4'WX!YO^1BMb#9iLEo_Sl9#B^7P673)C#6pn-$)[fjFU&cBRL5qtT)m(:#;rggg(+F2$28C!$-rpm$24JP#6EAEk6D67$C;\;#6EAE$2XsMJkHEj#=aV<"/6$ChZ9&K$0MO"iW]&q!LF$)$.fLPpN$B+!OJ7%dKan"!LF$X36DR-LB3_H0+$eK#6t9dmi)T%QNn-+RgJfi#B^7T)[Xgq$(hCqf5Lrb$/Yso#7"<LRL.kF!LF#m$-rq@jp+4##B^7m)[Z6DdLQN=$3+rL)[_?*kedSE#B^7PFU)<L!$<!^f*;YD$BH,4)[YC,#d+N$#7#AVWX!,@!LF#l"c<Vi[fMg##<Jml$(hHFYAaQSdL!)`T)m(:$*OR7T*=s.E!!TW^BY(S#?MiN$,9.=QNmQNSdEF<#B^7RFU'5l#j2Et#703+k8O]q#9p_\#kn@dKa?iH+I365RKms?M].U@"S4hYM[+A0P"S#8#6MdI-CY6_5</qJFU&9&h[/0Fk5j0@"elM6#79R4!JLj3#;5$AT5k0ZnZ-4.#7S$Af*;P'#IbWW)[G7*q@<Va#Np%FKa637!eLXX567)UFU'A%($Z;7#7(!B[i5SP#_rWi%gV8:O)QYu#86P4Y6P;T"lC7*)[WtY9Etf($(hO5^Mj=-#?:!q!W!%DMZLK.M[A8A#B^8#)[W\Q[g*5;#N$I,^MldU$*OR?Rg/tJ#B^83$--;gqa](-#B^7dANr#?<9kt0rs*ZO#9a<Y9ihY1!Vul\LFEPE#:le]$BG4SFU&Me#N#ak#7%^Wk8OZh1<L+/#7'^:!JLd9#:-nd#8.8a$3($m!LF$(#8.B!$BG4SM(]2(\+9h*#B^7P?O=aX$,6]M".BI%567)UFU*AZ#78ueg:IBu#98?sM@Tr7#PW0?QNn(j_o"\>#B^7P#6FFs$-*(oFU*9b#?:!o&,HNRLB3_H-OK5Kap.s(!LF#uU(7S)$3+rJ673*&#="CWJe&*/!oIquf)iE'ncI\L!LF#nFU&dKScQt=mfA=I#8O3EJEmG_#B^7PFU)g%!g4'!*s7RC!S7DA2OX`/567)UFU'"c#6p@s2S'-9".<^bFU&9I-OKMP?HWR?gBVj+$-*)?P=LL'FU%rRV$@51[gBMEEsfJb!h'G)`rVM3#=H'/$-rX=[f?X\$*OR?T*GT+$*P9SQNm\gdg;oQFU%s.57<VZdjE@OFU%rq#8EU3$EjJsQNm`SJI8je.LN'X$0MNuf*1%NErkh<0A6a$rrJGk#6N`g1(OV42ZhlU!S7Cn!U9aD567)U#B^7h]E\bHXtlII#B^7WH5$^Q!P,fIZ3PLW!LF#r#9_tiR(ETGMG$/7#6DXlcNa\t"nrrB!kJ])#79"$<uVJ'hb47[#6Efj$0M>UFU&P^!QLl>Y6T1T!PAXD)p'9&WX!YOAI6C3$*s]aT*KKDDulsF$*OZ=!QkM=!nm[IVZE+h#8G/acbg!1#B^7P#)W_ZcO%p:ap6&q#6CFth\umJ$.fCc#7"<LT*a+CE!D1+!TFFCk5gnS-OJ**$(hGhcYu=i#Bec-7(NVG!K25mlFRA##B^7PE!!<U!MW@c#=eg;P"-HE!LF#o!MtE5T*KKDE!,Y;$-rq(T)m)D!ThK*ncs:BAI57FRcAA!#B^7PQNmQNY6i5M#=9dE!qHYa_[3Mc#B^8C'$EYB'WsZD#7#AVh\ulW$',;s#6D"ILB59t$&8`l#703+k8O_g_ZpDI#76.dh\ulW$',;s#6FQ<LB59t#7&*Pb<H#o#B^7bFU&lO!UuihRg4'@FU%s"$BGDs$ASYOI0ooYiW7B[AI=2V,1\Kd_$>)f9*qL2)tl\R&dNOaVZE+h#=lW<$EjJs!LF$0Og>D(#B^7PFU'/U$F^6FT*GT5$F^r]FU&Q.#7$+k$.f3E`rYSFZNhrdFU%r^nd1on$,:EaQNmS\Y6i5M#=9dEFU&Aa!Mn0L#7#AVh\ulg$(hG.%g_VCVf2cr$'tl'_?U*q!LF$[!U@imkm)>99*qLE)3ZtY%gR4^LN!Ek-OB/IM@TqY#hO"u)[P=+*8:OmZ3PLW!LF$Ef*;WF+pS\dVZE+h!TrDK#7#AVpDXI#$C:u$#6L52k8Oc#V$@53%gnX(T5XnD"elM7Ns_e(#=9dF#6E#;%GD&0k%+js#:n($#d4JU$BK.($BGOL_?u&_!LF#ors&mlrs',B72j#L#9!pK$ASYKpApk<ed!Z2#B^7r;6r`L$/YcAFU&T?f/C2F-Ac:?FU)CA$*OR=#6ji@NuJD7"6pC'M[@.;#B^8k<#9,0@FG74#7#AVh\umb'Z(@d^Bs@Jf*UmPgBm<L#B^81/B0F0$JtlB#6E8:QNmb<"nrrC)[`2B#d4;r!S7[V]W2C##B^7P90ZdQ'=._N#7#AVncrb3!LF#o#8i1["mQ>8!K/2?!SN)iTa,]Fi_)KQ#8j]j#N>u2566Z[#6BC^D2SXA%gR4^pM^2nk6%=YpArkJ#MK[jT*+h,f)tID^B=32E&rjY6Aks?M[+A09*qMAe^He;#B^7PhYRkI566ZCFU'+S34]V*:B?5iLB6">QNp+`&@4S%d0Fe!#B^7\)[Ft""HNesO%g/ZhZ_U5#JXIJ!KR8Z%G(WP#.F]T#F>JEkAX<0#M01caThj##B^8#QNmV]lNsHiFU%s-$.fCe#6]f$f)^F-#:P32#6tKViX+L9!LF#l$-rq@P6XE%FU%r!#6F)p$ASYK)[_W2$C:uf[L'\f#B^7c)[YC,Oq.kk$0Q7.$0MWH$0M?@E!<f`$0MW`!S7Y@U(7S!$1Dg:KaHWAdLQQ`$/]\&$/Z'@$/Yd8E!<f`$/Z'P!S7Y87\^:Qis0]3FU%rWKEf0rOU$16#B^7]Y5sR9M$GL:#B^7bKaFpfM@Tpm$*S:NE!2%/!SRjh^B'Z+#;Y9F$-*(5!LF$8YL<g(#B^7PZ/Z%o566ZCFU&$-pBgR!rrL^X$27$u$24Iu$24c#pB$d(!Qn"@-ftH%jp-#6#B^8))[Ys<Oq.ln$28B>$24bp$24JPE!<f`#@7`:#e(%]Jjoh&#c@nh_?dUi!LF#p!OUlOL'Mi+.LF]>$0MNu#77:I^DdLJ!K%BoUC$[6#B^8I"MtJ3cO%p:ap$K*NWGaQ#B^7]"kj9TY6hCOaomS.M?0=M!LF#q)P.85rWdQN9+$Fn"5YcTiWjT2!LF#pFU)\H$BGDsY6P)^Et?+o#6tTs$BG5*#6CLXZ4@1_!fq:'f)bVArrS5^RMZ81#6U,RP<T)7#B^8J$3(>3$ASZ6E!;sHpBM%\#6BMbFU':VOYM^u566ZaFU&2La"WAUhlC;p!JftAU'GfGAI=2#MVA6.#B^7P)35*U*kq`pQNmYV%gf-7a)D(U$-rh_&d7YBf)_3C#:-S]$/YcM!LF$(VR$Tl#B^7P#J(56cO%p:ap72<ZN6[!#B^7i)[ZNL0<t`LLB3_H#7e<P$BG4SQNo1LP7!WW#B^8H#6C":1:md6V?_5K!RV,qA>9IgNsBe4*=@i7$BG7W!QkSONs>]X$(i.DDunAt$AStT!S7[FU(7Tt$D28@FU&!A#6_=;$)[fjFU&r$Ad8PGNsbUd#JWt>.1WO"q@<na$/]\CFU&T5$0MNub6j:L#B^8gAqL?R$-*()FU)7%!Qgf9^B\ldY5sC_k6KlF9aK&^6BW%DVZE+h$*OR?T*=s.[r>4O$,6]O`j8_c#B^7PANrT:-M&Fimg!t?!PAXDUWX1f#B^7P#B^7h$AV@AWsbXp#B^9"90YPf_p]1>#B^7Pe7-#pp'Km_#B^7qdgt=H%g8L*[h8_6Je"[aLB5g8+S$$Ed0-@d#B^7Z)[G7*k6D7$%n@QDmr/NC!O^Ye#7#AV!La=u$'tl%Z3d]R!LF#lLq<tk#B^7PANqQB[Gu5,#B^7PFU&`!<!_(\34]?@567)UFU'=lANt2?Mq\qu#B^7P#A+2GQNmVMh?g(\#B^7o)[V9)Ns>sJ"MYl^!Q,-I1Z8Xq#7#AVh\uja#k&!(#6FiDk5iI*#@?^%/@l(/Y%7p;#;W7`7D]:PVZE+h$*OR?#6ji@<uVIT[nI#33XMDbiX*A=!LF#l=GmL+mg!t?77P]1$3(@1!Mg(#e,'3@#B^7P#6E3#*KCAI#7#AV#7"iGpDXFBdKuNL$+FjT#6E,N/@l(/qdg)3L&1nI#B^7P90XieQa8m8#B^7P$El==_\hoTFU%r5$0MNu#7?M2QQ$8"#:.S%$0MP9!Ql\)$-rsN!Qm<P$-rsN!QmN^$-rsN!Qma'$-rsN!Qm0t%BBi.RKms?M]U&)QchSo#B^7P)[OIh#gW[8!Mg!f#a\&UcT_]]#8t&X#6tKV#20;of)_3C#8Wa7$/YcMQNmZab6d>4.LF]p$43=0cO%p:ap+:@P6%9VFU%rn568>#RiA&4#B^8Y!r<4icO%p:ap-Q+#6CFtpDXFb$.fCc#7"<LrX%1M#B^7t)[Xgqf*;K:#?MiN$.hiU"2YA:iX+L]!LF#l$-rq@_ZrLUFU%rBcO%o&)?HB8FU&;DJdK0s$D2AWQNo1L#7@X8#8%<8#6DU2T*GUD#`fo1QNmhs#7.4.!JLfG#;#]VWBUEM#B^7s#6Dra&b?6MRKms?!RHrmk!&m)#B^7_)[XgqV;hm&#B^7P)[V9)Ns>sJ#`fo2RL,;cLBe%b#6BMbQNmQF)kfIs2[=I1T1oEck5t)W!WQ@1!S7AP%G(WPfl%#&dKJG.!LF$Z#6tS($0M>c)[Y+$"o8PghZ9&K#<d\GRL]XG#KLcpQNo1\$aDns_?Y2gG"K"af]*:9#B^7PFU&6+"2YQRJci2q!LF#p#8!(`QLb?(#B^7P)[W\Q$(hCq[r<Co$,6]O#7"<LRL-`&!LF#m*:!pO`s6_l.2V^\QOatCk5i7'LE#CX);bu19htfi!P\ibLKb+HY79q'rrJ\sVZZAoY6!;cJHlDbdgD-:#B^82E!2%/#5SXu567)UFU)oe#78]]#,2>Gf)_3C#84$C$/YcMQNm\gTaBl_.LF]C9Ete-!TFFCk5gnS-OJ**HCG.+#7#AVh\ulW`t#ii!maRE$',1Dk6.,USd,3"^BV^Zf`]n3#7K\qLB59t#<25\#6tKViX*@n!LF#l$*OZUh?Q@p#B^7lFU)3I#7:,0M@Tq8$3+rIQNmc,NXCOB#B^8&)[MK0QNmc)!Ugs5E!,qIGbYP:ncs:BMZVobG-aC6#7#AV[i5U6#aYc$%fs-YT5Xnl#=HB7cNa\t"lC7*)[Y+$9Etf($'ttMhf&_8#6Efj$0M>UFU&/V#9`RB`]jKj#B^7ZFU(Y$"H!]p\d4(1!LF#p!JAQ[]*EH`FU%rK!Qt9E8?,<I#6DN%$*OSVp&Vf2#:/Olf*;P'"cjT.#aYhS2R3@Z#i>oSZ3]>P7gS!1"iCW'%gR4^mr/E`mfS=NmfD#G"H!]q_?fmT!LF#p!QFq#T*KKDE!ha1!icCT567)UFU',QAd8PG$0MNu%gejImr/;jmg7kXmfD#H"elM6UC$[6#B^8&9p6(8$/YcAFU)RN#:Q>PlOjGF566ZHFU(F#KE_A\%gRC]LN!]k!K6OR^B\ldH32"g#6N<YK0KC'#B^8!!pg3U#6tK[#i>[#)[P=+k6D+@b=<KWFU%rHAd8PG#<B[,B9NRC8+K;;FU)!c0TlqOT*:9pf*)*U#6g.hk8OSc#<oEq"d]7V#6D7(k6D67#IbWYE"p/"$,6f8!S7YH_@HtA$28BQKaHoI9;;^mis0]3RS,kj!QNkN.L1)$VZE+h$*OR?#6j!(<uVITFU&>=QNnE6OpUj`!LF#p#9!pK$ASYK$269U!kJUdhZ9&K$0MO"f*1%NF"!I`#6tS($1@nk#6BXM#O2P:VZE+h;@/s%Y6hCOaoTWkecDBD#B^7SXTo1,p'\;0#B^84#6Dbq$-rj!!Ql\Q$0MYf!Qm.V$-rsN!Qkk'$0MYf!Qm[E$-rsN!QkhN]RpQ`#B^7P)[_?*$3(=(O)PER#6CP+$C:d[FU)+A-OHs]!pKqVP6Z489*qM))k0+H\Hd6^#B^8)QNmY^W<qG_.LFE_$D.P.$C:d_I0u#?DSm[?3Kd$"FU(6c_ZpDOq?Y[R!LF#q#6M.p[g*.\#?MiN$+ES5!r<4qRL-`J!LF#m$*OZUlN]a(FU%rjV$@51%ght2s):6/"elM6aU3fB#B^7X)[PU3mfs-U#JV2`!Q,-IcGKqN#B^7PFU&&5`ri=H$.hZR#6Dm*#*K46':rc"FU'(B!NiC-VZR@%#7/cb+MnA+[sf"Eni*!D$+G@3KaFX^I^97[dKan"_.>h8!R8e+#7#AV[i5SP#_rWi%g&pRO)P?@#9)V.M@Tr7$E%hGE!2%/$F^AGg'8c+!LF#qPNrRj#B^7P!h0UmhEM%!#B^8(M\Ute*oT<al3DG:M]]ql'uiH=#7#AVh\um*$+C-C#7"<LT*_u#E(.VM!h'G1`rVM3-OHs_$(hGhYAaTt\d>PHT)m(:#8d@?pBLqG"htu_cj'mW%g]?>LN!Ek$24Z3NX#T=#B^8($-*7LP7-AC#B^7eQNm\O#798gh\umbnd3nO$1Dp9QNn>Ti<fMb#B^7W#A+2G)[_?*Oq.kk$BK-,FU'D>k6]`Fk5j0@#92A'$1@n]KaHWAhZjAe#IbWYFU(CbL.Ce>566ZN#6C"b$*OSVh>t7o!K-b.]*EH`#B^7P673)c"H!]piX*qM!LF#l54]*4#7#AVT*Js5Dum6N$*OZ=!QkOsGl%N6%gR4^QZ+MP#<99tL-G^*#B^7R#LWpFcO%p:ap5ciP6%9V#B^8\Y/:aT566ZCFU&Jl!PRe(W_3Z=#?[/p+h@o$!K/n!#9oR#$Mk!Mk5gnSQNp+hb6dV<$/YcI!LF$@#C6K:RK9;kT*GT%!N-k;FU)0X#N#ak#7%^WV],m(23JIQdg,>\#B^8=%A+'Dk6Qi;>6s[+"IBDO!M0Jp"LeHA!SIh;pBM%\!KS0*!Q,-I#j)E]K*QN(FU%r0`^eG^566ZUFU(Wn"H!]pLBZ:Kdf[&^%gChkf+J>_M?VT:^B)ac#6_UK#<r6U!Lj8])iFm_QNqX<E!;C2!TFFCk5gnS-OJ**O37bp#B^7PE!2%/M@Tg0"4(ohE!2%/M@Tg@"5e&#E!2%/M@TgP"7L13QNmYVPe0-\#B^7P)[WtY9Etf($(hO5^Mj==#<DSd#2]Z.#C6EHQNm\W8[CV^l3DG:!KF\u$-*()#6CaW'S6R4rsoIW$I8q`#6NKrru2<s#;VbT#9!hi$24IeE!c(G+qG"[WsXW$#B^7c[nI#3WX5:($,:E[QNmQNY6i5M#=9dEFU(1b#?CX+,g$@7!K/kUMt784#B^7P$BGOLU<<c[9+$^\U[n`M#B^7P+U81c"H!]p%gC!mcYs#E#6UP$$3(6QqZ4>7#A*38Y6P;T"lC7*)[WtY9Etf($(hO5^Mj:4#6L>#$-*(5673)C#<d\E&W$a8b"E&]#C;RF(m5,H^B'Z+Y?\[G#6u^b[i5U>#bM>,%g1].Vf4cP#@P^\`s2il$BH,5)[amr#6tS($HE1DFU'S3QNn-.#78]WpDXG5$3(56%ge:9LN!@\LC)!.LB6!6$24Z3Ta(UP#B^7fXTo0Qj!^c*#B^7p9aBj*!WN[s[p'+;^B*3sk5h.aY7C"2^B*!k#_rWg%fti4O)P0##9\R'$',=6kAq$2!K%Bo#7:-D#8%:*)[X7a^8hS'#B^7PQNmSD#jsnXK*QN(FU%qu#lb,7#703+NuJC\_ZpDO#71>10.7,#QNm\_*VM\u%gR4^kAUUY$.fCg#6t9`h\umR"kjImcO&KJf*U=@_[53$#B^8I5JB:D$HE1*FU'XZ#N#ak^B_4e9a^=t$i^Y8-X-i=&"a:!#Ia`*$`=KL"/c1QE(-K3EU*kuSd0BC9+$FuNS>-;#B^7PCP*Ui$)[f^FU'#F_ZorB!K-uRH(,,tWX!YOMbMS(]*[?qFU%r;"H!]pM@%%:!LF#q4JE/&cN0@;#;OL1#8.8a$BG4SQNmVm0++$H$24E)Zj-opk6D4m#PT/D#6D5j$3(6Q#7#Q+!La@VE*<bW$D.ZlT*K[aGm]T>LBe0Q$BH,5)[_W2&EX:cq?M-JMf[n]mL$]0#B^7S#J(87T*i&HE!#kC$HELoVZFpQQNp+iRL7(9!LF$9"QBd7f)_3Ca"QridK_6/!LF#m$(hO%YAau/M@$HmT)m(E#??rgO4sn^!sXnh'BTVihZn9/!PAXD9_2oGap3%o!LF$-$'tsrYAaQ[_?mCPT)m(=#8iR(#8.8a$BG4SQNn"pJdRhF!LF$F7Cro!#7#AVh\uo`$C:u$#6DRYk8Oc#!Mn0N#7#AV[i5S0#Nl<s%g)2=mr/>k#N#ak%gN,hhf&^U"H!]pl3HKk!LF#l#<B4W-di6B!K.G=/ZT2Uf`uX)#B^8(673)CQNoPVH3pbU[fMg#!JAi-#7#AV<uVI\^J"k;#6L>#$-*(5673)CJdJ%S$*S:R#6C.6$1A+AncqMe!LF#m#=X2.\do$g!N0l<f)^pSiW5qX!LF$-#:A+g_@Hlo!oIr'f)i]G\cUai!LF#rFU&dK$/Ysmq$-qS#B^86E%KEJ"0Vsu!S7S>mfs*d#IbWW)[H*BZ4@2\#QJ`DKa7&Omfs'u#IbWW)[H*Bq@<VI#QJa$Ka7&OM@Tpm#OcU7QNmc\@Il\aQNqX<DuuI7$-rq(!QkYqcNaKC"lC7*)[Y+$9Etf(J[5[7#B^7PQNm]*JI137#B^8#+U8=o"H!]pnd3W]!LF#rGfpEF%gR4^f5LiWf*T1uf)aJ0"elM6`sLXB#=9dE#6Be,/Fj$g194tNFU(L=$24Z0#6]f$pAogM#9SL'RL]XG$28BA$24Ye$)[fc$0Mink7$N>D$u[:!fmKQ!O!$s&!mUss&]cW"I]i-#7:EL!JLjK$1A*(ZO#G-#B^83FU&_F#C5>7#L<Wta*@p)6,F-;`s9Y(N<d3'%kZcAa)D05^B_daiW5#D#:e[a$,6^fcZ:\$[g0)C%c9tj"SXRT#799:#8%9g.tS)R%ggj,hf&b1f*U%8hZ;=8$.hcU$.f3UFU&KBQNn]>#7?4e#8%::E!H.L$24c+!S7YP$24c+pN&Rq#<(NI$0MP9#6Cb.E!2%/$24bpU'DhH!LF#q#=X2.l44,B"ikQbQNm]"$1g@^ap3%o!LF#m8#lro#7#AVk5iI*#;;8I#-S8S#C6HYQNm`31\![1#7#AVh\uji#knQ-#70K3#kq!tQNmlg_$L&A#B^87FU'1UM`m4.566[;FU'LtQNnE6%ght2s)8$s*r6BRLC/fUE#Gqg+qG$9Y6p>0QZ,h.nd)E+$D28@"d0.pNs_e(!Jr02#:-nd:=BGjT*KKDdfT7M%gg8W[h9+)M@?B``rXTk#6s`.$-rX=QNmWhc3`)'#B^7j)[Vi9!k/EDT1o@$T*g>_#G53,$JuB'!S7@D%0$U2$f;!<E!4l*46$XFJd6E'7g[3@NRJ3s#B^7PFU&;Z#7%O>Tg&RE#B^7j90Yjr0>8mHk6H,7fEeZ#QP@I@@N;id(5E=5!Pf-<#e(Z.V\KjEo-^OD^B'7<#7Kr,$-rj!T*I\1cYt'7RL.:HT)m(m#:B6I6h:P*Xp9(S9*rWp'uh`/#7#AV!JLdY#9:;[ZTeJW#B^9!673*&#:Y3/7u@OoMZJL#p'IVt#B^7nE#6(r"o8Aj567)UFU(@4$*OR=#6ji@<uVIT[nI#3l3X'h$,:EaQNmS\c3_Ml#B^7m$AStD$BG5>E!;sHrs&ml#6BMb#6BmL#d4JU$BK.(!TFBgNs_4m]aC)5WsXmg#B^7S8rGL*P<T)+#B^7^Ka6K?!W!$%567)UFU'VG$24Z0#7"<L$24IO#6BY(VfE#b6FgY6FU(%@K/3!&566ZF#6CFnhZjC/#6BM`QNmQf0^_.+#7#AV!La=u"4@\b%gf^a^MkRk#=nIo#1<a!!K.fRYk&1!#B^7P#6C79"L88T!K0.BRYqN>#B^7P#A+2G)[XOicNaX2$'-#3FU&8>$-rh]#6j!(<uVItf1ZDS#=kNq&[DXa!K02!-'8Mk%gR4^hf&^U"H!]j%ftj4mr/De"H!]j%fuEDs)8*u"H!]jncFSc!LF#p#8j4#LBe',#i?R-)[VQ1#6t:=$&8Q!FU(It5;Sl9Q6O1=#B^7oE!2%/"H!_&.EZRJG6+$8QNo@YWp>-8#B^7PANqd;V?*UT#B^8=#Drh[iX*A=!LF#l$*OZUT*I\1E!Oet$*OZ=!QmO!=h=^,b6N.p#B^8V5i+H2$JtlB#6BUDhZjC/#IbWW)[GO2\dnh&#OcU5Ka6K?'W)*9Y6T1TE!;C1$BGO\!PJi,#d4SrQZ)ub\d5JH$D28BM'iXc6LG'Z\d*?_M\:pd-a#Z7#7#AVT,S+2!R_Jbmg9#5f*VH`%gi7:LN!F.!Jno+M?e8/j(1G*7b[sENsBe4*=@i7$BG7WT)m)\#;tNBQNmb<#IbWX)[N&@dLQB1#cDW!Ka="M!qHQs567)UFU(Ho$(hG-V[$QW#3Qp3)[W\Q[g*#M#6C8",J"qjWX6.`IPUa23q<Td[sg@&_AV>>$+G?q/c%m3#77kg!JLiX#6jr/X$6WO#B^8=^J"k;#6L>#$-*(5673)C#>"(aM@Tr7"93<CE!2%/M@TiF"HRL)FU)<\!JU+M7Z'i'FU&*9!Mb8Pnk0;`#B]8F$*OSV!QkPV!p9TVs%NauY6)0<"nu4-#PS_#!hTLb#M0I;#H%UU!qHYa#77kY<uVI\FU(1B"KDt;M[AQc<!hG4<iZPiM?e8/Rq4eu9A9KB%gR4^s)9!Y$1A**#6t9`[i5YB#8!1+#6tKV#/UUWY5ssp#82Up$+Br%FU'Y;$3(58#d4IFLN!FNLC*tf$3*3s$Gm,L)@?F4LB3_HpGp\0cNbp+GmD(hWXf?T#KLceE%]9D3SOeb#7#AV!JLjC"H!]piX+de!LF#m$h=VmpApTc#8+3IWXf>W!fq:%f)b&1Jc^u6!LF#p#</>@$/5]-5<1WrFU'>""H!]p%gA#5QZ*(b"H!]ndfl@_FU%r1#6Efh$-*(5673)COpR`c$*S:b"i:SL!M9D8)[W\Q[g*)o#?MiN$+ES5(m52tRL-`J!LF#m$*OZUgBU%m#B^8TQNmPkap7A9!LF#o#>Nr;K_l!s"%JFS#B6_.#6tKV"O[Ne567)UFU'n7#KI&S#7%^W`u>90E&nL5:?)T2%gR4^O)Qu)!S973!fmB6E!#S@#>tT[q`b+J#B^7]FU'r(Ad8PG#78-M#_E:)VZE+hFU'E'RL,Sk$*S:ZapJHY#6CFtpDXFBRL,Si$+FjbFU&`>is4QKVZD]]#AV]oNs>o4#2^@,)[_o:#6tTk$BG4a$BGMf$BG5>FU'pr$C:u&#6_LTpDXI3$E"+8QNNQn!P/LC(uc&JLBIQq#C8c@E"8<I".o_"!S7I8*Rb.pYm5CV#B^7kV[;6Qh[/0@*=:U0$/YfQ!QkFp#K$S7%gR4^YAaW%"H!]l%g0:[^Mj=5!M8<Rl3DG:!LF#r0U`<O[fMg##7&BX$,6M-$*PYUk6D5A#i?R-E!4;o$,6f8!S7YH#6tS($0M?,FU'G]"elM4pBlt##=9dEFU(aB#KI&S#7%^Wru23h#="XX#M0!CFU'FjkpkBlhZ8WG#9eX)^BY!d#6C7s)[2Q5"S)`2567)UFU&/@JOTD?VZD\j#;ag8"f_fMVZE+h$24Z2%gejIs)8"%rsA-#rrL^X"hG3NV@&)t#B^8?#A+2G&&JXf#78Fl`rX'_$-*8Wdg5C]#B^8!QNoj?jpAd'.LE:87Z(sd:8U5Xrs*ZOf*[QF%gn?uQZ*,&$ASin_Zp3r#B^7r$-,8_ejoR0#B^7^FU'qmX9t!n%gRC^QZ*(b#7@(1#PnZKVZE+h#?-HdCnh5X56D7EFU&t=#6Ch0o038B#B^7n$-+C`RoHh-#B^86Dul+4$0MYV!S7[>O%Kb?Nrc-c#7TGr/Fj$g(Qi8nFU(+0KF-fH#7#PW$0Ote)[Y+$#20CH567)UFU(M+`s0Zk/;@^BFU&E""H!]p%ggj,hf&^U"H!]r%ghE<mr/De#<;\h&Gl]Ta#Q&h#CcOV$1A+Ao)ZK/#<g@%#i>l0#7#Qkh\uja#k&!(_#o`;#B^7`ANqWT*g9.jWX!YOAI57h!n1'H#7#AVh\ulW$',;s#7'E2LB59t#?CI($^(a;!K.Q`5G8D@U'GfG!LF#n#A*Kk*:a>W!K.E9B7gN2#7#AVh\um*$+C-C#7"<LT*_u#E!F/c!TFF#`rVM3-OHs_$(hGhYAaZ.#@ZX!(]FY^#7#AV#7"iG`u>?:#:@k*$/YcMFU'Rf32-ogq#Z=j#B^82QNmQNY6i5M#=9dEQNmT79S5P1#7#AVT,S*o!R_Jbf*UVZf*UUHZO,dq#B^7\90Y^p7J8Wsdg("##B^8lO)TCULB<MBNrdi<#8j3A"eQ$B#C6H9!ON$..ZOa[T*KKDE!+Mp$*OZ=!QmFV"8W%jVZE+h#8R4E$aL"[nRW$a#<\\O"0)TK!K._u/C=dm\d*?_M\bG(#Aua,&+TsJ!K2$b#99m2$(hHFYAaQ+apG6XT)m(:#6N$K$)[fjFU*E^Ad8PG$-rh]%gD\Hf5LiWf*TJ(f)aJ0"6pC'`sLXBf*U=@dg=n4#B^8dQNnS;*Rd4Rf*?F'!PAXD'X8FS%gR4^O)P-JNsX\NNrdi>$BIdd$BG4c$BGOTNrkajarp6^_Z?A1#B^8K]E\bpZR*$\#B^83QNmVeQO0PjE!>e=$*OZ=!QkP^.FS<ik6H,7H39rI#?C@#k6D67#6BMb#6C($",[>+VZE+h$*OR?#6j!(<uVIT[nI#3M@#m]$,:E[QNmQNY6i5M#=9dEFU&Y4g'RKY$28BTV[<)ipBgQp*=;HH$24Li!QkLr-]nG%k6H,7f*[QF8d^U[!N-9c$BGOTRN2`rl3`RRT)m(;#:,E4/`R(Y%gR4^Vf2["V[<))VZGBV"hG3OV[BVHf*\D_%goK@YAaZ>$D.P1Q3RGE#B^8(QNm_HrsGA!!JrH9$ASikXp"24#B^8!673*.#6Wff5ahq#!K11Z#6ooIRL]XG"cmU,"SW"j"ci]9QNm`c;Y`NXQNqX<^]N*ipC,(C,o=l?(uGr*)Wre5)[_W2QNm]O$-sOt5Pb]L#7@)Eh\up+!L&-B#7#AV#7"iGNuJG($Ej[A#7:DLVZEV!#9fiL"o8IH567)UFU)mOP;12b566ZIFU*8_h^%at+c0b:FU(j:LBspc#-pl/FU(1<#aYc$mg$<@9a'&O#.G*Ba'/hAmfg0%mfB!^mf`@jpArqTE&%q0QNmeo#6BMa)[Mc88,`b&#7#AV`u>AX#6DgO&E3q;MZJdKo*M;q#B^8+!Mp#+$I9(*a*@iTs!lG(`rV>0#9n^+7J[73!K/t854])Y#7#AV$/\D]QNmS\cO&b8#=9dEFU)ci4PC;N^B=4Lf)sn4\c_[-!LF#q#<:s4Ns>o4#6BMaQNm\O5gqpuh?S0.#B^7hE"8li5FV`+JHp<&"%VoE!eC^!%gR4^kAUQ]#6D[J$1@n]QNo27apIeC!LF$D%$h5"#:^&K<;A5*q['0DFU%r0$24Z0mfiG)9`p^lrs&_r!gd*tSdu"NLB`M7faaV_LBen%#d50S!Mp#+\do,I$AWR?FU&M=$-rh]#6j!(<uVItf1ZDS#6^G$9X+hF5<1<QFU)saFU&!R$&8`j#703+h\ul__ZpDJ_$Pkt#B^7mE&n;t$*OZ=!QkJd"G-ZHVZE+h#<RPE#HA#O!K0"&>5JWPY6T1TE!=r$$BGO\!PJi,#d4SrQZ)ub#6s2q=6g*6Ws<bP#B^8KQNndfmg=gN!Jr01#=%2Q$24IeE!;sHH&E"/#7#AV$/\D]QNmS\cO&b8#=9dEFU(BrL'@DY`rV)W#>N2E$'tm>YAaR&nd2K+T)m(9$*OR7MZquWFU%qu5>oB(W<T@q#B^8@46d-eWX=f.!LF$ZNs?#aL'J:t#B^8OQNm`+apHAp!LF$]#4`)PhZ9&K#9^Vb5@+S;nHR-/#B^7VANpUG#:G-F\do$g$1Dg:$0MWX$1@oHE!;sHhZjJV#6BMbE!2%/*h`ntJd6E'M].uf;o([!W<[PN9+%:c;O/])UBboH#B^8U)R0MC$D.?WFU(RO$-rh]`s(?>9a\WFf)rcHVcR(/Sd=K^f*C16!SLf^#6tRmQO28;E!=r%!TFFCk5gnS-OJ**"g\G#V[%>LH3)e-#6BD]Y!2rR#B^88E!##0Y>526^B)pe#?p6j#-nJVX(;Wn#6s-&$A&M*!K.#a#>(dW#6tKV<pg3)U'GfG!LF#lNs?#a#6BMcDunAt$g%eW#7#AVmi)Sj"l^$u#79R4hZ9PY$*OR?aU-iD#B^7]QNo[Znd41S!LF#q%\=!i#:^&3!l>89Y6hCOaoSLKq>m2h!LF#m-a<uU[g.$\U^EFq[g%EbSI2h5$.g'r!S7[V"e#e-Y5ssp#?79%!P/MY!K/hl6(SD?#7#AV^DdLJ$24Z*#79!$mfB6i"elM6h[0$r#=9dE)[YC,U(7L<$0Q70FU(3u#JUKK#6t9u^DdEU#JUKK%gN-(#KLdME!;sH#L<Y$a*@p)#)Wor`s9Y(N<d3'_@I7[#KLdPE!+f)0(&tjY6T1TE!+f"$ASt\#6BZ/QNmYV^']o%#B^7nl6:_-G6n4-%fZQk&eF/L&&/P!!L+(\%>Pgi!M9_6+r;%s!J_*#!M'7H#j3n1QP]npT,"7E$/Z*m%?Cn#&uPcB*KM)i"MXuCFU)78#QG#6#7%^WB,_,3E&bE>7aVL&#7#AVh\umj$24Z.#6DRY`u>?b#=k'd?Ej`X_Zt;h#B^7U]E\eAo01G##B^8!673)C#;Uo:#5SRI567)UFU&0##77R=(QJO/FU*!*QNpt)_?mCH!LF$B+S#iJ^B'Z+YB]@>`s4(#!PAXD@(AJ8RKms?]4F2-#@4l>50aCUncs:B_du%a#?^[rl44,B$1Dg8$1A2@$1@oHE!;sHk6D=f#6BMb)[Y[4mfs#opI?//H32S&V$@51]*[p,#B^8hQNmT'7ts5/#7#AVmi)SJpBu`^`rXWp#G2M5!P`gk!R_,I#6tR5$,6M;FU*>Q#8Mgq!J^]BE!2%/M@T`K!LIa.E!2%/"+gQG567)UFU'8H5>m%;Xu<ja#B^8PKa6K?6`C:k\Hd6^#B^862OXrEcO%p:ap!A'P6%9V#B^7V4/i>Y$0M>IFU(dXV$@51#7@((#8%<(e7%AB`X7b-#B^7QE&lng$.fLH!S7Y@iXZ@Y$1DgnKaHWA#Jp]HhZ9&K#:TET$0M>UFU&_8"3M,Z"1h!A567)UFU&;j#9`::$)[fj"h+_l$24JL&e4:?%$q1m!R_"s$1@oX!S7YP'[@$ZgBVj+9*qM%415[jed$=&#B^8'*0NCoh?iWQ#B^7fE'f]uO#I?*Nrdi<#6pn.lTYE:#B^8&QNmVM#78u_7iMcl)[Y[4Z4@"l$1Dg7FU'#I$BGDs%gC8uQZ*)-$D.P1#6L52LDpSu#6MUH#6tKV$.f3SE!Of%U(7Rf$0Q72FU(J"$24Z0%gg8qs)8.9-OJrB$,6^3kAq0N_ZpDQM[API#B^7lFU&lZ#;>rZ<0IQ0#7#AV`u>?:#=44R$/YcM!Mp#+hZjJ>"nrrB)[Y[4mfro\$.g+&!Mp#+\do,1$1Dg8QNmPch[0#X#=9dE)[YC,iXZ4e$0Q71FU&8>mjI*"<;U55FU'2`;@'H2YmK<,#B^8>E!2%/".BJ@567)UFU&;Z#7'f)$)[fjFU&Y4+LVL[$24JMFU)'`5;o5@q^1Q=#B^8.-jS''#6pW@JNj1%#B^8?QNm]*)kfIsT*KKDE!<fZ!h'G1`rVM3-OHs_)kI:$Xp9(S#B^8LFU'1]*NBVTk6^m%f*V0X#7:,*mfC<2#<RPE$-rj!!QkGs@^Z<0#7#AVQNq+-E!2=1$*OZ=T)m)4$*OR7#6j!(<uVITFU'%OQNpt)cNcZ8`rVY9#>4RoLBe',#i?R-)[VQ1#6t=F$&8Q!FU'gZ-OJr@*L6ps#7#AV!Ru=o!QGGlY6T1T!PAXD;3i=$WX!YOM]1&8;40WLhZn9/f*T1s%gfuOa)D3V-OHs_F41@\lN_P;b"Fr\#92M2dLQS*$AWR$$ASrf$ASZ6V[A2OLC/e;*=@Q/$AS\O!QkIq</(FG#7#AVNrd-'E!d*\NunUfNrdi;#F>Z##6qp^cPm+]_ZpDL#7$Rr^DdEE#G25*]*#M]#B^8-DuuI=0p)^-UBboH!t)=M#9W(mhZjC/#IbWW)[GO2q@<_l#OcU:FU'dY#M01c#7%^WLDpKU!r<E/#7'F2!JLd1#9TuO'^>pG!K0.0B7UAe%gR4^LN!Lhf3_;SdK,+(!LF#o#@Qsa8"'[*!K0Y)#7&(0`s2il#6thC`u>,q#>FgnY6P;T"lC7*)[WtY9Etf($(hO5^Mj=e#6L>#$-*(5FU'RN$*OR=T*=s.E!>5-^BY(SgK,=##B^8rE&$&W`s2k$#6BM`QNm\W0Y'CKYm5CV#B^7Y2o7Vu#78.o!JLi`$*OR=o*5;b#B^8]E!6"Jf*;W.$,7Dc&IHJ_#8Q)##.b%^VZE+h$*OR?#6j!(<uVIT[nI#3#7Ti'Oq.e?$/]\&$/Z'@$/Yd8E!<f`$/Z'P!S7Y8hb"4<hZ9V]h[/0H!h(,9"8W>]!M9D8FU(t=$'tl%P6V,B#B^7PQNmhKLC0p[!JrH:$BGDslNHYq#B^8IDul+4$^V3u!K[Yd"G[NV[m:(nLC*tbs&X%?Y70S&rsGY)=:C5lVb.,rVZE\&V[B=/!h(,:FU(L;Ad8PG$.fCe%gTQ_hf&bQh[.U8hZ;=8#>3hZQNmb<#IbWY)[W,Ag(+G?$)__FKaF(NQNm`r#IbWY)[W,Ag(+>T$)__FFU)r^Ad8PG#6D+8$*OArQNmTGl3Xp#!LF#lFRogR#:^%`%_?iLNX;UD#B^86]E\c3nRSU"#B^84E!kk@#<IJr#8.8a$24Ie!LF$(#8.@C$ASYKM(]1u$0MNohg#O;#=*hHLBe',#6BMc(;^BmiX1H^!LF$@LBe0Q%gN[RO)P,_Ns^XLNrdi>$BIdd$BG4c$BGOTNrkajap.\L#6CFtT,S,u!Kms"UC*?,#B^8A"d0.paU-jD#B^8_E!4l*"O@=f!S7RK"QB[$567)UFU(+P_$c,*566ZMFU'RP$*OR=#6j!(<uVIT[nI#3#>+4f!eLZ"Y5ssp#<(!;$F^&&!LF$80=_G)#:^(a.=jCg$/YcAFU':N#6L>!$0M>U673)c#A')("i:LeVZE+h\d=u8$*S:N!n%CY!M9D8FU)"459,gknNjKm#B^7oQNmQNcO$KM!Rh8_$(hO-LCs[Gq?H[!cN2HFM@$HrT)m(<#<1TB5Jm_Kap3%o!LF$Irs&ml#6BMbFU'C^$,6]M"bIgE567)UFU&MB4/PUT$JtlBFU'8:#6W*R$)[fj)[W\Q[g*)oiE$s)#B^7]!Q,-IZ4@8n$.j,$$.fL0$.f40E'3Cr;mQef+pW5q!K0mj("!ATT*KKDE!O5d$-rq(!QkK/';GT#[Kgp[#B^8%l"*)"#;iSW8@AbG!LcYGFU'_O"H!]p%g:d/kAUQ]"H!]m%g;??pM^7m#8,\n!TF?,`rVM3-OHs_%\Etm[nR*gmfT9e$)]3ZFU)OC5:5%gc4e&f#B^8TQNmbQ#77:/pDXFB$+C-C&,B9GQ3VO;i_)KP#6q^Hq@<gR!fq:&f)b>9iW>/A!LF#p#:B./dLQS*$.j+s$.fL0$.f40E!<f`$.fL@!S7Y0f1HA,f)_cU#:"d+)9N2,M.I"n#7Rq%#-nJVo486+#9)Pp#8.8a$BG4S!LF$(#8.B1$D.?cFU'[k#7:,0<oX4nFU&u8Vcr<i%GFG]FU(Fq#8"$C#L<Wta*@p)#Hn@;Jd9%0!LF#n#<p6o7f*F5#:^&+)[W\Q[g*)o#?MiN$+ES5!pU)aRL-`J!LF#m$*OZUT*I\1E&lVY$*OZ=!QkH>!l=u1VZE+h#<JmlY6P;T"nrrB"9/Me^B*Ll>7%b@k6]11`rVb:Nsh9b`rXj&9Ete*$(hO5^Mj=m#;;q\#GMHGmfAa[hbh)o`s4(#!PAXDB%@16_Zt;h#B^8PE"mm7V]Pr;VZGBM"H!]j[fN[O#9a<QFU'7G$0MNu%g_&3mr0_-mg6`8mfD#H_ZpDQQ3l^T#B^7j)[Ft"hZjCq"Q(.'E"7a9f*;QD#6BM`QNmbaB?i^B%gR4^hf&bA!iIsY!oF%1QNmZY#8o`,hZjC/#IbWW)[GO2q@<VA#OcUcFU(Br#7[pC$BG58FU(Tu#N#akq?I%T!LF#m#AE?dNs>o4"nrrC)[_o:$0MW@!S7[NU(7R^$E%hH673,$#;c>a!h'@:`rVM3-OHs_?L\7eq?M-J!LF#q':K6JcN0@;#6MaK$.f3E$-*,8U(7JY+%L9=7fh3hQNmeJ:>S29#7#AVcPm2R9Ete'08^)!k77mV#>N2Ek6D67#.GNW!W35l#6tK[#j25bFU(V.#=HZ>rs&dO#i?R,)[V9)#6t=>#laqCE!2%/"JQ2%567)UFU&_CapF[F$.!Pm%$(JYpB[Bc@go79%aP0J!LsMK!oF0JO";?XNsX,8&!(Q."LeDu!iH(P)[Xgqf*;KR#?MiN$.hiU"3LqBZO,N.#B^7U#LWpFiX+L]!LF#l$-rq@T*I\1E!>e=$-rq(!QkPN-M[\7Y6T1T!PAXD6+/_'iWjT2Mb]ig'\5JLOp?+7MaWj='"1"*Xp9(Sl:X>h#:bH]#1<a!!K/bR#<\27$*OSVT*I\1E!2=1$*OZ=!QkZDY6P*#"lC7*FU)<G#6L>!$-*(5673)C#8bMf$)[fjFU(e>QNn-.#79i"!La@fdL"5)T)m(L#7BDs$'tm>$*S:l"7cc%!M9D8)[W\Q2R*G[l3DG:[UhZ,#7SmF$-*9npN&XK!%/QhpBM$!CW:c/)[V9)Ns>sJ#.GNX!Q,-I#20B=567)UFU)]U#;MDI'#Flren#2D#:]@""nDn@567)UFU&$G$*OR=#6ji@<uVIT[nI#3\d=]0$,:E^QNmS\Y6i5M#=9dEFU'&*qB<QXmQW]o#B^8U&&JXn#79R7k5iI*$0MO"^'27j#B^7q)[Mc8T*GV1!iHtCE!=ApQNmeo#6BMaQNmZa%J)db#7#AV[i5X?$(hG-%g_VCVf2dm#:%=s-]nXVnk0:e#@3659U5p+ap3%oMaNCGZO+YQ#B^8JKa="MQNm`r#IbWX)[N&@dLQHS#cDVCKa="M6-0?4Ta,]F3A8NT/qF>LiWjT2Md<"a/:g"dLBhr,dg>IE%gn'mmh,rYOq-X\hZ;.+LC)iCLB6!6$AV4\$ASY[$AStDLB<nb!Qm_9ElJ-Ped$=&JkJ=*#8ZV9*jQ#nVZE+h\d=u8$*S:O#GMO.!M9D8FU)*F#:K'IJNj1%#B^8?QNmS\cO&b8#=9dEFU)Wh#8?,&#HA#OZXjH`#>D*!9q)B1M?e8/en%&r#@XZN8>ZW7'T,OJFU&))#83=-M@Tr7$--uf!RhQl`t&L&#4E07"H!>;%K?IW+U8>*#6L>!$/YcMFU)UZV^K1`cNbp,9b6+i!hTUVVcsJ2`sT!VY5t4&VZkBV`rXj($+C-A%ge:9^MkjC$*OR?RKikI!LF#o#A]Vi#6tKV</Uun#7#AV%k%MZE&#3?2!Y7!Ta,]F#B^8`$-,E-c=E>S#B^8M#Drh[Y6hCOarfmT#6CFtpDXFB$+C-C#7"<Lp'J3%#B^8HFU'Pr"H!]p%g;oOLN!BR#7$Cqq*+nH#B^8LKa<_E#<E(jUH\dG#B^7[]E\cCkr6cd#B^8V!i--p$i($R#7#AVpDXFb+pjkF#79"$<uVJ'FU)$4#77R=CZYZ1FU&E(58!JlVC[Tt#B^8pANqol?.Mu;Op?+7Me:WIL'bm$#B^7s90ZLa=n>))#7#AV-R]8(!TXO$#7:]^Q9PD:#B^7S)[Pm;pBLu]"K*1E!Q,-Imfs-e#i?R,)[Q0C=/,f2#7#AV!JLfG#<8"S$(hHFYAaR.\d>PHT)m(S#6_=5$)[fjFU&Y4$&8`j#703+`u>>G_ZpDJM@#%=!LF#p#90@$9oB7!#-pldFU&AQ"H!]pnd!cc!LF$6#AKSj$'tm>YAa``iX)dpT)m(9#<UT>pBLqG#IbWY)[ZNLg(+M9$AWR\KaIJY0A?^4#7#AVT,S,u!Kms"k6dPpf*[iNQ3rrZ#B^8+90YhY)jV37#7#AVQQ$7g$0MNp#78]qhZ9PY#>Xt!#HA#O6'c(HFU'k9"o8`7\d=F:!LF$2#?6mOk6D67#IbWYE!"`($,6f8!S7YHg(+MY$28B?FU(Ij#aYc$#7%^W^DdHN$,R2SL'X\r#B^7R)[_W2$C:uf(C?]Q$BG0/)[Z6Drs&ml$C;\<e/YFmYmK"_#B^7X673)c#></D8BqH_aTlqn9*qLM"h$G>T*KKDE#u:k$*OZ=!QkGKE5;RI#7#AVQQ$:($E"+1#7?e:T)kbn#>0m]'^>pG:P!(AFU'D^_?lh>$*S:M!K%2e!M9D8QNm]jg'Oq`!LF$;#.b,M^B'Z+Y9/Z/[g+AhH3:MZ#7&!K#;QN-\N^+]#B^8*)[MK0QNmc)#.GNWE!(t.Ns>r_#6BMaQNmQF"e.^Wl3DG:AI=21%]^>n#7#AV%fsKOQNoVCZ4@`P%j,aQ-ZB3GE!2%/#84p-`s2il#6BM`)[FCgcNa]a"KraLFU'.gQNO]%*/?oh)ZL6?*1m8O52oMlZO-@.#B^7e1k@jM$-rX1FU)%=Ad8PG"H!]p%gi8TLN!BRQNqgDCl(@WL'Mi+\k>84#82kBmfs)?"32>d!Q,-I"c<TK567)UFU'&JQ5T5uVZD]k#<.8A/b93i56D,4FU&#R5:4ATjs%Z8#B^8mQNmQ6Z3gO3!LF$]$1A4V#6BZ/QNoR_%ght2s)8.9#>Mf:$*OSVncqK/!LF#o(uYe!M?e8/!LF$$Y6PB3"nrrB"54'R#77kY<uVI\FU(sU#=Xp`f*;P'$-*tkE!2=7cNad6#6BMbFU)p6$*OR=T*=s.E!Oet^BY(S#?MiN$,9.=QNmQNY6i5M#=9dE#/U\=Y6hCOaoUc6ecDBD#B^8CE!"/m!p9XB!O3*K$a0f5!L*Vo$,7h`T0re5"H!]q%g)3=pM^7m"H!]kR0*D-#B^7`FU(U`o+[&e566[3FU)Em$BGDs#6j!(cPm4XU']uh$D2Ar)[`bRT*G\S%gN[RVf2g6-OPnA#6P2t6LtG)\d*?_q.2bk#6VD.$(hHF^Mj4ZQNlmb"Lh)+#-S'eY6i5u#=9dE#FYskP6nF3#B^7e)[Y[4Je&*q$1Dg^$1A28$1@oH#B^8[)[Xgq$(hCqf5NX:$/Yso6EXB/#7#AVpDXFB$+C-C#7"<LQ3k#o#B^7P]E\c;o-(.8#B^7Z#A+2G"KDd#Y6hCOap%VJ#6CFth\um*$+C-C#7"<LT*_u#E!30I!h'G1`rVM3-OHs_$(hGhYAa^*3XMtr!M9D8)[W\Q[g*)o#?MiN$+ES5FU(Tu#8j->$(hHF^MjI1#6L>#$-*(5673)C#6Wrj$)[fjFU'7g"H!]piX)N%!LF$-#CG#dpBLqG#IbWW)[HBJRL]Of#`!@(Ka7>W8WsA[OU$"6#B^7fKa6K?hZjAe#IbWW)[GO2$4dB&#7'^:!JLd9#N#ak#7%^W[i5S8!eLpaM[/]i#B^7b#A+2G%He8b$*OBY%#5.UQON$idKI,hY7$s'ao_DGU&gke!LF#o%Y4qaap3%oIO2iY+7]`9Vg]3*$'tl'%gN,hQZ*(b#B@9\k6D67#IbWYE!(\&$,6f8!S7YHJe&1V$28B@FU(3p#6h+4[QaeZ#B^7\-M%E#$C:dOFU(jBVa^.])>dtOFU'D.#9K<=$ASYKQNo%`pBlr^!Jr01"elM4k6_0-#=9dE)[Y[4$.f@<mrJO##70Gu#6tKVcNa\e"nrrB)[Y+$hZj>*$-*tkFU'gZ"8<$*#6t9upDX4\#6MaE]0?=_#B^7h!k\^2"M+ha567)UFU&PF#6L>!$)[fjFU(1b#9pJZ$D.QG$Kl@Paq>'EnHuH##B^8)#([$U$GQV"FU',F$3(58#6OW=$3*[()[Z6D(@DM/Op?+7G!Y-m5fO,.L'Mi+#B^8BANrP^<h<@^%gR4^^MjF@0++<Y`s2X%9auja4H]jAV^W(Q"H!]s0++n%$BG0/e5PlBo*UNZ#B^7_FU(`t`tH5o&W('*FU&HCeg]#P566[lFU(*r"H!]p%g85<T5Xpj"H!]maTSM\#B^8B$)_F5dlGiL#B^8#673)cg'O)N$.!Po!TFF3!M9D8FU&;4#7?n)$24IeE!;sH$0MWpJHnLh#B^8#2=bkGW="D@#B^8T)[Xgqf*;KR#?MiN$.hiUFU'>\_ZpDO%gSF%QZ*(b#9KlMSj*7B#B^7n5h\]lp'Ru`#B^8<)[WtY9Etf($'tt-^Mj55#6L>#$-*(5FU&6="H!]p%gJYFVf2cr"H!]oJHi;s#B^8<FU&W&#=O[ZNs>o4$(i.D$.9.;%gnYBT5Xt.$BGE!UB^gR#B^7u)[Y[4l44-/$1Dg7$1A28$1@oHE!#;8-h@Z=iWjT2Ma*[=YmI</#B^82QNmPccO/h9#=9dFFU'S1"H!]pG7'CM!S%O<"H!]p573Hj!S%O<#7\9M"bHu%567)UFU)H6k77LsVZFg?$'tl3QNmb&#3Qp3)[W,AV[!9a#6C8",D&I<V?s/L#B^7W)[NVPM@Tgh#e+aUE!;sH#c@sCi<M[s#B^8=#B^8UE%m^k#=,_9aq"`"#>]:D%i6Wq?Z6.*FU)W`Ad8PG#?79"$(hHFcYs*BJdKa0T)m(?#=GNm$C;!?#C6HqQV7VhQN<E[#6E?^FU(b2"H!]p#=:@gOZrl5#B^7fFU&\J$.fCe#7"<LT*a+CE!#S:!TFFCk5gnS-OJ**!p^(X#7#AVh\umj"I]i,k6^m%f*V0X#7:,*mfC<2#6Xf/$1@n]QNp$TR0iTg#B^85)[Ys<pBM#&$-*tkE!6"J$_[n,\d*?_!LF$N#90@$$.fE)#7!-l^DdL:$0MNt#79!$hZ:V"#;Z)]ndbtJ#D[7#)[DE/QNm`0",@g#FU't!$24Z0&d7YBrrJGkQNn-0p'QQU#B^9"QNmPk'(\<g^B\ldEu)V!7#D>L[fMg#$E"+9rs&c@$E"gLFU*8JLFJMo)<sj%FU&kL$-*8U#6h"E7iMc\E!Ela$',DE!S7Y0#6tRe$-rXKFU&M258Ca7ffT1EFU%r"f-e-760;_bFU(ajdKuNN$.!Pl#)W`5!M9D8FU&qY$24Z0%gD\Hs):5t$ASim#6DRYcPm4PV$@53%gn'mO)P8s-OKMS=f)Ej#7#AVpDXFB$+C-C#7"<LP6n]l#B^82)[ZNLq@<h?$AWRD$ASr>$ASZ6FU&W8Ad8PG#6sGu$*OArQNoY<JdJme!LF#o5gp%S#:^%`Ibk<]mKoe7#B^8*@eM89$/YcAFU&nUAd8PG#6j)lN^!Q2#B^7qQNn=acO'%@!JrH9[gC@c$-.;tFU(b%$I8q^#6j!(V],up$Ju'qV@&Y/#B^7W)[W\Q[g**2#?MiN$+ES5!oaNYiX*A=!LF#l(>]A<[Kgp[#B^8C673)Cnd1Wf$*S:M#Drhk!M9D8)[W\Q[g*)o#?MiN$+ES5"7cbbRL-`J!LF#m.?OqW#7#AVh\umJ$.fCc#7"<Lfa68(FU%r!56p0QL4#:u#B^7^46d-eq?i"!!LF$SLBe0Q_$:PZ#B^84eI%X=#5SQ*567)U+U8@8#8jcPC"<N3Ta,]Fb"Fr<#Aj2E$3(6Q#6BZ7)[_?*#8.1.$BG4S!LF$(#8.B1$D.?c!LF$(#;6F^mg=gM!ON(<$24Z0OU(V"#B^8_E!2%/"H!^["d2Z#567)UFU&;j\d>PFT)m(<#6if^$*OArQNnT.ed8ed#B^8_Ka6K?#7:\:L-G^*#B^8k$)\]QfiGq##B^88$ASh;WFLKj#B^8$)nuISY8WH_aooin#6CFtpDXFBOpR`a$+FjW)[X7a9Etf(!TFF#`rVM3#;"F4%^H=^!K/Mp#<eJ>0B!.Y_Fk35#:Ajd$'tm>cYs,H\d?[hT)m(9#?0R^"e,a>QNqX<E!+f#$*OZ=!QkJ4"53dJY5ssp#6ENb$+Br%!LF%#:&YI6#:^%`$,8Uu(p4)nOp?+7MgC*^\I-(P#B^7SFU'GeV^1g<.?e<LFU'GoVa-(D-c/L_FU',Q#77R=A?GsGFU((d#;C]6#;QO,$,6M-$*Sip$'tlHhf&Xc#6L>#$0M>U673)c#?0Rd%#Y@5#7#AVpDXFb\d=u4$.j,$)[YC,#@Em#)P77W^JkBoLDc-lk5gPENutPEf)_HS#@#jt$*OSV])fPL#<(EQM@Tr7$1Dg9E!2%/"d02drrJGk#6j)n$ASYK!LF#u&W7!W#:^&[@@9C7_*7sY#B^8u)[Xgq&$H/oLJ8*Df*[QJ^K4VGScjfPk6A[%faINW#71>1$.hiU"nDtlRL.kj!LF#mI*N&]#7#AVh\umJ$.fCc#7"<LQO28;E!M7,!h'GQk5gnS#:"s00s1b(ed$=&l:X?<#:KBgcNa\t"lC7*)[Y+$9Etf($(hOUhf&gp#=n:j;W\4,56DVr#6BUZ$/Yu1\H0>J#;5T^f*;P'#IbWY)[YC,g(+M1$0Q71KaH?9#Jp]HcN0@;#9frN",@,(=%rb"$3(3jLBk:mSdacdNt9hCfa"DX%g0iQLN!I_LC)Q>LB6!6#7,kf$,6^fa)aQ3*spO*hZjB-#PT/D)[Y[4#8.1.$1@n]QNn8:R0iTg#B^8D$25+Ml#,`s#B^8u)[G7*k6D7$!N-kAE"mm7.$4c'q?M-J!LF#l%ak[(cN0@;#6NTc$.f3EFU'8j!J1geT*^9lf*MBY#76.dh\ulW$',;sq#^"(#B^7f.ZQdJ@Y$aeR0Rj>""*Ra#>:aT!La79d:EW^#8a]R$.fE)O)k?m#8k;b$D.?cQNnSsNs_cc!Jr02NsXtSZ2pa.#A:RJ.Cob,!K/n9*Rb=miWjT2gLWSW#B\?@`s2il!Oj!R)[Oapf*;>[#eq;a!Mp#+%(QYi#7#AVh\umR$/Ysn#78Ei!La>X$.fCeSd,:M#B^8PANq('3:SH@#7#AVh\ulW$',;s#6M(JLB59t#8$J5#6tKV$D.?qQNo^c#7@@0!JLlI#;iCb#6tKV$,6^Wa)aDlV$@53d0[ho#B^7k#A+2G)[W\Q[g*)o#?MiN$+ES5FU)%Emnf#L/<WX4FU(LK\d=].$.!Pl"d02<!M9D8FU&i4#78]]$-rY!QNmPc#78u_!JLj##;r(X#6tKVrs&d@$(i.CDunAt$24d^!S7[6\do.'$BK-0#6BFJQNmb<!rj2H!J(I\+jLF]%gR4^kAUQ]#7&*P$1@n]QNoV3fa7BR#B^8"7.E10d6@YiFU%qu"elM4cO&cR#=9dEE!2%/"MtJkf)_3C#9VD$1\q?!5B[=uFU*'*mj[6$KV;r`!Jc[9T*KKD^Mm?_#6Efj$-*(5673)C#:Hb]$(hHFYAaW]U'\"0T)m(<#=#WtQNmb<#IbWX)[N&@4RrR2VZE+h#aYc%f`qP3#B^7[*3U",Nt7RS<t2&6*fCQtXp9(S#B^7t$C;*T$C:eFE!;sHNs?#a#6BMcFU&*/".'5tU(;`%".sN;QNm]bDUCZL%gR4^^Mj=5#7$\(Y!2rR#B^8.d0FLei<P,=#B^7r)[Pm;pBLu]!gai3!Q,-I($5ej`WpVk3>C`u7+hme#7#AVhZm`u!KH4JOU9&;#B^8.Ka6K?hZjAe#IbWW)[GO2ndbeg#OcU9Ka6K?"8W6'567)UFU)WK5=Nj&)RFHWf*?F'!PAXD2;n_!#7#AVH3\$e567)UFU&2,#6irh:50!r%gR4^O)Q9=$3(5;OTto@FU%r+N!57IncsIB!LF#m#B0<#\do$g"-7C(E!2%/M@TfU".sN8E!2%/H%lF!#7#AV%gQ\Of5LkM"H!]rd0\]L#B^8."4@LJiX*A=!LF#l$*OZUT*I\1E!>5-$*OZ=!QkPF!O;`uVZE+h!Jc[A#7#AVpDXD,mfV/B%ED0H#knl(mg.NLScd";T*_Crf`ggJk6G&hJHlbm#B^7k<Ug?`$)[f^FU(s%#KI&S#7%^W`u>90!l>HM#7&k"!JLd!#6^.o$',=6^N0d_"-O0$#78^q#8%9W)[XOi4eW1[#7#AVNuJGH$I8qa#799,`rW"A$C:u)JI9F:#B^7U]E\bp!Jp.EFU%uNQNn-.JdRhF!LF#t#8.B9$E!okQNn"p0++l`$BG/lpAbF'$.fCg`s2hS#6BMbFU'qKL()30566[aFU'V/#hK:d#6FQ<V],p!S-\9Z#7#PVhZ9PY#=ss_$-rj!UB/"4#:#fA$*OSV!QkZ<(m+ik%gR4^T5Xpj"H!]sU'df;!LF#nCU"5Mg';a*M]\]]1q>gO%gR4^O)P="k6]HANrdi=#C)79$3(6QR/sr*#;V,Ak6D67"KraO)[c$=pBM&'$ATQ-FU&q<#ClOS@Li]d%g:d/kAUQu#6t#-q*+nH#B^8L$)^h?hF$!i#B^7data:,cN0X=9`aDf"31S#hcgDjLBbd&?NH`"#k%uD$hj\T)[WtY9Etf(.eX1X%gR4^O)P8s-OKMSCq0d;_Zt;h9*sbr*o7F=Q3VO;"%J.T#A(_9@b(d,ncs:BMa>'BRgJNa#B^7PFU*5Q57<VZ!JZ>?FU'(e-OHs]"53uHVZE+hg'O)P$*S:PFU&#/)OG(A$1@nm)[Y[4#jMTfmfAa[RL.RP$28KhFU'5OrsA]1LB6!5"elM7#7?6*!JLjS#6EK_"0)TKVI^(S#76t?311"oJHp<&cN>(-!KiKN#7#AV[i5Y:"Nh5[^Bs@Jf*UmP%gh\*pM^8X$0MO"p'1VP#B^7PXTo14k$Rf_#B^7X$)\?cZN6Lf#B^7oE!2%/#5SZ+LB3_H#<04$$BG4SQNmPsfa=&H.LLq`V`a2K#-pl.FU**hQNn-.&deR=LB3_HQNn-1&dj[#QN<EX0+%@[#6t9dmi)T5#<h&L$ASYKQNo,%P7!?O#B^7k!LF$H(kW-m[Kgp[FU%r"5:#4np'8cP#B^8]/XZgc$/YcAFU&6K#?@?#-1V:`!K.K1%_2nD#7#AVmi)Sj"c<fr#79R4hZ9PY$+C-Gq$Gpt#B^86!LF$p#@GJ82hhQ[#7#AVh\umJ$.fCc#7"<LT*a+CE!,Y;!h'GQk5gnS-OJ**&^(DGXp9(S#B^8L#J(5.iX+L]!LF#l$-rq@Xp79@#B^7g+414S$1@nQFU*AP$-rh]#6ji@<uVItf1ZDSg'O)P$/]\(QNmS\^'Ws'#B^8$KaHoI:%eemTa,]F#B^80E!=)h#Kd:d567)UFU'V2U'[Fs$.!Pqb$#+t`W;\4#B^7i"bI&QY6hCOaop]1#6CFth\um*#;2tZJ;skW#B^7P$/Z'8$/Yd8#.FW*pAqHl>7'Hr&'kF:!M0eYVZc/f`rXj&$1A*.#6L52f,G%jV$@53%gh\*pM^88"elM6k6_0-#=9dE)[Y[4mfs$j!gai4)[Z6D#6tRm$1@nkE#=`KU(7S)$3+rJ673*&#Be;s,H:uk!K0bI7+M\%#7#AVNrc'^"c!<dh?ArZFU%r)9Ete-!TFF#`rVM3-OHs_%/'om#7#AV!JLiH#6L%nTg&RE#B^7g)[Z6DOq.nl$D28<$D.Y!$D.@NE!<f`$D.['!S7[NT1THgT)khs#:.Cu$D.QGkAUOW&dme/$F^&YFU'Sik6LG\Y6!)^f*S&U#cA:F",[Mj%^uJe23J9L!M9D8QNmW`p'IVt#B^7f/(mA6Y!2rF#B^8`9h,6Yk7$5i"nu4-SnAM!cN^iZf`J&YM?D0*!LF$)$.fLPpN$B+#9N^J$ASYKQNmoHpBlr^!Jr01"elM4k6_0-#=9dEQNmQFJI137#B^8#$)]Y4knAtd#B^8W)[Y[43V!@JmfAa[RL.RP$28Kh!Mp#+U(7S)$3+rJFU(@_QNn-._?/$a!LF#lFU&dK#QG#6#7%^WY8[b&!oa^k#7-B0!JLdY#8aWMY6P;T"lC7*)[WtY9Etf($(hO5^Mj;7#8t,[Kt.G2.LH+U#6L>!$0M>U673)c#7A'J#6tKV$C:diE!)O>U(7U'$E%hHFU&/F#C?(K8>6?3pApTc"elM6k6_0-#=9dEFU(mn$'tl%:Q[ji%gR4^kAUQ]#6s`)Y!2rR#B^7f)[_o:#6t:U$C:dEFU)!&#79i($1@oAE!;sHk6D=f#6BMbFU(a"$*OR=#6j!(<uVIT[nI#3apF[H$,:E[QNmS\Y6i5M#=9dE!r<4qY6hCOaogW0#6CFtpDXFB#C>nDA*sSEk6H,7#=9dEFU'@H$BGDs#78]qLB44V"elM7OU@.g#B^8L)[Xgq$(hCqf5Lu3$/YsoEVWZT%gR4^a)EM[$1A**#6j!(QQ$8*$3(53#78EipAq)q#9D1udLQS*$D28<$D.Y!$D.@NE!<f`'<qnB%gR4^[r=:;*i]_W#78.a[fN<1\d>hP$+Fs_QNmS\\d?CX!LF$Y#:Bi(#77j>#6tR=)[Vi9RXkdK#B^7P"6'WZY6hCOap.DCnc>?`!LF$=(uYe!#7#AVT,S+2#8-A2M@Tr7"fH;BQNm_h[g,+uY5t*r!J\#d#7#AVD^Y^c!LF$h!J&9V#7#AVLDpNVJHlD__$Jp!#B^8=#A+2G#/U\5Y6hCOap%>B#6CFtpDXFB$+C-C#7"<LQO1,pE!F/c!h'G1`rVM3-OHs_$'tl`YAaZ.g'OqhT)m(:#6Efb$*OArQNmc\OpSSu!LF#o,lS+b#:^%`FU)aA#<L6;$F0nZ!K.6<+diY7Ym5CV"!Pf%NLgHs#B^7P*QJ3TpB&r2RhPN0QO08bWY)]IY7(@2cj85-`t,ocSf,!B#6q@4#7"iGpDXG-$24Z.#6i-ek8Oa-V$@53nd5$k!LF$NU(7S1$AWR(FU',DA]Y/^$/Yd5FU(G$*!P4)M@Tr<"nus=E!2%/M@Tmj#)@.#QNmQ.QNo_UNrb^S#>EtYhZjC/#IbWW)[GO2Z4@%u#OcUYFU)*1$,6]M#7"<LRL-`&!LF#m$*OZU+pUF^VZE+h#A)`upBLqG"nrrBQNm\WY6k40)@D6*#8H#"%^H=^26g^WFU&DmnO'#U566ZuFU';1V['4,;q>LdFU&oFXq@rE566ZaFU&o[#j2Et#703+Y8[c9_ZpDL#70Jnh\uja#=c--:Oran7(Q#UFU(0d#79i(6MUYpFU'mok=DTX(]ItP#B^8sQNmQ6dL"e3!LF#r*7bGZ#:^&3ANr&(LnRP7#B^7P$1A)H!J]QEFU&ZLZ3d-.$.!Pn"2YAj!M9D8FU&),!Q#?Pc3gIg<!o6M;t13mY6T1T!PAXDBrM6LaTlqn#B^9!)[WtY9Etf($'tt-^Mj86#6Efj$-*(5673)C!L*$Yjp-#6#B^7XPb'86VZD\V!K-RWM?e8/Mab?7@^\K%\d*?_Mg_igQKCC4#B^7P]E\e)N\AKT#B^9$$)[k(mP]qqFU%r$f,U+^"M]4&)[Pm;pBLu]#:CGrmfC<2#BcF?HG0W,#:^&#QNmQNcO&b8#=9dEFU&;<OY<..!K-u1#<@N')nuW#he`VU$*ORD#6j!(<uVIT[nI#3OpR`e$,:E\FU)I.`WbW4!K-u9!L`@?i<OK1#B^8c$-+%>mT&+TFU%r3#7?4kJt<"U#>4+ZpBLqG#IbWW)[HBJ_@Hda#`!@IKa7>W6BVQS567)UFU(XLmO4e7566ZFFU&/hgCCe"VZD\V#;`%[iXZ9:"35?]QNmcl-g!Vo[Kgp[i_)LJFU'N($1A*(f*(O]9ag\!cOp9I$25kYQNmhK&deR=LB3_H#<9j5$BG4SM(]2(pBLp("Rd99FU&`^mLnLaVZD\]#;Cl=$(hHFYAaNbM@$HmT)m(:#6`0M$)[fjFU'#>Ad8PG#6rle$)[fjFU';!#7&rf#<r6U!LjD)En1Q#ap3%oMZN5`fa4PW#B^7])[W\Q[g**2#?MiN$+ES5!l>89iX*A=!LF#l$*OZUT*I\1YAdYORL-/(T)m(G#9`R<$)[fjFU';!$-*8U#77:I^DdL*"SrW8#79"$!JLj#dL!Yn$-.*Q`rIJ'$-*8W!Jd(k90WIKS?Wt&#B^7PFU)0.iX)4^$,:E[QNmS\Y6i5M#=9dEFU'=gnJ(g)VZD]?#@tXW$F0nZMZJd^^'U\<#B^7Z673*&!L(e6U'GfG!L_UUOZrl)#B^7U21e].M$^(?#B^8C)[ZNLWXf?D$AWRh$ASr>$ASZ6FU)^Ma!UTe0T&L0FU)1>Ad8PGQNn-.%gh+okAUQ]#;N@f/D18N#7#AVLDpQWJHlD_Q3lFL#B^8r90[9R<5'?8M?e8/l"*(6#<Ud-:q6gR#7#AV$/\D]QNmQNcO&b8#=9dEFU'8hM(QjT566Z\FU)<j_ZpDO=pXQt567)UFU'AhQNn-._?uV1!LF$S#;6FVk6_.g!ON(<$1A*(#7'uBmi)T-#8k#T$3($mQNoLmdL(a1!LF$X&rI$WQN<EX0+%@[#6t9dmi)T5QNn-+`X7J%#B^8dQNmbaJB:"V#B^7PKaF(NQNm`r#IbWY)[W,Ag(+LF$)__FFU&bt#78EUOcBIT!Lh+2T*KKDE!G;.!TFF#`rVM3-OHs_$(hGhYAaO%#7&og=k3h#%gR4^a)D0=#6h+6$-rX=FU(j2#6_UC$)[fjFU',)QNqgADV75T`s6_lE%@Xh$24c#pN&0c1l;eM#7?6*#8%::E!H.L$24c+!S7YP$24c+pN&Rq!L&'@#7#AV#8%<8E!;sH$BGOlrWbb;#B^7o)[G7*k6D7$!nS@rE"n`O(7>Erl3DG:!LF#oY6PB3"nrrB3SFe3#77kY<uVI\^J"k;#6Efj$-*(5673)CiX)4^$*S:N6BVYY!M9D8FU'YX#=YTs$*OSVklJF%!M&[Z#7#AV$,9.=QNmQNY6i5M#=9dE!m1hAY6hCOap53Y#6CFth\um*$+C-C#7"<LT*_u#E!"/gC$l;B%gR4^LN!L`"H!]rRL,$o!LF$&#6jN[Ss]h+P"S"?#?TkE=mcN;_$>)f#B^89)[PU3mfs-U#F?A8!Q,-I"i:Q.567)UFU'kN#fd/T#6g/-QQ$4V_ZpDPR0^h6#B^8fQNmQNY6i5M#=9dE#6CUf#;QO,$)[fj#O2VfY6hCOap4@AQ3!TY#B^8qQNmT_T*_CrE!##*$*OZ=!QkW+(uYLfY6T1T!PAXD/B0KnY6T1T!!!!"aoDDA#g3;9b6N.pi_+1n#6p)U2[9S1+*SeGZNgN8:K2N>FU&#d#7&rf#?Lqm!RqJR#712cNs>o4#<*S&58sWi)ZcQ9#7%SB$G-OcP"Ph2#6TT8"Kr&Q^J,#iG6b;P!Oj^d!M0J(%aP<6QN>c8)h/(s!J^n=G6^>O0*_^oK*QT>0*0Q-FU&'(#6aT&Z<mX!!LF$%#6KcqPA^Jg#:a'e!Po!G#9<R^#:BP="H"caMCgal+U:47#92(rP",P>!LF$3#6W[U_H-c)!LF#t#6TTc)Ard&"m^(/Z3PLW]4Gmb#6BA]-RT.A/Xc^2QNo"7-[/&]is,Uh#B^7U2]FCTFU&3,mgdYK%C]%?%.=7d#3o8=?NHJuQNn@j"M8:IK*Nl-9*'eK!fI]&Op?+7!LF#r#7&+iK7<og#:aWo$`=WhneBDFMZi>K!eY[to*9CC#B^7R#1j=9$g.Pc[SI$m56q2h%mUHI!RD/J%*&C#!Oi-&QN>E'L^^0f#7^D.""tU+D[1CiE<3]W#A+2G#e()C)@t_"5:Hf?QNm_P!Np>A#mYSXDZ^T/FU%uaAd8PG)_VF$e/JW7!gYJ?RKms?AH@QL#6FgA%gN>^lN[HX#B^7RQNmQF".Np(;$SRP56l<92Z]s<FU%u+)a=Q4#6OK5#4De>^J+cj2[H#Y$HEre!M0\n$MO_M!SI\/"QK^Dis0]3#B^7Q!O*(f)g;MlJHlE5!eY[t0*cV)#6D%F%i[G4FU%u+]E`?[ZN@H6#B^7S!O+5$STf8_#;2_O2_Ptk,O/eERUcXFpCrZD$b%bn#_rZZ&'"^)#N#Q;(68u:^EOTRk7=a5mfBL3k66VH%*paP#B^7r#A+2G$GQ\0U'&/).1<UI#6DG<#?M.Q"-*Dp#B^80Z:f+G#6E*S2[9S1"+s)[#7#AVB,^lL672ep#6Xr1#8.8a?7u>G)[CKjnHX1A#B^7P!i%L@JTh-Q#B^7R!PAY="9&ALncs:BAH@Q3#CZ`O#9!hiY!2rR#B^7P9*'f#!J;BW\d*?_MZJ_Z#<>id7lLZq_$:"F#B^7S%i[G42]FCT#B^88!M+FY&'#L'-XdOX#epE'QO!OD\HSl3hZobSXpsh,QN<-J^Ii\ZrsG)"#,aNidNVI_#6V[L5;rgihDYJK#B^7R!O+dIYX`%*B*SYBdKGFZ!LF#o#=+GjMK])f!LF#pDZmn+!r`ES8<QVaFU&)A]E_dK>6F*jJd6E'Sn2gFFU'f,Ad8PG#6h@;1m/)dTk+7[#6Knh2[9S1"0*F^567)U!NS.D"h=jsd5M*U#B^7P#A+2GFU&)\"pu(M!p9W;$U7!?!N-!o!!!)<f`2!P!J:I>1C&%-lN_P;W_6+g#6FEF#;6=)o.L-k#B^7PQNmbY"-Z4U#6u_;QS0:Z9a(2!"m63\`t)B]Sd:AZ`rYo8f`]%u#7/'F#9Omt#6tiBo2cka#B^7P#B^8M"fEE&!T*pcZ=F1VQPnZrLB4ajT+'TZ"P6WT*:FmI'"7n](?Z1j#KHkh"O@[pcPPIsYQ^X6[g;-tXpE&Q#8ut2#6C2&!Po!G+U9)*#8<g:K-p\d#B^7PAPXD:!ODg-0*cV)#6D%>FU%rRAd8PG#="pf5;rV0#6D%F!O*Y9[6I.dUB/gE#B^7P%^ukemfred(L%s`"fD^B#+#@^!Ts^V>AjPq;[7FM#7#AV"H"caQNmc$%%9*U567)U#B^8+RS-F<FU)M#:FW:K#9b$t:EBa`#s5.[2[=I14or;$FU%re:BA$3&HV<2hZn9/9a9bf$hk+F[kCrMSd^Y]f++DRf`gOL#6NKX-O4QS.-b=J!S7J+iX;)I.0HJ!YV/3g5<fAR0=h1T0,HhX!O*Y1,!S9s56jK;&F(>R2Z]6MFU%r8"pPMA$U4^U!!#AJZN't*#@di$2[9S1!hoo32Z]g8!PLEF0aALJFU)\@0a@pg0aA4"[g2@<#G4]o.1Y5R#7#i&-RSq]ZO[$h#B^7P#B^8+V_9d9#8]#o56j,%#@ehp#hK<(VZ[[J)a=QHhZ_UB%$sZj#)<D72[;i%2_PCJ""s\g#7#AV(C+k3#<+@B_A=.U!LF$(FU&4C#8tYh#=ef]ncoac!N.kB]f.T'#>QoQ#8[Vf2[:uj1SQ69567)U#8&To#B^8k&dAFE!!!!7mH4HL#7.pCar^k2k9"Xk9b6+`"7H`W(LmLG!Ug*)!j;Wp/0YMS`ubW&#5;s8%_i/@!S7A*-h9Lm#9Ob2ZRVC\#B^7P41Z`D39h</JerkCIKlN*(^D-!MB=Opb9([/#B^7`*JYL3#hK*a"d]r'';#<>ne_TR#21./dMDr,IKmALas[$%U)/82IKcGHW]HjjU)/7[INtj)(^D-!ar^oc(BMY`iYVnB!qIEA*u=t#&XjOAaonF\"8`l8*sZon!QkPn(^D-!ar^_kq]BcA#B^7Y"e%iB#9Ob2*s8ec!QlJ[(^D-!$d2$1dKan"(OfO4'Z*AO1WgM_(OefQqA9GZ+S$TfU)*jQIKQ#i#6t&AU)sV_(BMY`!Q#552rYX&(OcVC!Knsb#HJYincs:BIL":\(^D-!iZBS[(BMYqFU%r%asQri*uBA]+Gq!@atT8+".L)-C'Skd(OcLe!pUZ'+L2f4iYR&1IK]L8#7lG'#9O1nnfMT`+!5Ga!QkS/MD*Bog)#2=IQ;ulW]-po*uBA0%JgnHaoh2V5+38g(Odm7#B^8u\ekYo:C)^^+!1O4LCt-l\dl1ULB5gL($ZkHZPNYb#B^7S%[m^X+NbLL(Od^:7D^&(#9Ob2qZF,@#B^7\\ekYo4ea#FdN9QM(BMY\FU&;l(^D,fRNF9\(BMZ:#4b+O!gXXOap3%oIKGZR_@qM;*uBA4"0raKE%pi)#6hFU5fs=S(Oe:=4PCmW$ecDGRhpNG#B^7P34]U:+6")c(OefI#3mA[(lB,Y(Od@0!n',e'Y5*0(OeWD'UfN3!Q,_&*sZon2t@djapRDU5.VO2(Od3aRMZ8O!h(2pgD9n5#B^7\\ekYo!SSVBJenI1IKt`O(^D-!$DR^/\d*?_IPL+<Nt02H"m8S\!WNA-/BSc=^HDbk`sejOY6!;Z(^D,dU)t&s(BMZ<#Po%$3g(;.(OcP1"Nhb=1nke8(OdC)FU&2QFU']-g)QOd*uBAd,l/>_aoUKD--@#)(OcCbZ5<fg#7%RD#6tKV(C(0HOp;#VIKY6QarBmf*uBAB"0raKFU&!6&V;)0qA01TIKPa#dLPOY],,o[#B^7TISrVgiW8Td*uBAd4Rs<oao]^-5Pc/s(OcLU!nn[[!j`\lJd6E'IP%imP!>BOdMI?dIL!GD_E@B*aqoLTIKPHC#6a9-.%1B`(OdP('S6\'#`9FI(OcV+Z5<fgFU&3TiY]fCiYR&*IKu$'\hM8CZ57s0IKP0MiZn"1dhdH8#B^7P*jR!d,*Eak*uBAe7G8R`ap#X(M?apu(BMY]FU%r8i^B4?RMUDSIN[nr(^D-!!k'e_*sZon!QmpTcOA\I"j]mF%]9Qh4MhnEk</kBT*'iW[fP.m(^D,n",RJ]*sZon+)i+'b!!$P,)R0;(OeL3FU&2i(^D,fJfc>N+!5GM!Qm@4q@)@"W>C"&#B^7Une_TRmg$<g#PUq&#H%lp%u1s2[fN!hJdL<D$MQ(aD$bt>$g.oL!SIX;5(X6A(OcF;FU&*<!fA')\ebCiIK\@N(^D-!4L-&D*u=t#/><sdasqub'D`LG(Oe6)FU&#Rb$lFt'&"-&*uBBP(QoU?apjd]2<ktY(OcV[%Z2C/"nNOZ*sZon!QkTBT*L]!$/\G`%/0q?,l/<eLHP^Umg+sVpArqVi[UB*RMUDUIL!.nOpS-)MAL_.IKkZ:(^D-!\fViJ+!5GJ!QkZ4#6hp[#9O1nk:k$q9b$h)"fDOU(LmcDS-KCnrrMip/-E`lh]DsX%e"6D"of),#L<G(Z5<fg35Qa>nfJrm(BMYb"S+aN&@r[,(Odp`IO[_-1-O>-'@I\G(OcG^1l<oK3LUb5(OeZe"/6ag4N\Ih(Oe$S"c>Y#"47p6*sZon!QlML(^D-!1;Y,J!imD^*sZon,cV[db!<N[#kAc4(OeWTFU&*4Z6%^)qA4S^IPCUQ(^D-!\fW';(BMY]Z5<fg-+Y08#=BSP#9O1n+!Qjb!QkQ1U*$ZWaqoLhIKoX:\i>9X*uBA."0raKE&u\pFU(8U(V1[nl5'KDIKu;qJj%NuaVTCT#B^7UE$j9\!QlK+MAH<9IKS:5#6gM3Jfb5?(BMYa"Mu^YiYND[#8_Ft(BL?;!Q>9K<>Pl^!U:a3iYMX<IKe^Z\dcLmXquNg#B^7Qaq1!`#9O`_l5saX+!5GU!QltiFU)%cg)p.riYR%IIKl5pi[^H6NYd-K#B^7XE%\F<"bIg<Or"/AIKZr2Ou]faW>C!d#B^7Qaofd.,+9;K(Oe*m"gTZT(@i8j(OcJ_#B^8-RMZ8O#/VH+*u=t#*s[+>!Ql5<l4/C^R2:;S#B^7S2:=e%$C;QX%ei\!"g82m1;Xi;V`b'dpB1F#mfD)EdL">&^))5!#B^7X"hGN(+5.N[(OcC:dMN32#6D7m#9O1n^I*Si9a[3p%-J#E(LmfMS.*G&567qga"/s^!rj>NT*!V]fa<cMJd($4INGLB(^D-!#_jJ%"UB/Tzm$RhR#7#k_*V'GXb@L^p#6gk-%gN>^l3@?WFpOQe#6`4?#:Bb!0/N00&!CH.!O*(nFU',r!M:/5(BfUIMCek,!O!:BWs";3#B^7T!M)/."5c/.%q,_;#lbFu`sek!\IY;Bf*/&QXpOh*rskq-7nP]J"h+Tc#<*_d#<hWg2#:_fFU&,gQNnE6!V^4-mnF21[k6S?-Z:FD#?Lm1#6tK0)G_;":B?de#9$Yk!LF$0:BmS$(JtDe_\:0c#B^7R!NuNrJcW>.!LF#n!N,t=cR/asT)t_ff)_cMf)`VecN1][#6V"-#6tKV!ilQ<P6Z48#B^7R!QPkjlN?0Y#B^7PMBXu<(H2R6V]P"cQN>D>QO_mehZ8BNpD';-%(@>t#B^7h#A+2GFU&'HAd8PGV[h#X&'%BT%He\QdP3C(o,ft1#B^7P!Po!GA-W>M#7hO&(H&d7"H"cIQNnJ(-Pmj*\cdmB!LF#n#6LAJ61P8'!N,t5!RCem!PJNC&+9PF7nj#NcOJJB^B9Mt_u\0e^C/Wo#QqgO&!&9q!SImj!PS]7q?M-J!LF$6"QBHc`rVM3#6BGX)57@Y#8[nH0*cDkP6&<$#6Erh1V*g6(BKj-#B^7u!QQSI!hi7u_?Y2g!LF#o!M9D5nc>O&FU'E_FU&ch[iO?2%@7tMV\^\3(BKj'!Mfa_!nJpVkm)>99**'7#?r5>#BpDq!J:EcFU&!A!OijM(BfUIMCekD#6DsM!QP5-#B^8@QNoU@!n'".567)U.PChJ`rUet'>dBC#B^7X#cA$5Je+bR.07aTT,.OK!REt2!RF(&i;oiH#B^7QFU&#WNsq`fO]uAt#B^7Q.X(ojf5E#A&&2`XpIu*h^BBu7iccg\!LF$,#8Dc>!J^]B#B^88!QQaSHNAb1MG!uj#6WO5(N0P$rYGU:#B^7PQNoj_+dsJR0*.CE!O+dI#6O]+$]513".!Lg#B^7p!PAY5!mq%7#7#AV#6C8h="sq%%i\j\FU%r``rbr>/<WX,FU&#o]*KA]"p;UB6OPtR!!!!`lbic'#6EQ\(Dd=!(G>g@(BMkf!O*))P:=WZ7feMLFU%sESL5ci7hYY!#6D%V!M)_N!jan]Jd6E'$"Z=*N!tb#^BT`"!=tM$rs"fC"NM8^QNmc,#<"dI7gB9As$mS9LB4.Z(CcE5#+kq)5RWoK&'"q$!J1ZF!KRWWLI_K%V[]g9LB323,"G-.7gBT_#9O`u2\WK-$&Toc#B^8+!Po!GYQksT%a#"W*s%]5#B^7Z)ZLk6q?4iU!LF$M)_VFD#7]Z'P;`N/#B^7P(E5jL#B**;as%oL[fY_JT)k\i%g%Ll#1!=Y5R.6Y$]bM$!J1[Y"Rcj#Vaq93cNa+H`rUtt,"G-0!J*;s#7#AVh^941!#"0($ATYBcO:#ET*3IH"c!]s#O`,:ruCb772X>U%gNK'nco2_!LF#nFU(c.(Bk0O6OQ+?z!pfR\FU&'8)cm7L)d`glV$@5Q*sYjJ#<,^'"fh[:FU&*9f)sV0cN0dO[N?"\*tOD5mm%E@"G\?.%aP0-8/DZK&!%*r!JgpJ<sJm.#6u=igK+E,#B^7TFU&).Qk'E,"R63m2Z]6MQNosZ"QDWH7feq]#:_Y]?PadhFU&$7)c$\D)cm7lQNnEn-V%ME?QTM>6O*Xr#7#AV!Rq84FU'oKYU:Lt-O0kW#:U0&:FQNk#sdcKpBPgG,6I$H#.b%p7feq]QNnQ-!qK+f<rnWm.RsR;YYR1_2`CsB)X7?o:DYqp);cA$(uGAF!WN;+&cVl`(p>%-UDprW#B^7P9a''$pDOF#+"&KG*s'&&FU%uCA-W>ELGoh1"o!!D#3Q/F!J`mhO)>J`cO$cY%)6Qa!P\Yj1u\Or%$qBX#7kH.0+"@`nc>:7A-Y=_7lNN(2[9AfiW5T/(H2RS#6E+?!Qt^j7\WOOFU%u!YZE1W!m_)P!M]ta%u1DIT)lB-%];N#mg$luJd'I%%*)-ET1B=(QO(&%VZDS_)b1,6#6DX_#6tKV#8[EW&`R=+Wal>F/KYc<-PloCM?Jeg!LF$"#6Br?#6tKV!Jq%nWX!YOMZL(R!leRJ7gF/A*W`nY#B^80APYdi!V$39RKms?.:l9UFU%u9YQm)l&`O#r!K.$A#6BB70-:FArW`J.#B^7P#A+2G$&8c+QOfug(L%sd"RcAp#4DSa$)\3`"h+Nce,bC2#A,%Y#:Tn#$k3Ga!o!e.lN2\C56@S\_a?Kn!!/u!zK*(A?#B^7P#6G,8Ymp.4Y5urMPRP#2$NFiALI;9s$G$`P#8[niaqne0#8_>EJeo@R!LF$DFU)D0LBuK:#cCB">?:s2`sT:OY5t3s[gC(b`rXj%JHlDc#8:/>#71WX%aPB&$^VVF:E*@?=%ii(!Rt$QFU)&N#6obb#<)[M0*`(:2[=Xc#C6Ep#B^7RH3'6pH9=\&!Q7b=#Ascm%gN>^$O6^"zm#:uF#6qL9#7h&^!fI)lFU&)N0aAL"9EtfH#5\XL]6=;*#B^7R#A+2G%$(Xc)?mlM2^o'j5;<BJ#B^7Z!k/uT#7Z_Ea$36&9aS90NuA%so1(51#:_Y8GBkikG;0=EIk_0EInU(PLG9#=!!a#8#Bp3(Ig6"](C(ul!J`B7LJ.pX0a@pa#7gir#6BkcIg64.qfd<=#B^7S#A+2G#B^7Z#B^83!LbYHQNn-.8&@1c567)UFU&&E0a@pg9Etf00a@qj!!a$IZj0ZF#7h%?#7"Tj#7"lr#7"m8"-[XX%gR4^(On.E!J`B7LJ.pX0aAKq#7girIfYT1#6D1:FU&&M0aAL"9EtfP#6B[2".KO<)@%`n*s%]5#:^5jG;0=-G>&5HFU&#D]E^A#NWT(Y#B^7Q!LF$(k6.,Q_Db0l.14BkQNnF9#B"/T#6tKV#7"m8#7k`-#@DBL?O$V=%p+$0\Q:Kj#B^7QB/'VrB)i/I!ON)50aA3o0a@qjFU)es9Ete-!Jq&2L496R#B^7Q#A+2G%l";"(GQ.2(JG&=+#+!**rlNV#?;9>!PAXr!eCC?gBVj+!RV,Q#6Tg4#7h&^#@DBL?O$V=[T@`-#B^7Q!LF$00a@po9Ete=#6Ol@#9!hik!oH=#:_Y6#A+2GFU%r%]E_LC#::;h#7h&^#7"<b#7"Tj!k)H0(C,'f#CeH5a+$bf!K_d4&*F;o[m:JdD,2eq#gW^i!Nuk)[fkT<"1MA=FU%s0GqXXP0a@r-9EtfH0aAM=#6O=C";1r^)Boq<z!pd2n#B^8])!;+d$(h7>#B)7#FU%sE+t"03)(-dM-SGS%%jqCk$SQNRlN_P;#B^7P0*s9Ze,cTT#:;))#6tKV#9Nu_*s'k7#B^7h9n*\o^Cgd\1G:0\0*cV))?HB^WYmHCE\AdBUaIfC0..Y=#8&UR0*_`)0-:F;#fdi-rrJ3?#-SgEY5ur^PR!6V%f[FJ!M9h)2_PU6#Bhab#>PMHJM.&O#B^7P)BpOFWYm03=!nL\FU)e3QNnE6#=^?I!!igPz!pe>9#B^8u!O+L9+tkSS0*aq/-RUhhlRpU0#B^7P!O+41SM)W$#9qRs#qm)J^B\ld=rlc9"2b9!-O4c!#=!Q-0*`(B01@=q#B^7ZFU%uKD_D>#(G?!ucOR\prrJl#:C<Ei"P3[_5R*9&"IBDg!J1X0!p9XJQUh2XhZ\cF[fM9fSM)W+#8Q5!pJ2SYT+pGo`s9Wc6O]Ro'!DE;O!OmpV[Ab0$`?uA"htD2f)h"Jb7<tF:DpVB!N?\"%gNfp%gN-&+c9e8!fmi+Z3'Jh.1V\6h[AThrrJl&577E"$Jtlm5RNQ*&!mC]!J1f:#j2Wrf15q/h[fGicN/h1SM)Vs#=5Wr00^7+#6D%F!M(ks0*aXl#>5jL$DIcJ-NTP=!O*@n0b]]T=YBf6#7#AV(BM>Wnmht1#;j:/%j(h=0Y1d"#B^8H!O,'I0+[d^%Yk(H&e1`l"1JWP!L*e\#bMml!M9YL0*_X##;8R`0*_N^,,uh?FU%r0/MA1N2]i3T-V)<25C3F:!Mp#+FU)>6*sr8Y#mCPY&K))o!!!!.mB6Ki#6Keb#.k+_-1X\^FU&!>#6D:=$DRX7FU&<G#6Bkj$M+;2FU&A>.UQZjAd8PG#6ju0$1A+A!M]et"9/e=^B(cUf)`&\#kpRm"g8C8".oUG$(hRFNs!^!L^p$a[g^"P!RM&P_ZpEr.06UQ_Zt;h#B^7R!PAYE#7^Q'!ojN.B*/>&FU&,oV$@51?O'X5:Brft2[9A;#6D%6(E5RDFU&#LdKQ*FgNPX^#B^7S!PAY5FU*A%#7&]_*O5om-NTP=E<Ctl$i^IPf7*tMV[h;_#et6e#F>\AhZ]?^NXhBcmmHXH3X5$`%\Ep.LBe%PQQ,B/pApF!ruKDi)=KNh%&Xl%rsXZ#CClg8#+HV$5mMN;_Zt;h#B^7W91K*M%c[c!g';a*!LF$N#9\U?0.-de#6D%62_bOZ%i[_<!Mp#+/O'b)0*a)7Jd2=1!LF#l#6NX5"i:Le7feq]FU&)>f09cN7h7NZJN!V]#B^7Q3=g]g#6a@*$aL"[!N'EuFU&?@#6^J#%kdsM"H"ciMCh%'#7T>i#;-7(#6tKVB28bE7gB(!<ro?d!Q,-I/PcmQ:Ho&X]2&IZ#B^7[i[mY2f1->U2[;hR%gN,h"H"ciFU&&uB*#1@%gN->MCek<[fM6h[fP(]#6aW!!S7R!#6D&I)Zeh$k77Ts"e%"DK`Td1#8maI#L`p##HCF(FU&#LG6-;##6t:6Y8[N"!TssoRfnU##B^7U!JPFs#6F5t%&*uLL'_EE#B^7Q!O,p\!J^mbNsAH"#?MiF#6BO.FU%r@7g?7(K*(1H#B^7SZ7UP:!J_0e%m6R<!S7@-!J^]2LN>D+quN,b#7#PV#8$ul!LF$`0_tg2QN<EX#6^Ir!M9CZ.KPSZ/RK"n:Bq$&ecu50#B^7R!Q,-I#:T\_2\-.9JMHFA#B^7Q%i[G4!Mp#+Kc^OQ"/,r#D[1Ci#6D&9"0W!62[m/ia$3dPSd(enT*C>Wf`d]J#7gb7^.0,l#B^7QAR@oi"bQmMRKms?AHA\^#6F]N#A+3`#>YSI<sJc1#6D%F2]H*/!Mp#+#6EsgB+G5i%g2)KB*$UCl7HWZf09cJ"8c^3#7#AV(BM>W!O)eN/LM&6(G>m%rW`J.#B^7PMCh%'/Op<S"nDeR:B?deQNp$T"j0mI?NHJu.Sg+sb8demcN/q.#6_aA#6tKV!NuOA/HN$c!J^iI!S7@U!ic:)[fMg##;PcM!P\Z%QNm`3)$.bY#:]b`FU&)d\chm8nL$=[#B^7R!N-"%;)5^U#7#AV#6BNc!O-KL)eTB\#6U`&2\-.9LBk+:!K]5L$'tnSha%U9%0$h>`rV6<Y77*+#j4,Ia&iDp/O'aS!m1Y'7feq]FU&&KAd8PGf)s>(#_u+]!OiI:pAqI%Sdqq/:C+uA!SIpc^BY,?!J_TpFU%sE!S7P]:'UfR:Bu"I#6D%6#9$Z&#9$r6!JO;ScO8V8B*"b5[P%g):CGbTQTte:hZLn,%fq7_"5a6R^BhSFL^'1Q<s+3Y#6D&1%i\j\FU%r`Ad8PG?[i:c#6CM'#=f#A"TAG7#B^8;e,t7,!paJ"k6H,7UBfraVZECj!Oa?`O(Sfd"NNb0"6U0/#lapW"c!Ssh[HDRL]PO*#7AcX#<*T?B*"h6#B^8X!Q,-I!Oi*=#6D&Y/HNTs!J^o;!S7@e#6"Y<Jd6E'!LF$MKjP('%(?HBk=lJbk6IFWU0f>[!LF#q#6j+"3H"qb#7#AV2[<q"#6D%6dOdZo!Ja/M#6t:6(CqH\2b*iQ#7"$0#6C2&!O+4Q)cm7L)d`h/Khhq<"1AF82[=I11R_hZ!O+daSPN#d#8cq3:HoXk#6D&!!M*"^:Bs>R$i3@0*s%]5FU%u9ru-q'#aZJA"SWbB+,9m(!O)fA)fGrd)g;NOKkCWL"+^[XWX!YO!K.fs"lTL.OU$"6g.Op<#6E+8+6j)R7feq]QNoY,#Js7;<rnWm.RsU7/QWGf=$Hn`?WR9[#6D&I:E*pOU+L9o#6r``"/6$C7feq]Z7Si_f09cN"K>/t*=$]l"p4Z693qXW6TYA<s*kD@gB,h*hZU+b!!;0^z#6O5[%fsKO"7mG21CjME@g@,].gL2%(C,'f#6D%>Or$Qu(Ddkg6dc"+FU&&5FU*6uYR_f\,`2g-*s%NH!M(;S+!3>^"k!FI%i6;m!LOr6YTFYd#lb,1!M]n7%Z_+WrrKP5$(i:Df*@X-JdSC`rs+kk8.X;W$MOph!Jh6[9IBt@!i$!H(C,'f#6D%6!J(I\LBZ!?mfB0g%hA=@(N0>_QTu#Cf*[Q@^B&of^C/p'%ED!D#O_]f$F^%l#B^7ROr"MK(Ddkg53`0>!MgMJ(C(,l%i5`mM?a0d!Kn6dSJN(Y(CuB(dK--[FU']+QOL&&)ZO@W".M0:)%Qb+#7#AV(Cq;u#6D%>#B(C`%i6#eUB_"TT*0oM!O`L@f,"jV!q/A^&'#0`!qu_I#fd7\%h7\m!JguY5Ipm)(BK[8!M(#C(DfQ@"k!FI%i6#e#B^8##8%aW!RV-&FU''+0aAL"SIZeY#6u.J`YSZn#B^7PH33^\k7@"d!QRn<>:0^.QO'c:Y5t4$^B3R(Nrdo>JHlD]!NRRK(C,'fdK--[(Dd;[YR_N\6G`s.(BK[8!M(#C(Df$)"k!FI#B^7R%i6#e!LOZ.U_agP[ft1\@0sCM$3(5@[gMj_!P(,oY6P-$`rW=G(Bfd#LB<6'3tLc^%i5?Jap.sO!Kn66SJN(Y(DNSEdK--[#6OE!%i5Ing'7Y_!Kn6JSJN(YL,o)2#B^7P"Hrrm"J,aS!!!)(bl@_D!rE&b%gR4^8'3DJHNV,$V$@5qqA2?s_af%Y#B^7R!O*Y1SNf=Da"lo\@0,g%pCG"\#ELMI#.G#]"4%"Y&!$k>#`f"h8j<EUV`+qF"ogXmFU%rJYU;X?5<fAR0B*#'@4qnQrskYK"nsYZ&'"h!pKms3XprteT+CYscUpD0`s\4E"eRjZ!O+4AFU&!RSNf=D#9)S&5;*g;#6D%f!M)G>56j@:5<h(C56h4nRK8sD#6C:u/?/qt2Z]6M3@B\=FU),(YQmAt5<fAR6Fm2g!q-Z_$I8rc[kA)LQN>,.QN=W-rrK;/rrK8157YF7:C-,ULH>m1#<n:T0/ioul2dG/FU*1YFU&3X_$:2M#6uUWMB^bb!LF$>#6CDL56hF9#=gup[hegNBHFVb&<@(rLFs.qrtrKV(<83E!iH\*'Xn+m"J5jqT*sgoD\1eH(]Os%[r`"uQk'E/7m@4Zg-7ed#<tWors*I,:'9Z$#mpq+#71P]'bLrW!!!!:ldc%9#6Ck,2[9S1#;6=#2`fAt#6D%>l68/G(H2RdFU&!ZA-Y$uNs@.t#1%8u"Le]hNrm@OD?dQO"K)Cc^M=1ch[bJDdK,@7mgm_b&+;O]_INm9YX^W92`CsB#8GT12b+ZC#6D%FFU%rJ"kk=/#>7:.#6tKV#9Nu_,e@LkQNnVD#7i0_"!ur;iWjT2!LF$RYST5O'9WS$2Z\gK#B^8%HQ_T$&N9qb38uk%#73=X"J5pAT3DNO/N4aR.OPPn\gK^h5=^&%K0O*@#B^7QdNUV/2[%Gg"Lf1UpFcg(V[V/ff)`Df%gA")$&8Pa7nP^I"c!Jh2[KFF#6D&)#B^7bd0B]L!MM^Y2[=I1'%.s_!k/:3$D1+&pFcR):C<-i#c@^6$a0]b%,V)g8iHdS%eg:=[lY+ef*LgS"4'[B$,7dD'_3n+-NTP=&_@3dh\DJ#2@nsW*7kl(cNOuKmgRec"4mu'#+l-upE/R<"WF!A'&OVJQY[>]cOTsi'`SaO!LOB&&=OsO!PUdF#7#AV!Rq.iFU'6X'+,'O#mCPM'bLlc!!!!"lb<E"#6Ck,(Dd=!V[!7,9`p.P(=EQ!+"7B6!Q,-IFU)+eYTFYd#O_lu^B'E4$E"[@k6pGcPRjAhh`n+A!M=93(Dd<8YQksd(Dd;WM[uO+#B^7Q+6ON^#optr#7#AV#6C2&!Q,-IYTFYtl7iME2A\A)Rg4'@#B^7P-PmR(O:MiY%gS-r[h9/%T)ub.aoR_:LC)Q7pAplmA-Xah%i6bE(C'uFaoS%L(Dd<?YW!@/(Dd;W#9CZ*h_u>fNY9A8T*XT\Ad*r*+.i`2[gj@lNt%]m+0RpL!m_^mLCo;;KbhE,M$C-a#B^7PdUWRfA-WVW*.e[S%fr"%!O*@V#7C#,OWOUj#B^7P#8\0]!O*pfSJN(I\JpD,#B^7P"JZ2*4*Lh*!(/sYz_ZK/X#B^7R#:^gBP%4f!Y[8Ib+!1^g3P#6^?PadhFU%rJY69mk(XG>ZMCh=GpB]pbLB4.S7h*cG&"`m25Rc7?!oFEQ!J1N2%,VDIpIGCYV[pfO[fM9m)cm7M#6E!Y#9O1n!ODg>FU&!Ff*L7=hZ9JR(Cfg7#DW>g5RdZWk76s!0*-Y8"SW4hV[ebYL^Bsf*s79!#=gKR_[d\^#B^7QQNn+cmq3F;#lelH!P\rUmg&T:D?m'J&&//FYBOb(NXhB_O#b&X3XW>**p3Wl!Q,W?#cA$Mk=cYp[i`X2(l)u?#B^7R!LOB&o+?ibR5]9i#B^7P!Mp#+Kg,f<!Jq$^*sZon#6D%6O<4n7*sKskrt5[Rh[6Orq>lfgrskA\7ff4`#8\HeMIZrfFU&L?#6MIAdN8LV!LF#n#6Mai#ql=G#7#AV%fsKOg11En#=FY1*u=sE#6D%>%iZl$!Q,-IYQl6l!N$)&+#tU@#B^8h#A+2GFU%s8/QX;)-U.`k!Jq%J56l<9#6D%^\h-E"YW#>t<sJs2#6tbY#>YAs#6BNC!O+dQFU(2;UC@S9,6H<rqZ[+fmfA=J6NZ9L!'^iQz])q<F#B^7RJn,*>#=>FT+"mY]JcVDa#;^r]2^\Wm#6D%fFU&#<YQlfd0/!P2#9!W6o*6'b#B^7Q!O*(f$I9Ln!nRIJ[MK.?2Zhk;(I/"^#G2OA&&/-s&!mR2Y63*AL^UBh57NYS#6D%6!Mg5r-SGOq#6P2t#I4SW(BKj-FU&!&#=s^WV_8(;UC$r%f+-+-!Oa'RO#I-4!P^l/#lb=b"c!,1#Nl9:hZ]'3L^CNu*s\D=.fm%:FU%rRFU)%SK*KI'(BKEq#B^7m!LOB&YTGe/2`CsB&"3Ni"eQ/%%0%DXV_8:Q[fNB6rrKY2:BB&O%$q!t8iI*\"4mpYQTG;1FU'E&_$:2M#<E@rMAH;[!LF$/#7[s\K-p\d#B^7P!O*q1SMrJ4#8G;]#q$NJV?_5K#B^7P#B^8XFU%r`+u_Fc2[;Bq"P5RK^HW%^miM3D&#W,3"4md=cO@j.[LIumT**C?rs2+-#6FN.&$H4\f2W6gOTE$5(BKEq#B^83!N-//!lG)76U(r?z!pureFU&$Gk5i$spAq#l(Cnao%0$@:!P\Z=!U!NL!J1CQ$BG_TY=JbN^BLM?G6*L/)ZdDQ!P\jM!P:Q8Y6T1T?ZJ(+!UgB9#3&]YV^W,M#77^;!J:W"\k<(UFU'-,V`X_[$EI_=FU&;l#6`0S!N,sbFU&5*-V&([#8!YS!T+-)!PJNs!T*q8b?o9K#B^7S]E\ImgC*TR#B^7R!Po!G/KY36-O0d3_ZYiK#B^7T!S9f0b7E'5#B^7Q&HT'?#7&rf!Oi)rFU&B!h\*d2Y5u]FhabNa!T.#\XD\-s$HlKOM?e8/!LF$D"H!6#cN0@;^Bof!RKk;CAHA\c"S3)'G6`6q!T-+C=#U0;#7]^C!P\k^1BG,nFU&#$!N-/-Y6S,JVdCAD!MCM8VZD>R$c5O;FU&/`ZSnN_f)^d5FU',l)cm7L)d`gl/T1kA$aTtnG6`6q!T-+C=#U0;#6BR/!SI^##7#AVG6_^b!P^j#=#U/p#6f^/!P\Z%FU%s@/T1k!G6\8.#6]o9"H"d\FU%ukE]81IFU)5S/Op$N:Bq#[#6]o9"H"d4MCi0?#=81hAnM.2_?Y2g=TP]r!P\ZM<roC@QNmV]])fAA#B^7Y#A+2G!LOB&E]81I#6g;m7rJWT2g9Hn#?k2L!P\Z%FU&*!A-XIe#;8RC*seTO-2M-WFU&*9Ad8PGSNf=DlN`"B#B^7P&*F,"%*nsL[N?%Ch[$st5R$<ONre]6T)jNH`s7A##bOWh!Oi+(k8+/T!O*pPk5jHFIK?hWFU%uAT*)t9)sU&sFU%rjE]81I#;4/#!N,sbFU&#,#6hsL!J^]BQNmf-_?#\u!LF#n#cdumiWjT2!LF$[/N3nf56h=KrWJ*1#B^7Q!N-4(X%))A#B^7U!o#Hp!S7@1FU%ruT*aN_0(MX9FU%u#aTh#8T)jiN567Y_#D)uI%0=Qe#71F/!J^o&gB"qlFU)+TT*Cbi2X3p9FU&&U9cjTF/D:Wl2^o$9#B^88!N-"Pp,&42#B^7Ph^;3<hZ;U8If[4`k9ic,#6D(1#6tKV$.fDo"/ek;%-Ii[Oo^=e!LF$F"iCA%U'GfG!LF#r7rJF+#?,go$%`D)JRnk[#6Uq+.Ja9l*s%]5QNn_/!S/V!lN_P;9*)L*"3Wh'ap3%o!LF$X#6LVir_EQ]#B^7P!N-=BVe07H48MSNFU&#DT*E1<,Jm(S#B^8h!L!\=!S7@1FU&'(NsV-X*Nq^@]E\JPo*(<Y#B^7T!M)G>#6r'a:N$J\^B)(s]`GkK7pg`H^B)A&]`H.S^B)(M?ZJ(+FU&'@V]=Cq!nh,cFU&!1#:leZ!QP5-$MOsq!kLTjcRB%<^B9#f^BZ4h!PAX<!Lj4HM$J/.#B^7SQNp!s!T.Mj#6D%f!T*q8#:d;/2\uMPQNn;++29H0!N@-$"of$m^O?s]QOTi%Y5splY7/_uf)_?E^C9iX)p_@l#B^85Y:!+aY5tg-If[4`[jO[Q[fNZ5Y5u<;FU(bEQNn-."QhoL#7#AVD[0kZQZjfI9`hd4#GMb'^F9>Q#<03p!QP5-QNmYFjoNd/.KR9cUC"dBT)jiN#6U(h#?qFU!Nu`N#6D%>)ZdDQ!P\jMY6R92Y6PX?!N^2?#6ig_!N,sbFU&$B#6sGu!N,sbY<Q*42Z^)_"I=O=D[1CiGBYE)G?8fD!P^j#=#U/p#6Wh42X1Ni^1@>;#6W'P(ubdC!K.0M!m:V:g';a*!LF#q!QbA/#:]b0!M9S%nH@][#B^7U#9a=r#9a>%FU&/3-VnXc!T*q8!PJNk-V%Nn!T*q@!PJNs!T*q8L0ns[#B^7S!J^p"&E3pErac,>#6g4n&E3q;!K.,t!pKa;p'5^F9*(po#3HoZLBhr,8f-(p#(d>_!QY;V8&>;1^KCTPDZRTRT2u&p9a]bc",[2a!P^'"QNnu)g&]4p!LF#m^N0G%#6u^ZD[0kZ!P^!X!P\ZM'7U%rl3DG:AHADB#7('/7pcLD^B)A&]`H.S^B)(M?ZJ(+!P^hX!NuOFXD\-S"jpBP(C,'faT8e6#6Bqf!P\k^E<3]WFU&*DT-M2X".!L!FU&2_"pZ1S!f$gN5<D4?z!pd/mFU%s=#9__*(CpP5kA^Rlrso&8"eU8M%IX>$QOEP*CC8Ak$'tq4!KI6%$EkM.LH5[LA-X1X#87F'%gN>^('al-Z3PLW!LF$[$-st8hZL'%IgYWL!UgAnT5F`![gS6,pMXgWNWQBd^DW183XDnn%j)(\*sVhNWWAY4(EWl.f)iu'(Y<('"d]P!Nsj8E:)DM%*g[rJ`s*<gk7-#W)4,7U%*og3&'k9.#2]pZ"2=lK(r$sg$C:dj#B^8KQNnVT#8[mO#6t:6(BK'l#B^7RQNn&D%j)Sgap.sO!K.75FU)%kk8*ds):o!'4*Li4!'`gYzir\Vc#B^7aU+KFO#6D.7#-.uONrpj%#6sc#2cg6,%dQ?)CBnte'`(HMFU&3LGrJe0#6C;Y%gN>^#_FuS-NTP=#B^83!OEEUP:$Bh#B^7\FU&;DLHDdH"m]_#FU&,7YTH(7&;(2giWjT2o499WFU)%\mgdqS&#Vbrb6QX+#7n9E_@ISE!LF#m#7&sidUrTI!LF#o#6V#F#6tKV!oaGs-NTP=#B^7r!O*A!#7:84"PO*'?NHJuFU&B!E<`EJ]-dW;#B^7U)Zc91!M9TU#7!I4!LEi)FU&8;/QW/^!LEqH#6D%n!LEh>#>&i5#?h@T7je>(7fg:^FU&B!RK^S6!KT5tFU&-BLB4.T40hK[FU&>=Nsj\I.^D\JFU&5r)`J!,#6^2+#:BP=!RqIO#6E+/'`&&W_`;9U#B^7QYWi/T!LF#las$kQ!LF#tB4jFFat]V7!LF$8#6rXa#6tKV2`CtR"Q)Ff%_k^C.0mUSFU'oSLB35:*3)X4FU&3<Ad8PGQk'E,0:E+H567)UFU&AFNsMKc2mQ'WFU&D7O#O?LRiZ,A#B^7].UN5BAd8PGcNC'M&&1gB%aR5Z"Hm[PG6+$8FU&?@O"&K^!UF:tFU%un#70W#':K/K!K.8R#*T(K2[=I1M`3"J#B^7P"8<.XncYRZ.1GqUYU;A:$.B+[ap3%oAH@Q<"-ruMo*9CC#B^7R!KR8qlU?\(#B^7W!O*A)#7/KX0TlZ`!K.,f!f6r=)@(Bi567)U#B^7b!J_Yp_ZJS(#B^7P!PAYE!r`5$2[=I1#6D%fFU&0KYST5'!i#u$#7#AV2]Dda)ZcQ9!N-/eY6S\Z]5JVh#B^7P!LEhR&t/il@1J&'f*1nM"4o17!g`qK%BffC%aPZ`&,-+-!LEu!D["0RcT;N\V\>*t']0B@)93`+T,i\\3t:?k!V$r?iWjT2j(3E>#6Erl!K.2*Z:b4R#6N(50/j,YlN[Hp#B^7SFU&5*)a=Q4#7%RW!o!s&#7#AVMan^N#B^7U672f##6_(4!M9U>^J,3!"0WUO#h)9m2[=I1#6D%FQNmcl#<=.4#B'ii"3(ASFU&&pYST5'#M01]pIu"(mg%8Bb&8^9!LF$\#6N(m"0)TK567)U!PL]V#6B`A56hF9(P5F%?NHJuQNopq2cjVm#AubO\oS+!r[0]L#B^7P!KRGKmRP\u#B^7PQNmfE#=i\5:HYXf8*XUiQNo.C!LGG?#6D&1FU&#gGrJe0#6E[G#6tKV2[9S"!jaNrg';a*!LF#rYR_g'!L<rk#7#AV#7"iG:ELNOX%trM#B^7Q7iOYt#B^7R!PAY]"PF!c#7#AV[g-LM9a:Uu#*0.YcOX5]ScSilVZrIgfa-1:q?a&#!LF#q#6aXB!J1Q!IfYl@.W5ET#6C"n4R*/oIfYl@!LF$8G=qsl7Z%F#K4P(E#6MF;"S2k@iWgr/AH@iE#6NR_.&$rh!K.&T#6O]K56hF9"9'A]G6`6qaT9$Z#6M=;<sJtQ<s4C4ffsa@#B^7S#B^83!PAY]!V$8s]*EH`#B^7P5C#1hFU%u>)b1,</QW0!!NH9[-NTP=FU%u3QNnE656j+J7g+]$U'DhH!LF#r#6i7GW`K4f!LF#o#6F7""f_fM!K.08#CZ]7.^B;%M.H^K#6q^B#BpDq"1&$@FU%qu)a=Q4#6Dh?<sJtQrWT#J#B^7T!O*A![g%Tm"eSKl$-*4\!i[OrWs<bP_Fn5<#6C5>/Fj$g_$ag%#B^7Ri_(XZ#6Wp1#Di\.4Sh]pFU&*?/QW/^"f_]_G6+$8QNogV"3Q)oLB3_HG6H1l2PLF+!K.&gFU&4#NuXl!)(B+t#7#AV"emSMFU%s8$O<C2l":$T#B^7SMfT'E#_lsmB*WPa#6D%^%i]ElQNo1\"Q">'Z3PLW!LF$*QNmkIjoL5<#:ap"!O*A!#6XZ)2[9S1#6u=i*sX_u"kbgR:Bu"IQ3"W'#75q^!hKX>$fXf,FU%uV#8kkoRXY@)!LF#q"0MZ[RKk<dMZr',rW/&\#B^7S!KTb!L'WNF#B^7Q!Po!G/KY364JDt9-NTP=QNnF\#f\Lu56l<9<rpo;FU&)I?RNDiJHNVt#B^7U!KRBZjt>Xd#B^7PB*J_Z!lG/a!N-""5=5M$!!#(gU]:Ap&!I(^_Zt;h#B^7V!O+M$JHlDb&;+m%\d*?_!LF#pYZGaMG6\?RIhrV7LHFKIH3:e\#7/c`#6tKVIt%]8#6t:6-Q<)A)Zc!)Kms=D++FLrit;B`#B^7ZY^Z\OY6P:5#Bq*fD]8_dFU&3<!KT/E#:CE6#B+ed#6t::Mf0P)#B^7ZUH]0Jk7-k\!Oa?Y^J>1!"2@)-Je&"Amg\^d8-.lTcO-RgVZDST)cm7R#8kSo#@@Lu#6ti:qbKlj#B^7XFU&EROV551T)jiN#76:h*u>0)P6?ap#B^7Pd0C-(#8'H,2fAqD#6t:6DZPCo!O+e,f*(OI$3*^+>B^+G*s1=1&+9Oj$3(I,%&X-Z!M(ln#6a'*!N-0F!O)T[!Nu_5[g,\J#?MiF!JLQP#6LA""-Nn3NrbRPIfZ#>#;6<3#.joK#B^7XQNosr!L@'n2Z_;2FU%rMLB4:X#6D%0)Zd,I!Oi;(V[":_#6BMZY[7F/'nQYk!K.8J!M0=idKan"!LF$F#6O4((Jb9YZ4[2/!LF#r#6N@]#7CcZ],q($#B^7P!PAYe#?_Fu"NLai!M]hM!m_+dNrc\=LB4:Y%?EaT%IX`*$f:u:$]bAh^C?f+L^3qd#6qpD<uV1D)ZdDQ!N-0HRg/tJ#B^7ZAR?>G!lGCu#7#AVZ3OtH!LF#l5`u/'NrbRP#6Xf'!LEhR!J_$B!kAOcT*$gJ#6CCs$&]%2-NVU"FU&#\2Z]NU#6t:6T)jKJ#6EBV#eL=a569.:FU%uQ/Pd/f#?M%c"G-k%?NHJuFU%u^#6Eii!J^o&_Z@CT#6Ct2!N-0F!O)T[!Nu_5[g,,:#=f^6!JLQPFU()894*#N#0RnT#7#AV0*c(o#6D%^%i[G4i[mA2!$<:E/O(%)7i);c[KMI>#B^7P+p!HXM'm3[56hDo#Bk#)#dXbY#0KSGFU%r*?O"XXL'Y\.#B^7QK`S(V#b)&"km)>9#B^7R!O,(40aCJZhZJp`T79Q?%pOMc$^VBr#kn@k#aYbq%eg"WSM(#!!O3ODD[1CirWbb;#B^7Pd0BdL!M_:K<sNjQ&cnONQNm\O!iB<*q?M-JMZiGKnH"sW#B^7S!O+M$JHlDb"g`+J[Kgp[b"H(EFU(8B!N-/-dg#o-#B^7U!UBjA91K#@M?e8/MZ^Zt[K3!$#B^7R94%de"hPb;\d*?_L1O]m#6`]`2fAqD#6t:6DZPCoFU&$E0aAd*)cm8?/RK;):Bru@(C(0W!nL-dl3DG:!LF#m"MOo'#:]b0AR?(e!hKG4V[%>LYQ9L[Y6P:5#B(O^IiAEtFU&#GVZZr('$i$@MCfV\/KYc3-PloCb63\S#B^7R"M4cIfgc($#B^7P:E(YdFU&$5YW$J*#6tJ7WG_fg#B^7UMZTbJOTD'T#B^7SQNmTO"h%b=LBhr,!O.%S^C&Qt!hW0j!KRE1"kPtC!M0Pj%Hdr1!SIO`QNmYs#:CGk!JLQ0#6p%j!J^]BQNn"hQ3!$I#B^7QAR>YA#1`m2V[%>L!O-JCVZE\#WWAXk!N-/G#7#/`B-F![)>[kKWal?AG6+TVV[!7,+p"SB#89/8*0LPL"m0B'FU%r:!N-/-"TNZ^^J+t5pH%:8%qd="2i;,N"TJW!pC##9Ynb"UNuXJe=<GQl''C"=Y<NEPcPZBn&%>p[%0$j9[g0BY4pSP:!r!^j!ItjP"n<)kf`uX)#B^7Q!Po!GA-W>M#7i<T`[7]r#B^7RFU&/fcO$c["1Lu-.1XZb#6q/7Xqq,d#B^7RQNmWH"1g,d2Z]6MQNm]R"6i#NG6]TN&cnOf#B^8S#B^8##0&p6!LEhF#B^8(!M)`!/U&!D#)<>=T1odHQN?pfidWB]!LF$3"5*^1ncs:BMZ`2J!m*q5Xp9(S\k?B7#6V[@!J^o&R/sr*FU&Qa?O)Srh?KuQ#B^7T#A+2G)Zb^!!J^nU2fAq>#6t:6DZPCoFU%u^it3(4"pF)lRn!S#irXi6;?<g#4$s%X!rE?i!!!)hrVuou#."Bs#7#AV],)DV#B^7P!PAYM!UBp\#7#AV#6C2&"igq)#fh-`f/HoXScQk;`s:c.f`@EM#7f&\#=f__LB5@!!$;FH)`J"G#6LZE<sJtQ#8p#N!La790ahQ21C&%-!LcZ"FU&!.#9r.4b$P19!LF#o.T[9r95cls!o#']<sNjQqZ4>7FU&Q^D_pY`ZN@IE#B^7SFU&!6^C'uG*k,;pb"HY*FU*7CAd8PG2[]Qi!lk>:[P%[EB+").pHT8XT+A[H[fM'^7h+&N^Bp5tL^a"ggB,\%3=WP$#6N(]B*SZaD[/KGG6^n_#6S$HB*SZa.0fm-U'GfG[UjA*FU&3R)b1,<#6E5%#;6=)dKlj`!LF$:A-Y>+#=fW"#:,IC2<&-O)lFRW#4DT7!RCh^&WZs])QsG0Ns*LPPocP&V]EeY%MkZW"c!Jh!LXnA#:T]J58OQId0,=Y#B^7P95aj!!JrVtLBhr,UBJ=5Nre\M!Oa'Us$%!c#EM+Q%fZgT%+bN3%EB""`rWY?L^s.ad/j7J#B^7P#A+2G!O*q9/QW_n#@dmo:Bq,IG6^&GIg81W!UEN#ed$=&#B^7QqIBgiY63B+$'.dk$L\SL,3gO)0*.CEFU%uND^rm7_#f1!#B^7PQNo,-!OlD:VbI9&:BelB6,I7`DZQ10QNmcDB,Pmo_@m/(H%.h!Xp9(S#B^7P%i\:L#B^7h!R;Jd#;VGIJgUSc!LF$[A-W>m%lXd:56h4n(C))g"H"d$MChU?#6Ch-WE0+e#B^7P!Q,-I#6MV`#n[Db"sX5N!q-3J4$O*?z!plicFU&&U#6KbfdU*$A!LF$M#6gi7HZ&qO#6u_cU)t=5!LF#n#7&FR#@@^Y?O$V9nc>:g^C7"WY6SJA0*7aQ%Hdo8-NUao"9/^`!ri;(8m`+$"eQ-W[lXYpYW#ni?XF$=*Jslg2]#g+FU%rB]E_dK_["?c#B^7RAR?%,#5\Jn#7#AV*s'1_g11EnA-WW%(FM_9Rg/tu#B^7R*ud-D#B^8m!NS<YZW@0c#B^7T7i,M;"NMLs[ge+*S/e^9Nt022AK9S8*nM%>!P\`?$dSj7pK7U=FU'E6SM)W$0+ZJ31ob'k!O+dq,%"[^#CAnf3SF^\?NHJuFU%uS)^bjq"7la>M^JPT#B^7T)]opK-O0eC!R!D@#7#AV#<*T7#<s/G#>Z:_HX@_Ag';a*Tk/EWFU(YB(LICPA-WW07pcnO?O$V9)r`&KFU%u&)d`gTYYR2*0$4D"<rnWmFU%sC94*#N"/A3Z_$>)f#B^7P#B^8@#=9eN!O*q1QNnE65;te-UGi4e#B^7P#A+2G#B^9#QNnh"2[:u:56h]<7gBhL#88I(!O2lP&W04gFU&&-)c$\D)cm8'&P!'j)^bjq#6OKe#knRHY>#5I2[tfW#lb]F!M0e!#EK/b!SIOP-O0sU!S01K#7#AV>:14G#7#AV!Rq2H#6OKE04+s,Y6P*4UBTf]pB$BV!O`LG[q>s'&!oNj$hj\"#0-ar$hk(%576"5!Jh0A?U54s!U45r#7#AV#6C2&N!8YtcN:QV!<S;e`rt9I%F5dqQNoC2#=Cu^'qtqU7feN0FU%r=f*&8^#.I;1".'5W=$Kb8q$-r)#B^7P^1CXi#6F,l6eVcf7feNC#B^9#%i[G4FU%r@$aM2d#A[C$#8.8a:F?10#6D%VQNmT7#<#Wa"4@Es?NHJuQNmVm"0OihZ3PLW!LF#pFU*@c!knmE#r_n7d0Fe!g.QVl#6Bi0!J^o&-VX`a.1,_eX#E7-#=^WQ+"%;9#6t:6#:CHd:B?"OFU&!D"Mk<Jp,<$%#B^7R!NS.D#6L>Q`a8b5#B^7S",@6q!p9ZD!N-!O6U*X?!lG)7z!pl<TFU&2iLCW2HVZEP$%h%8($I8a]5R$<m%c7f[!J1I+!WNG'T1B4=T+B6ULB323#6Noj#I=YX:Br@N#6D%f!M*"^#N%_f2dlpR0*gqN&)RSH!P&`=$)\61!NlId#1!@;%#7GN#Hn3L:Cj?b)R<lYZ6De/f,WZN"nudH)V5_MY7KeeFW._"'$hHAa!_AZ`r`FY+/`0Q&;L=j$^Un*FU&#4e11b/#-/gH#7#AVZNk(I#B^7RFU&!6T+[b$&'"qrFU&&mYSSAd$i^G4VbI]RG67UJ0*a]j7gBPD:Bqs\#6un$#=efk"%O:PRg4'@#B^7SAT''(#?q;J*J+N=?NH'@FU&&-YV.X7#8.7BUJCoW#B^7R!LF$0#6U/C#=f#A!p]m"FU&#4ZNR!-DZPatFU&&-)g;MlcO,^T%(Aq;>CR*;V[]OWpApiimgk`fQN>bE!J^m`NsA/oG>B.Y*sY+[#6D%VFU%r%#<n"Mg,B&!!LF#q#6N(5#6tKV#gW`fO%fl"?Nd)45dFH??NHJuQNmZ1#=2u'!f7/)#7#AV#6C2&RNa[L#=t:/5:6Ju%,,4s!O,'iSPN#d#8"`Q8OjRmJd6E'!LF$;#7J"2"Kqj$[Pn;D:C,8I^H`0fpBnY;f)^I3$]fK>[g'<4L^_T<IKPW3nP<+C#B^7PMZSf_!V:41*sZon#6D%N!O*qAFU',rknJ^S?NH&d#B^7Xnk3m/#6CkX#?M.Q!V6?)#B^8%#A+2GFU%u!)]o:i!QG?\1EQYIc3JIs#B^7Q90WHp!RV+7#7#AV#9OmtB*!PgFU&#B/Op$N#>YJ[#I4RX<rnWmQNmf-!fC=cB*">(.TZYB]e:H4#9t;k!P/MY!OcQXFU&!D(EWke#6Ed2#?M.Q"0hm>FU%s+#8DapJk#j.!LF$3#6i7GTiV8]#:`4G95amb!lc^qWX!YOen%&n#6XZ##6tKV#8[EW"H"cQQNnRp#;7G*"H`p4&dNOa!eU[aVZNVd$Ne3H!'`h4z6NZTB<sNjQ#C6F;ap%?;#+?>/2Z]6MFU%uK)d`gTDdN_c2al@)o)b+e#B^7S#B^7RMIZqs#8<7X#7gj%#6C80QNmfU0*`R"2^\Wq#C6FCao\"j#9t#cXBu3T?O(lZ!QkYY#6^e<%0$QT!S87AN&M-Z2[=X2!QkH&#:K'Ydl.;o#B^7R#9a=RFU&$7SR5_/#:5f>-O1Gp''a!4'9=03rr^;[Eu+3I*7k7Ya&a.fV[C`a^B)sqV\#1)%f]T<#JUDFRhtNd#B^7R3C0)_FU(Pu2\"IG#73D%2]`3HRgn(E#B^7QQNnb8-XSe5B*SIA#6D%f!OZ9I!KdHD?O(]YV[%Mn9a^Ut"Kqj0(Lmrq!fmAc$I8aC/5c_^k?e\=%d.[8&#To8$\nc9!LF$@H=UAA"km;glPBTE#B^7P#C9WV!nR^=QNW(<@gSb7hZgP+VZE:h/0Z_T[oWXg%#8[+$)[gM!lk>pQNmTG!RWh,?O(]Y#6D%^!M*S)#3R^m04=sd$HEVU^B)Y6\I>qX`s_&2Xoa@gk7![X[n:!/`rl>B#+%CP!O)f9#6Ecg#JULdf1c:dmfJ@O=#VQ5#C6F#aog@!#<N_&:Bq,Id6@Z$#B^7QFU%s(2ZhA3*Y3iqM?e8/iFOr%#6M.3!mq6q*sZon)PUaI!K\CQY9*e#%.=f>&)RD[)7fj5$F^9?!S7@EZ=F2!#<.ehrXT$r#B^7P"c!<m5=83N!!!BgZN't*#9s<9(FKH10*CJk(EY@:*s%WK#B^8-_INlV#<7kg%hA]-,EcRB!O*@V[20>Y#m$e%#7#AV#6C2&%i6#e%*o7;JctgB.0o;uYQksT(Dd;W5LKS'#8\0]$)\B5rs>$8EsnTJ)i"OiLD(BrFU)%gYSS)\(Dd;W3Q_An(Ddkm_INmAYR_O;(Dd;W*QeDR#B^8[$dTa32]gk!(ntOG"TK"!"j[4E[Qb-!(C\=bpHSo.mg#Hn^B&oo<t2nOLBb4YL^N;T(C/Om)Nl9\58P+@FU%r5f*MWd3s=:@h?F,B$U[,]z!pnS?FU&,'!V6O$UE9Nd#B^7R#A+2GFU&>5X!$C,B*!nlFU&)fY6qH<&*HXf>:0XT`rVeCVZE@of*d?EQN>bI#7(,9!MTgA2Z]6MFU&;lFU&3XdjU@aB*!nm#B^83$_ms4_cHks#B^7S#P0X4qc<fV#B^7VM_c*Z#4l1&%gR4^"emRjFU&8+Ad8PG#7B2j#5\XJ#6u_S*s'l2FU&6=X!]h2!NR:Cncs:B!LF#r#;<r,P&CAf!LF#p#6V;VB*SZaD[.@'#6uUq"(qY2#7#AVib'2P!LF#n#6_)7'X@sdB*!p9FU&6M#D36db9$c7#B^7R$C:h'pBSH-%pLCe#58G=h_,#%fa3uN%gTQE"H"ci#B^7R!PAY%#6E:X%IXOE$E$To"cibK45+<rDZQ10QNmV]#O?R7#6u_kg(,,M!LF#m#6E"$0T$*X!K.*(FU)\8<s%CeVE'f4#B^7P!M`/Bo.L-&#B^7U7iNNT!LF$@#6]r<(EWm)M['9e#B^7S"G8^d->*@;WX!YOM[-jP!n/e'#7#AV#9Omljp,g3#:_q=#A+2GFU&'(Ad8PG#:%@rg.qa9!LF#m#<K.DMcTqG#B^7RMZg@)!VS/I>6f9U#6u_k!Rq>&#6sK9"ks9)-DF._FU%rXGonsM#6N@%#6tKV*u=so#6D%6MCg1d#6L=sFtWl_B*WPa_Z@CT#6DpI#<)m1!eLY#567)UQNm]:"d2@V:B?deFU%s8#6L(o8+Hn-"0#j5FU%s;#au\;!NBE.*sZon-NVg@FU&#TP7*6QTjMsF#B^7QZ7R./#6C+l%]9PS^J+pY>:13m^C-)=Y5t4&Nsk+[hZ;C6/Op<\"8W))0*.CE#B^8mi_+b/FU)5:!J^mbLBen?Z3P:KMZJYg!QJ1ApBPgG9b.15"1euW?RZ&k(E4_,FU%rmq+$;I0*-t5FU&&K]E_4;"4en%ZNkUX#B^7RMZfVl!W+MN2[=I1HRF(\ap3%oMZJPk#@U[7#QG$O!M]nG$L\4\^B(bZ!S8D!LBtpcJd(TH`s0Qb8--1$"n)qV!JggW-O0pD!n.Z!#7#AV*ub69DZPUu#6KM_0T$*X!K.)K#6O-C#6tKV%Yk:$k=lGa^ECr6%mMKK"H"d$QNmQf!UDB>Op?+7!LF#pYQl7W"4d\X#7#AVJfbq%!LF$O#9`#%RTBNV!LF#q#6ELb(EWm)ap.sO!LF#n#6C#A'>Fcp!Lsq/#:]rH#;6+E#9OmD#:CHT2Z]`[2]EhDFU&)d]E`'S#8qR`-O0m!B+GdtB*=)D*s&Di#B^8kMCgat#7%O;g-5V)!LF$\#7$D^'2JXqdK_6dMZ^[R"f<pR56l<9R/sr*#6MU?5ahq#"mKTJFU&!A#7&BVk$J.U#B^7TMCgat#6^V$#8.8ak6:tQ4$sAV!!!!`l\kfDrsoVAs8W-!#7(;/"H*9]z!pd,l#B^7r!O*@f+t"`C-O2B##?)ET%hAnf#6t:6#7jK5g'8E)!LF$L#=$oQ!uD!)g';a*!LF#s15ZA[!P9F6#7#AV#6C2&!M(#Ck8u"=!RG`f$0MeZQOV8jD?d9K&"`lX^M=.ZY6VfCJcUl@Y6O/@"i!)#O:M]=%ggP_Y7_>k`sIM3M?/qGcN:!opAploYU:e/-RT-"-B\D#-Pn-8dUWS9SKApqh_*U`HPDeJ!j<<Ik@GUacQ'D/cN16_cQ:CA#hNi2+3+nQ+0P^r#B^8k#B^8k"nr=a)UAGF"KM_3$TgR/!!!!dla?cn#6L@r7_/hI%fqh(!M'`3%hBKA"k!FI#8[mU#B^8M#+l[/*R=c9!O)e>%kjpf%hA](aoS%DFU*75SIZ59%hn4/dK--S(Cp`SYQk[D#71V9#7h&^iWfLg!KmsOSIZ5Aa",jE9aQj`"Kr>c"2=l_`"*$lLB7,M#S!+&"1JH^!SIbI%gNNp%gN=U%gN-&dK--S"LiRY!Ts\rpFcurNrbRJ`rW^PY6'I]567nn8e20i!nR_0V`P<rYQk[H(&A.9%fqh(#B^8S#B^7R!O)e>%l(?p%hA](U&geqU^mtb#6iNV3<p?2":'&S!!!0'])Vg2!K.$F-O4c!#6D%^!M(Sc-O2L!%hC<0dmLDb#B^7PQNn:X(FL:*-O0[V>62,BFU%rJ(FKFmk6$K((WT\b(rmH=)im3V!S@e[#fdtCmnaLtFU&j)`s'co*<-'V#B^7ZFU%rbQk'E,+"%9o-O0[Vl2dG'f*JiT^E6ke0+6)-!Ug>]!P&EDpE'nFLB4OY-Oc%EQNH>B3tLc`#8[iQ-OI(h/t-;U#B^7X#B^9#!M(;SV`-j*%I\9B"lB@\T)j^sD@MX6!WN>DQYQlqNs3i=iW5&Fmf^[$"8=ha!M(#C5:7D=-O0[Vl2dG'FU(c3/Ir?s%gN941VsA5%fr"%QNnI]#;I"q#R:TW,nC/D*>9;6z!peqJFU%rBA-Y=(LIVW5"c%(-$MOtdY6VglD?Z@;#d48is(_Z(NsX\LWWA+hG73:VM?p[P!LF$<#8W1U:G2a8(8>=EQNnT&!rF>G#7#AV<t?6g]*CYM#B^7S!LF$0#;+qR-[,TX#@@H9#6tK8!s`aG%gR4^#6D%6$]bUL!l"c2[LWM=(BhJRmm%3Jrt"9'cN/V*rrS5d"i!S2#bM:@+"mYN#6D%FFU%uS#=*kGH7o;c2Z]6MQNodU"HktM7feq].Q7I!FU']-;]MeBX%rbS#B^7Q#A+2GQNo_N0/kfj]*SMG#B^7P!O*qQ)d`gTQNn-F#AIfO#>PMH<sJtQ0*_NHO'aUHUCYr^cO0[Q!OaonO(S`j#d6K&"ePk*%u11;&%;eQmg\/F!JirGD[-=3#6u=iJS,"[#B^7P(=*E@(7tWGg11Fi[fXl!T)l\-cNfL<$BH&:*g[e3QPSaocPXtD],ddM#B^7PFU%rRdK0=PN_]aI#B^7Q%fd[n!O*Xf#6obb#:BP=*s&2CQNmo0!Vn)D>6f9Uf*?F'UB9<Uk5g>=!Oa?VhcC,N#j4G[&*FGk#3Q#=!WN>l[g^;JL^9=N#6T_^Jfbq=!LF#r)fGso675hNFU)L`]E^A#ecDoS#B^7Q!LOB&cO16gVZOa;])hL(!l%V7579h?z!pdf*FU%rbLE2]d')unfOs3Cd(In]`A-Xb80/!q64-BW8#B^7RdUWRnY6W)fLB4.[2\1ZJ$GQVM5Qebk$NC.A!J1C)".oYHO%9Z!k6SO(rrIo\,"G-+!NSB+iWjT2!LF$A$`>(*cO'&[IfY<+"TJq?[r)Q!Y6"A#%>S^'$c`SB+Hcbc"m66E7g.F)#6D%V#B^7`!Po!G#;3S8atEd^!LF$W#8`gf7m@$@#6D%6!O*)17fe/GiYPBi(IrfU:O<5%7mBd>HNTuY#6C#a7gB9A5<h(C#f6V5"TJu+"Kqj$[Kd8>7fp^3=$Qqm%A*fj"1J;_#N#cYV[_NSL^UZu7h5P"aoS&'(In]8k8h;BpAqo1:D<I5#O_\G%dt.AhZgP"XUh<Dmf`@cOorH1[g7`ia;_SkY8,(Y.1Ff2%gNa)7gB'^7fg;!72O*:Dat%&'aG*O)$($S!!!T9`rH)>!UBgQRg4'@g.O@,#6U_g(Jb9Y:Bpp)q>m-_(Jb8P#;WS$[jM3C\-o2Th[6Of7KLgQ'TWuiO!b+gT*;tMNrbal#6N'W!n%<r2Z]6MQNoh1!jbAt\d*?_!LF$6$`>(:7h595!geBQ!ga#hrsFO!cYEafNret^_?#Z$`s7YK"ck\I!O*qI,#:u>:BrK"-.4.W567)UP%4eN#8P)^)(u#W[g.$\L]O[g#7p8(%fsKOMCfVL/KY3#/ZJr2-NTP=QNo=p"R7W@2Z]6MQNnc3#?*hf(C(1f#.b<a2Z]6M!O*(VFU&!R2Z]?P#:hE<+!1`13u7qL#7#AV#9Om\4pQ"%(C,'f!K7,9!M9G>(BFo!#gW[@@1/D;ncs:B$"Z%+#B^8H%A*[aZ39nr.1)=EYSU(o:G2qRL3Wg-#B^7P(Bt'P6U(r?z!pdl,FU%rRV$@51(FL:*#6t:6#6BMpFU%r:0aAd*KbjtA-Pm!g0*_N^b9&GD#B^7Q!O*pfYR_f\$%`B_-NTP=#B^7X!Mp#+[gL.t[fN6-2[mG'%?COupHSs2"Rg79$,6Lm&#Tf]T*:!@L^F(`#76.d#6BMp#B^8KFU%rBYU:4l#k&!!!M]q($Ju$%Y5u'B!WO5IrsuS(JdgNAmgdA=8-R<F!lkTH!JguI#(d;>-NTP=!Mp#+YWjKW(C(0G#6t9`(BMJ[#;d5%!O*@fKbjt!#8[UG*sVhN#6D%>QNm]Z#6uUW.3ASe#7#AV(C(!H#6D%6!O*(V#6Ut2#:BP=*s&2C#B^8h+1DWu-QU6$#6D%>%DMu%JcbsH.1_IE!!a;n:Bq[`YQksL%j)#W\d&8?!LF$$FU)n6"UG;;&Io6V!#ZLUzb6%%*#B^7S#A+2G(E5"4QNmc,#4#Us#7#AVLBhDr!M_:V%`\UZf)`<%%*'_+f*)+=Je%MXmg+sT8.X;_%eg8'!Jh3J#87R@!U9o4?NHJuFU&,?]E_dK#m$4jNsBe4^_![S#7T2b#<*T7#=f_O#?Mjg"LEMh#/:B*!rkbbQR>urScQ;+[gC@]f`pU@#7L8,="bL_Ba5dd#7#AVNuJ,'!Oi:7#6C/1Y5tI)!KRHdK)r.p#B^7P#-/<@_fl->#B^7T!O*XnFU*0s`snpO!oH]X!J^cT#+'O<!M0>,"K)L&!SI[L#6t^A!J^],YU9I,!NQG+#7#AV<uV1$Mg^'[P;12_?NH&fFU%r0#6N?ZQOa=D"H"c3!M9CZgB!@\#B^7RMg74D"f$8B_?Y2gMZq9;lN*ma#B^7PMCgat#:#*/%mL)]"H"d$QNo9t#?O\%!U9n5?NHJuQNn)-"JTN0DZQ10#:a)+".La^!J^]6FU%r=_$:2M#6u%GWZ6n,!LF$-/LM&N0+S2CNWb4k#B^7P#B^88%i[/,#B^8sdUWSA&"a(6V[^+TIh/F_k6^<Q"da*.CBrHe#`fFu!KI]"#Ho>WpGrN1A-XIf!M^R]V[%>L9aQRZ$/YiOLKaeGmg@AAmfB!aNt)*mhZ;C4#8cA)!N,sbFU%uNXTrJD!ol';NsBe4!O*@@!LF<%%g7bAMCek$#6TP\!N,sbFU&!1/U%^1"7cSPIfYl@#B^7b#A+2G!LOB&97L.N!jP2b56l<9&b9H;!M)G>*R>&gV]Q>npD:"GpAqH#pDq!icN2,kFU(ASXTs=\.06"@Jd6E'MZW\Y!O5u4Jd6E'DIn;%FU%sE0*-h5LBdjaSH4KH#=@\V0,FYEqB@"',#:uQ!rbHBQNqX<9a1P*$I9%9a!Y(MSe%_+rsJK$f`@uX#7'\u="bL_#6uCW#<*TO7iMJaFU&!4!M9T%!J2+,VZE+h#6VL;"6p,6G6*UXFU&$J#6M%52\-.97g+]$<sKlRGm>Jtl3DG:MZ]pZ!hjf=&dNOaVZD\`FU*'j\L$eOVZD\X#6F&i#J(._IfYl@!O,(<#6T\c#o<hhY6G*<3s(TJK0qj2!!!!#lc&o)#6M45dN8^:0/n4Z0*/aF75X9_#6OcU#6tKVh^@]"UBTfaV[p6;!O`dI#j3igNs+o:Jd(lN<t"a'[n$o$pBIf&VZDSWSM)W+#:S"$0,GEX#6D%VFU%uKd0Bs_!TPg6#7#AV*s'1_Z=F1F#=P:GdjG0_#B^7P!O+410*CYJ!f$f<&dPTn"RcMd!L*\q#hLuW!M9_^&,-P-04>1U"G[6FV[W;Q\Hdltf*fV"Xp=D'pBAS<a%@ummg7;K$hl^dqIBgiA-Y=-)rDOe!Lsjb$ca<TG68*M&[)A!#8-uU#6C2&FU%r0"KEOKOrl?(2`H'b#;6B:!Rq.$#LX\I!J)nN*sZon07*fT#B^7X!O*(fYST5'0.@,,#A,no0*_`)0/!QK#=mJl-RT]`-^l5,RUcX6#6D(r!riLJQVRgp.gQD"%1*OW!!aABzo)e:5#B^7[%,1oJ!LEhF#B^8-!Po!G#<M]'0.-de#6D%6%i[G4!Mp#+#6FEL!M9U>#6D&!/HMa[!Nu[$#6D&1FU&,/YTJ?"LBe%b#7haS<uV1$FU&,/)fGrdKjP'T"e#Ys?NHJuQNn(R"eoW1DZQ10.UN83!LF#r#6tbY!KR8X!JQ".h[fGdrrJl*0*LGHIh)Rg?U,$d"htD*"ht(i#N#XPVZNbeL]Pg1%g^bfZ7Q*40aBWW"oA=]o*9CCg.QVjFU)V.Ad8PG#789Q_ZpEh0*0Q+#B^8U$B"r5j*(N^#B^7V#A+2G!O,($#;+p?o4J)j#B^7UAToNU#Fc$P0*cV)#6D&A!J(I\#6M4b!p^)6#7#AVLMmtfE<<$="eQ+Yf7+2&mgQZ8$Kl:7!ga2e(C8&s!KIB!#ld$8h`;:GQNOE!$GR5[!EU5l$\o\Q!Jh6+*iB.m!QY;F'ZV*S(r&'QFU%s=]E_dKWs/A$#B^7W!kTKLqf`(!#B^7U$f;>I%Gq2][N>q(Ig!Lemm%5XLB?':pAojJNsUjL$_Krq&'kEW$KhGG)Zb^!!KRI%Ig81WM['9:#B^7P!PAYe#6Lk2(Ol[4#6t:6%iYP)/HLnC59C("0*ct,2[=gOo)XUc#B^7PT+\UdJck0:!LF$7Y\uHR"PX.^2`X<qFU%rRKms=4!ndeZ#7#AV#6C2&FU%u&/M@V>2\-%K%g7bA"H"cqMCh=/+U:dG/QWGf#@[gnU0dqf!LF$HQNoQa?NY3I#@@]c!m(JUFU&!$!Oi:=#8[miT)l+q#>YR*FU%u6Kms=4"-s/mXp9(S#B^7PATp"`!gs.f#7#AV!KS0a$c`A4QNu\JQWlr^VZa1(T)kMaLC;E3LB6'<)c$\I<sJbuScP`.#B^7PFU%rB#6MUEM&ucG#B^7R)Zc91567AeIg6"Yed"Mp#B^7Pe,m&`"I9i)q$2$IU.]\3FU'6>"i"[Tk>),R!ObK'msbh>!ma+<&!mf^%aP0-8.1J[!QPG[!Jh!$LCXd%"emRL)Zc!)Kms>'"H`oiT*KKD!O,&p!N-G5T)u;MUBg5jNrc-Z!Oc>B!Nun2[m1;`mg/XiLB2u5"OCE_[fMgdL]sCVb7'F4#B^7P2]HZ?!JOkcYX`%*#8.7BM.ZjU#B^7PATpIu!TjIZ:Bu"I#CeH5!Rq.nFU(ip#6g4pG;fbL2[9AfZ2pLT(H2RV#:G+ICG,^TIg:*$#6D%N/HLV;!KR8u#6D%VFU%rX#6^1pb'sGY!LF$-#3#Z=NrbRPIg(B(#@dug[g*.\(CqGc!NuJ.:Bpom#6Lk033!4+-NTP=U1=LYY\uHB2`CsB*i]73FU&#JFU(PEG6I%5`^5PU#B^7R!O,(D:Bn!-0+ZZ/03\I4"m5oQ"ePge$]b_B&(^j8/HLnC"n=[c#7#AVd0F7g#B^7TMZf__!etn"M?e8/MZnY4L&mVA#B^7T#B^7h#"oOE!q-0Y".'%H"4I:V"2Y-:K/Wmb$TgQS!!!!dlaQop#6L@r#:g%%(Dd=!$JGNO!O*q)SM)W$#7T#]RjT"*#B^7PFU%uCYSSqt"P3kZ`rV8T"6V<Jmg\^uPQe5lY7gC,T)n*U#7Hk!*u>_H&ZT@H#B^7`!O*(fSM)W$#8Z"o0+SjP#6D%f!M(ks0*_ZL$/[ZXpEpRQk8aL3%Bk6h%0%'OP:$CM#B^7P!M(Sc+!1s_2>R?EE<YeaYC@)7#`!m>&'"g>%d+@?cYF!QLCa+\l2cnLT+$K-%aR0HFU%quLC2oD$26Ut!Po!G(Cp`]#;*Ll\ebC6!LF$4#;*e70.-de#6D%>!OW^sFU&4=Qk'E,#7(P8"YhS>!&HVmzU?q4[WJ6kQm#:8+RCe0em(Jj=m-<o@L4k5[iN0&5iJN2_KS?V;iSf<@iSfKEJqf0AObAIDU5"E]K]0:lbi+;dKXp(#iSh&=iSh$"KoTg)K]1nKSZ@FH"98FU'*&"4"98E%'*&"40E;(Q`;fl9@K6BA-ia5H+92B-/H>bNli7"cP5kR^bQ%V>:&k8Pf)PeZ=9&=#L]@DkC)]92;JM+8X%R1:Gg:a94r-9'5;.H#5A!np59KDW5=m@M5:tg?N\o!XcssASQYo(,PC)3%M@^'tTK*1P4&B;R17mrMj]$BQ7UmqZ5,C"23O*oS?r2K]dcXGQ8uZpD<a"^6!0qYV"]%(d"HgkK0[)E+qUi^!FLpr(`%Ij+ik2u-LaI3rFdgt8;4!<REW,PS!8/'Za$%27&,O.n35eUljoUaf:\)8JT7tm#Vm@Vbc4k"--^Gr(!:Y*t:C+^0(.;_#U.:s,>d+&P\8rlk!!Qdj:WC-Q;Egj@(N'fU!3kIr:Lq4o71-Rm9[U2K&5_LIL9XDqS5A@]?ZTSRVt2s+Z5W=lkRqZ9Mea+n6:&XXa)&N&#nOmA1HA_a!0cs4Mm4=8[TgEQ5<6(\*Yc7,qhdq-d4X>la"!#XYbCtoc6EVQR'6Eb#:#72!81hdbI@l-TXg7D]l^5SbT$S]!P0=X;,H7:3B:.a$DJ4@:Uio,8tl00h/+MEb:PBYjKX5%nCW<*7YM43LrAVNja.'d>GPOQEj9PR[TXITn?KE"!*NtCVIei:=AVos*jI=@h,'TSOKghio[s2WSDYGT**hM<$_9P^!0aSl:pEZolqiq[BGa^JZf+:KLQ4G-a-XVN`^4;h#HW"A'Je7TILD<ra.eVCL]qln&*umBaE6C@$YV27o%5;R`@f%pLq7]e3;f/j!,YHMa#Up$!8qr9Vd25'C(T-Z.Te=R09aY=s(@B,p\I!nY_WO5k>3Qq1U1d?in3#!,kK+4Raf+K^br9OZgrGP8<mX=Ln&Q=%L;+BLuuBrFSN2i[[=CAgb91`ibU9\.^?'6s.P3*0sQ+Qa]sZ[JGS=,Y&61e33hio!*MDla%jCse"ln>3jFGj!.(V%>13U'[d=f]0S870UOQVTe8A!1JR(?n;/k5?FOgg^3U+<&=I8(J?ElX:eC^5'Zi[1+=e5;1&TMBJ%+C,0bE!bu0#q[;!AW`o2GkrN`sbVG!6fdpbHBpjBi&j]1Rg\0`AFOiS<Mgj+totoHg8a+[WIqMHa0h&=6<i&1KHFc2]o'fj(r2u>2W:ha6<pV.&d&cPNjQd7F@&1is6YC'BTf.SCYG*&3hKW1cb"Ji^4M_a1.%o:j4RS6jKA:C_e\22R/EJDCgu/>@'$K^RH`#BC,)6@Sk\:3B;.5A\q1IYZg!fL^%rnd02hmN7:QPCLuQF8*4i3;fq(Kk1E1CW4ckb8<./U'5_.nZZ3+>TO-]&K*u/"aKVDM[`Eg0+??l[@mX4o1A)dA8<S6CL,PRY!FO'a>6d#/h(ULhTs:?&CJ[R-KX&uY5j!d6oM.=nNabt/EQfC-`__)<4uqsQ?XGcSi2&AE<g<Us.dG-W%spTHa+D';!+^2A<CAbg[ZPZS+??jS&5=[N1tA?hQ*)nd48=1Q)[d.]S:VT'4@e:p0*fKL%jH,&'=HmUn^q.4gI0^llK14odn;VJ$*7C2*=gQG5Yg:ca1kcD!(M<Fao_t44&@QCLO2=d_sN`1a,SP7p8fp:Ym65S%5G`,N!BY4LbEkWXSpMc6&9-G'P(eh[W8I;SA`0l)TCp"S@_df+6s/u[0I`r[aB3(2EA.IP^\Fn4ZWQ:@slh=$(>d/+P=LBAkt@P`UQ0&25`*O)Gp=E:VL,$W#/f+=66TrYZ>-j:VTeo1`WSbi$di=Oi7:@a4)G;!#]mha+D&]GddO*obZ@XBN2mA*M%Lro3Ug$?*X>OISg!Vr<G_6$#IJe/d)<'[ZYa%3sW2;!/>U)a9o]NJrD@1jTi8.[f1BURHh2-[Rq]?nZfOlcb"ohSArhf$9^>?q$57iL_+[8g)roCZLW3GF0WPe]hl8FMc3`Wh`tf)&S?r0-&>B3H0XIULfjSK`b&l2Kc_h%a1)5<rVnMUh7fEVKMWAg6hsKV=:ViVZ3M6j)r**NR'F-"[TmJRNNojSkL^]d01YDG65`?;CL5QFTQBZS4#u@Fb^.EK$=Kn`!)!uac<(AT[tU#'kl[fl>_J_HUhnT/b6tXca-X7i$h2"e40_!n1gcT_-L-@0%rXJ?:Stn#*cje?p\[-iiZeJ.cFsU,[TOg_#I1^6('^ZofGpB[]+AB`o9jW$=B'oTn3p(nli>CnS:pCmBMQ8,3<slD6*:'lK7Tcj@nlduo$$1RHfe`7**5'I*Wdrjd\kEoAka)E3:S0C[TOCS4?9k@0FWW<=PbAOTE_bTis4*X!1J#:*`k;.WUh0]B%jtFnM1)K_]o_)-4AJ>a-KA9L_>%Mp/-Xdh.umtqDbit6f#E'+?=Oa\5r=iok:XiHnWc'[2NSE:/EsV:UgXr(.:5NX&Z%K!+L$s:VjfDfmi!cBo.tBDNp`H8)WPIk1C]SQ0V>2(ErIQhV,(i:X+OL:R&WJNR(gHV(:3'iCPj2O^T[a)beggcfHI_W;^=!07[7kn1sr-c;t<?^t==RYnH1QI<1U'JW&O(N11b8$<Hc]_r\UV<:#L/*.iF"Qq<eB'S3)3D_IPqDMqmP5dQ+M!!A+Kc:eNNSkpQC:VA-B=+7bc&o='*R%SmT>Z<>^RnsPuAa6$C%sn/9EA#"Xo[nTka-^3j*No<BOT!cIZq,Y#aLK3ULg>+Q)5P"'J2i[saG@V&omJK9]WnIV@PFT8fL=Mhe.]apE`DN-J^GpJel]8$UBAaR"pS$Bg,su@]mV#1$qS6m_6L6g[TU$H2EA4$Yb'G=+mSS4Lef]YM9HU]UJO7IP-K?df%<X/#rFql/TM'5oA(oGjY%]Z;nnYRg62<W(2Xq+l^c.:@WsbHNE2*QgTg:uFL6Hh:Rld*.%2B[PAi,k@);`B)jlQRHoTfJ.`Oo"9MV#6j`h'ILee?>MGH/lOifbmU-@nN%oAIq4g@^6rn)/&e.2i@p:N^/0oP,`aU<7`a17Lh!+g7eEVdHGmS/&\S6*JW,V+;l*9tBa%m_'hb<lSRd82s=dBUG0*"d5RIR#h'esbrFa9'+*$,j^L'<sYCSPZ5tfW&)R>Oip$6YhO2!Z@ti:XXrt>4I&8a(phE!,Zho7J#T4n^p3\ZdE7c:$,$-ksIBX+l;P)M!>g#!(ZI<0ip<>45+nfKedXC+bmVl$f/n$b)a+kE1ANcb*M&V?,>fAj;a.ZJ=W'"#2iG]Cp]k'/3N]cJGDUaA)W/o/@#g"$YUr;N9N$4Lmmf[m=non!;oP6cLe?J)c)$b2bL.#oJD4c2aKUS+JoH>0pthh0VF#P2fqjInTBQT.S#i(+PDI9i^)#Ep0dhm.YLq5n>9/A1#5D-o/)'l2aKUSp2c%X2b1d%p1T+D2aJ>/+JoH>44I0[25X&(:.t00r^_X3NsJ;`#ba@R0r]'FJtS%l2b/qVn=YGZ0p,%4o6#TYg..d6M5^ePJi$%2p2Kt,X%/N(7&E(>2`"7VM:IW:LI"L'E2FIF2bhcQoK7dkpH^si`329o+)+r)n83d90uI)?n?!O%2cieMn=YG!0p,%4`LqgBW^-F.p0di&1;$%,n>9/A1#5D-nl156QU*d^LSeKQ1$M8<p)8P]1$M8Tp,[fe1$M%fp2,D[2=sI[B\@p?76s5kn>6mo2aL5pp,IZ>1!re@rFCNA^Hk$1LU(>]1$M8<p)8P]1$M8Tp,[fe1$MM&p2-+o1os8OB\@p?76s5kn>(/#02:o.qbW?%3jD7BogOJ],Ul;Nq(RE.3N3t>rEtM:01<"PnBIh1-V'*BJtS$Y2b/YNn=YFR0p,%4M5Ej@.^Vbb+PDFH0pthhp)&D/2`"7[p1AtP<'a=5n>MQ?WD0CunBut\-qUVYn@4jA2b1I)"K7])2`"7Zp-4L12b/YNn=YFR0p,%4pjI[sMFWH#M54!Umm0MG8>[4s2aF.ip+V.aLGhdF5c-)*T1AS+=JdWBnjh6^4f0c5Val?h/[-Bk1"eJAJtRe-76s,bn=j;b1rW7cfV%q42iKTh<J%;`'kq=<n>-1/2u-7Eqdnqb"[qP4p)o:\cZi2F+JfKB4Ma/6:WS.LVa]LpkcSGf1XSoWp0`K;5I!os8G\2)[n#o@(oBGc01YKekb:In38kL$0AqQ?f0]>c`1UX922t<b<hT.\2`"7]JtRYLW^ksop(6g_1%@h\p'?9E1$M8Tr&oY`3S[2Op+V)K31N_XI&7l?2`"7VPG!TR2aKoTd(aiY2b3Z-#h"Al2b2o_nD&[]04@YOBRkbG[qS7aGkIk$pHlpQp-%A*1;Qa`qZ)6'02ZZ8JtR\E33dMOi1W_[0u67':oQi_hadCln0kA'3.XX$n/.+<0sjMBpq3t.1#l'Wn>1PE1!*4dn=[$\Y=HIWp&Kb=.R?WE=Jcd,76s5kI@u6fs$r^5nFhN..-+->%AlfU:.M&-.%l0_O%7[Nn>&rTk>>$MnU6ln[oJm5r`,1U(J!B1n@"QUhb2,.nG\YF2ZZ^Ln=YGZ2\AVdp+WO!ZU)I5ok!2W1!rd2rcj8Gk:oOo8Zt6B1"7T&LkLbQ5+tblOJI7R2b1^Sp,_7dars&5Ybjue:)$SOCtOC]ejYqWnBut]!^TBip3;6b2aL"R+JoH>2T/MFD5LPp:.*1Rlj\Q;pGbek"enR]0p+BEp_ACr2b0L=p,mql1Up"j<hT.\2`"7ZJtRjo\j9->0W%fB2fqjI4/Q7W0uQl>0\M-+qEau0p3?O22<7JR32TY3IRfaQr%N`qf3grpn=]nM2]tnkpg&P;01XpI8$?07(MQ[s8YC\31$ii-n=jr72_Rt%p.9p%YsCP#nBut]-fdlNn>70^1#5E0p(;o$(I:43D5L6K-Xfg'oItlnRRaI,#cg'Q,PaUTjoC@r45!2Sl!TS6a&KP/p8]0;,)K!=39Z[IO%A0Em5W`e3oO1$jtMDM76sXTn=`9F3*K+QkcLe#.nNt<pSYbu0LeUapSWX90LejhpSWg>0Lf@!pSY,c0Lf[*pSXTT0Lf<upSX9K0LfR'pSXQS0LeUapSY,c0LjRCpSY8g0LgB>pSY8g0LfO&pSZ))0LfO&pSXKQ0Ld/8pSYPo0LeUapS[XU0LcH$pSX<L0Lin0pSZ,*0LeXbpSWX90LeUapSWX90LfO&pSXu_0LfO&pSXu_0LeUapST9/0LcW)pSX6J0LkrjpSZe=0LeUapSWR70Le[cpSY8g0LgB>pSY8g0LgB>pSUbY0Le1UpSWX90Le[cpSVn$0Le"PpSWX90LfO&pSNI50Lik/pSWX90Lg<<pSO6K0Lj^GpSXHP0Lop0pSSd!0LeUapSP)c0LjOBpSX<L0Lp-6pST3-0LfC"pSPr&0LkigpSWU80LmYEpSU#D0LeUapSY>i0LeUapSR^X0Lh&QpSWU80Lf[*pSJ?k0Lg]GpSWX90LfU(pSJd"0LhS`pSWX90LeaepSXWU0Lh#PpSU;L0Lfs2pSYi"0Lc&npSWX919/:DJtRmm\j9->=Je2R2fqjIjop:>dRX&1M5+c[1t5*B8D0>k0nE-Pp&K]l76sQMod0N1Vao@98u<S$VaoXrC8M\<Vd=u,4f&0P,b-gFp)s;676sO?QEZ$:+%Y#RoItmn3Isk,r#gU`#>n8/.'SO+47Ns?0DL3Sk=*8>`1^F+QU+ATfVTHS0o8]BBW4s*\jt;tE2>*U3jBCUs!W]bT0Z%H<N-s6cVEZT2l:C\O$eu[p19IVQT7hB32QdN5+-oWpo+iX38?(4p(tAI0u6N1i37l!3/gF%aKUn'WZk6$+JT?1cU[?Z@(L_RcUZU=:oQ!K/t!^0p-4L1QpG*,i1X:H0u6[#BVZVR-Xg-3)#]0UpIh^Gr@m8&2`"7;JtR\J76qF2JtTtT<'aU5mNn<X5=aVYp(sN1-W*53pa(OD76sT^nTD*22b22mp,mrW76rrEJtS3"MEtUsoJE(22aKUSE2Eq9@6lj(@%`o^[R]6,nBut_76sL1poRLi5=%kQ'W*co76thAI@u6f2b3Vop1o8>2b3&Y%>BI[1$LU5j%YW^W^i,KM5Fuc3r)?];!ERkk=,-so`1g_76sKnPG!S'./ZA!pnea"as'X7n>61h2aL67^u0g[2aMc;p+WNf3oNdVT^[R!1%e=&r!7kes&25j9ql/f3QYs_T"'CN2hXO1BVlJ<2aa%inA'YAB0f[O/Z'R015m=$`K5\%G;r$5p,qD12amZ@n?.F/i]0f0p,MY81"f,ap+V*m1!rQYiFRVm1R(Hs"k\EW[l=H.n>$Ca2aL67p)&Csr'ugqFhNH$0nD7&8D3M50nE-Pp&K]l76sR:p0`PJT0Z$en<JZ"1!EG@p(2iKb!?omM4l@iRTrEup0dhm2=*pt%Ak[5:-tu2oNd(IO#TfiFej:U1%@0Ys!<EXb"(WnM6g&T4Q/kG;!ERkVa/kc-GZHL2`"7[m5TX@,O%dDJtRXY2b/nUrk=%M0gK*bm])FW0MP*kpS<F60OmZ)pSWX90[<5?p\TS80Kr%YpSWX90G@".pP=Go0R64?pVqhX0RZLCpSWX90K;VSpY:Bn0K;VSpSWX90Jl>OpSWX9gn73hn=UUha$ELrn>8uS1!EG@D7tOt0sNXjoQ?Uq2b0dEp,mr?4,$6,aIr6$2b3YjrWnRe.ATO.i0]Oq1%AVu5bKBP%SDf0nR.-cV_V"E5d+-S[n#rA@%r$E0o8ugq,iF.2RH$fnOSGs01F3Fj^%%D1%oPMaK?d_X%9hoJuDpJ2adJin<eknY=7Hr<j#\'O*Ps$!2_G;s%18`oI-"n1RpcD@%_%Fk:\LDn?+`?2SDn]rh/sZT0YWfLS>qb0nDn6p)8O:0nDn.p,[eb0nD_Lp2,QJ3iknu5hV(:2b20Fn;r;f2b!#Wp2biU2b0Y%p(2mAs#+)'32T):pIFo.0W%62Jk+AC<Mi/RLIZs8D7<)01%@0IJtReE2aHENaIn2N%mb]inj%jS1!EgHn<fHZg-J;BI'+;X2>qaNn=]JL5Ijqeo`1#c3KZmH+g2#[s%:npAuf`>2aaUsp2biE2bp.Dn=YG!2doLdd%H&-1sJh,fqA%54$c$WFJ/>%2`"7Zp+:ql2dAp_p0`L.76sX*n>8`N1&"J=n=]JLhabQ2p/$E8RR'L`M5iR022k*M!83.cdRSo@p.5-VX%0qPoVPS\j$>iUnButa76sK[n"@<f^HkR>n;s#,%nH$7nSEm2K6^$onButc76sUi*M>,]1%@0VCo0m#fgjZGnBut_2j?mB0W%N)NCScU0W%62X[eH(0WH!`qE^S%?)BGO:0uB$o/)'t#=1N#<POO4l:IVu;3:B@2`"7ZVP&OC\j9->mA=\mf/Q->AYVgi0r[(ZCo2;KMasDknButb@6mJ1I@u6f.S'Nj0W#OY2b2iYp(2mA0o7lCp1T&;0nDo3p0`K33rDQB4nXDdi^a%#M6?qO1%.\Bd%L),1$_(RoEg)\`^)c8nBut\dU#`FoR3f:15KRnn=]JLiaH3Yi3.f(1##4On;*.hek5M=nBut]/)3m1n>8$!1#5D=om)/>f0MRInFhN.!^TBaI@u6fdRU4eM5W^82tTZJ.+spMb!l0Yp-ARI1?;.LD5M,+:1*;9j`Q0Wh`*kh!3QGt0p)[lnd(/mZU4EUnBut\76sR+n>9Gb2aL7#p.0eN:0#I/n.gP?h`+8&!2:0#0p)[lrc!D4#t^cYn=]JLhabQ2n>9_h2rmbi&D;cQ.GP!Vn>:"Y1#5DEoJV;l2aKUS(o@U62b04do0n=Wml3aH?(iuG0r[(`p/$;<7n92=&:obq2alWOok&kA2aKUS(o@U62b1('/\QfV0qgMTM7&$32tTZrp.5-a:1!4mnGn0;k6OX&(o/]U5ETj9JtRnB2ajpun<ekn2au`UaJN$a76sU[PG#9W1T=V)#_J;Cs&Op-lr_qA0)8U0]WbWF2`"'?-)H8(2areZpas^:B1Lk,Yc!.S2\T9?D81a@1\"8i:p?He2do8)7&9g!2`"7]JtR_-2c#%Qp],p%g*0>?n@a*=02Y;,+J>9Bia,F-`h88`2aro*?BBcp2`"7[JtR\m2ad#\n=YG!2_dm/@#ooaMFZ"ErAaCDVa4)m-)M)D1!reGE1hg=[m=0KC8M,,[nX`k4fiWr5MSKTJD#d@X%2'pp(?(Qf0MRInFhN.1!EG@%D@@i0qgMGpcXDBk=;GK\YaI?1kA4!(kIF,2aE,Ln@4-95@$V7pU$H)0LeU(pSWX80LeUNpSWX90LeTnpSWXT0LeUVpSWXV0LeUapSWX90LeU"pSWXQ0LeV0pSWW]0LeV/pSWX90LeU?pSWWl0LeUSpSWX90LeUapSWX90LeTbpSWWi0LeV#pSWXP0LeUApSWWp0LeU;pSWWT0LeUApSWYc0LeTspSWX90LeTnpSWWT0LeT'pSWWI0LeUapSWWV0LeTUpSWWc0LeUrpSWWV0LeTYpSWWY0LeUapSWWV0LeTnpSWWV0LeSFpSWWf0LeUapSWY30LeU/pSWXU0LeUApSWWn0LeUapSWW`0LeT`pSWW`0LeSZpSWX&0LeUapSWWV0LeTnpSWWV0LeXapSWY`0LeV1pSWU?0LeT,pSWX90LeXmpSWZ00LeV0pSWTR0LeT]pSWX90LeU?pSWWT0LeTlpSWWT0LeUapSWXq0LeUGpSWXQ0LeUapSWWZ0LeTjpSWWZ0LeTjpSWW\0LeX/pSWZ90LeUqpSWX90LeUapSWX90LeUapSWW\0LeTbpSWWb0LeTbpSWWb0LeUapSWW`0LeW$pSWY80LeUapSWW%0LeSApSWXij$]eEnButU1&4BY32-^;4A,Y*o.Z2Y1#GQJqacCE^J[LG33$4N3e87%p,Ihm2aG]t0W%*02dO>Qq_a$k1!NT"nSEgU2aKUSd&''&1>,/$qIP=EO%8*Tn@elq2aL67p1T'H0o\a5p1T&o76t6socSo^2b0dj#c8qCcUYIrmgZ-e0niENnPk+R2aKUS=JcC!1\"8k"e^I%:/n7@o*'[CT/^%;oFQ[I1XScgJtSF7\j>?'ohbT[X$t(VI&1(@2`"7JJtSRcdR02Fp+ZGO/+cOE/ZiP?:/7P4npQ,GV`6sNFeW#31!qo3nBusr0p,$.n?dIZs$r!pp1T+Ps$94Op*>;a1:0hV38&i70o8]Xp2Jea\iNDsJtU(Y5Pu/A:o4p`N_%4@Gbn),/52,T:rn7Ek=<hI25W3%O%4iQrFjkP3k7g$p2GqTC..g)@+gC(1"f@S>bH\q2`"7c@%`F6-fKR,p+qWg-LjAFp*c2k1AOC:.&ij3T375ok6Qc<2YfcJ5bKA>5=4hZkm3!fVbp;W=L/E3/WggmJtSHe1!reENM(mMV`7q'r<<!iP=ON/nButs-p^E*oi6[dk;Z+&j#!`.X)U^:nButnZU%0&:o7AgAkhjJm<sTRT1@edn>ge,2c3AGn0N\.76sBXn=p7`0qhC<Fh`IGU-uT?p-ARJ.n?ejn>:":0sjMPn=P@gP$UrSFJ,^.+$n'$f^XRg2`"6jFJ+6!_El>rM51_Sa$E9?#l'c[0uZr?p,7N4Y<b>!n<JYu1!EG@neH]:Y;f-r/Yaad1[-g:Cnrm^j$hkWnButc.n@A%n=YAu0r[`cnectTha<IYDQOUBO$iKij.gui3Pe*dB_6nQ^J0d9nBg2^f11bHn?3[%4hXXdBV>&nk>9LL1o;fs2`"7^-D6F9gII%NnButo76sOgp(2mO1&2X1*SZ25O%8r[i?b?o0niENhunZ1dm6.EnButW0uZr)n=Y?J3ON4_32#t>-q(8jnJ%>Zs$rL)n@'N55L`K(!83L-1W`GBolu)976s[#n=h=*a$ELrn>7-t@6mP+I@u6f_F<Y>M6\R)Z<U%JoDnh`+G=&hE25$AIRX:e5k'<[3SA<&JtSBc0o8]R>bH\s2`"7Kp&]nAUHkjDaJK5H2`"8!olYhf[me?78u)ke[meWpC8:u([mRIQ4f)"I_F1TZM4k5_1k81A0VJ,60uZr?oi6[dpGbf6p0`PH2bt77oiQl3^G]1NGbbI6[n$,AE23V.W^kUi'r1t>cUWT,?)h$u19iabJtS!p2au?Gn=YGZ1[.J9m1##AP""!$M6eX8LI"RY@&=c42aYpBp1T+DZ:E*cAYjB@0o7g=m&!HN2dQ!2p2GW>0niENodPKHcTs_ALTh@]1Vl^ep)8J#1Vl^]p,[`K1Vlq!p2-&HW\d<sohbT\76sL>ViZR+s$XoD5c-\;QU'ikGaP.!:f":AfV""R4Jbion=]JL-UCAPIAR!=27660;6YYD2`"7XJtS"C-p_e!oi6[d(H>&U@%`k=2ed3^p2tu/76sLA#c;uD2_8gt!2`"UW(Be:rB,a+g-ImLM6d4g^HkI8.&IhQ2b;EIoJhLg2aMc;=JcC!1\"8keY%MKY;err"e[#11\!BXrDes#2auo.p,mm(23:Hs0VJ,66Ue$,jaD[(mml9_n=iKI0qh0)JtS%$[RZM.0W#+N2adSrn=YG!1[.J9VP&J,i^0ZmoDnho:.g\f5bNYhVao4dJtU7X0p,8Zn>8lVpK^>s=JfV%5+HKA+K(`02aP:3p2GVQ76sUqn>SrQ3h9'An=]JLT1?cGn>%=$b$7_toDnh_5I=W7n>%Tl1#5K2nBldB4.K*Ap,N")24R,=%Ak+%Y;d01n=s/[f0N3-n>7-t@6mLWI@u6f2am,d@#om;b!EMgoap_%26g>$ob`;:?pS-.r^DBtmml9_n=Vd,16G-oIY`RR1@\/lp,[d'1@[aPp2-/C47l-::t^j'16GA^odGF>76sCKetDA(8m4I,etDq8"@pecGbB^D2b2<JnButm76s[Mn>];Z-*0n;p*fkn22OnMogj],4P<(^GbtmM[SF$V!36f,qa6P(/Zgj&rBSu^.&K+":dk?>Xft)[qa\]*nButcr'\$An=YG-19jDU`LqdaVa45.4JW*Q2`"7ZVP&L:\j9->&>aJA2fqjFp+V.r2:"om'VP.o0pb\fn=t;81%A&7/Z&MB\jueIp(5bL+\2"K=Jcd,QUd\"n?3Br1Z;-)n=\3(T1?cGiC0/+_F<plM6I"T47l0c=P8b>1\"8koItmE76sKsn?4TA4H3.3A>&Wj2`"7eFJ+5>s$2b!Tq_oe0o8I>p2,_l0nDn.Ff#.51XpHm0W%5p0uZr?o+Zl!hEa<PnButbZU%/+#bqDn8k8X-p/mZsdUPitn=V'u1:0iPi7Wg7Va4$Fn:7$%27,qTp*><&Jn\"[4G_N\2`"7dJtReW2c$-p-(ooU-V&d+@%`@l+f'>6E2J%X2b1d@5bNcpJf.M@p+V.t2aL"Ap2GV?76sU9bGIs-0o8]-p2,EV0nDn.o-Kk`1&4BY<4if$2`"7ZnBut076sUqn>%=(2aL5poE^&a3J:-YAY^S.:.!se5bNYhVao4dn=r$9Y<bsZ\>C*=2[2[,nD19"76sWbn>%$u2aL7#oE^&a+j<Y['r2g+:-uP.5bNYhVao4dn=`rU24RI;@+gV!i^8m\p+ZGA-(I[<I\mf92`"7Zp+V/=0o8I^n>6P(iB]dP0W%N:[md=K4f1nG1!re;nniuDf14`Gn=pFc3o<`.&>8_k5Z+!"oH8\'1&FUHoH8\/1##>uoH8k?0oTHBo50&\a#Hgfn?#\]0o8]$%>'K9f11VKnBIh*pIC.hn>8TH27,qTm&!HN2aL#Dp0`L@76s7Bn>86@2apN;omDEWpH^simA<iUk=hJpo0p_n76sOI7AXNh1W_VnoI,771VlXuoH8\/3eU'tit[*h18.8Zn-t)uSj^>lnButbZU%/#H+X/N2`"7bp+V/-ZU&fon=jnqZ"[.!nButWW(a,:Yi(1-3UB=1p,]!d,Q(bNaJKYGVa3RYoPU0la[&);nButU4m?'W/up7G2`"7YJtS0X2b!2_n=YFR1[.J9M8*Iq1&O[a=P8P`1\"8koItmE76sXd9qkcb1!qo"i>%*/1!rQ2i[onHY".BJnButaZU%.p=J,[fqGZ,"0W%620uZr?p)&J(0oT9Up0`K3Z:E*cn=W3E1$qc3=Jetj2aEDToDjP/2aJ>/=JcC!b$Va1oEbCo:0sC5qfRGVT/]Md5b\BQ1XQEWrWnSPUJ(XVnBut]1!re`r[<Ap2b1^[,G9'Oq+$4lnButT76sNNqJ_*^2b23=5eM]&PsJ3t32T):_Hp$ip2G[\8Onidn=]JL1#>J65c+raT1>O*8>[A"T1>O*n>:V,1&4BGnBut71!EG@5bNYh2b/POm2_J%dRF27M6fcVLI"RY@&=c42aHNUoi6Z0+#mCsj]-lA1Z2oEn=]JL(J!l?q`0>^a^IbHnBut`-p^EZ(ncKE0p,Dd&>u%(2c$$sp-=5!76sC]n>-gn2aL7#o`0TZ(e"DOr()FqLI^U.Gbm5f[n$>Q@&cme53ZA&n1B7Bf0I+ET!(OK15&!q8>[(qVa3Z!AZ6A:1!reKoal\.2b08*oal]Q+S85up)S__1=8Z5oehN72am,5p,mns4bu^5bb4Z([R!((nButZ1!EG@oDjF'b!?omM7a-g1pfnq=P8nR1\"8koItmE76s^>oiQlAf0MtHn<JYt1!EG@n@aCd1VlXKJtS0_1%A&e(ncK/5YQdZoH8\'1&FUHoH8\/1##>uoH97R0oSF=nkF\3a#Hh!n=g7\2:kX!=ePI_2`"7^a/=Q<0LeUbnu%+43CZQjNMhD$^d^lG#H*2H5"8)oq58j;j@2\k,H$/dc:1@U$)`DJc:1@Ud&2Lg-UpYXCo;nX!CfW2lDK8,:I[n+e#.gj'LkXEe#.gjc:1@U;l>7?Q:=Er?`/NKRRTj!>Gm*GS46'#or!F71.Fgdo;@460LeUbpSWX:1.Fgdor!F81.Fgd=f6mF;as=/_5DoXBLYPD7Akc1Ldjqd:T&h;0LeUae#.gjmRBaus/1KAW('>/^Sc]V'LkXEH)H9e-:UPWpSWX9U..])A#FrOVFF,-@Ae`M-q6bYn#(e20LeUbpSWX9oL;C&1T,jtoL;C&1T,jt2F^6gnY_"3'LkXEdAMUh(.LjHhku*"(e.'Jhku*"5"8)pq58j;5"8)oq58j;"@br5_l&,[#"D/8_5DoY#"D/81oGt!<^oX2rhkB@s$fQ1R&>R/Uddo+qko'=`(!;Ka/=P^-:UPXiMV<$^d^lH)Q/3[8k)A&P,Eq)'LkXEnY_"32F^6gnY_"3,Xt>Uj/7N&,Xt>V(T2mYcpgRW(T2mX^d^lGc_lCf5=S2qH)H9fZpmU;q58j;/4N1^l_fA-/4N1]l_fA-)+I0JDPr+[,">,S"fHuF_F@)I"/gcD`(!;Kb,9kaP=A*pF/OX_Gt(?U?DiEKGt(?UrMP9?3^uZlqko'>4@Vlnqko'>4@VlnQD]@.KgnVbLSobs>t.B99W*M94[qunor!F72F^6gnY_"32F^6gn#(e1,">,Tjem`'0LeUamAGS/.Rlt[aesb`%Rs"@aesbacpgRXs/1KA3(?Hjs/1KBX%#Y3,H$/e,">,Ss/1KA3(?Hjs/1KB3(?Hj7&PZ1cpgRXO/IV&&k5FCeYe$m&k5FDeYe$m'LkXFe#.gk-:UPX`M\>]j$lSk)5i*[TghT(9rEV9N(-@h8Z.25N^cRjh5>ltfg\Nap8<O95Xn;rpSWX9@R`o>pSWX9?:IK:EMnF][RNg=jem`'-:UPWJ#@ol-UpYXkGNr'F[epRH`)Kg]LGHCd&2Lg-UpYVF/OX`!CfW2l_fA+,">,TnY_"32F^6g1T,jtoL;C&1T,jtp-qU(0rKXrGt(?Uh5>lr5Xn;rs/1KA'LkXFBr?SVl:+=q/Z44nl:+=q/#S"llpaOs.AqejmRBaueYe$l%Rs"@aesba%Rs"@aesba3(?HjpSWX94@Vlmqko'=4@Vlmqko'=pdRg*s/1KA'LkXFpSWX90LeUapSWX9.Rlt[mAGS0.Rlt\pSWX:cpgRW.AqejgdXic)lJ<\gdXicpSWX95"8)o<2Y@@Ak#>@H`)Kh0LeUah5>lt$q<e=bGTtbLIOhcQ`#I,W('>0Br?SUO@Ddl<MtIAP"&!n4K!g(>=M05F/OX`U..])/>n+m6:OMqLSobtgdXic)lJ<\gdXic#H*2H^d^lG#H*2H^d^lG$)`DJcpgRW(T2mXc:1@U$)`DJc:1@Up8<O8[73^;F/OX`,Xt>Uj/7N&0LeUbl_fA-/4N1]l_fA-/4N1]m&,J/TghT'pSWX:-:UPWqko'>!_,`3e#.gk*C`TNCo;nW2b$?iDl84[W^]P1CSueWX@>b3+fBrbk!hnm0;jFpkXJ+o/Z44nl:+=q5Gs-+pdRg*VPf&=T12B%LSobt3(?His/1KB3(?Hjs/1KBc:1@V$`AVLbXP.S$`AVLc:1@U$)`DJc:1@U!N1QBi^QJi,H$/dj@2\k,H$/dYsq:818farImuu\l)0/+&4T4Af;F6n4@Vlmqko'=4@Vlma/=P^!(KN2a/=P_!_,`4`M\>]P=A*p(8ldV]1,?C(T2mXcpgRW5,X$*fg\N_I&DTij[Mel)5i*Y5Xn;r4/[^'d7-[X!iLZB,">,Te#.gja@8_Pqb2R<UHq&jnBut_iB^$Uo5qW<UHq&jnButc1&Oh0m'q^K?Wg1XFJ`2801Wq3JtRnHW^DBcp(70sX%.rmrh^Z.(I:43n=ZLM3UnKeVP&P&1&4Vmn=YAfLI]5/@%`o\qaZ_!nBut_Va@<*`2IKF2aKUSFKh-D0pb\fn=j<%2UtTu-(ss+Rj2Rnn>lm_4-`U:CnUJra"pN>p/$E<2aL"R(o@U6W^,Rqp/(]a:.![qmmViAa#HLMng36ff12a;\YaI64OH_$:k=Rj2b/MRqZMR:]0SU-nButW(Jt^jAVIL>&nu!sr+q1F]0SU-nBut\1=Sm(0W%N)NCScU0W%62X[eH(0X:^PqF'&h<MhTG:/I,1oK7a(2aKUSp1o8n\j9->D5M,B:.4rtju%b(h`+A!p/$E80p,%%JtRdj22P,V4fH;G2[LPShO'ZNG<nC>/>b$o2b14(i)PFps$tton?49.45!1k@%a"!3lEu/.&I\Q2cKS$p*bOK2`"7[JtR_Fl::$bp1X%g0o8I6p0`LH0nDn.iH9b(17UoJp'?8#1n7>EEMbQL2`"7ZnBuu:76sXr/Z(X)0o7m>p1T&;0nDo3p0`K33i#>?omMFO1&4B\o6l>Fp.,.]nBut\Dd>$DnAsZb1!EG@p3;1cRR)8IM7ipc2rmO:(tjl3JjSJKp.5-R0sNu(&>iD0(/(jan=^*k2aL67obiE6G<nC>D81q`/cc4+n>SuRZ4TYop+V/%2dG'n<5=+A2`"7]JtRY9a'@fTqA>i276sQU`h7uZ1=8cm!2__-^I4FEo+8Z3q*h47(p!j5*`%RK.'?5a4lIgHaLpk62cggC,GZnc0t8%OjIl3@.R?5FfVT?W76sN^p)&HW2aL"R5c+i^Va454;5Q`S2`"7]JtR_-\j9->n>:"p0oAOGokg*k\jsN6M4o2^a$E9W+JouK76s#en>7s80qhC<n=\3(0oAOGn>9Gb2aL7#p.0eN:0iIq7D4;T0qgMYM7sQu2=*mX.+sEdZ;QS3p3?O*-Ho+6(oD++IRh0$n8NuMmpJm>JtS9%2c6m.q.PB9N_Z5:d&(VP0p"gYno0Sr1"T$CfV!u/2aKsY'nCo)1!Llgn>8'[1&4V?37jXms$r.%0W%$,pIC:r<Mgg1g..4J8>\sVl9^Zcp(71-76sR['r*3P1%@0LCo0m#&P(I)aIr6$qFB*#25P^sM/dOUnBut\2`"75p)\l]-p^qNd%H-'2aKsY[^^qX2aKUSp1o8n\j9->mA=\ma#H^c*MR7@0r[(`Co2;Kfgh[dnBut_Va4[#r(*VV1&+40!9K-pf4f$LQ`M/l,2>X"^nqf?LL#,On>/*;G<o$"d'1_ZG<lbjn>((`0oAOGI@u6fb"&A]M5;@e2S;U)(tjr%0sOO+p2GW276sKMe[V,D5644fnIU<K1%u3@Yb752T1MUcX0,,e5)Dm?r$[8)Q6AR\YbG)iT0>su31psZ53X?Gq]Lm+a%anB0rf=_:JL<0B_R,?pIEubStPdB1I41On=]JL0oAOGI@u6fmmj;-n<JZ"1Q5Eu9r;/P://mXi<=hHh`+hNp/$E80p,%%JtRgM\j9->&>j8:2]#9AM4mdC3P7p<(tjY:a%Y+:p2J8L2;q8,oL[PKej2IHnButcdUWlNqV[#nX^Q.ake8K=3qOuNp(sM.XT8s[5.)h42`"7ZPG!`&.-XhBp&^-%/[7W6BUap6Y>)4>rt+om+d#PToQJFa3pAfTJtRnK!^Ki7m"CI#0Gm@6pSWX90Et)!pZI0$0Et)!pSWX90FUM'pR?e-0R?:@pR?e-0R?:@pZI0$0Et)!pZI0$0R-.>pR-Y+0P<r-pT]?C0P3l,pR-Y+0R-.>pR-Y+0LeUapR-Y+0R-.>pZI0$0LeUapR$S*0O[N'pP+;m0LeUapR-Y+0LeUapSWX90LeUapSWX90Et)!p\9A50QK_8pSWX90J,iHpRQq/0P<r-p[*T*0FUM'p[*T*0FUM'pXk*j0EF_qpP+;m0\8kHpZdB'0P3l,pR?e-0\K"Jp[Wr/0P3l,pYg`s0E=YppD/BR0H!F4pSWX90EaqtpSWX90S;pIpV;DR0P<r-pSWX90Xs[)pSWX90TeoWpXOmg0P!`*pYg`s0E=YppSWX90R-.>pR-Y+0LeUapSWX90LeUapSWX90EaqtpKW>C0Z6N5pSWX90R-.>p9'$?0\/eGpP4An0LeUap4@oh0]#@OpUGiJ0m-%<pBH7B0LeUapZI0$0LeUapSWX90Et)!pSEL70R?:@pR?e-0R?:@pR?e-0bHt-pC`*N0LeUapZI0$0Et)!pZ7$"0EaqtpZ7$"0el5MpLf+N0Ngrtp*>8_0T/KQpSWX90R-.>p,I[s0TeoWpSWX91&"5ipNV<_0P3l,p1AqL0VM%gpSWX90]GXSpToKE0R?:@pIg-20LeUa)c_M_2b3bpqHS\<o0GOenBut[76sXZeX4!D%maNLp)o#-2b3YbJtRmM!^RXMI@u6f:I-A[Lo(kqmpo418^Q6[RSWD(e?!1R2"=.736-a/2daGPp*bOKVa4-aLo(kZ2b1^Sp,`+/OuZGDW2<-k2mc6]@%cjCB1LG&nButW76s^LJtTtT\j9->mA=\mh`*kH'r,J90r[(_Co2;K;b*J3n=]JL18-(Xi9Q%jVa43c1n^@3-V']TnButo1#6Kin"@%),^Dt'kcf^oG<p`0p.Vhj_a-H5nBut_#Brt[fY"jk1#l'W8%?3[%p;][rcEbl2`"7cJtRmU76qU7n>9Gb2aL7#p.0eN@6mI>9rLo`0psrPj>DY\MFXkKM6mjg1UK_6.+sTY\m5*`p.5-a0sOIc@&?m+(/3?-n>&#Y47Q+Ap2buA2aPXGnK`cPpH^sikGC(&1\kC?+J_sJ:ed#)\=e\<2gIu?YbiaA76sTVo5oX[Fob/9n=]JLhabQ2n>9G`2tTo,(tjT;i^;_Wp3?O'1os;C=JfmkIRh0"q]LK]LL<\^JtSi-2b1=(qC%"]RRbomaJ;3o,(Wh3ORe@l1P&JME3^0jIn@-'p,n#i5/BD0nBusr76sUQ8@goXs$qjkIASi,0o7m:p1T&;0nDo3p0`K3-d5.TnL]?P1%@gTof[u$.7aE:n=]JLhabQ2p/$E8.R?WE!82minjV!Yp.5-UX%0qP#,Y?m2`"7]p1AtP<'a=5n>MeC0u%(`"JGH_2`"7[JtRkG&O?rTn>8?C1%A&737ibds$r.%0W%$,pIC:r?)AZ9b"%N/5c.+GWaG&Cp(70n2`"7U4hh"d+LHXM^rhng43:5hJY8f22g''1n=YG!0r[`L4/R*oMHis/p/(]\4,cEmn>:"Y1#5DEoNm-?ZU$b%nBut`J4Zs/0URMd40_3+V3m9s3jCsoo0)&$0tBOmn48/d(K#D(p(sfQ2aikWp3;6T2aMc;p1o8n\j9->4f3$g:._J8p*G=(ml3fo'r,210r[(ZCo2;KnOK5'nBut_76sOZn>'>aNWD]VnBut\1!EG@p3;1cJjF_1M68R-2=*mp.+s-\W^j)@p.5-UX%0qP4Jl(N2`"7[p'?=g+$iJ?kcfZb1&+L@oO*TBa%-0g0WT"Y5+*hLq+-7`2aL67p(2hk1!re@n@jL61#Yp'37ib<s$r.%0W%$,pIC:r"f<>6njeb]:o6fWMGs)tp(71-76sQhn>9Gb2aL7#p.0eN.bma/9r;/P:.4s&!2+q?k=="Qn>.$r%s^sGqJ_&H3N5[Qp,KET5H,g2nAr7:0tVYoaInQl#C0suaIn.]g.0]Xn>61S%s^sGn?jua%s_OHn>8!976sRJQ),?m2b3nHp,mq\165!u=J5@^5XMd.p0`K+1&FN[p0`K31##83p0a&V0oSdWiB;eSLH&UVn=ioU2M=l$5hUk\0o8]Xp,IZO76sWan>%p92apN;p3;6T2aMc;(o@U62b1('of[sI0qgM$quqYmg..L.M7mUra$E9W+JouK2acHRp25OJ2aKUSBTVh.N_TQ,GcaA,hf2`Ino1*chbO31p4'/652f.6E0Q%K%nZ6;BqU(S2`"7Zp+:ql1#Y]4=J2on2]#9Ap+V.r2P3PQM4jQ:mm0+an<JZ"1!EG@neHbQml3[&%AQcn0r[(]Co2;KJOc?anBut`$@+nYpk4`R?q+5BpSWX91.FgcLSobs3CZQjs/1KA0LeUajJRW&.7QkZp8<O8"\)&6l)0/+$V!\<GGg'c?:IK:pSWX95Xn;qLSobs0LeUaM5Ptu:.@e*M5PtuYXV17GGg'c0LeUaJZ",m7Rfr"JZ",mD+7(I`M\>\0LeUaOJd_'%7Wn>cDQ:e84H/$O/IV&0LeUaFJja`GXb6T\#4jNUIIf*Vl,/>0LeUaKr9Pq0LeUapSWX95"8)o#H*2H,">,SpSWX9YXV17LSobsSjl9%5c96,:e"",pSWX9o0u:%Of*h(E(3CLor!F70LeUaRAY[0?:IK:pSWX95Xn;qGGg'cYXV17.&V\i6q0_upSWX96:OMsKr9Pq6:OMsK;X>o6q0_u!iLZC:I[n+pSWX96q0_uoV[=6\40$@pSWX9,=Y5TB;^AT0h+^bpSWX9YXV17GGg'c)+I0JD5W"Z0LeUa^o)fWO@DdmcDQ:e0LeUapSWX90LeUa^8HTUR79a!c_lCfAO]5A=JpdE0LeUaO/IV&84H/$O/IV&84H/$Su735O%)[lpSWX9Ysq:85Gs-,#Y%A9A>b&Pi^QJjpSWX97Rfr"?DiEJlUFFspSWX9M+1%e(T2mY#Y%A9K;X>oogVL'&Z:7S0h+^b:8`_:3/pNkd%L),1#u0YFh`T@1Ake4r`lNE2aKUS+JoH>g-jB@p2Kt)+QQ]?n>9/A1#5D-s'10K^Hk$1LUS^*1$M8<p)8P]1$M8Tp,[fe1$Lr>p2-#O1R(I6B\A>p2aaXtndL192aKUSTV`#i2fqiX@#sAC47"WPq^pl+1!ra95c?+X7n;Ie@%`=[=%D`2BVl,RXW]@POJ$;\0oSdW/[[kRT+O!7aQ`Ut439og4KV"f2`"7]p2,EKT1ApY8u=F<T1A(rC8NOTT2*8T4f1eDW^lO0M5X!?2#U!;n=]JLk=<D:n>8lPJm;*,p1XCq2r%:NW2<NNNsJ;`5b^).3QZ0jJtRY)0pthbn=YAfk=<D:n>8THi`o:?p3?O2+e2;DD5LPp:.4*k?+ki\0psrLoaQJFJk(m#M6]]W2rR=/8Ek_kQV"sDp/%S[76sL6JtT,<Z:Ds_p(6gg1%@h\p'?9E1$M8TmsTf>0uQY/p*bNC4-Woj<2LWl2`"7V@%`d82doe>AY=YO]0k?%p*QS.pH^sin<JZ"1!EG@ID(6'0p+B4nL]<bW^i,KM6;,$mm0MG8>[4s76u:Pn=q+#(L^+7k;@kZO&9iC8"cYI(IEo/kB3J876sXJd&7(A(L^+Updg'>1&+L@no03B2T^I=Xe8@)1!rTZp4%q$43:-3=Hnl3-Xfg((o/^",1-_Ao.Z`kcV)$5Nj1]?-eV-ap2ck>QX,C:ltEdm,dCVm(p4Q4peTMh"M/DB2`"7]<PsJqpHtk':o6BOVa?9k@(;k(:e8@Op2G`94J=%BJtR^[2b1ofn=YGZ1"f-'p+V.r1Q=tOn=]JL0niC(n>6b62]#8brWn0A27-3-Fh`T@1Ake4n=ZjI1;.V:n=]JL0oAO/n>8TJ2aL7#p2GW!@6mI&'r=Jr0psrJM6?qV_H]YMp3?O117Up8mA<9.s#<`#'qkY$0p+B<Co1H34%K%sn=]JL2b26JnBusj1!EG@nK!4Pk;Y_K4fWd#0p+B?p3;:VhadF.dAU#=2cWUeogXU!3C,gUI\?C/2`"7]nBut076sK^!4iS5O%5>_9st(,1"eJ2Co0$`HUlE6GbFb)2fqjI4/O8t2aL6kp,IZ>1!re@ojNI65=%H[rE\S\Z=I=Yn>g7jVFa?FnBut_76sO"n?+cG[n0.W8Yd%pg-g_Je>d=Yf2%aLog%P2-p^U2oi6[d0/uTmoq6iA2aYp>n25k`1!N=0n>9c61QP>,?D.!d2`"7Zs)j([2b2Jup,ms*1k8.pGbFb)5Z<Qlp'?9K1&FONp'?931##9Fp'?i>0oTBPi#REgY;elPJtUpm5=8DtjLCRk0Lfm0pSWX90Li.ppSVXr0Li.ppSVXr0LeL^pSXl\0LeUapSZ;/0LfU(pS[OR0Lc`,pSZb<0LeUapS[CN0Lf[*pSVk#0Lk]cpS[1H0Lj:;pSS0e0LgoMpS[7J0LeUapSVXr0LeUapSWX90Lh>YpS[OR0Le(RpSVOo0LjC>pSWX90Li(npSWX90LeUapSWX90LdbIpSO<M0LjUDpSWX90Li"lpSVLn0Li"lpSWX90Li(npSVFl0LeUapSVXr0Ll;tpSTW90LeUa!!%dH]=]);if not T[16272]then p=-0x25217617+(n.w_((n.c_(T[11358]+n.t[0X9]-T[20636],(T[15168])))));(T)[16272]=p;else p=T[0X3f90];end;return p;end,uM=function(n,T,Q,p,c,h,H,F,u,l,K,O)local W;if u==0XA2 then for U=0X1,H,0b1 do local H,e,N,Y;e,Y,H,N=n:nM(T,e,Y,N,H);local E,R,M,z;for f=0B1010011_,451,0x4B do Y,W,E,z,M,R=n:vM(z,E,M,Y,f,R,T,H,e,N);if W==0X9e91 then continue;else if W==60794 then break;end;end;end;H=(nil);local f,x=(0X3D);while true do if f<0B0__1111000 and f>0X6A then c[U]=(H);f=(0B1101010);elseif f<0B1000001 then f=(0x78);H=((E-R)/8);continue;elseif f>0x77 then f,x=n:UM(F,f,M,O,U,x,N,z);continue;elseif f>0X3d and f<0x06A then if R==2 then if not(T[0X24])then p[U]=T[0X0A][H];else local N,E,Z=0B111001;while true do if N>0X44 then if T[0B111011]==T[0X4__]then if not(H)then else return-0B1;end;end;break;else if N<0X44 then E=(T[0Xa][H]);N=0B1000100;else if N>57 and N<0X053 then Z=#E;N=83;end;end;end;end;(E)[Z+1]=(K);for N=0x3E,0X83,69 do W=n:RM(N,U,E,Z);if W~=0x0Bc0f then else continue;end;end;end;elseif R==0X4 then local N,E=(0B1101);repeat N,W,E=n:JM(U,N,E,p,H,T);if W==0X2ad3 then break;else if W==35908 then continue;end;end;until false;elseif R==0X6 then(c)[U]=(U-H);elseif R==1 then(c)[U]=H;else if R==0B11 then(c)[U]=(U+H);end;end;break;else if f<0x77 and f>0X41 then f=0X41;(h)[U]=Y;end;end;end;f=(77);repeat W,f=n:mM(f,U,R,T,O,l,e,x,M,K,z,F,Q);if W==1897 then break;end;until false;end;else if u==0xF0 then n:WM(T,K);else if u~=0B1010100 then else(K)[0b1__0_00]=(p);end;end;end;return nil;end,YC=function(n,n,T,Q,p)p=(107);if not(Q<=86)then if Q~=0X07f then n=T[0X39]();else n=T[0X3a]();end;else n=(true);end;return n,p;end,SM=function(n,n,T,Q)Q=(nil);T=(nil);n=0B1111100;return T,Q,n;end,wC=function(n,T,Q,p)local c,h;if Q>0XA then if Q<0X61 then p,Q=n:JC(p,Q,T);return 46732,p,Q;else return-2,p,Q,p;end;else Q=0X61;if T[0X19]==T[0B11101]then for H=0B1000010_,0B1_0110000,0B1101110 do if H<0B10110000 then c,h=n:yC(T);if c==0X1DF2 then continue;else if c~=-0X2 then else return-0B10,p,Q,h;end;end;else if not(H>0B1000010__)then else while T[0X11]do return-1,p,Q;end;end;end;end;end;T[12]=T[0XC]+0X4;return 46732,p,Q;end;return nil,p,Q;end,Z=coroutine.yield,c_=bit32.lrotate,FC=function(n,T,Q,p,c)if T<0x3B then T,p,Q=n:lC(p,T,c,Q);return 17477,Q,p,T;elseif T<94 and T>59 then return-2,Q,p,T,Q;elseif T>0x40 then if c[0X26]~=c[39]then else while c[0XB]do return-0X1,Q,p,T;end;end;T=(0B100101);else if T<64 and T>0X25 then p=0X1;T=(0B10111__10);return 0X4445,Q,p,T;end;end;return nil,Q,p,T;end,C=string.sub,t_=function(n,T,Q,p)if p>0XC then(Q[0X29])[0X18]=n.Q;if not T[0X7388]then p=n:gM(p,T);else p=n:N_(p,T);end;return 49062,p;else if not(p<0X21)then else if Q[0B100000]==Q[4]then else(Q[0x29])[0B10011]=n.j.bnot;Q[41][0X16]=n.k;Q[41][0X19]=n.j.countrz;for T=0B1010_01,135,0b1011110 do if T==41 then(Q[0B1010__01])[0x0C]=n;else if T==0x87_ then n:P_(Q);end;end;end;end;return 53965,p;end;end;return nil,p;end,tC=function(n,T,Q,p)T[0X01_c]=n.F;if not Q[0x745A]then p=-2714212018+(n.H_((n.H_((n.r_(n.t[2]))+Q[0X194c],(Q[11358]))),(Q[11358])));(Q)[0X745A]=p;else p=(Q[29786]);end;return p;end,jC=function(n,n,T,Q)T[0B1010][n]=(Q);end,HC=function(n,T,Q,p)(p)[0X32]=(function()local c,h,H,F=(0X17);repeat h,F,c,H=n:wC(p,c,F);if h==0XB68C__ then continue;elseif h==-0B10 then return H;else if h==-0X1 then return;end;end;until false;end);if not Q[0x1138]then Q[9015]=(-2491799614+((n.y_((n.Z_(Q[0X002761]))<T and n.t[0x8]or Q[6086]))>Q[20636]and Q[0XC6d]or n.t[0X9]));(Q)[0X272A]=(-0B1_10100+((n.t[0B101]+Q[8820]<=n.t[0X1]and Q[13079]or n.t[0B1001])+Q[5561]==Q[20636]and Q[0X43C4]or Q[0X759F]));T=-4294475738+(n.U_((n.r_(Q[6476]+Q[0X79B5]-Q[13079])),(Q[0X003f90])));(Q)[0x1138]=(T);else T=(Q[4408]);end;return T;end,WC=function(n,T,Q,p)(T)[0x036]=function()local c,h,H=(T[0X3_4]());for F=0B1__1101__,243,0B111000__1 do h,H=n:mC(c,T,F);if h==0XeC62 then continue;else if h~=-2 then else return H;end;end;end;end;if not(not Q[26203])then p=(Q[0X665B]);else Q[26622]=(-536986109+(n.J_(n.t[0X5]-Q[0X334b]-n.t[6]+Q[0X5_09c])));p=-3389388855+((n.J_((n.H_(n.t[0X5],(Q[11358])))-Q[13131],Q[0X759f]))+n.t[0X6]);Q[0X665B]=(p);end;return p;end,N=function(n)local T,Q,p,c,h={};p,c,h=n:A(h,p,T,c);n:d(T);h=n:G(p,T,c,h);h=n:b(T,h,c,p);local H;h,H=n:NC(H,h,c,T,p);h=n:qC(T,h,p);local F;F=n:OC(F,T);h=n:aC(T,h);h,F=n:UC(h,F,T,H,p);h=n:VC(h,p,T);h=n:LC(c,h,T,p);c,H=nil;H,c,h=n:hM(p,h,T,c,H);local u;h,u=n:iM(p,c,T,h,u);Q,h=n:M_(u,T,H,c,h,p,F);if Q then return n._(Q);end;end,i=function(n,T,Q)T=0X21+(n.v_((n.l_(n.t[0X7]-n.t[0X3]~=n.t[0x4]and n.t[0X2]or Q[0X19_4c],T,Q[13706])),(Q[15168])));(Q)[6086]=(T);return T;end,KC=function(n,n,T)while T[0X27]do return-0X2_,n;end;return nil;end,m=error,LM=function(n,n)n=0X0_0c5;return n;end,oM=function(n,T,Q)while T do local p=45;while true do if p>0B101000 then p=n:EM(p,Q);continue;else if p<0x2D then Q[0X2_F],Q[58]=-Q[0Xb],Q[0B110110];break;end;end;end;end;if not(T)then else(Q)[0b1001_11]=(Q[0x38__]);end;end,z_=function(n,n)(n[0X29])[0B1__101]=(n[0X30]);end,QM=function(n,n,T,Q,p,c)n=({[0X3]=T%0b0100,[0B10]=Q-Q%0x1});(p[0X1f])[T]=n;c=0B110100;return c,n;end,eC=function(n,T,Q,p,c,h)local H,F,u;for l=0x59,365,0b110110 do if l==197 then if c[62]~=c[0B10001]then else F=n:EC(c);if F~=-0x1 then else return Q,-0X1,T,p;end;end;continue;else if l==0x8f then u=c[0x23_](T);elseif l==0B1011001 then for K=0B1,Q,0x1 do local O,W,U;O,W,U=n:oC(O,W,U,c);repeat U,O,F,Q,H=n:bC(c,O,K,W,Q,h,U);if F==0X9A80 then continue;else if F==62565 then break;else if F==-0B10 then return Q,-0X2,T,p,H;end;end;end;until false;end;T=c[0B1_1010__0]()-0Xb077;continue;else if l~=0xFB then else c[0B10011]=c[0b1000__11](T*0X3);break;end;end;end;end;for n=1,T,0X1 do u[n]=c[0x3E]();end;p=(nil);F=(0X60);repeat if F>63 then for n=1,#c[19],0B11 do(c[0b100__11][n])[c[19][n+1]]=(u[c[0X13][n+0X2]]);end;F=63;continue;elseif F<0X60 and F>0X1__2 then F=(0X1_2);if h then c[0X0029][0B1110]=c[10];c[0x29][0b111]=(u);end;continue;else if F<0X3f then p=u[c[0X34]()];break;end;end;until false;return Q,nil,T,p;end,y_=bit32.countrz,J_=bit32.bxor,CC=function(n,n,T)return T-n[0B111];end,K=function(n,n,T)T=(n[18034]);return T;end,QC=function(n)end,BC=function(n,n,T)T,n[7]=n[54],(T);return T;end,e=function(n,T,Q)(Q)[0X7329]=(0B10100_10+(n.y_((n.v_(Q[6476],(Q[11358])))-Q[10277]-n.t[1])));Q[0x2274__]=(620522936+(Q[18584]-Q[13706]-n.t[0x6]+n.t[9]-Q[0X43B]));T=(0b101__101+(((n.l_(n.t[0X3]==Q[0X2C5e]and n.t[0X6]or n.t[0B0110],n.t[0x3],n.t[0X2]))==n.t[0X3]and n.t[3]or Q[1083])-Q[10081]));(Q)[0X04672]=T;return T;end,tM=function(n,n,T,Q)n=Q[35](T);return n;end,D="r\u{065}ad\s\x74ri\u{006E}\x67",UC=function(n,T,Q,p,c,h)repeat if T==0B1111 then(p)[0x2D]=n.u;if not h[0X43c4]then h[31827]=-3153487716+(n.l_((n.Z_((n.U_(n.t[0X8],(h[0x3F90])))))~=h[14321]and n.t[0X6]or h[28718],h[10081],n.t[0x007_]));T=(-16350+(n.U_((n.y_(h[24386]-h[10277]-h[24386])),(h[0X3f90]))));(h)[0x43c4]=(T);else T=h[17348];end;continue;else if T==0B1000__10 then p[0X2E]=(function()local H;for F=0X69,0x112,0x45 do if F>0b110__1001 then return H;else if not(F<0B10101110)then else H=n:zC(p,H);continue;end;end;end;end);if not h[21910]then T=n:nC(T,h);else T=h[21910];end;else if T==0X51 then for H=0,0XFF do(p[0Xb])[H]=c(H);end;if not h[28718]then T=(0X25+((n.Z_(n.t[0x4]+h[0x4672]+h[0X509C]))+h[0X4672]));(h)[0X702e__]=T;else T=h[28718];end;continue;elseif T==0X7c then p[0B100111]=(function(c)local H=(0b0);c=p[5](c,'z',"!\u{021}!!!");local F,u={},(#c-0B100);local l=p[0x9]((u/0B101)*0X4);for K=5,u,0B101 do local u=p[0X25](c,K,K+0b100);K=(F[u]);if not(not K)then else local c,O,W,U,e=p[0B01__00010](u,0x1,5);local N=((e-0X21)+(U-0X21)*85+(W-0X21)*0X1c39+(O-0X21)*614125+(c-33)*52200625);K=N;(F)[u]=K;end;p[0B11000](l,H,K);H+=4;end;return l;end);if not(not h[0X7__9__B5])then T=(h[31157]);else T=n:MC(T,h);end;elseif T==0B1110000 then(p)[0b101__010]=setfenv;p[0X2b]=n.m;p[0X2C]=n.W;if not(not h[5561])then T=h[0x15b9];else T=-17+(n.y_((n.y_((n.J_(h[13706]))~=h[0x5F42]and h[0X509c]or h[15168]))));(h)[5561]=(T);end;else if T==21 then Q=(function(...)return(...)[...];end);if not(not h[0X5f42])then T=h[24386];else T=165+(((n.y_((n.J_(h[18584],n.t[0B100]))))>h[0X2761]and n.t[0X3]or h[0X3b40])-h[0X7329]);(h)[0x5F42]=(T);end;elseif T==0X2b then T=n:ZC(h,p,T);else if T==0Xe then p[0x29]=({});if not h[3503]then T=(-4294967274+(n.r_((n.v_((h[0X927]<=n.t[1]and h[0X2761]or h[0x702E])+h[15168],(T))))));(h)[0XDaf]=(T);else T=h[0Xdaf];end;continue;else if T==0X1_9_ then(p)[0X2f]=(function()local c,h;c,h=n:vC(p);if c==-0X2 then return h;end;end);break;end;end;end;end;end;end;until false;(p)[0X30]=function()local n=p[0Xe](p[0x28],p[0B1100]);(p)[0xC]=p[0b1100]+0x2;return n;end;(p)[0X031]=(function()local n=p[0X12](p[0B101000],p[0Xc]);p[12]=p[0B1100]+0X4;return n;end);(p)[0X32]=(nil);p[51]=nil;T=0b100011;return T,Q;end,o=bit32.lshift,xM=function(n,T,Q,p,c,h,H,F)if T==0x5_ then n:TM(h,Q);return 39144,T;else if T==0X3__E then T=n:_M(p,F,H,c,h,T);end;end;return nil,T;end,aC=function(n,n,T)(n)[0X2d]=(nil);(n)[0x2E]=nil;n[0X2F]=nil;T=0X51;return T;end,CM=function(n,T,Q,p,c,h,H,F)local u;if F==0X2 then if not(h[0B100100])then(c)[p]=(h[0B1__010][Q]);else local l,K,O;O,K,l=n:lM(O,Q,h,K,l);repeat u,O=n:VM(p,l,H,O,K);if u==36924 then break;end;until false;end;else if F==0B11_ then(T)[p]=(p+Q);else if F==0X6 then T[p]=(p-Q);else if F==0X1 then(T)[p]=Q;else if F==4 then local n;for T=0x6,0XdB,0X38 do if not(T<=0b1__10)then if T>62 then(h[0B00100_11])[n+2]=(p);break;else(h[0B10011])[n+0X1]=(c);end;else n=(#h[19]);continue;end;end;(h[19])[n+3]=(Q);end;end;end;end;end;end,q=function(...)(...)[...]=nil;end,_=unpack,HM=function(n,T,Q,p,c,h,H)if not(p[0X24])then(c)[Q]=(p[0xa][T]);else local c,F=(p[0b1010][T]);for T=0B100_0111__,0X92,0B1001000 do if T>71 then if p[0X3c]==H then else c[F+0X1]=(h);local p=(0X22);repeat if p<34 then n:yM(c,F);break;else if not(p>25)then else p=(0B11001);c[F+0B10]=(Q);continue;end;end;until false;end;break;else if not(T<0B1_0001111)then else F=n:wM(F,c);continue;end;end;end;end;end,w_=bit32.band,mC=function(n,T,Q,p)if p==29 then if not(T>=Q[38])then else return-2,(n:CC(Q,T));end;return 0Xe__C62;else if p~=0X8e then else return-0B10,T;end;end;return nil;end,rC=function(n,n,T,Q,p)T=p[0B101110]();Q+=((T>0B1111111 and T-0B10000000 or T)*n);n*=0X80;return n,Q,T;end,MM=function(n,n,T)T=n[0B011__0110]();return T;end,cM=function(n,n,T,Q)(T)[Q+2]=n;end,U_=bit32.lshift,j=bit32,v='\99re\97\z te',E=bit32.countlz,TC=function(n,n,T,Q,p)n[0b11111]=({});T=(nil);p=(nil);for c=0X4c,0X93,0X5 do if not(c>=81)then T=(n[0X34_]()-0X9777);else(n)[10]=n[0B100011](T);p=(n[0b101110]()~=0);break;end;end;(n)[36]=(p);Q=nil;return T,Q,p;end,lC=function(n,T,Q,p,c)Q=(0x40);repeat local h;T,c,h=n:rC(T,h,c,p);until h<0B10000000;return Q,T,c;end,WM=function(n,n,T)T[6]=n[0X34]();end,IC=function(n,T,Q,p,c)local h,H;if T>160 then p=n:fC(p,c,T,Q);else if T>0X41 then h,p,Q,H=n:AC(Q,T,p,c);if h==-2 then return Q,-0B10,p,H;end;else p=n:GC(T,c,p);end;end;return Q,nil,p;end,aM=function(n,n,T,Q)Q[0X05__]=(T);n=0X4c;return n;end,qM=function(n,T,Q,p,c,h,H,F,u,l)if h==0B11_101__111 then c=l[0X23](p);return u,H,31382,c,F,T,Q;elseif h==0X85 then T=l[0B100011](p);elseif h==0x50 then H=n:tM(H,p,l);return u,H,31382,c,F,T,Q;elseif h==292 then u=l[35](p);Q=({n.U,nil,nil,n.U,nil,n.U,n.U,nil,nil,n.U,n.U});else if h~=0xBA then else F=l[0X23](p);end;end;return u,H,nil,c,F,T,Q;end,O_=function(n,T,Q,p,c,h)if not(Q>0X64)then(p[41])[0X11]=h;if not(not T[0X4DfA])then Q=n:q_(Q,T);else Q=-4294967091+(n.r_((n.l_(T[4451]+T[0X7388_]))-T[0X7388]));T[0X4dfa]=(Q);end;else return{p[0B111101](c,p[0B11010])},Q;end;return nil,Q;end,sM=function(n,n,T)T=n[21](n[40],n[0B1100]);return T;end,u=bit32.bxor,AM=function(n,n,T)T=n[0X6F45];return T;end,n=unpack,A=function(n,T,Q,p,c)Q=({});p[0X1]=nil;c=nil;T=(0xF);while true do if T==0Xf then(p)[0X1]=(n.O.move);if not(not Q[18584])then T=n:x(T,Q);else T=-1496414984+(n.t[0B0100]+n.t[4]+n.t[2]-n.t[0x6]<=n.t[6]and n.t[8]or n.t[0X4]);(Q)[0X48__98_]=T;end;else if T==0x22 then c=n.a;break;end;end;end;(p)[2]=n.z;p[0X3]=n.n;p[0X4]=4294967296;(p)[0B101]=nil;(p)[0X6]=nil;(p)[0x7]=(nil);p[0B1000]=(nil);p[0x9_]=(nil);T=(109);repeat if not(T>0X5a)then if T<90 then T=n:s(p,Q,T);continue;else(p)[0X9]=(c[n.v]);break;end;else if T>0b1_101000 then p[0X5]=n.M;if not(not Q[0X3317])then T=Q[0X3317];else T=n:S(Q,T);end;continue;else T=n:Y(Q,p,T);continue;end;end;until false;p[0B1010]=n.U;return Q,c,T;end,t={15676,395188890,1230339523,2850395757,3649308737,3112322451,66478684,1496415018,2491799692},NM=function(n,T,Q,p)local c,h;if not(p>0X6C)then n:gC(T);else c,h=n:iC(Q,p,T);if c~=-0b1_0 then else return-0x2,h;end;end;return nil;end,c="rea\x64\1051\z\54",XM=function(n,n,T,Q,p)if T~=0X3A then Q=n[0b1001](p);return p,47927,Q;else p=n[52]();end;return p,nil,Q;end,oC=function(n,T,Q,p,c)T=n.U;Q=c[0X2_e]();p=(0X15);return T,Q,p;end,DM=function(n,T,Q,p,c,h,H,F,u,l,K,O,W)local U;K=(nil);T=0x18;while true do if T<0B10111 then T=0b1100001;(F)[0X9]=(u);continue;else if T>0X3b and T<0X061 then T=(59);F[0Xa]=(c);elseif T>0X4C_ then T=n:aM(T,l,F);elseif T>0X18 and T<0X4c then(F)[4]=(O);break;elseif T>0XA and T<24 then T=(0XA);K={};continue;else if not(T>0X1__7 and T<0x3b)then else T=(0X17);c=h[35](W);continue;end;end;end;end;(F)[0B111]=(Q);F[0B11]=(p);for e=0X54,0Xf0,0x4E do U=n:uM(h,Q,H,O,p,W,c,e,u,F,l);if U==-0B1 then return T,K,-0b1,c;end;end;return T,K,nil,c;end,w=bit32.rshift,V=string.byte,EC=function(n,n)local T=0X79;while true do if T==0X4 then return-0x01;else if T==0B1111001 then T=0X4;(n)[0X19]=n[0x3b];end;end;end;return nil;end,NC=function(n,T,Q,p,c,h)while true do if Q<74 then(c)[0X17]=n.H;break;elseif Q>0B10101__11 then(c)[20]=(p[n.y]);if not h[18034]then Q=n:e(Q,h);else Q=n:K(h,Q);end;continue;else if Q>0X21 and Q<0B10_10111 then c[0b010110]=n.w;if not h[0X0017C6]then Q=n:i(Q,h);else Q=h[6086];end;continue;else if not(Q>0X4A and Q<88)then else(c)[0B10_101]=(p.readf64);if not(not h[27459])then Q=h[27459];else Q=(-155522050+(n.w_((n.t[1]-n.t[0X7]==n.t[0X5__]and h[13706]or n.t[0X3])-h[30111],n.t[0X4])));(h)[0X6b43]=(Q);end;end;end;end;end;c[0x18]=(nil);(c)[25]=nil;T=nil;c[0x1a]=nil;Q=107;while true do if Q<0X0055 then T=n.r;if not h[0X927]then Q=(0b1010011+(n.y_((n.J_((n.y_(n.t[0X8]<=n.t[0X9]and h[8820]or n.t[0x3])),n.t[0B1],h[0X4898])))));h[2343]=(Q);else Q=n:g(h,Q);end;continue;else if Q>0B10_01110 and Q<107 then c[0x1a]={};break;else if Q>0b1010101 then c[0X1__8__]=(p.writeu32);c[25]=2147483648;if not(not h[0Xc6D])then Q=(h[0XC6D]);else(h)[744]=(-3247739155+((n.J_(h[29481]-n.t[0x4__]-n.t[0B1001_],Q))+h[10277]));Q=(-0X9+((n.U_((n.w_((n.w_(n.t[0b1],n.t[5])),n.t[0X1])),(h[0X3B40])))+h[18034]));(h)[0X00c6D]=(Q);end;continue;end;end;end;end;c[0b11011]=p[n.l];(c)[0X1_c]=(nil);return Q,T;end,p=function(n,n,T)T=(n[0X2825]);return T;end,cC=function(n,n,T)n-=T[4];return n;end,y='re\z a\df32',dM=function(n,n,T,Q)T=(nil);Q=(nil);n=0Xa;return n,T,Q;end,L=false,X=function(n,T,Q,p,c)(Q)[0XD]=(p.readu8);Q[0x0e]=p[n.c];if not c[10277]then T=4+(n.Z_((n.Z_((n.w_(n.t[0X8],n.t[6]))+c[0x358A]))));(c)[0x2825]=T;else T=n:p(c,T);end;return T;end,H=type,kC=function(n,n,T)T=n[0x33]();return T;end,B=function(n,n,T)n=T[0X194_c];return n;end,z=select,_M=function(n,T,Q,p,c,h,H)local F;h[0X02]=Q;for u=1,p,0X1 do local p,l=c[52](),0xb;repeat F,l=n:kM(u,l,p,Q,c,T);if F==0xa__E_00 then break;else if F~=0Xf5e5 then else continue;end;end;until false;end;H=(5);h[0X1__]=c[0X34]();return H;end,mM=function(n,T,Q,p,c,h,H,F,u,l,K,O,W,U)if T==0X4D then T=0x48;if l==0X1 then W[Q]=u;elseif l==0x3__ then W[Q]=(Q+u);else if l==0B110 then(W)[Q]=Q-u;else if l==2 then n:HM(u,Q,c,U,K,p);else if l==0X4_ then n:rM(Q,c,u,U);end;end;end;end;else if T~=72 then else n:CM(h,O,Q,H,c,K,F);return 0x769,T;end;end;return nil,T;end,P_=function(n,n)(n[0x029])[15]=n[0B11010];end,KM=function(n,T,Q)Q[14221]=(0X37+((n.l_(Q[0x334b],Q[18034],Q[0x2337]))+Q[31157]+Q[29481]<=Q[0X1c49]and Q[18034]or Q[0X1BEc]));T=(-0x6b+((n.J_(Q[0X2E8],Q[13131]))+Q[0x7914]+Q[0X00745a]-Q[11393]));Q[0x4766]=(T);return T;end,v_=bit32.rshift,GM=function(n,T,Q)Q[0X29__][0X17]=n.v_;T=0X04B;return T;end,iM=function(n,T,Q,p,c,h)h=(nil);c=(98);while true do if not(c>0x059)then(p[0X29])[0B011101]=n.T;if not T[18278]then c=n:KM(c,T);else c=T[18278];end;continue;else if c<0x6_4 then h=Q();if not(not T[4451])then c=(T[0X1163]);else c=(-3924137507+((n.c_((n.y_(T[27666])),(T[15168])))+n.t[4]+T[11358]));(T)[0X1163]=c;end;else n:eM(p);break;end;end;end;c=0B100001;return c,h;end,Q=bit32.lrotate,F=bit32.band,PC=function(n,T,Q)Q=-3112322471+(((n.Z_(T[0X194C]))-T[0x5__09C]>=T[15168]and T[11358]or n.t[6])+T[0Xc_6D]);(T)[0X334b]=(Q);return Q;end,xC=function(n,T,Q,p)if T<=234 then Q=p[0x2f]();else if T>=0xF8_ then Q=n:_C(p,Q);else Q=-p[0X2E]();end;end;return Q;end,iC=function(n,T,Q,p)if Q>=0x102 then return-0X2,T;else p[0B111__11]=n.U;end;return nil;end,vC=function(n,n)local T;for Q=74,0b101_11011,0X4C do if Q==0X96 then return-0x2,T;else if Q~=0B1001010 then else T=n[0xf](n[0B101000],n[0Xc]);(n)[12]=(n[0Xc]+2);end;end;end;return nil;end,H_=bit32.rrotate,JM=function(n,n,T,Q,p,c,h)if T==0X47 then(h[0X013])[Q+2]=(n);T=0X7A;else if T==13 then Q=(#h[0X13]);T=8;return T,35908,Q;elseif T==0B10__00 then(h[19])[Q+0b1]=p;T=0x47;else if T==0X7a then(h[0X13__])[Q+0x3]=(c);return T,10963,Q;end;end;end;return T,nil,Q;end,l="\u{63}\z \o\z  p\121",lM=function(n,n,T,Q,p,c)c=Q[10][T];p=(#c);n=(0B111111);return n,p,c;end,qC=function(n,T,Q,p)T[0B11101]=nil;T[0X1e__]=nil;T[0B11111]=nil;(T)[0x20]=(nil);(T)[33]=nil;Q=0X26;repeat if Q>72 then(T)[0X1D]=function(c,h,H,F)if H>h then return;end;F=h-H+0X1;if F>=8 then return c[H],c[H+0b1_],c[H+0X2],c[H+3],c[H+4],c[H+0x5],c[H+6],c[H+0X7],T[0X1d](c,h,H+0X8);elseif F>=7 then return c[H],c[H+0X1],c[H+0X2],c[H+0X3],c[H+0B100],c[H+0X5__],c[H+0x6],T[0x1D](c,h,H+0B111);elseif F>=0X06 then return c[H],c[H+0X1],c[H+0x2],c[H+0B11__],c[H+0B100],c[H+0X5],T[29](c,h,H+0x006);elseif F>=5 then return c[H],c[H+1],c[H+2],c[H+0X3],c[H+4],T[0x1D](c,h,H+0B101);elseif F>=4 then return c[H],c[H+0x1],c[H+0X2],c[H+0x3],T[29](c,h,H+0B1__00);else if F>=0X3 then return c[H],c[H+0B1],c[H+0x2],T[0B11101_](c,h,H+0X3);else if F>=2 then return c[H],c[H+1],T[0X1D](c,h,H+2);else return c[H],T[29](c,h,H+0X1);end;end;end;end;if not p[14321]then Q=0x0048+(n.J_((n.v_((n.w_(p[13079]))~=p[13079]and n.t[0B101]or p[15168],(p[11358])))));(p)[0x37F1]=(Q);else Q=(p[14321]);end;elseif Q<0X48 and Q>38 then T[32]=function(c,h,H)h=h or 0B1__;c=c or#H;if not((c-h+1)>0X1F3d)then return T[0X3](H,h,c);else return T[29](H,c,h);end;end;T[33]=(tostring);break;elseif Q<0B1001101 and Q>58 then T[0B11_110]=(getfenv);if not(not p[0X509c])then Q=p[0X509c];else Q=(-65+(((p[0X0927]<p[18584]and p[0X2274]or p[18584])-n.t[8]<n.t[5]and p[14321]or n.t[2])>=p[0x194c]and p[0x43B]or Q));p[0X509_C__]=Q;end;else if Q<0X26 then T[0x1f]=n.U;if not(not p[0X334B])then Q=p[0X334B];else Q=n:PC(p,Q);end;continue;else if not(Q<0x3a and Q>0X7)then else Q=n:tC(T,p,Q);continue;end;end;end;until false;(T)[0x22]=n.V;(T)[0x23]=n.F_;T[36]=n.U;return Q;end,P=function(n)local T=n[0];return function()local n=T[3][T[2]];local Q=927033;Q=Q*n;n=3037537;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=472757;n=T[3][T[2]];Q=Q*n;n=2611022;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=602975;n=T[3][T[2]];Q=Q*n;n=6253063;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=336961;n=T[3][T[2]];Q=Q*n;n=15634206;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=967133;n=T[3][T[2]];Q=Q*n;n=5054322;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=732785;n=T[3][T[2]];Q=Q*n;n=14949136;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=38043;n=T[3][T[2]];Q=Q*n;n=2805608;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=996755;n=T[3][T[2]];Q=Q*n;n=12592778;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=833127;n=T[3][T[2]];Q=Q*n;n=13297135;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=483739;n=T[3][T[2]];Q=Q*n;n=15700505;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=499785;n=T[3][T[2]];Q=Q*n;n=9105389;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=580273;n=T[3][T[2]];Q=Q*n;n=5154659;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=156319;n=T[3][T[2]];Q=Q*n;n=2255806;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=477881;n=T[3][T[2]];Q=Q*n;n=3130493;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=777507;n=T[3][T[2]];Q=Q*n;n=14506030;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=334551;n=T[3][T[2]];Q=Q*n;n=7474053;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=971973;n=T[3][T[2]];Q=Q*n;n=13268629;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=639705;n=T[3][T[2]];Q=Q*n;n=5569674;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=126665;n=T[3][T[2]];Q=Q*n;n=3559184;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=1006189;n=T[3][T[2]];Q=Q*n;n=2518819;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=750237;n=T[3][T[2]];Q=Q*n;n=9326086;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=1029685;n=T[3][T[2]];Q=Q*n;n=1472075;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=126823;n=T[3][T[2]];Q=Q*n;n=2185334;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=932325;n=T[3][T[2]];Q=Q*n;n=7087197;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;Q=583389;n=T[3][T[2]];Q=Q*n;n=1509580;Q=Q+n;n=16777216;Q=Q%n;T[3][T[2]]=Q;end;end,JC=function(n,n,T,Q)T=0xa;n=Q[0B1_0000__](Q[40],Q[0Xc]);return n,T;end,IM=function(n,T,Q)if Q<0X2e_ then Q=n:GM(Q,T);else if Q>46 then(T[0b10__1001])[0x1C]=n.E;Q=0X2E;else if Q>0x1c and Q<0B1_001011 then T[0X29][20]=n.F;return 10479,Q;end;end;end;return nil,Q;end,I=function(n,T,Q)Q[0X759f]=(3649308825+(((n.t[0X9]>=n.t[0x5]and Q[0X2761]or n.t[0B111__])+Q[10277]<=Q[0X2C5E]and n.t[6]or Q[0X2C5_E])-n.t[5]));T=(-3769691082+(n.J_((n.t[0X4]-n.t[5]~=n.t[5]and n.t[7]or n.t[0B11])>=Q[13706]and n.t[0B11]or T,n.t[4],Q[0X2__76_1])));(Q)[0X3B40]=T;return T;end,a_=function(n,T,Q)T[0B10_100_1][1]=T[0X38];(T[41])[10]=(T[0X39]);for p=0X0041__,0X7b,58 do if p>0B1000_001 then(T[0B101__001])[0Xb]=Q;else if not(p<0X7B)then else T[0B00101001__][0X6]=T[50];end;end;end;T[0X29][0B11]=n.q;end,RC=function(n,n)n=(0X73);return n;end,OC=function(n,T,Q)Q[0B0010_0101]=n.C;(Q)[38]=4503599627370496;(Q)[0X27]=nil;Q[0B101000]=(nil);Q[41]=nil;T=(nil);(Q)[0X2A]=(nil);Q[0X2b]=(nil);(Q)[0B1011__00]=nil;return T;end,nM=function(n,T,Q,p,c,h)local H;h=(nil);Q=nil;for F=0X58,0XCd,0X20 do h,H,Q=n:zM(F,h,Q,T);if H~=5826 then else break;end;end;c=T[0B110110]();p=nil;return Q,p,h,c;end,k=bit32.rrotate,J="\u{72}\u{065}\x61\z \100\11732",AC=function(n,T,Q,p,c)local h,H,F=0x11;repeat p,T,H,h,F=n:sC(c,T,p,h,Q);if H==0Xf__019 then break;else if H~=-0B10 then else return-0X2__,p,T,F;end;end;until false;return nil,p,T;end,fC=function(n,T,Q,p,c)local h=(0X0c);while true do if h~=123 then if p<=0b10111110 then local H=0X43;repeat if H==67 then if p>0XAc then if p>=0B10111110 then T=n:kC(Q,T);elseif c==Q[0b00110010]then else T=n.L;end;else T=Q[0x32]();end;H=(0x46);continue;else if H==0X4_6 then break;end;end;until false;else for c=0B1101100,0Xdf,0B1110011 do T=n:SC(c,Q,p,T);end;end;h=(0x7b);else n:QC();break;end;end;return T;end,d=function(n,n)(n)[11]=nil;n[0Xc]=nil;n[0B1101]=(nil);(n)[0XE]=nil;end,bC=function(n,T,Q,p,c,h,H,F)local u,l;if F==0X70 then if H then if T[60]==T[0X4]then local H=(0X4A);repeat if not(H<74)then if not(T[0X2f]and T[0X34])then else return F,Q,-0x2,h,T[0X2f];end;H=0X21;else while T[0B1101_0]do T[0B100000],T[0X3d]=T[0X34],(0B10000011);end;break;end;until false;end;T[0b1010][p]=({Q,(T[23](Q))});else n:jC(p,T,Q);end;return F,Q,62565,h;else if F~=0B101_01__ then else if h==T[46]then else h,u,Q,l=n:IC(c,h,Q,T);if u==-2 then return F,Q,-0X02,h,l;end;end;F=(0X70_);return F,Q,0X9A80,h;end;end;return F,Q,nil,h;end,pC=function(n,T,Q,p,c)if c>57 then if not(Q<0B1000001)then T=n:dC(T,p);else T=p[49]();end;c=0B111_001;return T,51245,c;else if c<0X42_ then return T,2984,c;end;end;return T,nil,c;end,zC=function(n,n,T)T=n[0B1_10__1](n[0X0028],n[12]);n[0X00c]=(n[0B1100]+1);return T;end}):N()(...);
+    do
+        local Players = game:GetService("Players")
+        local LocalPlayer = Players.LocalPlayer
+
+        if not LocalPlayer then
+            pcall(function()
+                Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+            end)
+            LocalPlayer = Players.LocalPlayer
+        end
+
+        str = tostring(LocalPlayer and LocalPlayer.UserId or 0)
+    end
+
+    local v4 = getgenv and getgenv() or _G
+    local KiraHub = v4.KiraHub
+
+    if type(KiraHub) ~= "table" then
+        KiraHub = {
+			slots = {}
+		}
+        v4.KiraHub = KiraHub
+    end
+
+    if type(KiraHub.slots) ~= "table" then
+        KiraHub.slots = {}
+    end
+
+    local unload
+
+    do
+        local v6 = KiraHub.slots[str]
+
+        if type(v6) ~= "table" then
+            v6 = {}
+            KiraHub.slots[str] = v6
+        end
+
+        v6.gen = (tonumber(v6.gen) or 0) + 1
+
+        local v7 = false
+
+        for k, v in pairs(KiraHub.slots) do
+            if str ~= tostring(k) and type(v) == "table" and v.alive == true then
+                v7 = true
+
+                break
+            end
+        end
+
+        if not v7 then
+            v4.KiraCfgGen = (tonumber(v4.KiraCfgGen) or 0) + 1
+        end
+
+        unload = v6.unload
+        v6.unload = nil
+        v6.alive = false
+    end
+
+    if type(unload) == "function" then
+        pcall(unload)
+    elseif type(v4.KiraUnload) == "function" then
+        local KiraUnloadUid = v4.KiraUnloadUid
+        local v12 = KiraUnloadUid == nil or str == tostring(KiraUnloadUid)
+
+        if KiraUnloadUid == nil then
+            for k, v in pairs(KiraHub.slots) do
+                if str ~= tostring(k) and type(v) == "table" and type(v.unload) == "function" then
+                    v12 = false
+
+                    break
+                end
+            end
+        end
+
+        if v12 then
+            local KiraUnload = v4.KiraUnload
+
+            if str == tostring(KiraUnloadUid or str) then
+                v4.KiraUnload = nil
+                v4.KiraUnloadUid = nil
+            end
+
+            pcall(KiraUnload)
+        end
+    end
+end
+do
+    local Players = game:GetService("Players")
+    local LocalPlayer = Players.LocalPlayer
+
+    if not LocalPlayer then
+        pcall(function()
+            Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+        end)
+        LocalPlayer = Players.LocalPlayer
+    end
+
+    local v18 = os.clock() + 60
+
+    while LocalPlayer and v18 > os.clock() do
+        local v20, v21
+
+        do
+            local Character = LocalPlayer.Character
+
+            v20 = Character and Character:FindFirstChildOfClass("Humanoid")
+            v21 = Character and Character:FindFirstChild("HumanoidRootPart")
+        end
+
+        if v20 and v21 and v20.Health > 0 then
+            task.wait(0.45)
+
+            local Character = LocalPlayer.Character
+            local v23 = Character and Character:FindFirstChildOfClass("Humanoid")
+            local v24 = Character and Character:FindFirstChild("HumanoidRootPart")
+
+            if not v23 or not v24 or not (v23.Health > 0) then
+                continue
+            end
+
+            break
+        end
+
+        task.wait(0.1)
+    end
+end
+local t1 = {
+	Title = "Kira Hub",
+	Version = "0.1",
+	Product = "Steal an Egg",
+	OpenBind = Enum.KeyCode.RightShift,
+	FlightBind = Enum.KeyCode.F,
+	Tagline = "",
+	Status = "preview",
+	Game = "Steal an Egg",
+	Discord = "https://discord.gg/ZNwS8csX3j",
+	Website = "",
+	Changelog = "",
+	Author = "Kira (@kira_scripts.gg)",
+	Credits = "Thanks to all my dicord members",
+	Support = "Thank You for your support !"
+}
+local function v26(p1)
+    local v328 = tostring(p1 or "Game"):gsub("[<>:\"/\\|?*]", "_"):gsub("%s+", "_"):gsub("_+", "_"):match("^%s*(.-)%s*$")
+
+    if not v328 or v328 == "" or v328 == "_" then
+        v328 = "Game"
+    end
+
+    return v328
+end
+t1.LogoFile = "Kira" .. "/logo.png"
+t1.LogoFileLight = "Kira" .. "/logo-light.png"
+local n1 = 620
+local n2 = 430
+local n3 = 152
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local HttpService, Stats, ProximityPromptService, ReplicatedStorage, LocalPlayer, v40, v41, u42, u43, u44, str, v48, v49, v50, v51, t2
+local t3, t4, t5, t6, t7, t9, t10, t11, t12, u66, u67, u68, u69, u70, u71, t14
+local v73, u75, u76, v79, self, v82, v83, v84, v85, v87, v98, v103, v108, v113, v151, v194
+local v199, v217, v228, v229, v245, v250, v259, v261, v262, v263, u265, u266, v268, v270, v272, v274
+local v277, v278, v279, v280, v281, v282, u284, v287, v288, v289, v290, v291, v292, v293
+do
+    local t8, t13, v81, v86
+
+    do
+        local t26, v94
+
+        do
+            local TweenService = game:GetService("TweenService")
+
+            HttpService = game:GetService("HttpService")
+            Stats = game:GetService("Stats")
+            ProximityPromptService = game:GetService("ProximityPromptService")
+            ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+            local GuiService = game:GetService("GuiService")
+
+            LocalPlayer = Players.LocalPlayer
+
+            if not LocalPlayer then
+                pcall(function()
+                    Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+                end)
+                LocalPlayer = Players.LocalPlayer
+            end
+
+            function v40()
+                if UserInputService.VREnabled then
+                    return false
+                end
+                local u338 = false
+                pcall(function()
+                    u338 = GuiService:IsTenFootInterface()
+                end)
+                if u338 then
+                    return false
+                end
+                if UserInputService.TouchEnabled then
+                    return true
+                end
+                if UserInputService.MouseEnabled == false then
+                    return true
+                end
+                local u339 = false
+                local u340 = false
+                pcall(function()
+                    u339 = UserInputService.GyroscopeEnabled == true
+                end)
+                pcall(function()
+                    u340 = UserInputService.AccelerometerEnabled == true
+                end)
+                if u339 or u340 then
+                    return true
+                end
+                local PreferredInput
+                local LastInputType
+                pcall(function()
+                    PreferredInput = UserInputService.PreferredInput
+                end)
+                pcall(function()
+                    LastInputType = UserInputService:GetLastInputType()
+                end)
+                if PreferredInput == Enum.PreferredInput.Touch or LastInputType == Enum.UserInputType.Touch then
+                    return true
+                end
+                local v343 = LocalPlayer and LocalPlayer:FindFirstChild("PlayerGui")
+                if v343 and (v343:FindFirstChild("TouchGui", true) or v343:FindFirstChild("TouchControlFrame", true) or v343:FindFirstChild("JumpButton", true) or v343:FindFirstChild("DynamicThumbstickFrame", true)) then
+                    return true
+                end
+
+                return false
+            end
+            function v41()
+                local CurrentCamera = workspace.CurrentCamera
+                local v345 = if not CurrentCamera then Vector2.new(1280, 720) else CurrentCamera.ViewportSize
+                local v346 = math.floor(math.clamp(v345.X * 0.7, 440, 560))
+                local v347 = math.floor(math.clamp(v345.Y * 0.74, 340, 410))
+
+                if v345.X > 80 then
+                    v346 = math.min(v346, v345.X - 36)
+                end
+
+                if v345.Y > 80 then
+                    v347 = math.min(v347, v345.Y - 36)
+                end
+
+                return math.max(400, v346), math.max(320, v347)
+            end
+
+            u42 = v40()
+            u43 = false
+            u44 = nil
+
+            if u42 then
+                local v45, v46 = v41()
+
+                n1 = v45
+                n2 = v46
+                n3 = 128
+            end
+
+            str = tostring(LocalPlayer and LocalPlayer.UserId or 0)
+            v48 = "PH_UI_" .. str
+            v49 = "KiraWorldGui_" .. str
+
+            function v50()
+                return getgenv and getgenv() or _G
+            end
+            function v51()
+                local v350 = getgenv and getgenv() or _G
+                local KiraHub = v350.KiraHub
+
+                if type(KiraHub) ~= "table" then
+                    KiraHub = {
+						slots = {}
+					}
+                    v350.KiraHub = KiraHub
+                end
+
+                if type(KiraHub.slots) ~= "table" then
+                    KiraHub.slots = {}
+                end
+
+                local v352 = KiraHub.slots[str]
+
+                if type(v352) ~= "table" then
+                    v352 = {}
+                    KiraHub.slots[str] = v352
+                end
+
+                return v352
+            end
+
+            t1.ConfigFile = (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. v26(LocalPlayer and LocalPlayer.Name or "Player") .. "-config.json"
+            t2 = {
+				Dark = {
+					bg = Color3.fromRGB(12, 11, 10),
+					rail = Color3.fromRGB(16, 15, 14),
+					card = Color3.fromRGB(32, 30, 27),
+					lift = Color3.fromRGB(42, 39, 35),
+					fill = Color3.fromRGB(48, 44, 39),
+					line = Color3.fromRGB(58, 53, 46),
+					text = Color3.fromRGB(246, 242, 234),
+					dim = Color3.fromRGB(168, 158, 144),
+					mute = Color3.fromRGB(110, 102, 92),
+					accent = Color3.fromRGB(214, 168, 108),
+					accentDeep = Color3.fromRGB(92, 68, 36),
+					accentHover = Color3.fromRGB(228, 186, 128),
+					ink = Color3.fromRGB(22, 18, 14),
+					ok = Color3.fromRGB(138, 166, 128),
+					Kira = Color3.fromRGB(246, 242, 234)
+				},
+				Light = {
+					bg = Color3.fromRGB(232, 226, 218),
+					rail = Color3.fromRGB(232, 226, 218),
+					card = Color3.fromRGB(252, 250, 246),
+					lift = Color3.fromRGB(242, 236, 228),
+					fill = Color3.fromRGB(224, 218, 208),
+					line = Color3.fromRGB(204, 196, 184),
+					text = Color3.fromRGB(28, 24, 20),
+					dim = Color3.fromRGB(92, 84, 74),
+					mute = Color3.fromRGB(128, 120, 108),
+					accent = Color3.fromRGB(168, 114, 56),
+					accentDeep = Color3.fromRGB(120, 80, 38),
+					accentHover = Color3.fromRGB(186, 132, 70),
+					ink = Color3.fromRGB(252, 250, 246),
+					ok = Color3.fromRGB(64, 118, 82),
+					Kira = Color3.fromRGB(28, 24, 20)
+				}
+			}
+            t3 = {}
+
+            for k, v in pairs(t2.Dark) do
+                t3[k] = v
+            end
+
+            t4 = {
+				title = Enum.Font.BuilderSansBold,
+				mid = Enum.Font.BuilderSansMedium,
+				body = Enum.Font.BuilderSans,
+				mono = Enum.Font.RobotoMono
+			}
+            t5 = {
+				"Forest",
+				"Desert",
+				"Lake",
+				"Jungle",
+				"Snow",
+				"Volcano",
+				"Prehistoric",
+				"Cosmic",
+				"Abyss Ocean",
+				"Cherry Blossom"
+			}
+            t6 = {
+				"Common",
+				"Uncommon",
+				"Rare",
+				"Epic",
+				"Legendary",
+				"Mythic",
+				"Cosmic",
+				"Secret",
+				"Eternal",
+				"Divine",
+				"Titan"
+			}
+            t7 = {
+				"Golden",
+				"Rainbow",
+				"Galaxy",
+				"Crystal",
+				"Bloom"
+			}
+            t8 = {
+				About = "info",
+				["Auto Steal"] = "egg",
+				Plot = "grid",
+				Serverhop = "rocket",
+				Misc = "layers",
+				Webhook = "out",
+				Settings = "cog"
+			}
+            t9 = {}
+            t10 = {}
+            t11 = {}
+            t12 = {}
+            t13 = {}
+            u66 = nil
+            u67 = nil
+            u68 = nil
+            u69 = nil
+            u70 = nil
+            u71 = nil
+            t14 = {}
+
+            function v73(p2)
+                if p2 then
+                    t14[#t14 + 1] = p2
+                end
+
+                return p2
+            end
+
+            local t15 = {}
+
+            u75 = nil
+            u76 = nil
+
+            local function v77(p3)
+                if type(p3) ~= "string" or p3 == "" then
+                    return
+                end
+
+                local t16 = {}
+
+                if crypt then
+                    t16[#t16 + 1] = crypt.base64decode
+                    t16[#t16 + 1] = crypt.base64_decode
+                end
+
+                if syn and syn.crypt and syn.crypt.base64 and syn.crypt.base64.decode then
+                    t16[#t16 + 1] = syn.crypt.base64.decode
+                end
+
+                if base64 and base64.decode then
+                    t16[#t16 + 1] = base64.decode
+                end
+
+                if base64_decode then
+                    t16[#t16 + 1] = base64_decode
+                end
+
+                for i = 1, #t16 do
+                    local ok, result = pcall(t16[i], p3)
+
+                    if ok and type(result) == "string" and #result > 64 then
+                        return result
+                    end
+                end
+            end
+            local function v78(p4)
+                if p4 then
+                    if u76 then
+                        return u76
+                    end
+                elseif u75 then
+                    return u75
+                end
+
+                local v367 = v77(not p4 and "iVBORw0KGgoAAAANSUhEUgAABM4AAAT+AQMAAAAMPf+7AAAABlBMVEVLCwtpFBQTWwb3AAAAAnRSTlMD/Om1IMwAACKOSURBVHja7JlBitwwEEVltPDSOUDAR9FVcpCA+2ja5Ro6gpaGEfqBBI17sLHqNfTghd/aaku/6n9VY3dzc3Nzc3Nzc3NzWX64y/LLXZborop/uKsyusvy012W3+6yrO6q+OyuypTcuwmSiuOE6N6M/sMzCi7hLPoH183r3Q2jRqIr65tdpg3HmMu7LbCRYSes3yQad4Ky4yR7UfQMkmFUcpgpOiOD9LJsk6LDiIsm3m1BDjMVkraPtkGabaoOowwyrYmHK+pVuOns7bm0RwOP3VF8a8F8dP9ZE88rOmvlotUXfj3gii7AM/w0y2Z/Tys6gOJvS/Ir+gaYul441ib7kqB1f2MV+3sefPqyh1o6GNvM5xI2gYr90S8yMB9IldczI7/MbTMe+WDgU7GkSPL2SamF+GASjbVREqln82XcbqtqbDUaa4FYrLjxefb2pNkWGmsDmGuC8qBPylbRZHxRpCZQNJ8izl8H3Nk+s418WpcE5iE9E1t5V+MISkNN1RwdZdIz1Q12Hyw01mZwBy760FdiazZbqxVcz2wVeMfami32W43/+7K7YNKex2S16Ey3tqDbeU/2Vh8sYok7CLhARzjjXOQ3bUGNVt5qG7n5wPKmSOuZwDH2GH0QxBLXCyyYdcgf232wSQveVonCez5MPhgllrgCrTbolGqoZ4GhpgQePuFhEwEFVQTFPyH1z5VJqKHAPWftL04g1EgDqEPtixBBqKHA7RE7IoBY82Iu6JG7ucPqyQOXNxuYN186SlCP2hOhQH8WfBfwZGuysrzldwFPtpFuLSAXePUpHcEzqicfvnlFx01VFgZgRumSzg0U2bsqNCiPD8++L3DXyEI919vZ8Kz+g0zEs5UV9k5knckrGtSgCcouNe5RrwadIwoQ2UI+uUQyU2EFIps4SerEsiAhg/JoW/DWBhg1g6zUvQIscUccNWbS7kRMhhl/XMKy7Zexrl6JQbls4D/0yx8ygwDxuJ4FtBr6/gOoxx26svqA2Y5xcLtlJEIFBkWsBx2akAgrGTt5uwW+tQlovC3g3SbhxA3UoLMYubUBTlw8EQdez/2BWOc4mh1/27t/XFluKw3grKFhOjBUDh0Yopfg0IEgeilagkIHgooDB7OM2QqNCRzOEoaOnBKYwDRA8wz0gFG9p6qu4ndYPJeSb4VS//lVN8/3seu+exvatRGeuBYIQV52xJMFWqDXIA/NDsJpC+EfWdHDH0cnQ08UgOxA0+M4tVASKDw7+EdEllpVeHbwj4AstQJkR//hkaWWWmn0xAEtnIjEGn7gibvBA6qlaAQ3qHmCVqCXQOGxxj8y8jxFNNYSklFZNNYistSiaKxFZKkF0VgLyJJWQKxJlIEjuEG1UBkcgkYo1iry5mTRWKvIKxBFY60gTxNEYy0jEeVFYy0hEaVEYy0BOVBlaREYtiybuAGYgiSbuB5Y0VE0cckD700QTVxCXgAvmrgVeAGqEk3cAjxLkaVlYAqyEi2DDExBEi4DYAqibOJGIAbCXGXgONmhRWgbEIGyZbAAOSNcBgYYZuEyWFnZ4SRoDhhm4Z46TIxgGQAB5WXLIAMpoGQTN7VPQVVT9ZRjxZqWoG2s7DACPbUQKztWgZ7SvOywAj218rLDCdDsG9IqkOqq+dgEego4C+Ey0MBZCNMM0BtyPXUc0ChbBvWr9kkLsmVQvmqfNC9Ly8CaUbI9ldrXTFWyPRXa35iiZMvAt599FqYBT5Fke6oCoR7badIDGmTLIAHx5GVpEYgnJdtToX1AqzDNtw9oUbI9BWRAlu2pCqzmJEsrwJKJshWagSUTZGkJeAYvW6EReAYlW6Gh/RmqMM23l3RRsu0ODGiWpVVgQJMSbfcCDGiUrdAMDKgwLQFzFmTbPQKL2XNpgdWoAXhbFLPdw059jGYOw8yp0MzsVN987lR4tMqtB/SvduPtHpiDUYEBTSxa5bZqAQY0sdo9cXdwGWibyKJ5bgonIDsCp90Le58UgUj3HFo8zDtO+9ndgBIgW87upLmJ+4uLMYMTV5+O2cZM3N/fZUcBaccFY5mJ+/VVdqA0c7oIDC9xl3g3oJnR7oW/9S27I94NaGLQEv9jVr760omVn7j2PAoti2b9XXYERoUeTpZTBttddpBHacfJ0azErRfZgdO28+W5cBJX17tyJ4XTwvG/47S13GVHxWnHF9oxysCWu+woCO3V2VhGGWz5LjsyTjvexTBoJ4Fq+bTlVUhrvKc0pbvsSDgtdFylKVffWrTxy0C/jJsNptmTMyR+GeiXM23hnnLkn/x+JvNyple4pzbyd8OkQNr56tQobSG6OD88cdeXq3NBK1QT3a2KgtP8aU+APbVSvcgOnGZfLwEH0iyVu9PLMK1cqNsrdKNylx0JobnXJ7OCPXXyOEs3LXVd5N2nIN9NeYRp4TyNsQo1JzTTUQZqe53RC0ZbidLdmvAw7dX/gyrUndBsD+0qox1UoRtRvHsEhRxXQWghGp3Qto6eWvYH56ZHuvhuIOoog+UqbQxSoeaEpgEa9o0hGqGtRORvzi3DNN/1k9KwL0x/syISTOv7qbzfb3sxR3gZmMu5cQDt7IFcL6300fY3/0DbenpqvVyctp2mz87x8AKjtNTw48LsbmjrkXYcI/grtGLLn75bb9rdntB0Ny3cX7iv6o7miCjfxFqFaf7+JzFRmZuNx3ZCW8EyOM5gw8+v1C3tLFFtL63eXxcsF7T8uovd4aYgrTR8p8QtTZ/RNqynjvfODd+sckszZ2FPvbR0e0WkXu3d0r6s4k2sRZQW79qf0jVt/2B2E2vh0e873b9C9Hq7tp08temm+btwKeqedlaRK1Ch55l6uzOJl5uQsC8rfx1rpEBabbvBdknTZzTXR7uNaLu/Y+eH35fVTazVMd+VvFzT7BntUGkoLfNpu8ed0JZuWmq74TVtO3nDNHVVqGmNaHNNoxOaQXqKT7vZSS5ntBWi8b9n3TbQys1dIkZrjWh3SdNnNAf1FJ92feHPnNG2blpndpR9WeUbmodotjGi9TXNntGol1b4A7p73AltOcbMEJq9pm0n4aCpq0KVo9w3oJRe/fzedNNS34BS2l+geL0GCkqL8IAeaWanXayBjNICe0B3z3pGc520rY22XtPsHqkXsZZQmocH9EhzZ7TjLVEaf0B3z3ZCW3pp1Ebbmmj+enkGkFaxAT2n0QnNdNMKe0B3z3JGWzsrdGmjmWuaPntu203LndlBfpera5oCaakzO8jv8sNQC9DcBU29oG2d7a4pwtlxpNkzGnXTQu8vkO4var3Om4LSPBxrR9p2QtO9NNNE0zc02mkXeZNRWm+s1f1FLdd5k0BaBWINotnedl+baPaaps9orrdC19Iba/XF14JvA2hgrJUXX4h7UhsgrWls/nZNszvtKm/UCNqfcJruLQNlU1MwX9NcE62gtNhNO/8KejMBLe8rPl1GYUZpYRDN9paBcg/QlrMnd/0039uheYenyyiMKE09Qjs+OQnR1kuaaaMFkPZlNy2p9YS29NO+bZvjNlq4GByc9s0DNHvy5Ka73dUf21bkJc2d0NZ5abaf9jV8CetI205orp+GX/4+xtXZk2/9tDiIRkK05ZK2nDz58gANaHeEpqk/13w/TZ/QTD9t6d54UDSNtATSgApFaOsctPWEZvtpqrtCKdgTmpuNdl0fcQTNXdLcCY2kaNslbTvSFjEaXdLoSNME5Rr/WGCakaLpS9qfT2jrO+26p+i/TmhWirZe0v5yQnNSNAvTtjlo/31Co7PDD6A5lLaI0bZL2v8cL9bqSWj0ljRCaYbqKjIGC0xbSSkRmoZpNitl56S5oJSRoBmctp/QWNraKPtn3S8/Af/YSYKW6ydXKyRotpGWvv3/kQ57Go6luUZa/PKTD7duJtrn13dLb9dT4VOaFaARj7YCtNE95X95Tcv/SjTdTPvZdYmUt+sp9eOl1TfrKbo9pTej1ds1KlahOM1L9RROC1I9hdPiW9HKgTa8qWha2vIcLb8VLd/SilSF4rQq1VM4jSameamewmnxbXqK0v3LnYbQlidoeUSFKmUeoJUBtLQXVg+NBlSoPyw6Hs0/TistKRIPtNEj+v0LokHaSoNHdNnfhwdo5VHa3n0bShs8B3qPI/cALTxcobGpF0JLjaSHaeGqTTFaebjdd2U3rT5LKzyaG/2DKruvD43SBi82t4/e8gStPErzKO0yBp+s0Nr4idS30cKDtMKkEQ1ebER5Z6K0sfHx8Wk6lDY0PhaiANLuhiY/R/N7xgG0ixR8buOhnqaFp2jlo9JCaIYGv6OG8uO0+hQttV7+8NCfTek/VoqtNNVMyw/RApNmicbOqCV/O3Q4LT5DUx20oYXgKpfmaHCwuXLoHoA2dO+xZS5tA2MNp6XHaeEp2ifDhNDArwLGDwpP08JjNM+kLaNftIUO66eRpsG0xWn1aZp6jFYOWdVIM1iz44fOXNoKvp84LT1M84/RDJtmwSbAafHq+XBaeo62Bi7NgXmL0zyXtmHRgR9WPUorU9BGLzX1+SERGmnL6KWmvniW5h+k/Z5L00CqCdMMWKD48TWXtoIFih9fPUrzT9Iil2bxpdb3twRMM82NXmrKYzTBX5NeFJd2Grjz0tSAA6ctwBQI0O7KoMxAO79hmpcW5qCtQBcI0ywwoMI0B0yBAM1fl0GehAYMqDBtAQZUmKaBARWmGWBAhWkrMKDCNAsMqDDNAQMqQQuXsRbmpflJaMCACtMWYIsrQotXiVsmoRn57FBrG20FskOY5oCPxyK0hMeaPI2AWJOhAdkhTMsXA1qG02wTbQWyQ4ZWLm4VJ6E5YEBlaBUdUHnaAuw7hGj0utzreJproa0T0vzLl7ZMQJO53oH/Cnx4OQXprWnx1RRQfGtaejnF4a1p+eVt/Hga0X1T0Yw0erXUSL05zQv8tJH55xbSrpdOXH1DK8DP3IVpFBTNStsP6TIwTFqcmPar4bSVSftrnJYm94EKP8K8ND+c5rg0NS1NoEM3gCPcocQ88ry0OFy2zJsdet7sMPMO6DrvgNp5B3Sbdyf5E8wOP292zDugdd4BLfMOaJ53CtK8UxCmnYKJPxjUeZdamff9TNNGB8Vp55P8rENANO+LVmbtT6I86y6SKM2aHERh2heN/LQvWp01bonKrMlBlKZ9PylO+36Sn/b9pHnfzzLv+5nnfT/jtO8n+Ul3akR12v6kMu9SS/MutTjtUiM/barRnB/aJX77eNousPMOqCOa9SMLvU/BT2oK3ruAc2zTLjU171KbeEdk5g3c988FP62PoGrewF3mnYKJL8SYeadgnXcK7LRToNy0U6C2aadAzTsFy7TXiJSed0DNtJu1mX+UMXGs2Xlj7SeauH7axCU/beLO/BM9P23izkyb+PNxmDZxZ762NvHF7zRtGVCetgyoTFsGVOel0bQ9ReRnLQOiMGsZEMV5aXnWniIqs5YBUZ2XRrP21Nw0P2mFElGYtaeI4uieCuwQSYNpgT+qeWyFlo4yLWN7KnYMRB1L8z2V5UdWaOnauYWRtNQVcXFkhYauTUgaSKt9W7c8sEJz38eEMpC2L5a50mNfauxCGEjr/Zzgh208Su8HvzCs3VPvDikOo8XeLW8etvHwvZ9h6jBa/+flUbSi1JxzsFLuv2yUBtEi8CFGdA4shf6PfmUQzQMfmEXnwBFwBUS2qlwFLmnJjuiWn7gQmIbQ0iGCZxlRiodOnaWqKABXZ2TngDxAE52DhQ7WWeZgqYe5mKUPlnIIulnmQOdnaDSAlg6lOsscmPgQLT5PCw/9yCrPSyuP01Z/wNIkI7oqgCZbVZ8BNOER/c1jtDSepmmSEf01QBOeg9/N+6cbfzfvX6T97ZE2579k+0Cb85+LfaBN+psH39Em/X2N72hpzn8H+x0tzvmPTT/QtllHVAc356+5KKX9tH+Oc2aastPmmrKTDqj6N2XnfDu/O9ZJK/Q72pxd8IE27fup1jnn87vDTLvUlJlzj/uBNmeqfaBNO6DKzPlX+n+CtPpOmzZx32k82pzfJvPdsb7T3mnvNDvtTvKdxqPNu9bcO41xbO80xjHnd1F9OOa9rrDMS9M/MVoVoZl5aeukX//XUqEBoAn3lLIATbQMqjJvdRHrPic0QBNN3HKqDwI03VCXG0CTjLV0OilRgLY20CxAk4y1eMpPAjTXQDNvQ6MGmgb2koLZQeH0RmU8TbfQFECTGdA997c5v97X77MiS9vuaecnID8F54aV5PvdtNEMydNsG02TfL9vbR9QFvkSXaiNpuRpupW2iZfo2kpz4iXq7mnljWjUSrPSJaqbaas0zTTTjHSJ2maali5RNy+NmmmLcIlq4IKyMM0AtE223y1Ac7Il6ualEUCzov2uEdoqWqIGoRnRplrnpVmEpkVL1CG0RZRGCE1JlugC0ISbSmO0TZC2YjQnWKIWoAk3lcNoVpC2YbRVsEQJoMmW6ALQhJtKgzQtR1sBmnBTWZQm11QOoAFNJUsTb6oNpok1FQE02RJdAJpwU+l5aQagCZfoCtOMVInaVlpR0iXqAJpwiW4ATbhECaDJluiC09SPiuZH0DRAEy5RA9CES3QFaMJNZR+hpbelVSVcoo5DkynRDaABJSpNEy5R4tBESnRBaECJStNkS1QjNNkSNSzaJkFbERpQorI0EqZZhCbb7+4hWpqAJtfvG0KT7XdCaHC/y9Pwfuf3lO+m1TG02lilV81bx1RobCwsL7r1MN+fMECT6XfzfSRZgCbyIXn9/kHNjLR9+bTT3PgStXsiddLSAFpsblMv2u9uXyRrHy0/TtuzUiO0dXxTbReXQa+G0IyvA6K0MwGaHl8HwFftCdOWjxeQBWgL3FQ4rR6WNkAbWQf648EyAE0J0PJh/QC0kU1lPn7ABaFto+vAUAA+J0QlWKLrJ3O1ddHy07RPWgug2dFNtX5SLxahjW4qmz+BArR1OC2xaaObysVP5hWgmdFN5cInAQzQ9Gja5j9p1D5aeJamEFo63HZgU32rPjkg2uA6qNB1wHQ4jYF1UPi0bWwdLBm4sCtMS3yaG1sHS/xBOSC0sXWgA59mZWlrH80/SfN82jqWZlQHbWxT/fyHVIBmxjbVZx00PbapfonRsiDtFz8cC4C2jC3RX3XRxjZVB03J/kXCBaFtdDjeabc0J/sL8J20MAPtvN/jO+2MdtPv6Z12RzOyf8BuA2j6pKnmpdVJaMuPikaT0BQBTTWaVm5pYRLaNi/NnTTVvLQ0A+283/M77YR21+/lX5JGCM2INhUhbaDpeExM83PQFkna0k0Lc9AUHY84Ly2NommMts1Lc7ym8hyawWl4HSxKgGZP6uBHTdMs2orRVlZTmRG0dLg5pw5+LkEzLNpnUjS8qT5n0ew/IJpmNdVveLQE0RYW7QseLcI0vKm+4dECQDvv9zyK5jeUhjdVZtEcSNsYtIVJU5e02ECrg2hfgjTHaCqdWLQvQJpl1IHh0f4I0/A6WIfQwrHYcJqNLNrXD9DiGNpXIM0w6sDxaOGa5g/TxqiDLQjR8MwlHs3DNDhzF/Ic2eIVQbRlEA2/VKROaGgdaCGaIrgODKkBtPoEbZWibXAdWDEaXAe2dl9ga0ssB9OcGA1uqk2KZuGmojKClk9oaFMtbJoGaStaBwtlIZpBaVqOhjaVodRNaxs9jdbByqYZmAbWgRWjLQRmrqMoRgMzdxtBO89SlEZs2voELV/SghRtw+pgeWNavQwn30trXUMOy1zDp1mI9rMXNH916moELZ78uoLFaJZPc9Alj18rZbE6cFK03ym1YnWwUWXKwOsKUSmDZS4Noh1C6hUtX8Ra6aa1xJUOL7YeZQSNEJrxL2j1InHzCFo5hJRXaoFoBqPxP1C5l/e4SFwZ2rcv7+FfJ24aQUunv/5NSOY6Pk0jPaXLS1p8HQBRgmbyHjeNmUt8mkF6yr6m5dfrJXBpSE+5tNPaMlePoh0WTvoABILNdNBWhEbxJY1eP7zn0oCe0hQ+rDgg2GwHzQI9Zcjvd2kLNkdj9t/5cNsPtBUItq2D5gDaRuo1LZ1nR89OEugpqvtQtwWb7qK1l4G+pJVX2VG4NKCn1v0ruVuDbe2hAT1lKaM0Sx3bNaCnNsr7fdqCzQnRiNLVfcLpSh60XTvcdKc1BhvJ0Nbvnx27uBrHbzwcUbiilRcnHri09nbfn2VrHVGD0PgbD01E/opGJ9khQ1v3J99a08ORyJ7I7TTXmh4b9Ww8mmm0v4yuNT1IhKZ32quXOp8OaB1+CcvSbrWN6WG6aNRKO3wVcUN6rDt4IM3seb/T7kbU9tCWVprbaa9zOpytlsykaeh7F+JOaxpRGkfzP+izcKA1/IJfGlChxz/KHW5OqJw9eOrrqcs3aLf4G1o9e/A4grafsPuUtlDTiNoumoW+HFzd0cJJnIcBPXXozHpJO64r6qQ1pIc5LCXk7455doU2zMF2GMCmajN9NLo+6iejku/vdjJiagyN0i5r+lqEcFgsdeQ37iG0dDhtLk1DtHg/PeXw2OWpngJ6626xrX20FaL5Blr8YZpnYZql+2Tb+mgWot3cb1/1fp8wSgPKAKXtL+368TKOErR6vRB2yrY/NJ+2PU8rytQ91fjtTshR7mn7Dc1OEyiD3JqH5ePV6Kej0U4T6KnUSqsfv+MiPRWbzyko6qWtbBow1hJlEDi0IkLznPkpUj2F07JMGeA0frvTtLQF7in8pKJE4mZJmhGgBQlaYg1QECkDnMZvdzsvzcE9hd9VInHJc2j1p0cj6MCXKb/dFwFaliiDKkkzcIXikZgkEjfj9+VXqO2gmbE0B1coTgu9sYafv85De4oYPbXTtoG0pYuW7MAK1cTvKbWkFQjDwTT1A5oZSDMdZaCWqKGc5icu/iRxGUjDExenZcHE3WkKuJdk4ir11UgaddI24F6CiavUb5UDaAKJi45REIg1UiyaF4i1ynsAiVgrvJddItYyi1YlYi2xaEUq1vARz2KxhtOkYg0/uSQVazgtSsUavlqjVKzhtCC1W8Pjx0vs1iRpYHbwaFLZga+JKpUdOK1IZQdOy1LZgT9GltoS4bQklR34oogS2SFIWzCa59GCQKwxA8iLXcDCaVIXsHCa1AUsfFVUqS0RTitSsYbTslSs4QmUpbZEOC1JbYlwWpTaEuHLIkhtiXCal9oS4TSpq0Q4rUpdJcLPsAheJTrSZo01gCYQaxAtScUaPuhRKtZwWhifHZlJ8+OzI0nR8OyIzIUhkB2BR6sC2eF5tDI+O0jxaHl8dhDzHNP47KhMWhyfHYVJC+OzIzNpfnx2ZOaoC2RH4j1SFRjQyKOV8Z9ZKPBoeXx2kOet2jQ+O0jJ0RYZWhyfHZX5UGF8dhQmzY/fd2Tm2mDFmgitCsRa4tGKQKxFHi0LZEdQf8Aeix9rGqYFTnrH8dlBfvEcWhifHaQ0i+bHD2hVRnFoAgNa1WccWhXYdxT1OefBikB2ZPUF5y3IAtmR1R85tCSQHUllDi0KZEdcEkbjx5pFaRqgicYaBRM5NIHsIL8GBq0KZAd5GxjvQRHIDlLOM2hZIDuq2hSDlgSyo6jKoUWBAS0LixbG7zso68KheYHsSIZFk8iOtGYGrUpkR7SJQSsC2UHBJUYjZ4HsoLBFBi0J7DvIE0ATjTX6dwoATTLWSJNn0LxAdpBh0SSyo66kcFqVyI5qK4NWJLKjOA4tS2RH2QrjAZNEdmTKDFqUyI5/sGhBIjv+l5IMTcO0v7NonpMd+BEZNE52yNDqgOzA1419KnEdg+YR2p64v0WzYzRtT9wA0ohxKBZN+6diLb8ckcqgRaXMU7GWDuPbRQtKff5QrOWLaCk82hd4rF0++zkbp3mlvnkm1vyB3k1b8iPZES9vkBg0pUx6IjvK9WKMOK0qtUYwO+4jdXuCVpRyAc4O/A/4hRva30+XJ/kHssPfvLD+hva3M5qmRhIygBtIc385e8y1PpAd4e426ob2H2dDvRWQ5hpqSKO0P53QFkJpW0s0gBtWdzJbeaXcH2snz4XT+j8jL02PsGJ76S/1E5+RNfynavi0AMday0KC2l19cU7zvbEWb+aYT+uOtfMzgNbz709pFY+1ljdLQ+v56zNaf6yF60Hm0+BYa33VN2TUvjql9e7WUsua9DgNzw7dOuArMmp/MAOyozTlHyMt+7MjtbzzlUWrKK15PXTTcl+s1aaUKSxaQmOt+cxsLy32xVpoGpjMooWuWKttz5ZwGp4dun2l6l6awg7D+jfnEYhLdnaswIkhq2bt33dYIHm2PlrqirXYeFuP0/Ds2NDL2nya74m10vp0rKsVqifWYuM0Vw6tqJ5Y8+NoeLkb5Lw08AK47ilYkelegBfAdU+Bhe7cRVMdsVZVKy0xaBWmQet066BllLYB6xT6Ktett6YUstR2WmDQAiNxoYjn03xH4pb2qPGsyxX8xI3tNIXTCkpbsVfc8GlJ8RO3qmZaZdBCR6yl9qVZGNefVEeshaG0qjpiDciajNOy4sdaBm6f8Kt2EaVp9L77bUGa76D5oTR8qRn0vs0TYw5LjZ24GZloD9Oi4iduGksLip+4AaFxLqXwExe5Q4VpGafB+wLXSrOHpcZN3ITQCkzzih9rAaFllFZUB009TXOHvRozcQtESygtKH7iJigII0pTip+44XHa9tQ/YlYQLQC03l+AKBjNwx+9+YmbRtH6f588YjQF0Hr/FoWHZrqCFyxiB60qiFZAmlf8xM3P0/RhqfESN2F3yQCt98+CBoyWsMs8UXUkrh9K84qfuFVhtIi0M1XVQcsgLQC0zi+AiCDNA8u483ttwlCaVx2Jq0Aa9imy5+u6Cpg3FaJl1ZG4aQRtoz3O+YkbwPsUaOMRemgevE8GaH1frloVSEvA8FNRHYmbR9H6vzM6obQI5FLfd0YHlBbA/TM/cdUImtmngE+r8Oh4gFZURxlkmAbun/llkGBae2T+JwXVkbgBpdX2x3akemgepZXmNM9bZdIc73cTcvNjJ8qqowwyTEvNj/1nikwa898Xx+bH/hMF1VEGAae1PnY1pHoSV6G09p4qa1UdiQvfGSiD5LLiJy4+QkAZxC320NJAmqfQkbj4nYEy0KR6Ehce6/YyqGtVHYlbB9KKzT20gtNy62OnLXFprCnQlFof+6/sKVhYU6Dbe+ov5HvKwDNoradtSXWUQcXv1dxTdSs9tILfq7mn/klJdZRBwmnAh5bApVnWnVeCtvb8MvA4rTbTqupJXAUfFvjQ0kMrDFpzGVBi03jnZZvLgD8FC+8Ck2tOXPKqowzCIJrumwLDmgK1NV/BKj20yqF5YGvPL4PMoalWWmDTLO+82svAs2mONaCqtiZuVXwa67yWgmzt+WWgGLQMb+3xg/eS6wRs7fm0wqPhW3u8pxKHFtGtPX5o3ktuQmN2ZD7N8F5y4xuzI/JpK1XW3Xxjdng+zVJh0Rqzo6oOGm81fN6YHaWD5niZ+JvG7EgdtI2Xib9vzI7QQSPyPBr+72dwmuIcX6P/EgQ/Fua9v2qLtdxB08x7h7ZYiz003gwtLbTOpWYosmi+KTuq6jhW3onptuzIPTTLG9B/a8uO2EWratRh+5aacnkYbaPad/80jNa51BTFUbKFOh8b7V98+8w/NT+KtnYuNT1yQHMfrQyjuc6lZkZmh+9bEGncgFbVR4ujaJpy51oNwwa0NzHduAHtjaVvh9Fc7+x/M4xGvQOWhw1odwOmcQPae27jBjT3npsfRbOxl6aAQzaVfj6MVlTn8cthA9o9X78YRTNezXp8pqY9fqXej/fj/Xg/3o/34/14P96P9+P9eD/ej/fj/eg6/g8WRqulQwf2WAAAAABJRU5ErkJggg==")
+
+                if not v367 then
+                    return
+                end
+
+                local v368 = p4 and t1.LogoFileLight or t1.LogoFile
+
+                if type(makefolder) == "function" then
+                    pcall(makefolder, "Kira")
+                end
+
+                if writefile then
+                    pcall(writefile, v368, v367)
+                end
+
+                if getcustomasset then
+                    local ok, result = pcall(getcustomasset, v368)
+
+                    if ok and type(result) == "string" and result ~= "" then
+                        if p4 then
+                            u76 = result
+
+                            return result
+                        end
+
+                        u75 = result
+
+                        return result
+                    end
+                end
+            end
+
+            function v79()
+                local v371 = v78(t9.Theme == "Light")
+
+                if not v371 then
+                    return
+                end
+
+                for _, v in ipairs(t15) do
+                    local Mark = v:FindFirstChild("Mark")
+
+                    if Mark and Mark:IsA("ImageLabel") then
+                        Mark.Image = v371
+                        Mark.ImageColor3 = Color3.new(1, 1, 1)
+                    end
+                end
+            end
+
+            self = setmetatable({}, {
+				__mode = "k"
+			})
+
+            function v81(p5, p6, p7, p8)
+                local v379 = self[p5]
+
+                if v379 then
+                    pcall(function()
+                        v379:Cancel()
+                    end)
+                end
+
+                local tween = TweenService:Create(p5, TweenInfo.new(p6, p8 or Enum.EasingStyle.Quart, Enum.EasingDirection.Out), p7)
+
+                self[p5] = tween
+                tween:Play()
+                tween.Completed:Connect(function()
+                    if self[p5] == tween then
+                        self[p5] = nil
+                    end
+                end)
+            end
+            function v82(p9, p10, p11)
+                local v384 = Instance.new(p9)
+
+                if p10 then
+                    for k, v in pairs(p10) do
+                        v384[k] = v
+                    end
+                end
+
+                if p11 then
+                    v384.Parent = p11
+                end
+
+                return v384
+            end
+            function v83(p12, p13, p14)
+                local v396
+                local v397
+                if type(p13) == "string" then
+                    v396 = p13
+                    v397 = t3[p13] or t3.line
+                else
+                    v397 = p13 or t3.line
+                end
+                local t17 = {
+					Color = v397,
+					Thickness = p14 or 1,
+					ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+				}
+                local UIStroke = Instance.new("UIStroke")
+                if t17 then
+                    for k, v in pairs(t17) do
+                        UIStroke[k] = v
+                    end
+                end
+                if p12 then
+                    UIStroke.Parent = p12
+                end
+                if v396 then
+                    UIStroke:SetAttribute("th_stroke", v396)
+                end
+
+                return UIStroke
+            end
+            function v84(p15, p16, p17, p18, p19)
+                if p17 == nil then
+                    p17 = p16
+                    p18 = p16
+                    p19 = p16
+                end
+
+                local t18 = {
+					PaddingLeft = UDim.new(0, p16),
+					PaddingTop = UDim.new(0, p17),
+					PaddingRight = UDim.new(0, p18 or p16),
+					PaddingBottom = UDim.new(0, p19 or p17)
+				}
+                local UIPadding = Instance.new("UIPadding")
+
+                if t18 then
+                    for k, v in pairs(t18) do
+                        UIPadding[k] = v
+                    end
+                end
+
+                if p15 then
+                    UIPadding.Parent = p15
+                end
+
+                return UIPadding
+            end
+            function v85(p20, p21, p22)
+                if type(p21) == "string" then
+                    if p20 and p21 then
+                        p20:SetAttribute("th_bg", p21)
+
+                        local v418 = t3[p21]
+
+                        if v418 and p20:IsA("GuiObject") then
+                            p20.BackgroundColor3 = v418
+                        end
+                    end
+
+                    p20:SetAttribute("th_hover", p22)
+                end
+
+                p20.MouseEnter:Connect(function()
+                    if p20:GetAttribute("locked") then
+                        return
+                    end
+
+                    p20:SetAttribute("th_over", true)
+
+                    local v1246 = p20:GetAttribute("th_hover") or p22
+                    local v1247 = type(v1246) == "string" and t3[v1246] or v1246
+
+                    if v1247 then
+                        v81(p20, 0.12, {
+							BackgroundColor3 = v1247
+						})
+                    end
+                end)
+                p20.MouseLeave:Connect(function()
+                    if p20:GetAttribute("locked") then
+                        return
+                    end
+
+                    p20:SetAttribute("th_over", false)
+
+                    local v1248 = p20:GetAttribute("th_bg") or p21
+                    local v1249 = type(v1248) == "string" and t3[v1248] or v1248
+
+                    if v1249 then
+                        v81(p20, 0.12, {
+							BackgroundColor3 = v1249
+						})
+                    end
+                end)
+            end
+            function v86(p23, p24, p25, p26)
+                local t19 = {
+					BackgroundTransparency = 1,
+					Size = UDim2.fromOffset(16, 16),
+					ZIndex = p26
+				}
+                local Frame = Instance.new("Frame")
+
+                if t19 then
+                    for k, v in pairs(t19) do
+                        Frame[k] = v
+                    end
+                end
+
+                if p23 then
+                    Frame.Parent = p23
+                end
+
+                local v427 = Frame
+
+                local function v428(p27, p28, p29, p30, p31)
+                    local t20 = {
+						BackgroundColor3 = p25,
+						BorderSizePixel = 0,
+						Position = UDim2.fromOffset(p27, p28),
+						Size = UDim2.fromOffset(p29, p30),
+						ZIndex = p26 + 1
+					}
+                    local v1256 = v427
+                    local Frame2 = Instance.new("Frame")
+
+                    if t20 then
+                        for k, v in pairs(t20) do
+                            Frame2[k] = v
+                        end
+                    end
+
+                    if v1256 then
+                        Frame2.Parent = v1256
+                    end
+
+                    if p31 then
+                        local t21 = {
+							CornerRadius = UDim.new(0, p31 or 8)
+						}
+                        local UICorner = Instance.new("UICorner")
+
+                        if t21 then
+                            for k, v in pairs(t21) do
+                                UICorner[k] = v
+                            end
+                        end
+
+                        if Frame2 then
+                            UICorner.Parent = Frame2
+                        end
+                    end
+
+                    return Frame2
+                end
+                local function v429(p32, p33, p34, p35, p36)
+                    local t22 = {
+						BackgroundTransparency = 1,
+						Position = UDim2.fromOffset(p32, p33),
+						Size = UDim2.fromOffset(p34, p35),
+						ZIndex = p26 + 1
+					}
+                    local v1270 = v427
+                    local Frame3 = Instance.new("Frame")
+
+                    if t22 then
+                        for k, v in pairs(t22) do
+                            Frame3[k] = v
+                        end
+                    end
+
+                    if v1270 then
+                        Frame3.Parent = v1270
+                    end
+
+                    local t23 = {
+						CornerRadius = UDim.new(0, p36 or 8)
+					}
+                    local UICorner = Instance.new("UICorner")
+
+                    if t23 then
+                        for k, v in pairs(t23) do
+                            UICorner[k] = v
+                        end
+                    end
+
+                    if Frame3 then
+                        UICorner.Parent = Frame3
+                    end
+
+                    v83(Frame3, p25, 1.2)
+
+                    return Frame3
+                end
+
+                if p24 == "egg" then
+                    v428(4, 2, 8, 12, 5)
+
+                    return v427
+                end
+
+                if p24 == "aim" then
+                    v429(2, 2, 12, 12, 6)
+                    v428(7, 7, 2, 2, 1)
+                    v428(7, 0, 2, 3, 0)
+                    v428(7, 13, 2, 3, 0)
+                    v428(0, 7, 3, 2, 0)
+                    v428(13, 7, 3, 2, 0)
+
+                    return v427
+                end
+
+                if p24 == "spark" then
+                    v428(7, 1, 2, 14, 1)
+                    v428(1, 7, 14, 2, 1)
+                    v428(4, 4, 2, 2, 1)
+                    v428(10, 10, 2, 2, 1)
+
+                    return v427
+                end
+
+                if p24 == "grid" then
+                    v428(1, 1, 6, 6, 2)
+                    v428(9, 1, 6, 6, 2)
+                    v428(1, 9, 6, 6, 2)
+                    v428(9, 9, 6, 6, 2)
+
+                    return v427
+                end
+
+                if p24 == "layers" then
+                    v428(2, 3, 12, 2, 1)
+                    v428(2, 7, 12, 2, 1)
+                    v428(2, 11, 12, 2, 1)
+
+                    return v427
+                end
+
+                if p24 == "out" then
+                    v429(1, 3, 10, 10, 3)
+                    v428(8, 2, 6, 2, 1)
+                    v428(12, 2, 2, 6, 1)
+
+                    return v427
+                end
+
+                if p24 == "cog" then
+                    v429(3, 3, 10, 10, 5)
+                    v428(7, 1, 2, 3, 1)
+                    v428(7, 12, 2, 3, 1)
+                    v428(1, 7, 3, 2, 1)
+                    v428(12, 7, 3, 2, 1)
+
+                    return v427
+                end
+
+                if p24 == "rocket" then
+                    v428(6, 1, 4, 9, 2)
+                    v428(7, 0, 2, 3, 1)
+                    v428(4, 8, 3, 4, 1)
+                    v428(9, 8, 3, 4, 1)
+                    v428(7, 11, 2, 4, 1)
+
+                    return v427
+                end
+
+                if p24 == "search" then
+                    v429(1, 1, 10, 10, 5)
+                    v428(9, 10, 5, 2, 1).Rotation = 40
+
+                    return v427
+                end
+
+                if p24 == "info" then
+                    v429(2, 2, 12, 12, 6)
+                    v428(7, 4, 2, 2, 1)
+                    v428(7, 7, 2, 5, 1)
+                end
+
+                return v427
+            end
+            function v87(p37, p38, p39)
+                local v433 = p39 or 18
+                local t24 = {
+					Name = "Kira Hub",
+					BackgroundTransparency = 1,
+					Size = UDim2.fromOffset(v433, v433),
+					ZIndex = p38
+				}
+                local Frame = Instance.new("Frame")
+
+                if t24 then
+                    for k, v in pairs(t24) do
+                        Frame[k] = v
+                    end
+                end
+
+                if p37 then
+                    Frame.Parent = p37
+                end
+
+                local v438 = v78(false)
+                local t25 = {
+					Name = "Mark",
+					BackgroundTransparency = 1,
+					Size = UDim2.fromScale(1, 1),
+					Image = v438 or "",
+					ImageColor3 = Color3.new(1, 1, 1),
+					ScaleType = Enum.ScaleType.Fit,
+					ZIndex = p38 + 1
+				}
+                local ImageLabel = Instance.new("ImageLabel")
+
+                if t25 then
+                    for k, v in pairs(t25) do
+                        ImageLabel[k] = v
+                    end
+                end
+
+                if Frame then
+                    ImageLabel.Parent = Frame
+                end
+
+                t15[#t15 + 1] = Frame
+
+                return Frame
+            end
+
+            local function v88()
+                if gethui then
+                    local ok, result = pcall(gethui)
+
+                    if ok and result then
+                        return result
+                    end
+                end
+
+                local CoreGui = game:GetService("CoreGui")
+
+                if pcall(function()
+                    return CoreGui:FindFirstChild("PH_UI")
+                end) then
+                    return CoreGui
+                end
+
+                return LocalPlayer:WaitForChild("PlayerGui")
+            end
+
+            local v89 = v88()
+            local v90 = v89:FindFirstChild(v48)
+
+            if v90 then
+                v90:Destroy()
+            end
+
+            local PH_UI = v89:FindFirstChild("PH_UI")
+
+            if PH_UI then
+                local KiraUnloadUid = (getgenv and getgenv() or _G).KiraUnloadUid
+
+                if KiraUnloadUid == nil or str == tostring(KiraUnloadUid) then
+                    PH_UI:Destroy()
+                end
+            end
+
+            t26 = {
+				Name = v48,
+				ResetOnSpawn = false,
+				IgnoreGuiInset = true,
+				ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
+				DisplayOrder = 1200
+			}
+            v94 = v88()
+        end
+
+        local ScreenGui = Instance.new("ScreenGui")
+
+        if t26 then
+            for k, v in pairs(t26) do
+                ScreenGui[k] = v
+            end
+        end
+
+        if v94 then
+            ScreenGui.Parent = v94
+        end
+
+        v98 = ScreenGui
+        pcall(function()
+            if syn and syn.protect_gui then
+                syn.protect_gui(v98)
+            end
+        end)
+
+        local t27 = {
+			Name = "Overlay",
+			BackgroundTransparency = 1,
+			Text = "",
+			AutoButtonColor = false,
+			Size = UDim2.fromScale(1, 1),
+			Visible = false,
+			ZIndex = 80
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t27 then
+            for k, v in pairs(t27) do
+                TextButton[k] = v
+            end
+        end
+
+        if v98 then
+            TextButton.Parent = v98
+        end
+
+        v103 = TextButton
+
+        local t28 = {
+			Scale = 1
+		}
+        local UIScale = Instance.new("UIScale")
+
+        if t28 then
+            for k, v in pairs(t28) do
+                UIScale[k] = v
+            end
+        end
+
+        v108 = UIScale
+
+        local t29 = {
+			Name = "Window",
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			Position = UDim2.fromScale(0.5, 0.5),
+			Size = UDim2.fromOffset(n1, n2),
+			BackgroundColor3 = t3.bg,
+			BorderSizePixel = 0,
+			ClipsDescendants = false,
+			ZIndex = 10
+		}
+        local Frame = Instance.new("Frame")
+
+        if t29 then
+            for k, v in pairs(t29) do
+                Frame[k] = v
+            end
+        end
+
+        if v98 then
+            Frame.Parent = v98
+        end
+
+        v113 = Frame
+    end
+
+    do
+        local t30 = {
+			CornerRadius = UDim.new(0, 12)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t30 then
+            for k, v in pairs(t30) do
+                UICorner[k] = v
+            end
+        end
+
+        if v113 then
+            UICorner.Parent = v113
+        end
+
+        local s1 = "line"
+        local t31 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke = Instance.new("UIStroke")
+
+        if t31 then
+            for k, v in pairs(t31) do
+                UIStroke[k] = v
+            end
+        end
+
+        if v113 then
+            UIStroke.Parent = v113
+        end
+
+        if s1 then
+            UIStroke:SetAttribute("th_stroke", s1)
+        end
+
+        v108.Parent = v113
+
+        if v113 then
+            v113:SetAttribute("th_bg", "bg")
+
+            local bg = t3.bg
+
+            if bg and v113:IsA("GuiObject") then
+                v113.BackgroundColor3 = bg
+            end
+        end
+
+        local t32 = {
+			Name = "Shadow",
+			BackgroundColor3 = Color3.fromRGB(0, 0, 0),
+			BackgroundTransparency = 0.7,
+			Position = UDim2.fromOffset(8, 12),
+			Size = UDim2.new(1, 0, 1, 0),
+			ZIndex = 9,
+			BorderSizePixel = 0
+		}
+        local Frame = Instance.new("Frame")
+
+        if t32 then
+            for k, v in pairs(t32) do
+                Frame[k] = v
+            end
+        end
+
+        if v113 then
+            Frame.Parent = v113
+        end
+
+        local Shadow = v113.Shadow
+        local t33 = {
+			CornerRadius = UDim.new(0, 14)
+		}
+        local UICorner2 = Instance.new("UICorner")
+
+        if t33 then
+            for k, v in pairs(t33) do
+                UICorner2[k] = v
+            end
+        end
+
+        if Shadow then
+            UICorner2.Parent = Shadow
+        end
+    end
+
+    do
+        local t34 = {
+			Name = "HeadBar",
+			BackgroundColor3 = t3.rail,
+			BorderSizePixel = 0,
+			Size = UDim2.new(1, 0, 0, 82),
+			ZIndex = 11
+		}
+        local Frame = Instance.new("Frame")
+
+        if t34 then
+            for k, v in pairs(t34) do
+                Frame[k] = v
+            end
+        end
+
+        if v113 then
+            Frame.Parent = v113
+        end
+
+        if Frame then
+            Frame:SetAttribute("th_bg", "rail")
+
+            local rail = t3.rail
+
+            if rail and Frame:IsA("GuiObject") then
+                Frame.BackgroundColor3 = rail
+            end
+        end
+
+        local t35 = {
+			CornerRadius = UDim.new(0, 12)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t35 then
+            for k, v in pairs(t35) do
+                UICorner[k] = v
+            end
+        end
+
+        if Frame then
+            UICorner.Parent = Frame
+        end
+
+        local t36 = {
+			BackgroundColor3 = t3.rail,
+			BorderSizePixel = 0,
+			Position = UDim2.new(0, 0, 1, -16),
+			Size = UDim2.new(1, 0, 0, 16),
+			ZIndex = 11
+		}
+        local Frame4 = Instance.new("Frame")
+
+        if t36 then
+            for k, v in pairs(t36) do
+                Frame4[k] = v
+            end
+        end
+
+        if Frame then
+            Frame4.Parent = Frame
+        end
+
+        if Frame4 then
+            Frame4:SetAttribute("th_bg", "rail")
+
+            local rail = t3.rail
+
+            if rail and Frame4:IsA("GuiObject") then
+                Frame4.BackgroundColor3 = rail
+            end
+        end
+
+        local t37 = {
+			Name = "Rail",
+			BackgroundColor3 = t3.rail,
+			BorderSizePixel = 0,
+			Size = UDim2.new(0, n3, 1, 0),
+			ZIndex = 11
+		}
+        local Frame5 = Instance.new("Frame")
+
+        if t37 then
+            for k, v in pairs(t37) do
+                Frame5[k] = v
+            end
+        end
+
+        if v113 then
+            Frame5.Parent = v113
+        end
+
+        v151 = Frame5
+
+        if v151 then
+            v151:SetAttribute("th_bg", "rail")
+
+            local rail = t3.rail
+
+            if rail and v151:IsA("GuiObject") then
+                v151.BackgroundColor3 = rail
+            end
+        end
+
+        local t38 = {
+			CornerRadius = UDim.new(0, 12)
+		}
+        local UICorner3 = Instance.new("UICorner")
+
+        if t38 then
+            for k, v in pairs(t38) do
+                UICorner3[k] = v
+            end
+        end
+
+        if v151 then
+            UICorner3.Parent = v151
+        end
+    end
+
+    local v171, v204, v210
+
+    do
+        local Frame, TextLabel
+
+        do
+            local t39 = {
+				BackgroundColor3 = t3.rail,
+				BorderSizePixel = 0,
+				Position = UDim2.new(1, -16, 0, 0),
+				Size = UDim2.new(0, 16, 1, 0),
+				ZIndex = 11
+			}
+            local Frame6 = Instance.new("Frame")
+
+            if t39 then
+                for k, v in pairs(t39) do
+                    Frame6[k] = v
+                end
+            end
+
+            if v151 then
+                Frame6.Parent = v151
+            end
+
+            if Frame6 then
+                Frame6:SetAttribute("th_bg", "rail")
+
+                local rail = t3.rail
+
+                if rail and Frame6:IsA("GuiObject") then
+                    Frame6.BackgroundColor3 = rail
+                end
+            end
+
+            local t40 = {
+				BackgroundColor3 = t3.line,
+				BorderSizePixel = 0,
+				Position = UDim2.new(1, -1, 0, 2),
+				Size = UDim2.new(0, 1, 1, -2),
+				ZIndex = 12
+			}
+            local Frame7 = Instance.new("Frame")
+
+            if t40 then
+                for k, v in pairs(t40) do
+                    Frame7[k] = v
+                end
+            end
+
+            if v151 then
+                Frame7.Parent = v151
+            end
+
+            if Frame7 then
+                Frame7:SetAttribute("th_bg", "line")
+
+                local line = t3.line
+
+                if line and Frame7:IsA("GuiObject") then
+                    Frame7.BackgroundColor3 = line
+                end
+            end
+
+            v151.Active = true
+
+            local t41 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 1, -18),
+				Position = UDim2.fromOffset(0, 12),
+				CanvasSize = UDim2.new(0, 0, 0, 0),
+				AutomaticCanvasSize = Enum.AutomaticSize.Y,
+				ScrollBarThickness = not u42 and 0 or 5,
+				BorderSizePixel = 0,
+				ZIndex = 12
+			}
+            local ScrollingFrame = Instance.new("ScrollingFrame")
+
+            if t41 then
+                for k, v in pairs(t41) do
+                    ScrollingFrame[k] = v
+                end
+            end
+
+            if v151 then
+                ScrollingFrame.Parent = v151
+            end
+
+            v171 = ScrollingFrame
+            v84(v171, 10, 2, 10, 12)
+
+            local t42 = {
+				FillDirection = Enum.FillDirection.Vertical,
+				Padding = UDim.new(0, 3),
+				SortOrder = Enum.SortOrder.LayoutOrder
+			}
+            local UIListLayout = Instance.new("UIListLayout")
+
+            if t42 then
+                for k, v in pairs(t42) do
+                    UIListLayout[k] = v
+                end
+            end
+
+            if v171 then
+                UIListLayout.Parent = v171
+            end
+
+            local t43 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 0, 40),
+				LayoutOrder = 0,
+				ZIndex = 12
+			}
+
+            Frame = Instance.new("Frame")
+
+            if t43 then
+                for k, v in pairs(t43) do
+                    Frame[k] = v
+                end
+            end
+
+            if v171 then
+                Frame.Parent = v171
+            end
+
+            v87(Frame, 13, 28).Position = UDim2.fromOffset(0, 2)
+
+            local t44 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(34, 3),
+				Size = UDim2.new(1, -34, 0, 16),
+				Font = t4.title,
+				Text = t1.Title,
+				TextColor3 = t3.text,
+				TextSize = 14,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				ZIndex = 13
+			}
+
+            TextLabel = Instance.new("TextLabel")
+
+            if t44 then
+                for k, v in pairs(t44) do
+                    TextLabel[k] = v
+                end
+            end
+        end
+
+        if Frame then
+            TextLabel.Parent = Frame
+        end
+
+        if TextLabel then
+            TextLabel:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if text then
+                TextLabel.TextColor3 = text
+            end
+        end
+
+        local t45 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(34, 20),
+			Size = UDim2.new(1, -34, 0, 12),
+			Font = t4.mono,
+			Text = t1.Product,
+			TextColor3 = t3.mute,
+			TextSize = 9,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 13
+		}
+        local TextLabel2 = Instance.new("TextLabel")
+
+        if t45 then
+            for k, v in pairs(t45) do
+                TextLabel2[k] = v
+            end
+        end
+
+        if Frame then
+            TextLabel2.Parent = Frame
+        end
+
+        if TextLabel2 then
+            TextLabel2:SetAttribute("th_text", "mute")
+
+            local mute = t3.mute
+
+            if mute then
+                TextLabel2.TextColor3 = mute
+            end
+        end
+
+        local t46 = {
+			Name = "Main",
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(n3, 2),
+			Size = UDim2.new(1, -n3, 1, -2),
+			ZIndex = 11
+		}
+        local Frame8 = Instance.new("Frame")
+
+        if t46 then
+            for k, v in pairs(t46) do
+                Frame8[k] = v
+            end
+        end
+
+        if v113 then
+            Frame8.Parent = v113
+        end
+
+        v194 = Frame8
+
+        local t47 = {
+			Name = "Header",
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, 46),
+			ZIndex = 12,
+			Active = true
+		}
+        local Frame9 = Instance.new("Frame")
+
+        if t47 then
+            for k, v in pairs(t47) do
+                Frame9[k] = v
+            end
+        end
+
+        if v194 then
+            Frame9.Parent = v194
+        end
+
+        v199 = Frame9
+
+        local t48 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(14, 8),
+			Size = UDim2.new(1, -180, 0, 18),
+			Font = t4.title,
+			Text = "Auto Steal",
+			TextColor3 = t3.text,
+			TextSize = 16,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 12
+		}
+        local TextLabel3 = Instance.new("TextLabel")
+
+        if t48 then
+            for k, v in pairs(t48) do
+                TextLabel3[k] = v
+            end
+        end
+
+        if v199 then
+            TextLabel3.Parent = v199
+        end
+
+        v204 = TextLabel3
+
+        if v204 then
+            v204:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if text then
+                v204.TextColor3 = text
+            end
+        end
+
+        local t49 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(14, 26),
+			Size = UDim2.new(1, -180, 0, 14),
+			Font = t4.body,
+			Text = "idle",
+			TextColor3 = t3.dim,
+			TextSize = 11,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 12
+		}
+        local TextLabel4 = Instance.new("TextLabel")
+
+        if t49 then
+            for k, v in pairs(t49) do
+                TextLabel4[k] = v
+            end
+        end
+
+        if v199 then
+            TextLabel4.Parent = v199
+        end
+
+        v210 = TextLabel4
+    end
+
+    if v210 then
+        v210:SetAttribute("th_text", "dim")
+
+        local dim = t3.dim
+
+        if dim then
+            v210.TextColor3 = dim
+        end
+    end
+
+    local Frame, UIStroke
+
+    do
+        local function v212(p40, p41)
+            local t50 = {
+				AnchorPoint = Vector2.new(1, 0.5),
+				BackgroundColor3 = t3.card,
+				Position = UDim2.new(1, p41, 0.5, 2),
+				Size = UDim2.fromOffset(p40, 22),
+				Font = t4.mono,
+				Text = "—",
+				TextColor3 = t3.dim,
+				TextSize = 10,
+				ZIndex = 12
+			}
+            local v449 = v199
+            local TextLabel = Instance.new("TextLabel")
+
+            if t50 then
+                for k, v in pairs(t50) do
+                    TextLabel[k] = v
+                end
+            end
+
+            if v449 then
+                TextLabel.Parent = v449
+            end
+
+            local t51 = {
+				CornerRadius = UDim.new(0, 7)
+			}
+            local UICorner = Instance.new("UICorner")
+
+            if t51 then
+                for k, v in pairs(t51) do
+                    UICorner[k] = v
+                end
+            end
+
+            if TextLabel then
+                UICorner.Parent = TextLabel
+            end
+
+            local s2 = "line"
+            local t52 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke2 = Instance.new("UIStroke")
+
+            if t52 then
+                for k, v in pairs(t52) do
+                    UIStroke2[k] = v
+                end
+            end
+
+            if TextLabel then
+                UIStroke2.Parent = TextLabel
+            end
+
+            if s2 then
+                UIStroke2:SetAttribute("th_stroke", s2)
+            end
+
+            if TextLabel then
+                TextLabel:SetAttribute("th_bg", "card")
+
+                local card = t3.card
+
+                if card and TextLabel:IsA("GuiObject") then
+                    TextLabel.BackgroundColor3 = card
+                end
+            end
+
+            if TextLabel then
+                TextLabel:SetAttribute("th_text", "dim")
+
+                local dim = t3.dim
+
+                if not dim then
+                    return TextLabel
+                end
+
+                TextLabel.TextColor3 = dim
+            end
+
+            return TextLabel
+        end
+
+        local t53 = {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundColor3 = t3.card,
+			Position = UDim2.new(1, -12, 0.5, 2),
+			Size = UDim2.fromOffset(not u42 and 22 or 32, not u42 and 22 or 32),
+			Font = t4.mid,
+			Text = "–",
+			TextColor3 = t3.dim,
+			TextSize = 14,
+			AutoButtonColor = false,
+			ZIndex = 12
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t53 then
+            for k, v in pairs(t53) do
+                TextButton[k] = v
+            end
+        end
+
+        if v199 then
+            TextButton.Parent = v199
+        end
+
+        v217 = TextButton
+
+        local t54 = {
+			CornerRadius = UDim.new(0, 7)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t54 then
+            for k, v in pairs(t54) do
+                UICorner[k] = v
+            end
+        end
+
+        if v217 then
+            UICorner.Parent = v217
+        end
+
+        local s3 = "line"
+        local t55 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke3 = Instance.new("UIStroke")
+
+        if t55 then
+            for k, v in pairs(t55) do
+                UIStroke3[k] = v
+            end
+        end
+
+        if v217 then
+            UIStroke3.Parent = v217
+        end
+
+        if s3 then
+            UIStroke3:SetAttribute("th_stroke", s3)
+        end
+
+        v85(v217, "card", "lift")
+
+        if v217 then
+            v217:SetAttribute("th_text", "dim")
+
+            local dim = t3.dim
+
+            if dim then
+                v217.TextColor3 = dim
+            end
+        end
+
+        v228 = v212(52, -54)
+        v229 = v212(56, -110)
+
+        local t56 = {
+			BackgroundColor3 = t3.card,
+			Position = UDim2.fromOffset(14, 46),
+			Size = UDim2.new(1, -28, 0, not u42 and 28 or 36),
+			ZIndex = 12
+		}
+
+        Frame = Instance.new("Frame")
+
+        if t56 then
+            for k, v in pairs(t56) do
+                Frame[k] = v
+            end
+        end
+
+        if v194 then
+            Frame.Parent = v194
+        end
+
+        local t57 = {
+			CornerRadius = UDim.new(0, 9)
+		}
+        local UICorner4 = Instance.new("UICorner")
+
+        if t57 then
+            for k, v in pairs(t57) do
+                UICorner4[k] = v
+            end
+        end
+
+        if Frame then
+            UICorner4.Parent = Frame
+        end
+
+        if Frame then
+            Frame:SetAttribute("th_bg", "card")
+
+            local card = t3.card
+
+            if card and Frame:IsA("GuiObject") then
+                Frame.BackgroundColor3 = card
+            end
+        end
+
+        local s4 = "line"
+        local t58 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+
+        UIStroke = Instance.new("UIStroke")
+
+        if t58 then
+            for k, v in pairs(t58) do
+                UIStroke[k] = v
+            end
+        end
+
+        if Frame then
+            UIStroke.Parent = Frame
+        end
+
+        if s4 then
+            UIStroke:SetAttribute("th_stroke", s4)
+        end
+    end
+
+    local v244 = UIStroke
+
+    v245 = v86(Frame, "search", t3.mute, 13)
+    v245.Position = UDim2.fromOffset(8, 6)
+
+    local t59 = {
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, -40, 1, 0),
+		Position = UDim2.fromOffset(30, 0),
+		Font = t4.body,
+		PlaceholderText = "Filter this page",
+		PlaceholderColor3 = t3.mute,
+		Text = "",
+		TextColor3 = t3.text,
+		TextSize = not u42 and 12 or 14,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		ClearTextOnFocus = false,
+		ZIndex = 13
+	}
+    local TextBox = Instance.new("TextBox")
+
+    if t59 then
+        for k, v in pairs(t59) do
+            TextBox[k] = v
+        end
+    end
+
+    if Frame then
+        TextBox.Parent = Frame
+    end
+
+    v250 = TextBox
+
+    if v250 then
+        v250:SetAttribute("th_text", "text")
+
+        local text = t3.text
+
+        if text then
+            v250.TextColor3 = text
+        end
+    end
+
+    if v250 then
+        v250:SetAttribute("th_placeholder", "mute")
+
+        local mute = t3.mute
+
+        if mute and v250:IsA("TextBox") then
+            v250.PlaceholderColor3 = mute
+        end
+    end
+
+    v250.Focused:Connect(function()
+        v81(v244, 0.12, {
+			Color = t3.accent
+		})
+    end)
+    v250.FocusLost:Connect(function()
+        v81(v244, 0.12, {
+			Color = t3.line
+		})
+    end)
+
+    local v253 = not u42 and 80 or 88
+    local t60 = {
+		BackgroundTransparency = 1,
+		Position = UDim2.fromOffset(0, v253),
+		Size = UDim2.new(1, 0, 1, -v253),
+		ClipsDescendants = true,
+		ZIndex = 12
+	}
+    local Frame10 = Instance.new("Frame")
+
+    if t60 then
+        for k, v in pairs(t60) do
+            Frame10[k] = v
+        end
+    end
+
+    if v194 then
+        Frame10.Parent = v194
+    end
+
+    local v258 = Frame10
+
+    function v259(p42, p43)
+        local t61 = {
+			Name = p42,
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 1, 0),
+			CanvasSize = UDim2.new(0, 0, 0, 0),
+			AutomaticCanvasSize = Enum.AutomaticSize.Y,
+			ScrollBarThickness = not u42 and 4 or 8,
+			ScrollBarImageColor3 = t3.line,
+			BorderSizePixel = 0,
+			Visible = false,
+			ZIndex = 13
+		}
+        local v467 = v258
+        local ScrollingFrame = Instance.new("ScrollingFrame")
+
+        if t61 then
+            for k, v in pairs(t61) do
+                ScrollingFrame[k] = v
+            end
+        end
+
+        if v467 then
+            ScrollingFrame.Parent = v467
+        end
+
+        if ScrollingFrame then
+            ScrollingFrame:SetAttribute("th_scroll", "line")
+
+            local line = t3.line
+
+            if line and ScrollingFrame:IsA("ScrollingFrame") then
+                ScrollingFrame.ScrollBarImageColor3 = line
+            end
+        end
+
+        v84(ScrollingFrame, 12, 4, 12, 14)
+
+        local t62 = {
+			FillDirection = Enum.FillDirection.Vertical,
+			Padding = UDim.new(0, 8),
+			SortOrder = Enum.SortOrder.LayoutOrder
+		}
+        local UIListLayout = Instance.new("UIListLayout")
+
+        if t62 then
+            for k, v in pairs(t62) do
+                UIListLayout[k] = v
+            end
+        end
+
+        if ScrollingFrame then
+            UIListLayout.Parent = ScrollingFrame
+        end
+
+        local t63 = {
+			name = p42,
+			subtitle = p43,
+			scroll = ScrollingFrame,
+			items = {},
+			n = 0,
+			card = nil,
+			lastRule = nil
+		}
+
+        t12[p42] = t63
+        t13[#t13 + 1] = p42
+
+        return t63
+    end
+
+    local t64 = {}
+
+    function v261(p44, p45, p46)
+        local t65 = {
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, 18),
+			Font = t4.mono,
+			Text = p44,
+			TextColor3 = t3.mute,
+			TextSize = 9,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			LayoutOrder = p46,
+			ZIndex = 12
+		}
+        local v481 = v171
+        local TextLabel = Instance.new("TextLabel")
+
+        if t65 then
+            for k, v in pairs(t65) do
+                TextLabel[k] = v
+            end
+        end
+
+        if v481 then
+            TextLabel.Parent = v481
+        end
+
+        if TextLabel then
+            TextLabel:SetAttribute("th_text", "mute")
+
+            local mute = t3.mute
+
+            if mute then
+                TextLabel.TextColor3 = mute
+            end
+        end
+
+        for i, v in ipairs(p45) do
+            local t66 = {
+				BackgroundColor3 = t3.rail,
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 0, not u42 and 26 or 34),
+				Text = "",
+				AutoButtonColor = false,
+				LayoutOrder = p46 + i,
+				ZIndex = 12
+			}
+            local v489 = v171
+            local TextButton = Instance.new("TextButton")
+
+            if t66 then
+                for k, v2 in pairs(t66) do
+                    TextButton[k] = v2
+                end
+            end
+
+            if v489 then
+                TextButton.Parent = v489
+            end
+
+            local v493 = TextButton
+            local t67 = {
+				CornerRadius = UDim.new(0, 6)
+			}
+            local UICorner = Instance.new("UICorner")
+
+            if t67 then
+                for k, v3 in pairs(t67) do
+                    UICorner[k] = v3
+                end
+            end
+
+            if v493 then
+                UICorner.Parent = v493
+            end
+
+            local v498 = v86(v493, t8[v] or "layers", t3.mute, 13)
+
+            v498.Name = "Ico"
+            v498.Position = UDim2.fromOffset(6, 5)
+
+            local t68 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(26, 0),
+				Size = UDim2.new(1, -30, 1, 0),
+				Font = t4.body,
+				Text = v,
+				TextColor3 = t3.dim,
+				TextSize = 12,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				ZIndex = 13
+			}
+            local TextLabel5 = Instance.new("TextLabel")
+
+            if t68 then
+                for k, v5 in pairs(t68) do
+                    TextLabel5[k] = v5
+                end
+            end
+
+            if v493 then
+                TextLabel5.Parent = v493
+            end
+
+            if TextLabel5 then
+                TextLabel5:SetAttribute("th_text", "dim")
+
+                local dim = t3.dim
+
+                if dim then
+                    TextLabel5.TextColor3 = dim
+                end
+            end
+
+            t64[v] = {
+				btn = v493,
+				lab = TextLabel5,
+				ico = v498
+			}
+            v493.MouseEnter:Connect(function()
+                if t64[v].on then
+                    return
+                end
+
+                v81(v493, 0.12, {
+					BackgroundTransparency = 0,
+					BackgroundColor3 = t3.lift
+				})
+            end)
+            v493.MouseLeave:Connect(function()
+                if t64[v].on then
+                    return
+                end
+
+                v81(v493, 0.12, {
+					BackgroundTransparency = 1
+				})
+            end)
+            v493.MouseButton1Click:Connect(function()
+                u68(v)
+            end)
+        end
+    end
+    function v262(p47, p48)
+        for _, descendant in ipairs(p47:GetDescendants()) do
+            if descendant:IsA("ImageLabel") then
+                descendant.ImageColor3 = p48
+            elseif descendant:IsA("Frame") and descendant.BackgroundTransparency < 1 then
+                descendant.BackgroundColor3 = p48
+            elseif descendant:IsA("UIStroke") then
+                descendant.Color = p48
+            end
+        end
+    end
+    function u68(p49)
+        local v509 = t12[p49]
+
+        if not v509 then
+            return
+        end
+
+        u66 = v509
+
+        for k, v in pairs(t64) do
+            local v512 = k == p49
+
+            v.on = v512
+            v.lab.TextColor3 = v512 and t3.text or t3.dim
+            v.lab.Font = v512 and t4.mid or t4.body
+            v.btn.BackgroundColor3 = v512 and t3.card or t3.rail
+            v.btn.BackgroundTransparency = not v512 and 1 or 0
+            v262(v.ico, v512 and t3.accent or t3.mute)
+        end
+
+        for _, v in pairs(t12) do
+            v.scroll.Visible = v == v509
+
+            if v == v509 then
+                v.scroll.CanvasPosition = Vector2.zero
+            end
+        end
+
+        v204.Text = p49
+        v210.Text = v509.subtitle or ""
+        u69(v509, v250.Text)
+    end
+    function u69(p50, p51)
+        local v517 = string.lower(p51 or "")
+        local inst
+        local v519 = false
+        for _, v in ipairs(p50.items) do
+            if v.kind == "section" then
+                if inst then
+                    inst.Visible = v517 == "" or v519
+                end
+
+                inst = v.inst
+                v519 = false
+            else
+                local v522 = (v517 == "" or string.find(v.q, v517, 1, true) ~= nil) and (not v.visibleIf or v.visibleIf() or false)
+
+                v.inst.Visible = v522
+
+                if v522 then
+                    v519 = true
+                end
+            end
+        end
+        if inst then
+            inst.Visible = v517 == "" or v519
+        end
+    end
+
+    v250:GetPropertyChangedSignal("Text"):Connect(function()
+        if u66 then
+            u69(u66, v250.Text)
+        end
+    end)
+
+    function v263(p52, p53)
+        p52.lastRule = nil
+
+        local t69 = {
+			AutomaticSize = Enum.AutomaticSize.Y,
+			Size = UDim2.new(1, 0, 0, 0),
+			BackgroundColor3 = t3.card,
+			BorderSizePixel = 0
+		}
+
+        p52.n = p52.n + 1
+        t69.LayoutOrder = p52.n
+        t69.ZIndex = 13
+
+        local scroll = p52.scroll
+        local Frame11 = Instance.new("Frame")
+
+        if t69 then
+            for k, v in pairs(t69) do
+                Frame11[k] = v
+            end
+        end
+
+        if scroll then
+            Frame11.Parent = scroll
+        end
+
+        local t70 = {
+			CornerRadius = UDim.new(0, 8)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t70 then
+            for k, v in pairs(t70) do
+                UICorner[k] = v
+            end
+        end
+
+        if Frame11 then
+            UICorner.Parent = Frame11
+        end
+
+        local s5 = "line"
+        local t71 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke4 = Instance.new("UIStroke")
+
+        if t71 then
+            for k, v in pairs(t71) do
+                UIStroke4[k] = v
+            end
+        end
+
+        if Frame11 then
+            UIStroke4.Parent = Frame11
+        end
+
+        if s5 then
+            UIStroke4:SetAttribute("th_stroke", s5)
+        end
+
+        if Frame11 then
+            Frame11:SetAttribute("th_bg", "card")
+
+            local card = t3.card
+
+            if card and Frame11:IsA("GuiObject") then
+                Frame11.BackgroundColor3 = card
+            end
+        end
+
+        local t72 = {
+			FillDirection = Enum.FillDirection.Vertical,
+			Padding = UDim.new(0, 0),
+			SortOrder = Enum.SortOrder.LayoutOrder
+		}
+        local UIListLayout = Instance.new("UIListLayout")
+
+        if t72 then
+            for k, v in pairs(t72) do
+                UIListLayout[k] = v
+            end
+        end
+
+        if Frame11 then
+            UIListLayout.Parent = Frame11
+        end
+
+        local t73 = {
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, 26),
+			LayoutOrder = 0,
+			ZIndex = 14
+		}
+        local Frame12 = Instance.new("Frame")
+
+        if t73 then
+            for k, v in pairs(t73) do
+                Frame12[k] = v
+            end
+        end
+
+        if Frame11 then
+            Frame12.Parent = Frame11
+        end
+
+        local t74 = {
+			BackgroundColor3 = t3.accent,
+			BorderSizePixel = 0,
+			Position = UDim2.fromOffset(12, 12),
+			Size = UDim2.fromOffset(10, 2),
+			ZIndex = 15
+		}
+        local Frame13 = Instance.new("Frame")
+
+        if t74 then
+            for k, v in pairs(t74) do
+                Frame13[k] = v
+            end
+        end
+
+        if Frame12 then
+            Frame13.Parent = Frame12
+        end
+
+        if Frame13 then
+            Frame13:SetAttribute("th_bg", "accent")
+
+            local accent = t3.accent
+
+            if accent and Frame13:IsA("GuiObject") then
+                Frame13.BackgroundColor3 = accent
+            end
+        end
+
+        local t75 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(28, 0),
+			Size = UDim2.new(1, -36, 1, 0),
+			Font = t4.mono,
+			Text = p53,
+			TextColor3 = t3.dim,
+			TextSize = 10,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 15
+		}
+        local TextLabel = Instance.new("TextLabel")
+
+        if t75 then
+            for k, v in pairs(t75) do
+                TextLabel[k] = v
+            end
+        end
+
+        if Frame12 then
+            TextLabel.Parent = Frame12
+        end
+
+        local TextLabel6 = Frame12:FindFirstChildWhichIsA("TextLabel")
+
+        if TextLabel6 then
+            TextLabel6:SetAttribute("th_text", "dim")
+
+            local dim = t3.dim
+
+            if dim then
+                TextLabel6.TextColor3 = dim
+            end
+        end
+
+        p52.card = Frame11
+        p52.items[#p52.items + 1] = {
+			kind = "section",
+			inst = Frame11,
+			q = string.lower(p53)
+		}
+
+        return Frame11
+    end
+
+    local function v264(p54, p55, p56, p57)
+        local v564 = p57 or (not u42 and 132 or 140)
+        local v565 = p54.card or p54.scroll
+        local v566 = not p56 and 36 or 46
+        if u42 then
+            v566 = not p56 and 44 or 54
+        end
+        local t76 = {
+			BackgroundColor3 = t3.card,
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, v566)
+		}
+        p54.n = p54.n + 1
+        t76.LayoutOrder = p54.n
+        t76.ZIndex = 14
+        local Frame14 = Instance.new("Frame")
+        if t76 then
+            for k, v in pairs(t76) do
+                Frame14[k] = v
+            end
+        end
+        if v565 then
+            Frame14.Parent = v565
+        end
+        local v571 = Frame14
+        local t77 = {
+			BackgroundColor3 = t3.line,
+			BorderSizePixel = 0,
+			Position = UDim2.new(0, 14, 0, 0),
+			Size = UDim2.new(1, -28, 0, 1),
+			Visible = p54.lastRule ~= nil,
+			ZIndex = 15
+		}
+        local Frame15 = Instance.new("Frame")
+        if t77 then
+            for k, v in pairs(t77) do
+                Frame15[k] = v
+            end
+        end
+        if v571 then
+            Frame15.Parent = v571
+        end
+        p54.lastRule = Frame15
+        if Frame15 then
+            Frame15:SetAttribute("th_bg", "line")
+
+            local line = t3.line
+
+            if line and Frame15:IsA("GuiObject") then
+                Frame15.BackgroundColor3 = line
+            end
+        end
+        if v571 then
+            v571:SetAttribute("th_bg", "card")
+
+            local card = t3.card
+
+            if card and v571:IsA("GuiObject") then
+                v571.BackgroundColor3 = card
+            end
+        end
+        v571:SetAttribute("th_hover", "lift")
+        v571:SetAttribute("th_row", true)
+        v571.MouseEnter:Connect(function()
+            v571:SetAttribute("th_over", true)
+            v81(v571, 0.1, {
+				BackgroundTransparency = 0,
+				BackgroundColor3 = t3.lift
+			})
+        end)
+        v571.MouseLeave:Connect(function()
+            v571:SetAttribute("th_over", false)
+            v81(v571, 0.1, {
+				BackgroundTransparency = 1,
+				BackgroundColor3 = t3.card
+			})
+        end)
+        local t78 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(12, not p56 and 10 or 6),
+			Size = UDim2.new(1, -(v564 + 20), 0, 14),
+			Font = t4.mid,
+			Text = p55,
+			TextColor3 = t3.text,
+			TextSize = 12,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			TextTruncate = Enum.TextTruncate.AtEnd,
+			ZIndex = 15
+		}
+        local TextLabel = Instance.new("TextLabel")
+        if t78 then
+            for k, v in pairs(t78) do
+                TextLabel[k] = v
+            end
+        end
+        if v571 then
+            TextLabel.Parent = v571
+        end
+        if TextLabel then
+            TextLabel:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if text then
+                TextLabel.TextColor3 = text
+            end
+        end
+        local TextLabel7
+        if p56 then
+            local t79 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(12, 22),
+				Size = UDim2.new(1, -(v564 + 20), 0, 20),
+				Font = t4.body,
+				Text = p56,
+				TextColor3 = t3.dim,
+				TextSize = 11,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextYAlignment = Enum.TextYAlignment.Top,
+				TextWrapped = true,
+				ZIndex = 15
+			}
+
+            TextLabel7 = Instance.new("TextLabel")
+
+            if t79 then
+                for k, v in pairs(t79) do
+                    TextLabel7[k] = v
+                end
+            end
+
+            if v571 then
+                TextLabel7.Parent = v571
+            end
+
+            if TextLabel7 then
+                TextLabel7:SetAttribute("th_text", "dim")
+
+                local dim = t3.dim
+
+                if dim then
+                    TextLabel7.TextColor3 = dim
+                end
+            end
+        end
+        local t80 = {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(1, -10, 0.5, 0),
+			Size = UDim2.fromOffset(v564, not u42 and 26 or 32),
+			ZIndex = 16
+		}
+        local Frame16 = Instance.new("Frame")
+        if t80 then
+            for k, v in pairs(t80) do
+                Frame16[k] = v
+            end
+        end
+        if v571 then
+            Frame16.Parent = v571
+        end
+        p54.items[#p54.items + 1] = {
+			kind = "row",
+			inst = v571,
+			q = string.lower(p55 .. " " .. (p56 or ""))
+		}
+
+        return v571, Frame16, TextLabel7
+    end
+
+    u265 = false
+    u266 = false
+
+    local t81 = {
+		ImportPaste = true,
+		Flight = true,
+		HopNearNight = true,
+		CfgSaveName = true,
+		PhoneUI = true
+	}
+
+    v268 = v51().gen or 1
+
+    local function v269(...)
+        warn("[Kira/cfg]", ...)
+    end
+
+    function v270()
+        for k, v in pairs(t10) do
+            if v and v.kind == "input" and v.box then
+                pcall(function()
+                    local boxText = v.box.Text
+
+                    if type(boxText) ~= "string" then
+                        return
+                    end
+
+                    if boxText ~= "" or t9[k] == nil or t9[k] == "" then
+                        t9[k] = boxText
+                    end
+                end)
+            end
+        end
+
+        local t82 = {}
+
+        for k, v in pairs(t9) do
+            if not t81[k] and (k ~= "HookUrl" or t9.ExportUrl) then
+                local v597 = type(v)
+
+                if v597 == "boolean" or v597 == "number" or v597 == "string" then
+                    t82[k] = v
+                elseif v597 == "table" then
+                    t82[k] = v
+                else
+                    local ok, result = pcall(function()
+                        return v.Name
+                    end)
+
+                    if ok and type(result) == "string" then
+                        t82[k] = result
+                    end
+                end
+            end
+        end
+
+        return t82
+    end
+
+    local function v271(p58, p59)
+        if type(p58) ~= "string" or p58 == "" then
+            return false
+        end
+
+        if type(makefolder) == "function" then
+            pcall(makefolder, "Kira")
+        end
+
+        local v602 = "Kira" .. "/" .. v26(t1.Game)
+
+        if type(makefolder) == "function" then
+            pcall(makefolder, v602)
+        end
+
+        local v603 = ("Kira" .. "/" .. v26(t1.Game)) .. "/cache"
+
+        if type(makefolder) == "function" then
+            pcall(makefolder, v603)
+        end
+
+        local v604 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+
+        if type(makefolder) == "function" then
+            pcall(makefolder, v604)
+        end
+
+        local v605 = p58:match("^(.*)/[^/]+$")
+
+        if v605 and type(makefolder) == "function" then
+            pcall(makefolder, v605)
+        end
+
+        local ok, result = pcall(writefile, p58, p59)
+
+        if not ok then
+            v269("write fail", p58, (tostring(result)))
+
+            return false
+        end
+
+        return true
+    end
+
+    function v272(p60)
+        if u265 and not p60 then
+            return
+        end
+
+        if not writefile then
+            v269("writefile missing")
+
+            return
+        end
+
+        local ok, result = pcall(function()
+            return HttpService:JSONEncode((v270()))
+        end)
+
+        if not ok or type(result) ~= "string" then
+            v269("encode fail", (tostring(result)))
+
+            return
+        end
+
+        if not v271((("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. v26(LocalPlayer and LocalPlayer.Name or "Player") .. "-config.json", result) then
+            v271((("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. str .. "-config.json", result)
+        end
+    end
+
+    local function v273(p61, p62)
+        local v614 = t10[p61]
+
+        if v614 and (v614.kind == "keybind" and type(p62) == "string") then
+            local ok, result = pcall(function()
+                return Enum.KeyCode[p62]
+            end)
+
+            if ok and result then
+                return result
+            end
+        end
+
+        if p61 == "Theme" and (p62 == "Dusk" or p62 == "dusk") then
+            return "Dark"
+        end
+
+        return p62
+    end
+
+    function v274(p63, p64)
+        if type(p63) ~= "table" then
+            return
+        end
+
+        u265 = true
+
+        local ok, result = pcall(function()
+            if p63.NeverTraps == true then
+                p63.AntiTrap = true
+            end
+
+            p63.NeverTraps = nil
+            p63.RarityZones = nil
+            p63.HopMinPlayers = nil
+            p63.HopMaxPlayers = nil
+            p63.AntiDie = nil
+
+            if p63.StealMode == "Rarity snipe" then
+                p63.StealMode = "Egg type filter"
+            end
+
+            for k, v in pairs(p63) do
+                if k ~= "ImportPaste" then
+                    local v1281 = v273(k, v)
+                    local v1282 = t10[k]
+
+                    if v1282 and v1282.set then
+                        pcall(v1282.set, v1281)
+
+                        if p64 and v1282.on and v1282.kind ~= "slider" and k ~= "Flight" and k ~= "CfgPreset" then
+                            pcall(v1282.on, t9[k])
+                        end
+                    else
+                        t9[k] = v1281
+                    end
+                end
+            end
+        end)
+
+        u265 = false
+
+        if not ok then
+            v269("apply fail", (tostring(result)))
+        end
+    end
+
+    local function v275(p65)
+        if type(p65) ~= "string" or p65 == "" or not readfile then
+            return
+        end
+
+        local ok, result = pcall(readfile, p65)
+
+        if ok and type(result) == "string" and result ~= "" then
+            local ok2, result2 = pcall(function()
+                return HttpService:JSONDecode(result)
+            end)
+
+            if ok2 and type(result2) == "table" then
+                return result2, p65
+            end
+        end
+    end
+    local function v276()
+        local t83 = { "default" }
+        local t84 = {
+			default = true
+		}
+
+        if type(listfiles) == "function" then
+            local ok, result = pcall(listfiles, ("Kira" .. "/" .. v26(t1.Game)) .. "/configs")
+
+            if ok and type(result) == "table" then
+                for i = 1, #result do
+                    local v631 = tostring(result[i] or ""):gsub("\\", "/"):match("([^/]+)%.json$")
+
+                    if v631 and not t84[v631] then
+                        t84[v631] = true
+                        t83[#t83 + 1] = v631
+                    end
+                end
+            end
+        elseif type(isfile) == "function" then
+            local v632 = tostring(t9.CfgPreset or ""):gsub("^%s+", ""):gsub("%s+$", "")
+            local v633 = if v632 ~= "" then v26(v632) else "default"
+
+            if v633 ~= "default" and not t84[v633] then
+                t83[#t83 + 1] = v633
+            end
+        end
+
+        table.sort(t83, function(p66, p67)
+            if p66 == "default" then
+                return true
+            end
+
+            if p67 == "default" then
+                return false
+            end
+
+            return p66 < p67
+        end)
+
+        return t83
+    end
+
+    function v277()
+        local CfgPreset = t10.CfgPreset
+
+        if not CfgPreset or not CfgPreset.options then
+            return
+        end
+
+        local v635 = v276()
+
+        for i = #CfgPreset.options, 1, -1 do
+            CfgPreset.options[i] = nil
+        end
+
+        for i = 1, #v635 do
+            CfgPreset.options[i] = v635[i]
+        end
+
+        local v638 = tostring(t9.CfgPreset or ""):gsub("^%s+", ""):gsub("%s+$", "")
+        local v639 = if v638 ~= "" then v26(v638) else "default"
+        local v640 = false
+
+        for i = 1, #v635 do
+            if v639 == v635[i] then
+                v640 = true
+
+                break
+            end
+        end
+
+        if not v640 then
+            v639 = "default"
+            t9.CfgPreset = v639
+        end
+
+        if CfgPreset.set then
+            pcall(CfgPreset.set, v639)
+
+            return
+        end
+
+        if CfgPreset.refresh then
+            pcall(CfgPreset.refresh)
+        end
+    end
+    function v278(p68)
+        local v643 = tostring(p68 or ""):gsub("^%s+", ""):gsub("%s+$", "")
+        local v644 = if v643 ~= "" then v26(v643) else "default"
+        local ok, result = pcall(function()
+            return HttpService:JSONEncode((v270()))
+        end)
+
+        if not ok or type(result) ~= "string" then
+            v269("named encode fail", (tostring(result)))
+
+            return false
+        end
+
+        local v647 = v271
+        local v648 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+        local v649 = tostring(v644 or ""):gsub("^%s+", ""):gsub("%s+$", "")
+
+        if not v647(v648 .. "/" .. ((if v649 ~= "" then v26(v649) else "default")) .. ".json", result) then
+            return false
+        end
+
+        t9.CfgPreset = v644
+        v277()
+        v269("saved named", v644)
+
+        return true
+    end
+    function v279(p69, p70)
+        local v652 = tostring(p69 or ""):gsub("^%s+", ""):gsub("%s+$", "")
+        local v653 = if v652 ~= "" then v26(v652) else "default"
+        local v654 = v275
+        local v655 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+        local v656 = tostring(v653 or ""):gsub("^%s+", ""):gsub("%s+$", "")
+        local v657, v658 = v654(v655 .. "/" .. ((if v656 ~= "" then v26(v656) else "default")) .. ".json")
+
+        if not v657 then
+            v269("no named config", v653)
+
+            return false
+        end
+
+        v274(v657, p70)
+        t9.Flight = false
+
+        if t10.Flight and t10.Flight.set then
+            pcall(t10.Flight.set, false)
+        end
+
+        t9.CfgPreset = v653
+        u71(t9.Theme or "Dark")
+
+        local num = tonumber(t9.UIScale)
+
+        if num then
+            v108.Scale = num / 100
+        end
+
+        v272(true)
+        v269("loaded named", v658)
+
+        return true
+    end
+    function v280(p71)
+        if not readfile then
+            v269("readfile missing")
+
+            return false
+        end
+
+        local v661, v662 = v275((("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. v26(LocalPlayer and LocalPlayer.Name or "Player") .. "-config.json")
+
+        if not v661 then
+            v661, v662 = v275((("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. str .. "-config.json")
+        end
+
+        if not v661 then
+            local v663 = v275
+            local v664 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+            local v665 = tostring("default" or ""):gsub("^%s+", ""):gsub("%s+$", "")
+
+            v661, v662 = v663(v664 .. "/" .. ((if v665 ~= "" then v26(v665) else "default")) .. ".json")
+        end
+
+        if not v661 then
+            local t85 = {
+				("Kira" .. "/" .. v26(t1.Game)) .. "/config.json",
+				"Kira" .. "/config.json",
+				"Kira" .. "/" .. t1.Game .. "/config.json",
+				("Kira" .. "/" .. v26(t1.Game)) .. "/Kira.json",
+				"Kira" .. "/Kira.json",
+				"Kira.json"
+			}
+
+            for i = 1, #t85 do
+                v661, v662 = v275(t85[i])
+
+                if v661 then
+                    break
+                end
+            end
+        end
+
+        if not v661 then
+            v277()
+
+            return false
+        end
+
+        v274(v661, p71)
+        t9.Flight = false
+
+        if t10.Flight and t10.Flight.set then
+            pcall(t10.Flight.set, false)
+        end
+
+        u71(t9.Theme or "Dark")
+
+        local num = tonumber(t9.UIScale)
+
+        if num then
+            v108.Scale = num / 100
+        end
+
+        if t9.StartMin then
+            u70(false)
+        end
+
+        for k, v in pairs(t10) do
+            if v and v.set and t9[k] ~= nil then
+                if v.kind == "toggle" then
+                    pcall(v.set, t9[k] == true)
+                elseif v.kind == "choice" or v.kind == "dropdown" or v.kind == "input" or v.kind == "slider" then
+                    pcall(v.set, t9[k])
+                end
+            end
+        end
+
+        if u66 then
+            u69(u66, v250.Text)
+        end
+
+        v277()
+
+        if v662 ~= (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/" .. v26(LocalPlayer and LocalPlayer.Name or "Player") .. "-config.json" then
+            v272(true)
+        end
+
+        v269("loaded", v662)
+
+        return true
+    end
+    function v281(p72, p73, p74, p75, p76, p77)
+        t9[p73] = not not p76
+
+        local v681 = (not p77 or not p77.options) and 132 or 214
+
+        if u42 then
+            v681 = (not p77 or not p77.options) and 148 or 220
+        end
+
+        local _, v683, v684 = v264(p72, p74, p75, v681)
+
+        if p77 and p77.options then
+            t9[p77.flag] = t9[p77.flag] or p77.options[1]
+
+            local t86 = {
+				AnchorPoint = Vector2.new(1, 0.5),
+				BackgroundColor3 = t3.fill,
+				Position = UDim2.new(1, -40, 0.5, 0),
+				Size = UDim2.fromOffset(72, 22),
+				Font = t4.mid,
+				Text = tostring(t9[p77.flag]) .. " ▾",
+				TextColor3 = t3.text,
+				TextSize = 10,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				AutoButtonColor = false,
+				ZIndex = 17
+			}
+            local TextButton = Instance.new("TextButton")
+
+            if t86 then
+                for k, v in pairs(t86) do
+                    TextButton[k] = v
+                end
+            end
+
+            if v683 then
+                TextButton.Parent = v683
+            end
+
+            local v689 = TextButton
+            local t87 = {
+				CornerRadius = UDim.new(0, 6)
+			}
+            local UICorner = Instance.new("UICorner")
+
+            if t87 then
+                for k, v in pairs(t87) do
+                    UICorner[k] = v
+                end
+            end
+
+            if v689 then
+                UICorner.Parent = v689
+            end
+
+            local s6 = "line"
+            local t88 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke5 = Instance.new("UIStroke")
+
+            if t88 then
+                for k, v in pairs(t88) do
+                    UIStroke5[k] = v
+                end
+            end
+
+            if v689 then
+                UIStroke5.Parent = v689
+            end
+
+            if s6 then
+                UIStroke5:SetAttribute("th_stroke", s6)
+            end
+
+            if v689 then
+                v689:SetAttribute("th_bg", "fill")
+
+                local fill = t3.fill
+
+                if fill and v689:IsA("GuiObject") then
+                    v689.BackgroundColor3 = fill
+                end
+            end
+
+            if v689 then
+                v689:SetAttribute("th_text", "text")
+
+                local text = t3.text
+
+                if text then
+                    v689.TextColor3 = text
+                end
+            end
+
+            v689.MouseButton1Click:Connect(function()
+                if u67 then
+                    u67(v689, p77.flag, p77.options)
+                end
+            end)
+            t10[p77.flag] = {
+				kind = "choice",
+				chip = v689,
+				set = function(p78)
+                t9[p77.flag] = p78
+                v689.Text = tostring(p78) .. " ▾"
+
+                if u265 then
+                    return
+                end
+
+                if u266 then
+                    return
+                end
+
+                u266 = true
+
+                local v1286 = v268
+
+                task.delay(0.35, function()
+                    u266 = false
+
+                    if v1286 ~= (v51().gen or 0) then
+                        return
+                    end
+
+                    v272()
+                end)
+            end
+			}
+        end
+
+        local t89 = {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundColor3 = t9[p73] and t3.accent or t3.fill,
+			Position = UDim2.new(1, 0, 0.5, 0),
+			Size = UDim2.fromOffset(not u42 and 34 or 42, not u42 and 18 or 24),
+			Text = "",
+			AutoButtonColor = false,
+			ZIndex = 17
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t89 then
+            for k, v in pairs(t89) do
+                TextButton[k] = v
+            end
+        end
+
+        if v683 then
+            TextButton.Parent = v683
+        end
+
+        local v705 = TextButton
+        local v706 = not u42 and 9 or 12
+        local t90 = {
+			CornerRadius = UDim.new(0, v706 or 8)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t90 then
+            for k, v in pairs(t90) do
+                UICorner[k] = v
+            end
+        end
+
+        if v705 then
+            UICorner.Parent = v705
+        end
+
+        local v711 = v83(v705, t9[p73] and t3.accent or t3.line, 1)
+        local v712 = u42 and UDim2.new(1, -20, 0.5, -8) or UDim2.new(1, -16, 0.5, -6)
+        local uDim2 = UDim2.fromOffset(2, 2)
+        local v714 = not u42 and 14 or 16
+        local t91 = {
+			BackgroundColor3 = t9[p73] and t3.ink or t3.text,
+			Position = t9[p73] and v712 or uDim2,
+			Size = UDim2.fromOffset(v714, v714),
+			ZIndex = 18
+		}
+        local Frame17 = Instance.new("Frame")
+
+        if t91 then
+            for k, v in pairs(t91) do
+                Frame17[k] = v
+            end
+        end
+
+        if v705 then
+            Frame17.Parent = v705
+        end
+
+        local v719 = Frame17
+        local v720 = not u42 and 7 or 8
+        local t92 = {
+			CornerRadius = UDim.new(0, v720 or 8)
+		}
+        local UICorner5 = Instance.new("UICorner")
+
+        if t92 then
+            for k, v in pairs(t92) do
+                UICorner5[k] = v
+            end
+        end
+
+        if v719 then
+            UICorner5.Parent = v719
+        end
+
+        local function v725(p79)
+            v81(v705, 0.16, {
+				BackgroundColor3 = p79 and t3.accent or t3.fill
+			}, Enum.EasingStyle.Quart)
+            v81(v719, 0.16, {
+				Position = p79 and v712 or uDim2,
+				BackgroundColor3 = p79 and t3.ink or t3.text
+			}, Enum.EasingStyle.Quart)
+            v81(v711, 0.16, {
+				Color = p79 and t3.accent or t3.line
+			})
+        end
+
+        v705.MouseButton1Click:Connect(function()
+            local v1288 = not t9[p73]
+
+            t9[p73] = v1288
+            v725(v1288)
+
+            if not u265 and not u266 then
+                u266 = true
+
+                local v1289 = v268
+
+                task.delay(0.35, function()
+                    u266 = false
+
+                    if v1289 ~= (v51().gen or 0) then
+                        return
+                    end
+
+                    v272()
+                end)
+            end
+
+            local v1290 = t10[p73]
+
+            task.defer(function()
+                if v1290 and v1290.on then
+                    pcall(v1290.on, v1288)
+                end
+            end)
+        end)
+        t10[p73] = {
+			kind = "toggle",
+			status = v684,
+			set = function(p80)
+            t9[p73] = not not p80
+            v725(t9[p73])
+        end
+		}
+    end
+    function v282(p81, p82, p83, p84, p85, p86, p87, p88)
+        t9[p82] = p87
+
+        local v734, v735, v736 = v264(p81, p83, p84)
+
+        v734.Size = UDim2.new(1, 0, 0, 72)
+        v735.Size = UDim2.fromOffset(148, 48)
+
+        local t93 = {
+			BackgroundColor3 = t3.fill,
+			Size = UDim2.new(1, 0, 0, 20),
+			Font = t4.mono,
+			Text = tostring(p87) .. (p88 or ""),
+			TextColor3 = t3.accent,
+			TextSize = 12,
+			ZIndex = 17
+		}
+        local TextLabel = Instance.new("TextLabel")
+
+        if t93 then
+            for k, v in pairs(t93) do
+                TextLabel[k] = v
+            end
+        end
+
+        if v735 then
+            TextLabel.Parent = v735
+        end
+
+        local v741 = TextLabel
+        local t94 = {
+			CornerRadius = UDim.new(0, 5)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t94 then
+            for k, v in pairs(t94) do
+                UICorner[k] = v
+            end
+        end
+
+        if v741 then
+            UICorner.Parent = v741
+        end
+
+        if v741 then
+            v741:SetAttribute("th_bg", "fill")
+
+            local fill = t3.fill
+
+            if fill and v741:IsA("GuiObject") then
+                v741.BackgroundColor3 = fill
+            end
+        end
+
+        if v741 then
+            v741:SetAttribute("th_text", "accent")
+
+            local accent = t3.accent
+
+            if accent then
+                v741.TextColor3 = accent
+            end
+        end
+
+        local t95 = {
+			BackgroundColor3 = t3.fill,
+			Position = UDim2.fromOffset(0, 32),
+			Size = UDim2.new(1, 0, 0, 10),
+			ZIndex = 17,
+			Active = true
+		}
+        local Frame18 = Instance.new("Frame")
+
+        if t95 then
+            for k, v in pairs(t95) do
+                Frame18[k] = v
+            end
+        end
+
+        if v735 then
+            Frame18.Parent = v735
+        end
+
+        local v752 = Frame18
+        local t96 = {
+			CornerRadius = UDim.new(0, 5)
+		}
+        local UICorner6 = Instance.new("UICorner")
+
+        if t96 then
+            for k, v in pairs(t96) do
+                UICorner6[k] = v
+            end
+        end
+
+        if v752 then
+            UICorner6.Parent = v752
+        end
+
+        local t97 = {
+			BackgroundColor3 = t3.accent,
+			Size = UDim2.new((p87 - p85) / math.max(p86 - p85, 1), 0, 1, 0),
+			ZIndex = 18
+		}
+        local Frame19 = Instance.new("Frame")
+
+        if t97 then
+            for k, v in pairs(t97) do
+                Frame19[k] = v
+            end
+        end
+
+        if v752 then
+            Frame19.Parent = v752
+        end
+
+        local v761 = Frame19
+        local t98 = {
+			CornerRadius = UDim.new(0, 5)
+		}
+        local UICorner7 = Instance.new("UICorner")
+
+        if t98 then
+            for k, v in pairs(t98) do
+                UICorner7[k] = v
+            end
+        end
+
+        if v761 then
+            UICorner7.Parent = v761
+        end
+
+        local t99 = {
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			BackgroundColor3 = t3.text,
+			Position = UDim2.new((p87 - p85) / math.max(p86 - p85, 1), 0, 0.5, 0),
+			Size = UDim2.fromOffset(18, 18),
+			ZIndex = 19
+		}
+        local Frame20 = Instance.new("Frame")
+
+        if t99 then
+            for k, v in pairs(t99) do
+                Frame20[k] = v
+            end
+        end
+
+        if v752 then
+            Frame20.Parent = v752
+        end
+
+        local v770 = Frame20
+        local t100 = {
+			CornerRadius = UDim.new(0, 9)
+		}
+        local UICorner8 = Instance.new("UICorner")
+
+        if t100 then
+            for k, v in pairs(t100) do
+                UICorner8[k] = v
+            end
+        end
+
+        if v770 then
+            UICorner8.Parent = v770
+        end
+
+        local s7 = "accentDeep"
+        local t101 = {
+			Color = t3.accentDeep or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke6 = Instance.new("UIStroke")
+
+        if t101 then
+            for k, v in pairs(t101) do
+                UIStroke6[k] = v
+            end
+        end
+
+        if v770 then
+            UIStroke6.Parent = v770
+        end
+
+        if s7 then
+            UIStroke6:SetAttribute("th_stroke", s7)
+        end
+
+        local t102 = {
+			BackgroundTransparency = 1,
+			Text = "",
+			AutoButtonColor = false,
+			Active = true,
+			Position = UDim2.fromOffset(0, 20),
+			Size = UDim2.new(1, 0, 0, 32),
+			ZIndex = 21
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t102 then
+            for k, v in pairs(t102) do
+                TextButton[k] = v
+            end
+        end
+
+        if v735 then
+            TextButton.Parent = v735
+        end
+
+        local function v784(p89)
+            local num = tonumber(p89)
+
+            if not num then
+                return
+            end
+
+            local v1294 = math.clamp(math.floor(num + 0.5), p85, p86)
+
+            t9[p82] = v1294
+
+            local v1295 = (v1294 - p85) / math.max(p86 - p85, 1)
+
+            v761.Size = UDim2.new(v1295, 0, 1, 0)
+            v770.Position = UDim2.new(v1295, 0, 0.5, 0)
+            v741.Text = tostring(v1294) .. (p88 or "")
+
+            if u265 then
+                return
+            end
+
+            local v1296 = t10[p82]
+
+            if v1296 and v1296.on then
+                pcall(v1296.on, v1294)
+            end
+
+            if u265 then
+                return
+            end
+
+            if u266 then
+                return
+            end
+
+            u266 = true
+
+            local v1297 = v268
+
+            task.delay(0.35, function()
+                u266 = false
+
+                if v1297 ~= (v51().gen or 0) then
+                    return
+                end
+
+                v272()
+            end)
+        end
+
+        local u785 = false
+
+        TextButton.InputBegan:Connect(function(input)
+            local UserInputType = input.UserInputType
+
+            if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+                u785 = true
+
+                if p81 and p81.scroll then
+                    p81.scroll.ScrollingEnabled = false
+                end
+
+                if v171 then
+                    v171.ScrollingEnabled = false
+                end
+
+                local PositionX = input.Position.X
+                local v1304 = math.clamp((PositionX - v752.AbsolutePosition.X) / math.max(v752.AbsoluteSize.X, 1), 0, 1)
+
+                v784(p85 + v1304 * (p86 - p85))
+            end
+        end)
+
+        local connection = UserInputService.InputChanged:Connect(function(input)
+            if u785 then
+                local UserInputType = input.UserInputType
+
+                if UserInputType == Enum.UserInputType.MouseMovement or UserInputType == Enum.UserInputType.Touch then
+                    local PositionX = input.Position.X
+                    local v1308 = math.clamp((PositionX - v752.AbsolutePosition.X) / math.max(v752.AbsoluteSize.X, 1), 0, 1)
+
+                    v784(p85 + v1308 * (p86 - p85))
+                end
+            end
+        end)
+
+        if connection then
+            t14[#t14 + 1] = connection
+        end
+
+        local connection2 = UserInputService.InputEnded:Connect(function(input)
+            if u785 then
+                local UserInputType = input.UserInputType
+
+                if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+                    u785 = false
+
+                    if p81 and p81.scroll then
+                        p81.scroll.ScrollingEnabled = true
+                    end
+
+                    if v171 then
+                        v171.ScrollingEnabled = true
+                    end
+                end
+            end
+        end)
+
+        if connection2 then
+            t14[#t14 + 1] = connection2
+        end
+
+        t10[p82] = {
+			kind = "slider",
+			status = v736,
+			set = v784
+		}
+    end
+
+    local v283 = v82("Frame", {
+		Name = "Drops",
+		BackgroundTransparency = 1,
+		Size = UDim2.fromScale(1, 1),
+		Visible = false,
+		ZIndex = 90
+	}, v98)
+
+    function u284()
+        v283:ClearAllChildren()
+        v283.Visible = false
+    end
+
+    v103.MouseButton1Click:Connect(function()
+        u284()
+        v103.Visible = false
+    end)
+
+    function u67(p90, p91, p92)
+        u284()
+        v103.Visible = true
+        v103.ZIndex = 85
+        v283.Visible = true
+
+        local AbsolutePosition = p90.AbsolutePosition
+        local AbsoluteSize = p90.AbsoluteSize
+        local t103 = {
+			BackgroundColor3 = t3.card,
+			Position = UDim2.fromOffset(AbsolutePosition.X, AbsolutePosition.Y + AbsoluteSize.Y + 6),
+			Size = UDim2.fromOffset(math.max(AbsoluteSize.X, 120), #p92 * 28 + 10),
+			ZIndex = 95
+		}
+        local v794 = v283
+        local Frame21 = Instance.new("Frame")
+
+        if t103 then
+            for k, v in pairs(t103) do
+                Frame21[k] = v
+            end
+        end
+
+        if v794 then
+            Frame21.Parent = v794
+        end
+
+        local t104 = {
+			CornerRadius = UDim.new(0, 10)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t104 then
+            for k, v in pairs(t104) do
+                UICorner[k] = v
+            end
+        end
+
+        if Frame21 then
+            UICorner.Parent = Frame21
+        end
+
+        local s8 = "line"
+        local t105 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke7 = Instance.new("UIStroke")
+
+        if t105 then
+            for k, v in pairs(t105) do
+                UIStroke7[k] = v
+            end
+        end
+
+        if Frame21 then
+            UIStroke7.Parent = Frame21
+        end
+
+        if s8 then
+            UIStroke7:SetAttribute("th_stroke", s8)
+        end
+
+        if Frame21 then
+            Frame21:SetAttribute("th_bg", "card")
+
+            local card = t3.card
+
+            if card and Frame21:IsA("GuiObject") then
+                Frame21.BackgroundColor3 = card
+            end
+        end
+
+        local t106 = {
+			Padding = UDim.new(0, 2),
+			SortOrder = Enum.SortOrder.LayoutOrder
+		}
+        local UIListLayout = Instance.new("UIListLayout")
+
+        if t106 then
+            for k, v in pairs(t106) do
+                UIListLayout[k] = v
+            end
+        end
+
+        if Frame21 then
+            UIListLayout.Parent = Frame21
+        end
+
+        v84(Frame21, 5, 5, 5, 5)
+
+        for i, v in ipairs(p92) do
+            local v814 = v == t9[p91]
+            local t107 = {
+				BackgroundColor3 = v814 and t3.lift or t3.card,
+				Size = UDim2.new(1, 0, 0, 24),
+				Font = t4.body,
+				Text = "  " .. v,
+				TextColor3 = v814 and t3.accent or t3.text,
+				TextSize = 12,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				AutoButtonColor = false,
+				LayoutOrder = i,
+				ZIndex = 97
+			}
+            local TextButton = Instance.new("TextButton")
+
+            if t107 then
+                for k, v8 in pairs(t107) do
+                    TextButton[k] = v8
+                end
+            end
+
+            if Frame21 then
+                TextButton.Parent = Frame21
+            end
+
+            local t108 = {
+				CornerRadius = UDim.new(0, 6)
+			}
+            local UICorner9 = Instance.new("UICorner")
+
+            if t108 then
+                for k, v9 in pairs(t108) do
+                    UICorner9[k] = v9
+                end
+            end
+
+            if TextButton then
+                UICorner9.Parent = TextButton
+            end
+
+            TextButton.MouseButton1Click:Connect(function()
+                t9[p91] = v
+
+                local v1311 = t10[p91]
+
+                if v1311 and v1311.set then
+                    v1311.set(v)
+                end
+
+                if v1311 and v1311.on then
+                    pcall(v1311.on, v)
+                end
+
+                u284()
+                v103.Visible = false
+
+                if u265 then
+                    return
+                end
+
+                if u266 then
+                    return
+                end
+
+                u266 = true
+
+                local v1312 = v268
+
+                task.delay(0.35, function()
+                    u266 = false
+
+                    if v1312 ~= (v51().gen or 0) then
+                        return
+                    end
+
+                    v272()
+                end)
+            end)
+        end
+    end
+
+    local function v285(p93, p94)
+        if type(p93) ~= "table" then
+            return "none"
+        end
+
+        local n4 = 0
+        local v826 = #p94
+        local t109 = {}
+
+        for _, v in ipairs(p93) do
+            t109[v] = true
+        end
+
+        for _, v in ipairs(p94) do
+            if t109[v] then
+                n4 += 1
+            end
+        end
+
+        if n4 == 0 then
+            return "none"
+        end
+
+        if n4 == v826 then
+            return "all · " .. v826
+        end
+
+        return n4 .. " / " .. v826
+    end
+    local function v286(p95, p96)
+        local t110 = {
+			BackgroundColor3 = t3.fill,
+			Size = UDim2.new(1, 0, 0, 24),
+			Font = t4.mid,
+			Text = p96,
+			TextColor3 = t3.text,
+			TextSize = 11,
+			TextTruncate = Enum.TextTruncate.AtEnd,
+			AutoButtonColor = false,
+			ZIndex = 17
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t110 then
+            for k, v in pairs(t110) do
+                TextButton[k] = v
+            end
+        end
+
+        if p95 then
+            TextButton.Parent = p95
+        end
+
+        local t111 = {
+			CornerRadius = UDim.new(0, 7)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t111 then
+            for k, v in pairs(t111) do
+                UICorner[k] = v
+            end
+        end
+
+        if TextButton then
+            UICorner.Parent = TextButton
+        end
+
+        local s9 = "line"
+        local t112 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke8 = Instance.new("UIStroke")
+
+        if t112 then
+            for k, v in pairs(t112) do
+                UIStroke8[k] = v
+            end
+        end
+
+        if TextButton then
+            UIStroke8.Parent = TextButton
+        end
+
+        if s9 then
+            UIStroke8:SetAttribute("th_stroke", s9)
+        end
+
+        v85(TextButton, "fill", "lift")
+
+        if TextButton then
+            TextButton:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if not text then
+                return TextButton
+            end
+
+            TextButton.TextColor3 = text
+        end
+
+        return TextButton
+    end
+
+    function v287(p97, p98, p99, p100, p101, p102, p103)
+        if p103 then
+            t9[p98] = p102 or { unpack(p101) }
+        else
+            t9[p98] = p102 or p101[1]
+        end
+
+        local _, v856, v857 = v264(p97, p99, p100)
+        local v858 = v286(v856, p103 and v285(t9[p98], p101) or tostring(t9[p98]))
+        local t113 = {
+			AnchorPoint = Vector2.new(1, 0.5),
+			BackgroundTransparency = 1,
+			Position = UDim2.new(1, -6, 0.5, 0),
+			Size = UDim2.fromOffset(12, 12),
+			Font = t4.mid,
+			Text = "▾",
+			TextColor3 = t3.mute,
+			TextSize = 11,
+			ZIndex = 18
+		}
+        local TextLabel = Instance.new("TextLabel")
+
+        if t113 then
+            for k, v in pairs(t113) do
+                TextLabel[k] = v
+            end
+        end
+
+        if v858 then
+            TextLabel.Parent = v858
+        end
+
+        v858.Text = (p103 and v285(t9[p98], p101) or tostring(t9[p98])) .. "   "
+        v858.MouseButton1Click:Connect(function()
+            u284()
+            v103.Visible = true
+            v103.ZIndex = 85
+            v283.Visible = true
+
+            local AbsolutePosition = v858.AbsolutePosition
+            local AbsoluteSize = v858.AbsoluteSize
+            local v1315 = math.min(7, #p101) * 28 + 10
+            local t114 = {
+				BackgroundColor3 = t3.card,
+				Position = UDim2.fromOffset(AbsolutePosition.X, AbsolutePosition.Y + AbsoluteSize.Y + 6),
+				Size = UDim2.fromOffset(math.max(AbsoluteSize.X, 180), v1315),
+				ZIndex = 95
+			}
+            local v1317 = v283
+            local Frame22 = Instance.new("Frame")
+
+            if t114 then
+                for k, v in pairs(t114) do
+                    Frame22[k] = v
+                end
+            end
+
+            if v1317 then
+                Frame22.Parent = v1317
+            end
+
+            local t115 = {
+				CornerRadius = UDim.new(0, 10)
+			}
+            local UICorner = Instance.new("UICorner")
+
+            if t115 then
+                for k, v in pairs(t115) do
+                    UICorner[k] = v
+                end
+            end
+
+            if Frame22 then
+                UICorner.Parent = Frame22
+            end
+
+            local s10 = "accentDeep"
+            local t116 = {
+				Color = t3.accentDeep or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke9 = Instance.new("UIStroke")
+
+            if t116 then
+                for k, v in pairs(t116) do
+                    UIStroke9[k] = v
+                end
+            end
+
+            if Frame22 then
+                UIStroke9.Parent = Frame22
+            end
+
+            if s10 then
+                UIStroke9:SetAttribute("th_stroke", s10)
+            end
+
+            local t117 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 1, 0),
+				CanvasSize = UDim2.new(0, 0, 0, #p101 * 28),
+				ScrollBarThickness = 3,
+				BorderSizePixel = 0,
+				ZIndex = 96
+			}
+            local ScrollingFrame = Instance.new("ScrollingFrame")
+
+            if t117 then
+                for k, v in pairs(t117) do
+                    ScrollingFrame[k] = v
+                end
+            end
+
+            if Frame22 then
+                ScrollingFrame.Parent = Frame22
+            end
+
+            v84(ScrollingFrame, 5, 5, 5, 5)
+
+            local t118 = {
+				Padding = UDim.new(0, 2),
+				SortOrder = Enum.SortOrder.LayoutOrder
+			}
+            local UIListLayout = Instance.new("UIListLayout")
+
+            if t118 then
+                for k, v in pairs(t118) do
+                    UIListLayout[k] = v
+                end
+            end
+
+            if ScrollingFrame then
+                UIListLayout.Parent = ScrollingFrame
+            end
+
+            local t119 = {}
+
+            if p103 and type(t9[p98]) == "table" then
+                for _, v in ipairs(t9[p98]) do
+                    t119[v] = true
+                end
+            end
+
+            for i, v in ipairs(p101) do
+                local v1343 = p103 and t119[v] or v == t9[p98]
+                local t120 = {
+					BackgroundColor3 = v1343 and t3.lift or t3.card,
+					Size = UDim2.new(1, 0, 0, 26),
+					Font = t4.body,
+					Text = "   " .. v,
+					TextColor3 = v1343 and t3.accent or t3.text,
+					TextSize = 12,
+					TextXAlignment = Enum.TextXAlignment.Left,
+					AutoButtonColor = false,
+					LayoutOrder = i,
+					ZIndex = 97
+				}
+                local TextButton = Instance.new("TextButton")
+
+                if t120 then
+                    for k, v10 in pairs(t120) do
+                        TextButton[k] = v10
+                    end
+                end
+
+                if ScrollingFrame then
+                    TextButton.Parent = ScrollingFrame
+                end
+
+                local v1348 = TextButton
+                local t121 = {
+					CornerRadius = UDim.new(0, 6)
+				}
+                local UICorner10 = Instance.new("UICorner")
+
+                if t121 then
+                    for k, v11 in pairs(t121) do
+                        UICorner10[k] = v11
+                    end
+                end
+
+                if v1348 then
+                    UICorner10.Parent = v1348
+                end
+
+                v85(v1348, v1343 and t3.lift or t3.card, t3.fill)
+                v1348.MouseButton1Click:Connect(function()
+                    if p103 then
+                        local t122 = {}
+
+                        t119[v] = not t119[v]
+
+                        for _, v13 in ipairs(p101) do
+                            if t119[v13] then
+                                t122[#t122 + 1] = v13
+                            end
+                        end
+
+                        t9[p98] = t122
+
+                        local v2687 = t119[v]
+
+                        v1348.BackgroundColor3 = v2687 and t3.lift or t3.card
+                        v1348.TextColor3 = v2687 and t3.accent or t3.text
+                        v1348:SetAttribute("locked", false)
+                        v858.Text = (p103 and v285(t9[p98], p101) or tostring(t9[p98])) .. "   "
+
+                        local v2688 = t10[p98]
+
+                        if v2688 and v2688.on then
+                            pcall(v2688.on, t122)
+                        end
+
+                        if u265 then
+                            return
+                        end
+
+                        if u266 then
+                            return
+                        end
+
+                        u266 = true
+
+                        local v2689 = v268
+
+                        task.delay(0.35, function()
+                            u266 = false
+
+                            if v2689 ~= (v51().gen or 0) then
+                                return
+                            end
+
+                            v272()
+                        end)
+
+                        return
+                    end
+
+                    t9[p98] = v
+
+                    local v2690 = t10[p98]
+
+                    if v2690 and v2690.on then
+                        pcall(v2690.on, v)
+                    end
+
+                    u284()
+                    v103.Visible = false
+                    v858.Text = (p103 and v285(t9[p98], p101) or tostring(t9[p98])) .. "   "
+
+                    if u265 then
+                        return
+                    end
+
+                    if u266 then
+                        return
+                    end
+
+                    u266 = true
+
+                    local v2691 = v268
+
+                    task.delay(0.35, function()
+                        u266 = false
+
+                        if v2691 ~= (v51().gen or 0) then
+                            return
+                        end
+
+                        v272()
+                    end)
+                end)
+            end
+        end)
+        t10[p98] = {
+			kind = "dropdown",
+			status = v857,
+			options = p101,
+			refresh = function()
+            v858.Text = (p103 and v285(t9[p98], p101) or tostring(t9[p98])) .. "   "
+        end,
+			set = function(p104)
+            t9[p98] = p104
+            v858.Text = (p103 and v285(t9[p98], p101) or tostring(t9[p98])) .. "   "
+        end
+		}
+    end
+    function v288(p105, p106, p107, p108, p109, p110, p111)
+        t9[p106] = p110 or ""
+
+        local _, v871, v872 = v264(p105, p107, p108)
+        local t123 = {
+			BackgroundColor3 = t3.fill,
+			Size = UDim2.new(1, 0, 0, 24),
+			Font = t4.mono,
+			Text = t9[p106],
+			PlaceholderText = p109 or "",
+			PlaceholderColor3 = t3.mute,
+			TextColor3 = t3.text,
+			TextSize = 11,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ClearTextOnFocus = false,
+			ZIndex = 17
+		}
+        local TextBox2 = Instance.new("TextBox")
+
+        if t123 then
+            for k, v in pairs(t123) do
+                TextBox2[k] = v
+            end
+        end
+
+        if v871 then
+            TextBox2.Parent = v871
+        end
+
+        local v877 = TextBox2
+        local t124 = {
+			CornerRadius = UDim.new(0, 7)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t124 then
+            for k, v in pairs(t124) do
+                UICorner[k] = v
+            end
+        end
+
+        if v877 then
+            UICorner.Parent = v877
+        end
+
+        if v877 then
+            v877:SetAttribute("th_bg", "fill")
+
+            local fill = t3.fill
+
+            if fill and v877:IsA("GuiObject") then
+                v877.BackgroundColor3 = fill
+            end
+        end
+
+        if v877 then
+            v877:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if text then
+                v877.TextColor3 = text
+            end
+        end
+
+        if v877 then
+            v877:SetAttribute("th_placeholder", "mute")
+
+            local mute = t3.mute
+
+            if mute and v877:IsA("TextBox") then
+                v877.PlaceholderColor3 = mute
+            end
+        end
+
+        local s11 = "line"
+        local t125 = {
+			Color = t3.line or t3.line,
+			Thickness = 1,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}
+        local UIStroke10 = Instance.new("UIStroke")
+
+        if t125 then
+            for k, v in pairs(t125) do
+                UIStroke10[k] = v
+            end
+        end
+
+        if v877 then
+            UIStroke10.Parent = v877
+        end
+
+        if s11 then
+            UIStroke10:SetAttribute("th_stroke", s11)
+        end
+
+        local v890 = UIStroke10
+
+        v84(v877, 8, 0, 8, 0)
+        v877.Focused:Connect(function()
+            v81(v890, 0.12, {
+				Color = t3.accent
+			})
+        end)
+        v877.FocusLost:Connect(function()
+            v81(v890, 0.12, {
+				Color = t3.line
+			})
+            t9[p106] = v877.Text
+
+            local v1354 = t10[p106]
+
+            if v1354 and v1354.on then
+                pcall(v1354.on, v877.Text)
+            end
+
+            if u265 then
+                return
+            end
+
+            if u266 then
+                return
+            end
+
+            u266 = true
+
+            local v1355 = v268
+
+            task.delay(0.35, function()
+                u266 = false
+
+                if v1355 ~= (v51().gen or 0) then
+                    return
+                end
+
+                v272()
+            end)
+        end)
+        v877:GetPropertyChangedSignal("Text"):Connect(function()
+            t9[p106] = v877.Text
+
+            if u265 then
+                return
+            end
+
+            if u266 then
+                return
+            end
+
+            u266 = true
+
+            local v1356 = v268
+
+            task.delay(0.35, function()
+                u266 = false
+
+                if v1356 ~= (v51().gen or 0) then
+                    return
+                end
+
+                v272()
+            end)
+        end)
+        t10[p106] = {
+			kind = "input",
+			status = v872,
+			box = v877,
+			set = function(p112)
+            t9[p106] = p112
+            v877.Text = tostring(p112)
+        end
+		}
+
+        local v891 = p105.items[#p105.items]
+
+        if p111 and p111.visibleIf and v891 then
+            v891.visibleIf = p111.visibleIf
+        end
+    end
+    function v289(p113, p114, p115, p116, p117, p118, p119)
+        local _, v900, v901 = v264(p113, p115, p116)
+        local t126 = {
+			Size = UDim2.new(1, 0, 0, 24),
+			Font = t4.mid,
+			Text = p117,
+			TextSize = 11,
+			AutoButtonColor = false,
+			ZIndex = 17
+		}
+        local TextButton = Instance.new("TextButton")
+
+        if t126 then
+            for k, v in pairs(t126) do
+                TextButton[k] = v
+            end
+        end
+
+        if v900 then
+            TextButton.Parent = v900
+        end
+
+        local t127 = {
+			CornerRadius = UDim.new(0, 7)
+		}
+        local UICorner = Instance.new("UICorner")
+
+        if t127 then
+            for k, v in pairs(t127) do
+                UICorner[k] = v
+            end
+        end
+
+        if TextButton then
+            UICorner.Parent = TextButton
+        end
+
+        if not p119 then
+            local s12 = "line"
+            local t128 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke11 = Instance.new("UIStroke")
+
+            if t128 then
+                for k, v in pairs(t128) do
+                    UIStroke11[k] = v
+                end
+            end
+
+            if TextButton then
+                UIStroke11.Parent = TextButton
+            end
+
+            if s12 then
+                UIStroke11:SetAttribute("th_stroke", s12)
+            end
+        end
+
+        v85(TextButton, not p119 and "fill" or "accent", not p119 and "lift" or "accentHover")
+
+        local v915 = not p119 and "text" or "ink"
+
+        if TextButton and v915 then
+            TextButton:SetAttribute("th_text", v915)
+
+            local v916 = t3[v915]
+
+            if v916 then
+                TextButton.TextColor3 = v916
+            end
+        end
+
+        t10[p114] = {
+			kind = "button",
+			status = v901,
+			btn = TextButton
+		}
+        TextButton.MouseButton1Click:Connect(function()
+            if p118 then
+                pcall(p118)
+            end
+
+            local v1358 = t10[p114]
+
+            if v1358 and v1358.on then
+                pcall(v1358.on)
+            end
+        end)
+    end
+    function v290(p120, p121, p122, p123, p124)
+        t9[p121] = p124
+
+        local _, v923, v924 = v264(p120, p122, p123)
+        local u925 = false
+        local v926 = v286(v923, p124.Name)
+
+        v926.Font = t4.mono
+        v926.MouseButton1Click:Connect(function()
+            u925 = true
+            v926.Text = "press"
+            v926.TextColor3 = t3.accent
+        end)
+
+        local connection = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+            if not u925 then
+                return
+            end
+
+            if input.UserInputType ~= Enum.UserInputType.Keyboard then
+                return
+            end
+
+            if gameProcessed then
+                return
+            end
+
+            u925 = false
+            t9[p121] = input.KeyCode
+            v926.Text = input.KeyCode.Name
+            v926.TextColor3 = t3.text
+
+            local v1361 = t10[p121]
+
+            if v1361 and v1361.on then
+                pcall(v1361.on, input.KeyCode)
+            end
+
+            if u265 then
+                return
+            end
+
+            if u266 then
+                return
+            end
+
+            u266 = true
+
+            local v1362 = v268
+
+            task.delay(0.35, function()
+                u266 = false
+
+                if v1362 ~= (v51().gen or 0) then
+                    return
+                end
+
+                v272()
+            end)
+        end)
+
+        if connection then
+            t14[#t14 + 1] = connection
+        end
+
+        t10[p121] = {
+			kind = "keybind",
+			status = v924,
+			set = function(p125)
+            if type(p125) == "string" then
+                local ok, result = pcall(function()
+                    return Enum.KeyCode[p125]
+                end)
+
+                if ok then
+                    p125 = result
+                end
+            end
+
+            t9[p121] = p125
+
+            local ok, result = pcall(function()
+                return p125.Name
+            end)
+
+            v926.Text = ok and result or tostring(p125)
+        end
+		}
+    end
+    function v291(p126)
+        return type(p126) == "string" and p126:match("%S") ~= nil
+    end
+    function v292()
+        local Discord = t1.Discord
+
+        if type(Discord) ~= "string" or Discord:match("%S") == nil then
+            return
+        end
+
+        if Discord:find("discord%.", 1) or Discord:find("http", 1, true) then
+            return Discord
+        end
+
+        return "discord.gg/" .. Discord
+    end
+    function v293(p127, p128, p129)
+        local v997 = p127.card or p127.scroll
+        local t129 = {
+			AutomaticSize = Enum.AutomaticSize.Y,
+			BackgroundColor3 = t3.card,
+			BackgroundTransparency = 1,
+			Size = UDim2.new(1, 0, 0, 0)
+		}
+
+        p127.n = p127.n + 1
+        t129.LayoutOrder = p127.n
+        t129.ZIndex = 14
+
+        local Frame23 = Instance.new("Frame")
+
+        if t129 then
+            for k, v in pairs(t129) do
+                Frame23[k] = v
+            end
+        end
+
+        if v997 then
+            Frame23.Parent = v997
+        end
+
+        local v1002 = Frame23
+        local t130 = {
+			BackgroundColor3 = t3.line,
+			BorderSizePixel = 0,
+			Position = UDim2.new(0, 14, 0, 0),
+			Size = UDim2.new(1, -28, 0, 1),
+			Visible = p127.lastRule ~= nil,
+			ZIndex = 15
+		}
+        local Frame24 = Instance.new("Frame")
+
+        if t130 then
+            for k, v in pairs(t130) do
+                Frame24[k] = v
+            end
+        end
+
+        if v1002 then
+            Frame24.Parent = v1002
+        end
+
+        p127.lastRule = Frame24
+
+        if Frame24 then
+            Frame24:SetAttribute("th_bg", "line")
+
+            local line = t3.line
+
+            if line and Frame24:IsA("GuiObject") then
+                Frame24.BackgroundColor3 = line
+            end
+        end
+
+        if v1002 then
+            v1002:SetAttribute("th_bg", "card")
+
+            local card = t3.card
+
+            if card and v1002:IsA("GuiObject") then
+                v1002.BackgroundColor3 = card
+            end
+        end
+
+        v1002:SetAttribute("th_hover", "lift")
+        v1002:SetAttribute("th_row", true)
+        v1002.MouseEnter:Connect(function()
+            v1002:SetAttribute("th_over", true)
+            v81(v1002, 0.1, {
+				BackgroundTransparency = 0,
+				BackgroundColor3 = t3.lift
+			})
+        end)
+        v1002.MouseLeave:Connect(function()
+            v1002:SetAttribute("th_over", false)
+            v81(v1002, 0.1, {
+				BackgroundTransparency = 1,
+				BackgroundColor3 = t3.card
+			})
+        end)
+
+        local t131 = {
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(14, 8),
+			Size = UDim2.new(1, -28, 0, 14),
+			Font = t4.mid,
+			Text = p128,
+			TextColor3 = t3.text,
+			TextSize = 12,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 15
+		}
+        local TextLabel = Instance.new("TextLabel")
+
+        if t131 then
+            for k, v in pairs(t131) do
+                TextLabel[k] = v
+            end
+        end
+
+        if v1002 then
+            TextLabel.Parent = v1002
+        end
+
+        if TextLabel then
+            TextLabel:SetAttribute("th_text", "text")
+
+            local text = t3.text
+
+            if text then
+                TextLabel.TextColor3 = text
+            end
+        end
+
+        local t132 = {
+			AutomaticSize = Enum.AutomaticSize.Y,
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(14, 24),
+			Size = UDim2.new(1, -28, 0, 0),
+			Font = t4.body,
+			Text = p129,
+			TextColor3 = t3.dim,
+			TextSize = 11,
+			TextWrapped = true,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			ZIndex = 15
+		}
+        local TextLabel8 = Instance.new("TextLabel")
+
+        if t132 then
+            for k, v in pairs(t132) do
+                TextLabel8[k] = v
+            end
+        end
+
+        if v1002 then
+            TextLabel8.Parent = v1002
+        end
+
+        if TextLabel8 then
+            TextLabel8:SetAttribute("th_text", "dim")
+
+            local dim = t3.dim
+
+            if dim then
+                TextLabel8.TextColor3 = dim
+            end
+        end
+
+        local t133 = {
+			PaddingBottom = UDim.new(0, 10)
+		}
+        local UIPadding = Instance.new("UIPadding")
+
+        if t133 then
+            for k, v in pairs(t133) do
+                UIPadding[k] = v
+            end
+        end
+
+        if v1002 then
+            UIPadding.Parent = v1002
+        end
+
+        p127.items[#p127.items + 1] = {
+			kind = "row",
+			inst = v1002,
+			q = string.lower(p128 .. " " .. p129)
+		}
+    end
+end
+local v294 = v259("About", "Kira Hub for Steal an Egg")
+local v295 = v259("Auto Steal", "targeting, filters, travel")
+local v296 = v259("Plot", "eggs, pets, upgrades, selling")
+local v297 = v259("Serverhop", "fill a reason, then turn Auto hop on")
+local v298 = v259("Misc", "esp, defence, flight")
+local v299 = v259("Webhook", "outbound messages")
+local v300 = v259("Settings", "window and config")
+v261("About", { "About" }, 0)
+v261("Autofarm", { "Auto Steal" }, 10)
+v261("Other stuff", {
+	"Plot",
+	"Serverhop",
+	"Misc"
+}, 30)
+v261("Config", {
+	"Webhook",
+	"Settings"
+}, 50);
+(function(p130)
+    local t134 = {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		Size = UDim2.new(1, 0, 0, 0),
+		BackgroundColor3 = t3.card,
+		BorderSizePixel = 0
+	}
+
+    p130.n = p130.n + 1
+    t134.LayoutOrder = p130.n
+    t134.ZIndex = 13
+
+    local scroll = p130.scroll
+    local Frame = Instance.new("Frame")
+
+    if t134 then
+        for k, v in pairs(t134) do
+            Frame[k] = v
+        end
+    end
+
+    if scroll then
+        Frame.Parent = scroll
+    end
+
+    local t135 = {
+		CornerRadius = UDim.new(0, 8)
+	}
+    local UICorner = Instance.new("UICorner")
+
+    if t135 then
+        for k, v in pairs(t135) do
+            UICorner[k] = v
+        end
+    end
+
+    if Frame then
+        UICorner.Parent = Frame
+    end
+
+    local s13 = "line"
+    local t136 = {
+		Color = t3.line or t3.line,
+		Thickness = 1,
+		ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+	}
+    local UIStroke = Instance.new("UIStroke")
+
+    if t136 then
+        for k, v in pairs(t136) do
+            UIStroke[k] = v
+        end
+    end
+
+    if Frame then
+        UIStroke.Parent = Frame
+    end
+
+    if s13 then
+        UIStroke:SetAttribute("th_stroke", s13)
+    end
+
+    if Frame then
+        Frame:SetAttribute("th_bg", "card")
+
+        local card = t3.card
+
+        if card and Frame:IsA("GuiObject") then
+            Frame.BackgroundColor3 = card
+        end
+    end
+
+    v84(Frame, 14, 14, 14, 14)
+
+    local t137 = {
+		FillDirection = Enum.FillDirection.Vertical,
+		Padding = UDim.new(0, 10),
+		SortOrder = Enum.SortOrder.LayoutOrder
+	}
+    local UIListLayout = Instance.new("UIListLayout")
+
+    if t137 then
+        for k, v in pairs(t137) do
+            UIListLayout[k] = v
+        end
+    end
+
+    if Frame then
+        UIListLayout.Parent = Frame
+    end
+
+    local t138 = {
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 48),
+		LayoutOrder = 1,
+		ZIndex = 14
+	}
+    local Frame25 = Instance.new("Frame")
+
+    if t138 then
+        for k, v in pairs(t138) do
+            Frame25[k] = v
+        end
+    end
+
+    if Frame then
+        Frame25.Parent = Frame
+    end
+
+    v87(Frame25, 15, 44).Position = UDim2.fromOffset(0, 2)
+
+    local t139 = {
+		BackgroundTransparency = 1,
+		Position = UDim2.fromOffset(54, 2),
+		Size = UDim2.new(1, -54, 0, 20),
+		Font = t4.title,
+		Text = t1.Title .. " " .. t1.Product,
+		TextColor3 = t3.text,
+		TextSize = 18,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		TextTruncate = Enum.TextTruncate.AtEnd,
+		ZIndex = 15
+	}
+    local TextLabel = Instance.new("TextLabel")
+
+    if t139 then
+        for k, v in pairs(t139) do
+            TextLabel[k] = v
+        end
+    end
+
+    if Frame25 then
+        TextLabel.Parent = Frame25
+    end
+
+    if TextLabel then
+        TextLabel:SetAttribute("th_text", "text")
+
+        local text = t3.text
+
+        if text then
+            TextLabel.TextColor3 = text
+        end
+    end
+
+    local t140 = {
+		BackgroundTransparency = 1,
+		Position = UDim2.fromOffset(54, 26),
+		Size = UDim2.new(1, -54, 0, 20),
+		ZIndex = 15
+	}
+    local Frame26 = Instance.new("Frame")
+
+    if t140 then
+        for k, v in pairs(t140) do
+            Frame26[k] = v
+        end
+    end
+
+    if Frame25 then
+        Frame26.Parent = Frame25
+    end
+
+    local v979 = Frame26
+    local t141 = {
+		FillDirection = Enum.FillDirection.Horizontal,
+		Padding = UDim.new(0, 6),
+		SortOrder = Enum.SortOrder.LayoutOrder,
+		VerticalAlignment = Enum.VerticalAlignment.Center
+	}
+    local UIListLayout2 = Instance.new("UIListLayout")
+
+    if t141 then
+        for k, v in pairs(t141) do
+            UIListLayout2[k] = v
+        end
+    end
+
+    if v979 then
+        UIListLayout2.Parent = v979
+    end
+
+    local function v984(p131, p132, p133)
+        local t142 = {
+			AutomaticSize = Enum.AutomaticSize.X,
+			BackgroundColor3 = t3.fill,
+			Size = UDim2.fromOffset(0, 18),
+			Font = t4.mono,
+			Text = "  " .. p131 .. "  ",
+			TextColor3 = t3[p133] or t3.dim,
+			TextSize = 10,
+			LayoutOrder = p132,
+			ZIndex = 16
+		}
+        local v1373 = v979
+        local TextLabel9 = Instance.new("TextLabel")
+
+        if t142 then
+            for k, v in pairs(t142) do
+                TextLabel9[k] = v
+            end
+        end
+
+        if v1373 then
+            TextLabel9.Parent = v1373
+        end
+
+        local t143 = {
+			CornerRadius = UDim.new(0, 5)
+		}
+        local UICorner11 = Instance.new("UICorner")
+
+        if t143 then
+            for k, v in pairs(t143) do
+                UICorner11[k] = v
+            end
+        end
+
+        if TextLabel9 then
+            UICorner11.Parent = TextLabel9
+        end
+
+        if TextLabel9 then
+            TextLabel9:SetAttribute("th_bg", "fill")
+
+            local fill = t3.fill
+
+            if fill and TextLabel9:IsA("GuiObject") then
+                TextLabel9.BackgroundColor3 = fill
+            end
+        end
+
+        local v1382 = p133 or "dim"
+
+        if TextLabel9 then
+            if not v1382 then
+                return TextLabel9
+            end
+
+            TextLabel9:SetAttribute("th_text", v1382)
+
+            local v1383 = t3[v1382]
+
+            if not v1383 then
+                return TextLabel9
+            end
+
+            TextLabel9.TextColor3 = v1383
+        end
+
+        return TextLabel9
+    end
+
+    v984("v" .. tostring(t1.Version), 1, "accent")
+
+    local Status = t1.Status
+
+    if type(Status) == "string" and Status:match("%S") ~= nil then
+        v984(t1.Status, 2, "dim")
+    end
+
+    local Game = t1.Game
+
+    if type(Game) == "string" and Game:match("%S") ~= nil then
+        v984(t1.Game, 3, "dim")
+    end
+
+    local Tagline = t1.Tagline
+    local v988 = type(Tagline) == "string" and Tagline:match("%S") ~= nil and t1.Tagline or "Autofarm, hatch eggs and other stuff"
+    local t144 = {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0),
+		Font = t4.body,
+		Text = v988,
+		TextColor3 = t3.dim,
+		TextSize = 12,
+		TextWrapped = true,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		LayoutOrder = 2,
+		ZIndex = 15
+	}
+    local TextLabel10 = Instance.new("TextLabel")
+
+    if t144 then
+        for k, v in pairs(t144) do
+            TextLabel10[k] = v
+        end
+    end
+
+    if Frame then
+        TextLabel10.Parent = Frame
+    end
+
+    if TextLabel10 then
+        TextLabel10:SetAttribute("th_text", "dim")
+
+        local dim = t3.dim
+
+        if dim then
+            TextLabel10.TextColor3 = dim
+        end
+    end
+
+    p130.items[#p130.items + 1] = {
+		kind = "section",
+		inst = Frame,
+		q = string.lower(TextLabel.Text .. " " .. v988)
+	}
+    p130.card = nil
+    p130.lastRule = nil
+
+    return Frame
+end)(v294)
+v263(v294, "Features")
+v293(v294, "Auto Steal", "Snatch eggs and bring them to safe zone")
+v293(v294, "Plot", "Place, hatch eggs, auto sell")
+v293(v294, "Serverhop", "Idle, time, or night spawn — Auto hop only leaves if one of those boxes has a number")
+v293(v294, "Misc", "ESP, stats, index claim, anti trap / ragdoll, bat aura, flight, bypass speed, optimizer")
+v293(v294, "Webhook", "Discord embeds with the pet/egg icon on steal, hatch, and sell")
+local v301 = v292()
+local v302 = v291(t1.Website)
+local v303 = v291(t1.Changelog)
+if v301 or v302 or v303 then
+    v263(v294, "Links")
+
+    if v301 then
+        v289(v294, "CopyDiscord", "Discord", v301, "Copy", function()
+            if setclipboard then
+                pcall(setclipboard, v301)
+            end
+        end, true)
+    end
+
+    if v302 then
+        v289(v294, "CopySite", "Website", t1.Website, "Copy", function()
+            if setclipboard then
+                pcall(setclipboard, t1.Website)
+            end
+        end, false)
+    end
+
+    if v303 then
+        v293(v294, "What's new", t1.Changelog)
+    end
+end
+v263(v294, "Credits")
+v293(v294, "Made by", v291(t1.Author) and t1.Author or t1.Title)
+if v291(t1.Credits) then
+    v293(v294, "With", t1.Credits)
+end
+if v291(t1.Support) then
+    local v304 = v292()
+
+    if not v304 or not string.find(t1.Support, v304, 1, true) then
+        v293(v294, "Support", t1.Support)
+    end
+end
+v263(v294, "Disclaimer")
+v293(v294, "Not official", "Not affiliated with " .. (t1.Game or "this game") .. ". I'm not responsible for any bans, use at your own risk !")
+v263(v295, "Auto steal")
+v281(v295, "AutoSteal", "Auto steal", "idle · took 0 · lost 0 · re-grabbed 0", false, {
+	flag = "StealTravel",
+	options = {
+		"Speed",
+		"Flight"
+	}
+})
+v282(v295, "StealSpeed", "Travel speed", "Studs/s — can pullback if this is too high", 50, 1300, 300, " studs/s")
+v263(v295, "Targeting")
+v287(v295, "StealMode", "What to take", "Filters being used from below", {
+	"Best value",
+	"Egg type filter",
+	"Gen ($/s) snipe"
+}, "Best value", false)
+v288(v295, "GenSnipeFloor", "Egg ($/s) snipe", "What the pet inside of the egg will pay", "any · e.g. 100m", "", {
+	visibleIf = function()
+    return t9.StealMode == "Gen ($/s) snipe"
+end
+})
+v263(v295, "Where to look")
+v287(v295, "Areas", "Areas", "which zones to steal from", t5, { unpack(t5) }, true)
+v263(v295, "What qualifies")
+v281(v295, "UseRarity", "Egg type filter", "off = any egg type counts", false)
+v287(v295, "Rarities", "Egg types", "an egg counts if it is one of these", t6, { unpack(t6) }, true)
+v281(v295, "UseMutation", "Use mutation filter", "off = mutated or not, both fine", false)
+v287(v295, "Mutations", "Mutations", "an egg counts if it carries one of these", t7, { unpack(t7) }, true)
+v288(v295, "MinWeight", "Minimum weight (Kg)", "the same Kg the game shows — blank for any", "any", "")
+v263(v295, "Event")
+v281(v295, "AutoEvent", "Auto Hungry Monster", "after filters: grab infested, equip, feed", false)
+v288(v295, "EventKeepGen", "Don't feed if egg makes ($/s)", "keeps high-pay eggs · blank = feed any", "feed any · e.g. 5m", "")
+v263(v296, "Eggs & pets")
+v281(v296, "AutoPlaceEggs", "Auto place eggs", "idle · placed 0 · hatched 0", false)
+v287(v296, "NeverPlaceRarity", "Never place rarer", "Keeps better eggs in inventory", {
+	"Place all",
+	unpack(t6)
+}, "Place all", false)
+v288(v296, "PlaceMinGen", "Only place eggs worth ($/s)", "pen fills with the best first — blank for any", "any · e.g. 1.5m", "")
+v281(v296, "AutoHatch", "Auto hatch", "hatches every egg the moment its timer is up", false)
+v281(v296, "EquipBest", "Auto place best pets", "uses the game's own equip-best", false)
+v263(v296, "Upgrades")
+v281(v296, "UpgTrails", "Auto upgrade trails", "idle · bought 0 · sold 0", false)
+v281(v296, "UpgTreadmill", "Auto upgrade treadmill", "buys the next treadmill when you can afford it", false)
+v281(v296, "UpgPen", "Auto upgrade pen", "more room for pets", false)
+v288(v296, "KeepMoney", "Keep this much money", "never spend below this — blank to spend freely", "spend it all · e.g. 500m", "")
+v263(v296, "Selling")
+v289(v296, "SellPreview", "Preview what will sell", "opens a window under the stats panel — Hover icon to display stats", "Preview", nil, false)
+v288(v296, "SellUnderGen", "Sell anything earning under ($/s)", "blank = nothing sells", "nothing sells · e.g. 250k", "")
+v281(v296, "AutoSellPets", "Auto sell pets", "equips then sells at the stall · worst first · only below the floor", false)
+v281(v296, "AutoSellEggs", "Auto sell eggs", "equips then sells at the stall · spare eggs only — plot eggs stay", false)
+v263(v296, "Treadmill training")
+v281(v296, "AutoTreadmill", "Auto treadmill", "not training · 0/s · earned 0 this session", false)
+v281(v296, "TrainWhenIdle", "Train when nothing to steal", "only when Auto Steal is off. Auto Steal never wears the belt", true)
+v282(v296, "ReadyEarly", "Get ready early", "Step earlier to steal", 0, 15, 4, "s before reset")
+v263(v297, "Auto hop")
+v281(v297, "AutoHop", "Auto hop", "off · 0 hops this session", false)
+v263(v297, "Leave when")
+v288(v297, "HopIdle", "No steal for (seconds)", "Auto Steal on, nothing banked. Night does not count. Min 5. Blank = off.", "off · 90", "")
+v288(v297, "HopAfter", "Been here (minutes)", "leave after this long no matter what. Min 1. Blank = off.", "off · 20", "")
+v263(v297, "Leave now")
+v289(v297, "HopNow", "Hop now", "one hop. Auto hop can stay off.", "Hop", function()
+end, true)
+v263(v297, "Which servers")
+v282(v297, "HopPages", "Pages to fetch", "3 is enough. more pages is slower.", 1, 10, 3, " pages")
+v281(v297, "HopSkipFull", "Skip full servers", "a full server just dumps you back here", true)
+v287(v297, "HopPlayers", "Players", "Lowest = emptier, Highest = fuller", {
+	"Lowest",
+	"Highest"
+}, "Lowest", false);
+(function(p134, p135)
+    local v930 = p134.card or p134.scroll
+    local t145 = {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		Size = UDim2.new(1, 0, 0, 0)
+	}
+
+    p134.n = p134.n + 1
+    t145.LayoutOrder = p134.n
+    t145.ZIndex = 14
+
+    local Frame = Instance.new("Frame")
+
+    if t145 then
+        for k, v in pairs(t145) do
+            Frame[k] = v
+        end
+    end
+
+    if v930 then
+        Frame.Parent = v930
+    end
+
+    local t146 = {
+		AutomaticSize = Enum.AutomaticSize.Y,
+		BackgroundTransparency = 1,
+		Position = UDim2.fromOffset(14, 6),
+		Size = UDim2.new(1, -28, 0, 0),
+		Font = t4.body,
+		Text = p135,
+		TextColor3 = t3.mute,
+		TextSize = 12,
+		TextWrapped = true,
+		TextXAlignment = Enum.TextXAlignment.Left,
+		ZIndex = 15
+	}
+    local TextLabel = Instance.new("TextLabel")
+
+    if t146 then
+        for k, v in pairs(t146) do
+            TextLabel[k] = v
+        end
+    end
+
+    if Frame then
+        TextLabel.Parent = Frame
+    end
+
+    local t147 = {
+		PaddingBottom = UDim.new(0, 10),
+		PaddingTop = UDim.new(0, 6)
+	}
+    local UIPadding = Instance.new("UIPadding")
+
+    if t147 then
+        for k, v in pairs(t147) do
+            UIPadding[k] = v
+        end
+    end
+
+    if Frame then
+        UIPadding.Parent = Frame
+    end
+
+    if TextLabel then
+        TextLabel:SetAttribute("th_text", "mute")
+
+        local mute = t3.mute
+
+        if mute then
+            TextLabel.TextColor3 = mute
+        end
+    end
+
+    p134.items[#p134.items + 1] = {
+		kind = "row",
+		inst = Frame,
+		q = string.lower(p135)
+	}
+end)(v297, "skips this job and recent servers — shared across accounts in this workspace")
+v263(v298, "Eggs on the map")
+v281(v298, "EggESP", "Egg ESP", nil, false)
+v287(v298, "ESPFilter", "Show ESP on", nil, {
+	"All eggs",
+	"Eggs matching my filters",
+	"Stolen target only"
+}, "All eggs", false)
+v281(v298, "ESPBeam", "Beam to current target", "line to the egg auto steal picked", false)
+v263(v298, "Eggs on your plot")
+v281(v298, "PlotESP", "Plot egg ESP", "payout and hatch timer — green when ready", false)
+v263(v298, "Stats")
+v281(v298, "StatsPanel", "Show stats panel", "draggable: money, income, pen, best pet, best egg, speed, session", false)
+v281(v298, "ClaimIndex", "Auto claim index", "redeems every completed index entry in one sweep", false)
+v263(v298, "Defence")
+v281(v298, "AntiTrap", "Anti trap", "Disables traps", false)
+v281(v298, "AntiMob", "Anti ragdoll", "guards and other players' bats cannot flop or knock you; your bat still swings", false)
+v263(v298, "Bat")
+v281(v298, "BatAura", "Bat aura", "swings at any player in range — Auto Steal also equips the bat and chases whoever took your egg", false)
+v263(v298, "Walking")
+v281(v298, "BypassSpeed", "Bypass speed", "off = normal walk. on = Bypass cap. Auto steal uses Travel speed only while going to an egg, not while looking", false)
+v282(v298, "BypassCap", "Bypass speed cap", "studs per second while walking with bypass on", 150, 1300, 880, " studs/s")
+v263(v298, "Flight")
+v281(v298, "Flight", "Flight", "WASD to fly, Space up, Left Ctrl down — holds altitude when you let go", false)
+v282(v298, "FlightSpeed", "Flight speed", "studs per second while flying", 150, 1300, 880, " studs/s")
+v290(v298, "FlightBind", "Flight keybind", "toggles flight without opening the window", t1.FlightBind)
+v263(v298, "Performance")
+v281(v298, "Optimizer", "Game optimizer", "lowest gfx: shadows, particles, lights, post-fx, terrain water — off restores", false)
+v282(v298, "FPSCap", "FPS cap", "0 - no fps cap", 0, 240, 0, "")
+v263(v299, "Connection")
+v281(v299, "HookEnabled", "Send outbound", "", false)
+v288(v299, "HookUrl", "Endpoint URL", "paste a URL — never committed", "https://", "")
+v289(v299, "HookTest", "Test send", "posts a sample embed to the URL above", "Send", function()
+end, true)
+v263(v299, "What to send")
+v281(v299, "HookStolen", "Egg stolen", "icon, $/s, rarity, mutations, where it came from", true)
+v281(v299, "HookHatched", "Egg hatched", "icon, $/s, rarity, weight", true)
+v281(v299, "HookSold", "Sold pets or eggs", "icon and what it was earning", false)
+v281(v299, "HookRewards", "Rewards claimed", "index redeem count", false)
+v263(v299, "How much noise")
+v288(v299, "HookMinGen", "Only eggs earning over ($/s)", "stolen and hatched — blank for everything", "everything · e.g. 50m", "")
+v287(v299, "HookRarityFloor", "Rarity floor", "stolen and hatched below this rarity are skipped", {
+	"Any",
+	unpack(t6)
+}, "Any", false)
+v281(v299, "SessionDigest", "Session recap", "every 10 minutes — stolen, lost, hatched, sold, cash. not a steal ping", false)
+v263(v299, "The message")
+v287(v299, "HookPing", "Ping", "", {
+	"No ping",
+	"Here",
+	"User id"
+}, "No ping", false)
+v288(v299, "HookUserId", "User id", "optional", "0", "")
+v281(v299, "HookUsername", "Show my Roblox name and headshot", "", false)
+v281(v299, "ExportUrl", "Let exported configs carry the URL", "off by default", false)
+v263(v300, "Appearance")
+v281(v300, "PhoneUI", "Phone layout", "compact hub for phones / emulators — leave off on PC", u42)
+v282(v300, "UIScale", "UI scale", "zooms the hub — does not crush the layout", 75, 125, 100, "%")
+v287(v300, "Theme", "Theme", "dark or light — mark swaps with the theme", {
+	"Dark",
+	"Light"
+}, "Dark", false)
+v263(v300, "Keybinds")
+v290(v300, "OpenBind", "Open / close", "press this any time to show or hide", t1.OpenBind)
+v290(v300, "FlightBind2", "Toggle flight", "same bind as the movement page", t1.FlightBind)
+v281(v300, "StartMin", "Start minimised", nil, false)
+v263(v300, "Config")
+v287(v300, "CfgPreset", "Load config", "new accounts use default", { "default" }, "default", false)
+v288(v300, "CfgSaveName", "Save as", "blank = default", "name · or leave blank", "")
+v289(v300, "SaveCfgAs", "Save config", "writes Kira/.../configs/<name>.json", "Save", function()
+    v278(t9.CfgSaveName)
+end, true)
+v289(v300, "ExportCfg", "Export settings", "copies config to clipboard", "Copy", function()
+    v272()
+
+    local ok, result = pcall(function()
+        return HttpService:JSONEncode((v270()))
+    end)
+
+    if not ok then
+        return
+    end
+
+    if setclipboard then
+        pcall(setclipboard, result)
+    end
+end, true)
+v288(v300, "ImportPaste", "Import settings", "load config from clipboard", "paste, then press Import", "")
+v289(v300, "ImportCfg", "Import", nil, "Import", function()
+    local ImportPaste = t9.ImportPaste
+
+    if type(ImportPaste) ~= "string" or ImportPaste == "" then
+        return
+    end
+
+    local ok, result = pcall(function()
+        return HttpService:JSONDecode(ImportPaste)
+    end)
+
+    if not ok or type(result) ~= "table" then
+        return
+    end
+
+    v274(result, true)
+    u71(t9.Theme or "Dark")
+    v272(true)
+end, false)
+v263(v300, "Window")
+local u305
+v289(v300, "ResetWin", "Reset position & size", "window and orb back to the middle at default size", "Reset", function()
+    v113.Position = UDim2.fromScale(0.5, 0.5)
+    v113.Size = UDim2.fromOffset(n1, n2)
+    v108.Scale = 1
+
+    if t10.UIScale and t10.UIScale.set then
+        t10.UIScale.set(100)
+    end
+
+    if u42 then
+        Orb.Position = UDim2.new(0, 36, 1, -88)
+    else
+        Orb.Position = UDim2.new(0, 40, 0.5, 0)
+    end
+
+    u305()
+end, false)
+function t10.UIScale.on(p136)
+    v108.Scale = p136 / 100
+end
+function t10.PhoneUI.on(p137)
+    u43 = true
+    u42 = not not p137
+
+    if u44 then
+        u44()
+    end
+end
+function t10.Theme.on(p138)
+    u71(p138)
+end
+function t10.FlightBind2.on(p139)
+    t9.FlightBind = p139
+end
+function t10.CfgPreset.on(p140)
+    v279(p140, true)
+    v277()
+end
+local v306 = v82("TextButton", {
+	Name = "Orb",
+	AnchorPoint = Vector2.new(0.5, 0.5),
+	Position = u42 and UDim2.new(0, 36, 1, -88) or UDim2.new(0, 40, 0.5, 0),
+	Size = UDim2.fromOffset(not u42 and 34 or 48, not u42 and 34 or 48),
+	BackgroundColor3 = t3.rail,
+	Text = "",
+	AutoButtonColor = false,
+	Visible = false,
+	ZIndex = 20
+}, v98);
+(function(p141, p142)
+    local t148 = {
+		CornerRadius = UDim.new(0, p142 or 8)
+	}
+    local UICorner = Instance.new("UICorner")
+
+    if t148 then
+        for k, v in pairs(t148) do
+            UICorner[k] = v
+        end
+    end
+
+    if p141 then
+        UICorner.Parent = p141
+    end
+
+    return UICorner
+end)(v306, not u42 and 14 or 18)
+v83(v306, "accent", 1.4);
+(function(p143, p144, p145)
+    if not p143 or not p145 then
+        return p143
+    end
+
+    p143:SetAttribute("th_" .. p144, p145)
+
+    local v414 = t3[p145]
+
+    if not v414 then
+        return p143
+    end
+
+    if p144 == "bg" and p143:IsA("GuiObject") then
+        p143.BackgroundColor3 = v414
+
+        return p143
+    end
+
+    if p144 == "text" then
+        p143.TextColor3 = v414
+
+        return p143
+    end
+
+    if p144 == "placeholder" and p143:IsA("TextBox") then
+        p143.PlaceholderColor3 = v414
+
+        return p143
+    end
+
+    if p144 == "stroke" and p143:IsA("UIStroke") then
+        p143.Color = v414
+
+        return p143
+    end
+
+    if p144 == "scroll" and p143:IsA("ScrollingFrame") then
+        p143.ScrollBarImageColor3 = v414
+    end
+
+    return p143
+end)(v306, "bg", "rail")
+local v307 = v87(v306, 21, 20)
+v307.AnchorPoint = Vector2.new(0.5, 0.5)
+v307.Position = UDim2.fromScale(0.5, 0.5)
+local u308 = true
+function u70(p146)
+    u308 = not not p146
+    v113.Visible = u308
+    v306.Visible = not u308
+
+    if not u308 then
+        u284()
+        v103.Visible = false
+    end
+end
+v217.MouseButton1Click:Connect(function()
+    u70(false)
+end)
+v306.MouseButton1Click:Connect(function()
+    u70(true)
+end)
+local u309
+local s14
+local inputPosition
+local Position
+local AbsoluteSize
+v199.InputBegan:Connect(function(input)
+    local UserInputType = input.UserInputType
+
+    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+        u309 = true
+        s14 = "win"
+        inputPosition = input.Position
+        Position = v113.Position
+    end
+end)
+v151.InputBegan:Connect(function(input)
+    local UserInputType = input.UserInputType
+
+    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+        u309 = true
+        s14 = "win"
+        inputPosition = input.Position
+        Position = v113.Position
+    end
+end)
+v306.InputBegan:Connect(function(input)
+    local UserInputType = input.UserInputType
+
+    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+        u309 = true
+        s14 = "orb"
+        inputPosition = input.Position
+        Position = v306.Position
+    end
+end)
+local v314 = v82("Frame", {
+	AnchorPoint = Vector2.new(1, 1),
+	BackgroundTransparency = 1,
+	Position = UDim2.new(1, 0, 1, 0),
+	Size = UDim2.fromOffset(not u42 and 18 or 32, not u42 and 18 or 32),
+	ZIndex = 30,
+	Active = true
+}, v113)
+for i = 0, 1 do
+    v82("Frame", {
+		AnchorPoint = Vector2.new(1, 1),
+		Position = UDim2.new(1, -4 - i * 4, 1, -4),
+		Size = UDim2.fromOffset(8 - i * 2, 1),
+		BackgroundColor3 = t3.mute,
+		BorderSizePixel = 0,
+		ZIndex = 31
+	}, v314)
+end
+v314.InputBegan:Connect(function(input)
+    local UserInputType = input.UserInputType
+
+    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+        u309 = true
+        s14 = "resize"
+        inputPosition = input.Position
+        AbsoluteSize = v113.AbsoluteSize
+        Position = v113.Position
+    end
+end)
+v73(UserInputService.InputChanged:Connect(function(input)
+    if not u309 then
+        return
+    end
+
+    local UserInputType = input.UserInputType
+
+    if UserInputType ~= Enum.UserInputType.MouseMovement and UserInputType ~= Enum.UserInputType.Touch then
+        return
+    end
+
+    local v1044 = input.Position - inputPosition
+
+    if s14 == "win" then
+        v113.Position = UDim2.new(Position.X.Scale, Position.X.Offset + v1044.X, Position.Y.Scale, Position.Y.Offset + v1044.Y)
+
+        return
+    end
+
+    if s14 == "orb" then
+        v306.Position = UDim2.new(Position.X.Scale, Position.X.Offset + v1044.X, Position.Y.Scale, Position.Y.Offset + v1044.Y)
+
+        return
+    end
+
+    if s14 == "resize" then
+        local CurrentCamera = workspace.CurrentCamera
+        local v1046 = if not CurrentCamera then Vector2.new(1280, 720) else CurrentCamera.ViewportSize
+        local Scale = v108.Scale
+
+        if Scale <= 0 then
+            Scale = 1
+        end
+
+        local v1048 = not u42 and 520 or 400
+        local v1049 = not u42 and 360 or 320
+        local v1050 = math.max(v1048, v1046.X - 24)
+        local v1051 = math.max(v1049, v1046.Y - 24)
+        local v1052 = math.clamp(AbsoluteSize.X / Scale + v1044.X / Scale, v1048, v1050)
+        local v1053 = math.clamp(AbsoluteSize.Y / Scale + v1044.Y / Scale, v1049, v1051)
+
+        v113.Size = UDim2.fromOffset(v1052, v1053)
+        n1 = v1052
+        n2 = v1053
+    end
+end))
+v73(UserInputService.InputEnded:Connect(function(input)
+    local UserInputType = input.UserInputType
+
+    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+        u309 = false
+    end
+end))
+function u305()
+    local CurrentCamera = workspace.CurrentCamera
+    local v1057 = if not CurrentCamera then Vector2.new(1280, 720) else CurrentCamera.ViewportSize
+
+    if v1057.X < 80 or v1057.Y < 80 then
+        return
+    end
+
+    local XOffset = v113.Size.X.Offset
+    local YOffset = v113.Size.Y.Offset
+
+    if XOffset <= 0 then
+        XOffset = n1
+    end
+
+    if YOffset <= 0 then
+        YOffset = n2
+    end
+
+    local v1060 = not u42 and 520 or 400
+    local v1061 = not u42 and 360 or 320
+    local v1062 = math.clamp(XOffset, v1060, math.max(v1060, v1057.X - 24))
+    local v1063 = math.clamp(YOffset, v1061, math.max(v1061, v1057.Y - 24))
+
+    if v1062 ~= v113.Size.X.Offset or v1063 ~= v113.Size.Y.Offset then
+        v113.Size = UDim2.fromOffset(v1062, v1063)
+    end
+end
+v108.Scale = (tonumber(t9.UIScale) or 100) / 100
+if u42 then
+    local v316, v317 = v41()
+
+    n1 = v316
+    n2 = v317
+    v113.Size = UDim2.fromOffset(v316, v317)
+end
+u305()
+function u44()
+    local v1064 = not not u42
+
+    n3 = not v1064 and 152 or 128
+    v151.Size = UDim2.new(0, n3, 1, 0)
+    v194.Position = UDim2.fromOffset(n3, 2)
+    v194.Size = UDim2.new(1, -n3, 1, -2)
+    v217.Size = UDim2.fromOffset(not v1064 and 22 or 32, not v1064 and 22 or 32)
+    v306.Size = UDim2.fromOffset(not v1064 and 34 or 48, not v1064 and 34 or 48)
+    v314.Size = UDim2.fromOffset(not v1064 and 18 or 32, not v1064 and 18 or 32)
+
+    if v1064 then
+        v306.Position = UDim2.new(0, 36, 1, -88)
+
+        local v1065, v1066 = v41()
+
+        n1 = v1065
+        n2 = v1066
+        v113.Size = UDim2.fromOffset(v1065, v1066)
+    else
+        n1 = 620
+        n2 = 430
+        v113.Size = UDim2.fromOffset(n1, n2)
+    end
+
+    if u305 then
+        u305()
+    end
+end
+local function v318()
+    if u43 then
+        return
+    end
+
+    if v40() and not u42 then
+        u42 = true
+        u44()
+
+        if t10.PhoneUI and t10.PhoneUI.set then
+            pcall(t10.PhoneUI.set, true)
+        end
+    end
+end
+task.defer(v318)
+for _, v in ipairs({
+	0.2,
+	0.6,
+	1.2,
+	2.5
+}) do
+    task.delay(v, v318)
+end
+task.spawn(function()
+    local PlayerGui = LocalPlayer:FindFirstChild("PlayerGui")
+
+    if not PlayerGui then
+        pcall(function()
+            PlayerGui = LocalPlayer:WaitForChild("PlayerGui", 8)
+        end)
+    end
+
+    if not PlayerGui then
+        return
+    end
+
+    local connection = PlayerGui.ChildAdded:Connect(function(child)
+        if child.Name == "TouchGui" or child.Name == "TouchControlFrame" then
+            if u43 then
+                return
+            end
+
+            if v40() and not u42 then
+                u42 = true
+                u44()
+
+                if t10.PhoneUI and t10.PhoneUI.set then
+                    pcall(t10.PhoneUI.set, true)
+                end
+            end
+        end
+    end)
+
+    if connection then
+        t14[#t14 + 1] = connection
+    end
+
+    if not u43 and v40() and not u42 then
+        u42 = true
+        u44()
+
+        if t10.PhoneUI and t10.PhoneUI.set then
+            pcall(t10.PhoneUI.set, true)
+        end
+    end
+end)
+pcall(function()
+    local connection = UserInputService:GetPropertyChangedSignal("TouchEnabled"):Connect(v318)
+
+    if connection then
+        t14[#t14 + 1] = connection
+    end
+
+    local connection3 = UserInputService:GetPropertyChangedSignal("GyroscopeEnabled"):Connect(v318)
+
+    if connection3 then
+        t14[#t14 + 1] = connection3
+    end
+
+    local connection4 = UserInputService:GetPropertyChangedSignal("AccelerometerEnabled"):Connect(v318)
+
+    if connection4 then
+        t14[#t14 + 1] = connection4
+    end
+end)
+pcall(function()
+    local CurrentCamera = workspace.CurrentCamera
+
+    if CurrentCamera then
+        local connection = CurrentCamera:GetPropertyChangedSignal("ViewportSize"):Connect(function()
+            if not u43 and v40() and not u42 then
+                u42 = true
+                u44()
+
+                if t10.PhoneUI and t10.PhoneUI.set then
+                    pcall(t10.PhoneUI.set, true)
+                end
+            end
+
+            u305()
+        end)
+
+        if connection then
+            t14[#t14 + 1] = connection
+        end
+    end
+
+    local connection = workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+        local CurrentCamera2 = workspace.CurrentCamera
+
+        if CurrentCamera2 then
+            local connection = CurrentCamera2:GetPropertyChangedSignal("ViewportSize"):Connect(function()
+                if not u43 and v40() and not u42 then
+                    u42 = true
+                    u44()
+
+                    if t10.PhoneUI and t10.PhoneUI.set then
+                        pcall(t10.PhoneUI.set, true)
+                    end
+                end
+
+                u305()
+            end)
+
+            if connection then
+                t14[#t14 + 1] = connection
+            end
+
+            u305()
+        end
+    end)
+
+    if connection then
+        t14[#t14 + 1] = connection
+    end
+end)
+v73(UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    if gameProcessed then
+        return
+    end
+
+    if input.UserInputType ~= Enum.UserInputType.Keyboard then
+        return
+    end
+
+    if (t9.OpenBind or t1.OpenBind) == input.KeyCode then
+        u70(not u308)
+    end
+end))
+local n5 = 0
+local elapsed = os.clock()
+v73(RunService.RenderStepped:Connect(function()
+    n5 += 1
+
+    local elapsed2 = os.clock()
+
+    if elapsed2 - elapsed < 0.4 then
+        return
+    end
+
+    local v1078 = math.floor(n5 / (elapsed2 - elapsed) + 0.5)
+
+    n5 = 0
+    elapsed = elapsed2
+
+    local n6 = 0
+
+    pcall(function()
+        local v1387 = Stats.Network.ServerStatsItem["Data Ping"]
+
+        n6 = math.floor(v1387:GetValue())
+    end)
+    v229.Text = v1078 .. " fps"
+    v228.Text = n6 .. " ms"
+    v228.TextColor3 = n6 < 90 and t3.ok or t3.dim
+end))
+local function u323()
+    if u284 then
+        pcall(u284)
+    end
+
+    for i = 1, #t14 do
+        local v1081 = t14[i]
+
+        t14[i] = nil
+
+        if v1081 then
+            pcall(function()
+                v1081:Disconnect()
+            end)
+        end
+    end
+
+    if v98 then
+        pcall(function()
+            v98:Destroy()
+        end)
+    end
+end
+if t9.StartMin then
+    u70(false)
+end
+function u71(p147)
+    if p147 == "Dusk" or p147 == "dusk" then
+        p147 = "Dark"
+    end
+
+    local v1083 = t2[p147] or t2.Dark
+    local s15
+
+    if v1083 == t2.Light then
+        s15 = "Light"
+    else
+        s15 = "Dark"
+        v1083 = t2.Dark
+    end
+
+    t9.Theme = s15
+
+    for k, v in pairs(v1083) do
+        t3[k] = v
+    end
+
+    local function v1087(p148)
+        local th_bg = p148:GetAttribute("th_bg")
+
+        if th_bg and (t3[th_bg] and p148:IsA("GuiObject")) then
+            local v1390 = self[p148]
+
+            if v1390 then
+                pcall(function()
+                    v1390:Cancel()
+                end)
+                self[p148] = nil
+            end
+
+            local th_hover = p148:GetAttribute("th_hover")
+            local v1392 = p148:GetAttribute("th_over") == true
+
+            p148.BackgroundColor3 = v1392 and (not not th_hover and t3[th_hover]) or t3[th_bg]
+
+            if p148:GetAttribute("th_row") then
+                p148.BackgroundTransparency = not v1392 and 1 or 0
+            end
+        end
+
+        local th_text = p148:GetAttribute("th_text")
+
+        if th_text and t3[th_text] then
+            pcall(function()
+                p148.TextColor3 = t3[th_text]
+            end)
+        end
+
+        if p148:IsA("TextBox") then
+            local th_placeholder = p148:GetAttribute("th_placeholder")
+
+            if th_placeholder and t3[th_placeholder] then
+                p148.PlaceholderColor3 = t3[th_placeholder]
+            end
+        end
+
+        if p148:IsA("UIStroke") then
+            local th_stroke = p148:GetAttribute("th_stroke")
+
+            if th_stroke and t3[th_stroke] then
+                p148.Color = t3[th_stroke]
+            end
+        end
+
+        if p148:IsA("ImageLabel") then
+            local th_img = p148:GetAttribute("th_img")
+
+            if th_img and t3[th_img] then
+                p148.ImageColor3 = t3[th_img]
+            end
+        end
+
+        if p148:IsA("ScrollingFrame") then
+            local th_scroll = p148:GetAttribute("th_scroll")
+
+            if th_scroll and t3[th_scroll] then
+                p148.ScrollBarImageColor3 = t3[th_scroll]
+            end
+        end
+    end
+
+    v1087(v113)
+    v1087(v306)
+
+    for _, descendant in ipairs(v98:GetDescendants()) do
+        v1087(descendant)
+    end
+
+    v79()
+    v262(v245, t3.mute)
+
+    for _, v in pairs(t12) do
+        local scroll = v.scroll
+
+        if scroll then
+            local CanvasPosition = scroll.CanvasPosition
+
+            scroll.CanvasPosition = CanvasPosition + Vector2.new(0, 1)
+            scroll.CanvasPosition = CanvasPosition
+        end
+    end
+
+    if u66 then
+        u68(u66.name)
+    end
+
+    for k, v in pairs(t10) do
+        if v.kind == "toggle" and v.set then
+            v.set(t9[k] == true)
+        end
+    end
+end
+u68("Auto Steal")
+local v324 = v50()
+local v325 = v51()
+v325.alive = true
+local t149 = {
+	Flags = t9,
+	Widgets = t10,
+	SetPage = u68,
+	SetVisible = u70,
+	SetTheme = u71,
+	Destroy = u323,
+	SetStatus = function(p149, p150)
+    local v1098 = t10[p149]
+
+    if v1098 and v1098.status then
+        v1098.status.Text = p150
+    end
+end,
+	On = function(p151, p152)
+    local v1101 = t10[p151]
+
+    if v1101 then
+        v1101.on = p152
+    end
+end
+}
+v325.UI = t149
+v324.KiraUI = type(v324.KiraUI) == "table" and v324.KiraUI or {}
+v324.KiraUI[str] = t149
+if type(v324.UI) ~= "table" or not (function()
+    local KiraHub = (getgenv and getgenv() or _G).KiraHub
+    local v354 = type(KiraHub) == "table" and KiraHub.slots
+
+    if type(v354) ~= "table" then
+        return false
+    end
+
+    for k, v in pairs(v354) do
+        if tostring(k) ~= str and type(v) == "table" and v.alive == true then
+            return true
+        end
+    end
+
+    return false
+end)() then
+    v324.UI = t149
+end;
+(function()
+    local function v1102(p153, ...)
+        warn("[Kira/" .. tostring(p153) .. "]", ...)
+    end
+    local u1103
+    local Directory
+    local Directory2
+    local ok, result = pcall(function()
+        return require(ReplicatedStorage.Client.EggState)
+    end)
+    if ok then
+        u1103 = result
+    else
+        v1102("modules", "EggState require failed", (tostring(result)))
+    end
+    local ok3, result3 = pcall(function()
+        return require(ReplicatedStorage.Data.Assets)
+    end)
+    if ok3 and type(result3) == "table" then
+        Directory = result3.Directory
+    else
+        v1102("modules", "Assets require failed", (tostring(result3)))
+    end
+    local ok4, result4 = pcall(function()
+        return require(ReplicatedStorage.Data.Areas)
+    end)
+    if ok4 and type(result4) == "table" then
+        Directory2 = result4.Directory
+
+        if type(Directory2) == "table" then
+            v1102("modules", "areas dir", "ok")
+        end
+    else
+        v1102("modules", "Areas require failed", (tostring(result4)))
+    end
+    local function v1112()
+        local Character = LocalPlayer.Character
+
+        if not Character then
+            return
+        end
+
+        local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+        local HumanoidRootPart = Character:FindFirstChild("HumanoidRootPart")
+
+        if not Humanoid or not HumanoidRootPart or Humanoid.Health <= 0 then
+            return
+        end
+
+        return Humanoid, HumanoidRootPart, Character
+    end
+    local function v1113()
+        local CurrentCamera = workspace.CurrentCamera
+
+        if not CurrentCamera then
+            return Vector3.new(0, 0, -1)
+        end
+
+        local vector3 = Vector3.new(CurrentCamera.CFrame.LookVector.X, 0, CurrentCamera.CFrame.LookVector.Z)
+
+        if vector3.Magnitude < 0.001 then
+            return Vector3.new(0, 0, -1)
+        end
+
+        return vector3.Unit
+    end
+    local t150 = {
+		"VerticalTrajectory",
+		"CorrectionContext",
+		"PivotTo",
+		"Relocate",
+		"Authoritative WalkSpeed",
+		"BeginImpulse",
+		"LastValidatedGroundedSample"
+	}
+    local t151 = {
+		"LastGoodSample",
+		"LastObservedSample",
+		"LastValidatedSample",
+		"LastValidatedGroundedSample",
+		"LastConfirmedGroundSample",
+		"LastSample",
+		"LastGameplayTrustedSample"
+	}
+    local u1116 = false
+    local u1117 = true
+    local u1118
+    local u1119
+    local u1120
+    local t152 = {}
+    local t153 = {}
+    local t154 = {}
+    local t155 = {}
+    local n7 = 0.016666666666667
+    local n8 = 0
+    local u1127
+    local u1128 = false
+    local n9 = 16
+    local u1130
+    local u1131
+    local u1132
+    local t216
+    local u1134
+    local u1135
+    local function v1136(p154)
+        if p154 then
+            t152[p154] = true
+        end
+
+        return p154
+    end
+    local function v1137()
+        for k in pairs(t152) do
+            t152[k] = nil
+            pcall(function()
+                k:Disconnect()
+            end)
+        end
+    end
+    local function v1138(p155, p156)
+        local v1415 = p156 or 16
+
+        if not debug or not debug.getconstants then
+            return {}
+        end
+
+        local ok5, result5 = pcall(debug.getconstants, p155)
+
+        if not ok5 or type(result5) ~= "table" then
+            return {}
+        end
+
+        local t156 = {}
+        local n10 = 0
+
+        for _, v in pairs(result5) do
+            n10 += 1
+
+            if n10 <= v1415 then
+                t156[#t156 + 1] = tostring(v)
+            end
+        end
+
+        return t156
+    end
+    local function v1139(p157)
+        local v1423 = table.concat(v1138(p157, 50), "|")
+
+        for _, v in ipairs(t150) do
+            if v1423:find(v, 1, true) then
+                return true, v
+            end
+        end
+
+        if v1423:find("WalkSpeed", 1, true) and v1423:find("AssemblyLinearVelocity", 1, true) and v1423:find("Magnitude", 1, true) then
+            return true, "ALVvsWalkSpeed"
+        end
+
+        return false
+    end
+    local function v1140(p158, p159, p160, p161, p162)
+        if type(p158) ~= "table" or not p159 then
+            return
+        end
+
+        local v1441 = v1113()
+
+        if u1128 and t9.StealTravel == "Flight" and not t9.Flight and t216 and typeof(t216.flyLook) == "Vector3" then
+            v1441 = t216.flyLook
+        end
+
+        local cFrame = CFrame.new(p161, p161 + v1441)
+
+        pcall(function()
+            p158.Position = p161
+            p158.CFrame = cFrame
+            p158.LinearVelocity = p162
+            p158.AngularVelocity = Vector3.zero
+            p158.IsSupported = true
+            p158.Timestamp = os.clock()
+
+            if p160 then
+                p158.WalkSpeed = p160.WalkSpeed
+                p158.JumpPower = p160.JumpPower
+                p158.JumpHeight = p160.JumpHeight
+                p158.UseJumpPower = p160.UseJumpPower
+                p158.HumanoidState = Enum.HumanoidStateType.Running
+            end
+
+            p158.Gravity = workspace.Gravity
+        end)
+    end
+    local function v1141(p163, p164, p165, p166, p167)
+        local v1453
+
+        if type(p163) ~= "table" then
+            v1453 = false
+        else
+            local ok6, result6 = pcall(rawget, p163, "LastGoodSample")
+            local ok7, result7 = pcall(rawget, p163, "SafeGroundCheckpoints")
+
+            v1453 = ok6 and (type(result6) == "table" and (ok7 and type(result7) == "table"))
+        end
+
+        if not v1453 then
+            return
+        end
+
+        local v1459
+
+        if type(p163) == "table" and type(p163.ExpectedHipHeight) == "number" then
+            local v1458 = type(p163.ExpectedRootHalfHeight) == "number" and p163.ExpectedRootHalfHeight or 1
+
+            v1459 = p163.ExpectedHipHeight + v1458 * 0.5
+        else
+            v1459 = 2.51
+        end
+
+        local v1460 = v1459
+
+        pcall(function()
+            local elapsed3 = os.clock()
+
+            p163.MaxHorizontalSpeed = 10000000
+            p163.MaxVerticalSpeed = 10000000
+            p163.IsSupportedNow = true
+            p163.LastSupportedAt = elapsed3
+            p163.LastCorrectionAt = 0
+            p163.HighestYSinceGround = p166.Y
+            p163.MovementMode = "Grounded"
+            p163.TelemetryRepeatCount = 0
+            p163.ValidationLocked = false
+            p163.MonitorRunning = false
+            p163.MonitorPending = false
+            p163.ThreatLevel = "Trusted"
+            p163.WasMeaningfullyFalling = false
+            p163.InitializingUntil = elapsed3 + 3600
+            p163.SupportStartedAt = elapsed3
+            p163.ValidationStartedAt = elapsed3
+
+            local GroundContactWitness = p163.GroundContactWitness
+
+            if type(GroundContactWitness) == "table" then
+                GroundContactWitness.GroundDistance = v1460
+                GroundContactWitness.GroundPosition = Vector3.new(p166.X, p166.Y - v1460, p166.Z)
+
+                if p164.Parent then
+                    GroundContactWitness.Character = p164.Parent
+                end
+
+                if type(GroundContactWitness.ContactSample) == "table" then
+                    v1140(GroundContactWitness.ContactSample, p164, p165, p166, p167)
+                end
+            end
+
+            local Evidence = p163.Evidence
+
+            if type(Evidence) == "table" then
+                Evidence.Speed = 0
+                Evidence.Flight = 0
+                Evidence.Teleport = 0
+            end
+
+            local LastVerticalTrajectoryDecision = p163.LastVerticalTrajectoryDecision
+
+            if type(LastVerticalTrajectoryDecision) == "table" then
+                LastVerticalTrajectoryDecision.Active = false
+                LastVerticalTrajectoryDecision.CorrectionStarted = false
+                LastVerticalTrajectoryDecision.ConsecutiveInvalidWindows = 0
+                LastVerticalTrajectoryDecision.EvidenceEventCount = 0
+                LastVerticalTrajectoryDecision.MeaningfulDescent = false
+                LastVerticalTrajectoryDecision.LandingCandidate = false
+                LastVerticalTrajectoryDecision.CurrentY = p166.Y
+                LastVerticalTrajectoryDecision.PeakY = p166.Y
+                LastVerticalTrajectoryDecision.StartY = p166.Y
+                LastVerticalTrajectoryDecision.AirborneDuration = 0
+                LastVerticalTrajectoryDecision.LandingDuration = 0
+                LastVerticalTrajectoryDecision.LatestLegalSampleAge = 0
+                LastVerticalTrajectoryDecision.AllowedRise = 10000000
+                LastVerticalTrajectoryDecision.AllowedAirborneDuration = 10000000
+                LastVerticalTrajectoryDecision.Evidence = 0
+                LastVerticalTrajectoryDecision.PrimaryEvidenceSource = "None"
+            end
+
+            local LastVerticalSegmentDecision = p163.LastVerticalSegmentDecision
+
+            if type(LastVerticalSegmentDecision) == "table" then
+                LastVerticalSegmentDecision.Active = false
+                LastVerticalSegmentDecision.CorrectionStarted = false
+                LastVerticalSegmentDecision.Displacement = 0
+                LastVerticalSegmentDecision.Excess = 0
+                LastVerticalSegmentDecision.AllowedDistance = 10000000
+                LastVerticalSegmentDecision.Decision = "Reachable"
+                LastVerticalSegmentDecision.CurrentY = p166.Y
+                LastVerticalSegmentDecision.PreviousY = p166.Y
+                LastVerticalSegmentDecision.MovementContext = "OrdinaryStationaryY"
+            end
+        end)
+
+        for _, v in ipairs(t151) do
+            v1140(p163[v], p164, p165, p166, p167)
+        end
+
+        local SampleHistory = p163.SampleHistory
+
+        if type(SampleHistory) == "table" then
+            for _, v in pairs(SampleHistory) do
+                if type(v) == "table" then
+                    v1140(v, p164, p165, p166, p167)
+                end
+            end
+        end
+
+        local SafeGroundCheckpoints = p163.SafeGroundCheckpoints
+
+        if type(SafeGroundCheckpoints) == "table" then
+            for _, v in pairs(SafeGroundCheckpoints) do
+                if type(v) == "table" then
+                    v1140(v, p164, p165, p166, p167)
+                end
+            end
+        end
+    end
+    local function v1142()
+        t153 = {}
+
+        if not getconnections then
+            v1102("engine", "no getconnections — wraps skipped")
+
+            return 0
+        end
+
+        local t157 = {}
+
+        for _, v in ipairs(getconnections(RunService.PostSimulation)) do
+            if not t152[v] and v1139(v.Function) then
+                pcall(function()
+                    v:Enable()
+                end)
+
+                for i = 1, 24 do
+                    local Function = v.Function
+                    local ok8, result8, v1476 = pcall(debug.getupvalue, Function, i)
+                    local v1477 = if ok8 then if v1476 == nil then result8 else v1476 else nil
+
+                    if v1477 == nil then
+                        break
+                    end
+
+                    if type(v1477) == "table" and not t157[v1477] then
+                        t157[v1477] = true
+                        t153[#t153 + 1] = v1477
+                    end
+                end
+            end
+        end
+
+        return #t153
+    end
+    local function v1143()
+        local t158 = {}
+        local t159 = {}
+
+        for i = 1, #t153 do
+            local v1481 = t153[i]
+            local v1482
+
+            if type(v1481) ~= "table" then
+                v1482 = false
+            else
+                local ok9, result9 = pcall(rawget, v1481, "LastGoodSample")
+                local ok10, result10 = pcall(rawget, v1481, "SafeGroundCheckpoints")
+
+                v1482 = ok9 and (type(result9) == "table" and (ok10 and type(result10) == "table"))
+            end
+
+            if v1482 and not t158[v1481] then
+                t158[v1481] = true
+                t159[#t159 + 1] = v1481
+            end
+        end
+
+        for i = 1, #t154 do
+            local v1488 = t154[i]
+            local v1489
+
+            if type(v1488) ~= "table" then
+                v1489 = false
+            else
+                local ok11, result11 = pcall(rawget, v1488, "LastGoodSample")
+                local ok12, result12 = pcall(rawget, v1488, "SafeGroundCheckpoints")
+
+                v1489 = ok11 and (type(result11) == "table" and (ok12 and type(result12) == "table"))
+            end
+
+            if v1489 and not t158[v1488] then
+                t158[v1488] = true
+                t159[#t159 + 1] = v1488
+            end
+        end
+
+        if #t159 > 0 then
+            t154 = t159
+        end
+
+        return #t154
+    end
+    local function v1144()
+        u1120 = nil
+
+        local v1494 = u1119 ~= nil
+
+        if u1119 then
+            pcall(function()
+                u1119:Destroy()
+            end)
+            u1119 = nil
+        end
+
+        if v1494 then
+            for _, child in ipairs(workspace:GetChildren()) do
+                if child.Name == "KiraSupport" or child.Name == "Hub45Support" then
+                    pcall(function()
+                        child:Destroy()
+                    end)
+                end
+            end
+        end
+    end
+    local u1145 = false
+    local function v1146(p168, p169, p170)
+        v1144()
+
+        if not p168 or not p169 then
+            local Character = LocalPlayer.Character
+            local v1503, v1504
+
+            if not Character then
+                v1503 = nil
+                v1504 = nil
+            else
+                v1503 = Character:FindFirstChildOfClass("Humanoid")
+                v1504 = Character:FindFirstChild("HumanoidRootPart")
+
+                if not v1503 or not v1504 or v1503.Health <= 0 then
+                    v1503 = nil
+                    v1504 = nil
+                end
+            end
+
+            p168 = p168 or v1503
+            p169 = p169 or v1504
+        end
+
+        if not p168 then
+            return
+        end
+
+        pcall(function()
+            p168.PlatformStand = false
+            p168.Sit = false
+            p168.AutoRotate = true
+            p168.AutoJumpEnabled = true
+            p168.Jump = false
+
+            if type(p168.WalkSpeed) == "number" and p168.WalkSpeed > 0 and p168.WalkSpeed <= 36 then
+                n9 = p168.WalkSpeed
+            end
+
+            p168.WalkSpeed = n9
+
+            if p170 then
+                p168:ChangeState(Enum.HumanoidStateType.Freefall)
+            end
+        end)
+
+        if p169 then
+            pcall(function()
+                p169.Anchored = false
+
+                if p170 then
+                    local AssemblyLinearVelocity = p169.AssemblyLinearVelocity
+
+                    p169.AssemblyLinearVelocity = Vector3.new(0, math.min(AssemblyLinearVelocity.Y, -22), 0)
+                end
+
+                p169.AssemblyAngularVelocity = Vector3.zero
+            end)
+        end
+    end
+    local function v1147(p171)
+        if typeof(p171) ~= "Vector3" then
+            return nil
+        end
+
+        local raycastParams = RaycastParams.new()
+
+        raycastParams.FilterType = Enum.RaycastFilterType.Exclude
+
+        local t160 = { LocalPlayer.Character }
+
+        if u1119 then
+            t160[#t160 + 1] = u1119
+        end
+
+        if workspace.CurrentCamera then
+            t160[#t160 + 1] = workspace.CurrentCamera
+        end
+
+        raycastParams.FilterDescendantsInstances = t160
+
+        local vector3 = Vector3.new(p171.X, math.max(p171.Y + 48, 80), p171.Z)
+        local raycastResult = workspace:Raycast(vector3, Vector3.new(0, -360, 0), raycastParams)
+
+        if raycastResult and raycastResult.Instance and raycastResult.Instance.CanCollide then
+            return raycastResult.Position.Y
+        end
+
+        if raycastResult then
+            return raycastResult.Position.Y
+        end
+
+        return p171.Y
+    end
+    local function v1148(p172, p173)
+        if not p172 then
+            return
+        end
+
+        if not u1119 or not u1119.Parent then
+            v1144()
+
+            local Part = Instance.new("Part")
+
+            Part.Name = "KiraSupport"
+            Part.Size = Vector3.new(8, 1.2, 8)
+            Part.Anchored = true
+            Part.CanCollide = true
+            Part.CanQuery = true
+            Part.CanTouch = false
+            Part.CastShadow = false
+            Part.Transparency = 1
+            Part.Material = Enum.Material.Concrete
+            Part.Parent = workspace
+            u1119 = Part
+        end
+
+        local max = math.max
+        local v1516 = t154[1]
+        local v1518
+
+        if type(v1516) == "table" and type(v1516.ExpectedHipHeight) == "number" then
+            local v1517 = type(v1516.ExpectedRootHalfHeight) == "number" and v1516.ExpectedRootHalfHeight or 1
+
+            v1518 = v1516.ExpectedHipHeight + v1517 * 0.5
+        else
+            v1518 = 2.51
+        end
+
+        local v1519 = max(3.8, v1518)
+
+        if u1128 and typeof(u1127) == "Vector3" and type(u1130) == "function" and u1130() then
+            u1120 = p172.Position.Y - v1519 - 0.6
+            u1119.CFrame = CFrame.new(p172.Position.X, u1120, p172.Position.Z)
+
+            return
+        end
+
+        local v1520 = p172.Position.Y - v1519 - 0.6
+        local v1521 = tonumber(p173) or 0
+
+        if u1120 == nil then
+            u1120 = v1520
+        elseif v1521 > 8 then
+            u1120 = math.max(u1120, v1520)
+        elseif v1521 < -8 then
+            u1120 = v1520
+        else
+            local v1522 = u1120 + 0.6
+
+            if p172.Position.Y - v1522 > v1519 + 8 then
+                u1120 = v1520
+            end
+        end
+
+        u1119.CFrame = CFrame.new(p172.Position.X, u1120, p172.Position.Z)
+    end
+    local function v1149(p174, p175, p176)
+        local WalkSpeed = p175.WalkSpeed
+        local v1527 = math.max(10, WalkSpeed or 16)
+        local v1528 = if not (p176.Magnitude > v1527 + 1) then p176 else p176.Magnitude > 0.0001 and p176.Unit * v1527 or Vector3.zero
+
+        pcall(function()
+            p174.AssemblyLinearVelocity = v1528
+        end)
+
+        for i = 1, #t154 do
+            v1141(t154[i], p174, p175, p174.Position, v1528)
+        end
+    end
+    local function v1150(p177)
+        if p177 then
+            if not hookfunction or not getconnections then
+                v1102("engine", "cannot wrap PostSim validators")
+
+                return 0
+            end
+
+            local n11 = 0
+
+            for _, v in ipairs(getconnections(RunService.PostSimulation)) do
+                if not t152[v] then
+                    local v1534, v1535 = v1139(v.Function)
+                    local Function = v.Function
+
+                    if v1534 and not t155[Function] then
+                        local t161 = {
+							old = Function
+						}
+
+                        local function v1538(...)
+                            local Character = LocalPlayer.Character
+                            local v2705, v2706
+                            if not Character then
+                                v2705 = nil
+                                v2706 = nil
+                            else
+                                v2705 = Character:FindFirstChildOfClass("Humanoid")
+                                v2706 = Character:FindFirstChild("HumanoidRootPart")
+
+                                if not v2705 or not v2706 or v2705.Health <= 0 then
+                                    v2705 = nil
+                                    v2706 = nil
+                                end
+                            end
+                            local v2707 = v2706
+                            local AssemblyLinearVelocity
+                            local CFrame2
+                            if v2707 and v2705 then
+                                AssemblyLinearVelocity = v2707.AssemblyLinearVelocity
+                                CFrame2 = v2707.CFrame
+
+                                if u1130() then
+                                    v1148(v2707, 0)
+                                end
+
+                                v1149(v2707, v2705, AssemblyLinearVelocity)
+                            end
+                            local u2710
+                            local ok13, result13 = pcall(function(...)
+                                u2710 = table.pack(t161.old(...))
+                            end, ...)
+                            if v2707 and CFrame2 then
+                                local Magnitude = (v2707.Position - CFrame2.Position).Magnitude
+
+                                if Magnitude > 1.5 then
+                                    pcall(function()
+                                        v2707.CFrame = CFrame2
+                                        v2707.AssemblyLinearVelocity = AssemblyLinearVelocity
+                                    end)
+
+                                    local elapsed4 = os.clock()
+
+                                    if elapsed4 - n8 > 1 then
+                                        n8 = elapsed4
+                                        v1102("engine", "undid relocate", math.floor(Magnitude * 10 + 0.5) / 10)
+                                    end
+                                end
+                            end
+                            if v2707 and v2705 then
+                                v1149(v2707, v2705, AssemblyLinearVelocity or v2707.AssemblyLinearVelocity)
+                            end
+                            if v2707 and AssemblyLinearVelocity then
+                                pcall(function()
+                                    v2707.AssemblyLinearVelocity = AssemblyLinearVelocity
+                                end)
+                            end
+                            if not ok13 then
+                                error(result13)
+                            end
+
+                            return table.unpack(u2710, 1, u2710.n)
+                        end
+
+                        if type(newcclosure) == "function" then
+                            v1538 = newcclosure(v1538)
+                        end
+
+                        local ok14, result14 = pcall(hookfunction, Function, v1538)
+
+                        if ok14 then
+                            t161.old = result14 or Function
+                            t155[Function] = t161.old
+                            n11 += 1
+                        else
+                            v1102("engine", "wrap fail", v1535, (tostring(result14)))
+                        end
+                    end
+                end
+            end
+
+            return n11
+        end
+
+        local _restorefunction = restorefunction
+
+        for k, v in pairs(t155) do
+            if _restorefunction then
+                pcall(_restorefunction, k)
+            elseif hookfunction and v then
+                pcall(hookfunction, k, v)
+            end
+        end
+
+        t155 = {}
+        v1102("engine", "validator wraps restored")
+
+        return 0
+    end
+    local function v1151()
+        if t9.Flight then
+            return math.clamp(tonumber(t9.FlightSpeed) or 880, 150, 1300)
+        end
+
+        if u1128 and typeof(u1127) == "Vector3" then
+            return math.clamp(tonumber(t9.StealSpeed) or 300, 50, 1300)
+        end
+
+        if t9.BypassSpeed == true then
+            return math.clamp(tonumber(t9.BypassCap) or 880, 150, 1300)
+        end
+
+        return n9
+    end
+    function u1130()
+        if t9.Flight then
+            return true
+        end
+
+        if u1135 and u1135.driving and u1135.driving() then
+            return true
+        end
+
+        return u1128 == true and (t9.StealTravel == "Flight" and typeof(u1127) == "Vector3")
+    end
+    local function v1152()
+        local v1544 = v1113()
+        local vector3 = Vector3.new(-v1544.Z, 0, v1544.X)
+        local zero = Vector3.zero
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+            zero += v1544
+        end
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+            zero -= v1544
+        end
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+            zero += vector3
+        end
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+            zero -= vector3
+        end
+
+        if zero.Magnitude < 0.001 then
+            return Vector3.zero
+        end
+
+        return zero.Unit
+    end
+    local function v1153()
+        local v1547 = v1151()
+        local v1548 = v1152()
+        local n12 = 0
+
+        if UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+            n12 = 40
+        elseif UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+            n12 = -40
+        end
+
+        if v1548.Magnitude > 0.05 then
+            return Vector3.new(v1548.X * v1547, n12, v1548.Z * v1547)
+        end
+
+        return Vector3.new(0, n12, 0)
+    end
+    local function v1154(p178, p179)
+        if t9.Flight and (not u1128 or not u1127) then
+            return v1153()
+        end
+
+        local v1552 = v1151()
+
+        if u1128 and u1127 then
+            local v1553 = u1127 - p179.Position
+            local vector3 = Vector3.new(v1553.X, 0, v1553.Z)
+            local Magnitude = vector3.Magnitude
+            local n13 = 0
+
+            if u1130() then
+                n13 = 0
+
+                if u1128 then
+                    local v1557 = v1147(Vector3.new(p179.Position.X, p179.Position.Y + 4, p179.Position.Z))
+
+                    if type(v1557) == "number" and v1557 <= p179.Position.Y + 1 and p179.Position.Y > v1557 + 14 then
+                        n13 = math.clamp(v1557 + 3 - p179.Position.Y, -28, 0)
+                    end
+                elseif p179.Position.Y > u1127.Y + 0.6 then
+                    n13 = math.clamp(u1127.Y - p179.Position.Y, -36, 0)
+                end
+            end
+
+            if Magnitude < 1.4 then
+                if u1130() then
+                    return Vector3.new(0, n13, 0)
+                end
+
+                return Vector3.zero
+            end
+
+            local v1558 = Magnitude < 8 and math.clamp(v1552 * (Magnitude / 8), 18, v1552) or v1552
+
+            return Vector3.new(vector3.Unit.X * v1558, n13, vector3.Unit.Z * v1558)
+        end
+
+        if u1128 and u1130() then
+            return Vector3.zero
+        end
+
+        if t9.BypassSpeed == true then
+            local MoveDirection = p178.MoveDirection
+
+            if MoveDirection.Magnitude > 0.05 then
+                return Vector3.new(MoveDirection.X * v1552, 0, MoveDirection.Z * v1552)
+            end
+        end
+
+        return Vector3.zero
+    end
+    local n14 = 0
+    local n15 = 7.2
+    local u1157 = false
+    local function v1158(p180)
+        if not t9.AntiTrap then
+            u1157 = false
+
+            return false
+        end
+
+        local Character = LocalPlayer.Character
+        local v1562, v1563
+
+        if not Character then
+            v1562 = nil
+            v1563 = nil
+            Character = nil
+        else
+            v1562 = Character:FindFirstChildOfClass("Humanoid")
+            v1563 = Character:FindFirstChild("HumanoidRootPart")
+
+            if not v1562 or not v1563 or v1562.Health <= 0 then
+                v1562 = nil
+                v1563 = nil
+                Character = nil
+            end
+        end
+
+        local v1564 = v1562
+        local v1565 = v1563
+        local v1566 = Character
+
+        if not v1564 then
+            return false
+        end
+
+        if type(v1564.JumpHeight) == "number" and v1564.JumpHeight > 0.5 then
+            n15 = v1564.JumpHeight
+        end
+
+        local v1567 = u1130()
+        local v1568 = v1566:GetAttribute("IsTrapped") == true
+
+        if not v1568 and (not v1565.Anchored and v1564.JumpHeight ~= 0) then
+            u1157 = false
+
+            return false
+        end
+
+        pcall(function()
+            if v1568 then
+                v1566:SetAttribute("IsTrapped", nil)
+            end
+
+            v1565.Anchored = false
+
+            if not v1567 then
+                v1564.PlatformStand = false
+            end
+
+            v1564.Sit = false
+
+            if u1128 and t9.StealTravel == "Flight" and not t9.Flight then
+                v1564.AutoRotate = false
+            else
+                v1564.AutoRotate = true
+            end
+
+            if v1564.JumpHeight < 0.5 then
+                v1564.JumpHeight = n15
+            end
+
+            local State = v1564:GetState()
+
+            if State == Enum.HumanoidStateType.Physics or State == Enum.HumanoidStateType.PlatformStanding or State == Enum.HumanoidStateType.Seated then
+                v1564:ChangeState(Enum.HumanoidStateType.Running)
+            end
+        end)
+        pcall(function()
+            local TrapBillboard = v1566:FindFirstChild("TrapBillboard", true)
+
+            if TrapBillboard then
+                TrapBillboard:Destroy()
+            end
+        end)
+
+        if not u1157 then
+            u1157 = true
+            n14 += 1
+            v1102("steal", "untrap", p180 or "freeze", n14)
+        end
+
+        return true
+    end
+    local t162 = {
+		saved = {},
+		char = nil,
+		at = 0
+	}
+    local function v1160()
+        local v1569 = t9.AntiTrap == true or t9.AntiMob == true
+
+        if not v1569 and not next(t162.saved) then
+            return
+        end
+
+        local Character = LocalPlayer.Character
+
+        if Character ~= t162.char then
+            t162.saved = {}
+            t162.char = Character
+            t162.at = 0
+
+            if not v1569 then
+                return
+            end
+        end
+
+        if not Character then
+            return
+        end
+
+        if v1569 then
+            local elapsed5 = os.clock()
+
+            if elapsed5 - (t162.at or 0) < 0.25 then
+                return
+            end
+
+            t162.at = elapsed5
+        end
+
+        for _, descendant in ipairs(Character:GetDescendants()) do
+            if descendant:IsA("BasePart") then
+                if v1569 then
+                    if t162.saved[descendant] == nil then
+                        t162.saved[descendant] = descendant.CanTouch
+                    end
+
+                    if descendant.CanTouch ~= false then
+                        descendant.CanTouch = false
+                    end
+                else
+                    local v1574 = t162.saved[descendant]
+
+                    if v1574 ~= nil then
+                        descendant.CanTouch = v1574
+                        t162.saved[descendant] = nil
+                    end
+                end
+            end
+        end
+
+        if not v1569 then
+            t162.saved = {}
+        end
+    end
+    local t163 = {
+		saved = {},
+		on = false
+	}
+    local function v1162()
+        if t163.on or next(t163.saved) then
+            for k, v in pairs(t163.saved) do
+                if k.Parent then
+                    pcall(function()
+                        k.CanCollide = v.c == nil or (v.c or true)
+                        k.CanTouch = v.t
+                    end)
+                end
+
+                t163.saved[k] = nil
+            end
+
+            t163.on = false
+        end
+
+        local Character = LocalPlayer.Character
+
+        if not Character then
+            return
+        end
+
+        for _, descendant in ipairs(Character:GetDescendants()) do
+            if descendant:IsA("BasePart") and descendant.Name ~= "HumanoidRootPart" and not descendant:FindFirstAncestorWhichIsA("Accessory") and descendant.CanCollide == false then
+                descendant.CanCollide = true
+            end
+        end
+    end
+    local function v1163(p181, p182, p183)
+        if not p181 or (not p182 or not (p182.Magnitude > 0.05)) then
+            return false
+        end
+
+        local v1583 = p183 or 12
+        local raycastParams = RaycastParams.new()
+
+        raycastParams.FilterType = Enum.RaycastFilterType.Exclude
+
+        local t164 = { LocalPlayer.Character }
+
+        if workspace.CurrentCamera then
+            t164[#t164 + 1] = workspace.CurrentCamera
+        end
+
+        raycastParams.FilterDescendantsInstances = t164
+
+        local v1586 = p181.Position + Vector3.new(0, 2.2, 0)
+        local raycastResult = workspace:Raycast(v1586, p182.Unit * v1583, raycastParams)
+
+        if not raycastResult or not raycastResult.Instance or not raycastResult.Instance.CanCollide then
+            return false
+        end
+
+        local Instance2 = raycastResult.Instance
+        local FullName = Instance2:GetFullName()
+        local v1590 = string.lower(Instance2.Name)
+        local v1591 = Instance2.Parent and string.lower(Instance2.Parent.Name) or ""
+        local Instance2Size = Instance2.Size
+        local Normal = raycastResult.Normal
+        local v1594 = FullName:find("LobbyBoundaries", 1, true) or (FullName:find("MapBound", 1, true) or (v1590:find("boundar", 1, true) or (v1590:find("mapedge", 1, true) or Instance2Size.Y >= 24 and (math.min(Instance2Size.X, Instance2Size.Z) <= 14 and math.max(Instance2Size.X, Instance2Size.Z) >= 40))))
+
+        if v1590:find("treadmill", 1, true) or (v1590:find("belt", 1, true) or (FullName:find("Treadmill", 1, true) or v1591:find("treadmill", 1, true))) then
+            return true, Vector3.new(Normal.X, 0, Normal.Z), "belt"
+        end
+
+        if not v1594 then
+            return false
+        end
+
+        return true, Vector3.new(Normal.X, 0, Normal.Z)
+    end
+    local t165 = {
+		saved = {},
+		at = 0,
+		ragOff = false,
+		patched = {},
+		muted = {},
+		groups = false,
+		strikeWrapped = false,
+		components = {},
+		runtimes = {},
+		hitArmed = false
+	}
+    local function v1165()
+        for k, v in pairs(t165.saved) do
+            if k.Parent then
+                pcall(function()
+                    k.CanCollide = v.collide
+                    k.CanTouch = v.touch
+
+                    if v.group then
+                        k.CollisionGroup = v.group
+                    end
+                end)
+            end
+
+            t165.saved[k] = nil
+        end
+    end
+    local function v1166(p184)
+        for _, descendant in ipairs(p184:GetDescendants()) do
+            local ok15, result15 = pcall(function()
+                return descendant:IsA("BasePart")
+            end)
+
+            if ok15 and result15 then
+                if t165.saved[descendant] == nil then
+                    t165.saved[descendant] = {
+						collide = descendant.CanCollide,
+						touch = descendant.CanTouch,
+						group = descendant.CollisionGroup
+					}
+                end
+
+                pcall(function()
+                    descendant.CanTouch = false
+                    descendant.CanCollide = false
+                end)
+                pcall(function()
+                    descendant.CollisionGroup = "GuardsNoCollide"
+                end)
+            end
+        end
+    end
+    local function v1167(p185)
+        local PhysicsService = game:GetService("PhysicsService")
+
+        pcall(function()
+            PhysicsService:RegisterCollisionGroup("Guards")
+            PhysicsService:RegisterCollisionGroup("Players")
+            PhysicsService:RegisterCollisionGroup("GuardsNoCollide")
+        end)
+        pcall(function()
+            PhysicsService:CollisionGroupSetCollidable("Guards", "Players", not p185)
+            PhysicsService:CollisionGroupSetCollidable("Players", "Guards", not p185)
+            PhysicsService:CollisionGroupSetCollidable("GuardsNoCollide", "Players", false)
+            PhysicsService:CollisionGroupSetCollidable("Players", "GuardsNoCollide", false)
+            PhysicsService:CollisionGroupSetCollidable("GuardsNoCollide", "Default", false)
+            PhysicsService:CollisionGroupSetCollidable("GuardsNoCollide", "Guards", false)
+        end)
+        t165.groups = p185 == true
+    end
+    local function v1168(p186)
+        local Shared = ReplicatedStorage:FindFirstChild("Shared")
+
+        for i = 1, #p186 do
+            if not Shared then
+                return
+            end
+
+            Shared = Shared:FindFirstChild(p186[i])
+        end
+
+        if Shared and Shared:IsA("ModuleScript") then
+            local ok16, result16 = pcall(require, Shared)
+
+            if ok16 then
+                return result16
+            end
+        end
+    end
+    local function v1169(p187, p188, p189)
+        if type(p187) ~= "table" or type(p187[p188]) ~= "function" then
+            return false
+        end
+        local v1617 = tostring(p187) .. "." .. tostring(p188)
+        if t165.patched[v1617] then
+            return true
+        end
+        local v1618 = p189(p187[p188])
+        local g1619
+        local ok17
+        local result17
+        repeat
+            if g1619 or type(newcclosure) == "function" then
+                if not g1619 then
+                    ok17, result17 = pcall(newcclosure, v1618)
+                end
+
+                if g1619 or ok17 and type(result17) == "function" then
+                    g1619 = false
+                    p187[p188] = result17
+                    t165.patched[v1617] = true
+
+                    return true
+                end
+            end
+
+            result17 = v1618
+            g1619 = true
+        until not g1619
+    end
+    local function v1170(p190)
+        if typeof(p190) == "Instance" then
+            return p190
+        end
+
+        if type(p190) ~= "table" then
+            return nil
+        end
+
+        for _, v in ipairs({
+			"Remote",
+			"remote",
+			"Instance",
+			"_remote",
+			"_instance",
+			"Event"
+		}) do
+            local v1625 = p190[v]
+
+            if typeof(v1625) == "Instance" then
+                return v1625
+            end
+        end
+    end
+    local function v1171(p191)
+        local v1627 = v1170(p191) or typeof(p191) == "Instance" and p191
+
+        if not v1627 or t165.muted[v1627] then
+            return
+        end
+
+        local OnClientEvent = v1627.OnClientEvent
+
+        if not OnClientEvent or not getconnections then
+            return
+        end
+
+        local ok18, result18 = pcall(getconnections, OnClientEvent)
+
+        if not ok18 or type(result18) ~= "table" then
+            return
+        end
+
+        local t166 = {}
+
+        for _, v in ipairs(result18) do
+            pcall(function()
+                if v.Disable then
+                    v:Disable()
+                end
+            end)
+            t166[#t166 + 1] = v
+        end
+
+        t165.muted[v1627] = t166
+    end
+    local function v1172(p192)
+        if not p192 then
+            for k, v in pairs(t165.components) do
+                pcall(function()
+                    if v.handler then
+                        k._attackHandler = v.handler
+                    end
+
+                    k._enabled = v.enabled ~= false
+                end)
+                t165.components[k] = nil
+            end
+
+            for k in pairs(t165.runtimes) do
+                pcall(function()
+                    k:SetEnabled(true)
+                end)
+                t165.runtimes[k] = nil
+            end
+
+            return
+        end
+
+        t165.noopAttack = t165.noopAttack or function()
+        end
+
+        for k in pairs(t165.components) do
+            k._attackHandler = t165.noopAttack
+            k._enabled = false
+        end
+    end
+    local function v1173()
+        for k, v in pairs(t165.muted) do
+            for _, v14 in ipairs(v) do
+                pcall(function()
+                    if v14.Enable then
+                        v14:Enable()
+                    end
+                end)
+            end
+
+            t165.muted[k] = nil
+        end
+    end
+    local function v1174()
+        t165.noopAttack = t165.noopAttack or function()
+        end
+
+        for k in pairs(t165.components) do
+            k._attackHandler = t165.noopAttack
+            k._enabled = false
+        end
+
+        local v1644 = v1168({
+			"Modules",
+			"GuardAreas",
+			"GuardDistance"
+		})
+        local v1645 = v1169(v1644, "XZ", function(p193)
+            return function(p194, p195)
+                if t9.AntiMob then
+                    return 1000000000
+                end
+
+                return p193(p194, p195)
+            end
+        end)
+        local v1646 = v1168({
+			"Modules",
+			"GuardAreas",
+			"GuardComponent"
+		})
+        local v1647 = v1169(v1646, "_attemptAttack", function(p196)
+            return function(...)
+                if t9.AntiMob then
+                    return
+                end
+
+                return p196(...)
+            end
+        end)
+
+        v1169(v1646, "Step", function(p197)
+            return function(p198, ...)
+                if t9.AntiMob then
+                    return nil
+                end
+
+                return p197(p198, ...)
+            end
+        end)
+
+        local v1648 = v1168({
+			"Modules",
+			"Ragdoll"
+		})
+
+        v1169(v1648, "IsRagdolled", function(p199)
+            return function(p200, ...)
+                if t9.AntiMob and p200 == LocalPlayer.Character then
+                    return false
+                end
+
+                return p199(p200, ...)
+            end
+        end)
+
+        for _, v in ipairs({
+			"TimedRagdoll",
+			"TimedRagdollAsync",
+			"ApplyClientRagdoll",
+			"Ragdoll"
+		}) do
+            v1169(v1648, v, function(p201)
+                return function(p202, ...)
+                    if t9.AntiMob then
+                        local Character = LocalPlayer.Character
+
+                        if p202 == nil or p202 == Character then
+                            return
+                        end
+                    end
+
+                    return p201(p202, ...)
+                end
+            end)
+        end
+
+        local v1651 = v1168({
+			"Modules",
+			"RagdollJoints"
+		})
+
+        v1169(v1651, "Bind", function(p203)
+            return function(...)
+                if t9.AntiMob then
+                    return
+                end
+
+                return p203(...)
+            end
+        end)
+        pcall(function()
+            local v2723 = v1168({ "Remotes" })
+            local v2724 = v2723 and v2723.GuardPatrol
+
+            if type(v2724) ~= "table" then
+                return
+            end
+
+            for k, v in pairs(v2724) do
+                local str2 = tostring(k)
+                local v2728 = v1170(v) or typeof(v) == "Instance" and v
+
+                if str2:find("Strike", 1, true) or str2:find("Handoff", 1, true) then
+                    local v2729 = "gpfs." .. str2
+
+                    if not t165.patched[v2729] then
+                        if v2728 and typeof(v2728) == "Instance" then
+                            v2724[k] = setmetatable({
+								FireServer = function(_, ...)
+                                if t9.AntiMob then
+                                    return
+                                end
+
+                                return v2728:FireServer(...)
+                            end
+							}, {
+								__index = v2728
+							})
+                            t165.patched[v2729] = true
+                        elseif type(v) == "table" and type(v.FireServer) == "function" then
+                            v1169(v, "FireServer", function(p205)
+                                return function(...)
+                                    if t9.AntiMob then
+                                        return
+                                    end
+
+                                    return p205(...)
+                                end
+                            end)
+                        end
+                    end
+                end
+
+                if str2:find("Strike", 1, true) or str2:find("Handoff", 1, true) or str2:find("SpeedToll", 1, true) or str2:find("SpeedHit", 1, true) or str2:find("Ragdoll", 1, true) or str2:find("Limp", 1, true) or str2:find("Slap", 1, true) or str2:find("Jolt", 1, true) then
+                    v1171(v2728 or v)
+                end
+            end
+        end)
+        pcall(function()
+            local v2730 = v1168({ "Remotes" })
+
+            if type(v2730) ~= "table" then
+                return
+            end
+
+            local Limpness = v2730.Limpness
+
+            v1171(Limpness and Limpness.WriteLimpness)
+
+            local SharedFx = v2730.SharedFx
+
+            v1171(SharedFx and SharedFx.JoltOnce)
+        end)
+        pcall(function()
+            local t167 = {}
+            local Network = ReplicatedStorage:FindFirstChild("Network")
+
+            if Network then
+                t167[#t167 + 1] = Network
+            end
+
+            local Packages = ReplicatedStorage:FindFirstChild("Packages")
+            local v2736 = Packages and Packages:FindFirstChild("Networking")
+
+            if v2736 then
+                t167[#t167 + 1] = v2736
+            end
+
+            for _, v in ipairs(t167) do
+                for _, descendant in ipairs(v:GetDescendants()) do
+                    if descendant:IsA("RemoteEvent") then
+                        local descendantName = descendant.Name
+
+                        if descendantName:find("Strike", 1, true) or descendantName:find("SpeedToll", 1, true) or descendantName:find("SpeedHit", 1, true) or descendantName:find("Handoff", 1, true) or descendantName:find("Ragdoll", 1, true) or descendantName:find("Limp", 1, true) or descendantName:find("Slap", 1, true) or descendantName:find("Jolt", 1, true) then
+                            v1171(descendant)
+                        end
+                    end
+                end
+            end
+        end)
+        pcall(function()
+            if not u1103 or t165.patched["EggState.DropFieldEgg"] then
+                return
+            end
+
+            v1169(u1103, "DropFieldEgg", function(p206)
+                return function(p207, ...)
+                    if t9.AntiMob and (p207 == "GuardHit" or p207 == "PlayerSlap") then
+                        return
+                    end
+
+                    if t9.AutoSteal and t216 and t216.running then
+                        return
+                    end
+
+                    return p206(p207, ...)
+                end
+            end)
+        end)
+        pcall(function()
+            local v2742 = v1168({ "Remotes" })
+            local v2743 = v2742 and v2742.EggWorld
+            local v2744 = v2743 and v2743.AskFieldEggDrop
+            local v2745 = v1170(v2744) or typeof(v2744) == "Instance" and v2744
+
+            if v2745 and (typeof(v2745) == "Instance" and not t165.patched.AskFieldEggDrop) then
+                v2743.AskFieldEggDrop = setmetatable({
+					InvokeServer = function(_, p209, ...)
+                    local v4604 = type(p209) == "table" and p209.Reason
+
+                    if t9.AntiMob and (v4604 == "GuardHit" or v4604 == "PlayerSlap") then
+                        return
+                    end
+
+                    if t9.AutoSteal and t216 and t216.running then
+                        return
+                    end
+
+                    return v2745:InvokeServer(p209, ...)
+                end
+				}, {
+					__index = v2745
+				})
+                t165.patched.AskFieldEggDrop = true
+
+                return
+            end
+
+            if type(v2744) == "table" then
+                v1169(v2744, "InvokeServer", function(p210)
+                    return function(p211, p212, ...)
+                        local v4885 = type(p212) == "table" and p212.Reason
+
+                        if t9.AntiMob and (v4885 == "GuardHit" or v4885 == "PlayerSlap") then
+                            return
+                        end
+
+                        if t9.AutoSteal and t216 and t216.running then
+                            return
+                        end
+
+                        return p210(p211, p212, ...)
+                    end
+                end)
+            end
+        end)
+
+        if not t165.attrConn then
+            local v1652 = t165
+            local connection = LocalPlayer:GetAttributeChangedSignal("RagdollEndTime"):Connect(function()
+                if t9.AntiMob then
+                    u1131()
+                end
+            end)
+
+            if connection then
+                t152[connection] = true
+            end
+
+            v1652.attrConn = connection
+        end
+
+        local v1654 = (not v1645 and "no-xz" or "xz") .. " " .. (not v1647 and "no-atk" or "atk")
+
+        if v1654 ~= t165.logged then
+            t165.logged = v1654
+            v1102("engine", "anti ragdoll patch", v1654)
+        end
+    end
+    function u1131()
+        local Character = LocalPlayer.Character
+        local v1656, v1657
+
+        if not Character then
+            v1656 = nil
+            v1657 = nil
+        else
+            v1656 = Character:FindFirstChildOfClass("Humanoid")
+            v1657 = Character:FindFirstChild("HumanoidRootPart")
+
+            if not v1656 or not v1657 or v1656.Health <= 0 then
+                v1656 = nil
+                v1657 = nil
+            end
+        end
+
+        local v1658 = v1656
+        local v1659 = v1657
+
+        if not v1658 then
+            return
+        end
+
+        local State = v1658:GetState()
+        local RagdollEndTime = LocalPlayer:GetAttribute("RagdollEndTime")
+        local Parent = v1658.Parent
+
+        if type(RagdollEndTime) ~= "number" and Parent then
+            RagdollEndTime = Parent:GetAttribute("RagdollEndTime")
+        end
+
+        local v1663 = type(RagdollEndTime) == "number" and RagdollEndTime > workspace:GetServerTimeNow() - 0.05
+
+        if not v1663 and (State ~= Enum.HumanoidStateType.Ragdoll and (State ~= Enum.HumanoidStateType.FallingDown and State ~= Enum.HumanoidStateType.Physics)) then
+            return
+        end
+
+        t165.ragOff = true
+
+        local v1664 = u1130 and u1130()
+
+        pcall(function()
+            v1658:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, false)
+            v1658:SetStateEnabled(Enum.HumanoidStateType.FallingDown, false)
+            v1658:SetStateEnabled(Enum.HumanoidStateType.Physics, false)
+
+            if v1664 then
+                v1658.PlatformStand = true
+
+                return
+            end
+
+            v1658:ChangeState(Enum.HumanoidStateType.GettingUp)
+            v1658.PlatformStand = false
+            v1658.Sit = false
+        end)
+
+        if Parent then
+            if not t165.joints then
+                t165.joints = v1168({
+					"Modules",
+					"RagdollJoints"
+				})
+            end
+
+            local joints = t165.joints
+
+            if joints and type(joints.Release) == "function" then
+                pcall(joints.Release, Parent)
+            end
+
+            pcall(function()
+                Parent:SetAttribute("RagdollEndTime", 0)
+            end)
+        end
+
+        if v1663 then
+            pcall(function()
+                LocalPlayer:SetAttribute("RagdollEndTime", 0)
+            end)
+        end
+
+        if v1659 and not v1664 then
+            pcall(function()
+                local MoveDirection = v1658.MoveDirection
+                local v2747 = v1658.WalkSpeed or 0
+
+                v1659.AssemblyLinearVelocity = Vector3.new(MoveDirection.X * v2747, v1659.AssemblyLinearVelocity.Y, MoveDirection.Z * v2747)
+                v1659.AssemblyAngularVelocity = Vector3.zero
+            end)
+        end
+    end
+    local function v1175()
+        if t9.AntiMob ~= true then
+            if not t165.hitArmed and not t165.ragOff and not t165.groups and not next(t165.saved) then
+                return
+            end
+
+            v1173()
+            v1172(false)
+
+            if t165.groups then
+                v1167(false)
+            end
+
+            if next(t165.saved) then
+                v1165()
+            end
+
+            if t165.ragOff then
+                local v1666 = select(1, v1112())
+
+                if v1666 then
+                    pcall(function()
+                        v1666:SetStateEnabled(Enum.HumanoidStateType.Ragdoll, true)
+                        v1666:SetStateEnabled(Enum.HumanoidStateType.FallingDown, true)
+                        v1666:SetStateEnabled(Enum.HumanoidStateType.Physics, true)
+                        v1666:SetStateEnabled(Enum.HumanoidStateType.Dead, true)
+                    end)
+                end
+
+                t165.ragOff = false
+            end
+
+            t165.hitArmed = false
+
+            return
+        end
+
+        if not t165.hitArmed then
+            v1174()
+            t165.hitArmed = true
+        end
+
+        if not t165.groups then
+            v1167(true)
+        end
+
+        local v1667 = select(1, v1112())
+
+        if v1667 then
+            if v1667.Health < v1667.MaxHealth then
+                pcall(function()
+                    if v1667.Health <= 0 then
+                        v1667:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+                    end
+
+                    v1667.Health = v1667.MaxHealth
+                end)
+            end
+
+            u1131()
+
+            if v1667 ~= t165.hum then
+                t165.hum = v1667
+
+                if t165.stConn then
+                    pcall(function()
+                        t165.stConn:Disconnect()
+                    end)
+                end
+
+                if t165.hpConn then
+                    pcall(function()
+                        t165.hpConn:Disconnect()
+                    end)
+                end
+
+                local v1668 = t165
+                local connection = v1667.StateChanged:Connect(function(_, newState)
+                    if t9.AntiMob ~= true then
+                        return
+                    end
+
+                    if newState == Enum.HumanoidStateType.Ragdoll or newState == Enum.HumanoidStateType.FallingDown or newState == Enum.HumanoidStateType.Physics or newState == Enum.HumanoidStateType.Dead then
+                        u1131()
+                    end
+                end)
+
+                if connection then
+                    t152[connection] = true
+                end
+
+                v1668.stConn = connection
+
+                local v1670 = t165
+                local connection5 = v1667.HealthChanged:Connect(function(p214)
+                    if t9.AntiMob == true and p214 < v1667.MaxHealth then
+                        pcall(function()
+                            if p214 <= 0 then
+                                v1667:SetStateEnabled(Enum.HumanoidStateType.Dead, false)
+                            end
+
+                            v1667.Health = v1667.MaxHealth
+                        end)
+                    end
+                end)
+
+                if connection5 then
+                    t152[connection5] = true
+                end
+
+                v1670.hpConn = connection5
+            end
+        end
+
+        local elapsed6 = os.clock()
+
+        if elapsed6 - (t165.muteAt or 0) < 0.35 then
+            return
+        end
+
+        t165.muteAt = elapsed6
+        pcall(function()
+            local __OBJECTS = workspace:FindFirstChild("__OBJECTS")
+            local v2752 = __OBJECTS and __OBJECTS:FindFirstChild("Areas")
+            local v2753 = v2752 and v2752:FindFirstChild("GuardAreas") or workspace:FindFirstChild("GuardAreas")
+
+            if not v2753 then
+                return
+            end
+
+            for _, child in ipairs(v2753:GetChildren()) do
+                local Guard = child:FindFirstChild("Guard")
+
+                if Guard and Guard:IsA("Model") then
+                    v1166(Guard)
+                end
+
+                for _, child2 in ipairs(child:GetChildren()) do
+                    if child2:IsA("Model") and child2 ~= Guard and (string.lower(child2.Name):find("guard", 1, true) or child2:FindFirstChildOfClass("Humanoid")) then
+                        v1166(child2)
+                    end
+                end
+            end
+        end)
+    end
+    local connection = LocalPlayer.CharacterRemoving:Connect(function()
+        u1145 = false
+        u1127 = nil
+        v1144()
+    end)
+    if connection then
+        t152[connection] = true
+    end
+    local connection7 = LocalPlayer.CharacterAdded:Connect(function(character)
+        t162.saved = {}
+        t162.char = nil
+        u1145 = false
+        u1127 = nil
+
+        if t216 then
+            t216.target = nil
+            t216.lastPos = nil
+            t216.stillFor = 0
+            t216.pendingCarry = nil
+        end
+
+        task.spawn(function()
+            if not u1117 then
+                return
+            end
+
+            local Humanoid = character:WaitForChild("Humanoid", 15)
+
+            if not u1117 then
+                return
+            end
+
+            local v2760 = character:FindFirstChild("HumanoidRootPart") or character:WaitForChild("HumanoidRootPart", 15)
+
+            if not Humanoid or not v2760 then
+                return
+            end
+
+            task.wait(0.55)
+
+            if not u1117 or character.Parent == nil or Humanoid.Health <= 0 then
+                return
+            end
+
+            v1144()
+            v1160()
+            v1175()
+
+            local connection6 = Humanoid.Died:Connect(function()
+                u1145 = false
+                u1127 = nil
+                v1144()
+            end)
+
+            if connection6 then
+                t152[connection6] = true
+            end
+
+            if t216 and t216.running then
+                t216.state = "Scan"
+                t216.since = os.clock()
+                u1128 = false
+                u1127 = nil
+            end
+
+            if type(Humanoid.WalkSpeed) == "number" and Humanoid.WalkSpeed > 0 and Humanoid.WalkSpeed <= 36 then
+                n9 = Humanoid.WalkSpeed
+            end
+
+            if u1130() and v2760 then
+                v1148(v2760, 0)
+            end
+        end)
+    end)
+    if connection7 then
+        t152[connection7] = true
+    end
+    local Character = LocalPlayer.Character
+    local v1179 = Character and Character:FindFirstChildOfClass("Humanoid")
+    if v1179 then
+        local connection8 = v1179.Died:Connect(function()
+            u1145 = false
+            u1127 = nil
+            v1144()
+        end)
+
+        if connection8 then
+            t152[connection8] = true
+        end
+    end
+    local function v1181(p215, p216, p217)
+        v1148(p216, p217 and p217.Y)
+
+        local v1678 = u1128 and (t9.StealTravel == "Flight" and not t9.Flight)
+
+        pcall(function()
+            p215.Jump = false
+            p215.AutoJumpEnabled = false
+            p215:Move(Vector3.zero, false)
+            p215.PlatformStand = true
+
+            if v1678 then
+                p215.AutoRotate = false
+            end
+        end)
+
+        if v1678 and p216 then
+            pcall(function()
+                p216.AssemblyAngularVelocity = Vector3.zero
+
+                local v2762 = t216 and t216.flyLook
+
+                if typeof(v2762) ~= "Vector3" or v2762.Magnitude < 0.05 then
+                    local vector3 = Vector3.new(p216.CFrame.LookVector.X, 0, p216.CFrame.LookVector.Z)
+
+                    v2762 = if not (vector3.Magnitude < 0.05) then vector3.Unit else Vector3.new(0, 0, -1)
+
+                    if t216 then
+                        t216.flyLook = v2762
+                    end
+                end
+
+                local p216Position = p216.Position
+                local p216PositionY = p216Position.Y
+                local v2766 = p216Position
+
+                if p217 and n7 then
+                    v2766 = p216Position + Vector3.new(p217.X, 0, p217.Z) * math.clamp(n7, 0, 0.05)
+                end
+
+                if u1128 then
+                    p217 = Vector3.new(p217.X, math.min(p217.Y, 0), p217.Z)
+                else
+                    local v2767 = v1147(v2766)
+                    local v2768 = type(v2767) == "number" and v2767 + 3.15 or nil
+
+                    if typeof(u1127) == "Vector3" then
+                        local Y = u1127.Y
+
+                        if v2768 then
+                            Y = math.max(Y, v2768)
+                        end
+
+                        if Y < p216PositionY then
+                            p216PositionY = Y
+                            p217 = Vector3.new(p217.X, math.min(p217.Y, 0), p217.Z)
+                        end
+                    end
+
+                    if v2768 and p216PositionY < v2768 then
+                        p216PositionY = v2768
+                        p217 = Vector3.new(p217.X, math.max(p217.Y, 0), p217.Z)
+                    end
+                end
+
+                p216.CFrame = CFrame.new(Vector3.new(p216Position.X, p216PositionY, p216Position.Z), Vector3.new(p216Position.X, p216PositionY, p216Position.Z) + v2762)
+            end)
+        elseif p216 then
+            if t216 then
+                t216.flyLook = nil
+            end
+
+            local v1679 = v1147(p216.Position)
+
+            if type(v1679) == "number" and p216.Position.Y < v1679 + 3.15 then
+                local v1680 = v1679 + 3.15 - p216.Position.Y
+
+                pcall(function()
+                    p216.CFrame = p216.CFrame + Vector3.new(0, v1680, 0)
+                end)
+
+                if p217 then
+                    p217 = Vector3.new(p217.X, math.max(p217.Y, 0), p217.Z)
+                end
+            end
+        end
+
+        if p216 and p217 then
+            p216.AssemblyLinearVelocity = p217
+        end
+    end
+    local function v1182(p218)
+        if not u1117 then
+            return
+        end
+        n7 = p218 or n7
+        local v1682 = u1130()
+        local Character2 = LocalPlayer.Character
+        local v1684, v1685
+        if not Character2 then
+            v1684 = nil
+            v1685 = nil
+        else
+            v1684 = Character2:FindFirstChildOfClass("Humanoid")
+            v1685 = Character2:FindFirstChild("HumanoidRootPart")
+
+            if not v1684 or not v1685 or v1684.Health <= 0 then
+                v1684 = nil
+                v1685 = nil
+            end
+        end
+        local v1686 = v1684
+        if u1145 and not v1682 then
+            local v1687 = u1135 and (u1135.leaving and u1135.leaving())
+
+            v1146(v1686, v1685, not v1687)
+            u1145 = false
+            pcall(v1158, "engine")
+            pcall(v1160)
+            pcall(v1175)
+
+            return
+        end
+        u1145 = v1682
+        if v1682 then
+            if v1685 then
+                pcall(function()
+                    if v1686 then
+                        v1686.WalkSpeed = math.clamp(v1151(), 16, 1300)
+                    end
+                end)
+
+                local v1688 = v1154(v1686, v1685)
+                local v1689 = v1685.Position + v1688 * math.clamp(n7, 0, 0.05)
+
+                v1148(v1685, v1688.Y)
+
+                local v1690 = v1686 and v1686.WalkSpeed or v1151()
+                local v1691 = math.max(10, v1690 or 16)
+                local v1692 = if not (v1688.Magnitude > v1691 + 1) then v1688 else v1688.Magnitude > 0.0001 and v1688.Unit * v1691 or Vector3.zero
+
+                for i = 1, #t154 do
+                    v1141(t154[i], v1685, v1686, v1689, v1692)
+                end
+
+                v1181(v1686, v1685, v1688)
+            else
+                v1144()
+            end
+
+            pcall(v1158, "engine")
+            pcall(v1160)
+            pcall(v1175)
+            v1162(false)
+
+            return
+        end
+        v1144()
+        v1158("engine")
+        v1160()
+        v1175()
+        if v1686 and type(v1686.WalkSpeed) == "number" and v1686.WalkSpeed > 0 and v1686.WalkSpeed <= 36 then
+            n9 = v1686.WalkSpeed
+        end
+        local v1694 = u1128 and typeof(u1127) == "Vector3"
+        if not v1694 and t9.BypassSpeed ~= true and t9.Flight ~= true then
+            pcall(function()
+                if v1686 then
+                    v1686.WalkSpeed = n9
+                end
+            end)
+
+            return
+        end
+        if not v1685 then
+            return
+        end
+        local v1695 = v1154(v1686, v1685)
+        local vector3 = Vector3.new(v1695.X, 0, v1695.Z)
+        local v1697 = v1694 and not u1130()
+        local u1698
+        local v1699
+        local v1700
+        if v1697 and vector3.Magnitude > 1 then
+            local v1701
+
+            v1701, v1699, v1700 = v1163(v1685, vector3, 16)
+            u1698 = v1701
+        end
+        if u1698 and v1700 == "belt" then
+            if t216 and t216.beltSunk then
+                u1698 = false
+            else
+                local v1702 = typeof(v1699) == "Vector3" and Vector3.new(v1699.X, 0, v1699.Z) or Vector3.zero
+                local vector3_2 = Vector3.new(u1127.X - v1685.Position.X, 0, u1127.Z - v1685.Position.Z)
+
+                if v1702.Magnitude > 0.05 then
+                    local Unit = v1702.Unit
+
+                    if vector3_2.Magnitude > 2 and vector3_2:Dot(Unit) < 0 then
+                        vector3_2 -= Unit * vector3_2:Dot(Unit)
+                    end
+
+                    if vector3_2.Magnitude < 4 then
+                        vector3_2 = Unit * 20
+                    end
+
+                    vector3 = vector3_2.Unit * math.max(40, v1151() * 0.5)
+                    v1695 = Vector3.new(vector3.X, v1695.Y, vector3.Z)
+                    pcall(function()
+                        v1686.Jump = true
+                    end)
+                end
+
+                u1698 = false
+            end
+        end
+        if u1698 and typeof(v1699) == "Vector3" and v1699.Magnitude > 0.05 then
+            local vector3_3 = Vector3.new(v1699.X, 0, v1699.Z)
+
+            if vector3_3.Magnitude > 0.05 then
+                local Unit = vector3_3.Unit
+                local v1707 = vector3:Dot(Unit)
+
+                if v1707 < 0 then
+                    vector3 -= Unit * v1707
+                end
+
+                if vector3.Magnitude < 8 then
+                    local vector3_4 = Vector3.new(u1127.X - v1685.Position.X, 0, u1127.Z - v1685.Position.Z)
+                    local vector3_5 = Vector3.new(-Unit.Z, 0, Unit.X)
+
+                    if vector3_5.Magnitude > 0.05 then
+                        if vector3_5:Dot(vector3_4) < 0 then
+                            vector3_5 = -vector3_5
+                        end
+
+                        vector3 = vector3_5.Unit * math.max(40, v1151() * 0.35)
+                    end
+                end
+
+                v1695 = Vector3.new(vector3.X, v1695.Y, vector3.Z)
+            end
+        end
+        pcall(function()
+            v1686.PlatformStand = false
+            v1686.Sit = false
+            v1686.AutoRotate = true
+            v1686.AutoJumpEnabled = true
+
+            local v2770 = u1135 and (u1135.leaving and u1135.leaving())
+
+            if v1697 then
+                local v2771 = v1151()
+
+                if u1698 then
+                    v1686.WalkSpeed = math.clamp(v2771, 16, 90)
+                else
+                    v1686.WalkSpeed = math.clamp(v2771, 16, 1300)
+                end
+            elseif t9.BypassSpeed == true then
+                v1686.WalkSpeed = math.clamp(tonumber(t9.BypassCap) or 880, 16, 1300)
+            else
+                v1686.WalkSpeed = n9
+            end
+
+            if v2770 or v1697 and t216 and (t216.stillFor or 0) > 0.4 then
+                v1686.Jump = true
+            elseif not v1697 then
+                v1686.Jump = false
+            end
+
+            local State = v1686:GetState()
+
+            if State == Enum.HumanoidStateType.PlatformStanding or State == Enum.HumanoidStateType.Physics or State == Enum.HumanoidStateType.Seated then
+                v1686:ChangeState(Enum.HumanoidStateType.Running)
+            end
+
+            if vector3.Magnitude > 1 then
+                v1686:Move(vector3.Unit, false)
+
+                return
+            end
+
+            v1686:Move(Vector3.zero, false)
+        end)
+        v1162()
+        v1685.AssemblyLinearVelocity = Vector3.new(v1695.X, v1685.AssemblyLinearVelocity.Y, v1695.Z)
+        local AssemblyLinearVelocity = v1685.AssemblyLinearVelocity
+        local WalkSpeed = v1686.WalkSpeed
+        local v1712 = math.max(10, WalkSpeed or 16)
+        local v1713 = if not (AssemblyLinearVelocity.Magnitude > v1712 + 1) then AssemblyLinearVelocity else AssemblyLinearVelocity.Magnitude > 0.0001 and AssemblyLinearVelocity.Unit * v1712 or Vector3.zero
+        for i = 1, #t154 do
+            v1141(t154[i], v1685, v1686, v1685.Position, v1713)
+        end
+    end
+    local function v1183(p219)
+        local v1716 = not not p219
+
+        if v1716 == u1116 then
+            if not u1116 then
+                return
+            end
+
+            if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+
+                return
+            end
+
+            if next(t155) then
+                v1150(false)
+            end
+
+            return
+        end
+
+        if v1716 then
+            v1142()
+            v1143()
+            v1102("engine", "movementStates=", #t154)
+
+            if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1150(true)
+            end
+
+            if u1118 then
+                u1118:Disconnect()
+            end
+
+            local connection9 = RunService.Stepped:Connect(function(_, dt)
+                if not u1117 then
+                    return
+                end
+
+                if u1132 and t216 and t216.running and t9.AutoSteal then
+                    local ok19, result19 = pcall(u1132, dt)
+
+                    if not ok19 then
+                        local elapsed7 = os.clock()
+
+                        if elapsed7 - (t216.lastErrAt or 0) > 2 then
+                            t216.lastErrAt = elapsed7
+                            v1102("steal", "tick ERR", (tostring(result19)))
+                        end
+                    end
+                end
+
+                pcall(v1182, dt)
+
+                if u1135 and u1135.tick then
+                    pcall(u1135.tick)
+                end
+
+                if u1134 and u1134.tick then
+                    pcall(u1134.tick)
+                end
+            end)
+
+            if connection9 then
+                t152[connection9] = true
+            end
+
+            u1118 = connection9
+            u1116 = true
+
+            if u1130() then
+                local Character3 = LocalPlayer.Character
+                local v1719
+
+                if not Character3 then
+                    v1719 = nil
+                else
+                    local Humanoid = Character3:FindFirstChildOfClass("Humanoid")
+                    local HumanoidRootPart = Character3:FindFirstChild("HumanoidRootPart")
+
+                    v1719 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+                end
+
+                if v1719 then
+                    v1148(v1719, 0)
+                end
+            end
+
+            v1102("engine", "ON speed=", v1151(), "fly=", u1130(), "wrap=", (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))))
+
+            return
+        end
+
+        local v1722 = u1145 or u1119 ~= nil
+
+        u1116 = false
+        u1128 = false
+        u1127 = nil
+        u1145 = false
+        v1150(false)
+
+        if u1118 then
+            u1118:Disconnect()
+            u1118 = nil
+        end
+
+        local Character4 = LocalPlayer.Character
+        local v1724, v1725
+
+        if not Character4 then
+            v1724 = nil
+            v1725 = nil
+        else
+            v1724 = Character4:FindFirstChildOfClass("Humanoid")
+            v1725 = Character4:FindFirstChild("HumanoidRootPart")
+
+            if not v1724 or not v1725 or v1724.Health <= 0 then
+                v1724 = nil
+                v1725 = nil
+            end
+        end
+
+        v1146(v1724, v1725, v1722)
+        v1162(false)
+        v1102("engine", "OFF")
+    end
+    local function v1184()
+        if t9.AutoSteal or (t9.AntiTrap or t9.AntiMob) then
+            return true
+        end
+
+        if u1135 and u1135.wanted and u1135.wanted() then
+            return true
+        end
+
+        if u1135 and u1135.driving and u1135.driving() then
+            return true
+        end
+
+        if u1135 and u1135.leaving and u1135.leaving() then
+            return true
+        end
+
+        return t9.BypassSpeed or t9.Flight
+    end
+    local v1185 = fireproximityprompt or fireproximityprompttrigger
+    local u1186
+    local u1187
+    local function v1188(p221)
+        if typeof(p221) ~= "Instance" then
+            return
+        end
+
+        local ok20, result20 = pcall(function()
+            return p221:IsA("ProximityPrompt")
+        end)
+
+        if not ok20 or not result20 then
+            return
+        end
+
+        pcall(function()
+            p221.HoldDuration = 0
+            p221.RequiresLineOfSight = false
+            p221.ClickablePrompt = true
+        end)
+
+        if p221.Name == "CarryAreaEgg" then
+            u1186 = p221
+        end
+    end
+    local function v1189(p222)
+        if not p222 then
+            return false
+        end
+
+        if p222.Name == "CarryAreaEgg" then
+            return true
+        end
+
+        local s16 = ""
+
+        pcall(function()
+            s16 = string.lower(tostring(p222.Name) .. " " .. tostring(p222.ActionText) .. " " .. tostring(p222.ObjectText))
+        end)
+
+        return s16:find("steal", 1, true) ~= nil or s16:find("carry", 1, true) ~= nil
+    end
+    local function v1190(p223)
+        if not p223 then
+            return
+        end
+
+        v1188(p223)
+
+        if v1185 then
+            pcall(v1185, p223, 0)
+
+            return
+        end
+
+        pcall(function()
+            p223:InputHoldBegin()
+            p223:InputHoldEnd()
+        end)
+    end
+    local function v1191()
+        if u1187 and (u1187.Parent and v1189(u1187)) then
+            return u1187
+        end
+
+        if u1186 and u1186.Parent then
+            return u1186
+        end
+
+        local SmartPromptPart = workspace:FindFirstChild("SmartPromptPart")
+        local v1733 = SmartPromptPart and SmartPromptPart:FindFirstChild("CarryAreaEgg")
+
+        if v1733 and v1733:IsA("ProximityPrompt") then
+            u1186 = v1733
+
+            return v1733
+        end
+    end
+    local function v1192(p224, _)
+        if type(p224) ~= "table" then
+            return nil
+        end
+
+        local Rarity = p224.Rarity
+
+        if type(Rarity) == "table" then
+            local DefaultRarityValue = Rarity.DefaultRarityValue
+
+            if type(DefaultRarityValue) == "string" and DefaultRarityValue ~= "" then
+                local v1747 = string.gsub(DefaultRarityValue, ",", "")
+                local v1748 = string.gsub(v1747, "1 in ", "1/")
+                local v1749 = string.gsub(v1748, " ", "")
+
+                if string.sub(v1749, 1, 2) == "1/" then
+                    local num = tonumber(string.sub(v1749, 3))
+
+                    if num and num >= 1000000000000 then
+                        return string.format("1/%.2ft", num / 1000000000000)
+                    end
+
+                    if num and num >= 1000000000 then
+                        return string.format("1/%.2fb", num / 1000000000)
+                    end
+
+                    if num and num >= 1000000 then
+                        return string.format("1/%.2fm", num / 1000000)
+                    end
+
+                    if num and num >= 1000 then
+                        return string.format("1/%.0fk", num / 1000)
+                    end
+
+                    return v1749
+                end
+            end
+        end
+
+        return nil
+    end
+    local function v1193(p226, p227)
+        if type(p227) ~= "table" and type(p226) == "table" then
+            local v1754 = p226.AssetCategory or p226.Category
+
+            p227 = if not not Directory and v1754 then Directory[v1754] else nil
+        end
+        if type(p226) == "table" then
+            local num = tonumber(p226.MoneyPerSecond)
+
+            if num and num > 0 then
+                return num
+            end
+
+            local ItemData = p226.ItemData
+
+            if type(ItemData) == "table" then
+                local num2 = tonumber(ItemData.MoneyPerSecond)
+
+                if num2 and num2 > 0 then
+                    return num2
+                end
+
+                if type(ItemData.Category) == "string" and tonumber(ItemData.Scale) then
+                    local ok21, result21 = pcall(function()
+                        return require(ReplicatedStorage.Shared.Util.AssetEarnings).MutationOnlyRatePerSecond(ItemData)
+                    end)
+
+                    if ok21 and tonumber(result21) then
+                        return (tonumber(result21))
+                    end
+                end
+            end
+        end
+        local v1760 = if type(p227) == "table" then tonumber(p227.EarningRate) or 0 else 0
+        local v1761 = type(p226) == "table" and (p226.AssetCategory or p226.Category) or nil
+        local t168 = {}
+        if type(p226) == "table" then
+            if type(p226.Mutations) == "table" then
+                t168 = p226.Mutations
+            elseif type(p226.ItemData) == "table" and type(p226.ItemData.Mutations) == "table" then
+                t168 = p226.ItemData.Mutations
+            end
+        end
+        local num
+        if type(p226) == "table" then
+            num = tonumber(p226.Scale)
+
+            if (not num or not (num > 0)) and type(p226.ItemData) == "table" then
+                num = tonumber(p226.ItemData.Scale)
+            end
+        end
+        if not num or not (num > 0) then
+            local v1764 = type(p226) == "table" and (tonumber(p226.Weight) or (tonumber(p226.Kg) or tonumber(p226.ModelWeight)))
+            local v1765 = type(p227) == "table" and tonumber(p227.ModelWeight)
+
+            num = (not v1764 or (not (v1764 > 0) or (not v1765 or not (v1765 > 0)))) and 1 or (v1764 / v1765) ^ 0.33333333333333
+        end
+        if type(v1761) == "string" then
+            local ok22, result22 = pcall(function()
+                return require(ReplicatedStorage.Shared.Util.AssetEarnings).MutationOnlyRatePerSecond({
+					Category = v1761,
+					Mutations = t168,
+					Scale = num
+				})
+            end)
+
+            if ok22 and tonumber(result22) then
+                return (tonumber(result22))
+            end
+        end
+        local v1768 = num <= 5 and num ^ 1.85 or (num / 5) ^ 1.2 * 19.637875755794
+        local n16 = 1
+        pcall(function()
+            n16 = require(ReplicatedStorage.Shared.Modules.Mutations).EarningsFor(t168)
+        end)
+        n16 = tonumber(n16) or 1
+        local v1770 = v1760 * v1768 * n16
+        if v1770 < 1 and v1760 > 0 then
+            v1770 = 1
+        end
+
+        return math.floor(v1770 + 0.5)
+    end
+    local function v1194(p228)
+        if type(p228) ~= "string" then
+            return 0
+        end
+
+        local v1772 = string.lower(p228:gsub(",", ""):gsub("%s+", ""))
+
+        if v1772 == "" or v1772 == "any" or v1772:find("blank") then
+            return 0
+        end
+
+        local v1773, v1774 = v1772:match("([%d%.]+)([kmb]?)")
+        local num = tonumber(v1773)
+
+        if not num then
+            return 0
+        end
+
+        if v1774 == "k" then
+            return num * 1000
+        end
+
+        if v1774 == "m" then
+            return num * 1000000
+        end
+
+        if v1774 == "b" then
+            num *= 1000000000
+        end
+
+        return num
+    end
+    local u1195 = (function()
+        local elapsed8 = os.clock()
+        local elapsed9 = os.clock()
+        local t169 = {}
+        local t170 = {
+			"IndexImage",
+			"IndexIcon",
+			"Icon",
+			"Image",
+			"ImageId",
+			"IconImage",
+			"Thumbnail",
+			"AssetImage",
+			"PetImage",
+			"EggImage",
+			"RenderImage",
+			"Picture"
+		}
+        local t171 = {
+			common = 9807270,
+			uncommon = 3066993,
+			rare = 3447003,
+			epic = 10181046,
+			legendary = 15844367,
+			mythic = 15158332,
+			cosmic = 5793266,
+			secret = 2303786,
+			eternal = 16766720,
+			divine = 16738740,
+			titan = 16777215
+		}
+
+        local function v1781(p229)
+            local v2785 = tonumber(p229) or 0
+            local v2786 = math.abs(v2785)
+
+            if v2786 >= 1000000000000 then
+                return string.format("%.2fT", v2785 / 1000000000000)
+            end
+
+            if v2786 >= 1000000000 then
+                return string.format("%.2fB", v2785 / 1000000000)
+            end
+
+            if v2786 >= 1000000 then
+                return string.format("%.2fm", v2785 / 1000000)
+            end
+
+            if v2786 >= 1000 then
+                return string.format("%.1fk", v2785 / 1000)
+            end
+
+            return string.format("%.0f", v2785)
+        end
+        local function v1782(p230)
+            local HookRarityFloor = t9.HookRarityFloor
+
+            if not HookRarityFloor or HookRarityFloor == "Any" then
+                return true
+            end
+
+            local n17 = 0
+            local n18 = 0
+            local v2795 = string.lower((tostring(p230 or "")))
+            local v2796 = string.lower((tostring(HookRarityFloor)))
+
+            for i, v in ipairs(t6) do
+                local v2799 = string.lower(v)
+
+                if v2799 == v2796 then
+                    n17 = i
+                end
+
+                if v2799 == v2795 then
+                    n18 = i
+                end
+            end
+
+            return n17 <= n18
+        end
+        local function v1783()
+            local v2802 = math.max(0, math.floor(os.clock() - elapsed9))
+            local v2803 = math.floor(v2802 / 3600)
+            local v2804 = math.floor(v2802 % 3600 / 60)
+            local v2805 = v2802 % 60
+
+            if v2803 > 0 then
+                return string.format("%d:%02d:%02d", v2803, v2804, v2805)
+            end
+
+            return string.format("%d:%02d", v2804, v2805)
+        end
+        local function v1784(p231)
+            if p231 == nil then
+                return
+            end
+
+            local v2807 = typeof(p231)
+
+            if v2807 == "number" then
+                if p231 > 100 then
+                    return "rbxassetid://" .. tostring(math.floor(p231))
+                end
+
+                return
+            end
+
+            if v2807 == "string" then
+                if p231 == "" or p231 == "0" or p231 == "rbxassetid://0" then
+                    return
+                end
+
+                if string.find(p231, "http", 1, true) or string.find(p231, "rbxasset", 1, true) or string.find(p231, "rbxthumb", 1, true) then
+                    return p231
+                end
+
+                local num = tonumber(p231)
+
+                if num and num > 100 then
+                    return "rbxassetid://" .. tostring(math.floor(num))
+                end
+            end
+
+            if v2807 == "Instance" then
+                if p231:IsA("ImageLabel") or p231:IsA("ImageButton") then
+                    return v1784(p231.Image)
+                end
+
+                if p231:IsA("Decal") or p231:IsA("Texture") then
+                    return v1784(p231.Texture)
+                end
+
+                local v2809 = p231:FindFirstChildWhichIsA("ImageLabel", true) or (p231:FindFirstChildWhichIsA("ImageButton", true) or p231:FindFirstChildWhichIsA("Decal", true))
+
+                if v2809 then
+                    return v1784(v2809)
+                end
+
+                return
+            end
+
+            if v2807 == "table" then
+                return v1784(p231.Image) or (v1784(p231.ImageId) or (v1784(p231.Icon) or v1784(p231.Id)))
+            end
+        end
+        local function v1785(p232)
+            if type(p232) ~= "table" then
+                return
+            end
+
+            for i = 1, #t170 do
+                local v2812 = v1784(p232[t170[i]])
+
+                if v2812 then
+                    return v2812
+                end
+            end
+
+            if type(p232.Egg) == "table" then
+                for i = 1, #t170 do
+                    local v2814 = v1784(p232.Egg[t170[i]])
+
+                    if v2814 then
+                        return v2814
+                    end
+                end
+            end
+        end
+        local function v1786(p233, p234, p235)
+            if u1134 and u1134.scanIcons then
+                pcall(u1134.scanIcons, true)
+            end
+
+            if u1134 and u1134.liveIcon then
+                local ok23, result23 = pcall(u1134.liveIcon, p233, p234, p235)
+
+                if ok23 and type(result23) == "string" and result23 ~= "" then
+                    return result23
+                end
+            end
+
+            if u1134 and u1134.icon then
+                local ok24, result24 = pcall(u1134.icon, p233, p234)
+
+                if ok24 and type(result24) == "string" and result24 ~= "" then
+                    return result24
+                end
+            end
+
+            return v1785(p233)
+        end
+        local function v1787(p236)
+            if type(p236) ~= "string" or p236 == "" then
+                return
+            end
+
+            local v2823 = p236:gsub("^http://", "https://")
+
+            if not string.find(v2823, "^https://") then
+                return
+            end
+
+            if string.find(v2823, "rbxcdn.com", 1, true) then
+                return v2823
+            end
+        end
+        local function v1788(p237)
+            local v2828 = v1787(p237)
+            local g2829
+            repeat
+                if g2829 or v2828 then
+                    if g2829 or (type(v2828) ~= "string" or string.find(v2828, "PrivateImage", 1, true) == nil) then
+
+                        if not v2828 then
+                            return
+                        end
+                        if v2828:find("/Image/", 1, true) or v2828:find("/AvatarHeadshot/", 1, true) or v2828:find("/Avatar/", 1, true) or v2828:find("/Outfit/", 1, true) then
+                            return v2828
+                        end
+
+                        return
+                    end
+                end
+
+                v2828 = nil
+                g2829 = true
+            until not g2829
+        end
+        local function v1789(p238)
+            if type(p238) ~= "string" or p238 == "" then
+                return
+            end
+
+            local v2831 = v1787(p238)
+
+            if v2831 then
+                return {
+					cdn = v2831
+				}
+            end
+
+            local v2832, v2833 = p238:match("rbxthumb://type=([%w]+)&id=(%d+)")
+
+            if not v2833 then
+                v2832, v2833 = p238:match("rbxthumb://[^%s]*type=([%w]+)[^%s]*id=(%d+)")
+            end
+
+            if v2833 then
+                local v2834 = string.lower((tostring(v2832 or "asset")))
+
+                if v2834 == "avatarheadshot" or v2834 == "avatarbust" or v2834 == "avatar" then
+                    return {
+						kind = "user",
+						id = v2833
+					}
+                end
+
+                if v2834 == "bundlethumbnail" or v2834 == "bundle" then
+                    return {
+						kind = "bundle",
+						id = v2833
+					}
+                end
+
+                return {
+					kind = "asset",
+					id = v2833
+				}
+            end
+
+            local v2835 = p238:match("rbxassetid://(%d+)") or (p238:match("[?&]assetId=(%d+)") or (p238:match("[?&]assetid=(%d+)") or (p238:match("/asset/%?id=(%d+)") or p238:match("[?&]id=(%d+)"))))
+
+            if v2835 then
+                return {
+					kind = "asset",
+					id = v2835
+				}
+            end
+        end
+        local function v1790(p239)
+            local v2837 = syn and syn.request or (http_request or (request or (http and http.request or fluxus and fluxus.request)))
+
+            if not v2837 then
+                return
+            end
+
+            for i = 1, 3 do
+                local ok25, result25 = pcall(v2837, {
+					Url = p239,
+					Method = "GET",
+					Headers = {
+						Accept = "application/json"
+					}
+				})
+
+                if (ok25 and (type(result25) == "table" and tonumber(result25.StatusCode or (result25.status_code or result25.Status)))) ~= 429 then
+                    if not ok25 or type(result25) ~= "table" then
+                        return
+                    end
+                    local v2841 = result25.Body or result25.body
+                    if type(v2841) == "table" then
+                        return v2841
+                    end
+                    if type(v2841) ~= "string" or v2841 == "" then
+                        return
+                    end
+                    local data
+                    pcall(function()
+                        data = HttpService:JSONDecode(v2841)
+                    end)
+
+                    return data, v2841
+                end
+
+                task.wait(i * 0.45)
+            end
+        end
+        local function v1791(p240)
+            if type(p240) ~= "string" then
+                return
+            end
+            local g2869
+            local g2871
+            local g2873
+            local g2875
+            local n20
+            local n19
+            for match, v2864 in p240:gsub("\\/", "/"):gmatch("\"targetId\":(%d+).-?\"imageUrl\":\"(https://[^\"]+)\"") do
+                local str3 = tostring(match or "")
+                local v2866 = v1787(v2864)
+
+                if str3 == "" or not v2866 then
+                    continue
+                end
+
+                local v2867 = t169[str3]
+
+                if v2867 then
+                    if v1788(v2866) then
+                        n19 = 3
+                        g2869 = true
+                    end
+
+                    if not g2869 then
+                        local v2870 = v1787(v2866)
+
+                        repeat
+                            if not g2871 and v2870 then
+                                if type(v2870) == "string" and string.find(v2870, "PrivateImage", 1, true) ~= nil then
+                                    g2871 = true
+                                end
+                            else
+                                g2871 = false
+                                v2870 = nil
+                            end
+                        until not g2871
+
+                        n19 = if not v2870 then not (type(v2866) == "string" and string.find(v2866, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                    end
+
+                    g2869 = false
+
+                    if v1788(v2867) then
+                        n20 = 3
+                        g2873 = true
+                    end
+
+                    if not g2873 then
+                        local v2874 = v1787(v2867)
+
+                        repeat
+                            if not g2875 and v2874 then
+                                if type(v2874) == "string" and string.find(v2874, "PrivateImage", 1, true) ~= nil then
+                                    g2875 = true
+                                end
+                            else
+                                g2875 = false
+                                v2874 = nil
+                            end
+                        until not g2875
+
+                        n20 = if not v2874 then not (type(v2867) == "string" and string.find(v2867, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                    end
+
+                    g2873 = false
+
+                    if not (n20 < n19) then
+                        continue
+                    end
+                end
+
+                t169[str3] = v2866
+            end
+        end
+        local function v1792(p241, p242)
+            local v2878 = p241 and p241.data
+            if type(v2878) ~= "table" then
+                return
+            end
+            local g2889
+            local g2891
+            local g2893
+            local g2895
+            local n22
+            local n21
+            for i = 1, #v2878 do
+                local v2880 = v2878[i]
+                local str4 = tostring(v2880.targetId or (v2880.targetid or ""))
+
+                if str4 == "" then
+                    continue
+                end
+
+                local v2882 = string.lower((tostring(v2880.state or (v2880.State or ""))))
+                local v2883
+
+                if type(v2880) ~= "table" then
+                    v2883 = nil
+                else
+                    local v2884 = string.lower((tostring(v2880.state or (v2880.State or ""))))
+
+                    v2883 = if v2884 == "" or v2884 == "completed" then v1787(v2880.imageUrl or (v2880.imageurl or v2880.ImageUrl)) else nil
+                end
+
+                if v2883 then
+                    local str5 = tostring(str4 or "")
+                    local v2886 = v1787(v2883)
+
+                    if str5 == "" or not v2886 then
+                        continue
+                    end
+
+                    local v2887 = t169[str5]
+
+                    if v2887 then
+                        if v1788(v2886) then
+                            n21 = 3
+                            g2889 = true
+                        end
+
+                        if not g2889 then
+                            local v2890 = v1787(v2886)
+
+                            repeat
+                                if not g2891 and v2890 then
+                                    if type(v2890) == "string" and string.find(v2890, "PrivateImage", 1, true) ~= nil then
+                                        g2891 = true
+                                    end
+                                else
+                                    g2891 = false
+                                    v2890 = nil
+                                end
+                            until not g2891
+
+                            n21 = if not v2890 then not (type(v2886) == "string" and string.find(v2886, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                        end
+
+                        g2889 = false
+
+                        if v1788(v2887) then
+                            n22 = 3
+                            g2893 = true
+                        end
+
+                        if not g2893 then
+                            local v2894 = v1787(v2887)
+
+                            repeat
+                                if not g2895 and v2894 then
+                                    if type(v2894) == "string" and string.find(v2894, "PrivateImage", 1, true) ~= nil then
+                                        g2895 = true
+                                    end
+                                else
+                                    g2895 = false
+                                    v2894 = nil
+                                end
+                            until not g2895
+
+                            n22 = if not v2894 then not (type(v2887) == "string" and string.find(v2887, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                        end
+
+                        g2893 = false
+
+                        if not (n22 < n21) then
+                            continue
+                        end
+                    end
+
+                    t169[str5] = v2886
+
+                    continue
+                end
+
+                if p242 and v2882 == "pending" then
+                    p242[#p242 + 1] = str4
+                end
+            end
+        end
+        local function v1793(p243)
+            if type(p243) ~= "table" or #p243 == 0 then
+                return
+            end
+
+            local function v2897(p244, p245, p246)
+                if type(p244) ~= "table" or #p244 == 0 then
+                    return {}
+                end
+
+                local t172 = {}
+                local v4616, v4617 = v1790("https://thumbnails.roblox.com/v1/" .. p245 .. table.concat(p244, ",") .. "&size=" .. p246 .. "&format=Png&isCircular=false")
+
+                v1791(v4617)
+                v1792(v4616, t172)
+
+                if #p244 == 1 and type(v4617) == "string" then
+                    local v4618 = v4617:gsub("\\/", "/"):match("\"imageUrl\":\"(https://[^\"]+)\"")
+
+                    if not v4618 then
+                        return t172
+                    end
+
+                    local str6 = tostring(p244[1] or "")
+                    local v4620 = v1787(v4618)
+
+                    if str6 ~= "" then
+                        if not v4620 then
+                            return t172
+                        end
+                        local v4621 = t169[str6]
+                        local g4622
+                        local g4624
+                        local g4626
+                        local v4625
+                        local g4628
+                        local g4630
+                        local v4629
+                        local n24
+                        local n23
+                        repeat
+                            if g4622 or not v4621 then
+                                g4622 = false
+                                t169[str6] = v4620
+
+                                return t172
+                            end
+
+                            if v1788(v4620) then
+                                n23 = 3
+                                g4624 = true
+                            end
+
+                            if not g4624 then
+                                v4625 = v1787(v4620)
+                            end
+
+                            repeat
+                                if g4624 or (g4626 or v4625) then
+                                    if g4624 or (g4626 or (type(v4625) ~= "string" or string.find(v4625, "PrivateImage", 1, true) == nil)) then
+                                        if not g4624 then
+                                            g4626 = false
+                                            n23 = if not v4625 then not (type(v4620) == "string" and string.find(v4620, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                        end
+
+                                        g4624 = false
+
+                                        if v1788(v4621) then
+                                            n24 = 3
+                                            g4628 = true
+                                        end
+
+                                        if not g4628 then
+                                            v4629 = v1787(v4621)
+                                        end
+
+                                        repeat
+                                            if g4628 or (g4630 or v4629) then
+                                                if g4628 or (g4630 or (type(v4629) ~= "string" or string.find(v4629, "PrivateImage", 1, true) == nil)) then
+                                                    if not g4628 then
+                                                        g4630 = false
+                                                        n24 = if not v4629 then not (type(v4621) == "string" and string.find(v4621, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                                    end
+
+                                                    g4628 = false
+
+                                                    if n24 < n23 then
+                                                        g4622 = true
+                                                    end
+
+                                                    if not g4622 then
+                                                        return t172
+                                                    end
+                                                end
+                                            end
+
+                                            if g4622 then
+                                                break
+                                            end
+
+                                            v4629 = nil
+                                            g4630 = true
+                                        until not g4630
+                                    end
+                                end
+
+                                if g4622 then
+                                    break
+                                end
+
+                                v4625 = nil
+                                g4626 = true
+                            until not g4626
+                        until not g4622
+                    end
+                end
+
+                return t172
+            end
+
+            local v2898 = v2897(p243, "assets?assetIds=", "150x150")
+            local t173 = {}
+
+            for i = 1, #p243 do
+                if not v1788(t169[tostring(p243[i])]) then
+                    t173[#t173 + 1] = tostring(p243[i])
+                end
+            end
+
+            if #t173 > 0 then
+                v2897(t173, "assets?assetIds=", "420x420")
+            end
+
+            if type(v2898) == "table" and #v2898 > 0 then
+                task.wait(0.4)
+                v2897(v2898, "assets?assetIds=", "150x150")
+            end
+
+            local v2901 = (function()
+                local t174 = {}
+                local t175 = {}
+
+                for i = 1, #p243 do
+                    local str7 = tostring(p243[i])
+
+                    if str7 ~= "" and not t175[str7] and type(t169[str7]) ~= "string" then
+                        t175[str7] = true
+                        t174[#t174 + 1] = str7
+                    end
+                end
+
+                return t174
+            end)()
+
+            if #v2901 > 0 then
+                v2897(v2901, "bundles/thumbnails?bundleIds=", "150x150")
+            end
+        end
+        local function v1794(p247, p248, p249)
+            local t176 = {}
+            local t177 = {}
+            local v2907 = v1786(p247, p248)
+
+            if type(v2907) == "string" and (v2907 ~= "" and not t177[v2907]) then
+                t177[v2907] = true
+                t176[#t176 + 1] = v2907
+            end
+
+            if type(p249) == "string" and p249 ~= "" and not t177[p249] then
+                t177[p249] = true
+                t176[#t176 + 1] = p249
+            end
+
+            if type(p247) == "table" then
+                local v2908 = v1784(p247.Icon)
+
+                if type(v2908) == "string" and v2908 ~= "" and not t177[v2908] then
+                    t177[v2908] = true
+                    t176[#t176 + 1] = v2908
+                end
+
+                for i = 1, #t170 do
+                    local v2910 = v1784(p247[t170[i]])
+
+                    if type(v2910) == "string" and v2910 ~= "" and not t177[v2910] then
+                        t177[v2910] = true
+                        t176[#t176 + 1] = v2910
+                    end
+                end
+            end
+
+            return t176
+        end
+        local function v1795(p250, p251, p252)
+            local v2914 = v1794(p251, p252, p250)
+            local t178 = {}
+            local t179 = {}
+            local u2917
+            local u2918
+            local function v2919(p253)
+                local v4633 = v1787(p253)
+                if not v4633 then
+                    return
+                end
+                local g4644
+                local g4646
+                local g4648
+                local v4647
+                local g4651
+                local g4653
+                local v4652
+                local n28
+                local n27
+                if type(v4633) == "string" and string.find(v4633, "PrivateImage", 1, true) ~= nil then
+                    local g4634
+                    local g4636
+                    local g4638
+                    local v4637
+                    local g4641
+                    local g4643
+                    local v4642
+                    local n26
+                    local n25
+                    repeat
+                        if g4634 or not u2918 then
+                            g4634 = false
+                            u2918 = v4633
+
+                            return
+                        end
+
+                        if v1788(v4633) then
+                            n25 = 3
+                            g4636 = true
+                        end
+
+                        if not g4636 then
+                            v4637 = v1787(v4633)
+                        end
+
+                        repeat
+                            if g4636 or (g4638 or v4637) then
+                                if g4636 or (g4638 or (type(v4637) ~= "string" or string.find(v4637, "PrivateImage", 1, true) == nil)) then
+                                    if not g4636 then
+                                        n25 = if not v4637 then not (type(v4633) == "string" and string.find(v4633, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                    end
+
+                                    g4636 = false
+
+                                    local v4639 = u2918
+
+                                    if v1788(v4639) then
+                                        n26 = 3
+                                        g4641 = true
+                                    end
+
+                                    if not g4641 then
+                                        v4642 = v1787(v4639)
+                                    end
+
+                                    repeat
+                                        if g4641 or (g4643 or v4642) then
+                                            if g4641 or (g4643 or (type(v4642) ~= "string" or string.find(v4642, "PrivateImage", 1, true) == nil)) then
+                                                if not g4641 then
+                                                    n26 = if not v4642 then not (type(v4639) == "string" and string.find(v4639, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                                end
+
+                                                g4641 = false
+
+                                                if n26 < n25 then
+                                                    g4634 = true
+                                                end
+
+                                                if not g4634 then
+                                                    return
+                                                end
+                                            end
+                                        end
+
+                                        if g4634 then
+                                            break
+                                        end
+
+                                        v4642 = nil
+                                        g4643 = true
+                                    until not g4643
+                                end
+                            end
+
+                            if g4634 then
+                                break
+                            end
+
+                            v4637 = nil
+                            g4638 = true
+                        until not g4638
+                    until not g4634
+                end
+                repeat
+                    if g4644 or not u2917 then
+                        g4644 = false
+                        u2917 = v4633
+
+                        return
+                    end
+
+                    if v1788(v4633) then
+                        n27 = 3
+                        g4646 = true
+                    end
+
+                    if not g4646 then
+                        v4647 = v1787(v4633)
+                    end
+
+                    repeat
+                        if g4646 or (g4648 or v4647) then
+                            if g4646 or (g4648 or (type(v4647) ~= "string" or string.find(v4647, "PrivateImage", 1, true) == nil)) then
+                                if not g4646 then
+                                    g4648 = false
+                                    n27 = if not v4647 then not (type(v4633) == "string" and string.find(v4633, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                end
+
+                                g4646 = false
+
+                                local v4649 = u2917
+
+                                if v1788(v4649) then
+                                    n28 = 3
+                                    g4651 = true
+                                end
+
+                                if not g4651 then
+                                    v4652 = v1787(v4649)
+                                end
+
+                                repeat
+                                    if g4651 or (g4653 or v4652) then
+                                        if g4651 or (g4653 or (type(v4652) ~= "string" or string.find(v4652, "PrivateImage", 1, true) == nil)) then
+                                            if not g4651 then
+                                                g4653 = false
+                                                n28 = if not v4652 then not (type(v4649) == "string" and string.find(v4649, "PrivateImage", 1, true) ~= nil) and 0 or 1 else 2
+                                            end
+
+                                            g4651 = false
+
+                                            if not (n28 < n27) then
+                                                return
+                                            end
+
+                                            g4644 = true
+                                        end
+                                    end
+
+                                    if g4644 then
+                                        break
+                                    end
+
+                                    v4652 = nil
+                                    g4653 = true
+                                until not g4653
+                            end
+                        end
+
+                        if g4644 then
+                            break
+                        end
+
+                        v4647 = nil
+                        g4648 = true
+                    until not g4648
+                until not g4644
+            end
+            local g2927
+            for i = 1, #v2914 do
+                local v2921 = v1789(v2914[i])
+
+                if v2921 then
+                    if v2921.cdn then
+                        v2919(v2921.cdn)
+                    end
+
+                    if v2921.id and not t179[v2921.id] then
+                        t179[v2921.id] = true
+                        t178[#t178 + 1] = v2921.id
+                        v2919(t169[v2921.id])
+                    end
+                end
+            end
+            v1793(t178)
+            for i = 1, #t178 do
+                v2919(t169[t178[i]])
+            end
+            local v2923 = v1788(u2917) or u2917
+            if not v1788(v2923) then
+                for i = 1, #t178 do
+                    local v2925 = v1788(t169[t178[i]])
+
+                    if not v2925 then
+                        local v2926 = t169[t178[i]]
+
+                        v2925 = v1787(v2926)
+
+                        repeat
+                            if not g2927 and v2925 then
+                                if type(v2925) == "string" and string.find(v2925, "PrivateImage", 1, true) ~= nil then
+                                    g2927 = true
+                                end
+                            else
+                                g2927 = false
+                                v2925 = nil
+                            end
+                        until not g2927
+                    end
+
+                    if v2925 then
+                        v2923 = v2925
+
+                        if v1788(v2925) then
+                            break
+                        end
+                    end
+                end
+            end
+
+            return v2923, t178, u2917, u2918
+        end
+
+        local t180 = {}
+
+        local function v1797(p254)
+            local str8 = tostring(p254 or "")
+
+            if str8 == "" or str8 == "0" then
+                return
+            end
+
+            if type(t180[str8]) == "string" then
+                return t180[str8]
+            end
+
+            local v2930 = v1790("https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=" .. str8 .. "&size=150x150&format=Png&isCircular=false")
+            local v2931 = v2930 and (v2930.data and v2930.data[1])
+            local v2932
+
+            if type(v2931) ~= "table" then
+                v2932 = nil
+            else
+                local v2933 = string.lower((tostring(v2931.state or (v2931.State or ""))))
+
+                v2932 = if v2933 == "" or v2933 == "completed" then v1787(v2931.imageUrl or (v2931.imageurl or v2931.ImageUrl)) else nil
+            end
+
+            if v2932 then
+                t180[str8] = v2932
+            end
+
+            return v2932
+        end
+        local function v1798(p255, p256)
+            local v2936
+            if type(p255) == "table" then
+                v2936 = tonumber(p255.Weight) or (tonumber(p255.ModelWeight) or (tonumber(p255.Kg) or tonumber(p255.BaseWeight)))
+            end
+            if (not v2936 or v2936 <= 0) and type(p256) == "table" then
+                v2936 = tonumber(p256.Weight) or (tonumber(p256.BaseWeight) or tonumber(p256.ModelWeight))
+            end
+            if not v2936 or v2936 <= 0 then
+                return
+            end
+            if v2936 >= 100 then
+                return string.format("%.0f kg", v2936)
+            end
+
+            return string.format("%.1f kg", v2936)
+        end
+        local function v1799(p257)
+            if type(p257) ~= "table" or (type(p257.Mutations) ~= "table" or #p257.Mutations == 0) then
+                return
+            end
+
+            return table.concat(p257.Mutations, " · ")
+        end
+        local function v1800()
+            local PlayerGui = LocalPlayer:FindFirstChild("PlayerGui")
+            local v2939 = PlayerGui and PlayerGui:FindFirstChild("HUD")
+            local v2940 = v2939 and v2939:FindFirstChild("GameHUD")
+            local v2941 = v2940 and v2940:FindFirstChild("BottomLeft")
+            local v2942 = v2941 and v2941:FindFirstChild("Money")
+            local v2943 = v2942 and v2942:FindFirstChild("Value")
+
+            if v2943 and ((v2943:IsA("TextLabel") or v2943:IsA("TextButton")) and v2943.Text ~= "") then
+                return v2943.Text
+            end
+
+            local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+            local v2945 = leaderstats and (leaderstats:FindFirstChild("Money") or (leaderstats:FindFirstChild("Cash") or leaderstats:FindFirstChild("Coins")))
+
+            if v2945 and v2945:IsA("ValueBase") then
+                return "$" .. v1781(v2945.Value)
+            end
+
+            return "—"
+        end
+        local function v1801()
+            local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+            local v2947 = leaderstats and (leaderstats:FindFirstChild("Money/s") or leaderstats:FindFirstChild("Income"))
+
+            if v2947 and v2947:IsA("ValueBase") then
+                return v1781(v2947.Value) .. "/s"
+            end
+
+            return "—"
+        end
+        local function v1802(p258, p259, p260)
+            if p259 == nil or p259 == "" then
+                return
+            end
+
+            return {
+				name = tostring(p258),
+				value = tostring(p259),
+				inline = p260 ~= false
+			}
+        end
+        local function v1803(...)
+            local t181 = {}
+
+            for i = 1, select("#", ...) do
+                local v2953 = select(i, ...)
+
+                if v2953 then
+                    t181[#t181 + 1] = v2953
+                end
+            end
+
+            if #t181 == 0 then
+                return
+            end
+
+            return t181
+        end
+        local function v1804()
+            if t9.HookUsername == true then
+                local t182 = {
+					name = tostring(LocalPlayer.DisplayName or LocalPlayer.Name),
+					url = "https://www.roblox.com/users/" .. tostring(LocalPlayer.UserId) .. "/profile"
+				}
+                local v2955 = v1797(LocalPlayer.UserId)
+
+                if v2955 then
+                    t182.icon_url = v2955
+                end
+
+                return t182
+            end
+
+            return {
+				name = "Kira Hub"
+			}
+        end
+        local function v1805(p261)
+            if type(p261) ~= "table" then
+                return true
+            end
+
+            if p261.Success == false or p261.success == false then
+                return false
+            end
+
+            local num = tonumber(p261.StatusCode or (p261.status_code or p261.Status))
+
+            if num and num >= 400 then
+                return false, num
+            end
+
+            return true, num
+        end
+        local function v1806(p262)
+            if type(p262) ~= "string" or #p262 < 12 then
+                return
+            end
+
+            local v2959, v2960, v2961, v2962 = string.byte(p262, 1, 4)
+
+            if v2959 == 137 and v2960 == 80 and v2961 == 78 and v2962 == 71 then
+                return "image/png", "png"
+            end
+
+            if v2959 == 255 and v2960 == 216 then
+                return "image/jpeg", "jpg"
+            end
+
+            if v2959 == 71 and v2960 == 73 and v2961 == 70 then
+                return "image/gif", "gif"
+            end
+
+            if v2959 == 82 and v2960 == 73 and v2961 == 70 and v2962 == 70 and string.sub(p262, 9, 12) == "WEBP" then
+                return "image/webp", "webp"
+            end
+        end
+        local function v1807(p263, p264)
+            if type(p263) ~= "string" or #p263 < 32 then
+                return false
+            end
+
+            if p264 == "png" then
+                return string.find(p263, "IEND", 1, true) ~= nil
+            end
+
+            if p264 == "jpg" then
+                local v2965 = #p263
+
+                return string.byte(p263, v2965 - 1) == 255 and string.byte(p263, v2965) == 217
+            end
+
+            if p264 == "gif" then
+                return #p263 > 64
+            end
+
+            return false
+        end
+        local function v1808(p265, p266)
+            local v2968 = p265 and (p265.Headers or p265.headers)
+
+            if type(v2968) ~= "table" then
+                return
+            end
+
+            local v2969 = string.lower(p266)
+
+            for k, v in pairs(v2968) do
+                if v2969 == string.lower((tostring(k))) then
+                    return v
+                end
+            end
+        end
+        local function v1809(p267)
+            if type(p267) ~= "string" then
+                return
+            end
+
+            local u2973 = p267:gsub("^http://", "https://")
+
+            if not string.find(u2973, "^https://") then
+                return
+            end
+
+            local function v2974(p268)
+                local v4655, v4656 = v1806(p268)
+
+                if v4655 and (v4656 ~= "webp" and v1807(p268, v4656)) then
+                    return p268, v4655, v4656
+                end
+            end
+
+            if string.find(u2973, "rbxcdn.com", 1, true) and type(game.HttpGet) == "function" then
+                local ok26, result26 = pcall(game.HttpGet, game, u2973)
+
+                if ok26 then
+                    local v2977, v2978 = v1806(result26)
+
+                    if if not v2977 or (v2978 == "webp" or not v1807(result26, v2978)) then nil else result26 then
+                        return v2974(result26)
+                    end
+                end
+            end
+
+            local v2979 = syn and syn.request or (http_request or (request or (http and http.request or fluxus and fluxus.request)))
+
+            if v2979 then
+                for _ = 1, 5 do
+                    local ok27, result27 = pcall(v2979, {
+						Url = u2973,
+						Method = "GET",
+						Headers = {
+							Accept = "image/png,image/jpeg,image/*;q=0.8,*/*;q=0.1"
+						}
+					})
+
+                    if not ok27 or type(result27) ~= "table" then
+                        break
+                    end
+
+                    local v2983 = result27.Body or result27.body
+                    local v2984, v2985 = v1806(v2983)
+
+                    if if not v2984 or (v2985 == "webp" or not v1807(v2983, v2985)) then nil else v2983 then
+                        return v2974(v2983)
+                    end
+
+                    local v2986 = v1808(result27, "Location")
+
+                    if type(v2986) ~= "string" or v2986 == "" then
+                        break
+                    end
+
+                    if string.find(v2986, "^https?://") then
+                        u2973 = v2986:gsub("^http://", "https://")
+                    else
+                        if string.sub(v2986, 1, 1) ~= "/" then
+                            break
+                        end
+
+                        local v2987 = u2973:match("^(https://[^/]+)")
+
+                        if not v2987 then
+                            break
+                        end
+
+                        u2973 = v2987 .. v2986
+                    end
+                end
+            end
+
+            local ok28, result28 = pcall(function()
+                if type(game.HttpGet) == "function" then
+                    return game:HttpGet(u2973)
+                end
+            end)
+
+            if ok28 then
+                return v2974(result28)
+            end
+        end
+        local function v1810(p269, p270, p271)
+            local v2993 = syn and syn.request or (http_request or (request or (http and http.request or fluxus and fluxus.request)))
+            local ok29, result29 = pcall(function()
+                return HttpService:JSONEncode(p270)
+            end)
+
+            if not ok29 or type(result29) ~= "string" then
+                return false, "encode"
+            end
+
+            if p271 and p271.bytes then
+                local v2996 = "Kira" .. tostring(math.floor(os.clock() * 1000000)) .. tostring(math.random(100000, 999999))
+                local v2997 = "--" .. v2996 .. "\r\n" .. "Content-Disposition: form-data; name=\"payload_json\"" .. "\r\n" .. "\r\n" .. result29 .. "\r\n" .. "--" .. v2996 .. "\r\n" .. "Content-Disposition: form-data; name=\"files[0]\"; filename=\"" .. (p271.name or "icon.png") .. "\"" .. "\r\n" .. "Content-Type: " .. (p271.mime or "image/png") .. "\r\n" .. "Content-Transfer-Encoding: binary" .. "\r\n" .. "\r\n" .. p271.bytes .. "\r\n" .. "--" .. v2996 .. "--\r\n"
+
+                if not string.find(p269, "wait=", 1, true) then
+                    p269 ..= (not string.find(p269, "?", 1, true) and "?" or "&") .. "wait=true"
+                end
+
+                local ok30, result30 = pcall(v2993, {
+					Url = p269,
+					Method = "POST",
+					Headers = {
+						["Content-Type"] = "multipart/form-data; boundary=" .. v2996,
+						["Content-Length"] = tostring(#v2997)
+					},
+					Body = v2997
+				})
+
+                if ok30 and select(1, v1805(result30)) then
+                    local v3000 = result30 and (result30.Body or result30.body)
+                    local v3001
+
+                    if type(v3000) ~= "string" or v3000 == "" then
+                        v3001 = false
+                    else
+                        local num = tonumber(v3000:match("\"code\"%s*:%s*(%d+)"))
+
+                        v3001 = num ~= nil and num >= 10000
+                    end
+
+                    if not v3001 then
+                        return true, result30
+                    end
+                end
+
+                return false, "multipart"
+            end
+
+            local ok31, result31 = pcall(v2993, {
+				Url = p269,
+				Method = "POST",
+				Headers = {
+					["Content-Type"] = "application/json"
+				},
+				Body = result29
+			})
+
+            if not ok31 then
+                return false, (tostring(result31))
+            end
+
+            local v3005, v3006
+
+            if type(result31) ~= "table" then
+                v3005 = true
+                v3006 = nil
+            elseif result31.Success == false or result31.success == false then
+                v3005 = false
+                v3006 = nil
+            else
+                v3006 = tonumber(result31.StatusCode or (result31.status_code or result31.Status))
+
+                if v3006 and v3006 >= 400 then
+                    v3005 = false
+                else
+                    v3005 = true
+                end
+            end
+
+            if not v3005 then
+                return false, "http " .. tostring(v3006)
+            end
+
+            return true, result31
+        end
+        local function v1811(p272)
+            if t9.HookEnabled ~= true then
+                return false, "off"
+            end
+            local HookUrl = t9.HookUrl
+            if type(HookUrl) ~= "string" or not string.find(HookUrl, "^https://") then
+                return false, "no url"
+            end
+            if (not syn or not syn.request) and (not http_request and (not request and ((not http or not http.request) and (not fluxus or not fluxus.request)))) then
+                return false, "no http"
+            end
+            local v3009, v3010, v3011, v3012 = v1795(p272.thumbnail, p272.cfg, p272.cat)
+            local str9 = tostring(p272.title or "Kira")
+            local v3014
+            local g3028
+            local str10
+            local s17
+            if #str9 > 256 then
+                v3014 = str9
+                str9 = string.sub(str9, 1, 253) .. "..."
+            end
+            local t183 = {
+				author = v1804(),
+				title = str9,
+				color = tonumber(p272.color) or 11393254,
+				timestamp = os.date("!%Y-%m-%dT%H:%M:%SZ")
+			}
+            local t184 = {}
+            local Discord = t1.Discord
+            local v3018 = tostring(((if type(Discord) == "string" and Discord:match("%S") ~= nil then (if not Discord:find("discord%.", 1) and not Discord:find("http", 1, true) then "discord.gg/" .. Discord else Discord) else nil)) or (t1.Discord or "")):gsub("^https://", "")
+            t184.text = v3018 == "" and "Kira Hub" or "Kira Hub · " .. v3018
+            t183.footer = t184
+            local v3019 = p272.description and tostring(p272.description) or ""
+            if v3014 then
+                v3019 = v3019 ~= "" and v3014 .. "\n" .. v3019 or v3014
+            end
+            if v3019 ~= "" then
+                t183.description = v3019
+            end
+            if p272.fields then
+                t183.fields = p272.fields
+            end
+            if p272.url then
+                t183.url = p272.url
+            end
+            local t186
+            local t185 = {}
+            local function v3022(p273)
+                if type(p273) ~= "string" or p273 == "" or t185[p273] then
+                    return
+                end
+
+                t185[p273] = true
+
+                local v4661, v4662, v4663 = v1809(p273)
+
+                if v4661 and v4663 then
+                    t186 = {
+						bytes = v4661,
+						mime = v4662,
+						name = "icon." .. v4663
+					}
+
+                    return true
+                end
+            end
+            local function v3023(p274)
+                local v4665 = v1787(p274)
+
+                if not v4665 then
+                    return
+                end
+
+                local v4666 = v4665:match("(180DAY%-[%w%-]+)") or v4665:match("rbxcdn%.com/([%w%-]+)/")
+
+                if not v4666 then
+                    return
+                end
+
+                return {
+					"https://tr.rbxcdn.com/" .. v4666 .. "/150/150/Image/Png/noFilter",
+					"https://tr.rbxcdn.com/" .. v4666 .. "/420/420/Image/Png/noFilter"
+				}
+            end
+            local function v3024(p275)
+                if v3022(p275) then
+                    return true
+                end
+
+                local v4668 = v3023(p275)
+
+                if type(v4668) ~= "table" then
+                    return
+                end
+
+                for i = 1, #v4668 do
+                    if v3022(v4668[i]) then
+                        return true
+                    end
+                end
+            end
+            local t187 = {
+				username = "Kira Hub",
+				embeds = { t183 }
+			}
+            local HookPing = t9.HookPing
+            if HookPing == "Here" then
+                s17 = "@here"
+                g3028 = true
+            end
+            repeat
+                if g3028 or (g3028 or HookPing == "User id") then
+                    if not g3028 then
+                        if not g3028 then
+                            str10 = tostring(t9.HookUserId or "")
+                        end
+                    end
+
+                    if g3028 or (g3028 or str10 ~= "" and str10 ~= "0") then
+                        if not g3028 then
+                            if not g3028 then
+                                s17 = "<@" .. str10 .. ">"
+                            end
+                        end
+
+                        g3028 = false
+
+                        if s17 then
+                            t187.content = s17
+                        end
+
+                        local v3030 = v1788(v3011) or v1788(v3009)
+
+                        if not v3030 and type(v3010) == "table" then
+                            for i = 1, #v3010 do
+                                local v3032 = t169[v3010[i]]
+
+                                v3030 = v1788(v3032)
+
+                                if v3030 then
+                                    break
+                                end
+                            end
+                        end
+
+                        if not v3030 then
+                            v3030 = v1788(v3012)
+                        end
+
+                        if v3030 then
+                            t183.thumbnail = {
+								url = v3030
+							}
+
+                            return v1810(HookUrl, t187)
+                        end
+
+                        if not t186 then
+                            v3024(v3012)
+                            v3024(v3009)
+                            v3024(v3011)
+
+                            if not t186 and type(v3010) == "table" then
+                                for i = 1, math.min(#v3010, 8) do
+                                    v3024(t169[v3010[i]])
+
+                                    if t186 then
+                                        break
+                                    end
+
+                                    local str11 = tostring(v3010[i])
+
+                                    v3022("https://assetdelivery.roblox.com/v1/asset/?id=" .. str11)
+                                    v3022("https://www.roblox.com/asset-thumbnail/image?assetId=" .. str11 .. "&width=150&height=150&format=png")
+
+                                    if t186 then
+                                        break
+                                    end
+                                end
+                            end
+                        end
+
+                        if t186 then
+                            t183.thumbnail = {
+								url = "attachment://" .. t186.name
+							}
+                            t187.attachments = {{
+								id = 0,
+								filename = t186.name
+							}}
+
+                            if select(1, v1810(HookUrl, t187, t186)) then
+                                return true
+                            end
+
+                            t187.attachments = nil
+                        end
+
+                        t183.thumbnail = nil
+
+                        return v1810(HookUrl, t187)
+                    end
+                end
+
+                s17 = nil
+                g3028 = true
+            until not g3028
+        end
+        local function v1812(p276)
+            if type(p276) ~= "table" then
+                return nil, nil, nil
+            end
+
+            local rec = p276.rec
+            local cfg = p276.cfg
+            local v3039 = p276.cat or rec and (rec.AssetCategory or rec.Category)
+
+            if type(cfg) ~= "table" and v3039 then
+                cfg = if not not Directory and v3039 then Directory[v3039] else nil
+            end
+
+            if type(cfg) ~= "table" and type(Directory) == "table" then
+                local v3040 = string.lower((tostring(p276.name or (v3039 or ""))))
+
+                if v3040 ~= "" and v3040 ~= "egg" and v3040 ~= "?" then
+                    for k, v in pairs(Directory) do
+                        if type(v) == "table" and (v3040 == string.lower((tostring(k))) or v3040 == string.lower((tostring(v.DisplayName or "")))) then
+                            return rec, v, (tostring(k))
+                        end
+                    end
+                end
+            end
+
+            return rec, cfg, v3039
+        end
+        local function v1813()
+            if t9.HookEnabled ~= true or t9.SessionDigest ~= true then
+                return
+            end
+
+            local elapsed10 = os.clock()
+
+            if elapsed10 - elapsed8 < 600 then
+                return
+            end
+
+            elapsed8 = elapsed10
+
+            local v3109 = u1135 and (not not u1135.stats and u1135.stats()) or {}
+            local v3110 = (tonumber(v3109.soldPets) or 0) + (tonumber(v3109.soldEggs) or 0)
+            local v3111 = tostring(v3109.soldPets or 0) .. " pets · " .. tostring(v3109.soldEggs or 0) .. " eggs"
+            local t188 = {
+				kind = "Session recap",
+				title = v1783() .. " running",
+				description = "Totals since this execute — not just the last 10 minutes.",
+				color = 9807270
+			}
+            local v3113 = v1803
+            local str12 = tostring(t216 and t216.banked or 0)
+            local v3115 = if str12 ~= nil and str12 ~= "" then {
+				name = tostring("Stolen"),
+				value = tostring(str12),
+				inline = true
+			} else nil
+            local str13 = tostring(t216 and t216.lost or 0)
+            local v3117 = if str13 ~= nil and str13 ~= "" then {
+				name = tostring("Lost"),
+				value = tostring(str13),
+				inline = true
+			} else nil
+            local str14 = tostring(t216 and t216.regrabs or 0)
+            local v3119 = if str14 ~= nil and str14 ~= "" then {
+				name = tostring("Re-grabs"),
+				value = tostring(str14),
+				inline = true
+			} else nil
+            local str15 = tostring(v3109.hatched or 0)
+            local v3121 = if str15 ~= nil and str15 ~= "" then {
+				name = tostring("Hatched"),
+				value = tostring(str15),
+				inline = true
+			} else nil
+            local v3122 = v3110 > 0 and v3111 or "0"
+            local v3123 = if v3122 ~= nil and v3122 ~= "" then {
+				name = tostring("Sold"),
+				value = tostring(v3122),
+				inline = true
+			} else nil
+            local str16 = tostring(v3109.claimIndex or 0)
+            local v3125 = if str16 ~= nil and str16 ~= "" then {
+				name = tostring("Index claims"),
+				value = tostring(str16),
+				inline = true
+			} else nil
+            local v3126 = v1800()
+
+            t188.fields = v3113(v3115, v3117, v3119, v3121, v3123, v3125, if v3126 ~= nil and v3126 ~= "" then {
+				name = tostring("Money"),
+				value = tostring(v3126),
+				inline = true
+			} else nil, v1802("Income", (v1801())))
+
+            if type(t188) ~= "table" then
+                return
+            end
+
+            task.spawn(function()
+                local v4681, v4682 = v1811(t188)
+
+                if not v4681 then
+                    v1102("hook", "send fail", tostring(v4682), (tostring(t188.title)))
+                end
+            end)
+        end
+
+        task.spawn(function()
+            while u1117 do
+                task.wait(30)
+                pcall(v1813)
+            end
+        end)
+
+        return {
+			send = function(p277)
+            if type(p277) ~= "table" then
+                return false, "bad embed"
+            end
+
+            task.spawn(function()
+                local v4671, v4672 = v1811(p277)
+
+                if not v4671 then
+                    v1102("hook", "send fail", tostring(v4672), (tostring(p277.title)))
+                end
+            end)
+
+            return true
+        end,
+			test = function()
+            t9.HookEnabled = true
+
+            if t10.HookEnabled and t10.HookEnabled.set then
+                pcall(t10.HookEnabled.set, true)
+            end
+
+            local v3102 = v1811
+            local t189 = {
+					kind = "Webhook test",
+					title = "Connected",
+					description = "Stolen and hatched eggs will post as embeds with the pet icon, $/s, and rarity.",
+					color = 11393254
+				}
+            local v3104 = v1803
+            local str17 = tostring(LocalPlayer.DisplayName or LocalPlayer.Name)
+            local v3106 = if str17 ~= nil and str17 ~= "" then {
+					name = tostring("Player"),
+					value = tostring(str17),
+					inline = true
+				} else nil
+            local str18 = tostring(t1.Game or "Roblox")
+
+            t189.fields = v3104(v3106, if str18 ~= nil and str18 ~= "" then {
+					name = tostring("Game"),
+					value = tostring(str18),
+					inline = true
+				} else nil, v1802("Session", v1783()))
+
+            return v3102(t189)
+        end,
+			stolen = function(p278)
+            if t9.HookStolen ~= true then
+                return
+            end
+
+            local v3044 = p278 or t216 and (t216.hookSnap or t216.target)
+            local v3045, v3046, v3047 = v1812(v3044)
+            local v3048 = v3044 and v3044.name
+
+            if type(v3048) ~= "string" or v3048 == "" or v3048 == "egg" or v3048 == "?" then
+                v3048 = v3046 and (v3046.DisplayName or v3046._id) or (v3047 and tostring(v3047) or nil)
+            end
+
+            local v3049 = v1193(v3045, v3046)
+
+            if (not v3049 or v3049 == 0) and v3044 and tonumber(v3044.earn) then
+                v3049 = v3044.earn
+            end
+
+            if (not v3049 or v3049 == 0) and type(v3046) == "table" then
+                v3049 = if type(v3046) == "table" then tonumber(v3046.EarningRate) or 0 else 0
+            end
+
+            local v3050 = if type(v3046) == "table" and type(v3046.Rarity) == "table" then tostring(v3046.Rarity.DisplayName or (v3046.Rarity.Name or (v3046.Rarity._id or "?"))) else "?"
+
+            if (not v3050 or v3050 == "?") and v3044 and type(v3044.rar) == "string" then
+                v3050 = v3044.rar
+            end
+
+            if (not v3048 or v3048 == "egg") and type(v3046) ~= "table" then
+                v1102("hook", "stolen skipped, no egg")
+
+                return
+            end
+
+            local v3051 = v3048 or (v3046 and v3046.DisplayName or "egg")
+            local v3052 = v1194(t9.HookMinGen)
+
+            if v3052 > 0 and v3052 > (tonumber(v3049) or 0) or not v1782(v3050) then
+                return
+            end
+
+            local t190 = {
+					kind = "Egg stolen",
+					title = tostring(v3051),
+					color = t171[string.lower((tostring(v3050 or "")))] or 5814783,
+					thumbnail = v3044 and v3044.icon or v1786(v3046, v3047, v3051),
+					cfg = v3046,
+					cat = v3047
+				}
+            local v3054 = v1803
+            local v3055 = "**" .. v1781(v3049) .. "/s**"
+            local v3056 = if v3055 ~= nil and v3055 ~= "" then {
+					name = tostring("Earns"),
+					value = tostring(v3055),
+					inline = true
+				} else nil
+            local v3057 = if v3050 ~= nil and v3050 ~= "" then {
+					name = tostring("Rarity"),
+					value = tostring(v3050),
+					inline = true
+				} else nil
+            local v3058, v3059 = v1192(v3046, v3045)
+            local v3060 = if v3058 ~= nil and v3058 ~= "" then {
+					name = tostring("Chance"),
+					value = tostring(v3058),
+					inline = v3059 ~= false
+				} else nil
+            local v3061, v3062 = v1798(v3045, v3046)
+            local v3063 = if v3061 ~= nil and v3061 ~= "" then {
+					name = tostring("Weight"),
+					value = tostring(v3061),
+					inline = v3062 ~= false
+				} else nil
+            local v3064, v3065
+
+            if type(v3045) ~= "table" or type(v3045.Mutations) ~= "table" or #v3045.Mutations == 0 then
+                v3064 = nil
+                v3065 = nil
+            else
+                v3064, v3065 = table.concat(v3045.Mutations, " · ")
+            end
+
+            local v3066 = if v3064 ~= nil and v3064 ~= "" then {
+					name = tostring("Mutations"),
+					value = tostring(v3064),
+					inline = v3065 ~= false
+				} else nil
+            local v3067 = v3044 and (v3044.area ~= "" and v3044.area) or nil
+
+            t190.fields = v3054(v3056, v3057, v3060, v3063, v3066, if v3067 ~= nil and v3067 ~= "" then {
+					name = tostring("Area"),
+					value = tostring(v3067),
+					inline = true
+				} else nil, v1802("This session", tostring(t216 and t216.banked or 0) .. " stolen · " .. tostring(t216 and t216.lost or 0) .. " lost"))
+
+            if type(t190) ~= "table" then
+                return
+            end
+
+            task.spawn(function()
+                local v4673, v4674 = v1811(t190)
+
+                if not v4673 then
+                    v1102("hook", "send fail", tostring(v4674), (tostring(t190.title)))
+                end
+            end)
+        end,
+			hatched = function(p279, p280, p281)
+            if t9.HookHatched ~= true then
+                return
+            end
+
+            local v3071 = type(p279) == "table" and p279 or {
+					name = p279,
+					earn = p280,
+					rar = p281
+				}
+            local v3072 = v3071.name or "pet"
+            local v3073 = v1193(v3071.rec, v3071.cfg)
+
+            if v3073 == 0 and tonumber(v3071.earn) then
+                v3073 = v3071.earn
+            end
+
+            local rar = v3071.rar
+
+            if not rar then
+                local cfg = v3071.cfg
+
+                rar = ((if type(cfg) == "table" and type(cfg.Rarity) == "table" then tostring(cfg.Rarity.DisplayName or (cfg.Rarity.Name or (cfg.Rarity._id or "?"))) else "?")) or "?"
+            end
+
+            local v3076 = v1194(t9.HookMinGen)
+
+            if v3076 > 0 and v3076 > (tonumber(v3073) or 0) or not v1782(rar) then
+                return
+            end
+
+            local t191 = {
+					kind = "Egg hatched",
+					title = tostring(v3072),
+					color = t171[string.lower((tostring(rar or "")))] or 3908956,
+					thumbnail = v1786(v3071.cfg, v3071.cat, v3072),
+					cfg = v3071.cfg,
+					cat = v3071.cat
+				}
+            local v3078 = v1803
+            local v3079 = "**" .. v1781(v3073) .. "/s**"
+            local v3080 = if v3079 ~= nil and v3079 ~= "" then {
+					name = tostring("Earns"),
+					value = tostring(v3079),
+					inline = true
+				} else nil
+            local v3081 = if rar ~= nil and rar ~= "" then {
+					name = tostring("Rarity"),
+					value = tostring(rar),
+					inline = true
+				} else nil
+            local v3082, v3083 = v1192(v3071.cfg, v3071.rec)
+            local v3084 = if v3082 ~= nil and v3082 ~= "" then {
+					name = tostring("Chance"),
+					value = tostring(v3082),
+					inline = v3083 ~= false
+				} else nil
+            local v3085, v3086 = v1798(v3071.rec, v3071.cfg)
+
+            t191.fields = v3078(v3080, v3081, v3084, if v3085 ~= nil and v3085 ~= "" then {
+					name = tostring("Weight"),
+					value = tostring(v3085),
+					inline = v3086 ~= false
+				} else nil, v1802("Mutations", v1799(v3071.rec)))
+
+            if type(t191) ~= "table" then
+                return
+            end
+
+            task.spawn(function()
+                local v4675, v4676 = v1811(t191)
+
+                if not v4675 then
+                    v1102("hook", "send fail", tostring(v4676), (tostring(t191.title)))
+                end
+            end)
+        end,
+			sold = function(p282, p283, p284)
+            if t9.HookSold ~= true then
+                return
+            end
+
+            local v3090 = type(p282) == "table" and p282 or {
+					kind = p282,
+					name = p283,
+					earn = p284
+				}
+            local v3091, v3092, v3093 = v1812(v3090)
+
+            v3090.cfg = v3092 or v3090.cfg
+            v3090.cat = v3093 or v3090.cat
+            v3090.rec = v3091 or v3090.rec
+
+            local v3094 = v3090.kind ~= "egg" and "pet" or "egg"
+            local v3095 = v3092 and (if type(v3092) == "table" and type(v3092.Rarity) == "table" then tostring(v3092.Rarity.DisplayName or (v3092.Rarity.Name or (v3092.Rarity._id or "?"))) else "?") or nil
+            local name = v3090.name
+
+            if type(name) ~= "string" or name == "" or name == "egg" or name == "pet" then
+                name = v3092 and v3092.DisplayName or (v3093 or v3094)
+            end
+
+            local t192 = {
+					kind = v3094 ~= "egg" and "Sold a pet" or "Sold an egg",
+					title = tostring(name),
+					color = t171[string.lower((tostring(v3095 or "")))] or 15105570,
+					thumbnail = v1786(v3092, v3093, name),
+					cfg = v3092,
+					cat = v3093
+				}
+            local v3098 = v1803
+            local v3099 = "**" .. v1781(v1193(v3090.rec, v3092)) .. "/s**"
+
+            t192.fields = v3098(if v3099 ~= nil and v3099 ~= "" then {
+					name = tostring("Earns"),
+					value = tostring(v3099),
+					inline = true
+				} else nil, if v3095 ~= nil and v3095 ~= "" then {
+					name = tostring("Rarity"),
+					value = tostring(v3095),
+					inline = true
+				} else nil, v1802("Chance", v1192(v3092, v3090.rec)))
+
+            if type(t192) ~= "table" then
+                return
+            end
+
+            task.spawn(function()
+                local v4677, v4678 = v1811(t192)
+
+                if not v4677 then
+                    v1102("hook", "send fail", tostring(v4678), (tostring(t192.title)))
+                end
+            end)
+        end,
+			rewards = function(p285)
+            if t9.HookRewards ~= true then
+                return
+            end
+
+            local t193 = {
+					kind = "Rewards claimed",
+					title = "Index rewards",
+					description = "Claimed **" .. tostring(p285) .. "** " .. (tonumber(p285) ~= 1 and "entries" or "entry"),
+					color = 3447003
+				}
+
+            if type(t193) ~= "table" then
+                return
+            end
+
+            task.spawn(function()
+                local v4679, v4680 = v1811(t193)
+
+                if not v4679 then
+                    v1102("hook", "send fail", tostring(v4680), (tostring(t193.title)))
+                end
+            end)
+        end
+		}
+    end)()
+    local function v1196(p286)
+        local t194 = {}
+
+        if type(p286) ~= "table" then
+            return t194
+        end
+
+        for _, v in ipairs(p286) do
+            t194[string.lower((tostring(v)))] = true
+        end
+
+        return t194
+    end
+    local t195 = {}
+    local n29 = 0
+    local t202
+    local n30 = 0
+    local u1201
+    local u1202 = false
+    local function v1203()
+        local v1820 = workspace:GetServerTimeNow() or 0
+        local AreaEggCycleDisabledAt = workspace:GetAttribute("AreaEggCycleDisabledAt")
+
+        if type(AreaEggCycleDisabledAt) == "number" then
+            v1820 = math.min(v1820, AreaEggCycleDisabledAt)
+        end
+
+        local AreaEggCycleAnchorAt = workspace:GetAttribute("AreaEggCycleAnchorAt")
+        local AreaEggCycleAnchorIndex = workspace:GetAttribute("AreaEggCycleAnchorIndex")
+
+        if type(AreaEggCycleAnchorAt) ~= "number" then
+            AreaEggCycleAnchorAt = 0
+        end
+
+        if type(AreaEggCycleAnchorIndex) ~= "number" then
+            AreaEggCycleAnchorIndex = 0
+        end
+
+        return math.max(0, AreaEggCycleAnchorIndex + math.floor((v1820 - AreaEggCycleAnchorAt) / 300))
+    end
+    local function v1204(p287)
+        local elapsed11 = os.clock()
+        local v1826 = v1203()
+
+        if v1826 ~= u1201 then
+            u1201 = v1826
+            p287 = true
+            u1202 = true
+            n30 = 0
+            t195 = {}
+
+            if t216 then
+                t216.eggResetAt = os.clock()
+                t216.eggResetN = 0
+                t216.eggResetGrew = 0
+            end
+        end
+
+        if not p287 and type(t195) == "table" and elapsed11 - n29 < 0.4 then
+            return t195
+        end
+
+        if not u1103 then
+            return t195
+        end
+
+        local v1827 = u1103.ReadFieldEggs or u1103.SyncFieldEggs
+
+        if type(v1827) ~= "function" then
+            return t195
+        end
+
+        local ok32, result32, _, _ = pcall(v1827)
+
+        if not ok32 then
+            v1102("eggs", "ERR", "ReadFieldEggs", (tostring(result32)))
+            result32 = nil
+        end
+
+        if type(result32) ~= "table" or type(result32.Records) ~= "table" then
+            n29 = elapsed11 - 0.28
+
+            return t195
+        end
+
+        local t196 = {}
+        local t197 = {}
+
+        for _, v in pairs(result32.Records) do
+            if type(v) == "table" and v.Uid and not t197[v.Uid] then
+                t197[v.Uid] = true
+                t196[#t196 + 1] = v
+            end
+        end
+
+        if #t196 == 0 and #t195 > 0 and elapsed11 - n30 < 2.5 then
+            n29 = elapsed11
+
+            return t195
+        end
+
+        t195 = t196
+        n29 = elapsed11
+
+        if #t196 > 0 then
+            n30 = elapsed11
+        end
+
+        if t216 and (t216.eggResetAt or 0) > 0 and (t216.eggResetN or 0) < #t196 then
+            t216.eggResetN = #t196
+            t216.eggResetGrew = elapsed11
+        end
+
+        return t196
+    end
+    pcall(function()
+        local v1836 = u1103 and u1103.FieldRefreshed
+
+        if type(v1836) == "table" and type(v1836.Connect) == "function" then
+            local connection10 = v1836:Connect(function()
+                local v3127 = type(t195) == "table" and #t195 or 0
+
+                n29 = 0
+                n30 = 0
+                u1202 = true
+
+                if t216 and v3127 > 6 then
+                    t216.eggResetAt = os.clock()
+                    t216.eggResetN = 0
+                    t216.eggResetGrew = 0
+                end
+            end)
+
+            if connection10 then
+                t152[connection10] = true
+            end
+        end
+    end)
+    local function v1205(p288, p289)
+        local t198 = {}
+
+        for _, v in ipairs(p288) do
+            t198[string.lower((tostring(v)))] = true
+        end
+
+        local t199 = {}
+
+        for _, v in ipairs(p289) do
+            local str19 = tostring(v or "")
+
+            if str19 ~= "" and str19 ~= "nil" and not t198[string.lower(str19)] then
+                p288[#p288 + 1] = str19
+                t198[string.lower(str19)] = true
+                t199[#t199 + 1] = str19
+            end
+        end
+
+        return t199
+    end
+    local function v1206(p290, p291)
+        if type(p291) ~= "table" or #p291 == 0 then
+            return
+        end
+
+        local v1849 = t9[p290]
+
+        if type(v1849) ~= "table" then
+            return
+        end
+
+        local t200 = {}
+        local t201 = {}
+
+        for i = 1, #v1849 do
+            local str20 = tostring(v1849[i])
+
+            t201[#t201 + 1] = v1849[i]
+            t200[str20] = true
+        end
+
+        local v1854 = false
+
+        for i = 1, #p291 do
+            local str21 = tostring(p291[i])
+
+            if str21 ~= "" and str21 ~= "nil" and not t200[str21] then
+                t201[#t201 + 1] = str21
+                t200[str21] = true
+                v1854 = true
+            end
+        end
+
+        if not v1854 then
+            return
+        end
+
+        t9[p290] = t201
+
+        local v1857 = t10[p290]
+
+        if v1857 and v1857.set then
+            v1857.set(t201)
+        end
+    end
+    local function v1207(p292, p293, p294)
+        local v1861 = t10[p292]
+        local v1862 = v1861 and v1861.options
+
+        if type(v1862) ~= "table" then
+            return
+        end
+
+        local v1863 = t9[p292]
+
+        for i = #v1862, 1, -1 do
+            v1862[i] = nil
+        end
+
+        for _, v in ipairs(p293) do
+            v1862[#v1862 + 1] = v
+        end
+
+        for _, v in ipairs(p294) do
+            v1862[#v1862 + 1] = v
+        end
+
+        if v1861.refresh then
+            v1861.refresh()
+        end
+
+        if v1863 ~= nil and v1861.set then
+            v1861.set(v1863)
+        end
+    end
+    local function v1208()
+        if not t202 then
+            t202 = {
+				a = {},
+				r = {},
+				m = {},
+				adopted = false
+			}
+
+            for _, v in ipairs(t5) do
+                t202.a[v] = true
+            end
+
+            for _, v in ipairs(t6) do
+                t202.r[v] = true
+            end
+
+            for _, v in ipairs(t7) do
+                t202.m[v] = true
+            end
+        end
+
+        local t203 = {}
+        local t204 = {}
+        local t205 = {}
+
+        local function v1878(p295, p296)
+            local str22 = tostring(p295 or "")
+
+            if str22 == "" or (str22 == "?" or str22 == "nil" or t205[str22]) then
+                return
+            end
+
+            t205[str22] = true
+            t204[#t204 + 1] = {
+				name = str22,
+				n = tonumber(p296) or 999
+			}
+        end
+
+        if type(Directory2) == "table" then
+            local t206 = {}
+
+            for k, v in pairs(Directory2) do
+                local str23 = tostring(k)
+                local n31 = 999
+
+                if type(v) == "table" then
+                    str23 = tostring(v.DisplayName or (v._id or k))
+
+                    if type(v.Rarity) == "table" then
+                        n31 = tonumber(v.Rarity.RarityNumber) or 999
+                        v1878(v.Rarity.DisplayName or (v.Rarity.Name or v.Rarity._id), n31)
+                    end
+                end
+
+                t206[#t206 + 1] = {
+					name = str23,
+					n = n31
+				}
+            end
+
+            table.sort(t206, function(p297, p298)
+                if p297.n ~= p298.n then
+                    return p297.n < p298.n
+                end
+
+                return p297.name < p298.name
+            end)
+
+            for _, v in ipairs(t206) do
+                t203[#t203 + 1] = v.name
+            end
+        end
+
+        pcall(function()
+            for _, v in ipairs(t195) do
+                if type(v) == "table" then
+                    if v.AreaId then
+                        t203[#t203 + 1] = tostring(v.AreaId)
+                    end
+
+                    local AssetCategory = v.AssetCategory
+                    local v3136 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+
+                    if type(v3136) == "table" and type(v3136.Rarity) == "table" then
+                        v1878(v3136.Rarity.DisplayName or (v3136.Rarity.Name or v3136.Rarity._id), v3136.Rarity.RarityNumber)
+                    end
+                end
+            end
+        end)
+
+        if type(Directory) == "table" then
+            for _, v in pairs(Directory) do
+                if type(v) == "table" and type(v.Rarity) == "table" then
+                    v1878(v.Rarity.DisplayName or (v.Rarity.Name or v.Rarity._id), v.Rarity.RarityNumber)
+                end
+            end
+        end
+
+        table.sort(t204, function(p299, p300)
+            if p299.n ~= p300.n then
+                return p299.n < p300.n
+            end
+
+            return p299.name < p300.name
+        end)
+
+        local t207 = {}
+
+        for _, v in ipairs(t204) do
+            t207[#t207 + 1] = v.name
+        end
+
+        local t208 = {}
+
+        if type(Directory) == "table" then
+            for _, v in pairs(Directory) do
+                if type(v) == "table" then
+                    if type(v.Mutations) == "table" then
+                        for _, v15 in pairs(v.Mutations) do
+                            if type(v15) == "string" then
+                                t208[#t208 + 1] = v15
+                            end
+                        end
+                    end
+
+                    if type(v.Mutation) == "string" then
+                        t208[#t208 + 1] = v.Mutation
+                    end
+                end
+            end
+        end
+
+        pcall(function()
+            for _, v in ipairs(t195) do
+                if type(v) == "table" and type(v.Mutations) == "table" then
+                    for _, v16 in ipairs(v.Mutations) do
+                        t208[#t208 + 1] = tostring(v16)
+                    end
+                end
+            end
+        end)
+
+        local v1896 = v1205(t5, t203)
+        local v1897 = v1205(t6, t207)
+        local v1898 = v1205(t7, t208)
+        local t209 = {
+			common = 1,
+			uncommon = 2,
+			rare = 3,
+			epic = 4,
+			legendary = 5,
+			mythic = 6,
+			cosmic = 7,
+			secret = 8,
+			eternal = 9,
+			divine = 10,
+			titan = 11
+		}
+        local t210 = {}
+
+        for i = 1, #t204 do
+            local v1902 = t204[i]
+
+            if v1902 and v1902.name then
+                t210[string.lower(v1902.name)] = tonumber(v1902.n) or 999
+            end
+        end
+
+        table.sort(t6, function(p301, p302)
+            local v3145 = string.lower((tostring(p301)))
+            local v3146 = string.lower((tostring(p302)))
+            local v3147 = t209[v3145] or 100 + (t210[v3145] or 999)
+            local v3148 = t209[v3146] or 100 + (t210[v3146] or 999)
+
+            if v3147 ~= v3148 then
+                return v3147 < v3148
+            end
+
+            return tostring(p301) < tostring(p302)
+        end)
+
+        if #v1896 > 0 then
+            v1102("modules", "new zones", table.concat(v1896, ", "), "·", #t5, "total")
+        end
+
+        if #v1897 > 0 then
+            v1102("modules", "new rarities", table.concat(v1897, ", "))
+        end
+
+        if #v1898 > 0 then
+            v1102("modules", "new mutations", table.concat(v1898, ", "))
+        end
+
+        pcall(function()
+            local t211 = {}
+            local t212 = {}
+            local t213 = {}
+
+            if not t202.adopted then
+                t202.adopted = true
+
+                for _, v in ipairs(t5) do
+                    if not t202.a[v] then
+                        t211[#t211 + 1] = v
+                    end
+                end
+
+                for _, v in ipairs(t6) do
+                    if not t202.r[v] then
+                        t212[#t212 + 1] = v
+                    end
+                end
+
+                for _, v in ipairs(t7) do
+                    if not t202.m[v] then
+                        t213[#t213 + 1] = v
+                    end
+                end
+            else
+                t211 = v1896
+                t212 = v1897
+                t213 = v1898
+            end
+
+            pcall(v1206, "Areas", t211)
+            pcall(v1206, "Rarities", t212)
+            pcall(v1206, "Mutations", t213)
+            pcall(v1207, "HookRarityFloor", { "Any" }, t6)
+            pcall(v1207, "NeverPlaceRarity", { "place everything" }, t6)
+
+            for _, v in ipairs({
+				"Areas",
+				"Rarities",
+				"Mutations"
+			}) do
+                local v3160 = t10[v]
+
+                if v3160 and v3160.refresh then
+                    pcall(v3160.refresh)
+                end
+            end
+        end)
+    end
+    local function v1209(p303)
+        local BottomCFrame = p303.BottomCFrame
+        local v1905
+
+        if BottomCFrame == nil then
+            v1905 = nil
+        else
+            local n32 = 4
+            local ok33, result33 = pcall(function()
+                if typeof(BottomCFrame) == "Vector3" then
+                    return n32 and BottomCFrame + Vector3.new(0, n32, 0) or BottomCFrame
+                end
+
+                if n32 then
+                    return BottomCFrame.Position + Vector3.new(0, n32, 0)
+                end
+
+                return BottomCFrame.Position
+            end)
+
+            v1905 = if not ok33 then nil else result33
+        end
+
+        if not v1905 then
+            local BoundsCFrame = p303.BoundsCFrame
+
+            if BoundsCFrame == nil then
+                v1905 = nil
+            else
+                local n33 = 0
+                local ok34, result34 = pcall(function()
+                    if typeof(BoundsCFrame) == "Vector3" then
+                        return n33 and BoundsCFrame + Vector3.new(0, n33, 0) or BoundsCFrame
+                    end
+
+                    if n33 then
+                        return BoundsCFrame.Position + Vector3.new(0, n33, 0)
+                    end
+
+                    return BoundsCFrame.Position
+                end)
+
+                v1905 = if not ok34 then nil else result34
+            end
+
+            if not v1905 then
+                local p303CFrame = p303.CFrame
+
+                if p303CFrame == nil then
+                    v1905 = nil
+                else
+                    local n34 = 0
+                    local ok35, result35 = pcall(function()
+                        if typeof(p303CFrame) == "Vector3" then
+                            return n34 and p303CFrame + Vector3.new(0, n34, 0) or p303CFrame
+                        end
+
+                        if n34 then
+                            return p303CFrame.Position + Vector3.new(0, n34, 0)
+                        end
+
+                        return p303CFrame.Position
+                    end)
+
+                    v1905 = if not ok35 then nil else result35
+                end
+
+                if not v1905 then
+                    local WorldCFrame = p303.WorldCFrame
+
+                    if WorldCFrame == nil then
+                        v1905 = nil
+                    else
+                        local n35 = 0
+                        local ok36, result36 = pcall(function()
+                            if typeof(WorldCFrame) == "Vector3" then
+                                return n35 and WorldCFrame + Vector3.new(0, n35, 0) or WorldCFrame
+                            end
+
+                            if n35 then
+                                return WorldCFrame.Position + Vector3.new(0, n35, 0)
+                            end
+
+                            return WorldCFrame.Position
+                        end)
+
+                        v1905 = if not ok36 then nil else result36
+                    end
+
+                    if not v1905 then
+                        local PivotCFrame = p303.PivotCFrame
+
+                        if PivotCFrame == nil then
+                            v1905 = nil
+                        else
+                            local n36 = 0
+                            local ok37, result37 = pcall(function()
+                                if typeof(PivotCFrame) == "Vector3" then
+                                    return n36 and PivotCFrame + Vector3.new(0, n36, 0) or PivotCFrame
+                                end
+
+                                if n36 then
+                                    return PivotCFrame.Position + Vector3.new(0, n36, 0)
+                                end
+
+                                return PivotCFrame.Position
+                            end)
+
+                            v1905 = if not ok37 then nil else result37
+                        end
+
+                        if not v1905 then
+                            local p303Position = p303.Position
+
+                            if p303Position == nil then
+                                return nil
+                            end
+
+                            local n37 = 4
+                            local ok38, result38 = pcall(function()
+                                if typeof(p303Position) == "Vector3" then
+                                    return n37 and p303Position + Vector3.new(0, n37, 0) or p303Position
+                                end
+
+                                if n37 then
+                                    return p303Position.Position + Vector3.new(0, n37, 0)
+                                end
+
+                                return p303Position.Position
+                            end)
+
+                            if ok38 then
+                                return result38
+                            end
+
+                            v1905 = nil
+                        end
+                    end
+                end
+            end
+        end
+
+        return v1905
+    end
+    local n38 = 0
+    local u1211
+    local function v1212(p304)
+        if typeof(p304) ~= "Vector3" then
+            return false
+        end
+
+        local elapsed12 = os.clock()
+
+        if not u1211 or elapsed12 - n38 > 2 then
+            local t214 = {}
+            local Plots = workspace:FindFirstChild("Plots")
+
+            if Plots then
+                for _, child in ipairs(Plots:GetChildren()) do
+                    local v1935 = child:FindFirstChild("CenterPoint", true) or child:FindFirstChild("SpawnPoint", true)
+
+                    if v1935 and v1935:IsA("BasePart") then
+                        t214[#t214 + 1] = {
+							pos = v1935.Position,
+							r = 48
+						}
+                    else
+                        local ok39, result39 = pcall(function()
+                            return child:GetPivot()
+                        end)
+
+                        if ok39 and typeof(result39) == "CFrame" then
+                            t214[#t214 + 1] = {
+								pos = result39.Position,
+								r = 48
+							}
+                        end
+                    end
+                end
+            end
+
+            u1211 = t214
+            n38 = elapsed12
+        end
+
+        for i = 1, #u1211 do
+            local v1939 = u1211[i]
+
+            if Vector3.new(p304.X - v1939.pos.X, 0, p304.Z - v1939.pos.Z).Magnitude <= v1939.r then
+                return true
+            end
+        end
+
+        return false
+    end
+    local function v1213(p305, p306)
+        if type(p305) ~= "table" then
+            return false
+        end
+
+        if p305.Placement ~= nil then
+            return true
+        end
+
+        if p305.OwnerUserId and p305.State ~= "Dropped" then
+            return true
+        end
+
+        local v1942 = string.lower((tostring(p305.Uid or "")))
+
+        if v1942:find("plot", 1, true) or v1942:find(":pen", 1, true) or v1942:find("hatch", 1, true) then
+            return true
+        end
+
+        if p305.State == "Slot" or p305.State == "Dropped" then
+            return false
+        end
+
+        if typeof(p306) ~= "Vector3" then
+            p306 = v1209(p305)
+        end
+
+        return (v1212(p306))
+    end
+    local function v1214(p307)
+        if type(p307) ~= "table" then
+            return false
+        end
+
+        if p307.HasParasite == true then
+            return true
+        end
+
+        local BaseMutation = p307.BaseMutation
+        local v1945 = string.lower((tostring(BaseMutation or "")))
+
+        if v1945 == "monstrous" or (v1945 == "parasite" or v1945:find("infest", 1, true) ~= nil) then
+            return true
+        end
+
+        local Mutations = p307.Mutations
+
+        if type(Mutations) ~= "table" and type(p307.ItemData) == "table" then
+            Mutations = p307.ItemData.Mutations
+        end
+
+        if type(Mutations) == "table" then
+            for _, v in ipairs(Mutations) do
+                local v1949 = string.lower((tostring(v or "")))
+
+                if v1949 == "monstrous" or (v1949 == "parasite" or v1949:find("infest", 1, true) ~= nil) then
+                    return true
+                end
+            end
+        end
+
+        return false
+    end
+    local function v1215(p308, p309, p310)
+        local str24 = tostring(p308.AreaId or "")
+        local v1954 = v1196(t9.Areas)
+
+        if next(v1954) and not if next(v1954) then v1954[string.lower((tostring(str24 or "")))] == true else false then
+            return false
+        end
+
+        if p310 then
+            return true
+        end
+
+        if t9.UseRarity then
+            local v1955 = v1196(t9.Rarities)
+
+            if next(v1955) then
+                local v1956 = if type(p309) == "table" and type(p309.Rarity) == "table" then tostring(p309.Rarity.DisplayName or (p309.Rarity.Name or (p309.Rarity._id or "?"))) else "?"
+
+                if not if next(v1955) then v1955[string.lower((tostring(v1956 or "")))] == true else false then
+                    return false
+                end
+            end
+        end
+
+        if t9.UseMutation then
+            local v1957 = v1196(t9.Mutations)
+
+            if next(v1957) then
+                local v1958 = false
+
+                if type(p308.Mutations) == "table" then
+                    for _, v in ipairs(p308.Mutations) do
+                        if if next(v1957) then v1957[string.lower((tostring(v or "")))] == true else false then
+                            v1958 = true
+
+                            break
+                        end
+                    end
+                end
+
+                if not v1958 then
+                    return false
+                end
+            end
+        end
+
+        local num = tonumber(t9.MinWeight)
+
+        if num and num > 0 and p309 and tonumber(p309.ModelWeight) and num > p309.ModelWeight then
+            return false
+        end
+
+        return true
+    end
+    local function v1216()
+        local v1965 = v1204()
+        local v1966 = t9.StealMode or "Best value"
+
+        local function v1967(p311)
+            if type(p311) ~= "table" or not p311.Uid then
+                return
+            end
+
+            local num = tonumber(p311 and p311.CarrierUserId)
+
+            if num and (num ~= 0 and num ~= LocalPlayer.UserId) then
+                return
+            end
+
+            local State = p311.State
+
+            if State ~= "Slot" and State ~= "Dropped" then
+                return
+            end
+
+            local AssetCategory = p311.AssetCategory
+            local v3173 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+            local v3174 = v1209(p311)
+
+            if not v3174 or v1213(p311, v3174) then
+                return
+            end
+
+            return {
+				rec = p311,
+				cfg = v3173,
+				pos = v3174,
+				earn = v1193(p311, v3173),
+				rar = if type(v3173) == "table" and type(v3173.Rarity) == "table" then tonumber(v3173.Rarity.RarityNumber) or 0 else 0,
+				infested = v1214(p311),
+				name = v3173 and (v3173.DisplayName or p311.AssetCategory) or tostring(p311.AssetCategory),
+				area = tostring(p311.AreaId or "")
+			}
+        end
+
+        local v1968 = t216.lockUid or t216.heldUid
+
+        if type(v1968) == "string" then
+            local v1969
+            for _, v in ipairs(v1965) do
+                if type(v) == "table" and v1968 == v.Uid then
+                    v1969 = v1967(v)
+
+                    break
+                end
+            end
+            if v1969 then
+                local rec = v1969.rec
+                local v1973 = v1215(rec, v1969.cfg)
+
+                if v1973 then
+                    local cfg = v1969.cfg
+
+                    if (t9.StealMode or "Best value") == "Gen ($/s) snipe" then
+                        local v1975 = v1194(t9.GenSnipeFloor)
+
+                        v1973 = not (v1975 > 0) or not (v1975 > v1193(rec, cfg))
+                    else
+                        v1973 = true
+                    end
+                end
+
+                local v1976 = rec and rec.State == "Dropped"
+
+                if v1973 or v1976 then
+                    v1969.matched = true
+
+                    if typeof(v1969.pos) == "Vector3" then
+                        t216.lockPos = v1969.pos
+                        t216.lockAt = os.clock()
+                    end
+
+                    return v1969
+                end
+
+                t216.lockUid = nil
+                t216.lockPos = nil
+            else
+                if typeof(t216.lockPos) == "Vector3" and os.clock() - (t216.lockAt or 0) < 5 then
+                    return {
+						rec = {
+							Uid = v1968,
+							State = "Dropped"
+						},
+						pos = t216.lockPos,
+						name = t216.target and t216.target.name or "egg",
+						area = t216.target and t216.target.area or "",
+						matched = true,
+						event = t216.eventFromField == true
+					}
+                end
+
+                t216.lockUid = nil
+
+                if v1968 == t216.heldUid then
+                    t216.heldUid = nil
+                end
+
+                if t216.target and t216.target.rec and v1968 == t216.target.rec.Uid then
+                    t216.target = nil
+                end
+            end
+        end
+
+        local t215 = {}
+
+        for _, v in ipairs(v1965) do
+            if type(v) == "table" then
+                local v1980 = v1967(v)
+
+                if v1980 then
+                    local v1981 = v1215(v, v1980.cfg)
+
+                    if v1981 then
+                        local cfg = v1980.cfg
+
+                        if (t9.StealMode or "Best value") == "Gen ($/s) snipe" then
+                            local v1983 = v1194(t9.GenSnipeFloor)
+
+                            v1981 = not (v1983 > 0) or not (v1983 > v1193(v, cfg))
+                        else
+                            v1981 = true
+                        end
+                    end
+
+                    local v1984 = false
+
+                    if t9.AutoEvent == true then
+                        v1984 = false
+
+                        if v1980.infested == true then
+                            local _ = v1980.cfg
+                            local str25 = tostring(v.AreaId or "")
+                            local v1987 = v1196(t9.Areas)
+
+                            v1984 = not next(v1987) or (((if next(v1987) then v1987[string.lower((tostring(str25 or "")))] == true else false)) and true or false)
+                        end
+                    end
+
+                    if v1984 then
+                        local v1988 = v1194(t9.EventKeepGen)
+
+                        if v1988 > 0 and v1988 <= (v1980.earn or 0) then
+                            v1984 = false
+                        end
+                    end
+
+                    if v1984 then
+                        v1980.matched = false
+                        v1980.event = true
+                        t215[#t215 + 1] = v1980
+                    elseif v1981 then
+                        v1980.matched = true
+                        v1980.event = false
+                        t215[#t215 + 1] = v1980
+                    end
+                end
+            end
+        end
+
+        table.sort(t215, function(p312, p313)
+            if p312.matched ~= p313.matched then
+                return p312.matched == true
+            end
+
+            if v1966 == "Egg type filter" or v1966 == "Rarity snipe" then
+                if p312.rar ~= p313.rar then
+                    return p312.rar > p313.rar
+                end
+
+                if p312.earn ~= p313.earn then
+                    return p312.earn > p313.earn
+                end
+            else
+                if p312.earn ~= p313.earn then
+                    return p312.earn > p313.earn
+                end
+
+                if p312.rar ~= p313.rar then
+                    return p312.rar > p313.rar
+                end
+            end
+
+            return p312.name < p313.name
+        end)
+
+        return t215[1]
+    end
+    local function v1217()
+        local u1989
+        pcall(function()
+            u1989 = require(ReplicatedStorage.Client.PlotState).ResolvePlot()
+        end)
+        if type(u1989) == "table" and u1989.PlotFolder then
+            local PlotFolder = u1989.PlotFolder
+            local CenterPoint = u1989.CenterPoint
+            local RespawnPointCFrame = u1989.RespawnPointCFrame
+
+            if typeof(RespawnPointCFrame) == "CFrame" then
+                return RespawnPointCFrame.Position + Vector3.new(0, 4, 0), RespawnPointCFrame, PlotFolder, CenterPoint
+            end
+
+            local SpawnPoint = PlotFolder:FindFirstChild("SpawnPoint", true)
+
+            if SpawnPoint and SpawnPoint:IsA("BasePart") then
+                return SpawnPoint.Position + Vector3.new(0, 4, 0), SpawnPoint.CFrame, PlotFolder, CenterPoint
+            end
+
+            return PlotFolder:GetPivot().Position, PlotFolder:GetPivot(), PlotFolder, CenterPoint
+        end
+        local Plots = workspace:FindFirstChild("Plots")
+        if not Plots then
+            return
+        end
+        for _, child in ipairs(Plots:GetChildren()) do
+            local v1997 = false
+
+            for _, descendant in ipairs(child:GetDescendants()) do
+                if descendant:IsA("TextLabel") and string.find(descendant.Text, LocalPlayer.Name, 1, true) then
+                    v1997 = true
+
+                    break
+                end
+            end
+
+            if v1997 then
+                local SpawnPoint = child:FindFirstChild("SpawnPoint", true)
+                local CenterPoint = child:FindFirstChild("CenterPoint", true)
+
+                if SpawnPoint and SpawnPoint:IsA("BasePart") then
+                    return SpawnPoint.Position + Vector3.new(0, 4, 0), SpawnPoint.CFrame, child, CenterPoint
+                end
+
+                return child:GetPivot().Position, child:GetPivot(), child, CenterPoint
+            end
+        end
+        if u1103 and type(u1103.ReadOwnedEggs) == "function" then
+            local ok40, result40 = pcall(u1103.ReadOwnedEggs)
+
+            if ok40 and type(result40) == "table" then
+                for k, v in pairs(result40) do
+                    if type(v) ~= "table" or tonumber(v.OwnerUserId) ~= LocalPlayer.UserId then
+                        continue
+                    end
+
+                    local v2006 = Plots:FindFirstChild((tostring(k)))
+
+                    if v2006 then
+                        local SpawnPoint = v2006:FindFirstChild("SpawnPoint", true)
+                        local CenterPoint = v2006:FindFirstChild("CenterPoint", true)
+
+                        if SpawnPoint and SpawnPoint:IsA("BasePart") then
+                            return SpawnPoint.Position + Vector3.new(0, 4, 0), SpawnPoint.CFrame, v2006, CenterPoint
+                        end
+
+                        return v2006:GetPivot().Position, v2006:GetPivot(), v2006, CenterPoint
+                    end
+                end
+            end
+        end
+    end
+    local function v1218(p314)
+        if typeof(p314) ~= "Vector3" then
+            return false
+        end
+        local _, _, v2012, v2013 = v1217()
+        local Position2
+        if v2013 and typeof(v2013) == "Instance" and v2013:IsA("BasePart") then
+            Position2 = v2013.Position
+        elseif v2012 then
+            local v2015 = v2012:FindFirstChild("CenterPoint", true) or v2012:FindFirstChild("SpawnPoint", true)
+
+            if v2015 and v2015:IsA("BasePart") then
+                Position2 = v2015.Position
+            else
+                pcall(function()
+                    Position2 = v2012:GetPivot().Position
+                end)
+            end
+        end
+        if typeof(Position2) ~= "Vector3" then
+            return false
+        end
+
+        return Vector3.new(p314.X - Position2.X, 0, p314.Z - Position2.Z).Magnitude <= 56
+    end
+    local function u1219()
+        local SpawnLocation = workspace:FindFirstChildOfClass("SpawnLocation")
+
+        if SpawnLocation and SpawnLocation:IsA("BasePart") then
+            return SpawnLocation.Position + Vector3.new(0, 4, 0), SpawnLocation.CFrame, SpawnLocation
+        end
+
+        local SpawnTarget = workspace:FindFirstChild("SpawnTarget", true)
+
+        if SpawnTarget and SpawnTarget:IsA("BasePart") then
+            return SpawnTarget.Position + Vector3.new(0, 4, 0), SpawnTarget.CFrame, SpawnTarget
+        end
+
+        return v1217()
+    end
+    local function v1220(p315)
+        if typeof(p315) ~= "Vector3" then
+            p315 = Vector3.zero
+        end
+        local u2020
+        local u2021
+        local function v2022(p316)
+            if not p316 or not p316:IsA("BasePart") then
+                return
+            end
+
+            local v3178 = string.lower(p316.Name)
+            local v3179 = p316.Parent and string.lower(p316.Parent.Name) or ""
+            local v3180 = v3178:find("treadmill", 1, true) or (v3178:find("belt", 1, true) or (v3179:find("treadmill", 1, true) or v3179:find("belt", 1, true)))
+
+            if not v3180 and v3178 ~= "bottom" then
+                return
+            end
+
+            if v3178 == "bottom" and not v3180 then
+                return
+            end
+
+            local Magnitude = (p316.Position - p315).Magnitude
+
+            if not u2021 or Magnitude < u2021 then
+                u2020 = p316
+                u2021 = Magnitude
+            end
+        end
+        pcall(function()
+            local _, _, v3184 = v1217()
+
+            if v3184 then
+                v2022(v3184:FindFirstChild("TreadmillBottom", true))
+
+                for _, descendant in ipairs(v3184:GetDescendants()) do
+                    if descendant:IsA("BasePart") then
+                        v2022(descendant)
+                    end
+                end
+            end
+        end)
+        local v2023 = select(1, v1217())
+        local __ClientTreadmillRenders = workspace:FindFirstChild("__ClientTreadmillRenders")
+        if __ClientTreadmillRenders then
+            for _, descendant in ipairs(__ClientTreadmillRenders:GetDescendants()) do
+                if descendant:IsA("BasePart") and typeof(v2023) == "Vector3" and (descendant.Position - v2023).Magnitude < 90 then
+                    v2022(descendant)
+                end
+            end
+        end
+
+        return u2020
+    end
+    local function v1221(p317)
+        local u2028
+        local u2029
+        local u2030
+        local u2031
+        local n39 = 0
+        local n40 = 0
+        local function v2034(p318)
+            if not p318 or not p318:IsA("BasePart") then
+                return
+            end
+
+            local v3188 = string.lower(p318.Name)
+            local v3189 = p318.Parent and string.lower(p318.Parent.Name) or ""
+
+            if not v3188:find("treadmill", 1, true) and not v3188:find("belt", 1, true) and not v3189:find("treadmill", 1, true) and not v3189:find("belt", 1, true) and v3188 ~= "treadmillbottom" then
+                return
+            end
+
+            local p318CFrame = p318.CFrame
+            local p318Size = p318.Size
+            local v3192 = p318Size.X * 0.5
+            local v3193 = p318Size.Z * 0.5
+            local v3194 = math.abs(p318CFrame.RightVector.X) * v3192 + math.abs(p318CFrame.LookVector.X) * v3193 + math.abs(p318CFrame.UpVector.X) * (p318Size.Y * 0.5)
+            local v3195 = math.abs(p318CFrame.RightVector.Z) * v3192 + math.abs(p318CFrame.LookVector.Z) * v3193 + math.abs(p318CFrame.UpVector.Z) * (p318Size.Y * 0.5)
+            local PositionX = p318CFrame.Position.X
+            local PositionZ = p318CFrame.Position.Z
+
+            u2028 = u2028 and math.min(u2028, PositionX - v3194) or PositionX - v3194
+            u2029 = u2029 and math.max(u2029, PositionX + v3194) or PositionX + v3194
+            u2030 = u2030 and math.min(u2030, PositionZ - v3195) or PositionZ - v3195
+            u2031 = u2031 and math.max(u2031, PositionZ + v3195) or PositionZ + v3195
+            n39 += p318CFrame.Position.Y
+            n40 += 1
+        end
+        pcall(function()
+            local _, _, v3200 = v1217()
+
+            if v3200 then
+                v2034(v3200:FindFirstChild("TreadmillBottom", true))
+
+                for _, descendant in ipairs(v3200:GetDescendants()) do
+                    if descendant:IsA("BasePart") then
+                        v2034(descendant)
+                    end
+                end
+            end
+        end)
+        local v2035 = select(1, v1217())
+        local __ClientTreadmillRenders = workspace:FindFirstChild("__ClientTreadmillRenders")
+        if __ClientTreadmillRenders then
+            for _, descendant in ipairs(__ClientTreadmillRenders:GetDescendants()) do
+                if descendant:IsA("BasePart") and (typeof(v2035) ~= "Vector3" or (descendant.Position - v2035).Magnitude < 90) then
+                    v2034(descendant)
+                end
+            end
+        end
+        local v2039 = v1220(p317)
+        if v2039 then
+            v2034(v2039)
+        end
+        if n40 == 0 or not u2028 then
+            return
+        end
+
+        return {
+			cx = (u2028 + u2029) * 0.5,
+			cz = (u2030 + u2031) * 0.5,
+			hx = (u2029 - u2028) * 0.5,
+			hz = (u2031 - u2030) * 0.5,
+			y = n39 / n40
+		}
+    end
+    local function v1222(p319, p320, p321)
+        if not p319 or typeof(p320) ~= "Vector3" then
+            return false
+        end
+
+        local v2043 = p321 or 0
+
+        return math.abs(p320.X - p319.cx) <= p319.hx + v2043 and math.abs(p320.Z - p319.cz) <= p319.hz + v2043
+    end
+    local function v1223(p322, p323, p324, p325)
+        if not p322 or (typeof(p323) ~= "Vector3" or typeof(p324) ~= "Vector3") then
+            return false
+        end
+
+        local v2048 = p325 or 0
+        local p323X = p323.X
+        local p323Z = p323.Z
+        local p324X = p324.X
+        local p324Z = p324.Z
+        local v2053 = p322.cx - p322.hx - v2048
+        local v2054 = p322.cx + p322.hx + v2048
+        local v2055 = p322.cz - p322.hz - v2048
+        local v2056 = p322.cz + p322.hz + v2048
+
+        if p323X < v2053 and p324X < v2053 or v2054 < p323X and v2054 < p324X or p323Z < v2055 and p324Z < v2055 or v2056 < p323Z and v2056 < p324Z then
+            return false
+        end
+
+        if v1222(p322, p323, v2048) or v1222(p322, p324, v2048) then
+            return true
+        end
+
+        local v2057 = p324X - p323X
+        local v2058 = p324Z - p323Z
+
+        for i = 1, 8 do
+            local v2060 = i / 9
+            local vector3 = Vector3.new(p323X + v2057 * v2060, 0, p323Z + v2058 * v2060)
+
+            if v1222(p322, vector3, v2048) then
+                return true
+            end
+        end
+
+        return false
+    end
+    local function v1224(p326, p327)
+        if typeof(p326) ~= "Vector3" then
+            return p327
+        end
+
+        local v2066 = select(1, u1219())
+        local v2067 = select(1, v1217())
+        local v2068 = v1221(p326)
+        local v2069 = v2068 and v1222(v2068, p326, 12)
+        local v2070 = v2068 and (typeof(p327) == "Vector3" and v1223(v2068, p326, p327, 8))
+
+        if v2066 and Vector3.new(v2066.X - p326.X, 0, v2066.Z - p326.Z).Magnitude <= 62 then
+            return p327
+        end
+
+        if not v1218(p326) and not v2069 and not v2070 then
+            return p327
+        end
+
+        if typeof(v2066) ~= "Vector3" then
+            return p327
+        end
+
+        local v2071 = v2068 and Vector3.new(v2068.cx, p326.Y, v2068.cz) or (typeof(v2067) == "Vector3" and v2067 or p326)
+        local vector3 = Vector3.new(v2066.X - v2071.X, 0, v2066.Z - v2071.Z)
+
+        if vector3.Magnitude < 2 then
+            vector3 = Vector3.new(v2066.X - p326.X, 0, v2066.Z - p326.Z)
+        end
+
+        if vector3.Magnitude < 0.1 then
+            return p327
+        end
+
+        local Unit = vector3.Unit
+
+        if Vector3.new(p326.X - v2071.X, 0, p326.Z - v2071.Z):Dot(Unit) > 18 and not v2069 then
+            return p327
+        end
+
+        local p326Y = p326.Y
+        local vector3_6 = Vector3.new(v2071.X + Unit.X * 32, p326Y, v2071.Z + Unit.Z * 32)
+
+        if Vector3.new(p326.X - vector3_6.X, 0, p326.Z - vector3_6.Z).Magnitude < 12 then
+            return p327
+        end
+
+        return vector3_6
+    end
+    local function v1225(p328, p329, p330)
+        if typeof(p328) ~= "Vector3" then
+            return p328
+        end
+
+        if typeof(p329) ~= "Vector3" then
+            return p328
+        end
+
+        local v2079 = select(1, u1219())
+
+        if v2079 and Vector3.new(v2079.X - p329.X, 0, v2079.Z - p329.Z).Magnitude <= 62 then
+            p330 = true
+        end
+
+        if p330 then
+            return p328
+        end
+
+        local v2080 = v1221(p329)
+        local v2081 = v1218(p329) or (v2080 and v1222(v2080, p329, 12) or v2080 and v1223(v2080, p329, p328, 8))
+
+        if u1130() then
+            return p328
+        end
+
+        if v2081 then
+            return (v1224(p329, p328))
+        end
+
+        return p328
+    end
+    local function v1226(p331)
+        local v2083 = select(1, u1219())
+
+        if typeof(v2083) ~= "Vector3" then
+            return v2083, v2083
+        end
+
+        if typeof(p331) ~= "Vector3" then
+            return v2083, v2083
+        end
+
+        if u1130() then
+            return Vector3.new(v2083.X, p331.Y, v2083.Z), v2083
+        end
+
+        return v1224(p331, v2083), v2083
+    end
+    t216 = {
+		state = "Idle",
+		since = 0,
+		target = nil,
+		hookSnap = nil,
+		carrying = false,
+		carryUid = nil,
+		heldUid = nil,
+		countedUid = nil,
+		banked = 0,
+		lost = 0,
+		regrabs = 0,
+		lastGrab = 0,
+		lastBankTry = 0,
+		lastBankAt = 0,
+		lastErrAt = 0,
+		lockUid = nil,
+		lockPos = nil,
+		lockAt = 0,
+		haltUntil = 0,
+		running = false,
+		conn = nil,
+		pendingCarry = nil,
+		lastPos = nil,
+		stillFor = 0,
+		bat = nil,
+		fed = 0,
+		chests = 0,
+		eventUid = nil,
+		eventFromField = false,
+		lastFeed = 0,
+		lastChestTake = 0,
+		feedLockUntil = 0,
+		feedWasWait = false,
+		eventSkip = {}
+	}
+    function t216.wallUp()
+        local resetWall = t216.resetWall
+
+        if resetWall == nil then
+            local ok41, result41 = pcall(require, ReplicatedStorage.Client.AreaEggResetWall)
+
+            t216.resetWall = not not ok41 and (type(result41) == "table" and (result41 or false))
+            resetWall = t216.resetWall
+        end
+
+        local elapsed13 = os.clock()
+        local v2088 = false
+
+        if type(resetWall) == "table" and type(resetWall.IsSealed) == "function" then
+            local ok42, result42 = pcall(resetWall.IsSealed)
+
+            v2088 = ok42 and result42 == true
+        end
+
+        if v2088 then
+            t216.wallSealedAt = elapsed13
+
+            return true
+        end
+
+        local n41 = 0.5
+
+        if type(resetWall) == "table" then
+            local num = tonumber(resetWall.CollapseSeconds)
+
+            if num and num > 0 then
+                n41 = math.clamp(num, 0.15, 2)
+            end
+        end
+
+        local v2093 = t216.wallSealedAt or 0
+
+        if v2093 > 0 and elapsed13 - v2093 < n41 + 0.12 then
+            return true
+        end
+
+        if v2093 > 0 then
+            t216.wallSealedAt = 0
+        end
+
+        local __OBJECTS = workspace:FindFirstChild("__OBJECTS")
+        local v2095 = __OBJECTS and __OBJECTS:FindFirstChild("Areas")
+        local v2096 = v2095 and v2095:FindFirstChild("WallStartVisual")
+
+        if v2096 and v2096:IsA("BasePart") and v2096.Transparency < 0.85 then
+            local SizeY = v2096.Size.Y
+            local wallRestY = t216.wallRestY
+
+            if wallRestY == nil or wallRestY > SizeY + 0.05 then
+                t216.wallRestY = SizeY
+                wallRestY = SizeY
+            end
+
+            if SizeY > wallRestY + 3 then
+                return true
+            end
+        end
+
+        return false
+    end
+    t216.bat = (function()
+        local n42 = 0
+        local n43 = 0
+        local n44 = 0
+        local n45 = 17
+        local s18 = "IsBat"
+        local u2104
+        local u2105
+        pcall(function()
+            local v3203 = v1168({
+				"Modules",
+				"BatController",
+				"Config"
+			})
+
+            if type(v3203) == "table" then
+                n45 = (tonumber(v3203.Range) or 15) + (tonumber(v3203.HitTolerance) or 2)
+
+                if type(v3203.GetHitboxScalar) == "function" then
+                    local ok43, result43 = pcall(v3203.GetHitboxScalar)
+
+                    if ok43 and type(result43) == "number" and result43 > 0 then
+                        n45 *= result43
+                    end
+                end
+            end
+        end)
+        pcall(function()
+            local Sakura = require(ReplicatedStorage.Data.Sakura)
+
+            if type(Sakura) == "table" and type(Sakura.BatToolAttribute) == "string" then
+                s18 = Sakura.BatToolAttribute
+            end
+        end)
+        local function v2106(p332)
+            local v3209 = p332 and p332.Character
+
+            if not v3209 then
+                return
+            end
+
+            local HumanoidRootPart = v3209:FindFirstChild("HumanoidRootPart")
+            local Humanoid = v3209:FindFirstChildOfClass("Humanoid")
+
+            if HumanoidRootPart and Humanoid and Humanoid.Health > 0 then
+                return HumanoidRootPart, Humanoid, v3209
+            end
+        end
+        local function v2107(p333)
+            if not p333 then
+                return
+            end
+
+            for _, child in ipairs(p333:GetChildren()) do
+                if child:IsA("Tool") and child:GetAttribute(s18) == true then
+                    return child
+                end
+            end
+        end
+        local function v2108()
+            return v2107(LocalPlayer.Character)
+        end
+        local function v2109()
+            local v3215 = v2107(LocalPlayer.Character)
+
+            if v3215 then
+                return v3215
+            end
+
+            if not t9.BatAura or not t9.AutoSteal or t216.carrying then
+                return
+            end
+
+            local elapsed14 = os.clock()
+
+            if elapsed14 - n44 < 0.35 then
+                return
+            end
+
+            n44 = elapsed14
+
+            local v3217 = v2107(LocalPlayer:FindFirstChild("Backpack"))
+
+            if not v3217 then
+                return
+            end
+
+            local v3218 = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+
+            if not v3218 then
+                return
+            end
+
+            pcall(function()
+                v3218:EquipTool(v3217)
+            end)
+
+            return v2108()
+        end
+        local function v2110()
+            n42 += 1
+
+            return string.format("%d:%d:%d", LocalPlayer.UserId, n42, math.floor(workspace:GetServerTimeNow() * 1000))
+        end
+        local function v2111(p334)
+            if not t9.BatAura or (not p334 or p334 == LocalPlayer) then
+                return false
+            end
+
+            local elapsed15 = os.clock()
+
+            if elapsed15 - n43 < 0.7 then
+                return false
+            end
+
+            local v3221 = select(1, v2106(LocalPlayer))
+            local v3222 = select(1, v2106(p334))
+
+            if not v3221 or not v3222 then
+                return false
+            end
+
+            if (v3221.Position - v3222.Position).Magnitude > n45 then
+                return false
+            end
+
+            if not v2109() and not v2107(LocalPlayer.Character) then
+                return false
+            end
+
+            local v3223
+
+            if u2104 and u2104.Parent then
+                v3223 = u2104
+            else
+                local v3224 = v1168({ "Remotes" })
+
+                u2104 = v3224 and v1170(v3224.BatSwing and v3224.BatSwing.Trigger)
+                v3223 = u2104
+            end
+
+            local v3225 = v3223
+
+            if not v3225 then
+                return false
+            end
+
+            n43 = elapsed15
+            pcall(function()
+                v3225:FireServer(p334, v2110())
+            end)
+
+            return true
+        end
+        local function v2112(p335)
+            local t217 = {}
+            local u3228 = t216.running and (t216.target and tonumber(t216.target.carrier))
+            pcall(function()
+                for _, v in ipairs((v1204())) do
+                    if type(v) == "table" and v.State == "Carried" then
+                        local num = tonumber(v.CarrierUserId)
+
+                        if num then
+                            t217[num] = true
+
+                            if t216.heldUid and v.Uid == t216.heldUid then
+                                u3228 = u3228 or num
+                            end
+                        end
+                    end
+                end
+            end)
+            local v3229
+            local v3230
+            for _, player in ipairs(Players:GetPlayers()) do
+                if player ~= LocalPlayer then
+                    local v3233 = select(1, v2106(player))
+
+                    if v3233 then
+                        local Magnitude = (v3233.Position - p335).Magnitude
+
+                        if Magnitude <= n45 then
+                            if u3228 and player.UserId == u3228 then
+                                Magnitude -= 80
+                            elseif t217[player.UserId] then
+                                Magnitude -= 40
+                            end
+
+                            if not v3230 or Magnitude < v3230 then
+                                v3229 = player
+                                v3230 = Magnitude
+                            end
+                        end
+                    end
+                end
+            end
+
+            return v3229
+        end
+        local function v2113()
+            if not u1117 or not t9.BatAura then
+                return
+            end
+
+            if t9.AutoSteal then
+                v2109()
+            end
+
+            local v3235 = select(1, v2106(LocalPlayer))
+
+            if not v3235 then
+                return
+            end
+
+            v2111((v2112(v3235.Position)))
+        end
+        local function v2114(p336)
+            if not not p336 then
+                if not u2105 then
+                    local connection11 = RunService.Heartbeat:Connect(function()
+                        pcall(v2113)
+                    end)
+
+                    if connection11 then
+                        t152[connection11] = true
+                    end
+
+                    u2105 = connection11
+
+                    return
+                end
+            elseif u2105 then
+                u2105:Disconnect()
+                u2105 = nil
+            end
+        end
+
+        return {
+			range = function()
+            return n45
+        end,
+			swingAt = v2111,
+			posOf = function(p337)
+            local v3239 = type(p337) == "number" and Players:GetPlayerByUserId(p337)
+            local v3240 = v3239 and select(1, v2106(v3239))
+
+            return v3240 and v3240.Position, v3239
+        end,
+			setLive = v2114,
+			stop = function()
+            v2114(false)
+        end
+		}
+    end)()
+    u1134 = (function()
+        local t218 = {
+			folder = nil,
+			beamObj = nil,
+			pool = {},
+			uidPart = {},
+			plotAt = 0,
+			plotList = {},
+			optSaved = nil,
+			lastTick = 0,
+			iconBy = {},
+			iconScanAt = 0,
+			sessionAt = os.clock()
+		}
+        local u2116
+        local function u2117(p338)
+            local v3242 = tonumber(p338) or 0
+            local v3243 = math.abs(v3242)
+
+            if v3243 >= 1000000000000 then
+                return string.format("%.2fT", v3242 / 1000000000000)
+            end
+
+            if v3243 >= 1000000000 then
+                return string.format("%.2fB", v3242 / 1000000000)
+            end
+
+            if v3243 >= 1000000 then
+                return string.format("%.2fm", v3242 / 1000000)
+            end
+
+            if v3243 >= 1000 then
+                return string.format("%.1fk", v3242 / 1000)
+            end
+
+            if v3243 >= 10 then
+                return string.format("%.0f", v3242)
+            end
+
+            return string.format("%.1f", v3242)
+        end
+        pcall(function()
+            local FormatAbbreviated = require(ReplicatedStorage.UserGenerated.Strings.FormatAbbreviated)
+
+            if type(FormatAbbreviated) == "function" then
+                function u2117(p339)
+                    local v4687 = tonumber(p339) or 0
+                    local ok44, result44 = pcall(FormatAbbreviated, v4687)
+
+                    if ok44 and type(result44) == "string" and result44 ~= "" then
+                        return result44
+                    end
+
+                    if math.abs(v4687) >= 1000000 then
+                        return string.format("%.2fm", v4687 / 1000000)
+                    end
+
+                    return string.format("%.0f", v4687)
+                end
+            end
+        end)
+        local function v2118(p340)
+            local v3246 = tonumber(p340) or 0
+
+            if v3246 >= 11 then
+                return Color3.fromRGB(255, 236, 150)
+            end
+
+            if v3246 >= 10 then
+                return Color3.fromRGB(255, 90, 210)
+            end
+
+            if v3246 >= 9 then
+                return Color3.fromRGB(120, 210, 255)
+            end
+
+            if v3246 >= 8 then
+                return Color3.fromRGB(255, 80, 110)
+            end
+
+            if v3246 >= 7 then
+                return Color3.fromRGB(255, 186, 70)
+            end
+
+            if v3246 >= 6 then
+                return Color3.fromRGB(186, 120, 255)
+            end
+
+            if v3246 >= 5 then
+                return Color3.fromRGB(255, 220, 90)
+            end
+
+            if v3246 >= 4 then
+                return Color3.fromRGB(160, 120, 255)
+            end
+
+            if v3246 >= 3 then
+                return Color3.fromRGB(90, 170, 255)
+            end
+
+            if v3246 >= 2 then
+                return Color3.fromRGB(120, 200, 120)
+            end
+
+            return Color3.fromRGB(210, 210, 210)
+        end
+        local function v2119()
+            local KiraEsp = workspace:FindFirstChild("KiraEsp")
+
+            if KiraEsp and KiraEsp:IsA("Folder") then
+                t218.folder = KiraEsp
+
+                return KiraEsp
+            end
+
+            if t218.folder and t218.folder.Parent == workspace then
+                return t218.folder
+            end
+
+            if t218.folder then
+                pcall(function()
+                    t218.folder:Destroy()
+                end)
+            end
+
+            local Folder = Instance.new("Folder")
+
+            Folder.Name = "KiraEsp"
+            Folder.Parent = workspace
+            t218.folder = Folder
+
+            return Folder
+        end
+        local function v2120()
+            local Parent = v98.Parent
+            local PlayerGui = LocalPlayer:FindFirstChild("PlayerGui")
+
+            if PlayerGui then
+                local v3251 = PlayerGui:FindFirstChild(v49) or PlayerGui:FindFirstChild("KiraWorldGui")
+
+                if v3251 and v3251 ~= t218.world then
+                    pcall(function()
+                        v3251:Destroy()
+                    end)
+                end
+            end
+
+            if not Parent then
+                Parent = PlayerGui or v98
+            end
+
+            local world = t218.world
+
+            if not world or not world.Parent or not world:IsA("ScreenGui") then
+                world = Parent:FindFirstChild(v49)
+            end
+
+            if world and world:IsA("ScreenGui") then
+                if Parent ~= world.Parent and Parent then
+                    world.Parent = Parent
+                end
+
+                world.Enabled = true
+                world.ResetOnSpawn = false
+                t218.world = world
+
+                return world
+            end
+
+            local ScreenGui = Instance.new("ScreenGui")
+
+            ScreenGui.Name = v49
+            ScreenGui.ResetOnSpawn = false
+            ScreenGui.IgnoreGuiInset = true
+            ScreenGui.DisplayOrder = 80
+            ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            ScreenGui.Parent = Parent
+            t218.world = ScreenGui
+
+            return ScreenGui
+        end
+        local function v2121(p341)
+            if p341 == nil then
+                return
+            end
+
+            local v3255 = typeof(p341)
+
+            if v3255 == "number" then
+                if p341 > 100 then
+                    return "rbxassetid://" .. tostring(math.floor(p341))
+                end
+
+                return
+            end
+
+            if v3255 == "string" then
+                if p341 == "" or p341 == "0" or p341 == "rbxassetid://0" then
+                    return
+                end
+
+                if string.find(p341, "http", 1, true) or string.find(p341, "rbxasset", 1, true) or string.find(p341, "rbxthumb", 1, true) then
+                    return p341
+                end
+
+                local num = tonumber(p341)
+
+                if num and num > 100 then
+                    return "rbxassetid://" .. tostring(math.floor(num))
+                end
+
+                return
+            end
+
+            if v3255 == "Instance" then
+                if p341:IsA("ImageLabel") or p341:IsA("ImageButton") then
+                    return v2121(p341.Image)
+                end
+
+                if p341:IsA("Decal") or p341:IsA("Texture") then
+                    return v2121(p341.Texture)
+                end
+
+                local v3257 = p341:FindFirstChildWhichIsA("ImageLabel", true) or (p341:FindFirstChildWhichIsA("ImageButton", true) or p341:FindFirstChildWhichIsA("Decal", true))
+
+                if v3257 then
+                    return v2121(v3257)
+                end
+
+                return
+            end
+
+            if v3255 == "table" then
+                return v2121(p341.Image) or (v2121(p341.ImageId) or (v2121(p341.Icon) or v2121(p341.Id)))
+            end
+        end
+        local t219 = {
+			"IndexImage",
+			"IndexIcon",
+			"Icon",
+			"Image",
+			"ImageId",
+			"IconImage",
+			"Thumbnail",
+			"AssetImage",
+			"PetImage",
+			"EggImage",
+			"RenderImage",
+			"Picture"
+		}
+        local function v2123(p342, p343)
+            if type(p343) ~= "table" then
+                return
+            end
+            local v3264
+            for i = 1, #t219 do
+                v3264 = v2121(p343[t219[i]])
+
+                if v3264 then
+                    break
+                end
+            end
+            if not v3264 and type(p343.Egg) == "table" then
+                for i = 1, #t219 do
+                    v3264 = v2121(p343.Egg[t219[i]])
+
+                    if v3264 then
+                        break
+                    end
+                end
+            end
+            if not v3264 then
+                return
+            end
+            if type(p342) == "string" and p342 ~= "" and v3264 then
+                local v3267 = string.lower(p342)
+
+                t218.iconBy[v3267] = v3264
+
+                local v3268 = v3267:gsub("[%s_%-]+", "")
+
+                if v3268 ~= v3267 then
+                    t218.iconBy[v3268] = v3264
+                end
+            end
+            local DisplayName = p343.DisplayName
+            if type(DisplayName) == "string" and DisplayName ~= "" and v3264 then
+                local v3270 = string.lower(DisplayName)
+
+                t218.iconBy[v3270] = v3264
+
+                local v3271 = v3270:gsub("[%s_%-]+", "")
+
+                if v3271 ~= v3270 then
+                    t218.iconBy[v3271] = v3264
+                end
+            end
+            local _id = p343._id
+            if type(_id) == "string" and _id ~= "" and v3264 then
+                local v3273 = string.lower(_id)
+
+                t218.iconBy[v3273] = v3264
+
+                local v3274 = v3273:gsub("[%s_%-]+", "")
+
+                if v3274 ~= v3273 then
+                    t218.iconBy[v3274] = v3264
+                end
+            end
+            if type(p343.Egg) == "table" then
+                local DisplayName2 = p343.Egg.DisplayName
+
+                if type(DisplayName2) == "string" and DisplayName2 ~= "" then
+                    if not v3264 then
+                        return
+                    end
+
+                    local v3276 = string.lower(DisplayName2)
+
+                    t218.iconBy[v3276] = v3264
+
+                    local v3277 = v3276:gsub("[%s_%-]+", "")
+
+                    if v3277 ~= v3276 then
+                        t218.iconBy[v3277] = v3264
+                    end
+                end
+            end
+        end
+        local function v2124()
+            local t220 = {}
+
+            if type(Directory) ~= "table" then
+                return t220
+            end
+
+            for k, v in pairs(Directory) do
+                local str26 = tostring(k)
+
+                t220[string.lower(str26)] = str26
+
+                if type(v) == "table" then
+                    if v.DisplayName then
+                        t220[string.lower((tostring(v.DisplayName)))] = str26
+                    end
+
+                    if v._id then
+                        t220[string.lower((tostring(v._id)))] = str26
+                    end
+
+                    if type(v.Egg) == "table" and v.Egg.DisplayName then
+                        t220[string.lower((tostring(v.Egg.DisplayName)))] = str26
+                    end
+                end
+            end
+
+            return t220
+        end
+        local function v2125(p344, p345)
+            if not p344 then
+                return
+            end
+
+            local ok45, result45 = pcall(function()
+                return p344:GetDescendants()
+            end)
+
+            if not ok45 or type(result45) ~= "table" then
+                return
+            end
+
+            local n46 = 0
+
+            for i = 1, #result45 do
+                n46 += 1
+
+                if p345 < n46 then
+                    return
+                end
+
+                local v3288 = result45[i]
+                local u3289 = false
+
+                pcall(function()
+                    u3289 = v3288:IsA("ImageLabel") or v3288:IsA("ImageButton")
+                end)
+
+                if u3289 then
+                    local v3290 = v2121(v3288)
+
+                    if v3290 then
+                        local Name = v3288.Name
+
+                        if type(Name) == "string" and Name ~= "" and v3290 then
+                            local v3292 = string.lower(Name)
+
+                            t218.iconBy[v3292] = v3290
+
+                            local v3293 = v3292:gsub("[%s_%-]+", "")
+
+                            if v3293 ~= v3292 then
+                                t218.iconBy[v3293] = v3290
+                            end
+                        end
+
+                        if v3288.Parent then
+                            local ParentName = v3288.Parent.Name
+
+                            if type(ParentName) == "string" and ParentName ~= "" and v3290 then
+                                local v3295 = string.lower(ParentName)
+
+                                t218.iconBy[v3295] = v3290
+
+                                local v3296 = v3295:gsub("[%s_%-]+", "")
+
+                                if v3296 ~= v3295 then
+                                    t218.iconBy[v3296] = v3290
+                                end
+                            end
+                        end
+
+                        pcall(function()
+                            local AssetCategory = v3288:GetAttribute("AssetCategory")
+                            local v4691 = v3290
+
+                            if type(AssetCategory) == "string" and (AssetCategory ~= "" and v4691) then
+                                local v4692 = string.lower(AssetCategory)
+
+                                t218.iconBy[v4692] = v4691
+
+                                local v4693 = v4692:gsub("[%s_%-]+", "")
+
+                                if v4693 ~= v4692 then
+                                    t218.iconBy[v4693] = v4691
+                                end
+                            end
+
+                            local Id = v3288:GetAttribute("Id")
+                            local v4695 = v3290
+
+                            if type(Id) == "string" and Id ~= "" and v4695 then
+                                local v4696 = string.lower(Id)
+
+                                t218.iconBy[v4696] = v4695
+
+                                local v4697 = v4696:gsub("[%s_%-]+", "")
+
+                                if v4697 ~= v4696 then
+                                    t218.iconBy[v4697] = v4695
+                                end
+                            end
+
+                            if v3288.Parent then
+                                local AssetCategory2 = v3288.Parent:GetAttribute("AssetCategory")
+                                local v4699 = v3290
+
+                                if type(AssetCategory2) == "string" and AssetCategory2 ~= "" then
+                                    if not v4699 then
+                                        return
+                                    end
+
+                                    local v4700 = string.lower(AssetCategory2)
+
+                                    t218.iconBy[v4700] = v4699
+
+                                    local v4701 = v4700:gsub("[%s_%-]+", "")
+
+                                    if v4701 ~= v4700 then
+                                        t218.iconBy[v4701] = v4699
+                                    end
+                                end
+                            end
+                        end)
+                    end
+                end
+            end
+        end
+        local function v2126(p346, p347, p348)
+            if not p346 or not p347 then
+                return
+            end
+
+            local ok46, result46 = pcall(function()
+                return p346:GetDescendants()
+            end)
+
+            if not ok46 or type(result46) ~= "table" then
+                return
+            end
+
+            local n47 = 0
+
+            for i = 1, #result46 do
+                n47 += 1
+
+                if p348 < n47 then
+                    return
+                end
+
+                local v3304 = result46[i]
+                local u3305 = false
+
+                pcall(function()
+                    u3305 = v3304:IsA("TextLabel") or v3304:IsA("TextButton")
+                end)
+
+                if u3305 then
+                    local Text = v3304.Text
+
+                    if type(Text) == "string" and Text ~= "" then
+                        local v3307 = p347[string.lower(Text)]
+
+                        if v3307 then
+                            local Parent = v3304.Parent
+
+                            if Parent then
+                                local descendants = Parent:GetDescendants()
+
+                                for j = 1, #descendants do
+                                    local v3311 = descendants[j]
+                                    local u3312 = false
+
+                                    pcall(function()
+                                        u3312 = v3311:IsA("ImageLabel") or v3311:IsA("ImageButton")
+                                    end)
+
+                                    if u3312 then
+                                        local v3313 = v2121(v3311)
+
+                                        if v3313 then
+                                            if type(v3307) == "string" and v3307 ~= "" and v3313 then
+                                                local v3314 = string.lower(v3307)
+
+                                                t218.iconBy[v3314] = v3313
+
+                                                local v3315 = v3314:gsub("[%s_%-]+", "")
+
+                                                if v3315 ~= v3314 then
+                                                    t218.iconBy[v3315] = v3313
+                                                end
+                                            end
+
+                                            if type(Text) == "string" and Text ~= "" and v3313 then
+                                                local v3316 = string.lower(Text)
+
+                                                t218.iconBy[v3316] = v3313
+
+                                                local v3317 = v3316:gsub("[%s_%-]+", "")
+
+                                                if v3317 ~= v3316 then
+                                                    t218.iconBy[v3317] = v3313
+                                                end
+                                            end
+
+                                            break
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+        local function v2127(p349)
+            local v3319 = string.lower((tostring(p349 or "")))
+
+            return string.find(v3319, "index", 1, true) or (string.find(v3319, "bestiary", 1, true) or (string.find(v3319, "collection", 1, true) or string.find(v3319, "pedia", 1, true)))
+        end
+        local function v2128(p350)
+            local elapsed16 = os.clock()
+
+            if not p350 and elapsed16 - (t218.iconScanAt or 0) < 8 then
+                return
+            end
+
+            t218.iconScanAt = elapsed16
+
+            if type(Directory) == "table" then
+                for k, v in pairs(Directory) do
+                    v2123(k, v)
+                end
+            end
+
+            local v3324 = v2124()
+            local Assets = ReplicatedStorage:FindFirstChild("Assets")
+
+            pcall(v2125, Assets and Assets:FindFirstChild("UI"), 6000)
+            pcall(v2125, ReplicatedStorage:FindFirstChild("Directory"), 8000)
+            pcall(v2125, ReplicatedStorage:FindFirstChild("Data"), 4000)
+
+            local function v3326(p351)
+                if not p351 then
+                    return
+                end
+
+                for _, child in ipairs(p351:GetChildren()) do
+                    if child ~= v98 and v2127(child.Name) then
+                        pcall(v2125, child, 8000)
+                        pcall(v2126, child, v3324, 8000)
+                    end
+                end
+            end
+
+            v3326(LocalPlayer:FindFirstChild("PlayerGui"))
+            pcall(v3326, game:GetService("StarterGui"))
+        end
+        local function v2129(p352, p353)
+            local t221 = {}
+            local t222 = {}
+
+            local function v3331(p354)
+                if type(p354) ~= "string" or p354 == "" then
+                    return
+                end
+
+                local v4706 = string.lower(p354)
+
+                if v4706 ~= "" and not t222[v4706] then
+                    t222[v4706] = true
+                    t221[#t221 + 1] = v4706
+                end
+
+                local v4707 = v4706:gsub("[%s_%-]+", "")
+
+                if v4707 ~= "" and not t222[v4707] then
+                    t222[v4707] = true
+                    t221[#t221 + 1] = v4707
+                end
+
+                local v4708 = v4706:gsub("[%s%-]+", "_")
+
+                if v4708 ~= "" and not t222[v4708] then
+                    t222[v4708] = true
+                    t221[#t221 + 1] = v4708
+                end
+            end
+
+            v3331(p353)
+
+            if type(p352) == "table" then
+                v3331(p352.DisplayName)
+                v3331(p352._id)
+
+                if type(p352.Egg) == "table" then
+                    v3331(p352.Egg.DisplayName)
+                end
+            end
+
+            return t221
+        end
+        local function v2130(p355, p356)
+            local v3353 = t9.Theme == "Light"
+            local v3354 = p356 and p356.target
+
+            if v3353 then
+                p355.card.BackgroundColor3 = Color3.fromRGB(252, 250, 246)
+                p355.card.BackgroundTransparency = 0.28
+                p355.title.TextColor3 = Color3.fromRGB(28, 24, 20)
+                p355.sub.TextColor3 = Color3.fromRGB(92, 84, 74)
+                p355.stroke.Color = v3354 and t3.accent or Color3.fromRGB(188, 178, 164)
+                p355.stroke.Transparency = not v3354 and 0.32 or 0.12
+
+                if p355.icon then
+                    p355.icon.BackgroundColor3 = Color3.fromRGB(232, 226, 216)
+                    p355.icon.BackgroundTransparency = not p355.icon.Visible and 1 or 0.42
+                end
+            else
+                p355.card.BackgroundColor3 = Color3.fromRGB(16, 15, 14)
+                p355.card.BackgroundTransparency = 0.34
+                p355.title.TextColor3 = Color3.fromRGB(246, 242, 234)
+                p355.sub.TextColor3 = Color3.fromRGB(168, 158, 144)
+                p355.stroke.Color = v3354 and t3.accent or Color3.fromRGB(58, 53, 46)
+                p355.stroke.Transparency = not v3354 and 0.38 or 0.08
+
+                if p355.icon then
+                    p355.icon.BackgroundColor3 = Color3.fromRGB(28, 26, 24)
+                    p355.icon.BackgroundTransparency = not p355.icon.Visible and 1 or 0.5
+                end
+            end
+
+            p355.stroke.Thickness = not v3354 and 1 or 1.5
+        end
+        local function v2131()
+            local BillboardGui = Instance.new("BillboardGui")
+
+            BillboardGui.AlwaysOnTop = true
+            BillboardGui.LightInfluence = 0
+            BillboardGui.MaxDistance = 1000000
+            BillboardGui.Size = UDim2.fromOffset(152, 34)
+            BillboardGui.StudsOffset = Vector3.new(0, 2.2, 0)
+            BillboardGui.ResetOnSpawn = false
+            BillboardGui.Active = false
+            BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            BillboardGui.Parent = v2120()
+
+            local t223 = {
+				BackgroundColor3 = Color3.fromRGB(16, 15, 14),
+				BackgroundTransparency = 0.34,
+				BorderSizePixel = 0,
+				Size = UDim2.fromScale(1, 1),
+				ClipsDescendants = true,
+				ZIndex = 1,
+				Active = false
+			}
+            local Frame = Instance.new("Frame")
+
+            if t223 then
+                for k, v in pairs(t223) do
+                    Frame[k] = v
+                end
+            end
+
+            if BillboardGui then
+                Frame.Parent = BillboardGui
+            end
+
+            local t224 = {
+				CornerRadius = UDim.new(0, 8)
+			}
+            local UICorner = Instance.new("UICorner")
+
+            if t224 then
+                for k, v in pairs(t224) do
+                    UICorner[k] = v
+                end
+            end
+
+            if Frame then
+                UICorner.Parent = Frame
+            end
+
+            local t225 = {
+				Color = Color3.fromRGB(70, 64, 56),
+				Transparency = 0.38,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke = Instance.new("UIStroke")
+
+            if t225 then
+                for k, v in pairs(t225) do
+                    UIStroke[k] = v
+                end
+            end
+
+            if Frame then
+                UIStroke.Parent = Frame
+            end
+
+            local t226 = {
+				BackgroundColor3 = Color3.fromRGB(210, 210, 210),
+				BorderSizePixel = 0,
+				Size = UDim2.new(0, 2, 1, -8),
+				Position = UDim2.fromOffset(3, 4),
+				ZIndex = 2,
+				Active = false
+			}
+            local Frame27 = Instance.new("Frame")
+
+            if t226 then
+                for k, v in pairs(t226) do
+                    Frame27[k] = v
+                end
+            end
+
+            if Frame then
+                Frame27.Parent = Frame
+            end
+
+            local t227 = {
+				CornerRadius = UDim.new(0, 2)
+			}
+            local UICorner12 = Instance.new("UICorner")
+
+            if t227 then
+                for k, v in pairs(t227) do
+                    UICorner12[k] = v
+                end
+            end
+
+            if Frame27 then
+                UICorner12.Parent = Frame27
+            end
+
+            local t228 = {
+				BackgroundColor3 = Color3.fromRGB(28, 26, 24),
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(8, 6),
+				Size = UDim2.fromOffset(22, 22),
+				Image = "",
+				ScaleType = Enum.ScaleType.Fit,
+				Visible = false,
+				ZIndex = 2,
+				Active = false
+			}
+            local ImageLabel = Instance.new("ImageLabel")
+
+            if t228 then
+                for k, v in pairs(t228) do
+                    ImageLabel[k] = v
+                end
+            end
+
+            if Frame then
+                ImageLabel.Parent = Frame
+            end
+
+            local t229 = {
+				CornerRadius = UDim.new(0, 5)
+			}
+            local UICorner13 = Instance.new("UICorner")
+
+            if t229 then
+                for k, v in pairs(t229) do
+                    UICorner13[k] = v
+                end
+            end
+
+            if ImageLabel then
+                UICorner13.Parent = ImageLabel
+            end
+
+            local t230 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(8, 2),
+				Size = UDim2.new(1, -12, 0, 14),
+				Font = t4.mid,
+				Text = "",
+				TextColor3 = Color3.fromRGB(246, 242, 234),
+				TextSize = 11,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				ZIndex = 2,
+				Active = false
+			}
+            local TextLabel = Instance.new("TextLabel")
+
+            if t230 then
+                for k, v in pairs(t230) do
+                    TextLabel[k] = v
+                end
+            end
+
+            if Frame then
+                TextLabel.Parent = Frame
+            end
+
+            local t231 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(8, 16),
+				Size = UDim2.new(1, -12, 0, 14),
+				Font = t4.mono,
+				Text = "",
+				TextColor3 = Color3.fromRGB(168, 158, 144),
+				TextSize = 9,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextYAlignment = Enum.TextYAlignment.Top,
+				TextWrapped = false,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				ZIndex = 2,
+				Active = false
+			}
+            local TextLabel11 = Instance.new("TextLabel")
+
+            if t231 then
+                for k, v in pairs(t231) do
+                    TextLabel11[k] = v
+                end
+            end
+
+            if Frame then
+                TextLabel11.Parent = Frame
+            end
+
+            return {
+				bb = BillboardGui,
+				card = Frame,
+				stroke = UIStroke,
+				accent = Frame27,
+				icon = ImageLabel,
+				title = TextLabel,
+				sub = TextLabel11
+			}
+        end
+        local function v2132(p357, p358, p359)
+            if not p358 then
+                return
+            end
+
+            local u3395 = t218.pool[p357]
+
+            if u3395 and (not u3395.bb or not u3395.bb.Parent) then
+                if u3395.dummy then
+                    pcall(function()
+                        u3395.dummy:Destroy()
+                    end)
+                end
+
+                u3395 = nil
+                t218.pool[p357] = nil
+            end
+
+            if not u3395 then
+                u3395 = v2131()
+                t218.pool[p357] = u3395
+            end
+
+            u3395.alive = true
+            u3395.pos = p358
+
+            local v3396 = v2119()
+
+            if not u3395.dummy or not u3395.dummy.Parent then
+                if u3395.dummy then
+                    pcall(function()
+                        u3395.dummy:Destroy()
+                    end)
+                end
+
+                local Part = Instance.new("Part")
+
+                Part.Name = "KiraEspAdorn"
+                Part.Anchored = true
+                Part.CanCollide = false
+                Part.CanQuery = false
+                Part.CanTouch = false
+                Part.CastShadow = false
+                Part.Transparency = 1
+                Part.Size = Vector3.new(0.15, 0.15, 0.15)
+                Part.Parent = v3396
+                u3395.dummy = Part
+            end
+
+            pcall(function()
+                u3395.dummy.CFrame = CFrame.new(p358)
+            end)
+            u3395.bb.Adornee = u3395.dummy
+            u3395.bb.Parent = v2120()
+            u3395.bb.Enabled = true
+
+            local v3398 = p359.color or Color3.fromRGB(210, 210, 210)
+
+            u3395.title.Text = tostring(p359.name or "")
+            u3395.sub.Text = tostring(p359.sub or "")
+            u3395.accent.BackgroundColor3 = v3398
+
+            local v3399 = not p359.tall and 34 or 46
+            local icon = p359.icon
+            local v3401 = not icon and 152 or 180
+
+            if u3395.icon then
+                if icon then
+                    u3395.icon.Image = icon
+                    u3395.icon.Visible = true
+
+                    local v3402 = tostring(p359.name or ""):gsub("^▸%s*", ""):gsub("^>%s*", "")
+
+                    if type(v3402) == "string" and v3402 ~= "" and icon then
+                        local v3403 = string.lower(v3402)
+
+                        t218.iconBy[v3403] = icon
+
+                        local v3404 = v3403:gsub("[%s_%-]+", "")
+
+                        if v3404 ~= v3403 then
+                            t218.iconBy[v3404] = icon
+                        end
+                    end
+
+                    u3395.title.Position = UDim2.fromOffset(34, 2)
+                    u3395.title.Size = UDim2.new(1, -40, 0, 14)
+                    u3395.sub.Position = UDim2.fromOffset(34, 16)
+                    u3395.sub.Size = UDim2.new(1, -40, 0, not p359.tall and 14 or 26)
+                    u3395.sub.TextWrapped = p359.tall == true
+                else
+                    u3395.icon.Image = ""
+                    u3395.icon.Visible = false
+                    u3395.title.Position = UDim2.fromOffset(8, 2)
+                    u3395.title.Size = UDim2.new(1, -12, 0, 14)
+                    u3395.sub.Position = UDim2.fromOffset(8, 16)
+                    u3395.sub.Size = UDim2.new(1, -12, 0, not p359.tall and 14 or 26)
+                    u3395.sub.TextWrapped = p359.tall == true
+                end
+            end
+
+            v2130(u3395, p359)
+            u3395.bb.Size = UDim2.fromOffset(v3401, v3399)
+        end
+        local function v2133()
+            for k, v in pairs(t218.pool) do
+                if not v.alive then
+                    if v.bb then
+                        v.bb:Destroy()
+                    end
+
+                    if v.dummy then
+                        pcall(function()
+                            v.dummy:Destroy()
+                        end)
+                    end
+
+                    t218.pool[k] = nil
+                else
+                    v.alive = false
+                end
+            end
+        end
+        local function v2134(p360, p361)
+            if type(p360) == "table" then
+                local num = tonumber(p360.Weight)
+                local v3410 = if not num or not (num > 0) then nil else num
+
+                if not v3410 then
+                    local num3 = tonumber(p360.ModelWeight)
+
+                    v3410 = if not num3 or not (num3 > 0) then nil else num3
+
+                    if not v3410 then
+                        local num4 = tonumber(p360.Kg)
+
+                        v3410 = if not num4 or not (num4 > 0) then nil else num4
+
+                        if not v3410 then
+                            local num5 = tonumber(p360.BaseWeight)
+
+                            v3410 = if not num5 or not (num5 > 0) then nil else num5
+                        end
+                    end
+                end
+
+                if v3410 then
+                    return v3410
+                end
+            end
+
+            if type(p361) == "table" then
+                local num = tonumber(p361.ModelWeight)
+                local v3415 = if not num or not (num > 0) then nil else num
+
+                if not v3415 then
+                    local num6 = tonumber(p361.Weight)
+
+                    v3415 = if not num6 or not (num6 > 0) then nil else num6
+
+                    if not v3415 then
+                        local num7 = tonumber(p361.BaseWeight)
+
+                        v3415 = if not num7 or not (num7 > 0) then nil else num7
+                    end
+                end
+
+                if v3415 then
+                    return v3415
+                end
+
+                if type(p361.Egg) == "table" then
+                    local num8 = tonumber(p361.Egg.ModelWeight)
+                    local v3419 = if not num8 or not (num8 > 0) then nil else num8
+
+                    if not v3419 then
+                        local num9 = tonumber(p361.Egg.Weight)
+
+                        if num9 and num9 > 0 then
+                            return num9
+                        end
+
+                        v3419 = nil
+                    end
+
+                    return v3419
+                end
+            end
+        end
+        local function v2135(p362, p363, p364)
+            local v3426 = p363 and (p363.DisplayName or type(p363.Egg) == "table" and p363.Egg.DisplayName) or tostring(p362.AssetCategory or "?")
+            local g3440
+            local v3439
+            if p364 then
+                v3426 = "▸ " .. tostring(v3426)
+            end
+            local v3427 = u2117(v1193(p362, p363)) .. "/s"
+            local v3428 = if type(p363) == "table" and type(p363.Rarity) == "table" then tostring(p363.Rarity.DisplayName or (p363.Rarity.Name or (p363.Rarity._id or "?"))) else "?"
+            local num = tonumber((v2134(p362, p363)))
+            local v3430 = if num then if not (num >= 100) then string.format("%.1fkg", num) else string.format("%.0fkg", num) else nil
+            local t232 = {
+				v3427,
+				v3428
+			}
+            local v3432 = v1192(p363, p362)
+            if v3432 then
+                t232[#t232 + 1] = v3432
+            end
+            if v3430 then
+                t232[#t232 + 1] = v3430
+            end
+            local s19 = ""
+            if type(p362.Mutations) == "table" and #p362.Mutations > 0 then
+                s19 = table.concat(p362.Mutations, " · ")
+            end
+            local v3434 = table.concat(t232, " · ")
+            if s19 ~= "" then
+                v3434 ..= "\n" .. s19
+            end
+            local t233 = {
+				name = v3426,
+				sub = v3434,
+				color = v2118(if type(p363) == "table" and type(p363.Rarity) == "table" then tonumber(p363.Rarity.RarityNumber) or 0 else 0),
+				target = p364,
+				tall = s19 ~= ""
+			}
+            local v3436 = p362 and p362.AssetCategory
+            v2123(v3436, p363)
+            local v3437 = v2129(p363, v3436)
+            for i = 1, #v3437 do
+                v3439 = t218.iconBy[v3437[i]]
+
+                if v3439 then
+                    g3440 = true
+                end
+
+                if g3440 then
+                    break
+                end
+            end
+            if not g3440 then
+                v3439 = nil
+            end
+            t233.icon = v3439
+
+            return t233
+        end
+        local function v2136()
+            if not u1103 then
+                return nil
+            end
+
+            if type(u1103.ReadOwnerEggs) == "function" then
+                local ok47, result47, _, _ = pcall(function()
+                    return u1103.ReadOwnerEggs(LocalPlayer.UserId)
+                end)
+
+                if not ok47 then
+                    v1102("esp", "ERR", "ReadOwnerEggs", (tostring(result47)))
+                    result47 = nil
+                end
+
+                if type(result47) == "table" then
+                    return result47
+                end
+            end
+
+            if type(u1103.ReadOwnedEggs) == "function" then
+                local ReadOwnedEggs = u1103.ReadOwnedEggs
+                local ok48, result48, _, _ = pcall(ReadOwnedEggs)
+
+                if not ok48 then
+                    v1102("esp", "ERR", "ReadOwnedEggs", (tostring(result48)))
+                    result48 = nil
+                end
+
+                if type(result48) == "table" then
+                    for _, v in pairs(result48) do
+                        if type(v) == "table" and tonumber(v.OwnerUserId) == LocalPlayer.UserId then
+                            return v.Records
+                        end
+                    end
+                end
+            end
+        end
+        local function v2137(p365, p366)
+            if type(p365) ~= "table" then
+                return nil, false
+            end
+
+            local v3459 = p366 or p365.Uid
+
+            if v3459 and u1103 and type(u1103.IsReadyToHatch) == "function" then
+                local ok49, result49 = pcall(u1103.IsReadyToHatch, v3459)
+
+                if ok49 and result49 then
+                    return 0, true
+                end
+            end
+
+            local eggRec
+
+            if t218.eggRec ~= nil then
+                eggRec = t218.eggRec
+            else
+                local EggRecords
+                pcall(function()
+                    EggRecords = require(ReplicatedStorage.Shared.Util.EggRecords)
+                end)
+                t218.eggRec = type(EggRecords) == "table" and (EggRecords or false)
+                eggRec = t218.eggRec
+            end
+
+            local v3464 = eggRec
+
+            if type(v3464) == "table" and type(p365.Placement) == "table" then
+                local ServerTimeNow = workspace:GetServerTimeNow()
+                local u3466 = tonumber(p365.GrowthSpeedMultiplier) or 1
+                if u3466 <= 0 then
+                    u3466 = 1
+                end
+                local u3467
+                pcall(function()
+                    u3467 = v3464.CurrentNightCredit(p365, ServerTimeNow, u3466)
+                end)
+                local u3468 = false
+                pcall(function()
+                    u3468 = v3464.IsGrown(p365, ServerTimeNow, u3466, u3467, LocalPlayer) == true
+                end)
+                if u3468 then
+                    return 0, true
+                end
+                local u3469
+                pcall(function()
+                    u3469 = v3464.WallSecondsRemaining(p365, ServerTimeNow, u3466, u3467)
+                end)
+                if type(u3469) == "number" then
+                    return u3469, u3469 <= 0
+                end
+            end
+
+            if p365.IsReady == true or p365.Ready == true then
+                return 0, true
+            end
+
+            local v3470 = p365.HatchEndsAt or (p365.ReadyAt or p365.GrowEndsAt)
+
+            if type(v3470) == "number" then
+                local v3471 = v3470 - workspace.DistributedGameTime
+
+                return v3471, v3471 <= 0
+            end
+
+            local v3472 = tonumber(p365.TimeLeft) or tonumber(p365.HatchTimeLeft)
+
+            if v3472 then
+                return v3472, v3472 <= 0
+            end
+
+            local Placement = p365.Placement
+
+            if type(Placement) == "table" then
+                if Placement.IsReady == true then
+                    return 0, true
+                end
+
+                local v3474 = Placement.HatchEndsAt or Placement.ReadyAt
+
+                if type(v3474) == "number" then
+                    local v3475 = v3474 - workspace.DistributedGameTime
+
+                    return v3475, v3475 <= 0
+                end
+            end
+
+            return nil, false
+        end
+        local function v2138(p367)
+            local v3477 = math.max(0, math.floor(tonumber(p367) or 0))
+            local v3478 = math.floor(v3477 / 3600)
+            local v3479 = math.floor(v3477 % 3600 / 60)
+            local v3480 = v3477 % 60
+
+            if v3478 > 0 then
+                return string.format("%d:%02d:%02d", v3478, v3479, v3480)
+            end
+
+            return string.format("%d:%02d", v3479, v3480)
+        end
+        local function v2139()
+            local elapsed17 = os.clock()
+
+            if elapsed17 - (t218.plotAt or 0) < 0.5 then
+                return t218.plotList
+            end
+
+            t218.plotAt = elapsed17
+
+            local t234 = {}
+            local v3483 = v2136()
+            local _, _, v3486, v3487 = v1217()
+            local cFrame = CFrame.new()
+
+            if v3487 and typeof(v3487) == "Instance" and v3487:IsA("BasePart") then
+                cFrame = v3487.CFrame
+            elseif v3486 then
+                local CenterPoint = v3486:FindFirstChild("CenterPoint", true)
+
+                if CenterPoint and CenterPoint:IsA("BasePart") then
+                    cFrame = CenterPoint.CFrame
+                else
+                    pcall(function()
+                        cFrame = v3486:GetPivot()
+                    end)
+                end
+            end
+
+            if type(v3483) == "table" then
+                for k, v in pairs(v3483) do
+                    if type(v) == "table" and v.AssetCategory then
+                        local v3492 = v.Uid or k
+                        local AssetCategory = v.AssetCategory
+                        local v3494 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+                        local v3495
+                        local Placement = v.Placement
+                        if type(Placement) == "table" and Placement.LocalCFrame then
+                            local ok50, result50 = pcall(function()
+                                return cFrame * Placement.LocalCFrame
+                            end)
+
+                            if ok50 and result50 then
+                                v3495 = result50.Position + Vector3.new(0, 3, 0)
+                            end
+                        end
+                        if v3495 then
+                            local v3499, v3500 = v2137(v, v3492)
+
+                            t234[#t234 + 1] = {
+								key = "p:" .. tostring(v.Uid or k),
+								pos = v3495,
+								cfg = v3494,
+								rec = v,
+								left = v3499,
+								ready = v3500
+							}
+                        end
+                    end
+                end
+            end
+
+            if #t234 == 0 and v3486 then
+                for _, descendant in ipairs(v3486:GetDescendants()) do
+                    local u3503 = false
+
+                    pcall(function()
+                        if descendant:IsA("ProximityPrompt") then
+                            u3503 = string.lower(tostring(descendant.Name) .. " " .. tostring(descendant.ActionText) .. " " .. tostring(descendant.ObjectText)):find("hatch", 1, true) ~= nil
+                        end
+                    end)
+
+                    if u3503 then
+                        local descendantParent = descendant.Parent
+                        local u3505
+                        pcall(function()
+                            if descendantParent:IsA("BasePart") then
+                                u3505 = descendantParent.Position + Vector3.new(0, 3, 0)
+
+                                return
+                            end
+
+                            if descendantParent:IsA("Model") then
+                                u3505 = descendantParent:GetPivot().Position + Vector3.new(0, 3, 0)
+                            end
+                        end)
+                        if u3505 then
+                            local u3506 = false
+
+                            pcall(function()
+                                u3506 = string.lower(tostring(descendant.ObjectText) .. " " .. tostring(descendant.ActionText)):find("ready", 1, true) ~= nil
+                            end)
+                            t234[#t234 + 1] = {
+								key = "p:" .. tostring(descendant),
+								pos = u3505,
+								ready = u3506,
+								left = nil
+							}
+                        end
+                    end
+                end
+            end
+
+            t218.plotList = t234
+
+            return t234
+        end
+        local function v2140(p368, p369)
+            if not p368 or not p369 then
+                if t218.beamObj then
+                    t218.beamObj.Enabled = false
+                end
+
+                return
+            end
+
+            local v3509 = v2119()
+
+            if not v3509 then
+                if t218.beamObj then
+                    t218.beamObj.Enabled = false
+                end
+
+                return
+            end
+
+            if not t218.att0 or p368 ~= t218.att0.Parent then
+                if t218.att0 then
+                    pcall(function()
+                        t218.att0:Destroy()
+                    end)
+                end
+
+                local Attachment = Instance.new("Attachment")
+
+                Attachment.Name = "KiraBeamA"
+                Attachment.Parent = p368
+                t218.att0 = Attachment
+            end
+
+            if not t218.tip or not t218.tip.Parent then
+                local Part = Instance.new("Part")
+
+                Part.Name = "KiraBeamTip"
+                Part.Anchored = true
+                Part.CanCollide = false
+                Part.CanQuery = false
+                Part.CanTouch = false
+                Part.Transparency = 1
+                Part.Size = Vector3.new(0.2, 0.2, 0.2)
+                Part.Parent = v3509
+                t218.tip = Part
+            end
+
+            pcall(function()
+                t218.tip.CFrame = CFrame.new(p369)
+            end)
+
+            if not t218.att1 or t218.att1.Parent ~= t218.tip then
+                if t218.att1 then
+                    pcall(function()
+                        t218.att1:Destroy()
+                    end)
+                end
+
+                local Attachment = Instance.new("Attachment")
+
+                Attachment.Name = "KiraBeamB"
+                Attachment.Parent = t218.tip
+                t218.att1 = Attachment
+            end
+
+            if not t218.beamObj or not t218.beamObj.Parent then
+                local Beam = Instance.new("Beam")
+
+                Beam.Name = "KiraBeam"
+                Beam.FaceCamera = true
+                Beam.Width0 = 0.16
+                Beam.Width1 = 0.05
+                Beam.LightEmission = 0.7
+                Beam.Transparency = NumberSequence.new(0.15)
+                Beam.Parent = v3509
+                t218.beamObj = Beam
+            end
+
+            t218.beamObj.Attachment0 = t218.att0
+            t218.beamObj.Attachment1 = t218.att1
+            t218.beamObj.Color = ColorSequence.new(t3.accent)
+            t218.beamObj.Enabled = true
+        end
+        local function v2141()
+            if not t9.EggESP and (not t9.PlotESP and not t9.ESPBeam) then
+                for _, v in pairs(t218.pool) do
+                    if v.bb then
+                        v.bb.Enabled = false
+                    end
+                end
+
+                if t218.beamObj then
+                    t218.beamObj.Enabled = false
+                end
+
+                if t9.StatsPanel then
+                    pcall(v1204)
+                end
+
+                return
+            end
+
+            local elapsed18 = os.clock()
+
+            if elapsed18 - (t218.lastTick or 0) < 0.08 then
+                return
+            end
+
+            t218.lastTick = elapsed18
+
+            if t9.EggESP then
+                local v3517 = v1204()
+                local v3518 = t9.AutoSteal and (t216.running and (t216.target and (t216.target.rec and t216.target.rec.Uid)))
+
+                for _, v in ipairs(v3517) do
+                    pcall(function()
+                        if type(v) ~= "table" or not v.Uid then
+                            return
+                        end
+
+                        local State = v.State
+
+                        if State ~= "Slot" and State ~= "Dropped" then
+                            return
+                        end
+
+                        local AssetCategory = v.AssetCategory
+                        local v4715 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+                        local v4716 = v
+                        local v4717 = t9.ESPFilter or "All eggs"
+                        local v4719
+
+                        if v4717 == "Stolen target only" then
+                            local target = t216.target
+
+                            v4719 = target and (target.rec and target.rec.Uid == v4716.Uid)
+                        else
+                            v4719 = v4717 ~= "Eggs matching my filters" or v1215(v4716, v4715)
+                        end
+
+                        if not v4719 then
+                            return
+                        end
+
+                        local v4720 = v1209(v)
+
+                        if not v4720 then
+                            local v4721 = t218.pool["f:" .. v.Uid]
+
+                            v4720 = v4721 and v4721.pos
+                        end
+
+                        if v4720 then
+                            local v4722 = v.Uid == v3518
+
+                            v2132("f:" .. v.Uid, v4720, (v2135(v, v4715, v4722)))
+                        end
+                    end)
+                end
+            end
+
+            if t9.PlotESP then
+                pcall(function()
+                    local g4739
+                    local v4738
+                    for _, v in ipairs((v2139())) do
+                        local cfg = v.cfg
+                        local v4726 = u2117(v1193(v.rec, cfg)) .. "/s"
+                        local v4727 = cfg and (cfg.DisplayName or not not v.rec and v.rec.AssetCategory) or "plot egg"
+                        local v4728 = if not v.ready then v.left and v2138(v.left) or "hatching" else "ready"
+                        local v4729 = v.rec and v.rec.AssetCategory
+                        local v4730 = v1192(cfg, v.rec)
+                        local v4731 = v4726 .. "  ·  " .. v4728
+
+                        if v4730 then
+                            v4731 = v4726 .. "  ·  " .. v4730 .. "  ·  " .. v4728
+                        end
+
+                        local v4732 = v2132
+                        local key = v.key
+                        local pos = v.pos
+                        local t235 = {
+							name = tostring(v4727),
+							sub = v4731,
+							color = v.ready and t3.ok or t3.dim,
+							target = v.ready == true
+						}
+
+                        v2123(v4729, cfg)
+
+                        local v4736 = v2129(cfg, v4729)
+
+                        for i = 1, #v4736 do
+                            v4738 = t218.iconBy[v4736[i]]
+
+                            if v4738 then
+                                g4739 = true
+                            end
+
+                            if g4739 then
+                                break
+                            end
+                        end
+
+                        if not g4739 then
+                            v4738 = nil
+                        end
+
+                        g4739 = false
+                        t235.icon = v4738
+                        v4732(key, pos, t235)
+                    end
+                end)
+            end
+
+            if t9.ESPBeam and t9.AutoSteal and t216.running then
+                local Character5 = LocalPlayer.Character
+                local v3522
+
+                if not Character5 then
+                    v3522 = nil
+                else
+                    local Humanoid = Character5:FindFirstChildOfClass("Humanoid")
+                    local HumanoidRootPart = Character5:FindFirstChild("HumanoidRootPart")
+
+                    v3522 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+                end
+
+                local target = t216.target
+
+                if v3522 and target and target.pos and (target.cfg or target.earn) then
+                    v2140(v3522, target.pos)
+                elseif t218.beamObj then
+                    t218.beamObj.Enabled = false
+                end
+            elseif t218.beamObj then
+                t218.beamObj.Enabled = false
+            end
+
+            v2133()
+        end
+        local t236 = {
+			ParticleEmitter = true,
+			Trail = true,
+			Beam = true,
+			Fire = true,
+			Smoke = true,
+			Sparkles = true,
+			Highlight = true,
+			PointLight = true,
+			SpotLight = true,
+			SurfaceLight = true,
+			Clouds = true
+		}
+        local function v2143(p370)
+            if p370 then
+                local v3530
+
+                if not p370 then
+                    v3530 = true
+                elseif v98 and p370:IsDescendantOf(v98) then
+                    v3530 = true
+                elseif t218.world and p370:IsDescendantOf(t218.world) then
+                    v3530 = true
+                else
+                    local p370Name = p370.Name
+
+                    v3530 = p370Name == "KiraSupport" or (p370Name == "Hub45Support" or (p370Name == "KiraWorldGui" or (p370Name == v49 or p370Name == v48)))
+                end
+
+                if not v3530 then
+                    if p370:IsA("ScreenGui") or p370:FindFirstAncestorOfClass("ScreenGui") then
+                        return
+                    end
+
+                    if not t236[p370.ClassName] then
+                        return
+                    end
+
+                    if not t218.optInst then
+                        t218.optInst = {}
+                    end
+
+                    if t218.optInst[p370] == nil then
+                        local t237 = {}
+
+                        pcall(function()
+                            if p370:IsA("Light") then
+                                t237.Enabled = p370.Enabled
+                                t237.Brightness = p370.Brightness
+
+                                return
+                            end
+
+                            if p370:IsA("ParticleEmitter") or p370:IsA("Trail") or p370:IsA("Beam") then
+                                t237.Enabled = p370.Enabled
+
+                                if p370:IsA("ParticleEmitter") then
+                                    t237.Rate = p370.Rate
+
+                                    return
+                                end
+                            else
+                                t237.Enabled = p370.Enabled
+                            end
+                        end)
+                        t218.optInst[p370] = t237
+                    end
+
+                    pcall(function()
+                        p370.Enabled = false
+
+                        if p370:IsA("Light") then
+                            p370.Brightness = 0
+
+                            return
+                        end
+
+                        if p370:IsA("ParticleEmitter") then
+                            p370.Rate = 0
+                        end
+                    end)
+
+                    return
+                end
+            end
+        end
+        local function v2144()
+            local PlayerGui = LocalPlayer:FindFirstChild("PlayerGui")
+            local v3549 = PlayerGui and PlayerGui:FindFirstChild("HUD")
+            local v3550 = v3549 and v3549:FindFirstChild("GameHUD")
+            local v3551 = v3550 and v3550:FindFirstChild("BottomLeft")
+            local v3552 = v3551 and v3551:FindFirstChild("Money")
+            local v3553 = v3552 and v3552:FindFirstChild("Value")
+
+            if v3553 and ((v3553:IsA("TextLabel") or v3553:IsA("TextButton")) and v3553.Text ~= "") then
+                return v3553.Text
+            end
+
+            local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+            local v3555 = leaderstats and (leaderstats:FindFirstChild("Money") or (leaderstats:FindFirstChild("Cash") or leaderstats:FindFirstChild("Coins")))
+
+            if v3555 and v3555:IsA("ValueBase") then
+                return "$" .. u2117(v3555.Value)
+            end
+
+            return "—"
+        end
+        local function v2145()
+            local elapsed19 = os.clock()
+
+            if t218.penSnap and elapsed19 - (t218.penAt or 0) < 2.5 then
+                return t218.penSnap
+            end
+
+            if t218.penBusy then
+                return t218.penSnap
+            end
+
+            t218.penAt = elapsed19
+            t218.penBusy = true
+            task.spawn(function()
+                local u4748
+                pcall(function()
+                    local v4887 = v1168({ "Remotes" })
+                    local v4888 = v4887 and (v4887.PenRoster and v1170(v4887.PenRoster.AskLiveSnapshot))
+
+                    if not v4888 then
+                        return
+                    end
+
+                    local v4889 = v4888:InvokeServer()
+
+                    if type(v4889) ~= "table" then
+                        return
+                    end
+
+                    for _, v in pairs(v4889) do
+                        if type(v) == "table" and tonumber(v.OwnerUserId) == LocalPlayer.UserId then
+                            u4748 = v
+
+                            return
+                        end
+                    end
+                end)
+                if u4748 then
+                    t218.penSnap = u4748
+                end
+                t218.penBusy = false
+            end)
+
+            return t218.penSnap
+        end
+        local t238 = {
+			"Money",
+			"Income",
+			"Pen",
+			"Best pet",
+			"Best egg",
+			"Speed",
+			"Session"
+		}
+        local function v2147()
+            if t218.statsFrame and t218.statsFrame.Parent then
+                local statsRows = t218.statsRows
+
+                if type(statsRows) == "table" and statsRows.Money and statsRows.Money.Parent and statsRows.Session and statsRows.Session.Parent and t218.statsFrame.Size.X.Offset >= 240 then
+                    return t218.statsFrame
+                end
+
+                pcall(function()
+                    t218.statsFrame:Destroy()
+                end)
+                t218.statsFrame = nil
+                t218.statsRows = nil
+            end
+            local StatsPanel = v98:FindFirstChild("StatsPanel")
+            if StatsPanel then
+                pcall(function()
+                    StatsPanel:Destroy()
+                end)
+            end
+            local t239 = {
+				Name = "StatsPanel",
+				BackgroundColor3 = t3.card,
+				BorderSizePixel = 0,
+				Position = UDim2.fromOffset(16, 72),
+				Size = UDim2.fromOffset(248, 222),
+				ZIndex = 40,
+				Active = true,
+				Visible = false,
+				ClipsDescendants = false
+			}
+            local v3560 = v98
+            local Frame = Instance.new("Frame")
+            if t239 then
+                for k, v in pairs(t239) do
+                    Frame[k] = v
+                end
+            end
+            if v3560 then
+                Frame.Parent = v3560
+            end
+            local v3564 = Frame
+            local t240 = {
+				CornerRadius = UDim.new(0, 10)
+			}
+            local UICorner = Instance.new("UICorner")
+            if t240 then
+                for k, v in pairs(t240) do
+                    UICorner[k] = v
+                end
+            end
+            if v3564 then
+                UICorner.Parent = v3564
+            end
+            local s20 = "line"
+            local t241 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke = Instance.new("UIStroke")
+            if t241 then
+                for k, v in pairs(t241) do
+                    UIStroke[k] = v
+                end
+            end
+            if v3564 then
+                UIStroke.Parent = v3564
+            end
+            if s20 then
+                UIStroke:SetAttribute("th_stroke", s20)
+            end
+            if v3564 then
+                v3564:SetAttribute("th_bg", "card")
+
+                local card = t3.card
+
+                if card and v3564:IsA("GuiObject") then
+                    v3564.BackgroundColor3 = card
+                end
+            end
+            local t242 = {
+				BackgroundColor3 = t3.rail,
+				BorderSizePixel = 0,
+				Size = UDim2.new(1, 0, 0, 26),
+				Font = t4.mid,
+				Text = "  Stats",
+				TextColor3 = t3.text,
+				TextSize = 12,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				ZIndex = 9,
+				Active = true
+			}
+            local TextLabel = Instance.new("TextLabel")
+            if t242 then
+                for k, v in pairs(t242) do
+                    TextLabel[k] = v
+                end
+            end
+            if v3564 then
+                TextLabel.Parent = v3564
+            end
+            local t243 = {
+				CornerRadius = UDim.new(0, 10)
+			}
+            local UICorner14 = Instance.new("UICorner")
+            if t243 then
+                for k, v in pairs(t243) do
+                    UICorner14[k] = v
+                end
+            end
+            if TextLabel then
+                UICorner14.Parent = TextLabel
+            end
+            if TextLabel then
+                TextLabel:SetAttribute("th_bg", "rail")
+
+                local rail = t3.rail
+
+                if rail and TextLabel:IsA("GuiObject") then
+                    TextLabel.BackgroundColor3 = rail
+                end
+            end
+            if TextLabel then
+                TextLabel:SetAttribute("th_text", "text")
+
+                local text = t3.text
+
+                if text then
+                    TextLabel.TextColor3 = text
+                end
+            end
+            local t244 = {
+				BackgroundColor3 = t3.rail,
+				BorderSizePixel = 0,
+				Position = UDim2.new(0, 0, 0, 16),
+				Size = UDim2.new(1, 0, 0, 10),
+				ZIndex = 9
+			}
+            local Frame28 = Instance.new("Frame")
+            if t244 then
+                for k, v in pairs(t244) do
+                    Frame28[k] = v
+                end
+            end
+            if TextLabel then
+                Frame28.Parent = TextLabel
+            end
+            local Frame29 = TextLabel:FindFirstChildOfClass("Frame")
+            if Frame29 then
+                Frame29:SetAttribute("th_bg", "rail")
+
+                local rail = t3.rail
+
+                if rail and Frame29:IsA("GuiObject") then
+                    Frame29.BackgroundColor3 = rail
+                end
+            end
+            local t245 = {}
+            local n48 = 28
+            for _, v in ipairs(t238) do
+                local v3595 = v == "Best pet" or v == "Best egg"
+                local v3596 = not v3595 and 18 or 34
+                local t246 = {
+					BackgroundTransparency = 1,
+					Position = UDim2.fromOffset(10, n48),
+					Size = UDim2.fromOffset(72, v3596),
+					Font = t4.body,
+					Text = v,
+					TextColor3 = t3.dim,
+					TextSize = 11,
+					TextXAlignment = Enum.TextXAlignment.Left,
+					TextYAlignment = Enum.TextYAlignment.Top,
+					ZIndex = 9
+				}
+                local TextLabel12 = Instance.new("TextLabel")
+
+                if t246 then
+                    for k, v17 in pairs(t246) do
+                        TextLabel12[k] = v17
+                    end
+                end
+
+                if v3564 then
+                    TextLabel12.Parent = v3564
+                end
+
+                if TextLabel12 then
+                    TextLabel12:SetAttribute("th_text", "dim")
+
+                    local dim = t3.dim
+
+                    if dim then
+                        TextLabel12.TextColor3 = dim
+                    end
+                end
+
+                local t247 = {
+					BackgroundTransparency = 1,
+					Position = UDim2.fromOffset(82, n48),
+					Size = UDim2.fromOffset(156, v3596),
+					Font = t4.mono,
+					Text = "—",
+					TextColor3 = t3.text,
+					TextSize = 11,
+					TextXAlignment = Enum.TextXAlignment.Right,
+					TextYAlignment = Enum.TextYAlignment.Top,
+					TextWrapped = v3595,
+					TextTruncate = v3595 and Enum.TextTruncate.None or Enum.TextTruncate.AtEnd,
+					ZIndex = 9
+				}
+                local TextLabel13 = Instance.new("TextLabel")
+
+                if t247 then
+                    for k, v19 in pairs(t247) do
+                        TextLabel13[k] = v19
+                    end
+                end
+
+                if v3564 then
+                    TextLabel13.Parent = v3564
+                end
+
+                if TextLabel13 then
+                    TextLabel13:SetAttribute("th_text", "text")
+
+                    local text = t3.text
+
+                    if text then
+                        TextLabel13.TextColor3 = text
+                    end
+                end
+
+                t245[v] = TextLabel13
+                n48 += not v3595 and 21 or 38
+            end
+            v3564.Size = UDim2.fromOffset(248, n48 + 8)
+            local u3607
+            local inputPosition2
+            local Position3
+            TextLabel.InputBegan:Connect(function(input)
+                local UserInputType = input.UserInputType
+
+                if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+                    u3607 = true
+                    inputPosition2 = input.Position
+                    Position3 = v3564.Position
+                end
+            end)
+            if not t218.statsDrag then
+                local v3610 = t218
+                local connection12 = UserInputService.InputChanged:Connect(function(input)
+                    if not u3607 then
+                        return
+                    end
+
+                    local UserInputType = input.UserInputType
+
+                    if UserInputType ~= Enum.UserInputType.MouseMovement and UserInputType ~= Enum.UserInputType.Touch then
+                        return
+                    end
+
+                    if not t218.statsFrame or not t218.statsFrame.Parent then
+                        u3607 = false
+
+                        return
+                    end
+
+                    local v4753 = input.Position - inputPosition2
+
+                    t218.statsFrame.Position = UDim2.new(Position3.X.Scale, Position3.X.Offset + v4753.X, Position3.Y.Scale, Position3.Y.Offset + v4753.Y)
+
+                    if t218.sellFrame and t218.sellFrame.Visible and not t218.sellMoved then
+                        u2116(t218.sellFrame)
+                    end
+                end)
+
+                if connection12 then
+                    t152[connection12] = true
+                end
+
+                v3610.statsDrag = connection12
+
+                local v3612 = t218
+                local connection13 = UserInputService.InputEnded:Connect(function(input)
+                    local UserInputType = input.UserInputType
+
+                    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+                        u3607 = false
+                    end
+                end)
+
+                if connection13 then
+                    t152[connection13] = true
+                end
+
+                v3612.statsEnd = connection13
+            end
+            t218.statsFrame = v3564
+            t218.statsRows = t245
+
+            return v3564
+        end
+        local function v2148(p371)
+            if not p371 then
+                if t218.statsFrame then
+                    t218.statsFrame.Visible = false
+                end
+
+                return
+            end
+
+            local v3615 = v2147()
+
+            if v3615 then
+                v3615.Visible = true
+            end
+        end
+        local function v2149()
+            if not t9.StatsPanel then
+                if t218.statsFrame and t218.statsFrame.Visible then
+                    t218.statsFrame.Visible = false
+                end
+
+                return
+            end
+            local elapsed20 = os.clock()
+            if u1202 then
+                u1202 = false
+                t218.statsAt = 0
+                t218.ownerAt = 0
+                pcall(v1204, true)
+            elseif elapsed20 - (t218.statsAt or 0) < 0.35 then
+                return
+            end
+            t218.statsAt = elapsed20
+            local v3617 = v2147()
+            if not v3617 then
+                return
+            end
+            v3617.Visible = true
+            if t218.sellFrame and t218.sellFrame.Visible and not t218.sellMoved then
+                u2116(t218.sellFrame)
+            end
+            local statsRows = t218.statsRows
+            if type(statsRows) ~= "table" then
+                return
+            end
+            local v3619 = math.max(0, math.floor(elapsed20 - (t218.sessionAt or elapsed20)))
+            local v3620 = math.floor(v3619 / 3600)
+            local v3621 = math.floor(v3619 % 3600 / 60)
+            local v3622 = v3619 % 60
+            local v3623 = v3620 > 0 and string.format("%d:%02d:%02d", v3620, v3621, v3622) or string.format("%d:%02d", v3621, v3622)
+            local n49 = 0
+            pcall(function()
+                n49 = tonumber(t216.banked) or 0
+            end)
+            local v3625 = v3623 .. " · " .. tostring(n49) .. " stolen"
+            local Session = statsRows.Session
+            if Session and Session.Parent then
+                Session.Text = tostring(v3625)
+            end
+            pcall(function()
+                local v4759 = v2144()
+                local Money = statsRows.Money
+
+                if Money and Money.Parent then
+                    Money.Text = tostring(v4759)
+                end
+            end)
+            pcall(function()
+                local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+                local v4762 = leaderstats and leaderstats:FindFirstChild("Money/s")
+                local v4763 = leaderstats and leaderstats:FindFirstChild("Speed")
+                local v4764 = v4762 and u2117(v4762.Value) .. "/s" or "—"
+                local Income = statsRows.Income
+
+                if Income and Income.Parent then
+                    Income.Text = tostring(v4764)
+                end
+
+                local v4766 = v4763 and u2117(v4763.Value) or "—"
+                local statsRowsSpeed = statsRows.Speed
+
+                if statsRowsSpeed and statsRowsSpeed.Parent then
+                    statsRowsSpeed.Text = tostring(v4766)
+                end
+            end)
+            if not t218.ownerBusy and elapsed20 - (t218.ownerAt or 0) > 1.5 then
+                t218.ownerAt = elapsed20
+                t218.ownerBusy = true
+                task.spawn(function()
+                    local n50 = 0
+                    local n51 = 0
+
+                    pcall(function()
+                        local v4892 = v2136()
+
+                        if type(v4892) == "table" then
+                            for _, v in pairs(v4892) do
+                                if type(v) == "table" then
+                                    n51 += 1
+
+                                    if v.Placement then
+                                        n50 += 1
+                                    end
+                                end
+                            end
+                        end
+                    end)
+
+                    local v4770 = t218
+                    local v4771 = t218
+
+                    v4770.ownedN = n51
+                    v4771.placedN = n50
+                    t218.ownerBusy = false
+                end)
+            end
+            local n52 = 0
+            local u3628
+            local n53 = 0
+            pcall(function()
+                local v4772 = v2145()
+
+                if v4772 and type(v4772.Records) == "table" then
+                    for _, v in pairs(v4772.Records) do
+                        if type(v) == "table" then
+                            n52 += 1
+
+                            local v4775 = v1193
+                            local v4776
+
+                            if type(v) ~= "table" then
+                                v4776 = nil
+                            elseif v.AssetCategory then
+                                v4776 = v.AssetCategory
+                            else
+                                local ItemData = v.ItemData
+
+                                v4776 = if type(ItemData) ~= "table" then nil else ItemData.Category or (ItemData.AssetCategory or (ItemData.Name or ItemData.DisplayName))
+                            end
+
+                            local v4778 = v4775(v, if not not Directory and v4776 then Directory[v4776] else nil)
+
+                            if v4778 > n53 then
+                                n53 = v4778
+
+                                local v4779
+
+                                if type(v) ~= "table" then
+                                    v4779 = nil
+                                elseif v.AssetCategory then
+                                    v4779 = v.AssetCategory
+                                else
+                                    local ItemData = v.ItemData
+
+                                    v4779 = if type(ItemData) ~= "table" then nil else ItemData.Category or (ItemData.AssetCategory or (ItemData.Name or ItemData.DisplayName))
+                                end
+
+                                local s21
+
+                                if not v4779 then
+                                    s21 = "?"
+                                else
+                                    local v4782 = if not not Directory and v4779 then Directory[v4779] else nil
+
+                                    s21 = v4782 and (v4782.DisplayName or type(v4782.Egg) == "table" and v4782.Egg.DisplayName) or tostring(v4779)
+                                end
+
+                                u3628 = s21
+                            end
+                        end
+                    end
+                end
+            end)
+            local v3630 = tonumber(t218.placedN) or 0
+            if n52 > 0 then
+                local v3631 = tostring(n52) .. " pets · " .. tostring(v3630) .. " eggs"
+                local Pen = statsRows.Pen
+
+                if Pen and Pen.Parent then
+                    Pen.Text = tostring(v3631)
+                end
+            else
+                local v3633 = tostring(v3630) .. " placed"
+                local Pen = statsRows.Pen
+
+                if Pen and Pen.Parent then
+                    Pen.Text = tostring(v3633)
+                end
+            end
+            if u3628 then
+                local v3635 = tostring(u3628) .. "\n" .. u2117(n53) .. "/s"
+                local v3636 = statsRows["Best pet"]
+
+                if v3636 and v3636.Parent then
+                    v3636.Text = tostring(v3635)
+                end
+            else
+                local v3637 = statsRows["Best pet"]
+
+                if v3637 and v3637.Parent then
+                    v3637.Text = tostring("—")
+                end
+            end
+            local u3638
+            local n54 = 0
+            pcall(function()
+                local v4783 = v1204()
+
+                if type(v4783) ~= "table" then
+                    v4783 = t195
+                end
+
+                for _, v in ipairs(v4783) do
+                    if type(v) == "table" and ((v.State == "Slot" or v.State == "Dropped") and not v1213(v)) then
+                        local AssetCategory = v.AssetCategory
+                        local v4787 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+                        local v4788 = v1193(v, v4787)
+
+                        if v4788 > n54 then
+                            n54 = v4788
+                            u3638 = v4787 and (v4787.DisplayName or type(v4787.Egg) == "table" and v4787.Egg.DisplayName) or v.AssetCategory
+                        end
+                    end
+                end
+            end)
+            if u3638 then
+                local v3640 = tostring(u3638) .. "\n" .. u2117(n54) .. "/s"
+                local v3641 = statsRows["Best egg"]
+
+                if v3641 and v3641.Parent then
+                    v3641.Text = tostring(v3640)
+                end
+            else
+                local v3642 = statsRows["Best egg"]
+
+                if v3642 and v3642.Parent then
+                    v3642.Text = tostring("—")
+                end
+            end
+        end
+        local function v2150(p372)
+            local cfg = p372.cfg
+            local v3648
+            if type(cfg) == "table" then
+                v3648 = cfg.DisplayName or (type(cfg.Egg) ~= "table" or cfg.Egg.DisplayName)
+            end
+            if not v3648 or v3648 == "" then
+                v3648 = p372.cat or "?"
+            end
+            local str27 = tostring(v3648)
+            local cfg2 = p372.cfg
+            local v3651 = if type(cfg2) == "table" and type(cfg2.Rarity) == "table" then tostring(cfg2.Rarity.DisplayName or (cfg2.Rarity.Name or (cfg2.Rarity._id or "?"))) else "?"
+            local num = tonumber((v2134(p372.rec, p372.cfg)))
+            local v3653 = if num then if not (num >= 100) then string.format("%.1fkg", num) else string.format("%.0fkg", num) else nil
+            local s22 = ""
+            local rec = p372.rec
+            if type(rec) == "table" and type(rec.Mutations) == "table" and #rec.Mutations > 0 then
+                s22 = table.concat(rec.Mutations, " · ")
+            end
+            local v3656 = u2117(p372.earn) .. "/s · " .. v3651
+            if v3653 then
+                v3656 ..= " · " .. v3653
+            end
+            local v3657 = v3656 .. " · " .. tostring(p372.kind)
+            local v3658 = "×" .. tostring(p372.n or 1)
+            if (p372.price or 0) > 0 then
+                v3658 ..= " · $" .. u2117(p372.price)
+            end
+            if s22 ~= "" then
+                v3658 ..= " · " .. s22
+            end
+
+            return str27, v3657, v3658
+        end
+        local function v2151()
+            if t218.sellDrag then
+                pcall(function()
+                    t218.sellDrag:Disconnect()
+                end)
+                t218.sellDrag = nil
+            end
+
+            if t218.sellEnd then
+                pcall(function()
+                    t218.sellEnd:Disconnect()
+                end)
+                t218.sellEnd = nil
+            end
+
+            if t218.sellFrame then
+                pcall(function()
+                    t218.sellFrame:Destroy()
+                end)
+                t218.sellFrame = nil
+            end
+
+            t218.sellTips = nil
+            t218.sellMoved = nil
+            t218.sellPos = nil
+
+            local SellPreviewPanel = v98:FindFirstChild("SellPreviewPanel")
+
+            if SellPreviewPanel then
+                pcall(function()
+                    SellPreviewPanel:Destroy()
+                end)
+            end
+
+            local statsFrame = t218.statsFrame
+
+            if statsFrame then
+                local v3661 = statsFrame:FindFirstChild("SellPreviewPanel") or statsFrame:FindFirstChild("SellPreview")
+
+                if v3661 then
+                    pcall(function()
+                        v3661:Destroy()
+                    end)
+                end
+            end
+        end
+        function u2116(p373)
+            local v3663 = p373 or t218.sellFrame
+
+            if not v3663 or not v3663.Parent then
+                return
+            end
+
+            if v3663.Parent ~= v98 then
+                v3663.Parent = v98
+            end
+
+            v3663.AnchorPoint = Vector2.new(0, 0)
+            v3663.Size = UDim2.fromOffset(248, 348)
+            v3663.ZIndex = 90
+            v3663.Visible = true
+
+            if t218.sellMoved and t218.sellPos then
+                v3663.Position = t218.sellPos
+
+                return
+            end
+
+            local statsFrame = t218.statsFrame
+
+            if statsFrame and statsFrame.Parent and statsFrame.Visible then
+                local AbsolutePosition = v98.AbsolutePosition
+                local AbsolutePosition2 = statsFrame.AbsolutePosition
+                local AbsoluteSize2 = statsFrame.AbsoluteSize
+
+                v3663.Position = UDim2.fromOffset(AbsolutePosition2.X - AbsolutePosition.X, AbsolutePosition2.Y - AbsolutePosition.Y + AbsoluteSize2.Y + 8)
+
+                return
+            end
+
+            v3663.Position = UDim2.fromOffset(16, 258)
+        end
+        local function v2152()
+            if t218.sellFrame and (t218.sellFrame.Parent and t218.sellTips and t218.sellTips.pets and t218.sellTips.eggs) then
+                if not ((t218.sellFrame.AbsoluteSize.Y or 0) < 320) then
+                    u2116(t218.sellFrame)
+
+                    return t218.sellFrame
+                end
+
+                v2151()
+            end
+            v2151()
+            local t248 = {
+				Name = "SellPreviewPanel",
+				BackgroundColor3 = t3.card,
+				BorderSizePixel = 0,
+				BackgroundTransparency = 0,
+				ClipsDescendants = true,
+				Size = UDim2.fromOffset(248, 348),
+				ZIndex = 90,
+				Active = true,
+				Visible = true
+			}
+            local v3669 = v98
+            local Frame = Instance.new("Frame")
+            if t248 then
+                for k, v in pairs(t248) do
+                    Frame[k] = v
+                end
+            end
+            if v3669 then
+                Frame.Parent = v3669
+            end
+            local v3673 = Frame
+            local t249 = {
+				CornerRadius = UDim.new(0, 10)
+			}
+            local UICorner = Instance.new("UICorner")
+            if t249 then
+                for k, v in pairs(t249) do
+                    UICorner[k] = v
+                end
+            end
+            if v3673 then
+                UICorner.Parent = v3673
+            end
+            local s23 = "line"
+            local t250 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke = Instance.new("UIStroke")
+            if t250 then
+                for k, v in pairs(t250) do
+                    UIStroke[k] = v
+                end
+            end
+            if v3673 then
+                UIStroke.Parent = v3673
+            end
+            if s23 then
+                UIStroke:SetAttribute("th_stroke", s23)
+            end
+            if v3673 then
+                v3673:SetAttribute("th_bg", "card")
+
+                local card = t3.card
+
+                if card and v3673:IsA("GuiObject") then
+                    v3673.BackgroundColor3 = card
+                end
+            end
+            u2116(v3673)
+            local t251 = {
+				BackgroundColor3 = t3.rail,
+				BorderSizePixel = 0,
+				Size = UDim2.new(1, 0, 0, 26),
+				Font = t4.mid,
+				Text = "  Sell preview",
+				TextColor3 = t3.text,
+				TextSize = 12,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				AutoButtonColor = false,
+				ZIndex = 60,
+				Active = true
+			}
+            local TextButton = Instance.new("TextButton")
+            if t251 then
+                for k, v in pairs(t251) do
+                    TextButton[k] = v
+                end
+            end
+            if v3673 then
+                TextButton.Parent = v3673
+            end
+            local t252 = {
+				CornerRadius = UDim.new(0, 10)
+			}
+            local UICorner15 = Instance.new("UICorner")
+            if t252 then
+                for k, v in pairs(t252) do
+                    UICorner15[k] = v
+                end
+            end
+            if TextButton then
+                UICorner15.Parent = TextButton
+            end
+            if TextButton then
+                TextButton:SetAttribute("th_bg", "rail")
+
+                local rail = t3.rail
+
+                if rail and TextButton:IsA("GuiObject") then
+                    TextButton.BackgroundColor3 = rail
+                end
+            end
+            if TextButton then
+                TextButton:SetAttribute("th_text", "text")
+
+                local text = t3.text
+
+                if text then
+                    TextButton.TextColor3 = text
+                end
+            end
+            local t253 = {
+				BackgroundColor3 = t3.rail,
+				BorderSizePixel = 0,
+				Position = UDim2.new(0, 0, 0, 16),
+				Size = UDim2.new(1, 0, 0, 10),
+				ZIndex = 60,
+				Active = false
+			}
+            local Frame30 = Instance.new("Frame")
+            if t253 then
+                for k, v in pairs(t253) do
+                    Frame30[k] = v
+                end
+            end
+            if TextButton then
+                Frame30.Parent = TextButton
+            end
+            local Frame31 = TextButton:FindFirstChildOfClass("Frame")
+            if Frame31 then
+                Frame31:SetAttribute("th_bg", "rail")
+
+                local rail = t3.rail
+
+                if rail and Frame31:IsA("GuiObject") then
+                    Frame31.BackgroundColor3 = rail
+                end
+            end
+            local t254 = {
+				AnchorPoint = Vector2.new(1, 0.5),
+				BackgroundColor3 = t3.fill,
+				Position = UDim2.new(1, -6, 0.5, 0),
+				Size = UDim2.fromOffset(20, 20),
+				Font = t4.mid,
+				Text = "×",
+				TextColor3 = t3.text,
+				TextSize = 14,
+				AutoButtonColor = false,
+				ZIndex = 61,
+				Active = true
+			}
+            local TextButton2 = Instance.new("TextButton")
+            if t254 then
+                for k, v in pairs(t254) do
+                    TextButton2[k] = v
+                end
+            end
+            if TextButton then
+                TextButton2.Parent = TextButton
+            end
+            local v3704 = TextButton2
+            local t255 = {
+				CornerRadius = UDim.new(0, 6)
+			}
+            local UICorner16 = Instance.new("UICorner")
+            if t255 then
+                for k, v in pairs(t255) do
+                    UICorner16[k] = v
+                end
+            end
+            if v3704 then
+                UICorner16.Parent = v3704
+            end
+            local s24 = "line"
+            local t256 = {
+				Color = t3.line or t3.line,
+				Thickness = 1,
+				ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+			}
+            local UIStroke12 = Instance.new("UIStroke")
+            if t256 then
+                for k, v in pairs(t256) do
+                    UIStroke12[k] = v
+                end
+            end
+            if v3704 then
+                UIStroke12.Parent = v3704
+            end
+            if s24 then
+                UIStroke12:SetAttribute("th_stroke", s24)
+            end
+            if v3704 then
+                v3704:SetAttribute("th_bg", "fill")
+
+                local fill = t3.fill
+
+                if fill and v3704:IsA("GuiObject") then
+                    v3704.BackgroundColor3 = fill
+                end
+            end
+            if v3704 then
+                v3704:SetAttribute("th_text", "text")
+
+                local text = t3.text
+
+                if text then
+                    v3704.TextColor3 = text
+                end
+            end
+            v85(v3704, "fill", "lift")
+            v3704.MouseButton1Click:Connect(function()
+                if t218.sellFrame then
+                    t218.sellFrame.Visible = false
+                end
+            end)
+            local t257 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(10, 28),
+				Size = UDim2.new(1, -20, 0, 16),
+				Font = t4.body,
+				Text = "",
+				TextColor3 = t3.dim,
+				TextSize = 11,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				ZIndex = 41
+			}
+            local TextLabel = Instance.new("TextLabel")
+            if t257 then
+                for k, v in pairs(t257) do
+                    TextLabel[k] = v
+                end
+            end
+            if v3673 then
+                TextLabel.Parent = v3673
+            end
+            if TextLabel then
+                TextLabel:SetAttribute("th_text", "dim")
+
+                local dim = t3.dim
+
+                if dim then
+                    TextLabel.TextColor3 = dim
+                end
+            end
+            local t258 = {
+				BackgroundTransparency = 1,
+				BorderSizePixel = 0,
+				Position = UDim2.fromOffset(8, 46),
+				Size = UDim2.new(1, -16, 1, -102),
+				AutomaticCanvasSize = Enum.AutomaticSize.Y,
+				CanvasSize = UDim2.new(0, 0, 0, 0),
+				ScrollBarThickness = 4,
+				ScrollBarImageColor3 = t3.line,
+				ClipsDescendants = true,
+				ZIndex = 41
+			}
+            local ScrollingFrame = Instance.new("ScrollingFrame")
+            if t258 then
+                for k, v in pairs(t258) do
+                    ScrollingFrame[k] = v
+                end
+            end
+            if v3673 then
+                ScrollingFrame.Parent = v3673
+            end
+            local v3725 = ScrollingFrame
+            local t259 = {
+				FillDirection = Enum.FillDirection.Vertical,
+				Padding = UDim.new(0, 8),
+				SortOrder = Enum.SortOrder.LayoutOrder
+			}
+            local UIListLayout = Instance.new("UIListLayout")
+            if t259 then
+                for k, v in pairs(t259) do
+                    UIListLayout[k] = v
+                end
+            end
+            if v3725 then
+                UIListLayout.Parent = v3725
+            end
+            local function v3730(p374, p375)
+                local t260 = {
+					BackgroundTransparency = 1,
+					AutomaticSize = Enum.AutomaticSize.Y,
+					Size = UDim2.new(1, 0, 0, 0),
+					LayoutOrder = p374,
+					ZIndex = 42
+				}
+                local v4792 = v3725
+                local Frame32 = Instance.new("Frame")
+
+                if t260 then
+                    for k, v in pairs(t260) do
+                        Frame32[k] = v
+                    end
+                end
+
+                if v4792 then
+                    Frame32.Parent = v4792
+                end
+
+                local t261 = {
+					FillDirection = Enum.FillDirection.Vertical,
+					Padding = UDim.new(0, 6),
+					SortOrder = Enum.SortOrder.LayoutOrder
+				}
+                local UIListLayout3 = Instance.new("UIListLayout")
+
+                if t261 then
+                    for k, v in pairs(t261) do
+                        UIListLayout3[k] = v
+                    end
+                end
+
+                if Frame32 then
+                    UIListLayout3.Parent = Frame32
+                end
+
+                local t262 = {
+					BackgroundTransparency = 1,
+					Size = UDim2.new(1, 0, 0, 14),
+					Font = t4.mono,
+					Text = p375,
+					TextColor3 = t3.dim,
+					TextSize = 10,
+					TextXAlignment = Enum.TextXAlignment.Left,
+					LayoutOrder = 1,
+					ZIndex = 42
+				}
+                local TextLabel14 = Instance.new("TextLabel")
+
+                if t262 then
+                    for k, v in pairs(t262) do
+                        TextLabel14[k] = v
+                    end
+                end
+
+                if Frame32 then
+                    TextLabel14.Parent = Frame32
+                end
+
+                if TextLabel14 then
+                    TextLabel14:SetAttribute("th_text", "dim")
+
+                    local dim = t3.dim
+
+                    if dim then
+                        TextLabel14.TextColor3 = dim
+                    end
+                end
+
+                local t263 = {
+					BackgroundTransparency = 1,
+					AutomaticSize = Enum.AutomaticSize.Y,
+					Size = UDim2.new(1, 0, 0, 0),
+					LayoutOrder = 2,
+					ZIndex = 42
+				}
+                local Frame33 = Instance.new("Frame")
+
+                if t263 then
+                    for k, v in pairs(t263) do
+                        Frame33[k] = v
+                    end
+                end
+
+                if Frame32 then
+                    Frame33.Parent = Frame32
+                end
+
+                local v4809 = Frame33
+                local t264 = {
+					CellPadding = UDim2.fromOffset(4, 4),
+					CellSize = UDim2.fromOffset(40, 40),
+					FillDirection = Enum.FillDirection.Horizontal,
+					HorizontalAlignment = Enum.HorizontalAlignment.Left,
+					SortOrder = Enum.SortOrder.LayoutOrder
+				}
+                local UIGridLayout = Instance.new("UIGridLayout")
+
+                if t264 then
+                    for k, v in pairs(t264) do
+                        UIGridLayout[k] = v
+                    end
+                end
+
+                if v4809 then
+                    UIGridLayout.Parent = v4809
+                end
+
+                local UIGridLayout2 = v4809:FindFirstChildOfClass("UIGridLayout")
+
+                local function v4815()
+                    if not v4809 or not UIGridLayout2 then
+                        return
+                    end
+
+                    local v4895 = math.max(0, math.ceil(UIGridLayout2.AbsoluteContentSize.Y))
+
+                    v4809.AutomaticSize = Enum.AutomaticSize.None
+                    v4809.Size = UDim2.new(1, 0, 0, v4895)
+                end
+
+                if UIGridLayout2 then
+                    UIGridLayout2:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(v4815)
+                end
+
+                return {
+					lab = TextLabel14,
+					grid = v4809,
+					title = p375,
+					fit = v4815
+				}
+            end
+            local v3731 = v3730(1, "Pets")
+            local v3732 = v3730(2, "Eggs")
+            local t265 = {
+				AnchorPoint = Vector2.new(0, 1),
+				BackgroundColor3 = t3.card,
+				BorderSizePixel = 0,
+				Position = UDim2.new(0, 0, 1, 0),
+				Size = UDim2.new(1, 0, 0, 56),
+				ClipsDescendants = true,
+				ZIndex = 50
+			}
+            local Frame34 = Instance.new("Frame")
+            if t265 then
+                for k, v in pairs(t265) do
+                    Frame34[k] = v
+                end
+            end
+            if v3673 then
+                Frame34.Parent = v3673
+            end
+            if Frame34 then
+                Frame34:SetAttribute("th_bg", "card")
+
+                local card = t3.card
+
+                if card and Frame34:IsA("GuiObject") then
+                    Frame34.BackgroundColor3 = card
+                end
+            end
+            local t266 = {
+				BackgroundColor3 = t3.line,
+				BorderSizePixel = 0,
+				Size = UDim2.new(1, 0, 0, 1),
+				ZIndex = 51
+			}
+            local Frame35 = Instance.new("Frame")
+            if t266 then
+                for k, v in pairs(t266) do
+                    Frame35[k] = v
+                end
+            end
+            if Frame34 then
+                Frame35.Parent = Frame34
+            end
+            if Frame35 then
+                Frame35:SetAttribute("th_bg", "line")
+
+                local line = t3.line
+
+                if line and Frame35:IsA("GuiObject") then
+                    Frame35.BackgroundColor3 = line
+                end
+            end
+            local t267 = {
+				BackgroundTransparency = 1,
+				Position = UDim2.fromOffset(0, 1),
+				Size = UDim2.new(1, 0, 1, -1),
+				ZIndex = 51
+			}
+            local Frame36 = Instance.new("Frame")
+            if t267 then
+                for k, v in pairs(t267) do
+                    Frame36[k] = v
+                end
+            end
+            if Frame34 then
+                Frame36.Parent = Frame34
+            end
+            local t268 = {
+				PaddingLeft = UDim.new(0, 10),
+				PaddingRight = UDim.new(0, 10),
+				PaddingTop = UDim.new(0, 6),
+				PaddingBottom = UDim.new(0, 6)
+			}
+            local UIPadding = Instance.new("UIPadding")
+            if t268 then
+                for k, v in pairs(t268) do
+                    UIPadding[k] = v
+                end
+            end
+            if Frame36 then
+                UIPadding.Parent = Frame36
+            end
+            local t269 = {
+				FillDirection = Enum.FillDirection.Vertical,
+				Padding = UDim.new(0, 2),
+				SortOrder = Enum.SortOrder.LayoutOrder
+			}
+            local UIListLayout4 = Instance.new("UIListLayout")
+            if t269 then
+                for k, v in pairs(t269) do
+                    UIListLayout4[k] = v
+                end
+            end
+            if Frame36 then
+                UIListLayout4.Parent = Frame36
+            end
+            local t270 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 0, 14),
+				Font = t4.mid,
+				Text = "Hover icon to display stats",
+				TextColor3 = t3.text,
+				TextSize = 12,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				LayoutOrder = 1,
+				ZIndex = 52
+			}
+            local TextLabel15 = Instance.new("TextLabel")
+            if t270 then
+                for k, v in pairs(t270) do
+                    TextLabel15[k] = v
+                end
+            end
+            if Frame36 then
+                TextLabel15.Parent = Frame36
+            end
+            if TextLabel15 then
+                TextLabel15:SetAttribute("th_text", "text")
+
+                local text = t3.text
+
+                if text then
+                    TextLabel15.TextColor3 = text
+                end
+            end
+            local t271 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 0, 13),
+				Font = t4.mono,
+				Text = "",
+				TextColor3 = t3.dim,
+				TextSize = 11,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				LayoutOrder = 2,
+				ZIndex = 52
+			}
+            local TextLabel16 = Instance.new("TextLabel")
+            if t271 then
+                for k, v in pairs(t271) do
+                    TextLabel16[k] = v
+                end
+            end
+            if Frame36 then
+                TextLabel16.Parent = Frame36
+            end
+            if TextLabel16 then
+                TextLabel16:SetAttribute("th_text", "dim")
+
+                local dim = t3.dim
+
+                if dim then
+                    TextLabel16.TextColor3 = dim
+                end
+            end
+            local t272 = {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(1, 0, 0, 13),
+				Font = t4.body,
+				Text = "",
+				TextColor3 = t3.mute,
+				TextSize = 11,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				TextTruncate = Enum.TextTruncate.AtEnd,
+				LayoutOrder = 3,
+				ZIndex = 52
+			}
+            local TextLabel17 = Instance.new("TextLabel")
+            if t272 then
+                for k, v in pairs(t272) do
+                    TextLabel17[k] = v
+                end
+            end
+            if Frame36 then
+                TextLabel17.Parent = Frame36
+            end
+            if TextLabel17 then
+                TextLabel17:SetAttribute("th_text", "mute")
+
+                local mute = t3.mute
+
+                if mute then
+                    TextLabel17.TextColor3 = mute
+                end
+            end
+            t218.sellTips = {
+				name = TextLabel15,
+				a = TextLabel16,
+				b = TextLabel17,
+				sub = TextLabel,
+				pets = v3731,
+				eggs = v3732
+			}
+            local u3770
+            local inputPosition3
+            local Position4
+            TextButton.InputBegan:Connect(function(input)
+                local UserInputType = input.UserInputType
+
+                if UserInputType ~= Enum.UserInputType.MouseButton1 and UserInputType ~= Enum.UserInputType.Touch then
+                    return
+                end
+
+                local inputPosition4 = input.Position
+                local AbsolutePosition = v3704.AbsolutePosition
+                local AbsoluteSize3 = v3704.AbsoluteSize
+
+                if inputPosition4.X >= AbsolutePosition.X and inputPosition4.X <= AbsolutePosition.X + AbsoluteSize3.X and inputPosition4.Y >= AbsolutePosition.Y and inputPosition4.Y <= AbsolutePosition.Y + AbsoluteSize3.Y then
+                    return
+                end
+
+                u3770 = true
+                inputPosition3 = input.Position
+                Position4 = v3673.Position
+                t218.sellMoved = true
+                t218.sellPos = Position4
+            end)
+            if not t218.sellDrag then
+                local v3773 = t218
+                local connection14 = UserInputService.InputChanged:Connect(function(input)
+                    if not u3770 then
+                        return
+                    end
+
+                    local UserInputType = input.UserInputType
+
+                    if UserInputType ~= Enum.UserInputType.MouseMovement and UserInputType ~= Enum.UserInputType.Touch then
+                        return
+                    end
+
+                    if not t218.sellFrame or not t218.sellFrame.Parent or not Position4 or not inputPosition3 then
+                        u3770 = false
+
+                        return
+                    end
+
+                    local v4823 = input.Position - inputPosition3
+                    local uDim2 = UDim2.new(Position4.X.Scale, Position4.X.Offset + v4823.X, Position4.Y.Scale, Position4.Y.Offset + v4823.Y)
+
+                    t218.sellFrame.Position = uDim2
+                    t218.sellPos = uDim2
+                end)
+
+                if connection14 then
+                    t152[connection14] = true
+                end
+
+                v3773.sellDrag = connection14
+
+                local v3775 = t218
+                local connection15 = UserInputService.InputEnded:Connect(function(input)
+                    local UserInputType = input.UserInputType
+
+                    if UserInputType == Enum.UserInputType.MouseButton1 or UserInputType == Enum.UserInputType.Touch then
+                        u3770 = false
+
+                        if t218.sellFrame then
+                            t218.sellPos = t218.sellFrame.Position
+                        end
+                    end
+                end)
+
+                if connection15 then
+                    t152[connection15] = true
+                end
+
+                v3775.sellEnd = connection15
+            end
+            t218.sellFrame = v3673
+
+            return v3673
+        end
+        local function v2153(p376, p377, p378)
+            local g3804
+            local v3803
+            for _, child in ipairs(p376.grid:GetChildren()) do
+                if child:IsA("GuiObject") then
+                    child:Destroy()
+                end
+            end
+            if #p377 == 0 then
+                p376.lab.Text = p376.title .. " · none"
+
+                return
+            end
+            local n55 = 0
+            for i = 1, #p377 do
+                n55 += p377[i].n or 1
+            end
+            p376.lab.Text = p376.title .. " · " .. tostring(n55)
+            for i = 1, #p377 do
+                local v3785 = p377[i]
+                local v3786, v3787, v3788 = v2150(v3785)
+                local t273 = {
+					BackgroundColor3 = t3.fill,
+					Text = "",
+					AutoButtonColor = false,
+					LayoutOrder = i,
+					ZIndex = 43
+				}
+                local grid = p376.grid
+                local TextButton = Instance.new("TextButton")
+
+                if t273 then
+                    for k, v in pairs(t273) do
+                        TextButton[k] = v
+                    end
+                end
+
+                if grid then
+                    TextButton.Parent = grid
+                end
+
+                local t274 = {
+					CornerRadius = UDim.new(0, 8)
+				}
+                local UICorner = Instance.new("UICorner")
+
+                if t274 then
+                    for k, v in pairs(t274) do
+                        UICorner[k] = v
+                    end
+                end
+
+                if TextButton then
+                    UICorner.Parent = TextButton
+                end
+
+                if TextButton then
+                    TextButton:SetAttribute("th_bg", "fill")
+
+                    local fill = t3.fill
+
+                    if fill and TextButton:IsA("GuiObject") then
+                        TextButton.BackgroundColor3 = fill
+                    end
+                end
+
+                v83(TextButton, v3785.kind ~= "egg" and "line" or "accent", 1)
+
+                local cfg = v3785.cfg
+                local cat = v3785.cat
+
+                v2123(cat, cfg)
+
+                local v3801 = v2129(cfg, cat)
+
+                for j = 1, #v3801 do
+                    v3803 = t218.iconBy[v3801[j]]
+
+                    if v3803 then
+                        g3804 = true
+                    end
+
+                    if g3804 then
+                        break
+                    end
+                end
+
+                if not g3804 then
+                    v3803 = nil
+                end
+
+                g3804 = false
+
+                if v3803 then
+                    local t275 = {
+						BackgroundTransparency = 1,
+						Position = UDim2.fromOffset(4, 4),
+						Size = UDim2.fromOffset(32, 32),
+						Image = v3803,
+						ScaleType = Enum.ScaleType.Fit,
+						ZIndex = 44
+					}
+                    local ImageLabel = Instance.new("ImageLabel")
+
+                    if t275 then
+                        for k, v in pairs(t275) do
+                            ImageLabel[k] = v
+                        end
+                    end
+
+                    if TextButton then
+                        ImageLabel.Parent = TextButton
+                    end
+
+                    ImageLabel.ImageColor3 = Color3.new(1, 1, 1)
+                else
+                    local v3809 = string.sub(v3786, 1, 1)
+
+                    if v3809 == "" then
+                        v3809 = "?"
+                    end
+
+                    local t276 = {
+						BackgroundTransparency = 1,
+						Size = UDim2.fromScale(1, 1),
+						Font = t4.mid,
+						Text = string.upper(v3809),
+						TextColor3 = t3.dim,
+						TextSize = 14,
+						ZIndex = 44
+					}
+                    local TextLabel = Instance.new("TextLabel")
+
+                    if t276 then
+                        for k, v in pairs(t276) do
+                            TextLabel[k] = v
+                        end
+                    end
+
+                    if TextButton then
+                        TextLabel.Parent = TextButton
+                    end
+
+                    if TextLabel then
+                        TextLabel:SetAttribute("th_text", "dim")
+
+                        local dim = t3.dim
+
+                        if dim then
+                            TextLabel.TextColor3 = dim
+                        end
+                    end
+                end
+
+                if (v3785.n or 1) > 1 then
+                    local t277 = {
+						AnchorPoint = Vector2.new(1, 1),
+						BackgroundColor3 = t3.accent,
+						Position = UDim2.new(1, 2, 1, 2),
+						Size = UDim2.fromOffset(16, 12),
+						Font = t4.mono,
+						Text = if not (v3785.n > 9) then tostring(v3785.n) else "9+",
+						TextColor3 = t3.ink,
+						TextSize = 8,
+						ZIndex = 45
+					}
+                    local TextLabel = Instance.new("TextLabel")
+
+                    if t277 then
+                        for k, v in pairs(t277) do
+                            TextLabel[k] = v
+                        end
+                    end
+
+                    if TextButton then
+                        TextLabel.Parent = TextButton
+                    end
+
+                    local t278 = {
+						CornerRadius = UDim.new(0, 4)
+					}
+                    local UICorner17 = Instance.new("UICorner")
+
+                    if t278 then
+                        for k, v in pairs(t278) do
+                            UICorner17[k] = v
+                        end
+                    end
+
+                    if TextLabel then
+                        UICorner17.Parent = TextLabel
+                    end
+
+                    if TextLabel then
+                        TextLabel:SetAttribute("th_bg", "accent")
+
+                        local accent = t3.accent
+
+                        if accent and TextLabel:IsA("GuiObject") then
+                            TextLabel.BackgroundColor3 = accent
+                        end
+                    end
+
+                    if TextLabel then
+                        TextLabel:SetAttribute("th_text", "ink")
+
+                        local ink = t3.ink
+
+                        if ink then
+                            TextLabel.TextColor3 = ink
+                        end
+                    end
+                end
+
+                TextButton.MouseEnter:Connect(function()
+                    p378.name.Text = v3786
+                    p378.a.Text = v3787
+                    p378.b.Text = v3788
+                end)
+                TextButton.MouseLeave:Connect(function()
+                    p378.name.Text = "Hover icon to display stats"
+                    p378.a.Text = ""
+                    p378.b.Text = ""
+                end)
+            end
+            if p376.fit then
+                pcall(p376.fit)
+                task.defer(p376.fit)
+            end
+        end
+        local connection16 = RunService.Stepped:Connect(function()
+            if not u1117 or u1116 then
+                return
+            end
+
+            pcall(v2141)
+        end)
+        if connection16 then
+            t152[connection16] = true
+        end
+        t218.conn = connection16
+        local connection17 = RunService.RenderStepped:Connect(function()
+            if not u1117 then
+                return
+            end
+
+            pcall(v2149)
+        end)
+        if connection17 then
+            t152[connection17] = true
+        end
+        t218.dieConn = connection17
+        task.defer(function()
+            pcall(v2128)
+        end)
+
+        return {
+			fps = function()
+            local v3526 = tonumber(t9.FPSCap) or 0
+
+            if not setfpscap then
+                return
+            end
+
+            pcall(setfpscap, v3526 > 0 and v3526 or 0)
+        end,
+			opt = function(p379)
+            local Lighting = game:GetService("Lighting")
+            local Terrain = workspace:FindFirstChildOfClass("Terrain")
+
+            if p379 then
+                if not t218.optSaved then
+                    t218.optSaved = {}
+                    pcall(function()
+                        t218.optSaved.quality = settings().Rendering.QualityLevel
+                    end)
+                    pcall(function()
+                        t218.optSaved.savedQuality = UserSettings().GameSettings.SavedQualityLevel
+                    end)
+                    pcall(function()
+                        t218.optSaved.meshDetail = settings().Rendering.MeshPartDetailLevel
+                    end)
+                    pcall(function()
+                        local GameSettings = UserSettings().GameSettings
+
+                        t218.optSaved.savedGfx = GameSettings.SavedQualityLevel
+                    end)
+                    pcall(function()
+                        t218.optSaved.shadows = Lighting.GlobalShadows
+                        t218.optSaved.brightness = Lighting.Brightness
+                        t218.optSaved.envDiff = Lighting.EnvironmentDiffuseScale
+                        t218.optSaved.envSpec = Lighting.EnvironmentSpecularScale
+                        t218.optSaved.fogEnd = Lighting.FogEnd
+                        t218.optSaved.fogStart = Lighting.FogStart
+                        t218.optSaved.clock = Lighting.ClockTime
+                        t218.optSaved.ambient = Lighting.Ambient
+                        t218.optSaved.outdoor = Lighting.OutdoorAmbient
+                        t218.optSaved.exposure = Lighting.ExposureCompensation
+                    end)
+
+                    if Terrain then
+                        pcall(function()
+                            t218.optSaved.waterWave = Terrain.WaterWaveSize
+                            t218.optSaved.waterSpeed = Terrain.WaterWaveSpeed
+                            t218.optSaved.waterReflect = Terrain.WaterReflectance
+                            t218.optSaved.decoration = Terrain.Decoration
+                        end)
+                    end
+                end
+
+                pcall(function()
+                    settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+                end)
+                pcall(function()
+                    UserSettings().GameSettings.SavedQualityLevel = Enum.SavedQualityLevel.QualityLevel1
+                end)
+                pcall(function()
+                    settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
+                end)
+                pcall(function()
+                    Lighting.GlobalShadows = false
+                    Lighting.Brightness = 1
+                    Lighting.EnvironmentDiffuseScale = 0
+                    Lighting.EnvironmentSpecularScale = 0
+                    Lighting.FogEnd = 250
+                    Lighting.FogStart = 0
+                    Lighting.ExposureCompensation = -0.4
+                end)
+
+                if Terrain then
+                    pcall(function()
+                        Terrain.WaterWaveSize = 0
+                        Terrain.WaterWaveSpeed = 0
+                        Terrain.WaterReflectance = 0
+                        Terrain.Decoration = false
+                    end)
+                end
+
+                if not t218.optFx then
+                    t218.optFx = {}
+                end
+
+                for _, child in ipairs(Lighting:GetChildren()) do
+                    if child:IsA("PostEffect") or child:IsA("Atmosphere") or child:IsA("Sky") or child:IsA("Clouds") then
+                        if t218.optFx[child] == nil then
+                            if child:IsA("PostEffect") or child:IsA("Clouds") then
+                                t218.optFx[child] = {
+										Enabled = child.Enabled
+									}
+                            elseif child:IsA("Atmosphere") then
+                                t218.optFx[child] = {
+										Density = child.Density,
+										Offset = child.Offset,
+										Glare = child.Glare,
+										Haze = child.Haze
+									}
+                            elseif child:IsA("Sky") then
+                                t218.optFx[child] = {
+										Parent = child.Parent
+									}
+                            end
+                        end
+
+                        pcall(function()
+                            if child:IsA("PostEffect") or child:IsA("Clouds") then
+                                child.Enabled = false
+
+                                return
+                            end
+
+                            if child:IsA("Atmosphere") then
+                                child.Density = 0
+                                child.Glare = 0
+                                child.Haze = 0
+                            end
+                        end)
+                    end
+                end
+
+                pcall(function()
+                    for _, descendant in ipairs(workspace:GetDescendants()) do
+                        v2143(descendant)
+                    end
+                end)
+
+                if t218.optAdd then
+                    pcall(function()
+                        t218.optAdd:Disconnect()
+                    end)
+                    t218.optAdd = nil
+                end
+
+                t218.optAdd = workspace.DescendantAdded:Connect(function(descendant)
+                    if t9.Optimizer then
+                        v2143(descendant)
+                    end
+                end)
+
+                return
+            end
+
+            if t218.optSaved then
+                if t218.optAdd then
+                    pcall(function()
+                        t218.optAdd:Disconnect()
+                    end)
+                    t218.optAdd = nil
+                end
+
+                pcall(function()
+                    if t218.optSaved.quality then
+                        settings().Rendering.QualityLevel = t218.optSaved.quality
+                    end
+
+                    if t218.optSaved.savedQuality then
+                        UserSettings().GameSettings.SavedQualityLevel = t218.optSaved.savedQuality
+                    end
+
+                    if t218.optSaved.meshDetail then
+                        settings().Rendering.MeshPartDetailLevel = t218.optSaved.meshDetail
+                    end
+
+                    Lighting.GlobalShadows = t218.optSaved.shadows
+
+                    if t218.optSaved.brightness then
+                        Lighting.Brightness = t218.optSaved.brightness
+                    end
+
+                    if t218.optSaved.envDiff then
+                        Lighting.EnvironmentDiffuseScale = t218.optSaved.envDiff
+                    end
+
+                    if t218.optSaved.envSpec then
+                        Lighting.EnvironmentSpecularScale = t218.optSaved.envSpec
+                    end
+
+                    if t218.optSaved.fogEnd then
+                        Lighting.FogEnd = t218.optSaved.fogEnd
+                    end
+
+                    if t218.optSaved.fogStart then
+                        Lighting.FogStart = t218.optSaved.fogStart
+                    end
+
+                    if t218.optSaved.exposure then
+                        Lighting.ExposureCompensation = t218.optSaved.exposure
+                    end
+
+                    if Terrain then
+                        if t218.optSaved.waterWave ~= nil then
+                            Terrain.WaterWaveSize = t218.optSaved.waterWave
+                        end
+
+                        if t218.optSaved.waterSpeed ~= nil then
+                            Terrain.WaterWaveSpeed = t218.optSaved.waterSpeed
+                        end
+
+                        if t218.optSaved.waterReflect ~= nil then
+                            Terrain.WaterReflectance = t218.optSaved.waterReflect
+                        end
+
+                        if t218.optSaved.decoration ~= nil then
+                            Terrain.Decoration = t218.optSaved.decoration
+                        end
+                    end
+
+                    if t218.optFx then
+                        for k, v in pairs(t218.optFx) do
+                            if k.Parent and type(v) == "table" then
+                                pcall(function()
+                                    if v.Enabled ~= nil then
+                                        k.Enabled = v.Enabled
+                                    end
+
+                                    if v.Density then
+                                        k.Density = v.Density
+                                    end
+
+                                    if v.Glare then
+                                        k.Glare = v.Glare
+                                    end
+
+                                    if v.Haze then
+                                        k.Haze = v.Haze
+                                    end
+                                end)
+                            end
+                        end
+
+                        t218.optFx = nil
+                    end
+
+                    if t218.optInst then
+                        for k, v in pairs(t218.optInst) do
+                            if k.Parent and type(v) == "table" then
+                                pcall(function()
+                                    if v.Enabled ~= nil then
+                                        k.Enabled = v.Enabled
+                                    end
+
+                                    if v.Brightness ~= nil then
+                                        k.Brightness = v.Brightness
+                                    end
+
+                                    if v.Rate ~= nil then
+                                        k.Rate = v.Rate
+                                    end
+                                end)
+                            end
+                        end
+
+                        t218.optInst = nil
+                    end
+                end)
+                t218.optSaved = nil
+            end
+        end,
+			clear = function()
+            if t218.optAdd then
+                pcall(function()
+                    t218.optAdd:Disconnect()
+                end)
+                t218.optAdd = nil
+            end
+
+            if t218.conn then
+                t218.conn:Disconnect()
+                t218.conn = nil
+            end
+
+            if t218.dieConn then
+                t218.dieConn:Disconnect()
+                t218.dieConn = nil
+            end
+
+            if t218.statsDrag then
+                pcall(function()
+                    t218.statsDrag:Disconnect()
+                end)
+                t218.statsDrag = nil
+            end
+
+            if t218.statsEnd then
+                pcall(function()
+                    t218.statsEnd:Disconnect()
+                end)
+                t218.statsEnd = nil
+            end
+
+            if t218.statsFrame then
+                pcall(function()
+                    t218.statsFrame:Destroy()
+                end)
+                t218.statsFrame = nil
+                t218.statsRows = nil
+            end
+
+            v2151()
+
+            for _, v in pairs(t218.pool) do
+                if v.bb then
+                    v.bb:Destroy()
+                end
+
+                if v.dummy then
+                    pcall(function()
+                        v.dummy:Destroy()
+                    end)
+                end
+            end
+
+            for k in pairs(t218.pool) do
+                t218.pool[k] = nil
+            end
+
+            for _, v in ipairs({
+					"att0",
+					"att1",
+					"beamObj",
+					"tip",
+					"folder",
+					"world"
+				}) do
+                local v3839 = t218[v]
+
+                if v3839 then
+                    pcall(function()
+                        v3839:Destroy()
+                    end)
+                    t218[v] = nil
+                end
+            end
+        end,
+			tick = v2141,
+			stats = v2148,
+			sellPreview = function(p380, p381, p382)
+            local v3828 = type(p380) == "table" and p380 or {}
+            local v3829 = type(p381) == "table" and p381 or {}
+
+            t9.StatsPanel = true
+            pcall(v2148, true)
+            pcall(v2147)
+
+            if t218.statsFrame then
+                t218.statsFrame.Visible = true
+                pcall(function()
+                    t218.statsFrame.ClipsDescendants = false
+                end)
+            end
+
+            local ok51, result51 = pcall(v2152)
+            local v3832 = ok51 and result51 or t218.sellFrame
+
+            if not ok51 then
+                v1102("esp", "preview build ERR", (tostring(result51)))
+            end
+
+            if not v3832 or not v3832.Parent then
+                v1102("esp", "preview missing panel")
+
+                return false
+            end
+
+            u2116(v3832)
+            v3832.Visible = true
+
+            local sellTips = t218.sellTips
+
+            if sellTips then
+                if sellTips.sub then
+                    sellTips.sub.Text = tostring(p382 or "")
+                end
+
+                if sellTips.name then
+                    sellTips.name.Text = "Hover icon to display stats"
+                end
+
+                if sellTips.a then
+                    sellTips.a.Text = ""
+                end
+
+                if sellTips.b then
+                    sellTips.b.Text = ""
+                end
+
+                if sellTips.pets then
+                    pcall(v2153, sellTips.pets, v3828, sellTips)
+                end
+
+                if sellTips.eggs then
+                    pcall(v2153, sellTips.eggs, v3829, sellTips)
+                end
+            end
+
+            return true
+        end,
+			closeSellPreview = function()
+            if t218.sellFrame then
+                t218.sellFrame.Visible = false
+            end
+        end,
+			icon = function(p383, p384)
+            v2123(p384, p383)
+
+            local v3334 = v2129(p383, p384)
+
+            for i = 1, #v3334 do
+                local v3336 = t218.iconBy[v3334[i]]
+
+                if v3336 then
+                    return v3336
+                end
+            end
+        end,
+			liveIcon = function(p385, p386, p387)
+            local v3340 = v2129(p385, p386)
+
+            if type(p387) == "string" and p387 ~= "" then
+                if type(p387) == "string" and p387 ~= "" then
+                    local v3341 = string.lower(p387)
+
+                    v3340[#v3340 + 1] = v3341
+                    v3340[#v3340 + 1] = v3341:gsub("[%s_%-]+", "")
+                end
+            end
+
+            local t279 = {}
+
+            for i = 1, #v3340 do
+                t279[v3340[i]] = true
+            end
+
+            for _, v in pairs(t218.pool) do
+                local v3346 = v.icon and v.icon.Image
+
+                if type(v3346) ~= "string" or v3346 == "" then
+                    continue
+                end
+
+                local v3347 = string.lower((tostring(v.title and v.title.Text or ""))):gsub("^▸%s*", ""):gsub("^>%s*", "")
+                local v3348 = v3347:gsub("[%s_%-]+", "")
+
+                if v3347 ~= "" and t279[v3347] or v3348 ~= "" and t279[v3348] then
+                    return v3346
+                end
+            end
+
+            for i = 1, #v3340 do
+                local v3350 = t218.iconBy[v3340[i]]
+
+                if v3350 then
+                    return v3350
+                end
+            end
+        end,
+			scanIcons = v2128,
+			bumpPlot = function()
+            t218.plotAt = 0
+        end
+		}
+    end)()
+    local function v1227(p388)
+        local v2157 = select(1, u1219())
+
+        if not p388 then
+            return false, v2157
+        end
+
+        if v2157 and Vector3.new(v2157.X - p388.Position.X, 0, v2157.Z - p388.Position.Z).Magnitude <= 28 then
+            return true, v2157
+        end
+
+        return false, v2157
+    end
+    local function v1228()
+        local ServerTimeNow = workspace:GetServerTimeNow()
+        local AreaEggCycleDisabledAt = workspace:GetAttribute("AreaEggCycleDisabledAt")
+
+        if type(AreaEggCycleDisabledAt) == "number" then
+            ServerTimeNow = math.min(ServerTimeNow, AreaEggCycleDisabledAt)
+        end
+
+        local AreaEggCycleAnchorAt = workspace:GetAttribute("AreaEggCycleAnchorAt")
+        local AreaEggCycleAnchorIndex = workspace:GetAttribute("AreaEggCycleAnchorIndex")
+
+        if type(AreaEggCycleAnchorAt) ~= "number" then
+            AreaEggCycleAnchorAt = 0
+        end
+
+        if type(AreaEggCycleAnchorIndex) ~= "number" then
+            AreaEggCycleAnchorIndex = 0
+        end
+
+        local v2165 = AreaEggCycleAnchorAt + (math.max(0, AreaEggCycleAnchorIndex + math.floor((ServerTimeNow - AreaEggCycleAnchorAt) / 300)) + 1) * 300
+
+        return math.max(0, v2165 - ServerTimeNow)
+    end
+    local function v1229()
+        local ok52, result52 = pcall(v1228)
+
+        if ok52 and type(result52) == "number" then
+            return math.max(0, math.floor(result52 + 0.5))
+        end
+
+        return 0
+    end
+    local u1230 = (function()
+        local TeleportService = game:GetService("TeleportService")
+        local PlaceId = game.PlaceId
+        local elapsed21 = os.clock()
+        local n56 = 0
+        local s25 = "off"
+        local t280 = {}
+        local u2178 = false
+        local u2179 = false
+        local n57 = 0
+        local n58 = 0
+        local n59 = 0
+        local n60 = 10
+        local n61 = 0
+        local n62 = 0
+        local elapsed22 = os.clock()
+        local u2187 = tonumber(t216 and t216.banked) or 0
+        local s26 = "idle"
+        local u2190 = false
+        local u2191 = false
+        local v2192 = getgenv and getgenv() or _G
+        v2192.KiraHopUsed = type(v2192.KiraHopUsed) == "table" and v2192.KiraHopUsed or {}
+        v2192.KiraHopRing = type(v2192.KiraHopRing) == "table" and v2192.KiraHopRing or {}
+        v2192.KiraHopCache = type(v2192.KiraHopCache) == "table" and v2192.KiraHopCache or {}
+        if type(v2192.KiraHopUntil) == "number" then
+            local ok53, result53 = pcall(function()
+                local v3842 = v1228()
+                local AreaEggCycleNightSeconds = workspace:GetAttribute("AreaEggCycleNightSeconds")
+
+                if type(AreaEggCycleNightSeconds) ~= "number" then
+                    AreaEggCycleNightSeconds = 10
+                end
+
+                return v3842 - math.clamp(AreaEggCycleNightSeconds, 1, 300)
+            end)
+            local v2195 = (not ok53 or type(result53) ~= "number") and 0 or math.max(0, result53)
+
+            if math.abs(v2195 - v2192.KiraHopUntil) < 10 then
+            end
+        end
+        local function v2196(p389)
+            if type(p389) ~= "string" then
+                return 0
+            end
+
+            local v3845 = string.lower(p389:gsub(",", ""):gsub("%s+", ""))
+
+            if v3845 == "" or v3845 == "off" or v3845:find("blank", 1, true) then
+                return 0
+            end
+
+            return tonumber(v3845:match("([%d%.]+)")) or 0
+        end
+        local function v2197(p390)
+            if type(p390) ~= "string" or p390 == "" then
+                return
+            end
+
+            local KiraHopRing = v2192.KiraHopRing
+
+            for i = #KiraHopRing, 1, -1 do
+                if p390 == KiraHopRing[i] then
+                    table.remove(KiraHopRing, i)
+                end
+            end
+
+            KiraHopRing[#KiraHopRing + 1] = p390
+
+            while #KiraHopRing > 48 do
+                table.remove(KiraHopRing, 1)
+            end
+        end
+        local function v2198(p391)
+            local str28 = tostring(p391 or "")
+            if str28 == "" or str28 == tostring(game.JobId) then
+                return true
+            end
+            local KiraHopRing = v2192.KiraHopRing
+            local g3859
+            local v3858
+            for i = 1, #KiraHopRing do
+                if str28 == KiraHopRing[i] then
+                    v3858 = true
+                    g3859 = true
+                end
+
+                if g3859 then
+                    break
+                end
+            end
+            if not g3859 then
+                v3858 = false
+            end
+            g3859 = false
+            if v3858 then
+                return true
+            end
+            local v3860 = v2192.KiraHopUsed[str28]
+            if type(v3860) ~= "number" then
+                return false
+            end
+            if os.time() - v3860 > 2100 then
+                v2192.KiraHopUsed[str28] = nil
+
+                return false
+            end
+
+            return true
+        end
+        local function v2199()
+            if type(readfile) ~= "function" then
+                return
+            end
+            local ok54, result54 = pcall(readfile, (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/hop-used.json")
+            if not ok54 or type(result54) ~= "string" or result54 == "" then
+                return
+            end
+            local data
+            if not pcall(function()
+                data = HttpService:JSONDecode(result54)
+            end) or type(data) ~= "table" then
+                return
+            end
+            if tonumber(data.place) and tonumber(data.place) ~= PlaceId then
+                return
+            end
+            local timestamp = os.time()
+            if type(data.jobs) == "table" then
+                for k, v in pairs(data.jobs) do
+                    local v3867 = type(v) == "number" and v or type(v) == "table" and tonumber(v.t)
+                    local str29 = tostring(k)
+
+                    if v3867 and timestamp - v3867 <= 2100 and v3867 > (tonumber(v2192.KiraHopUsed[str29]) or 0) then
+                        v2192.KiraHopUsed[str29] = v3867
+                    end
+                end
+            end
+            if type(data.ring) == "table" then
+                local t281 = {}
+                local t282 = {}
+
+                for i = 1, #data.ring do
+                    local v3872 = data.ring[i]
+
+                    if type(v3872) == "table" then
+                        v3872 = v3872.id
+                    end
+
+                    if type(v3872) == "string" and v3872 ~= "" and not t281[v3872] then
+                        t281[v3872] = true
+                        t282[#t282 + 1] = v3872
+                    end
+                end
+
+                for i = 1, #v2192.KiraHopRing do
+                    local v3874 = v2192.KiraHopRing[i]
+
+                    if type(v3874) == "table" then
+                        v3874 = v3874.id
+                    end
+
+                    if type(v3874) == "string" and v3874 ~= "" and not t281[v3874] then
+                        t281[v3874] = true
+                        t282[#t282 + 1] = v3874
+                    end
+                end
+
+                v2192.KiraHopRing = t282
+
+                while #v2192.KiraHopRing > 48 do
+                    table.remove(v2192.KiraHopRing, 1)
+                end
+            end
+        end
+        local function v2200()
+            if type(writefile) ~= "function" then
+                return
+            end
+
+            if type(makefolder) == "function" then
+                pcall(makefolder, "Kira")
+            end
+
+            local v3875 = "Kira" .. "/" .. v26(t1.Game)
+
+            if type(makefolder) == "function" then
+                pcall(makefolder, v3875)
+            end
+
+            local v3876 = ("Kira" .. "/" .. v26(t1.Game)) .. "/cache"
+
+            if type(makefolder) == "function" then
+                pcall(makefolder, v3876)
+            end
+
+            local v3877 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+
+            if type(makefolder) == "function" then
+                pcall(makefolder, v3877)
+            end
+
+            local t283 = {}
+            local timestamp = os.time()
+
+            for k, v in pairs(v2192.KiraHopUsed) do
+                if type(v) == "number" and timestamp - v <= 2100 then
+                    t283[tostring(k)] = {
+						t = v,
+						by = str
+					}
+                end
+            end
+
+            local t284 = {
+				v = 1,
+				place = PlaceId,
+				jobs = t283,
+				ring = v2192.KiraHopRing
+			}
+            local ok55, result55 = pcall(function()
+                return HttpService:JSONEncode(t284)
+            end)
+
+            if ok55 and type(result55) == "string" then
+                pcall(writefile, (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/hop-used.json", result55)
+            end
+        end
+        v2199()
+        local str30 = tostring(tostring(game.JobId) or "")
+        if str30 ~= "" then
+            v2192.KiraHopUsed[str30] = os.time()
+            v2197(str30)
+        end
+        v2200()
+        local function v2202(p392, p393)
+            local v3889 = tonumber(p393) or 2.2
+            local v3890 = syn and syn.request or (http_request or (request or (http and http.request or fluxus and fluxus.request)))
+            local u3891
+            local u3892
+            local u3893
+            if v3890 then
+                task.spawn(function()
+                    local ok56, result56 = pcall(v3890, {
+						Url = p392,
+						Method = "GET",
+						Headers = {
+							Accept = "application/json"
+						}
+					})
+
+                    u3891 = true
+
+                    if ok56 then
+                        u3892 = result56
+
+                        return
+                    end
+
+                    u3893 = result56
+                end)
+            else
+                if type(game.HttpGet) ~= "function" then
+                    return nil, "no http"
+                end
+
+                task.spawn(function()
+                    local ok57, result57 = pcall(game.HttpGet, game, p392)
+
+                    u3891 = true
+
+                    if ok57 then
+                        u3892 = {
+							StatusCode = 200,
+							Body = result57
+						}
+
+                        return
+                    end
+
+                    u3893 = result57
+                end)
+            end
+            local elapsed23 = os.clock()
+            while not u3891 and v3889 > os.clock() - elapsed23 do
+                task.wait(0.05)
+            end
+            if not u3891 then
+                return nil, "slow"
+            end
+            if u3893 then
+                return nil, (tostring(u3893))
+            end
+            local v3895 = u3892 and tonumber(u3892.StatusCode or (u3892.status_code or u3892.Status))
+            local v3896 = u3892 and (u3892.Body or u3892.body)
+            if v3895 == 429 then
+                local v3897 = n60
+                local v3898 = u3892 and (u3892.Headers or u3892.headers)
+
+                if type(v3898) == "table" then
+                    local num = tonumber(v3898["Retry-After"] or (v3898["retry-after"] or v3898["Retry-after"]))
+
+                    if num and num > 0 then
+                        v3897 = math.max(v3897, num)
+                    end
+                end
+
+                n59 = os.clock() + v3897
+                n60 = math.min(60, math.max(12, n60 * 2))
+
+                return nil, "rate limited"
+            end
+            if v3895 and v3895 >= 400 then
+                return nil, "http " .. tostring(v3895)
+            end
+            if type(v3896) ~= "string" or v3896 == "" then
+                return nil, "empty"
+            end
+            n60 = 10
+
+            return v3896
+        end
+        local function v2203()
+            local v3900 = math.clamp(math.floor(tonumber(t9.HopPages) or 3), 1, 10)
+            local v3901 = t9.HopSkipFull ~= false
+            local v3902 = t9.HopPlayers == "Highest"
+
+            return tostring(PlaceId) .. ":" .. (not v3902 and "A" or "D") .. ":" .. (not v3901 and "0" or "1") .. ":" .. tostring(v3900)
+        end
+        local function v2204(p394)
+            t280 = {}
+
+            if type(p394) ~= "table" then
+                return t280
+            end
+
+            v2199()
+
+            local str31 = tostring(game.JobId)
+
+            for i = 1, #p394 do
+                local v3906 = p394[i]
+                local v3907 = v3906 and tostring(v3906.id)
+
+                if v3907 and v3907 ~= "" and v3907 ~= str31 and not v2198(v3907) then
+                    t280[#t280 + 1] = {
+						id = v3906.id,
+						playing = tonumber(v3906.playing) or 0,
+						maxPlayers = tonumber(v3906.maxPlayers) or 0
+					}
+                end
+            end
+
+            return t280
+        end
+        local function v2205(p395)
+            local KiraHopCache = v2192.KiraHopCache
+
+            if type(KiraHopCache) ~= "table" or (KiraHopCache.key ~= v2203() or type(KiraHopCache.list) ~= "table" or #KiraHopCache.list == 0) then
+                KiraHopCache = nil
+
+                if type(readfile) == "function" then
+                    local ok58, result58 = pcall(readfile, (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/hop-list.json")
+
+                    if ok58 and type(result58) == "string" and result58 ~= "" then
+                        local data
+                        pcall(function()
+                            data = HttpService:JSONDecode(result58)
+                        end)
+                        if type(data) == "table" and data.key == v2203() and type(data.list) == "table" and #data.list > 0 then
+                            KiraHopCache = data
+                            v2192.KiraHopCache = data
+                        end
+                    end
+                end
+            end
+
+            if type(KiraHopCache) ~= "table" or type(KiraHopCache.list) ~= "table" or #KiraHopCache.list == 0 then
+                return
+            end
+
+            local v3913 = os.time() - (tonumber(KiraHopCache.at) or 0)
+
+            if v3913 > 90 and not p395 then
+                return
+            end
+
+            v2204(KiraHopCache.list)
+
+            if #t280 > 0 then
+                return t280, v3913
+            end
+        end
+        local function v2206(p396)
+            if type(p396) ~= "table" or #p396 == 0 then
+                return
+            end
+
+            local t285 = {
+				key = v2203(),
+				at = os.time(),
+				list = p396
+			}
+
+            v2192.KiraHopCache = t285
+
+            if type(writefile) == "function" then
+                if type(makefolder) == "function" then
+                    pcall(makefolder, "Kira")
+                end
+
+                local v3916 = "Kira" .. "/" .. v26(t1.Game)
+
+                if type(makefolder) == "function" then
+                    pcall(makefolder, v3916)
+                end
+
+                local v3917 = ("Kira" .. "/" .. v26(t1.Game)) .. "/cache"
+
+                if type(makefolder) == "function" then
+                    pcall(makefolder, v3917)
+                end
+
+                local v3918 = ("Kira" .. "/" .. v26(t1.Game)) .. "/configs"
+
+                if type(makefolder) == "function" then
+                    pcall(makefolder, v3918)
+                end
+
+                local ok59, result59 = pcall(function()
+                    return HttpService:JSONEncode(t285)
+                end)
+
+                if ok59 and type(result59) == "string" then
+                    pcall(writefile, (("Kira" .. "/" .. v26(t1.Game)) .. "/cache") .. "/hop-list.json", result59)
+                end
+            end
+        end
+        local function v2207()
+            if v2205(false) then
+                return t280, "cached"
+            end
+
+            if os.clock() < n59 then
+                if v2205(true) then
+                    return t280, "cached"
+                end
+
+                return t280, "rate limited"
+            end
+
+            n58 = os.clock()
+
+            local v3921 = math.clamp(math.floor(tonumber(t9.HopPages) or 3), 1, 10)
+            local v3922 = t9.HopSkipFull ~= false
+            local v3923 = t9.HopPlayers == "Highest"
+            local t286 = {}
+            local s27 = ""
+
+            for i = 1, v3921 do
+                if i > 1 then
+                    task.wait(0.12)
+                end
+                local v3927 = "https://games.roblox.com/v1/games/" .. tostring(PlaceId) .. "/servers/Public?sortOrder=" .. (not v3923 and "Asc" or "Desc") .. "&excludeFullGames=" .. (not v3922 and "false" or "true") .. "&limit=100"
+                if s27 ~= "" then
+                    local u3928 = s27
+
+                    pcall(function()
+                        u3928 = HttpService:UrlEncode(s27)
+                    end)
+                    v3927 ..= "&cursor=" .. u3928
+                end
+                local v3929, v3930 = v2202(v3927, 2.2)
+                if not v3929 then
+                    if #t286 > 0 then
+                        break
+                    end
+
+                    if v2205(true) then
+                        return t280, "cached"
+                    end
+
+                    return nil, v3930 or "fetch"
+                end
+                local data
+                local v3932 = pcall(function()
+                    data = HttpService:JSONDecode(v3929)
+                end) and (data and data.data)
+                if type(v3932) ~= "table" then
+                    if #t286 > 0 then
+                        break
+                    end
+
+                    if v2205(true) then
+                        return t280, "cached"
+                    end
+
+                    return nil, "bad json"
+                end
+                for j = 1, #v3932 do
+                    local v3934 = v3932[j]
+
+                    if type(v3934) == "table" and type(v3934.id) == "string" then
+                        t286[#t286 + 1] = {
+							id = v3934.id,
+							playing = tonumber(v3934.playing) or 0,
+							maxPlayers = tonumber(v3934.maxPlayers) or 0
+						}
+                    end
+                end
+                s27 = type(data.nextPageCursor) == "string" and data.nextPageCursor or ""
+                if s27 == "" then
+                    break
+                end
+            end
+
+            table.sort(t286, function(p397, p398)
+                if v3923 then
+                    return p397.playing > p398.playing
+                end
+
+                return p397.playing < p398.playing
+            end)
+            v2206(t286)
+            v2204(t286)
+
+            return t280
+        end
+        local function v2208()
+            local KiraHopRing = v2192.KiraHopRing
+            local t287 = {}
+            local t288 = {}
+
+            for i = math.max(1, #KiraHopRing - 7), #KiraHopRing do
+                local v3939 = KiraHopRing[i]
+
+                if type(v3939) == "string" and not t288[v3939] then
+                    t288[v3939] = true
+                    t287[#t287 + 1] = v3939
+                end
+            end
+
+            local str32 = tostring(game.JobId)
+
+            if not t288[str32] then
+                t287[#t287 + 1] = str32
+            end
+
+            v2192.KiraHopRing = t287
+
+            local timestamp = os.time()
+
+            for k, v in pairs(v2192.KiraHopUsed) do
+                if k ~= str32 and type(v) == "number" and timestamp - v > 480 then
+                    v2192.KiraHopUsed[k] = nil
+                end
+            end
+
+            v2200()
+        end
+        local function v2209()
+            v2199()
+
+            local v3944 = t9.HopSkipFull ~= false
+            local str33 = tostring(game.JobId)
+            local t289 = {}
+            local t290 = {}
+
+            while #t280 > 0 do
+                local v3948 = table.remove(t280, 1)
+                local v3949 = v3948 and tostring(v3948.id)
+
+                if v3949 and v3949 ~= "" and v3949 ~= str33 and not v2198(v3949) then
+                    local v3950 = tonumber(v3948.maxPlayers) or 0
+
+                    if not v3944 or v3950 <= 0 or v3950 > (tonumber(v3948.playing) or 0) then
+                        if #t289 < 12 then
+                            t289[#t289 + 1] = v3948
+                        else
+                            t290[#t290 + 1] = v3948
+                        end
+                    end
+                end
+            end
+
+            t280 = t290
+
+            local v3952, str34
+
+            repeat
+                if not (#t289 > 0) then
+                    return
+                end
+
+                local v3951 = math.random(1, #t289)
+
+                v3952 = table.remove(t289, v3951)
+                str34 = tostring(v3952.id)
+                v2199()
+            until str34 ~= str33 and not v2198(str34)
+
+            local str35 = tostring(str34 or "")
+
+            if str35 ~= "" then
+                v2192.KiraHopUsed[str35] = os.time()
+                v2197(str35)
+            end
+
+            v2200()
+
+            for i = #t289, 1, -1 do
+                table.insert(t280, 1, t289[i])
+            end
+
+            return v3952
+        end
+        local function v2210()
+            if t9.AutoEvent == true then
+                local v3956 = t216 and t216.state
+
+                if v3956 == "FeedGo" or v3956 == "Feed" or v3956 == "ChestGo" or v3956 == "ChestOpen" then
+                    return true
+                end
+
+                if t216 and t216.findChestTool and t216.findChestTool() then
+                    return true
+                end
+
+                if t216 and t216.target and t216.target.event then
+                    return true
+                end
+
+                if t216 and t216.pickSatchelEvent then
+                    local ok60, result60 = pcall(t216.pickSatchelEvent)
+
+                    if ok60 and type(result60) == "table" then
+                        return result60
+                    end
+                end
+            end
+
+            if type(v1216) ~= "function" then
+                return
+            end
+
+            local ok61, result61 = pcall(v1216)
+
+            if ok61 and type(result61) == "table" and result61.matched == true and (result61.cfg or result61.earn) then
+                return result61
+            end
+        end
+        local function v2211(p399)
+            if u2179 or u2178 then
+                return false
+            end
+
+            if os.clock() - n57 < 2.4 then
+                return false
+            end
+
+            u2179 = true
+            n57 = os.clock()
+            pcall(v272, true)
+            s25 = p399 or "hopping"
+
+            local v3974 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+            local AutoHop = t10.AutoHop
+
+            if AutoHop and AutoHop.status then
+                pcall(function()
+                    AutoHop.status.Text = v3974 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                end)
+            end
+
+            if #t280 == 0 then
+                local _, v3977 = v2207()
+
+                if #t280 == 0 then
+                    v2208()
+                    v2205(true)
+
+                    if #t280 == 0 then
+                        u2179 = false
+                        s25 = tostring(v3977 or "no servers")
+
+                        local v3978 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                        local AutoHop2 = t10.AutoHop
+
+                        if AutoHop2 and AutoHop2.status then
+                            pcall(function()
+                                AutoHop2.status.Text = v3978 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                            end)
+                        end
+
+                        local HopNow = t10.HopNow
+
+                        if HopNow and HopNow.status then
+                            HopNow.status.Text = s25
+                        end
+
+                        return false
+                    end
+                end
+            end
+
+            n56 += 1
+
+            local str36 = tostring(game.JobId)
+            local v3982 = false
+
+            while u1117 and u2179 do
+                local u3983 = v2209()
+
+                if not u3983 then
+                    v2208()
+                    v2205(true)
+                    u3983 = v2209()
+                end
+
+                if not u3983 then
+                    break
+                end
+
+                local v3984 = v2192
+                local ok62, result62 = pcall(function()
+                    local v4836 = v1228()
+                    local AreaEggCycleNightSeconds = workspace:GetAttribute("AreaEggCycleNightSeconds")
+
+                    if type(AreaEggCycleNightSeconds) ~= "number" then
+                        AreaEggCycleNightSeconds = 10
+                    end
+
+                    return v4836 - math.clamp(AreaEggCycleNightSeconds, 1, 300)
+                end)
+
+                v3984.KiraHopUntil = (not ok62 or type(result62) ~= "number") and 0 or math.max(0, result62)
+                u2178 = true
+                s25 = (p399 or "hop") .. " · " .. tostring(#t280) .. " left"
+
+                local v3987 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                local AutoHop3 = t10.AutoHop
+
+                if AutoHop3 and AutoHop3.status then
+                    pcall(function()
+                        AutoHop3.status.Text = v3987 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                    end)
+                end
+
+                local ok63, result63 = pcall(function()
+                    TeleportService:TeleportToPlaceInstance(PlaceId, tostring(u3983.id), LocalPlayer)
+                end)
+
+                if not ok63 then
+                    u2178 = false
+                    n61 += 1
+                    v1102("hop", "fail", (tostring(result63)))
+                else
+                    local elapsed24 = os.clock()
+
+                    while u1117 and u2178 and os.clock() - elapsed24 < 2.2 do
+                        if str36 ~= tostring(game.JobId) then
+                            v3982 = true
+
+                            break
+                        end
+
+                        task.wait(0.1)
+                    end
+
+                    if str36 ~= tostring(game.JobId) then
+                        v3982 = true
+
+                        break
+                    end
+
+                    pcall(function()
+                        TeleportService:TeleportCancel()
+                    end)
+                    u2178 = false
+                    n61 += 1
+                end
+            end
+
+            u2179 = false
+            u2178 = false
+
+            if v3982 then
+                return true
+            end
+
+            s25 = "no servers"
+
+            local v3992 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+            local AutoHop4 = t10.AutoHop
+
+            if AutoHop4 and AutoHop4.status then
+                pcall(function()
+                    AutoHop4.status.Text = v3992 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                end)
+            end
+
+            return false
+        end
+        local connection18 = TeleportService.TeleportInitFailed:Connect(function(p400)
+            if p400 ~= LocalPlayer then
+                return
+            end
+
+            u2178 = false
+            n61 += 1
+        end)
+        if connection18 then
+            t152[connection18] = true
+        end
+        local function v2213()
+            if not u1117 then
+                return
+            end
+
+            local elapsed25 = os.clock()
+            local v3996 = elapsed25 - elapsed22
+
+            elapsed22 = elapsed25
+
+            if t216 and t216.banked ~= u2187 then
+                u2187 = t216.banked
+                n62 = 0
+            end
+
+            local v3997 = v1228()
+            local AreaEggCycleNightSeconds = workspace:GetAttribute("AreaEggCycleNightSeconds")
+
+            if type(AreaEggCycleNightSeconds) ~= "number" then
+                AreaEggCycleNightSeconds = 10
+            end
+
+            local v3999 = v3997 <= math.clamp(AreaEggCycleNightSeconds, 1, 300)
+            local v4000 = false
+
+            if not v3999 then
+                v4000 = not not v2210()
+            end
+
+            if t9.AutoSteal and t216 and t216.running and not v3999 then
+                if v4000 then
+                    n62 = 0
+                else
+                    n62 += v3996
+                end
+            end
+
+            if not t9.AutoHop then
+                if s26 ~= "idle" or u2190 or u2191 then
+                    s26 = "idle"
+                    u2190 = false
+                    u2191 = false
+                end
+
+                s25 = "off"
+
+                local v4001 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                local AutoHop = t10.AutoHop
+
+                if AutoHop and AutoHop.status then
+                    pcall(function()
+                        AutoHop.status.Text = v4001 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                    end)
+                end
+
+                return
+            end
+
+            if u2178 or u2179 then
+                local v4003 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                local AutoHop = t10.AutoHop
+
+                if AutoHop and AutoHop.status then
+                    pcall(function()
+                        AutoHop.status.Text = v4003 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                    end)
+                end
+
+                return
+            end
+
+            if elapsed25 < elapsed21 + 1.6 then
+                s25 = "settling"
+
+                local v4005 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                local AutoHop = t10.AutoHop
+
+                if AutoHop and AutoHop.status then
+                    pcall(function()
+                        AutoHop.status.Text = v4005 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                    end)
+                end
+
+                return
+            end
+
+            if t216 and t216.carrying == true then
+                s25 = "carrying"
+
+                local v4007 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                local AutoHop = t10.AutoHop
+
+                if AutoHop and AutoHop.status then
+                    pcall(function()
+                        AutoHop.status.Text = v4007 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                    end)
+                end
+
+                return
+            end
+
+            s26 = "idle"
+            u2190 = false
+            u2191 = false
+
+            local v4009 = v2196(t9.HopIdle)
+
+            if v4009 > 0 then
+                if v4009 < 5 then
+                    v4009 = 5
+                end
+
+                if t9.AutoSteal and t216 and t216.running then
+                    if v2210() then
+                        s25 = "eggs · grabbing"
+
+                        local v4010 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                        local AutoHop = t10.AutoHop
+
+                        if AutoHop and AutoHop.status then
+                            pcall(function()
+                                AutoHop.status.Text = v4010 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                            end)
+                        end
+
+                        return
+                    end
+
+                    s25 = "idle " .. tostring(math.floor(n62)) .. "/" .. tostring(math.floor(v4009)) .. "s"
+
+                    if v4009 <= n62 then
+                        local v4012 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                        local AutoHop = t10.AutoHop
+
+                        if AutoHop and AutoHop.status then
+                            pcall(function()
+                                AutoHop.status.Text = v4012 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                            end)
+                        end
+
+                        v2211("idle")
+
+                        return
+                    end
+                end
+            end
+
+            local v4014 = v2196(t9.HopAfter)
+
+            if v4014 > 0 then
+                if v4014 < 1 then
+                    v4014 = 1
+                end
+
+                if v4014 <= (elapsed25 - elapsed21) / 60 then
+                    s25 = "time"
+
+                    local v4015 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+                    local AutoHop = t10.AutoHop
+
+                    if AutoHop and AutoHop.status then
+                        pcall(function()
+                            AutoHop.status.Text = v4015 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                        end)
+                    end
+
+                    v2211("time")
+
+                    return
+                end
+            end
+
+            if v2210() then
+                s25 = "eggs · grabbing"
+            elseif v4009 > 0 and t9.AutoSteal and t216 and t216.running then
+                s25 = "idle " .. tostring(math.floor(n62)) .. "/" .. tostring(math.floor(v4009)) .. "s"
+            elseif u2191 then
+                s25 = "eggs · staying"
+            elseif v4009 > 0 and t9.AutoHop then
+                s25 = "idle needs Auto Steal"
+            else
+                s25 = "on"
+            end
+
+            local v4017 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+            local AutoHop = t10.AutoHop
+
+            if AutoHop and AutoHop.status then
+                pcall(function()
+                    AutoHop.status.Text = v4017 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+                end)
+            end
+        end
+        task.spawn(function()
+            while u1117 do
+                task.wait(0.4)
+                pcall(v2213)
+            end
+        end)
+        local v2214 = not t9.AutoHop and "off" or (s25 ~= "" and s25 or "on")
+        local AutoHop = t10.AutoHop
+        if AutoHop and AutoHop.status then
+            pcall(function()
+                AutoHop.status.Text = v2214 .. " · " .. tostring(n56) .. (n56 ~= 1 and " hops this session" or " hop this session")
+            end)
+        end
+
+        return {
+			now = function()
+            local HopNow = t10.HopNow
+
+            if HopNow and HopNow.status then
+                HopNow.status.Text = "going…"
+            end
+
+            local v4020 = v2211("now")
+
+            if HopNow and HopNow.status then
+                HopNow.status.Text = if not v4020 then s25 else "going…"
+            end
+
+            return v4020
+        end,
+			stop = function()
+            u2179 = false
+            u2178 = false
+            pcall(function()
+                TeleportService:TeleportCancel()
+            end)
+        end,
+			hops = function()
+            return n56
+        end
+		}
+    end)()
+    u1135 = (function()
+        local t291 = {
+			placed = 0,
+			hatched = 0,
+			bought = 0,
+			sold = 0,
+			soldPets = 0,
+			soldEggs = 0,
+			trainEarned = 0,
+			trainRate = 0,
+			claimCash = 0,
+			claimIndex = 0,
+			training = false,
+			conn = nil,
+			busy = false,
+			lastPlace = 0,
+			lastHatch = 0,
+			lastEquip = 0,
+			lastSell = 0,
+			lastWear = 0,
+			lastUpg = 0,
+			lastClaim = 0,
+			lastPaint = 0,
+			lastTrain = 0,
+			lastPower = nil,
+			lastPowerAt = 0,
+			job = "idle",
+			info = nil,
+			infoAt = 0,
+			lastPlaceWhy = nil,
+			previewQueued = false
+		}
+        local function v2217(p401)
+            local v4022 = tonumber(p401) or 0
+            local v4023 = math.abs(v4022)
+
+            if v4023 >= 1000000000000 then
+                return string.format("%.2fT", v4022 / 1000000000000)
+            end
+
+            if v4023 >= 1000000000 then
+                return string.format("%.2fB", v4022 / 1000000000)
+            end
+
+            if v4023 >= 1000000 then
+                return string.format("%.2fm", v4022 / 1000000)
+            end
+
+            if v4023 >= 1000 then
+                return string.format("%.1fk", v4022 / 1000)
+            end
+
+            return string.format("%.0f", v4022)
+        end
+        local function v2218(p402, p403)
+            local v4029 = v1168({ "Remotes" })
+            local v4030 = v4029 and (v4029[p402] and v4029[p402][p403])
+
+            return v1170(v4030) or typeof(v4030) == "Instance" and v4030
+        end
+        local function v2219(p404, p405, ...)
+            local v4033 = v2218(p404, p405)
+
+            if not v4033 then
+                return false, "no remote"
+            end
+
+            return v4033:InvokeServer(...)
+        end
+        local function v2220(p406, p407, ...)
+            local v4036 = select("#", ...)
+            local v4037, v4038, v4039 = ...
+            local v4040 = v1168({ "Remotes" })
+            local v4041 = v4040 and (v4040[p406] and v4040[p406][p407])
+
+            if v4041 == nil then
+                return false
+            end
+
+            local function v4042(p408)
+                if v4036 <= 0 then
+                    p408:FireServer()
+
+                    return
+                end
+
+                if v4036 == 1 then
+                    p408:FireServer(v4037)
+
+                    return
+                end
+
+                if v4036 == 2 then
+                    p408:FireServer(v4037, v4038)
+
+                    return
+                end
+
+                p408:FireServer(v4037, v4038, v4039)
+            end
+
+            if pcall(v4042, v4041) then
+                return true
+            end
+
+            local v4043 = v1170(v4041) or typeof(v4041) == "Instance" and v4041
+
+            return v4043 ~= nil and pcall(v4042, v4043)
+        end
+        local function v2221()
+            local Save = ReplicatedStorage.Shared.Save
+            local v4049
+
+            if t291.saveMod == false then
+                v4049 = nil
+            elseif t291.saveMod ~= nil then
+                v4049 = t291.saveMod
+            else
+                local ok64, result64 = pcall(require, Save)
+
+                t291.saveMod = not not ok64 and (type(result64) == "table" and (result64 or false))
+                v4049 = if t291.saveMod ~= false then t291.saveMod else nil
+            end
+
+            if type(v4049) == "table" and type(v4049.Get) == "function" then
+                local ok65, result65 = pcall(v4049.Get, LocalPlayer, false)
+
+                if ok65 and type(result65) == "table" then
+                    return result65
+                end
+
+                local ok66, result66 = pcall(v4049.Get)
+
+                if ok66 and type(result66) == "table" then
+                    return result66
+                end
+            end
+        end
+        local function v2222(p409)
+            local v4061 = string.lower((tostring(p409 or "")))
+
+            if v4061 == "" or v4061 == "?" then
+                return 0
+            end
+
+            for i, v in ipairs(t6) do
+                if v4061 == string.lower(v) then
+                    return i
+                end
+            end
+
+            return 0
+        end
+        local function v2223()
+            local elapsed26 = os.clock()
+            if t291.info and elapsed26 - (t291.infoAt or 0) < 0.45 then
+                return t291.info
+            end
+            local PlotState = ReplicatedStorage.Client.PlotState
+            local v4072
+            if t291.plotMod == false then
+                v4072 = nil
+            elseif t291.plotMod ~= nil then
+                v4072 = t291.plotMod
+            else
+                local ok67, result67 = pcall(require, PlotState)
+
+                t291.plotMod = not not ok67 and (type(result67) == "table" and (result67 or false))
+                v4072 = if t291.plotMod ~= false then t291.plotMod else nil
+            end
+            local v4075 = v4072
+            local u4076
+            if v4075 and type(v4075.ResolvePlot) == "function" then
+                pcall(function()
+                    u4076 = v4075.ResolvePlot()
+                end)
+            end
+            t291.info = type(u4076) == "table" and u4076 or nil
+            t291.infoAt = elapsed26
+
+            return t291.info
+        end
+        local function v2224(p410, p411, p412)
+            if not p410 or (not p410:IsA("BasePart") or typeof(p411) ~= "Vector3") then
+                return false
+            end
+
+            local v4080 = p410.CFrame:PointToObjectSpace(p411)
+            local v4081 = p410.Size.X * 0.5 - (p412 or 0)
+            local v4082 = p410.Size.Z * 0.5 - (p412 or 0)
+
+            return math.abs(v4080.X) <= math.max(v4081, 0.5) and math.abs(v4080.Z) <= math.max(v4082, 0.5)
+        end
+        local function v2225()
+            local elapsed27 = os.clock()
+            if t291.beltPart and (t291.beltPart.Parent and elapsed27 - (t291.beltAt or 0) < 0.85) then
+                return t291.beltPart
+            end
+            local TreadmillBottom
+            local v4085 = v2223()
+            local v4086 = v4085 and v4085.PlotFolder
+            if v4086 then
+                TreadmillBottom = v4086:FindFirstChild("TreadmillBottom", true)
+
+                if not (TreadmillBottom and TreadmillBottom:IsA("BasePart"))then
+                    TreadmillBottom = nil
+                    local v4087
+                    for _, descendant in ipairs(v4086:GetDescendants()) do
+                        if descendant:IsA("BasePart") then
+                            local v4090 = string.lower(descendant.Name)
+
+                            if v4090:find("treadmill", 1, true) or v4090 == "bottom" or v4090:find("belt", 1, true) then
+                                local v4091 = descendant.Size.X * descendant.Size.Y * descendant.Size.Z
+
+                                if not v4087 or v4087 < v4091 then
+                                    TreadmillBottom = descendant
+                                    v4087 = v4091
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            if not TreadmillBottom then
+                local __ClientTreadmillRenders = workspace:FindFirstChild("__ClientTreadmillRenders")
+
+                if __ClientTreadmillRenders then
+                    local v4093 = __ClientTreadmillRenders:FindFirstChild("TreadmillBottom", true) or __ClientTreadmillRenders:FindFirstChild("Bottom", true)
+
+                    if v4093 and v4093:IsA("BasePart") then
+                        TreadmillBottom = v4093
+                    end
+                end
+            end
+            t291.beltPart = TreadmillBottom
+            t291.beltAt = elapsed27
+
+            return TreadmillBottom
+        end
+        local function v2226()
+            local v4094 = v2223()
+            local v4095 = v4094 and v4094.PetArea
+            local v4096 = v2225()
+
+            if v4095 and v4095:IsA("BasePart") then
+                local Position5 = v4095.Position
+
+                if v4096 then
+                    local vector3 = Vector3.new(Position5.X - v4096.Position.X, 0, Position5.Z - v4096.Position.Z)
+
+                    if vector3.Magnitude > 1 then
+                        Position5 += vector3.Unit * math.min(12, vector3.Magnitude * 0.15)
+                    end
+                end
+
+                return Vector3.new(Position5.X, v4095.Position.Y + 4.5, Position5.Z), v4095
+            end
+
+            return select(1, v1217()), nil
+        end
+        local function v2227(p413, p414, p415)
+            if typeof(p413) ~= "Vector3" or typeof(p414) ~= "Vector3" then
+                return p413
+            end
+
+            if p415 then
+                return p413
+            end
+
+            if Vector3.new(p413.X - p414.X, 0, p413.Z - p414.Z).Magnitude > 14 then
+                return Vector3.new(p413.X, p413.Y + 18, p413.Z)
+            end
+
+            return p413
+        end
+        local function v2228(p416)
+            local v4104 = v2225()
+
+            if not v4104 or not p416 then
+                return false
+            end
+
+            local p416Position = p416.Position
+
+            if v2224(v4104, p416Position, -2) then
+                return true
+            end
+
+            return Vector3.new(p416Position.X - v4104.Position.X, 0, p416Position.Z - v4104.Position.Z).Magnitude < 6
+        end
+        local function v2229()
+            local v4112 = v2223()
+            local v4113 = v4112 and v4112.PetArea
+            local v4114 = v4112 and v4112.CenterPoint
+            local v4115 = v2225()
+            if not v4113 or (not v4113:IsA("BasePart") or not v4114) then
+                local _, v4117 = v1217()
+
+                if v4117 and v4114 then
+                    return v4114.CFrame:ToObjectSpace(v4117)
+                end
+
+                return v4117
+            end
+            local v4118
+            for _ = 1, 8 do
+                local v4120 = (math.random() - 0.5) * math.min(v4113.Size.X - 8, 28)
+                local v4121 = (math.random() - 0.5) * math.min(v4113.Size.Z - 8, 22)
+
+                v4118 = v4113.CFrame * CFrame.new(v4120, 0.5, v4121)
+
+                if not v4115 or not (Vector3.new(v4118.X - v4115.Position.X, 0, v4118.Z - v4115.Position.Z).Magnitude < 14) then
+                    return v4114.CFrame:ToObjectSpace(v4118)
+                end
+            end
+
+            return v4114.CFrame:ToObjectSpace(v4118)
+        end
+        local function v2230()
+            local g4124
+            local ok68
+            local v4123
+            if not u1103 then
+                v4123 = nil
+                g4124 = true
+            end
+            repeat
+                if g4124 or (g4124 or type(u1103.ReadOwnerEggs) == "function") then
+                    if not g4124 then
+                        if not g4124 then
+                            ok68, v4123 = pcall(u1103.ReadOwnerEggs, LocalPlayer.UserId)
+                        end
+                    end
+
+                    if g4124 or (g4124 or ok68 and type(v4123) == "table") then
+
+                        if type(v4123) ~= "table" then
+                            return {}
+                        end
+                        local v4126 = v1194(t9.PlaceMinGen)
+                        local t292 = {}
+                        local n63 = 0
+                        for k, v in pairs(v4123) do
+                            if type(v) == "table" then
+                                if v.Placement ~= nil then
+                                    n63 += 1
+                                else
+                                    local AssetCategory = v.AssetCategory
+                                    local v4132 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+                                    local v4133 = v1193(v, v4132)
+
+                                    if v4126 <= 0 or v4126 <= v4133 then
+                                        local NeverPlaceRarity = t9.NeverPlaceRarity
+                                        local v4135
+
+                                        if type(NeverPlaceRarity) ~= "string" or NeverPlaceRarity == "place everything" then
+                                            v4135 = false
+                                        else
+                                            local v4136 = v2222(if type(v4132) == "table" and type(v4132.Rarity) == "table" then tostring(v4132.Rarity.DisplayName or (v4132.Rarity.Name or (v4132.Rarity._id or "?"))) else "?")
+                                            local v4137 = v2222(NeverPlaceRarity)
+
+                                            v4135 = v4136 > 0 and (v4137 > 0 and v4137 <= v4136)
+                                        end
+
+                                        if not v4135 then
+                                            t292[#t292 + 1] = {
+												uid = v.Uid or k,
+												earn = v4133
+											}
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                        table.sort(t292, function(p417, p418)
+                            return p417.earn > p418.earn
+                        end)
+
+                        return t292, n63
+                    end
+                end
+
+                v4123 = nil
+                g4124 = true
+            until not g4124
+        end
+        local function v2231()
+            local v4138 = v2221()
+            local Bases = ReplicatedStorage.Data.Bases
+            local v4140
+
+            if t291.basesMod == false then
+                v4140 = nil
+            elseif t291.basesMod ~= nil then
+                v4140 = t291.basesMod
+            else
+                local ok69, result68 = pcall(require, Bases)
+
+                t291.basesMod = not not ok69 and (type(result68) == "table" and (result68 or false))
+                v4140 = if t291.basesMod ~= false then t291.basesMod else nil
+            end
+
+            local v4143 = tonumber(v4138 and v4138.BaseUpgradeLevel) or 0
+            local v4144 = v4140 and (v4140.BASES and (v4140.BASES[v4143] or v4140.BASES[v4143 + 1]))
+
+            return tonumber(v4144 and v4144.MaxAssets) or 99
+        end
+        local function v2232()
+            if t9.AutoHatch ~= true or (not u1103 or type(u1103.IsReadyToHatch) ~= "function") then
+                return false
+            end
+            local g4146
+            local ok70
+            local v4145
+            if not u1103 then
+                v4145 = nil
+                g4146 = true
+            end
+            repeat
+                if g4146 or (g4146 or type(u1103.ReadOwnerEggs) == "function") then
+                    if not g4146 then
+                        if not g4146 then
+                            ok70, v4145 = pcall(u1103.ReadOwnerEggs, LocalPlayer.UserId)
+                        end
+                    end
+
+                    if g4146 or (g4146 or ok70 and type(v4145) == "table") then
+                        g4146 = false
+
+                        if type(v4145) ~= "table" then
+                            return false
+                        end
+
+                        for k, v in pairs(v4145) do
+                            if type(v) ~= "table" or v.Placement == nil then
+                                continue
+                            end
+
+                            local ok71, result69 = pcall(u1103.IsReadyToHatch, v.Uid or k)
+
+                            if ok71 and result69 == true then
+                                return true
+                            end
+                        end
+
+                        return false
+                    end
+                end
+
+                v4145 = nil
+                g4146 = true
+            until not g4146
+        end
+        local function v2233(p419, p420)
+            local Character6 = LocalPlayer.Character
+            local v4157
+
+            if not Character6 then
+                v4157 = nil
+            else
+                local Humanoid = Character6:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character6:FindFirstChild("HumanoidRootPart")
+
+                v4157 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            if not v4157 or typeof(p419) ~= "Vector3" then
+                return false
+            end
+
+            u1127 = v2227(p419, v4157.Position, p420)
+            u1128 = true
+
+            return Vector3.new(p419.X - v4157.Position.X, 0, p419.Z - v4157.Position.Z).Magnitude < 10 and math.abs(p419.Y - v4157.Position.Y) < 10
+        end
+        local function v2234(p421)
+            local Character7 = LocalPlayer.Character
+            local v4162, v4163
+
+            if not Character7 then
+                v4162 = nil
+                v4163 = nil
+            else
+                v4162 = Character7:FindFirstChildOfClass("Humanoid")
+                v4163 = Character7:FindFirstChild("HumanoidRootPart")
+
+                if not v4162 or not v4163 or v4162.Health <= 0 then
+                    v4162 = nil
+                    v4163 = nil
+                end
+            end
+
+            local v4164 = v4162
+            local v4165 = v4163
+
+            if not v4164 or not v4165 then
+                return
+            end
+
+            if not p421 then
+                u1128 = false
+                u1127 = nil
+            end
+
+            v1146(v4164, v4165, false)
+
+            local v4166 = p421 and (typeof(u1127) == "Vector3" and u1127) or v2226()
+            local v4167 = v2225()
+            local zero = Vector3.zero
+
+            if v4166 then
+                zero = Vector3.new(v4166.X - v4165.Position.X, 0, v4166.Z - v4165.Position.Z)
+            end
+
+            if zero.Magnitude < 0.5 and v4167 then
+                zero = Vector3.new(v4165.Position.X - v4167.Position.X, 0, v4165.Position.Z - v4167.Position.Z)
+            end
+
+            local u4169 = if not (zero.Magnitude > 0.5) then Vector3.zero else zero.Unit
+
+            pcall(function()
+                v4164.PlatformStand = false
+                v4164.Sit = false
+                v4164.AutoRotate = true
+
+                if type(v4164.JumpHeight) == "number" and v4164.JumpHeight < 0.5 then
+                    v4164.JumpHeight = n15
+                end
+
+                if type(v4164.JumpPower) == "number" then
+                    v4164.JumpPower = math.max(v4164.JumpPower, 50)
+                end
+
+                v4164:ChangeState(Enum.HumanoidStateType.Jumping)
+                v4164.Jump = true
+
+                if u4169.Magnitude > 0.5 then
+                    v4164:Move(u4169, false)
+                end
+            end)
+            pcall(function()
+                v4165.Anchored = false
+                v4165.AssemblyLinearVelocity = Vector3.new(u4169.X * 46, 78, u4169.Z * 46)
+            end)
+        end
+        local function v2235()
+            t291.training = false
+
+            local Character8 = LocalPlayer.Character
+            local v4179
+
+            if not Character8 then
+                v4179 = nil
+            else
+                local Humanoid = Character8:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character8:FindFirstChild("HumanoidRootPart")
+
+                v4179 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            local v4182
+
+            if not t216 or not t216.running then
+                v4182 = false
+            else
+                local state = t216.state
+
+                v4182 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+            end
+
+            if v4179 and v2228(v4179) then
+                t291.job = "leave"
+                v2234(v4182)
+
+                return
+            end
+
+            if t291.job == "belt" or t291.job == "leave" then
+                t291.job = "idle"
+
+                if not v4182 and (not t216 or not t216.running) then
+                    u1128 = false
+                    u1127 = nil
+                end
+            end
+        end
+        local function v2236()
+            if t9.AutoPlaceEggs ~= true or (not u1103 or type(u1103.PlantEgg) ~= "function") then
+                return
+            end
+
+            local v4184
+
+            if not t216 or not t216.running then
+                v4184 = false
+            else
+                local state = t216.state
+
+                v4184 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+            end
+
+            if v4184 then
+                return
+            end
+
+            local Character9 = LocalPlayer.Character
+            local v4187
+
+            if not Character9 then
+                v4187 = nil
+            else
+                local Humanoid = Character9:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character9:FindFirstChild("HumanoidRootPart")
+
+                v4187 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            local v4190 = v2223()
+            local v4191 = v4190 and v4190.PetArea
+            local v4192
+
+            if not v4191 or not v4187 then
+                v4192 = false
+            else
+                local v4193 = v2225()
+
+                v4192 = not (not not v4193 and not not v4187 and (if v2228(v4187) then math.abs(v4187.Position.Y - v4193.Position.Y) < 10 else false)) and v2224(v4191, v4187.Position, 2)
+            end
+
+            if not v4192 or u1119 then
+                return
+            end
+
+            local elapsed28 = os.clock()
+
+            if elapsed28 - t291.lastPlace < 1.15 then
+                return
+            end
+
+            local v4195, v4196 = v2230()
+
+            if #v4195 == 0 then
+                return
+            end
+
+            if v4196 >= v2231() then
+                t291.lastPlaceWhy = "pen full"
+
+                return
+            end
+
+            local v4197 = v2229()
+
+            if not v4197 then
+                t291.lastPlaceWhy = "no pad"
+
+                return
+            end
+
+            t291.lastPlace = elapsed28
+
+            local uid = v4195[1].uid
+
+            if type(u1103.WearEggTool) == "function" then
+                pcall(u1103.WearEggTool, uid)
+            end
+
+            local ok72, result70, v4201 = pcall(function()
+                return u1103.PlantEgg(uid, v4197)
+            end)
+
+            if type(u1103.DoffEggTool) == "function" then
+                pcall(u1103.DoffEggTool, uid)
+            end
+
+            if ok72 and result70 == true then
+                local v4202 = t291
+
+                v4202.placed = v4202.placed + 1
+                t291.lastPlaceWhy = nil
+                v1102("plot", "placed", uid)
+
+                if u1134 and u1134.bumpPlot then
+                    u1134.bumpPlot()
+                end
+
+                return
+            end
+
+            t291.lastPlaceWhy = tostring(v4201 or result70 or (not ok72 and "err" or "rejected"))
+            v1102("plot", "place fail", uid, t291.lastPlaceWhy)
+        end
+        local function v2237()
+            if t9.AutoHatch ~= true or not u1103 then
+                return
+            end
+            local Character10 = LocalPlayer.Character
+            local g4213
+            local ok73
+            local v4212
+            local v4204
+            if not Character10 then
+                v4204 = nil
+            else
+                local Humanoid = Character10:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character10:FindFirstChild("HumanoidRootPart")
+
+                v4204 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+            local v4207 = v2223()
+            local v4208 = v4207 and v4207.PetArea
+            local v4209
+            if not v4208 or not v4204 then
+                v4209 = false
+            else
+                local v4210 = v2225()
+
+                v4209 = not (not not v4210 and not not v4204 and (if v2228(v4204) then math.abs(v4204.Position.Y - v4210.Position.Y) < 10 else false)) and v2224(v4208, v4204.Position, 2)
+            end
+            if not v4209 or u1119 then
+                return
+            end
+            local elapsed29 = os.clock()
+            if elapsed29 - t291.lastHatch < 0.9 then
+                return
+            end
+            if not u1103 then
+                v4212 = nil
+                g4213 = true
+            end
+            repeat
+                if g4213 or (g4213 or type(u1103.ReadOwnerEggs) == "function") then
+                    if not g4213 then
+                        if not g4213 then
+                            ok73, v4212 = pcall(u1103.ReadOwnerEggs, LocalPlayer.UserId)
+                        end
+                    end
+
+                    if g4213 or (g4213 or ok73 and type(v4212) == "table") then
+                        g4213 = false
+
+                        if type(v4212) ~= "table" then
+                            return
+                        end
+
+                        for k, v in pairs(v4212) do
+                            if type(v) ~= "table" or v.Placement == nil then
+                                continue
+                            end
+
+                            local v4217 = v.Uid or k
+                            local v4218 = false
+
+                            if type(u1103.IsReadyToHatch) == "function" then
+                                local ok74, result71 = pcall(u1103.IsReadyToHatch, v4217)
+
+                                v4218 = ok74 and result71 == true
+                            end
+
+                            if v4218 then
+                                t291.lastHatch = elapsed29
+
+                                if pcall(function()
+                                    if type(u1103.BeginHatch) == "function" then
+                                        u1103.BeginHatch(v4217)
+                                    end
+
+                                    if type(u1103.FinishHatch) == "function" then
+                                        u1103.FinishHatch(v4217)
+                                    end
+                                end) then
+                                    local v4221 = t291
+
+                                    v4221.hatched = v4221.hatched + 1
+                                    v1102("plot", "hatched", v4217)
+
+                                    if u1195 and u1195.hatched then
+                                        local v4222 = v.AssetCategory or v.Category
+                                        local v4223 = if not not Directory and v4222 then Directory[v4222] else nil
+                                        local v4224 = v1193(v, v4223)
+
+                                        pcall(u1195.hatched, {
+											name = v4223 and v4223.DisplayName or v.AssetCategory,
+											earn = v4224,
+											rar = if type(v4223) == "table" and type(v4223.Rarity) == "table" then tostring(v4223.Rarity.DisplayName or (v4223.Rarity.Name or (v4223.Rarity._id or "?"))) else "?",
+											cfg = v4223,
+											cat = v.AssetCategory or v.Category,
+											rec = v
+										})
+                                    end
+
+                                    if u1134 and u1134.bumpPlot then
+                                        u1134.bumpPlot()
+                                    end
+                                end
+
+                                return
+                            end
+                        end
+
+                        return
+                    end
+                end
+
+                v4212 = nil
+                g4213 = true
+            until not g4213
+        end
+        local function v2238()
+            if t9.UpgTrails ~= true then
+                return
+            end
+            local Trails = ReplicatedStorage.Data.Trails
+            local v4227
+            if t291.trailsMod == false then
+                v4227 = nil
+            elseif t291.trailsMod ~= nil then
+                v4227 = t291.trailsMod
+            else
+                local ok75, result72 = pcall(require, Trails)
+
+                t291.trailsMod = not not ok75 and (type(result72) == "table" and (result72 or false))
+                v4227 = if t291.trailsMod ~= false then t291.trailsMod else nil
+            end
+            local v4230 = v4227 and (v4227.Directory or v4227)
+            local v4231 = v2221()
+            if type(v4230) ~= "table" or type(v4231) ~= "table" then
+                return
+            end
+            local v4232 = type(v4231.TrailInventory) == "table" and v4231.TrailInventory or {}
+            local t293 = {}
+            for _, v in pairs(v4230) do
+                if type(v) == "table" and type(v._id) == "string" then
+                    t293[#t293 + 1] = v
+                end
+            end
+            table.sort(t293, function(p422, p423)
+                return (tonumber(p422.Price) or 0) < (tonumber(p423.Price) or 0)
+            end)
+            for i = 1, #t293 do
+                local v4237 = t293[i]
+
+                if v4232[v4237._id] ~= true then
+                    local v4238 = tonumber(v4237.Price) or 0
+
+                    if v4238 > 0 then
+                        local v4239 = tonumber(v4238) or 0
+                        local v4240 = v2221()
+
+                        if (tonumber(v4240 and v4240.Money) or 0) - v4239 >= v1194(t9.KeepMoney) then
+                            local ok76, result73 = pcall(v2219, "Trailwear", "AskPurchase", v4237._id)
+
+                            if ok76 and result73 == true then
+                                local v4243 = t291
+
+                                v4243.bought = v4243.bought + 1
+                                v1102("plot", "trail bought", v4237._id)
+                                pcall(v2219, "Trailwear", "AskChoose", v4237._id)
+                            end
+                        end
+                    end
+
+                    return
+                end
+            end
+            local v4244
+            for i = 1, #t293 do
+                local v4246 = t293[i]
+
+                if v4232[v4246._id] == true then
+                    v4244 = v4246
+                end
+            end
+            if v4244 and v4231.EquippedTrail ~= v4244._id then
+                pcall(v2219, "Trailwear", "AskChoose", v4244._id)
+            end
+        end
+        local function v2239()
+            if t9.UpgTreadmill ~= true then
+                return
+            end
+            local Treadmills = ReplicatedStorage.Data.Treadmills
+            local v4248
+            if t291.tmsMod == false then
+                v4248 = nil
+            elseif t291.tmsMod ~= nil then
+                v4248 = t291.tmsMod
+            else
+                local ok77, result74 = pcall(require, Treadmills)
+
+                t291.tmsMod = not not ok77 and (type(result74) == "table" and (result74 or false))
+                v4248 = if t291.tmsMod ~= false then t291.tmsMod else nil
+            end
+            local v4251 = v4248
+            local v4252 = v2221()
+            if type(v4251) ~= "table" or type(v4252) ~= "table" then
+                return
+            end
+            local v4253 = (tonumber(v4252.TreadmillUpgradeLevel) or 0) + 1
+            local u4254
+            if type(v4251.GetByUpgradeLevel) == "function" then
+                pcall(function()
+                    u4254 = v4251.GetByUpgradeLevel(v4253)
+                end)
+            end
+            if type(u4254) ~= "table" then
+                return
+            end
+            local v4255 = tonumber(u4254.Price) or 0
+            if v4255 > 0 then
+                local v4256 = tonumber(v4255) or 0
+                local v4257 = v2221()
+
+                if not ((tonumber(v4257 and v4257.Money) or 0) - v4256 >= v1194(t9.KeepMoney)) then
+                    return
+                end
+            end
+            local ok78, result75 = pcall(v2219, "Treadmill", "AskTierRaise", u4254._id)
+            if ok78 and result75 == true then
+                v1102("plot", "treadmill", u4254._id)
+            end
+        end
+        local function v2240()
+            if t9.UpgPen ~= true then
+                return
+            end
+
+            local v4260 = v2221()
+
+            if type(v4260) ~= "table" then
+                return
+            end
+
+            local Bases = ReplicatedStorage.Data.Bases
+            local v4262
+
+            if t291.basesMod == false then
+                v4262 = nil
+            elseif t291.basesMod ~= nil then
+                v4262 = t291.basesMod
+            else
+                local ok79, result76 = pcall(require, Bases)
+
+                t291.basesMod = not not ok79 and (type(result76) == "table" and (result76 or false))
+                v4262 = if t291.basesMod ~= false then t291.basesMod else nil
+            end
+
+            local v4265 = (tonumber(v4260.BaseUpgradeLevel) or 0) + 1
+            local v4266 = v4262 and (v4262.BASES and v4262.BASES[v4265])
+            local v4267 = type(v4266) == "table" and tonumber(v4266.Cost) or 0
+
+            if type(v4266) ~= "table" then
+                return
+            end
+
+            if v4267 > 0 then
+                local v4268 = tonumber(v4267) or 0
+                local v4269 = v2221()
+
+                if not ((tonumber(v4269 and v4269.Money) or 0) - v4268 >= v1194(t9.KeepMoney)) then
+                    return
+                end
+            end
+
+            v2220("Homestead", "AskBaseTierRaise")
+            v1102("plot", "pen tier", v4265)
+        end
+        local function v2241(p424)
+            local t294 = {}
+            local v4273 = p424 and p424.EquippedAssets
+
+            if type(v4273) == "table" then
+                for _, v in pairs(v4273) do
+                    t294[tostring(v)] = true
+                end
+            end
+
+            return t294
+        end
+        local function v2242()
+            local v4305 = v1194(t9.SellUnderGen)
+            local t295 = {}
+            local t296 = {}
+            if v4305 <= 0 then
+                local v4308 = t291
+                local v4309 = t291
+                local v4310 = t291
+
+                v4308.sellPets = t295
+                v4309.sellEggs = t296
+                v4310.sellFloor = v4305
+
+                return t295, t296, v4305
+            end
+            local v4311 = v2221()
+            local v4312 = v2241(v4311)
+            local v4313 = v4311 and v4311.Inventory
+            local g4322
+            local ok80
+            local v4321
+            if type(v4313) == "table" then
+                for k, v in pairs(v4313) do
+                    if type(v) == "table" then
+                        local str37 = tostring(k)
+                        local v4317 = v.IsFavorite == true
+
+                        if not v4312[str37] and not v4317 and v.InFuse ~= true then
+                            local v4318 = v.Category or v.AssetCategory
+                            local v4319 = if not not Directory and v4318 then Directory[v4318] else nil
+                            local v4320 = v1193(v, v4319)
+
+                            if v4320 < v4305 then
+                                t295[#t295 + 1] = {
+									uid = str37,
+									cat = v4318,
+									cfg = v4319,
+									earn = v4320,
+									rec = v,
+									price = 0
+								}
+                            end
+                        end
+                    end
+                end
+            end
+            if not u1103 then
+                v4321 = nil
+                g4322 = true
+            end
+            repeat
+                if g4322 or (g4322 or type(u1103.ReadOwnerEggs) == "function") then
+                    if not g4322 then
+                        if not g4322 then
+                            ok80, v4321 = pcall(u1103.ReadOwnerEggs, LocalPlayer.UserId)
+                        end
+                    end
+
+                    if g4322 or (g4322 or ok80 and type(v4321) == "table") then
+                        g4322 = false
+
+                        if type(v4321) ~= "table" then
+                            v4321 = v4311 and v4311.EggInventory
+                        end
+
+                        if type(v4321) == "table" then
+                            for k, v in pairs(v4321) do
+                                if type(v) == "table" and v.Placement == nil then
+                                    local v4326 = v.AssetCategory or v.Category
+                                    local v4327 = if not not Directory and v4326 then Directory[v4326] else nil
+                                    local v4328 = v1193(v, v4327)
+
+                                    if v4328 < v4305 then
+                                        t296[#t296 + 1] = {
+											uid = tostring(v.Uid or k),
+											cat = v4326,
+											cfg = v4327,
+											earn = v4328,
+											rec = v,
+											price = 0
+										}
+                                    end
+                                end
+                            end
+                        end
+
+                        local v4329 = t291
+                        local v4330 = t291
+                        local v4331 = t291
+
+                        v4329.sellPets = t295
+                        v4330.sellEggs = t296
+                        v4331.sellFloor = v4305
+
+                        return t295, t296, v4305
+                    end
+                end
+
+                v4321 = nil
+                g4322 = true
+            until not g4322
+        end
+        local function v2243()
+            local Stands = workspace:FindFirstChild("Stands")
+            local v4333 = Stands and Stands:FindFirstChild("Prompts")
+            local v4334 = v4333 and (v4333:FindFirstChild("SellHeldAsset") or v4333:FindFirstChild("SellAll"))
+
+            if not v4334 or not v4334:IsA("BasePart") then
+                return
+            end
+
+            local ProximityPrompt = v4334:FindFirstChildWhichIsA("ProximityPrompt")
+
+            if ProximityPrompt then
+                pcall(function()
+                    ProximityPrompt.HoldDuration = 0
+                    ProximityPrompt.RequiresLineOfSight = false
+                    ProximityPrompt.MaxActivationDistance = 14
+                    ProximityPrompt.ClickablePrompt = true
+                end)
+            end
+
+            local vector3 = Vector3.new(v4334.CFrame.LookVector.X, 0, v4334.CFrame.LookVector.Z)
+
+            if vector3.Magnitude < 0.15 then
+                vector3 = Vector3.new(v4334.CFrame.RightVector.X, 0, v4334.CFrame.RightVector.Z)
+            end
+
+            local v4337 = vector3.Magnitude > 0.15 and vector3.Unit or Vector3.new(1, 0, 0)
+            local v4338 = v4334.Position + v4337 * 7
+            local v4339 = v4334.Position - v4337 * 7
+            local Character11 = LocalPlayer.Character
+            local v4341
+
+            if not Character11 then
+                v4341 = nil
+            else
+                local Humanoid = Character11:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character11:FindFirstChild("HumanoidRootPart")
+
+                v4341 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            local u4344 = v4338
+
+            if v4341 and Vector3.new(v4341.Position.X - v4338.X, 0, v4341.Position.Z - v4338.Z).Magnitude > Vector3.new(v4341.Position.X - v4339.X, 0, v4341.Position.Z - v4339.Z).Magnitude + 1.5 then
+                u4344 = v4339
+            end
+
+            local u4345 = v4334.Position.Y + 3.2
+
+            pcall(function()
+                local vector3_7 = Vector3.new(u4344.X, v4334.Position.Y + 16, u4344.Z)
+                local raycastParams = RaycastParams.new()
+
+                raycastParams.FilterType = Enum.RaycastFilterType.Exclude
+
+                local t297 = {
+					LocalPlayer.Character,
+					v4334
+				}
+
+                if u1119 then
+                    t297[#t297 + 1] = u1119
+                end
+
+                raycastParams.FilterDescendantsInstances = t297
+
+                local raycastResult = workspace:Raycast(vector3_7, Vector3.new(0, -80, 0), raycastParams)
+
+                if raycastResult then
+                    u4345 = raycastResult.Position.Y + 3
+                end
+            end)
+
+            if v4341 and Vector3.new(v4341.Position.X - u4344.X, 0, v4341.Position.Z - u4344.Z).Magnitude < 6 then
+                u4345 = math.min(u4345, v4341.Position.Y)
+            end
+
+            return Vector3.new(u4344.X, u4345, u4344.Z), v4334, ProximityPrompt
+        end
+        local function v2244(p425)
+            local v4359
+
+            if not p425 then
+                v4359 = nil
+            else
+                local v4360 = p425:GetAttribute("UID") or p425:GetAttribute("Uid")
+
+                v4359 = if type(v4360) ~= "string" or v4360 == "" then nil else v4360
+            end
+
+            local v4361 = p425 and p425:GetAttribute("ItemType")
+
+            if v4361 == "AssetEgg" and v4359 then
+                v2219("EggWorld", "AskDoffTool", v4359)
+
+                return
+            end
+
+            if v4361 == "Asset" and v4359 then
+                v2219("PenRoster", "AskDoff", v4359)
+
+                return
+            end
+
+            local v4362 = select(1, v1112())
+
+            if v4362 then
+                pcall(function()
+                    v4362:UnequipTools()
+                end)
+            end
+        end
+        local function v2245(p426)
+            local v4364 = p426 and (p426.uid and tostring(p426.uid))
+
+            if not v4364 then
+                return false
+            end
+
+            local Character12 = LocalPlayer.Character
+            local v4366 = Character12 and Character12:FindFirstChildWhichIsA("Tool")
+            local v4367
+
+            if not v4366 then
+                v4367 = nil
+            elseif v4366:GetAttribute("ItemType") == "Gear" then
+                v4367 = nil
+            elseif not v4366 then
+                v4367 = nil
+            else
+                local v4368 = v4366:GetAttribute("UID") or v4366:GetAttribute("Uid")
+
+                v4367 = if type(v4368) ~= "string" or v4368 == "" then nil else v4368
+            end
+
+            if v4367 == v4364 then
+                return true
+            end
+
+            local elapsed30 = os.clock()
+
+            if elapsed30 - (t291.lastWear or 0) < 0.4 then
+                return false
+            end
+
+            local v4370 = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildWhichIsA("Tool")
+
+            if v4370 then
+                local v4371
+
+                if not v4370 then
+                    v4371 = nil
+                else
+                    local v4372 = v4370:GetAttribute("UID") or v4370:GetAttribute("Uid")
+
+                    v4371 = if type(v4372) ~= "string" or v4372 == "" then nil else v4372
+                end
+
+                if v4371 ~= v4364 then
+                    t291.lastWear = elapsed30
+                    v2244(v4370)
+
+                    return false
+                end
+            end
+
+            local str38 = tostring(v4364)
+
+            local function v4374(p427)
+                if not p427 then
+                    return
+                end
+
+                for _, child in ipairs(p427:GetChildren()) do
+                    if not child:IsA("Tool") then
+                        continue
+                    end
+
+                    local v4855
+
+                    if not child then
+                        v4855 = nil
+                    else
+                        local v4856 = child:GetAttribute("UID") or child:GetAttribute("Uid")
+
+                        v4855 = if type(v4856) ~= "string" or v4856 == "" then nil else v4856
+                    end
+
+                    if v4855 == str38 then
+                        return child
+                    end
+                end
+            end
+
+            local v4375 = v4374(LocalPlayer.Character) or v4374(LocalPlayer:FindFirstChild("Backpack"))
+            local v4376 = select(1, v1112())
+
+            if v4375 and v4376 then
+                t291.lastWear = elapsed30
+
+                if v4375.Parent ~= LocalPlayer.Character then
+                    pcall(function()
+                        v4376:EquipTool(v4375)
+                    end)
+                end
+
+                local v4377 = LocalPlayer.Character and LocalPlayer.Character:FindFirstChildWhichIsA("Tool")
+                local v4378
+
+                if not v4377 then
+                    v4378 = nil
+                else
+                    local v4379 = v4377:GetAttribute("UID") or v4377:GetAttribute("Uid")
+
+                    v4378 = if type(v4379) ~= "string" or v4379 == "" then nil else v4379
+                end
+
+                return v4378 == v4364
+            end
+
+            t291.lastWear = elapsed30
+
+            if p426.kind == "egg" then
+                v2219("EggWorld", "AskWearTool", v4364)
+            else
+                v2219("PenRoster", "AskWear", v4364)
+            end
+
+            return false
+        end
+        local function v2246(p428)
+            v2220("PetSatchel", "SellPet", { p428 })
+
+            local _, v4382, v4383 = v2243()
+
+            if v4383 then
+                v1190(v4383)
+
+                return
+            end
+
+            if v4382 then
+                local ProximityPrompt = v4382:FindFirstChildWhichIsA("ProximityPrompt")
+
+                if ProximityPrompt then
+                    v1190(ProximityPrompt)
+                end
+            end
+        end
+        local function v2247()
+            local v4385, v4386 = v2242()
+
+            if t9.AutoSellPets == true and #v4385 > 0 then
+                table.sort(v4385, function(p429, p430)
+                    return p429.earn < p430.earn
+                end)
+                v4385[1].kind = "pet"
+
+                return v4385[1]
+            end
+
+            if t9.AutoSellEggs == true and #v4386 > 0 then
+                table.sort(v4386, function(p431, p432)
+                    return p431.earn < p432.earn
+                end)
+                v4386[1].kind = "egg"
+
+                return v4386[1]
+            end
+        end
+        local function v2248()
+            if not t9.AutoSellPets and not t9.AutoSellEggs then
+                return
+            end
+
+            if t291.expectSold then
+                local Character13 = LocalPlayer.Character
+                local v4388 = Character13 and Character13:FindFirstChildWhichIsA("Tool")
+                local v4389
+
+                if not v4388 then
+                    v4389 = nil
+                elseif v4388:GetAttribute("ItemType") == "Gear" then
+                    v4389 = nil
+                elseif not v4388 then
+                    v4389 = nil
+                else
+                    local v4390 = v4388:GetAttribute("UID") or v4388:GetAttribute("Uid")
+
+                    v4389 = if type(v4390) ~= "string" or v4390 == "" then nil else v4390
+                end
+
+                if v4389 ~= t291.expectSold.uid then
+                    if t291.expectSold.kind == "egg" then
+                        local v4391 = t291
+
+                        v4391.soldEggs = v4391.soldEggs + 1
+                    else
+                        local v4392 = t291
+
+                        v4392.soldPets = v4392.soldPets + 1
+                    end
+
+                    if u1195 and u1195.sold then
+                        pcall(u1195.sold, t291.expectSold)
+                    end
+
+                    t291.expectSold = nil
+                end
+            end
+
+            local Character14 = LocalPlayer.Character
+            local v4394
+
+            if not Character14 then
+                v4394 = nil
+            else
+                local Humanoid = Character14:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character14:FindFirstChild("HumanoidRootPart")
+
+                v4394 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            if v2243() then
+                local v4397 = v2243()
+
+                if not v4394 or (typeof(v4397) ~= "Vector3" or not (Vector3.new(v4394.Position.X - v4397.X, 0, v4394.Position.Z - v4397.Z).Magnitude < 5.5)) then
+                    return
+                end
+            end
+
+            local v4398 = v2247()
+
+            if not v4398 then
+                return
+            end
+
+            if not v2245(v4398) then
+                t291.sellWhy = "equipping"
+
+                return
+            end
+
+            local elapsed31 = os.clock()
+
+            if elapsed31 - t291.lastSell < 0.55 then
+                return
+            end
+
+            t291.lastSell = elapsed31
+            t291.sellWhy = "selling"
+            v2246(v4398.uid)
+            t291.expectSold = {
+				uid = v4398.uid,
+				kind = v4398.kind,
+				name = v4398.cfg and v4398.cfg.DisplayName or v4398.cat,
+				earn = v4398.earn,
+				cfg = v4398.cfg,
+				cat = v4398.cat
+			}
+            v1102("plot", "sell held", v4398.kind, v4398.uid)
+        end
+        local function v2249()
+            if t9.ClaimIndex ~= true then
+                return
+            end
+
+            if t291.claimBusy or t291.job == "sell" then
+                return
+            end
+
+            local elapsed32 = os.clock()
+
+            if elapsed32 - (t291.lastClaim or 0) < 8 then
+                return
+            end
+
+            t291.lastClaim = elapsed32
+            t291.claimBusy = true
+
+            local v4401 = v2218("Codex", "AskRedeemAll")
+
+            if not v4401 then
+                t291.claimWhy = "no remote"
+                t291.claimBusy = false
+
+                return
+            end
+
+            local ok81, result77, v4404, v4405 = pcall(function()
+                return v4401:InvokeServer()
+            end)
+
+            if not ok81 then
+                t291.claimWhy = tostring(result77)
+            elseif result77 == true then
+                local n64 = 0
+
+                if type(v4405) == "table" then
+                    for _ in ipairs(v4405) do
+                        n64 += 1
+                    end
+
+                    if n64 == 0 then
+                        for _ in pairs(v4405) do
+                            n64 += 1
+                        end
+                    end
+                end
+
+                if n64 > 0 then
+                    local v4409 = t291
+
+                    v4409.claimIndex = v4409.claimIndex + n64
+                    t291.claimWhy = "claimed " .. n64
+
+                    if u1195 and u1195.rewards then
+                        pcall(u1195.rewards, n64)
+                    end
+                else
+                    t291.claimWhy = "nothing to claim"
+                end
+            else
+                t291.claimWhy = tostring(v4404 or "nothing to claim")
+            end
+
+            t291.claimBusy = false
+        end
+        local function v2250()
+            if t9.AutoTreadmill ~= true then
+                v2235()
+
+                return
+            end
+            if t216 and t216.running and t216.allowTrain and not t216.allowTrain() then
+                return
+            end
+            local g4410
+            local g4411
+            local v4412
+            local v4413
+            local v4414
+            local g4433
+            local v4432
+            repeat
+                if g4410 or ((tonumber(t9.ReadyEarly) or 4) >= v1228() or t9.AutoSteal == true and (t216 and (t216.running and (not t216.allowTrain or t216.allowTrain() ~= true)))) then
+                    g4410 = false
+
+                    if t291.training or t291.job == "belt" then
+                        v2235()
+                    end
+
+                    return
+                end
+
+                repeat
+                    if g4411 or t9.AutoPlaceEggs == true then
+                        if not g4411 then
+                            v4412, v4413 = v2230()
+                        end
+
+                        if g4411 or #v4412 > 0 and v4413 < v2231() then
+                            if not g4411 then
+                                v4414 = true
+                            end
+
+                            g4411 = false
+
+                            if v4414 then
+                                g4410 = true
+                            end
+
+                            if not g4410 then
+                                local elapsed33 = os.clock()
+                                local v4416 = v2221()
+                                local v4417 = tonumber(v4416 and v4416.SpeedPower) or 0
+
+                                if t291.lastPower and elapsed33 > t291.lastPowerAt then
+                                    local v4418 = elapsed33 - t291.lastPowerAt
+
+                                    if v4418 > 0.2 then
+                                        local v4419 = math.max(0, v4417 - t291.lastPower)
+                                        local v4420 = t291
+
+                                        v4420.trainEarned = v4420.trainEarned + v4419
+                                        t291.trainRate = v4419 / v4418
+                                    end
+                                end
+
+                                t291.lastPower = v4417
+                                t291.lastPowerAt = elapsed33
+
+                                local v4421 = v2225()
+                                local v4422 = if v4421 then v4421.Position + Vector3.new(0, v4421.Size.Y * 0.5 + 3.2, 0) else nil
+                                local Character15 = LocalPlayer.Character
+                                local v4424
+
+                                if not Character15 then
+                                    v4424 = nil
+                                else
+                                    local Humanoid = Character15:FindFirstChildOfClass("Humanoid")
+                                    local HumanoidRootPart = Character15:FindFirstChild("HumanoidRootPart")
+
+                                    v4424 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+                                end
+
+                                if not v4422 or not v4424 then
+                                    return
+                                end
+
+                                t291.job = "belt"
+
+                                local v4427 = v2225()
+
+                                if not v4427 or not v4424 or not if v2228(v4424) then math.abs(v4424.Position.Y - v4427.Position.Y) < 10 else false then
+                                    t291.training = false
+                                    v2233(v4422)
+
+                                    return
+                                end
+
+                                u1128 = false
+                                u1127 = nil
+
+                                if u1119 or elapsed33 - t291.lastTrain < 1.2 then
+                                    return
+                                end
+
+                                t291.lastTrain = elapsed33
+
+                                local ok82, result78, v4430 = pcall(function()
+                                    return v2219("Treadmill", "AskWearStill")
+                                end)
+                                local v4431 = t291
+
+                                if ok82 then
+                                    v4432 = true
+
+                                    if result78 == true then
+                                        g4433 = true
+                                    end
+                                end
+
+                                if not g4433 then
+                                    local v4434 = v2225()
+
+                                    v4432 = not not v4434 and not not v4424 and if v2228(v4424) then math.abs(v4424.Position.Y - v4434.Position.Y) < 10 else false
+                                end
+
+                                g4433 = false
+                                v4431.training = v4432
+
+                                if not ok82 or result78 ~= true then
+                                    v1102("plot", "wear fail", (tostring(v4430 or result78)))
+                                end
+
+                                return
+                            end
+                        end
+                    end
+
+                    if g4410 then
+                        break
+                    end
+
+                    v4414 = v2232()
+                    g4411 = true
+                until not g4411
+            until not g4410
+        end
+        local function v2251()
+            local elapsed34 = os.clock()
+            if elapsed34 - t291.lastPaint < 0.45 then
+                return
+            end
+            t291.lastPaint = elapsed34
+            local s28 = "idle"
+            local g4447
+            if t9.AutoPlaceEggs then
+                s28 = if t291.job ~= "pad" then not t291.lastPlaceWhy and "running" or tostring(t291.lastPlaceWhy) else "flying to plot"
+            end
+            local v4437 = s28 .. " · placed " .. t291.placed .. " · hatched " .. t291.hatched
+            local AutoPlaceEggs = t10.AutoPlaceEggs
+            if AutoPlaceEggs and AutoPlaceEggs.status then
+                pcall(function()
+                    AutoPlaceEggs.status.Text = v4437
+                end)
+            end
+            local v4439 = (not t9.UpgTrails and "idle" or "running") .. " · bought " .. t291.bought
+            local UpgTrails = t10.UpgTrails
+            if UpgTrails and UpgTrails.status then
+                pcall(function()
+                    UpgTrails.status.Text = v4439
+                end)
+            end
+            local v4441, v4442, v4443 = v2242()
+            local v4444 = #v4441
+            local v4445 = #v4442
+            local s29 = "off"
+            if t9.AutoSellPets or t9.AutoSellEggs then
+                if v4443 <= 0 then
+                    s29 = "set a $/s floor"
+                    g4447 = true
+                end
+
+                if not g4447 then
+                    if t291.job ~= "sell" then
+                        s29 = v4444 + v4445 ~= 0 and "selling" or "nothing under the floor"
+                        g4447 = true
+                    end
+
+                    if not g4447 then
+                        local Character16 = LocalPlayer.Character
+                        local v4449
+
+                        if not Character16 then
+                            v4449 = nil
+                        else
+                            local Humanoid = Character16:FindFirstChildOfClass("Humanoid")
+                            local HumanoidRootPart = Character16:FindFirstChild("HumanoidRootPart")
+
+                            v4449 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+                        end
+
+                        if v4449 then
+                            local v4452 = v2243()
+
+                            if v4449 and (typeof(v4452) == "Vector3" and Vector3.new(v4449.Position.X - v4452.X, 0, v4449.Position.Z - v4452.Z).Magnitude < 5.5) then
+                                s29 = t291.sellWhy or "equipping"
+                                g4447 = true
+                            end
+                        end
+
+                        if not g4447 then
+                            s29 = "flying to seller"
+                            g4447 = true
+                        end
+                    end
+                end
+            end
+            g4447 = false
+            local v4453 = s29 .. " · sold " .. t291.soldPets .. " · " .. v4444 .. " waiting"
+            local AutoSellPets = t10.AutoSellPets
+            if AutoSellPets and AutoSellPets.status then
+                pcall(function()
+                    AutoSellPets.status.Text = v4453
+                end)
+            end
+            local v4455 = s29 .. " · sold " .. t291.soldEggs .. " · " .. v4445 .. " waiting"
+            local AutoSellEggs = t10.AutoSellEggs
+            if AutoSellEggs and AutoSellEggs.status then
+                pcall(function()
+                    AutoSellEggs.status.Text = v4455
+                end)
+            end
+            local v4457 = (not t9.ClaimIndex and "off" or (t291.claimWhy or "running")) .. " · claimed " .. t291.claimIndex
+            local ClaimIndex = t10.ClaimIndex
+            if ClaimIndex and ClaimIndex.status then
+                pcall(function()
+                    ClaimIndex.status.Text = v4457
+                end)
+            end
+            if t291.job == "leave" then
+                local v4459 = "leaving · " .. v2217(t291.trainRate) .. "/s · earned " .. v2217(t291.trainEarned) .. " this session"
+                local AutoTreadmill = t10.AutoTreadmill
+
+                if AutoTreadmill and AutoTreadmill.status then
+                    pcall(function()
+                        AutoTreadmill.status.Text = v4459
+                    end)
+
+                    return
+                end
+            elseif t291.job == "belt" and not t291.training then
+                local v4461 = "flying to treadmill · " .. v2217(t291.trainRate) .. "/s · earned " .. v2217(t291.trainEarned) .. " this session"
+                local AutoTreadmill = t10.AutoTreadmill
+
+                if AutoTreadmill and AutoTreadmill.status then
+                    pcall(function()
+                        AutoTreadmill.status.Text = v4461
+                    end)
+
+                    return
+                end
+            elseif t291.training then
+                local v4463 = "training · " .. v2217(t291.trainRate) .. "/s · earned " .. v2217(t291.trainEarned) .. " this session"
+                local AutoTreadmill = t10.AutoTreadmill
+
+                if AutoTreadmill and AutoTreadmill.status then
+                    pcall(function()
+                        AutoTreadmill.status.Text = v4463
+                    end)
+
+                    return
+                end
+            else
+                local v4465 = "not training · " .. v2217(t291.trainRate) .. "/s · earned " .. v2217(t291.trainEarned) .. " this session"
+                local AutoTreadmill = t10.AutoTreadmill
+
+                if AutoTreadmill and AutoTreadmill.status then
+                    pcall(function()
+                        AutoTreadmill.status.Text = v4465
+                    end)
+                end
+            end
+        end
+        local function v2252()
+            local Character17 = LocalPlayer.Character
+            local g4483
+            local v4484
+            local v4485
+            local v4486
+            local v4468
+            if not Character17 then
+                v4468 = nil
+            else
+                local Humanoid = Character17:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character17:FindFirstChild("HumanoidRootPart")
+
+                v4468 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+            if t216 and type(t216.haltUntil) == "number" and os.clock() < t216.haltUntil and not t216.running then
+                t291.job = "idle"
+                t291.training = false
+                u1128 = false
+                u1127 = nil
+
+                return
+            end
+            if t291.job == "leave" then
+                t291.training = false
+
+                if v4468 and v2228(v4468) then
+                    local v4471 = v2234
+                    local v4472
+
+                    if not t216 or not t216.running then
+                        v4472 = false
+                    else
+                        local state = t216.state
+
+                        v4472 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+                    end
+
+                    v4471(v4472)
+
+                    return
+                end
+
+                t291.job = "idle"
+
+                local v4474
+
+                if not t216 or not t216.running then
+                    v4474 = false
+                else
+                    local state = t216.state
+
+                    v4474 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+                end
+
+                if not v4474 and (not t216 or not t216.running) then
+                    u1128 = false
+                    u1127 = nil
+                end
+
+                v1183((v1184()))
+
+                if not u1116 then
+                    return
+                end
+
+                if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                    v1142()
+                    v1143()
+                    v1150(true)
+
+                    return
+                end
+
+                if next(t155) then
+                    v1150(false)
+                end
+
+                return
+            end
+            local v4476
+            if not t216 or not t216.running then
+                v4476 = false
+            else
+                local state = t216.state
+
+                v4476 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+            end
+            if v4476 then
+                if t291.job == "sell" then
+                    t291.job = "idle"
+                end
+
+                if v4468 and v2228(v4468) then
+                    t291.job = "leave"
+                    v2234(true)
+                end
+
+                return
+            end
+            if (t9.AutoSellPets or t9.AutoSellEggs) and v1194(t9.SellUnderGen) > 0 then
+                local v4478, v4479 = v2242()
+
+                if (t9.AutoSellPets and #v4478 or 0) + (t9.AutoSellEggs and #v4479 or 0) > 0 then
+                    if v4468 and v2228(v4468) then
+                        t291.job = "leave"
+                        v2234()
+
+                        return
+                    end
+
+                    local v4480 = v2243()
+
+                    if v4468 then
+                        local v4481 = v2243()
+
+                        if not v4468 or (typeof(v4481) ~= "Vector3" or not (Vector3.new(v4468.Position.X - v4481.X, 0, v4468.Position.Z - v4481.Z).Magnitude < 5.5)) then
+                            t291.job = "sell"
+
+                            if v4480 then
+                                v2233(v4480, true)
+                            end
+
+                            return
+                        end
+                    end
+
+                    t291.job = "sell"
+
+                    if u1128 or u1127 then
+                        u1128 = false
+                        u1127 = nil
+
+                        if not t9.Flight then
+                            local v4482 = select(1, v1112())
+
+                            v1146(v4482, v4468, true)
+                            u1145 = false
+                        end
+                    end
+
+                    return
+                end
+
+                if t291.job == "sell" then
+                    t291.job = "idle"
+                    u1128 = false
+                    u1127 = nil
+                end
+            elseif t291.job == "sell" then
+                t291.job = "idle"
+                u1128 = false
+                u1127 = nil
+            end
+            repeat
+                if g4483 or t9.AutoPlaceEggs == true then
+                    if not g4483 then
+                        v4484, v4485 = v2230()
+                    end
+
+                    if g4483 or #v4484 > 0 and v4485 < v2231() then
+                        if not g4483 then
+                            v4486 = true
+                        end
+                        if v4486 then
+                            if v4468 and v2228(v4468) then
+                                t291.job = "leave"
+                                v2234()
+
+                                return
+                            end
+
+                            t291.job = "pad"
+
+                            local v4487 = v2226()
+
+                            if v4487 then
+                                if v4468 then
+                                    local v4488 = v2223()
+                                    local v4489 = v4488 and v4488.PetArea
+                                    local v4490
+
+                                    if not v4489 or not v4468 then
+                                        v4490 = false
+                                    else
+                                        local v4491 = v2225()
+
+                                        v4490 = not (not not v4491 and not not v4468 and (if v2228(v4468) then math.abs(v4468.Position.Y - v4491.Position.Y) < 10 else false)) and v2224(v4489, v4468.Position, 2)
+                                    end
+
+                                    if v4490 then
+                                        u1128 = false
+                                        u1127 = nil
+
+                                        return
+                                    end
+                                end
+
+                                v2233(v4487)
+                            end
+
+                            return
+                        end
+                        if t216 and t216.running then
+                            t291.training = false
+
+                            if t291.job == "belt" then
+                                t291.job = "idle"
+                            end
+                        end
+                        if t9.AutoTreadmill == true and (t9.AutoSteal ~= true or (not t216 or (not t216.running or t216.allowTrain and t216.allowTrain() == true))) then
+                            v2250()
+
+                            return
+                        end
+                        if t291.job == "pad" or t291.job == "belt" or t291.job == "sell" then
+                            t291.job = "idle"
+                        end
+                        if not t216 or not t216.running then
+                            u1128 = false
+                            u1127 = nil
+                        end
+
+                        return
+                    end
+                end
+
+                v4486 = v2232()
+                g4483 = true
+            until not g4483
+        end
+        local u2253
+        local function v2254(p433, p434)
+            local t298 = {}
+
+            for i = 1, #p433 do
+                local v4499 = p433[i]
+                local str39 = tostring(v4499.cat or "?")
+                local v4501 = p434 .. ":" .. str39
+                local v4502 = t298[v4501]
+
+                if not v4502 then
+                    v4502 = {
+						kind = p434,
+						cat = str39,
+						cfg = v4499.cfg,
+						earn = v4499.earn,
+						rec = v4499.rec,
+						price = 0,
+						n = 0
+					}
+                    t298[v4501] = v4502
+                end
+
+                v4502.n = v4502.n + 1
+                v4502.price = v4502.price + (tonumber(v4499.price) or 0)
+
+                if (v4499.earn or 0) < (v4502.earn or 0) then
+                    v4502.earn = v4499.earn
+                end
+            end
+
+            local t299 = {}
+
+            for _, v in pairs(t298) do
+                t299[#t299 + 1] = v
+            end
+
+            table.sort(t299, function(p435, p436)
+                if p435.earn ~= p436.earn then
+                    return p435.earn < p436.earn
+                end
+
+                return tostring(p435.cat) < tostring(p436.cat)
+            end)
+
+            return t299
+        end
+        local function u2255(p437, p438, p439, p440)
+            local v4510 = type(p437) == "table" and p437 or {}
+            local v4511 = type(p438) == "table" and p438 or {}
+            local v4512 = tonumber(p439) or 0
+            local t300 = {}
+            local t301 = {}
+
+            if type(p440) == "string" and p440 ~= "" then
+            elseif v4512 <= 0 then
+                p440 = "set a $/s floor or nothing sells"
+            else
+                t300 = v2254(v4510, "pet")
+                t301 = v2254(v4511, "egg")
+                p440 = if #v4510 + #v4511 ~= 0 then #v4510 .. " pets · " .. #v4511 .. " eggs under " .. v2217(v4512) .. "/s" else "nothing under " .. v2217(v4512) .. "/s — plot/pen pets stay"
+            end
+
+            local v4515 = p440
+            local SellPreview = t10.SellPreview
+
+            if SellPreview and SellPreview.status then
+                pcall(function()
+                    SellPreview.status.Text = v4515
+                end)
+            end
+
+            if not u1134 or not u1134.sellPreview then
+                local SellPreview2 = t10.SellPreview
+
+                if SellPreview2 and SellPreview2.status then
+                    local s30 = "preview missing"
+
+                    pcall(function()
+                        SellPreview2.status.Text = s30
+                    end)
+                end
+
+                v1102("plot", "preview missing espApi.sellPreview")
+
+                return
+            end
+
+            local ok83, result79 = pcall(u1134.sellPreview, t300, t301, p440)
+
+            if not ok83 then
+                local v4521 = "failed · " .. tostring(result79)
+                local SellPreview3 = t10.SellPreview
+
+                if SellPreview3 and SellPreview3.status then
+                    pcall(function()
+                        SellPreview3.status.Text = v4521
+                    end)
+                end
+
+                v1102("plot", "preview ERR", (tostring(result79)))
+
+                return
+            end
+
+            if result79 ~= true then
+                local SellPreview4 = t10.SellPreview
+
+                if SellPreview4 and SellPreview4.status then
+                    local s31 = "failed to open"
+
+                    pcall(function()
+                        SellPreview4.status.Text = s31
+                    end)
+                end
+            end
+        end
+        local function u2256()
+            local t302 = {}
+            local v4526, v4527, v4528
+
+            if pcall(function()
+                local v4863 = t302
+                local v4864 = t302
+                local v4865 = t302
+                local v4866, v4867, v4868 = v2242()
+
+                v4863[1] = v4866
+                v4864[2] = v4867
+                v4865[3] = v4868
+            end) then
+                v4526 = t302[1]
+                v4527 = t302[2]
+                v4528 = t302[3]
+            else
+                v4526 = t291.sellPets or {}
+                v4527 = t291.sellEggs or {}
+                v4528 = t291.sellFloor or v1194(t9.SellUnderGen)
+            end
+
+            u2255(v4526, v4527, v4528)
+        end
+
+        return {
+			sync = function()
+            if not (t9.AutoPlaceEggs or (t9.AutoHatch or (t9.EquipBest or (t9.UpgTrails or (t9.UpgTreadmill or (t9.UpgPen or (t9.AutoSellPets or (t9.AutoSellEggs or (t9.AutoTreadmill or t9.ClaimIndex))))))))) then
+                v2235()
+            end
+
+            v1183((v1184()))
+
+            if not u1116 then
+                return
+            end
+
+            if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+
+                return
+            end
+
+            if next(t155) then
+                v1150(false)
+            end
+        end,
+			stop = function()
+            t291.training = false
+            t291.job = "idle"
+
+            if not t216 or not t216.running then
+                u1128 = false
+                u1127 = nil
+            end
+
+            v1183((v1184()))
+
+            if not u1116 then
+                return
+            end
+
+            if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+
+                return
+            end
+
+            if next(t155) then
+                v1150(false)
+            end
+        end,
+			tick = function()
+            if not u1117 then
+                return
+            end
+
+            v2252()
+            v2236()
+            v2237()
+
+            if t9.EquipBest == true then
+                local elapsed35 = os.clock()
+
+                if not (elapsed35 - t291.lastEquip < 4) then
+                    t291.lastEquip = elapsed35
+                    pcall(function()
+                        v2219("Haul", "WearBest")
+                    end)
+                end
+            end
+
+            local elapsed36 = os.clock()
+
+            if not (elapsed36 - t291.lastUpg < 4) and (t9.UpgTrails or t9.UpgTreadmill or t9.UpgPen) then
+                t291.lastUpg = elapsed36
+                v2238()
+                v2239()
+                v2240()
+            end
+
+            v2248()
+            v2249()
+            v2251()
+        end,
+			wanted = function()
+            return t9.AutoPlaceEggs or (t9.AutoHatch or (t9.EquipBest or (t9.UpgTrails or (t9.UpgTreadmill or (t9.UpgPen or (t9.AutoSellPets or (t9.AutoSellEggs or (t9.AutoTreadmill or t9.ClaimIndex))))))))
+        end,
+			driving = function()
+            return u1128 == true and (t291.job == "pad" or (t291.job == "belt" or t291.job == "sell"))
+        end,
+			leaving = function()
+            return t291.job == "leave"
+        end,
+			leave = v2235,
+			kickBelt = function()
+            local Character18 = LocalPlayer.Character
+            local v4171
+
+            if not Character18 then
+                v4171 = nil
+            else
+                local Humanoid = Character18:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character18:FindFirstChild("HumanoidRootPart")
+
+                v4171 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            if not v4171 or not v2228(v4171) then
+                if t291.training or t291.job == "belt" then
+                    t291.training = false
+                    t291.job = "idle"
+                end
+
+                return
+            end
+
+            local elapsed37 = os.clock()
+
+            if elapsed37 - (t291.lastKick or 0) < 0.55 then
+                return
+            end
+
+            t291.lastKick = elapsed37
+            t291.training = false
+            t291.job = "leave"
+
+            local v4175 = v2234
+            local v4176
+
+            if not t216 or not t216.running then
+                v4176 = false
+            else
+                local state = t216.state
+
+                v4176 = state == "GoEgg" or (state == "Grab" or (state == "Return" or (state == "Bank" or (state == "Chase" or (state == "Safe" or (state == "FeedGo" or (state == "Feed" or (state == "ChestGo" or state == "ChestOpen"))))))))
+            end
+
+            if not v4176 then
+                v4176 = (t216 and t216.running) == true
+            end
+
+            v4175(v4176)
+        end,
+			holding = function()
+            return t291.training == true or t291.job == "sell"
+        end,
+			preview = u2256,
+			queuePreview = function()
+            local v4530 = type(t291.sellPets) == "table" and t291.sellPets or {}
+            local v4531 = type(t291.sellEggs) == "table" and t291.sellEggs or {}
+            local num = tonumber(t291.sellFloor)
+
+            if num == nil then
+                local v4533 = v1194(t9.SellUnderGen)
+
+                u2255(v4530, v4531, v4533, "opening…")
+            else
+                u2255(v4530, v4531, num)
+            end
+
+            t291.previewQueued = true
+
+            if u2253 then
+                return
+            end
+
+            local connection19 = RunService.Stepped:Connect(function()
+                if not u1117 then
+                    return
+                end
+
+                if not t291.previewQueued then
+                    return
+                end
+
+                t291.previewQueued = false
+
+                local v4874 = u2253
+
+                u2253 = nil
+
+                local ok84, result80 = pcall(u2256)
+
+                if not ok84 then
+                    local v4877 = "failed · " .. tostring(result80)
+                    local SellPreview = t10.SellPreview
+
+                    if SellPreview and SellPreview.status then
+                        pcall(function()
+                            SellPreview.status.Text = v4877
+                        end)
+                    end
+
+                    v1102("plot", "preview ERR", (tostring(result80)))
+                end
+
+                if v4874 then
+                    pcall(function()
+                        v4874:Disconnect()
+                    end)
+                end
+            end)
+
+            if connection19 then
+                t152[connection19] = true
+            end
+
+            u2253 = connection19
+        end,
+			stats = function()
+            return {
+					hatched = t291.hatched,
+					soldPets = t291.soldPets,
+					soldEggs = t291.soldEggs,
+					placed = t291.placed,
+					claimIndex = t291.claimIndex,
+					claimCash = t291.claimCash
+				}
+        end
+		}
+    end)()
+    local function v1231()
+        local AutoSteal = t10.AutoSteal
+
+        if not AutoSteal or not AutoSteal.status then
+            return
+        end
+
+        local target = t216.target
+        local state = t216.state
+        local s32 = "idle"
+
+        if state == "Night" then
+            s32 = "night · " .. tostring(v1229()) .. "s left"
+        elseif state == "Scan" then
+            s32 = "looking"
+
+            if type(t216.lookWhy) == "string" and t216.lookWhy ~= "" then
+                s32 = "looking · " .. t216.lookWhy
+            end
+        elseif state == "Safe" then
+            s32 = "going to safe zone"
+        elseif state == "Return" then
+            s32 = "bringing back"
+        elseif state == "Bank" then
+            s32 = "banking"
+        elseif state == "Chase" then
+            s32 = target and (not not target.name and "chasing · " .. tostring(target.name)) or "chasing"
+        elseif state == "GoEgg" or state == "Grab" then
+            local v2261 = state ~= "Grab" and "going to" or "grabbing"
+            local v2262 = target and (not not target.area and tostring(target.area)) or ""
+            local v2263 = target and (not not target.name and tostring(target.name)) or ""
+
+            s32 = if v2262 == "" or v2263 == "" then if v2263 == "" and v2262 == "" then v2261 else v2261 .. " · " .. (v2263 ~= "" and v2263 or v2262) else v2261 .. " · " .. v2262 .. " · " .. v2263
+        elseif state == "FeedGo" then
+            s32 = t216.lookWhy ~= "need infested" and (t216.lookWhy ~= "equip infested" and t216.lookWhy ~= "pocket infested") and "going to monster" or t216.lookWhy
+        elseif state == "Feed" then
+            s32 = "feeding monster"
+        elseif state == "ChestGo" then
+            s32 = "picking up chest"
+        elseif state == "ChestOpen" then
+            s32 = "opening chest"
+        elseif type(state) == "string" and state ~= "" and state ~= "Idle" then
+            s32 = string.lower(state)
+        end
+
+        pcall(function()
+            AutoSteal.status.Text = string.format("%s · took %d · lost %d · re-grabbed %d", s32, t216.banked, t216.lost, t216.regrabs)
+        end)
+
+        local AutoEvent = t10.AutoEvent
+
+        if AutoEvent and AutoEvent.status then
+            pcall(function()
+                local s33 = "off"
+
+                if t9.AutoEvent then
+                    s33 = if t216.lookWhy ~= "need infested" and (t216.lookWhy ~= "pocket infested" and t216.lookWhy ~= "equip infested") then if state ~= "FeedGo" then if state ~= "Feed" then if state ~= "ChestGo" then if state ~= "ChestOpen" then (not t216.target or not t216.target.event) and "waiting for filters" or "grabbing infested" else "opening chest" else "picking up chest" else "feeding" else "going to monster" else "waiting for egg"
+                end
+
+                AutoEvent.status.Text = s33 .. " · fed " .. tostring(t216.fed or 0) .. " · chests " .. tostring(t216.chests or 0)
+            end)
+        end
+    end
+    function t216.keepHook(p441)
+        if type(p441) ~= "table" then
+            return
+        end
+
+        local rec = p441.rec
+        local cfg = p441.cfg
+
+        if type(cfg) ~= "table" and rec then
+            local v2268 = rec.AssetCategory or rec.Category
+
+            cfg = if not not Directory and v2268 then Directory[v2268] else nil
+        end
+
+        local v2269 = p441.cat or rec and (rec.AssetCategory or rec.Category)
+        local name = p441.name
+
+        if type(name) ~= "string" or name == "" or name == "egg" or name == "?" then
+            name = cfg and cfg.DisplayName or v2269
+        end
+
+        local icon = p441.icon
+
+        if type(icon) ~= "string" or icon == "" then
+            if u1134 and u1134.liveIcon then
+                local ok85, result81 = pcall(u1134.liveIcon, cfg, v2269, name)
+
+                if ok85 and type(result81) == "string" and result81 ~= "" then
+                    icon = result81
+                end
+            end
+
+            if (type(icon) ~= "string" or icon == "") and u1134 and u1134.icon then
+                local ok86, result82 = pcall(u1134.icon, cfg, v2269)
+
+                if ok86 and type(result82) == "string" and result82 ~= "" then
+                    icon = result82
+                end
+            end
+        end
+
+        local v2276 = t216
+        local t303 = {
+			rec = rec,
+			cfg = cfg,
+			cat = v2269,
+			name = name,
+			area = p441.area or "",
+			earn = tonumber(p441.earn) or v1193(rec, cfg)
+		}
+
+        t303.rar = if type(cfg) == "table" and type(cfg.Rarity) == "table" then tostring(cfg.Rarity.DisplayName or (cfg.Rarity.Name or (cfg.Rarity._id or "?"))) else "?"
+        t303.uid = rec and rec.Uid or p441.uid
+        t303.icon = icon
+        v2276.hookSnap = t303
+    end
+    local function v1232(p442)
+        local v2279 = t216.heldUid or t216.carryUid
+
+        if not v2279 or v2279 == t216.countedUid then
+            return false
+        end
+
+        local v2280 = t216.hookSnap or t216.target
+
+        t216.countedUid = v2279
+
+        local v2281 = t216
+
+        v2281.banked = v2281.banked + 1
+        t216.lastBankAt = os.clock()
+        t216.heldUid = nil
+        t216.lockUid = nil
+        t216.lockPos = nil
+        t216.target = nil
+        v1102("steal", "took +1", t216.banked, p442 or "", tostring(v2279):sub(1, 12))
+        v1231()
+
+        if u1195 and u1195.stolen then
+            pcall(u1195.stolen, v2280)
+        end
+
+        t216.hookSnap = nil
+
+        return true
+    end
+    local function v1233(p443, p444)
+        if type(p443) == "table" then
+            t216.target = p443
+
+            if t216.keepHook then
+                t216.keepHook(p443)
+            end
+
+            if p443.rec and p443.rec.Uid then
+                t216.lockUid = p443.rec.Uid
+                t216.lockAt = os.clock()
+            end
+
+            if typeof(p443.pos) == "Vector3" then
+                t216.lockPos = p443.pos
+            end
+        end
+
+        u1128 = true
+
+        local Character19 = LocalPlayer.Character
+        local v2287
+
+        if not Character19 then
+            v2287 = nil
+        else
+            local Humanoid = Character19:FindFirstChildOfClass("Humanoid")
+            local HumanoidRootPart = Character19:FindFirstChild("HumanoidRootPart")
+
+            v2287 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+        end
+
+        if v2287 and t216.target and typeof(t216.target.pos) == "Vector3" then
+            if v1213(t216.target.rec, t216.target.pos) then
+                t216.target = nil
+                t216.lockUid = nil
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "plot egg", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if (v2287.Position - t216.target.pos).Magnitude <= 28 then
+                local v2290 = p444 or "egg"
+
+                if t216.state ~= "GoEgg" then
+                    v1102("steal", t216.state, "->", "GoEgg", v2290 or "", t216.target and t216.target.name or "")
+                    t216.state = "GoEgg"
+                    t216.since = os.clock()
+                else
+                    t216.state = "GoEgg"
+                end
+
+                v1231()
+
+                return
+            end
+        end
+
+        if v2287 and v1227(v2287) then
+            local v2291 = p444 or "egg"
+
+            if t216.state ~= "GoEgg" then
+                v1102("steal", t216.state, "->", "GoEgg", v2291 or "", t216.target and t216.target.name or "")
+                t216.state = "GoEgg"
+                t216.since = os.clock()
+            else
+                t216.state = "GoEgg"
+            end
+
+            v1231()
+
+            return
+        end
+
+        if v2287 then
+            local v2292 = v1221(v2287.Position)
+
+            if v1218(v2287.Position) or v2292 and v1222(v2292, v2287.Position, 18) then
+                if t216.state ~= "Safe" then
+                    v1102("steal", t216.state, "->", "Safe", "pad first", t216.target and t216.target.name or "")
+                    t216.state = "Safe"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Safe"
+                end
+
+                v1231()
+
+                return
+            end
+        end
+
+        local v2293 = p444 or "egg"
+
+        if t216.state ~= "GoEgg" then
+            v1102("steal", t216.state, "->", "GoEgg", v2293 or "", t216.target and t216.target.name or "")
+            t216.state = "GoEgg"
+            t216.since = os.clock()
+        else
+            t216.state = "GoEgg"
+        end
+
+        v1231()
+    end
+    local function v1234(p445)
+        local pendingCarry = t216.pendingCarry
+
+        if not pendingCarry then
+            return
+        end
+
+        t216.pendingCarry = nil
+        n29 = 0
+        t216.stillFor = 0
+
+        local carrying = t216.carrying
+
+        t216.carrying = pendingCarry.carrying == true
+
+        if type(pendingCarry.uid) == "string" then
+            t216.carryUid = pendingCarry.uid
+        elseif not t216.carrying then
+            t216.carryUid = nil
+        end
+
+        if t216.carrying then
+            t216.heldUid = pendingCarry.uid or t216.heldUid
+            t216.lockUid = t216.heldUid or t216.lockUid
+
+            if t216.target then
+                t216.keepHook(t216.target)
+            end
+
+            if t216.state == "Grab" or t216.state == "GoEgg" or t216.state == "Chase" then
+                if t216.target and t216.target.event then
+                    t216.eventUid = t216.heldUid or t216.carryUid
+                    t216.eventFromField = true
+
+                    local eventUid = t216.eventUid
+
+                    if eventUid then
+                        t216.wearEventEgg(eventUid)
+                    end
+
+                    if eventUid and t216.findEventEggTool(eventUid) then
+                        if t216.state ~= "FeedGo" then
+                            v1102("steal", t216.state, "->", "FeedGo", "got infested", t216.target and t216.target.name or "")
+                            t216.feedDropped = false
+                            t216.feedPad = 5
+                            t216.state = "FeedGo"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "FeedGo"
+                        end
+
+                        v1231()
+
+                        return
+                    end
+
+                    t216.lookWhy = "pocket infested"
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Return" then
+                    v1102("steal", t216.state, "->", "Return", "got egg", t216.target and t216.target.name or "")
+                    t216.state = "Return"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Return"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if not carrying or not t9.AutoSteal then
+            return
+        end
+
+        local v2298 = v1227(p445)
+
+        if t216.state == "Bank" or t216.state == "Return" and v2298 then
+            v1232("carry-ended-at-safe")
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "took", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+            u1127 = nil
+
+            return
+        end
+
+        if t216.state == "FeedGo" or t216.state == "Feed" then
+            if t216.findEventEggTool and t216.findEventEggTool(t216.eventUid or t216.heldUid) then
+                return
+            end
+
+            local v2299 = t216
+
+            v2299.lost = v2299.lost + 1
+
+            local v2300 = t216
+
+            v2300.regrabs = v2300.regrabs + 1
+            t216.lockUid = pendingCarry.uid or (t216.heldUid or t216.lockUid)
+            t216.lockAt = os.clock()
+
+            if p445 then
+                t216.lockPos = p445.Position
+            end
+
+            if t216.state ~= "GoEgg" then
+                v1102("steal", t216.state, "->", "GoEgg", "drop at monster", t216.target and t216.target.name or "")
+                t216.state = "GoEgg"
+                t216.since = os.clock()
+            else
+                t216.state = "GoEgg"
+            end
+
+            v1231()
+
+            return
+        end
+
+        if t216.state == "Return" or t216.state == "GoEgg" or t216.state == "Grab" or t216.state == "Chase" then
+            local v2301 = t216
+
+            v2301.lost = v2301.lost + 1
+
+            local v2302 = t216
+
+            v2302.regrabs = v2302.regrabs + 1
+            t216.lockUid = pendingCarry.uid or (t216.heldUid or t216.lockUid)
+            t216.lockAt = os.clock()
+
+            if p445 then
+                t216.lockPos = p445.Position
+            end
+
+            v1102("steal", "dropped — re-grab", (tostring(t216.lockUid or "?")))
+
+            if t216.state ~= "GoEgg" then
+                v1102("steal", t216.state, "->", "GoEgg", "drop", t216.target and t216.target.name or "")
+                t216.state = "GoEgg"
+                t216.since = os.clock()
+            else
+                t216.state = "GoEgg"
+            end
+
+            v1231()
+        end
+    end
+    local function v1235(p446)
+        if not p446 or not p446.rec then
+            return nil, "no-target"
+        end
+        local Uid = p446.rec.Uid
+        if not Uid then
+            return nil, "no-uid"
+        end
+        local v2305
+        for _, v in ipairs((v1204())) do
+            if type(v) == "table" and Uid == v.Uid then
+                v2305 = v
+
+                break
+            end
+        end
+        if not v2305 then
+            for _, v in ipairs((v1204(true))) do
+                if type(v) == "table" and Uid == v.Uid then
+                    v2305 = v
+
+                    break
+                end
+            end
+        end
+        if not v2305 then
+            return nil, "gone"
+        end
+        if v1213(v2305, (v1209(v2305))) then
+            return nil, "plot"
+        end
+        p446.rec = v2305
+        p446.carrier = tonumber(v2305.CarrierUserId)
+        local State = v2305.State
+        if State == "Slot" or State == "Dropped" then
+            local v2311 = v1209(v2305)
+
+            if v2311 then
+                p446.pos = v2311
+            end
+
+            p446.carrier = nil
+
+            if not p446.pos then
+                return nil, "no-pos"
+            end
+
+            return p446
+        end
+        if State == "Carried" then
+            p446.pos = v1209(v2305) or p446.pos
+
+            return p446, "Carried"
+        end
+
+        return nil, (tostring(State or "bad-state"))
+    end
+    function t216.promptIsTarget(p447, p448, p449)
+        if not p447 or (not p447.Parent or not v1189(p447)) then
+            return false
+        end
+        if not p448 then
+            return false
+        end
+        local v2315 = tonumber(p449) or 5
+        local v2316 = p448.rec and (p448.rec.Uid and tostring(p448.rec.Uid))
+        if v2316 and v2316 ~= "" then
+            local u2317 = p447
+
+            for _ = 1, 6 do
+                if not u2317 then
+                    break
+                end
+                local u2319
+                pcall(function()
+                    for _, v in ipairs({
+						"Uid",
+						"EggUid",
+						"RecordUid",
+						"AssetUid",
+						"EggId"
+					}) do
+                        local v22 = u2317:GetAttribute(v)
+
+                        if v22 ~= nil and tostring(v22) == v2316 then
+                            u2319 = true
+
+                            return
+                        end
+                    end
+
+                    local str40 = tostring(u2317.Name or "")
+
+                    if str40 ~= "" and str40 ~= "CarryAreaEgg" and str40 ~= "SmartPromptPart" and str40 == v2316 then
+                        u2319 = true
+                    end
+                end)
+                if u2319 then
+                    return true
+                end
+                u2317 = u2317.Parent
+            end
+        end
+        if typeof(p448.pos) ~= "Vector3" then
+            return false
+        end
+        local p447Parent = p447.Parent
+        local p447ParentPosition
+        if p447Parent:IsA("BasePart") then
+            p447ParentPosition = p447Parent.Position
+        elseif p447Parent:IsA("Model") then
+            local ok87, result83 = pcall(function()
+                return p447Parent:GetPivot()
+            end)
+
+            p447ParentPosition = ok87 and (not not result83 and result83.Position) or nil
+        elseif p447Parent.Parent and p447Parent.Parent:IsA("BasePart") then
+            p447ParentPosition = p447Parent.Parent.Position
+        end
+        if typeof(p447ParentPosition) ~= "Vector3" then
+            return false
+        end
+
+        return v2315 >= Vector3.new(p447ParentPosition.X - p448.pos.X, 0, p447ParentPosition.Z - p448.pos.Z).Magnitude
+    end
+    function t216.muteHazards(p450)
+        t216.hazardSaved = t216.hazardSaved or {}
+
+        local function v2325(p451)
+            if not p451 or not p451:IsA("BasePart") then
+                return
+            end
+
+            if t216.hazardSaved[p451] == nil then
+                t216.hazardSaved[p451] = {
+					c = p451.CanCollide,
+					t = p451.CanTouch
+				}
+            end
+
+            if p451.CanCollide ~= false then
+                p451.CanCollide = false
+            end
+
+            if p451.CanTouch ~= false then
+                p451.CanTouch = false
+            end
+        end
+
+        if p450 then
+            local elapsed38 = os.clock()
+
+            if t216.hazardOn and elapsed38 - (t216.hazardAt or 0) < 2.4 then
+                return
+            end
+
+            t216.hazardOn = true
+            t216.hazardAt = elapsed38
+
+            local __OBJECTS = workspace:FindFirstChild("__OBJECTS")
+            local v2328 = __OBJECTS and __OBJECTS:FindFirstChild("Machines")
+            local v2329 = v2328 and v2328:FindFirstChild("FuseMachine")
+
+            if v2329 then
+                v2325(v2329)
+
+                for _, descendant in ipairs(v2329:GetDescendants()) do
+                    v2325(descendant)
+                end
+            end
+
+            if v2328 then
+                for _, descendant in ipairs(v2328:GetDescendants()) do
+                    if descendant:IsA("BasePart") and descendant.CanCollide == true then
+                        v2325(descendant)
+                    end
+                end
+            end
+
+            return
+        end
+
+        t216.hazardOn = false
+        t216.hazardAt = 0
+
+        for k, _ in pairs(t216.hazardSaved) do
+            if k.Parent then
+                local v2336 = t216.hazardSaved[k]
+
+                pcall(function()
+                    if type(v2336) == "table" then
+                        k.CanCollide = v2336.c == true
+                        k.CanTouch = v2336.t == true
+
+                        return
+                    end
+
+                    k.CanCollide = v2336 == true
+                end)
+            end
+        end
+
+        t216.hazardSaved = {}
+    end
+    function t216.allowTrain()
+        if t9.AutoTreadmill ~= true then
+            return false
+        end
+
+        if t9.AutoSteal == true and t216.running then
+            return false
+        end
+
+        if t9.TrainWhenIdle ~= true then
+            return false
+        end
+
+        return true
+    end
+    function t216.muteBelt(p452)
+        t216.beltSaved = t216.beltSaved or {}
+
+        local function v2338(p453)
+            if not p453 or not p453:IsA("BasePart") then
+                return false
+            end
+
+            local v4542 = string.lower(p453.Name)
+            local v4543 = p453.Parent and string.lower(p453.Parent.Name) or ""
+            local u4544 = v4542
+
+            pcall(function()
+                u4544 = string.lower(p453:GetFullName())
+            end)
+
+            if v4542 == "treadmillbottom" or v4542 == "bottom" and (v4543:find("treadmill", 1, true) or u4544:find("treadmill", 1, true)) then
+                return true
+            end
+
+            if (v4542:find("wear", 1, true) or (v4542:find("sensor", 1, true) or (v4542:find("trigger", 1, true) or (v4542:find("hitbox", 1, true) or (v4542:find("activate", 1, true) or (v4542:find("detector", 1, true) or v4543:find("wear", 1, true))))))) and (u4544:find("treadmill", 1, true) or u4544:find("belt", 1, true) or v4543:find("treadmill", 1, true)) then
+                return true
+            end
+
+            if p453.CanTouch == true and p453.Size.Y <= 6 and (v4542:find("treadmill", 1, true) or v4543:find("treadmill", 1, true) or u4544:find("clienttreadmill", 1, true)) then
+                return true
+            end
+
+            return false
+        end
+        local function v2339(p454)
+            local u4546 = t216.beltSaved[p454]
+
+            if type(u4546) ~= "table" then
+                u4546 = {
+					cf = p454.CFrame,
+					anchored = p454.Anchored,
+					t = p454.CanTouch,
+					c = p454.CanCollide
+				}
+                t216.beltSaved[p454] = u4546
+            end
+
+            pcall(function()
+                p454.Anchored = true
+                p454.CanTouch = false
+                p454.CFrame = u4546.cf * CFrame.new(0, -80, 0)
+            end)
+        end
+
+        if p452 then
+            t216.beltSunk = true
+
+            local elapsed39 = os.clock()
+
+            if not t216.beltOn or elapsed39 - (t216.beltAt or 0) >= 2.4 then
+                t216.beltOn = true
+                t216.beltAt = elapsed39
+                pcall(function()
+                    local _, _, v4549 = v1217()
+
+                    if v4549 then
+                        for _, descendant in ipairs(v4549:GetDescendants()) do
+                            if v2338(descendant) then
+                                v2339(descendant)
+                            end
+                        end
+                    end
+
+                    local __ClientTreadmillRenders = workspace:FindFirstChild("__ClientTreadmillRenders")
+
+                    if __ClientTreadmillRenders then
+                        for _, descendant in ipairs(__ClientTreadmillRenders:GetDescendants()) do
+                            if v2338(descendant) then
+                                v2339(descendant)
+                            end
+                        end
+                    end
+                end)
+            end
+
+            for k in pairs(t216.beltSaved) do
+                if k.Parent then
+                    v2339(k)
+                end
+            end
+
+            return
+        end
+
+        t216.beltSunk = false
+        t216.beltOn = false
+        t216.beltAt = 0
+
+        for k, v in pairs(t216.beltSaved) do
+            if k.Parent and type(v) == "table" then
+                pcall(function()
+                    k.CFrame = v.cf
+                    k.Anchored = v.anchored == true
+                    k.CanTouch = v.t == true
+                    k.CanCollide = v.c == true
+                end)
+            end
+        end
+
+        t216.beltSaved = {}
+    end
+    function t216.floorY()
+        local v2344 = select(1, u1219())
+
+        if typeof(v2344) == "Vector3" then
+            return v2344.Y
+        end
+
+        return 70
+    end
+    function t216.rescueVoid(p455, p456)
+        if not t9.AutoSteal or not t216.running then
+            return false
+        end
+
+        if not p455 then
+            return false
+        end
+
+        local v2347 = t216.floorY()
+
+        if p455.Position.Y >= v2347 - 8 then
+            return false
+        end
+
+        local elapsed40 = os.clock()
+
+        if elapsed40 - (t216.voidAt or 0) < 0.4 then
+            return true
+        end
+
+        t216.voidAt = elapsed40
+
+        local v2349 = select(1, u1219())
+
+        pcall(function()
+            p455.Anchored = false
+
+            if typeof(v2349) == "Vector3" and v2349.Y >= 58 then
+                p455.CFrame = CFrame.new(v2349.X, v2349.Y + 6, v2349.Z)
+            else
+                p455.CFrame = CFrame.new(0, 74, 0)
+            end
+
+            p455.AssemblyLinearVelocity = Vector3.zero
+            p455.AssemblyAngularVelocity = Vector3.zero
+
+            if p456 then
+                p456.Sit = false
+                p456.PlatformStand = u1130() == true
+            end
+        end)
+        u1127 = nil
+        v1102("steal", "void rescue")
+
+        return true
+    end
+    function t216.resetStuck(p457, p458)
+        local elapsed41 = os.clock()
+
+        if elapsed41 - (t216.unstuckAt or 0) < 2.5 then
+            return
+        end
+
+        t216.unstuckAt = elapsed41
+        t216.stillFor = 0
+
+        local v2353 = select(1, u1219())
+        local v2354 = t216.floorY()
+        local v2355 = type(v2354) == "number" and v2354 + 3 or p457.Position.Y
+        local u2356 = p457.Position.X + 6
+        local u2357 = v2355
+        local PositionZ = p457.Position.Z
+        local v2359 = t216.target and t216.target.pos
+
+        if typeof(v2359) ~= "Vector3" then
+            v2359 = t216.lockPos
+        end
+
+        if typeof(v2359) == "Vector3" then
+            local vector3 = Vector3.new(v2359.X - p457.Position.X, 0, v2359.Z - p457.Position.Z)
+
+            if vector3.Magnitude > 8 then
+                local Unit = vector3.Unit
+
+                u2356 = p457.Position.X + Unit.X * 16
+                PositionZ = p457.Position.Z + Unit.Z * 16
+            end
+        end
+
+        if t216.carrying or p457.Position.Y < (type(v2354) == "number" and v2354 - 4 or -1000000000) then
+            if typeof(v2353) == "Vector3" then
+                u2356 = v2353.X
+                u2357 = v2353.Y + 3
+                PositionZ = v2353.Z
+            else
+                u2357 = v2355
+            end
+        end
+
+        pcall(function()
+            p457.Anchored = false
+            p457.CFrame = CFrame.new(u2356, u2357, PositionZ)
+            p457.AssemblyLinearVelocity = Vector3.zero
+            p457.AssemblyAngularVelocity = Vector3.zero
+
+            if p458 then
+                p458.Sit = false
+                p458.PlatformStand = u1130() == true
+            end
+        end)
+        v1102("steal", "unstuck reset", t216.state or "")
+    end
+    function t216.liveCarry()
+        local v2362 = v1204()
+
+        if type(v2362) ~= "table" then
+            return false, nil
+        end
+
+        for i = 1, #v2362 do
+            local v2364 = v2362[i]
+
+            if type(v2364) == "table" and tonumber(v2364.CarrierUserId) == LocalPlayer.UserId then
+                return true, v2364.Uid
+            end
+        end
+
+        return false, nil
+    end
+    function t216.adoptCarry()
+        local v2365, v2366 = t216.liveCarry()
+
+        if v2365 then
+            t216.carrying = true
+
+            if v2366 then
+                t216.carryUid = v2366
+                t216.heldUid = v2366
+                t216.lockUid = v2366
+            end
+
+            local state = t216.state
+
+            if state == "Return" or state == "Bank" or state == "FeedGo" or state == "Feed" or state == "ChestGo" or state == "ChestOpen" then
+                return
+            end
+
+            local target = t216.target
+
+            if target and target.event then
+                t216.eventUid = t216.heldUid or (t216.carryUid or t216.eventUid)
+                t216.eventFromField = true
+
+                local eventUid = t216.eventUid
+
+                if eventUid and t216.findEventEggTool(eventUid) then
+                    if t216.state ~= "FeedGo" then
+                        v1102("steal", t216.state, "->", "FeedGo", "got infested", t216.target and t216.target.name or "")
+                        t216.feedDropped = false
+                        t216.feedPad = 5
+                        t216.state = "FeedGo"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "FeedGo"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Return" then
+                    v1102("steal", t216.state, "->", "Return", "got egg", t216.target and t216.target.name or "")
+                    t216.state = "Return"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Return"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if t216.state ~= "Return" then
+                v1102("steal", t216.state, "->", "Return", "got egg", t216.target and t216.target.name or "")
+                t216.state = "Return"
+                t216.since = os.clock()
+            else
+                t216.state = "Return"
+            end
+
+            v1231()
+
+            return
+        end
+
+        t216.carrying = false
+
+        local state = t216.state
+
+        if state == "Return" or state == "Bank" then
+            t216.lockAt = os.clock()
+
+            if t216.lockUid and typeof(t216.lockPos) == "Vector3" then
+                if t216.state ~= "GoEgg" then
+                    v1102("steal", t216.state, "->", "GoEgg", "empty return", t216.target and t216.target.name or "")
+                    t216.state = "GoEgg"
+                    t216.since = os.clock()
+                else
+                    t216.state = "GoEgg"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "empty return", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+
+            return
+        end
+
+        if state == "FeedGo" or state == "Feed" then
+            local v2371 = t216.eventUid or t216.heldUid
+
+            if t216.findEventEggTool and t216.findEventEggTool(v2371) then
+                return
+            end
+
+            if t216.lookWhy == "need infested" or t216.lookWhy == "equip infested" or t216.lookWhy == "pocket infested" then
+                return
+            end
+
+            if t216.lockUid and typeof(t216.lockPos) == "Vector3" then
+                if t216.state ~= "GoEgg" then
+                    v1102("steal", t216.state, "->", "GoEgg", "empty monster", t216.target and t216.target.name or "")
+                    t216.state = "GoEgg"
+                    t216.since = os.clock()
+                else
+                    t216.state = "GoEgg"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "empty monster", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+        end
+    end
+    local function v1236(p459)
+        if t216.carrying then
+            return
+        end
+
+        local elapsed42 = os.clock()
+
+        if elapsed42 - t216.lastGrab < 0.03 then
+            return
+        end
+
+        t216.lastGrab = elapsed42
+
+        local v2374 = p459 and p459.rec
+        local v2375 = v2374 and v2374.Uid
+
+        if v2375 then
+            t216.heldUid = v2375
+            t216.lockUid = v2375
+            t216.lockAt = os.clock()
+
+            if p459 then
+                t216.keepHook(p459)
+            end
+
+            if typeof(p459.pos) == "Vector3" then
+                t216.lockPos = p459.pos
+            end
+
+            if u1103 and type(u1103.CarryFieldEgg) == "function" then
+                local v2376 = v2374.FirstAreaSlotKey or (v2374.AreaId or v2374.SlotKey)
+
+                pcall(u1103.CarryFieldEgg, v2375, v2376)
+            end
+        end
+
+        local v2377 = v1191()
+        local Character20 = LocalPlayer.Character
+        local v2379
+
+        if not Character20 then
+            v2379 = nil
+        else
+            local Humanoid = Character20:FindFirstChildOfClass("Humanoid")
+            local HumanoidRootPart = Character20:FindFirstChild("HumanoidRootPart")
+
+            v2379 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+        end
+
+        local v2382 = false
+
+        if v2379 and typeof(p459.pos) == "Vector3" then
+            v2382 = Vector3.new(v2379.Position.X - p459.pos.X, 0, v2379.Position.Z - p459.pos.Z).Magnitude <= 7
+        end
+
+        if v2382 and t216.promptIsTarget(v2377, p459, 5) then
+            v1190(v2377)
+        end
+    end
+    function t216.pickSatchelEvent()
+        if not u1103 or type(u1103.ReadOwnerEggs) ~= "function" then
+            return
+        end
+        local u2383
+        pcall(function()
+            u2383 = u1103.ReadOwnerEggs(LocalPlayer.UserId)
+        end)
+        if type(u2383) ~= "table" then
+            return
+        end
+        local v2384 = v1194(t9.EventKeepGen)
+        local t304
+        local v2386
+        for k, v in pairs(u2383) do
+            if type(v) == "table" and v.HasParasite == true and v.Placement == nil then
+                local v2389 = v.Uid or k
+
+                if not t216.eventSkip or not t216.eventSkip[v2389] then
+                    local AssetCategory = v.AssetCategory
+                    local v2391 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+                    local v2392 = v1193(v, v2391)
+
+                    if not (v2384 > 0) or not (v2384 <= v2392) then
+                        if t216.findEventEggTool(v2389) then
+                            if not t304 or v2392 < t304.earn then
+                                t304 = {
+									uid = v2389,
+									earn = v2392,
+									name = v2391 and (v2391.DisplayName or v.AssetCategory) or tostring(v.AssetCategory)
+								}
+                            end
+                        else
+                            v2386 = v2386 or v2389
+                        end
+                    end
+                end
+            end
+        end
+        if not t304 and v2386 then
+            t216.wearEventEgg(v2386)
+        end
+
+        return t304
+    end
+    function t216.monsterStand()
+        local MonsterParasiteMonsters = workspace:FindFirstChild("MonsterParasiteMonsters")
+        if not MonsterParasiteMonsters then
+            return
+        end
+        local v2394
+        for _, child in ipairs(MonsterParasiteMonsters:GetChildren()) do
+            if child:GetAttribute("OwnerUserId") == LocalPlayer.UserId then
+                v2394 = child
+
+                break
+            end
+        end
+        local v2397 = v2394 or MonsterParasiteMonsters:FindFirstChildWhichIsA("Model")
+        if not v2397 then
+            return
+        end
+        local v2398 = v2397:FindFirstChild("RootPart") or v2397.PrimaryPart
+        if not v2398 or not v2398:IsA("BasePart") then
+            return
+        end
+        local vector3 = Vector3.new(v2398.CFrame.LookVector.X, 0, v2398.CFrame.LookVector.Z)
+        local v2400 = if not (vector3.Magnitude < 0.05) then vector3.Unit else Vector3.new(0, 0, -1)
+        local v2401 = tonumber(t216.feedPad) or 5
+        if v2401 < 1.2 then
+            v2401 = 1.2
+        end
+        local v2402 = v2398.Position + v2400 * v2401
+        local v2403 = v2398.Position.Y + 2
+        if type(u1130) ~= "function" or not u1130() then
+            local v2404 = v1147(Vector3.new(v2402.X, v2398.Position.Y + 8, v2402.Z))
+
+            v2403 = if type(v2404) ~= "number" or not (v2404 < v2398.Position.Y + 10) then v2398.Position.Y + 3 else v2404 + 3
+        end
+        local v2405 = v2398:FindFirstChild("FeedPrompt") or v2397:FindFirstChild("FeedPrompt", true)
+
+        return Vector3.new(v2402.X, v2403, v2402.Z), v2397, v2405, v2398
+    end
+    function t216.eventToolUid()
+        local Character21 = LocalPlayer.Character
+        local v2407 = Character21 and Character21:FindFirstChildWhichIsA("Tool")
+
+        if not v2407 or v2407:GetAttribute("ItemType") ~= "AssetEgg" then
+            return
+        end
+
+        local v2408 = v2407:GetAttribute("UID") or v2407:GetAttribute("Uid")
+
+        if type(v2408) == "string" and v2408 ~= "" then
+            return v2408, v2407
+        end
+    end
+    function t216.findEventEggTool(p460)
+        local u2410 = type(p460) == "string" and (p460 ~= "" and p460) or nil
+        local function v2411(p461)
+            if not p461 then
+                return
+            end
+
+            for _, child in ipairs(p461:GetChildren()) do
+                if not child:IsA("Tool") or child:GetAttribute("ItemType") ~= "AssetEgg" then
+                    continue
+                end
+
+                local v4558 = child:GetAttribute("UID") or child:GetAttribute("Uid")
+
+                if type(v4558) == "string" and v4558 ~= "" then
+                    if u2410 then
+                        if v4558 ~= u2410 then
+                            continue
+                        end
+
+                        return child, v4558
+                    end
+
+                    if child:GetAttribute("HasParasite") ~= true then
+                        continue
+                    end
+
+                    return child, v4558
+                end
+            end
+        end
+        local v2412, v2413 = v2411(LocalPlayer.Character)
+        if v2412 then
+            return v2412, v2413
+        end
+        local v2414, v2415 = v2411(LocalPlayer:FindFirstChild("Backpack"))
+        if v2414 then
+            return v2414, v2415
+        end
+        if u2410 then
+            return
+        end
+        local u2416
+        pcall(function()
+            u2416 = u1103 and u1103.ReadOwnerEggs(LocalPlayer.UserId)
+        end)
+        if type(u2416) ~= "table" then
+            return
+        end
+        local function v2417(p462)
+            if not p462 then
+                return
+            end
+
+            for _, child in ipairs(p462:GetChildren()) do
+                if not child:IsA("Tool") or child:GetAttribute("ItemType") ~= "AssetEgg" then
+                    continue
+                end
+
+                local v4562 = child:GetAttribute("UID") or child:GetAttribute("Uid")
+                local v4563 = type(v4562) == "string" and (u2416[v4562] or u2416[tostring(v4562)])
+
+                if type(v4563) ~= "table" then
+                    for k, v in pairs(u2416) do
+                        if type(v) == "table" and (v4562 == v.Uid or k == v4562) then
+                            v4563 = v
+
+                            break
+                        end
+                    end
+                end
+
+                if type(v4563) == "table" and v4563.HasParasite == true and v4563.Placement == nil then
+                    return child, v4562
+                end
+            end
+        end
+
+        return v2417(LocalPlayer.Character) or v2417(LocalPlayer:FindFirstChild("Backpack"))
+    end
+    function t216.wearEventEgg(p463)
+        local str41 = tostring(p463 or "")
+
+        if str41 == "" then
+            return false
+        end
+
+        if t216.eventToolUid() == str41 then
+            return true
+        end
+
+        local elapsed43 = os.clock()
+
+        if elapsed43 - (t216.lastWear or 0) < 0.4 then
+            return false
+        end
+
+        t216.lastWear = elapsed43
+
+        local v2421 = select(1, v1112())
+
+        local function v2422(p464)
+            if not p464 then
+                return
+            end
+
+            for _, child in ipairs(p464:GetChildren()) do
+                if child:IsA("Tool") and (child:GetAttribute("UID") or child:GetAttribute("Uid")) == str41 then
+                    return child
+                end
+            end
+        end
+
+        local u2423 = v2422(LocalPlayer.Character) or v2422(LocalPlayer:FindFirstChild("Backpack"))
+
+        if u2423 and u2423:GetAttribute("ItemType") ~= "AssetEgg" then
+            u2423 = nil
+        end
+
+        if u2423 and v2421 and u2423.Parent ~= LocalPlayer.Character then
+            pcall(function()
+                v2421:EquipTool(u2423)
+            end)
+        end
+
+        if u1103 and type(u1103.WearEggTool) == "function" then
+            pcall(u1103.WearEggTool, str41)
+        end
+
+        return t216.eventToolUid() == str41
+    end
+    function t216.mpInvoke(p465, ...)
+        local v2425 = v1168({ "Remotes" })
+        local v2426 = v2425 and (v2425.MonsterParasite and v2425.MonsterParasite[p465])
+
+        if v2426 == nil then
+            return false, "no remote"
+        end
+
+        local v2427 = v1170(v2426) or (typeof(v2426) == "Instance" and v2426 or v2426)
+        local v2428 = (type(v2427) == "table" or typeof(v2427) == "Instance") and v2427.InvokeServer
+
+        if type(v2428) ~= "function" then
+            return false, "no invoke"
+        end
+
+        local ok88, result84
+
+        if select("#", ...) <= 0 then
+            ok88, result84 = pcall(v2428, v2427)
+        else
+            ok88, result84 = pcall(v2428, v2427, (...))
+        end
+
+        if not ok88 then
+            return false, (tostring(result84))
+        end
+
+        if type(result84) == "table" then
+            return result84.Success == true, tostring(result84.Message or ""), result84
+        end
+
+        return result84 == true, tostring(result84), result84
+    end
+    function t216.feedWaitMsg(p466, p467)
+        local v2433 = string.lower((tostring(p466 or "")))
+
+        if type(p467) == "table" then
+            v2433 ..= " " .. string.lower((tostring(p467.Message or "")))
+        end
+
+        return v2433:find("wait", 1, true) ~= nil or v2433:find("cooldown", 1, true) ~= nil
+    end
+    function t216.askFeed(p468)
+        if type(p468) ~= "string" or p468 == "" then
+            return false, "no egg"
+        end
+
+        if p468 ~= t216.eventToolUid() then
+            t216.wearEventEgg(p468)
+        end
+
+        if p468 ~= t216.eventToolUid() then
+            return false, "no egg"
+        end
+
+        local v2435, v2436, v2437 = t216.mpInvoke("AskFeed")
+
+        t216.lastFeedRes = v2437
+
+        return v2435, v2436, v2437
+    end
+    function t216.isChestTool(p469)
+        if not p469 or not p469:IsA("Tool") then
+            return false
+        end
+
+        if p469:GetAttribute("ItemType") == "MonsterChest" then
+            return true
+        end
+
+        return p469.Name == "Monster Chest"
+    end
+    function t216.findChestTool()
+        local function v2439(p470)
+            if not p470 then
+                return
+            end
+
+            for _, child in ipairs(p470:GetChildren()) do
+                if t216.isChestTool(child) then
+                    return child
+                end
+            end
+        end
+
+        return v2439(LocalPlayer.Character) or v2439(LocalPlayer:FindFirstChild("Backpack"))
+    end
+    function t216.worldChest()
+        for _, child in ipairs(workspace:GetChildren()) do
+            if child.Name ~= "MonsterChest" or not child:IsA("Model") then
+                continue
+            end
+
+            local v2442, v2443, v2444
+
+            if not child or not child.Parent then
+                v2442 = nil
+                v2443 = nil
+                v2444 = nil
+            else
+                local v2445 = child.PrimaryPart or child:FindFirstChildWhichIsA("BasePart", true)
+
+                v2444 = child:FindFirstChild("ChestPrompt", true)
+
+                if v2445 then
+                    v2442 = v2445.Position
+                    v2443 = child
+                else
+                    v2442 = nil
+                    v2443 = nil
+                    v2444 = nil
+                end
+            end
+
+            if v2442 then
+                return v2442, v2443, v2444
+            end
+        end
+
+        local MonsterParasiteMonsters = workspace:FindFirstChild("MonsterParasiteMonsters")
+
+        if MonsterParasiteMonsters then
+            for _, child in ipairs(MonsterParasiteMonsters:GetChildren()) do
+                if child.Name ~= "MonsterChest" then
+                    continue
+                end
+
+                local v2449, v2450, v2451
+
+                if not child or not child.Parent then
+                    v2449 = nil
+                    v2450 = nil
+                    v2451 = nil
+                else
+                    local v2452 = child.PrimaryPart or child:FindFirstChildWhichIsA("BasePart", true)
+
+                    v2451 = child:FindFirstChild("ChestPrompt", true)
+
+                    if v2452 then
+                        v2449 = v2452.Position
+                        v2450 = child
+                    else
+                        v2449 = nil
+                        v2450 = nil
+                        v2451 = nil
+                    end
+                end
+
+                if v2449 then
+                    return v2449, v2450, v2451
+                end
+            end
+        end
+    end
+    function t216.equipChest()
+        local v2453 = t216.findChestTool()
+
+        if not v2453 then
+            return false
+        end
+
+        if v2453.Parent == LocalPlayer.Character then
+            return true
+        end
+
+        local v2454 = select(1, v1112())
+
+        if v2454 then
+            pcall(function()
+                v2454:EquipTool(v2453)
+            end)
+        end
+
+        return t216.findChestTool() and t216.findChestTool().Parent == LocalPlayer.Character
+    end
+    function t216.noChestMsg(p471, p472)
+        local v2457 = string.lower((tostring(p471 or "")))
+
+        if type(p472) == "table" then
+            v2457 ..= " " .. string.lower((tostring(p472.Message or "")))
+        end
+
+        return v2457:find("chest", 1, true) ~= nil and (v2457:find("no", 1, true) ~= nil or (v2457:find("don't", 1, true) ~= nil or (v2457:find("dont", 1, true) ~= nil or (v2457:find("any", 1, true) ~= nil or v2457:find("have", 1, true) ~= nil)))) or v2457:find("no chest", 1, true) ~= nil
+    end
+    function t216.openChest()
+        local v2458 = t216.findChestTool()
+
+        if not v2458 then
+            return false, "no chest"
+        end
+
+        pcall(function()
+            v2458:Activate()
+        end)
+
+        local guid = HttpService:GenerateGUID(false)
+        local v2460, v2461, v2462 = t216.mpInvoke("AskChestClaim", guid)
+
+        if v2460 and type(v2462) == "table" and type(v2462.OpeningId) == "string" then
+            t216.mpInvoke("AskChestRevealComplete", v2462.OpeningId)
+
+            return true, v2461
+        end
+
+        if v2460 then
+            return true, v2461
+        end
+
+        return false, v2461
+    end
+    function t216.runEvent(p473, p474)
+        if t216.state ~= "FeedGo" and (t216.state ~= "Feed" and t216.state ~= "ChestGo" and t216.state ~= "ChestOpen") then
+            return false
+        end
+
+        u1128 = true
+
+        local v2465, _, _, v2468 = t216.monsterStand()
+        local v2469, _, _ = t216.worldChest()
+
+        if t216.state == "ChestGo" or t216.state == "ChestOpen" then
+            local v2472 = typeof(v2469) == "Vector3" and v2469 or v2465
+
+            if typeof(v2472) == "Vector3" then
+                u1127 = v1225(v2472, p473.Position, true)
+            end
+
+            if t216.state == "ChestGo" then
+                if t216.findChestTool() then
+                    t216.chestAsked = false
+                    t216.chestClaimed = false
+
+                    if t216.state ~= "ChestOpen" then
+                        v1102("steal", t216.state, "->", "ChestOpen", "got chest", t216.target and t216.target.name or "")
+                        t216.chestClaimed = false
+                        t216.state = "ChestOpen"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "ChestOpen"
+                    end
+
+                    v1231()
+
+                    return true
+                end
+
+                if typeof(v2469) ~= "Vector3" then
+                    if p474 > 10 then
+                        t216.chestSkip = true
+
+                        if t216.state ~= "Scan" then
+                            v1102("steal", t216.state, "->", "Scan", "no world chest", t216.target and t216.target.name or "")
+                            t216.state = "Scan"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "Scan"
+                        end
+
+                        v1231()
+                        u1127 = nil
+                    end
+
+                    return true
+                end
+
+                if not t216.chestAsked then
+                    t216.chestAsked = true
+                    t216.lastChestTake = os.clock()
+
+                    local v2473, v2474, v2475 = t216.mpInvoke("AskChestTake")
+
+                    if t216.findChestTool() then
+                        t216.chestClaimed = false
+
+                        if t216.state ~= "ChestOpen" then
+                            v1102("steal", t216.state, "->", "ChestOpen", "got chest", t216.target and t216.target.name or "")
+                            t216.chestClaimed = false
+                            t216.state = "ChestOpen"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "ChestOpen"
+                        end
+
+                        v1231()
+
+                        return true
+                    end
+
+                    if not v2473 or t216.noChestMsg(v2474, v2475) then
+                        t216.chestSkip = true
+                        v1102("steal", "no chest", (tostring(v2474)))
+
+                        if t216.state ~= "Scan" then
+                            v1102("steal", t216.state, "->", "Scan", "no chest", t216.target and t216.target.name or "")
+                            t216.state = "Scan"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "Scan"
+                        end
+
+                        v1231()
+                        u1127 = nil
+
+                        return true
+                    end
+                end
+
+                if p474 > 12 then
+                    t216.chestSkip = true
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "chest pickup timeout", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                    u1127 = nil
+                end
+
+                return true
+            end
+
+            if not t216.findChestTool() then
+                t216.chestSkip = true
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no chest", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+                u1127 = nil
+
+                return true
+            end
+
+            t216.equipChest()
+
+            if not t216.chestClaimed then
+                t216.chestClaimed = true
+
+                local v2476, v2477 = t216.openChest()
+
+                if v2476 then
+                    t216.chests = (t216.chests or 0) + 1
+                    t216.chestSkip = false
+                    v1102("steal", "opened monster chest", v2477 or "")
+                    t216.eventUid = nil
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "chest opened", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                    u1127 = nil
+
+                    return true
+                end
+
+                t216.chestSkip = true
+                v1102("steal", "chest open fail", (tostring(v2477)))
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "chest open fail", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+                u1127 = nil
+
+                return true
+            end
+
+            if p474 > 8 then
+                t216.chestSkip = true
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "chest open timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+                u1127 = nil
+            end
+
+            return true
+        end
+
+        if typeof(v2465) ~= "Vector3" then
+            t216.lookWhy = "no monster"
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "no monster", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+            u1127 = nil
+
+            return true
+        end
+
+        local v2478 = t216.eventUid or (t216.heldUid or t216.carryUid)
+        local v2479, v2480 = t216.findEventEggTool(v2478)
+
+        if v2480 then
+            v2478 = v2480
+            t216.eventUid = v2480
+        end
+
+        if t216.state == "FeedGo" then
+            local v2481 = v2468 and (not not v2468:IsA("BasePart") and v2468.Position) or v2465
+            local vector3 = Vector3.new(p473.Position.X - v2481.X, 0, p473.Position.Z - v2481.Z)
+
+            if not v2479 then
+                if v2478 then
+                    t216.wearEventEgg(v2478)
+                end
+
+                t216.lookWhy = "need infested"
+                u1127 = v1225(v2465, p473.Position, true)
+
+                if p474 > 10 then
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "no infested tool", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                    u1127 = nil
+                else
+                    v1231()
+                end
+
+                return true
+            end
+
+            if v2478 ~= t216.eventToolUid() then
+                t216.wearEventEgg(v2478)
+            end
+
+            u1127 = v1225(v2465, p473.Position, true)
+
+            if vector3.Magnitude < 8 then
+                if v2478 == t216.eventToolUid() then
+                    if t216.state ~= "Feed" then
+                        v1102("steal", t216.state, "->", "Feed", "at monster", t216.target and t216.target.name or "")
+                        t216.state = "Feed"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Feed"
+                    end
+
+                    v1231()
+                else
+                    t216.lookWhy = "equip infested"
+                    t216.wearEventEgg(v2478)
+                    v1231()
+                end
+            elseif p474 > 36 then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "monster timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+                u1127 = nil
+            end
+
+            return true
+        end
+
+        if not v2479 or v2478 ~= t216.eventToolUid() then
+            if v2478 then
+                t216.wearEventEgg(v2478)
+            end
+
+            t216.lookWhy = "equip infested"
+
+            if p474 > 8 then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no infested tool", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+                u1127 = nil
+            else
+                v1231()
+            end
+
+            return true
+        end
+
+        u1127 = v1225(v2465, p473.Position, true)
+
+        local v2483 = v2468 and (not not v2468:IsA("BasePart") and v2468.Position) or v2465
+
+        if Vector3.new(p473.Position.X - v2483.X, 0, p473.Position.Z - v2483.Z).Magnitude > 7 then
+            t216.lookWhy = "getting closer"
+            v1231()
+
+            return true
+        end
+
+        local elapsed44 = os.clock()
+
+        if elapsed44 < (t216.feedLockUntil or 0) then
+            t216.lookWhy = "feed wait"
+            v1231()
+
+            return true
+        end
+
+        if elapsed44 - (t216.lastFeed or 0) >= 1.6 then
+            t216.lastFeed = elapsed44
+            t216.feedLockUntil = elapsed44 + 1.6
+
+            local v2485, v2486, v2487 = t216.askFeed(v2478)
+
+            if v2485 then
+                local v2488 = t216
+
+                v2488.fed = v2488.fed + 1
+                t216.feedWasWait = false
+                t216.feedLockUntil = elapsed44 + 2.2
+
+                if t216.eventFromField then
+                    v1232("fed monster")
+                end
+
+                t216.eventUid = nil
+                t216.eventFromField = false
+                t216.target = nil
+                t216.lockUid = nil
+
+                local v2489 = type(v2487) == "table" and tonumber(v2487.Charge) or 0
+                local v2490 = type(v2487) == "table" and tonumber(v2487.PendingChests) or 0
+
+                v1102("steal", "fed monster", v2486 or "", "charge", v2489, "pending", v2490)
+
+                if t216.findChestTool() then
+                    if t216.state ~= "ChestOpen" then
+                        v1102("steal", t216.state, "->", "ChestOpen", "got chest", t216.target and t216.target.name or "")
+                        t216.chestClaimed = false
+                        t216.state = "ChestOpen"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "ChestOpen"
+                    end
+
+                    v1231()
+                elseif t216.worldChest() then
+                    if t216.state ~= "ChestGo" then
+                        v1102("steal", t216.state, "->", "ChestGo", "chest", t216.target and t216.target.name or "")
+                        t216.chestAsked = false
+                        t216.state = "ChestGo"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "ChestGo"
+                    end
+
+                    v1231()
+                else
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "fed", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                    u1127 = nil
+                end
+
+                return true
+            end
+
+            t216.feedWasWait = t216.feedWaitMsg(v2486, v2487)
+
+            if t216.feedWasWait then
+                t216.feedLockUntil = elapsed44 + 2.8
+                t216.lookWhy = "feed wait"
+                v1102("steal", "feed cooldown", (tostring(v2486)))
+            else
+                t216.feedLockUntil = elapsed44 + 1.6
+                v1102("steal", "feed fail", (tostring(v2486)))
+
+                if type(v2486) == "string" and string.find(string.lower(v2486), "closer", 1, true) then
+                    t216.feedPad = math.max(1.4, (tonumber(t216.feedPad) or 5) - 1.6)
+                end
+            end
+        end
+
+        if p474 > 28 then
+            if v2478 and not t216.feedWasWait then
+                t216.eventSkip[v2478] = true
+            end
+
+            local v2491 = not t216.feedWasWait and "feed timeout" or "feed wait"
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", v2491 or "", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+            u1127 = nil
+        end
+
+        return true
+    end
+    function u1132(p475)
+        if not u1117 or not t9.AutoSteal then
+            return
+        end
+
+        local v2493 = tonumber(p475) or (n7 or 0.016)
+
+        v1158("tick")
+        t216.muteHazards(true)
+
+        if t216.muteBelt then
+            t216.muteBelt(t216.allowTrain() ~= true)
+        end
+
+        local v2494 = v1228()
+        local AreaEggCycleNightSeconds = workspace:GetAttribute("AreaEggCycleNightSeconds")
+
+        if type(AreaEggCycleNightSeconds) ~= "number" then
+            AreaEggCycleNightSeconds = 10
+        end
+
+        local v2496 = v2494 <= math.clamp(AreaEggCycleNightSeconds, 1, 300)
+
+        if v2496 then
+            local v2497 = t216.state == "Return" or (t216.state == "Bank" or (t216.state == "FeedGo" or (t216.state == "Feed" or (t216.state == "ChestGo" or t216.state == "ChestOpen"))))
+            local v2498 = t216.state == "Safe"
+
+            if not v2497 and not v2498 then
+                u1127 = nil
+                u1128 = false
+                t216.target = nil
+
+                if t216.state ~= "Night" then
+                    if t216.state ~= "Night" then
+                        v1102("steal", t216.state, "->", "Night", "paused until day", t216.target and t216.target.name or "")
+                        t216.state = "Night"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Night"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                local ok89, result85 = pcall(v1228)
+                local v2501 = (not ok89 or type(result85) ~= "number") and 0 or math.max(0, math.floor(result85 + 0.5))
+
+                if v2501 ~= t216.nightLeft then
+                    t216.nightLeft = v2501
+                    v1231()
+                end
+
+                return
+            end
+        elseif t216.state == "Night" then
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "day", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+        end
+
+        local Character22 = LocalPlayer.Character
+        local v2503, v2504
+
+        if not Character22 then
+            v2503 = nil
+            v2504 = nil
+        else
+            v2503 = Character22:FindFirstChildOfClass("Humanoid")
+            v2504 = Character22:FindFirstChild("HumanoidRootPart")
+
+            if not v2503 or not v2504 or v2503.Health <= 0 then
+                v2503 = nil
+                v2504 = nil
+            end
+        end
+
+        local v2505 = v2503
+
+        v1234(v2504)
+        t216.adoptCarry()
+
+        if not v2504 then
+            u1127 = nil
+
+            return
+        end
+
+        if t216.rescueVoid(v2504, v2505) then
+            return
+        end
+
+        if t216.state == "Safe" then
+            u1128 = true
+            pcall(v1158, "safe")
+            pcall(u1131)
+
+            if t216.target and v2504 and (v1227(v2504) or not v1218(v2504.Position)) then
+                local v2506 = v1221(v2504.Position)
+
+                if v1227(v2504) or not v2506 or not v1222(v2506, v2504.Position, 18) then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "skip pad", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+
+            local v2507, v2508 = v1226(v2504.Position)
+
+            if typeof(v2508) ~= "Vector3" then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no safe zone", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            u1127 = v2507
+
+            if Vector3.new(v2504.Position.X - v2508.X, 0, v2504.Position.Z - v2508.Z).Magnitude < 16 then
+                if v2496 then
+                    if t216.state ~= "Night" then
+                        v1102("steal", t216.state, "->", "Night", "at safe zone", t216.target and t216.target.name or "")
+                        t216.state = "Night"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Night"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.target then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "from pad", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "at safe zone", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if os.clock() - t216.since > 14 then
+                if t216.target then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "safe timeout", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "safe timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if u1127 then
+            local Position6 = v2504.Position
+
+            if t216.lastPos and (Position6 - t216.lastPos).Magnitude < 1.2 then
+                local v2510 = t216
+
+                v2510.stillFor = v2510.stillFor + v2493
+            else
+                t216.stillFor = 0
+            end
+
+            t216.lastPos = Position6
+
+            if t216.stillFor > 0.85 then
+                v1158("stuck")
+                pcall(u1131)
+
+                if not u1130() then
+                    pcall(function()
+                        v2505.Jump = true
+                        v2505.AutoJumpEnabled = true
+                    end)
+                end
+            end
+
+            if t216.stillFor > 2.6 then
+                local state = t216.state
+
+                if state ~= "Feed" and state ~= "FeedGo" and state ~= "ChestGo" and state ~= "ChestOpen" then
+                    t216.resetStuck(v2504, v2505)
+                else
+                    t216.stillFor = 0
+                end
+
+                if t216.state == "GoEgg" and not t216.carrying and not t216.lockUid then
+                    v1102("steal", "stuck, rescan")
+                    t216.target = nil
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "stuck", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+        else
+            t216.stillFor = 0
+            t216.lastPos = v2504.Position
+        end
+
+        if u1127 and not u1116 then
+            local vector3 = Vector3.new(u1127.X - v2504.Position.X, 0, u1127.Z - v2504.Position.Z)
+
+            pcall(function()
+                v2505.PlatformStand = false
+                v2505.Sit = false
+                v2505.AutoRotate = true
+
+                if u1128 and typeof(u1127) == "Vector3" then
+                    local v4575 = tonumber(t9.StealSpeed) or 16
+
+                    v2505.WalkSpeed = math.clamp(v4575, 16, 1300)
+                else
+                    v2505.WalkSpeed = n9
+                end
+
+                if vector3.Magnitude > 1.2 then
+                    v2505:Move(vector3.Unit, false)
+
+                    return
+                end
+
+                v2505:Move(Vector3.zero, false)
+            end)
+        end
+
+        local elapsed45 = os.clock()
+        local v2514 = elapsed45 - t216.since
+
+        if t216.runEvent(v2504, v2514) then
+            return
+        end
+
+        if not t216.carrying then
+            local v2515 = t216.eggResetAt or 0
+            local v2516 = false
+
+            if v2515 > 0 then
+                local v2517 = elapsed45 - v2515
+
+                v2516 = v2517 < 3.25 or (t216.eggResetGrew or 0) > 0 and (elapsed45 - t216.eggResetGrew < 0.55 and v2517 < 5)
+
+                if not v2516 then
+                    t216.eggResetAt = 0
+                end
+            end
+
+            local v2518 = t216.wallUp()
+
+            if (v2516 or v2518) and not t216.heldUid then
+                local state = t216.state
+
+                if state == "Idle" or state == "Scan" or state == "GoEgg" or state == "Grab" or state == "Chase" then
+                    t216.target = nil
+                    t216.lockUid = nil
+                    t216.lockPos = nil
+                    u1127 = nil
+                    u1128 = false
+
+                    local v2520 = not v2516 and "waiting barrier" or "eggs refreshing"
+
+                    t216.lookWhy = v2520
+
+                    if state ~= "Scan" then
+                        if t216.state ~= "Scan" then
+                            v1102("steal", t216.state, "->", "Scan", v2520 or "", t216.target and t216.target.name or "")
+                            t216.state = "Scan"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "Scan"
+                        end
+
+                        v1231()
+
+                        return
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+        end
+
+        if t216.state == "Idle" or t216.state == "Scan" then
+            if t9.AutoEvent and not t216.chestSkip then
+                if t216.findChestTool() then
+                    u1128 = true
+
+                    if t216.state ~= "ChestOpen" then
+                        v1102("steal", t216.state, "->", "ChestOpen", "chest in bag", t216.target and t216.target.name or "")
+                        t216.chestClaimed = false
+                        t216.state = "ChestOpen"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "ChestOpen"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.worldChest() then
+                    u1128 = true
+
+                    if t216.state ~= "ChestGo" then
+                        v1102("steal", t216.state, "->", "ChestGo", "world chest", t216.target and t216.target.name or "")
+                        t216.chestAsked = false
+                        t216.state = "ChestGo"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "ChestGo"
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+
+            local v2521 = v1216()
+
+            if v2521 and v2521.matched then
+                u1128 = true
+                v1233(v2521, v2521.area or "egg")
+
+                return
+            end
+
+            local v2522 = os.clock() >= (t216.feedLockUntil or 0)
+
+            if t9.AutoEvent then
+                local v2523 = v2522 and t216.pickSatchelEvent()
+
+                if v2523 then
+                    t216.eventUid = v2523.uid
+                    t216.eventFromField = false
+                    u1128 = true
+
+                    if t216.state ~= "FeedGo" then
+                        v1102("steal", t216.state, "->", "FeedGo", "satchel infested", t216.target and t216.target.name or "")
+                        t216.feedDropped = false
+                        t216.feedPad = 5
+                        t216.state = "FeedGo"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "FeedGo"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if v2522 and v2521 and v2521.event then
+                    u1128 = true
+                    v1233(v2521, "event")
+
+                    return
+                end
+            elseif v2521 and v2521.matched then
+                u1128 = true
+                v1233(v2521, v2521.area)
+
+                return
+            end
+
+            t216.target = nil
+            t216.lockUid = nil
+            t216.lockPos = nil
+
+            if not u1135 or not u1135.driving or not u1135.driving() then
+                u1128 = false
+                u1127 = nil
+            end
+
+            local v2524 = v1204()
+            local v2525 = type(v2524) == "table" and #v2524 or 0
+            local n65 = 0
+            local n66 = 0
+
+            if type(v2524) == "table" then
+                for i = 1, v2525 do
+                    local v2529 = v2524[i]
+
+                    if type(v2529) == "table" then
+                        local State = v2529.State
+                        local num = tonumber(v2529.CarrierUserId)
+
+                        if (State == "Slot" or State == "Dropped") and ((not num or num == 0 or num == LocalPlayer.UserId) and not v1213(v2529)) then
+                            n65 += 1
+
+                            local AssetCategory = v2529.AssetCategory
+                            local v2533 = if not not Directory and AssetCategory then Directory[AssetCategory] else nil
+
+                            if v1215(v2529, v2533) then
+                                local v2535
+
+                                if (t9.StealMode or "Best value") == "Gen ($/s) snipe" then
+                                    local v2534 = v1194(t9.GenSnipeFloor)
+
+                                    v2535 = not (v2534 > 0) or not (v2534 > v1193(v2529, v2533))
+                                else
+                                    v2535 = true
+                                end
+
+                                if v2535 then
+                                    n66 += 1
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+
+            if not v2522 and t9.AutoEvent then
+                t216.lookWhy = "feed wait"
+            elseif v2525 == 0 then
+                t216.lookWhy = "map empty"
+            elseif n65 == 0 then
+                t216.lookWhy = "nests empty"
+            elseif n66 == 0 then
+                t216.lookWhy = "no match"
+            else
+                t216.lookWhy = tostring(n66) .. " open"
+            end
+
+            if t216.state ~= "Scan" then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no target", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            v1231()
+
+            return
+        end
+
+        if t216.state == "GoEgg" then
+            local target = t216.target
+
+            if not target then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "lost target", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            pcall(v1158, "goegg")
+            pcall(u1131)
+
+            local v2537, v2538 = v1235(target)
+
+            if v2538 == "plot" then
+                t216.target = nil
+                t216.lockUid = nil
+                t216.lockPos = nil
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "plot egg", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if v2538 == "Carried" then
+                if tonumber(target.carrier or target.rec and target.rec.CarrierUserId) == LocalPlayer.UserId then
+                    t216.carrying = true
+                    t216.carryUid = target.rec and target.rec.Uid or t216.carryUid
+                    t216.heldUid = t216.carryUid or t216.heldUid
+                    t216.adoptCarry()
+
+                    return
+                end
+
+                if t9.BatAura then
+                    if t216.state ~= "Chase" then
+                        v1102("steal", t216.state, "->", "Chase", "player has it", t216.target and t216.target.name or "")
+                        t216.state = "Chase"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Chase"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if v2514 > 3 then
+                    t216.lockUid = nil
+                    t216.lockPos = nil
+                    t216.target = nil
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "taken", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                end
+
+                return
+            end
+
+            if v2537 then
+                if typeof(target.pos) == "Vector3" then
+                    t216.lockPos = target.pos
+                end
+
+                local pos = target.pos
+                local _ = v2504.Position
+                local v2541 = if typeof(pos) == "Vector3" then if not u1130() then Vector3.new(pos.X, pos.Y - 2.5, pos.Z) else Vector3.new(pos.X, pos.Y + 1.5, pos.Z) else pos
+
+                u1127 = v1225(v2541, v2504.Position, true)
+                u1128 = true
+
+                if typeof(u1127) == "Vector3" and typeof(v2541) == "Vector3" then
+                    local Magnitude = Vector3.new(u1127.X - v2504.Position.X, 0, u1127.Z - v2504.Position.Z).Magnitude
+                    local Magnitude2 = Vector3.new(v2541.X - v2504.Position.X, 0, v2541.Z - v2504.Position.Z).Magnitude
+
+                    if Magnitude < 8 and Magnitude2 > 20 then
+                        u1127 = v2541
+                    end
+                end
+
+                local Magnitude = Vector3.new(v2504.Position.X - v2541.X, 0, v2504.Position.Z - v2541.Z).Magnitude
+                local v2545 = v2504.Position.Y - v2541.Y
+
+                if not u1130() and Magnitude <= 16 then
+                    u1127 = v2541
+                end
+
+                local v2546 = not (target.rec and target.rec.State == "Dropped") and 10 or 16
+
+                if u1130() then
+                    if Magnitude <= v2546 and v2545 < 18 then
+                        v1236(target)
+                    end
+
+                    if Magnitude <= 5 and v2545 < 10 then
+                        local v2547 = "in range " .. math.floor(Magnitude)
+
+                        if t216.state ~= "Grab" then
+                            v1102("steal", t216.state, "->", "Grab", v2547 or "", t216.target and t216.target.name or "")
+                            t216.state = "Grab"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "Grab"
+                        end
+
+                        v1231()
+
+                        return
+                    end
+                else
+                    local Magnitude3 = (v2504.Position - v2541).Magnitude
+
+                    if Magnitude3 <= v2546 then
+                        v1236(target)
+                    end
+
+                    if Magnitude3 <= 4 then
+                        local v2549 = "in range " .. math.floor(Magnitude3)
+
+                        if t216.state ~= "Grab" then
+                            v1102("steal", t216.state, "->", "Grab", v2549 or "", t216.target and t216.target.name or "")
+                            t216.state = "Grab"
+                            t216.since = os.clock()
+                        else
+                            t216.state = "Grab"
+                        end
+
+                        v1231()
+
+                        return
+                    end
+                end
+            else
+                n29 = 0
+                u1127 = nil
+                u1128 = false
+
+                if v2514 > 2.5 then
+                    v1102("steal", "egg gone", v2538 or "")
+                    t216.lockUid = nil
+                    t216.lockPos = nil
+                    t216.target = nil
+
+                    local v2550 = v2538 or "egg gone"
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", v2550 or "", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+
+            if v2514 > (not t216.lockUid and 18 or 45) then
+                v1102("steal", "GoEgg timeout, rescan")
+                n29 = 0
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if t216.state == "Grab" then
+            local target = t216.target
+
+            if not target then
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no target", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            pcall(v1158, "grab")
+            pcall(u1131)
+
+            local v2552, v2553 = v1235(target)
+
+            if v2553 == "Carried" then
+                if tonumber(target.carrier or target.rec and target.rec.CarrierUserId) == LocalPlayer.UserId then
+                    t216.carrying = true
+                    t216.carryUid = target.rec and target.rec.Uid or t216.carryUid
+                    t216.heldUid = t216.carryUid or t216.heldUid
+                    t216.adoptCarry()
+
+                    return
+                end
+
+                if t9.BatAura then
+                    if t216.state ~= "Chase" then
+                        v1102("steal", t216.state, "->", "Chase", "player has it", t216.target and t216.target.name or "")
+                        t216.state = "Chase"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Chase"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if v2514 > 3 then
+                    t216.lockUid = nil
+                    t216.lockPos = nil
+                    t216.target = nil
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", "taken", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+                end
+
+                return
+            end
+
+            if v2552 then
+                local v2554 = v1225
+                local pos = target.pos
+                local _ = v2504.Position
+
+                u1127 = v2554(if typeof(pos) == "Vector3" then if not u1130() then Vector3.new(pos.X, pos.Y - 2.5, pos.Z) else Vector3.new(pos.X, pos.Y + 1.5, pos.Z) else pos, v2504.Position, true)
+
+                if typeof(target.pos) == "Vector3" then
+                    t216.lockPos = target.pos
+                    t216.lockAt = os.clock()
+                end
+            else
+                u1127 = nil
+                u1128 = false
+
+                if v2514 > 2.5 then
+                    v1102("steal", "grab lost", v2553 or "")
+                    t216.lockUid = nil
+                    t216.lockPos = nil
+                    t216.target = nil
+
+                    local v2557 = v2553 or "grab lost"
+
+                    if t216.state ~= "Scan" then
+                        v1102("steal", t216.state, "->", "Scan", v2557 or "", t216.target and t216.target.name or "")
+                        t216.state = "Scan"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Scan"
+                    end
+
+                    v1231()
+
+                    return
+                end
+            end
+
+            u1128 = true
+            v1236(target)
+
+            if t216.carrying then
+                t216.adoptCarry()
+
+                return
+            end
+
+            if v2514 > (not t216.lockUid and (not target.rec or target.rec.State ~= "Dropped") and 8 or 30) then
+                v1102("steal", "Grab timeout")
+                n29 = 0
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "grab timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if t216.state == "Chase" then
+            local target = t216.target
+            if not target or not t9.BatAura then
+                t216.target = nil
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "no chase", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+            local v2559, v2560 = v1235(target)
+            if v2560 ~= "Carried" then
+                if v2559 then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "egg loose", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                t216.target = nil
+
+                local v2561 = v2560 or "chase lost"
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", v2561 or "", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+            local v2562
+            local v2563
+            if t216.bat then
+                v2562, v2563 = t216.bat.posOf(target.carrier)
+            end
+            if v2562 then
+                u1127 = v2562
+                u1128 = true
+
+                if v2563 then
+                    t216.bat.swingAt(v2563)
+                end
+            elseif v2514 > 4 then
+                t216.target = nil
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "thief gone", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+            if v2514 > 20 then
+                t216.target = nil
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "chase timeout", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if t216.state == "Return" then
+            if not t216.carrying then
+                if t216.lockUid and typeof(t216.lockPos) == "Vector3" then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "dropped", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "empty hands", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            local _ = v2504.Position
+
+            if typeof((select(1, u1219()))) ~= "Vector3" then
+                v1102("steal", "no safe zone")
+                u1127 = nil
+
+                return
+            end
+
+            u1127 = select(1, v1226(v2504.Position))
+            u1128 = true
+
+            if v1227(v2504) then
+                if t216.liveCarry and select(1, t216.liveCarry()) then
+                    if t216.state ~= "Bank" then
+                        v1102("steal", t216.state, "->", "Bank", "at safe zone", t216.target and t216.target.name or "")
+                        t216.state = "Bank"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "Bank"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                t216.carrying = false
+
+                if t216.lockUid and typeof(t216.lockPos) == "Vector3" then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "empty at pad", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "empty at pad", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if v2514 > 28 then
+                v1102("steal", "Return timeout")
+
+                if t216.state ~= "GoEgg" then
+                    v1102("steal", t216.state, "->", "GoEgg", "return timeout", t216.target and t216.target.name or "")
+                    t216.state = "GoEgg"
+                    t216.since = os.clock()
+                else
+                    t216.state = "GoEgg"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+
+        if t216.state == "Bank" then
+            local _ = v2504.Position
+            local v2566 = select(1, u1219())
+
+            u1127 = if typeof(v2566) == "Vector3" then select(1, v1226(v2504.Position)) else v2566
+
+            local elapsed46 = os.clock()
+
+            if elapsed46 - t216.lastBankTry >= 0.45 then
+                t216.lastBankTry = elapsed46
+            end
+
+            if not t216.carrying then
+                v1232("empty-hands-at-safe")
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "took", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if not t216.liveCarry or not select(1, t216.liveCarry()) then
+                t216.carrying = false
+
+                if t216.lockUid and typeof(t216.lockPos) == "Vector3" then
+                    if t216.state ~= "GoEgg" then
+                        v1102("steal", t216.state, "->", "GoEgg", "empty bank", t216.target and t216.target.name or "")
+                        t216.state = "GoEgg"
+                        t216.since = os.clock()
+                    else
+                        t216.state = "GoEgg"
+                    end
+
+                    v1231()
+
+                    return
+                end
+
+                if t216.state ~= "Scan" then
+                    v1102("steal", t216.state, "->", "Scan", "empty bank", t216.target and t216.target.name or "")
+                    t216.state = "Scan"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Scan"
+                end
+
+                v1231()
+
+                return
+            end
+
+            if v2514 > 4 then
+                v1102("steal", "Bank timeout, still carrying")
+
+                if t216.state ~= "Return" then
+                    v1102("steal", t216.state, "->", "Return", "bank timeout", t216.target and t216.target.name or "")
+                    t216.state = "Return"
+                    t216.since = os.clock()
+                else
+                    t216.state = "Return"
+                end
+
+                v1231()
+            end
+
+            return
+        end
+    end
+    local function v1237()
+        t216.running = false
+        u1128 = false
+        u1127 = nil
+        t216.target = nil
+        t216.eventUid = nil
+        t216.pendingCarry = nil
+        t216.haltUntil = os.clock() + 2.2
+        t216.muteHazards(false)
+
+        if t216.muteBelt then
+            t216.muteBelt(false)
+        end
+
+        if t216.state ~= "Idle" then
+            v1102("steal", t216.state, "->", "Idle", "disabled", t216.target and t216.target.name or "")
+            t216.state = "Idle"
+            t216.since = os.clock()
+        else
+            t216.state = "Idle"
+        end
+
+        v1231()
+
+        if u1135 and u1135.stop then
+            pcall(u1135.stop)
+        end
+
+        local Character23 = LocalPlayer.Character
+        local v2569, v2570
+
+        if not Character23 then
+            v2569 = nil
+            v2570 = nil
+        else
+            v2569 = Character23:FindFirstChildOfClass("Humanoid")
+            v2570 = Character23:FindFirstChild("HumanoidRootPart")
+
+            if not v2569 or not v2570 or v2569.Health <= 0 then
+                v2569 = nil
+                v2570 = nil
+            end
+        end
+
+        local v2571 = v2570
+        local v2572 = v2569
+
+        pcall(function()
+            if v2571 then
+                v2571.AssemblyLinearVelocity = Vector3.zero
+                v2571.AssemblyAngularVelocity = Vector3.zero
+            end
+
+            if v2572 then
+                v2572:Move(Vector3.zero, false)
+                v2572.Sit = false
+
+                if not t9.Flight then
+                    v2572.PlatformStand = false
+                end
+            end
+        end)
+
+        if v2571 and v2571.Position.Y < 58 then
+            local v2573 = select(1, u1219())
+
+            pcall(function()
+                if typeof(v2573) == "Vector3" and v2573.Y >= 58 then
+                    v2571.CFrame = CFrame.new(v2573.X, v2573.Y + 6, v2573.Z)
+                else
+                    v2571.CFrame = CFrame.new(0, 74, 0)
+                end
+
+                v2571.AssemblyLinearVelocity = Vector3.zero
+            end)
+        end
+
+        if not t9.Flight then
+            v1144()
+            v1146(v2572, v2571, true)
+        end
+
+        v1183((v1184()))
+
+        if u1116 then
+            if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+            elseif next(t155) then
+                v1150(false)
+            end
+        end
+
+        v1102("steal", "loop stopped")
+    end
+    if u1103 and u1103.CarryChanged and u1103.CarryChanged.Connect then
+        v1136(u1103.CarryChanged:Connect(function(p476)
+            if type(p476) ~= "table" then
+                return
+            end
+
+            local Uid = p476.Uid
+
+            t216.pendingCarry = {
+				carrying = p476.IsCarrying == true,
+				uid = type(Uid) == "string" and Uid or nil
+			}
+        end))
+    end
+    local function v1238(p477, p478)
+        local v2578 = t10[p477]
+
+        if not v2578 then
+            v1102("wire", "missing widget", p477)
+
+            return
+        end
+
+        v2578.on = p478
+    end
+    v1238("AutoSteal", function(p479)
+        if p479 then
+            if t216.running then
+                return
+            end
+
+            t216.running = true
+            t216.stillFor = 0
+            t216.lastPos = nil
+            t216.pendingCarry = nil
+
+            if t216.state ~= "Scan" then
+                v1102("steal", t216.state, "->", "Scan", "start", t216.target and t216.target.name or "")
+                t216.state = "Scan"
+                t216.since = os.clock()
+            else
+                t216.state = "Scan"
+            end
+
+            v1231()
+            u1128 = false
+            u1127 = nil
+            v1183((v1184()))
+
+            if u1116 then
+                if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                    v1142()
+                    v1143()
+                    v1150(true)
+                elseif next(t155) then
+                    v1150(false)
+                end
+            end
+
+            v1102("steal", "loop started", t9.StealTravel)
+
+            return
+        end
+
+        v1237()
+    end)
+    v1238("AutoEvent", function()
+        v1231()
+    end)
+    v1238("AntiTrap", function(p480)
+        v1102("engine", "anti trap", p480)
+        v1183((v1184()))
+
+        if u1116 then
+            if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+            elseif next(t155) then
+                v1150(false)
+            end
+        end
+
+        v1160()
+    end)
+    v1238("AntiMob", function(p481)
+        v1102("engine", "anti ragdoll", p481)
+        v1183((v1184()))
+
+        if u1116 then
+            if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+            elseif next(t155) then
+                v1150(false)
+            end
+        end
+
+        v1175()
+    end)
+    v1238("BatAura", function(p482)
+        v1102("esp", "bat aura", p482)
+
+        if t216.bat and t216.bat.setLive then
+            t216.bat.setLive(p482)
+        end
+    end)
+    v1238("BypassSpeed", function()
+        if t9.BypassSpeed ~= true then
+            local v2583 = select(1, v1112())
+
+            pcall(function()
+                if v2583 then
+                    v2583.WalkSpeed = n9
+                end
+            end)
+        end
+
+        v1183((v1184()))
+
+        if not u1116 then
+            return
+        end
+
+        if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+            v1142()
+            v1143()
+            v1150(true)
+
+            return
+        end
+
+        if next(t155) then
+            v1150(false)
+        end
+    end)
+    v1238("StealTravel", function(p483)
+        v1102("wire", "travel mode", (tostring(p483)))
+
+        if t9.AutoSteal then
+            v1183((v1184()))
+
+            if not u1116 then
+                return
+            end
+
+            if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                v1142()
+                v1143()
+                v1150(true)
+
+                return
+            end
+
+            if next(t155) then
+                v1150(false)
+            end
+        end
+    end)
+    v1238("StealSpeed", function(p484)
+        v1102("engine", "steal speed", p484)
+    end)
+    v1238("StealMode", function(p485)
+        v1102("steal", "pick", (tostring(p485)))
+
+        if u66 then
+            u69(u66, v250.Text)
+        end
+    end)
+    v1238("BypassCap", function(p486)
+        v1102("engine", "cap", p486)
+    end)
+    v1238("Flight", function(p487)
+        warn("flight is " .. tostring(p487))
+
+        if p487 then
+            v1144()
+
+            local Character24 = LocalPlayer.Character
+            local v2590
+
+            if not Character24 then
+                v2590 = nil
+            else
+                local Humanoid = Character24:FindFirstChildOfClass("Humanoid")
+                local HumanoidRootPart = Character24:FindFirstChild("HumanoidRootPart")
+
+                v2590 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+            end
+
+            local v2593 = v2590
+
+            if v2593 then
+                pcall(function()
+                    local AssemblyLinearVelocity = v2593.AssemblyLinearVelocity
+
+                    v2593.AssemblyLinearVelocity = Vector3.new(AssemblyLinearVelocity.X, 0, AssemblyLinearVelocity.Z)
+                    v2593.AssemblyAngularVelocity = Vector3.zero
+                end)
+            end
+        else
+            local Character25 = LocalPlayer.Character
+            local v2595, v2596
+
+            if not Character25 then
+                v2595 = nil
+                v2596 = nil
+            else
+                v2595 = Character25:FindFirstChildOfClass("Humanoid")
+                v2596 = Character25:FindFirstChild("HumanoidRootPart")
+
+                if not v2595 or not v2596 or v2595.Health <= 0 then
+                    v2595 = nil
+                    v2596 = nil
+                end
+            end
+
+            u1145 = false
+            v1146(v2595, v2596, true)
+        end
+
+        v1183((v1184()))
+
+        if not u1116 then
+            return
+        end
+
+        if (t9.Flight or t9.BypassSpeed) and true or (t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+            v1142()
+            v1143()
+            v1150(true)
+
+            return
+        end
+
+        if next(t155) then
+            v1150(false)
+        end
+    end)
+    v1238("FlightSpeed", function(p488)
+        if t9.Flight then
+            v1102("engine", "flight speed", p488)
+        end
+    end)
+    v1238("EggESP", function()
+        v1102("esp", "field", t9.EggESP)
+    end)
+    v1238("ESPFilter", function(p489)
+        v1102("esp", "filter", (tostring(p489)))
+    end)
+    v1238("ESPBeam", function()
+        v1102("esp", "beam", t9.ESPBeam)
+    end)
+    v1238("PlotESP", function()
+        v1102("esp", "plot", t9.PlotESP)
+
+        if u1134.bumpPlot then
+            u1134.bumpPlot()
+        end
+    end)
+    v1238("StatsPanel", function(p490)
+        if u1134.stats then
+            u1134.stats(p490)
+        end
+
+        v1102("esp", "stats panel", p490)
+    end)
+    v1238("ClaimIndex", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("AutoPlaceEggs", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("AutoHatch", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("EquipBest", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("UpgTrails", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("UpgTreadmill", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("UpgPen", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("AutoSellPets", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("AutoSellEggs", function()
+        if u1135 then
+            u1135.sync()
+        end
+    end)
+    v1238("AutoTreadmill", function(p491)
+        if u1135 then
+            if not p491 and u1135.leave then
+                u1135.leave()
+            end
+
+            u1135.sync()
+        end
+    end)
+    v1238("AutoHop", function()
+    end)
+    v1238("HopNow", function()
+        if u1230 and u1230.now then
+            u1230.now()
+        end
+    end)
+    v1238("SellPreview", function()
+        if t11.open then
+            t11.open()
+        end
+    end)
+    function t11.open()
+        t9.StatsPanel = true
+
+        if t10.StatsPanel and t10.StatsPanel.set then
+            pcall(t10.StatsPanel.set, true)
+        end
+
+        if u1134 and u1134.stats then
+            pcall(u1134.stats, true)
+        end
+
+        if u1135 and u1135.queuePreview then
+            local ok90, result86 = pcall(u1135.queuePreview)
+
+            if not ok90 then
+                local SellPreview = t10.SellPreview
+
+                if SellPreview and SellPreview.status then
+                    SellPreview.status.Text = "failed · " .. tostring(result86)
+                end
+
+                v1102("plot", "preview ERR", (tostring(result86)))
+            end
+
+            return
+        end
+
+        local SellPreview = t10.SellPreview
+
+        if SellPreview and SellPreview.status then
+            SellPreview.status.Text = "preview missing"
+        end
+    end
+    v1238("HookTest", function()
+        local HookTest = t10.HookTest
+
+        if not u1195 or not u1195.test then
+            if HookTest and HookTest.status then
+                HookTest.status.Text = "missing"
+            end
+
+            return
+        end
+
+        if HookTest and HookTest.status then
+            HookTest.status.Text = "sending…"
+        end
+
+        task.spawn(function()
+            local v4577, v4578 = u1195.test()
+
+            if HookTest and HookTest.status then
+                HookTest.status.Text = if not v4577 then "fail · " .. tostring(v4578) else "sent"
+            end
+
+            v1102("hook", not v4577 and "test fail" or "test ok", (tostring(v4578)))
+        end)
+    end)
+    v1238("Optimizer", function(p492)
+        u1134.opt(p492)
+        v1102("esp", "optimizer", p492)
+    end)
+    v1238("FPSCap", function(p493)
+        u1134.fps()
+        v1102("esp", "fps cap", p493)
+    end)
+    v1136(UserInputService.InputBegan:Connect(function(input, gameProcessed)
+        if gameProcessed then
+            return
+        end
+
+        if t9.FlightBind and input.KeyCode == t9.FlightBind then
+            local v2610 = not t9.Flight
+
+            if t10.Flight and t10.Flight.set then
+                t10.Flight.set(v2610)
+            else
+                t9.Flight = v2610
+            end
+
+            if t10.Flight and t10.Flight.on then
+                t10.Flight.on(v2610)
+            else
+                v1183((v1184()))
+
+                if u1116 then
+                    if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+                        v1142()
+                        v1143()
+                        v1150(true)
+                    elseif next(t155) then
+                        v1150(false)
+                    end
+                end
+            end
+
+            if u265 then
+                return
+            end
+
+            if u266 then
+                return
+            end
+
+            u266 = true
+
+            local v2611 = v268
+
+            task.delay(0.35, function()
+                u266 = false
+
+                if v2611 ~= (v51().gen or 0) then
+                    return
+                end
+
+                v272()
+            end)
+        end
+    end));
+    (function()
+        local ok91, result87, _, _ = pcall(function()
+            v1191()
+
+            for _, descendant in ipairs(workspace:GetDescendants()) do
+                if descendant:IsA("ProximityPrompt") then
+                    v1188(descendant)
+                end
+            end
+        end)
+
+        if not ok91 then
+            v1102("prompts", "ERR", "scan", (tostring(result87)))
+        end
+
+        local connection20 = workspace.DescendantAdded:Connect(function(descendant)
+            if descendant:IsA("ProximityPrompt") then
+                task.defer(v1188, descendant)
+            end
+        end)
+
+        if connection20 then
+            t152[connection20] = true
+        end
+
+        local connection21 = ProximityPromptService.PromptButtonHoldBegan:Connect(function(p494)
+            v1188(p494)
+
+            if v1189(p494) and (t216 and t216.running and t9.AutoSteal) then
+                if (t216.state == "GoEgg" or t216.state == "Grab") and t216.promptIsTarget and t216.promptIsTarget(p494, t216.target, 5) then
+                    v1190(p494)
+                end
+
+                return
+            end
+
+            if v1185 then
+                pcall(v1185, p494, 0)
+
+                return
+            end
+
+            pcall(function()
+                p494:InputHoldBegin()
+                p494:InputHoldEnd()
+            end)
+        end)
+
+        if connection21 then
+            t152[connection21] = true
+        end
+
+        pcall(function()
+            local connection22 = ProximityPromptService.PromptShown:Connect(function(prompt)
+                u1187 = prompt
+                v1188(prompt)
+
+                if t216 and (t216.running and t9.AutoSteal and v1189(prompt) and t216.state == "Grab" and t216.promptIsTarget and t216.promptIsTarget(prompt, t216.target, 5)) then
+                    v1190(prompt)
+                end
+            end)
+
+            if connection22 then
+                t152[connection22] = true
+            end
+        end)
+        pcall(function()
+            local connection23 = ProximityPromptService.PromptHidden:Connect(function(prompt)
+                if prompt == u1187 then
+                    u1187 = nil
+                end
+            end)
+
+            if connection23 then
+                t152[connection23] = true
+            end
+        end)
+        v1102("prompts", "instant HoldDuration=0")
+    end)();
+    (function()
+        v1183((v1184()))
+
+        if not u1116 then
+            return
+        end
+
+        if (t9.Flight or t9.BypassSpeed) and true or (not not t9.AutoSteal or ((t9.AutoPlaceEggs or t9.AutoTreadmill) and true or (not not t9.AutoHatch or u1128 and t9.StealTravel == "Flight"))) then
+            v1142()
+            v1143()
+            v1150(true)
+
+            return
+        end
+
+        if next(t155) then
+            v1150(false)
+        end
+    end)()
+    pcall(v280, true)
+    if not u43 then
+        u42 = t9.PhoneUI == true
+    end
+    if u44 then
+        u44()
+    end
+    if t216.bat and t216.bat.setLive then
+        t216.bat.setLive(t9.BatAura == true)
+    end
+    if u1135 and u1135.sync then
+        u1135.sync()
+    end
+    local ok92, result88 = pcall(v1208)
+    if not ok92 then
+        v1102("modules", "sync fail", (tostring(result88)))
+    end
+    task.spawn(function()
+        while u1117 do
+            task.wait(20)
+
+            if u1117 then
+                pcall(v1208)
+            end
+        end
+    end)
+    if not u1130() then
+        v1144()
+
+        local v1241 = select(1, v1112())
+
+        if v1241 then
+            pcall(function()
+                v1241.PlatformStand = false
+            end)
+        end
+    end
+    u1134.fps()
+    if t9.Optimizer then
+        u1134.opt(true)
+    end
+    local v1242 = u323
+    function u323()
+        u1117 = false
+
+        local v2612 = v1237
+        local ok93, result89, _, _ = pcall(v2612)
+
+        if not ok93 then
+            v1102("shutdown", "ERR", "stopSteal", (tostring(result89)))
+        end
+
+        local ok94, result90, _, _ = pcall(function()
+            if t216 and t216.muteHazards then
+                t216.muteHazards(false)
+            end
+
+            if t216 and t216.muteBelt then
+                t216.muteBelt(false)
+            end
+        end)
+
+        if not ok94 then
+            v1102("shutdown", "ERR", "hazards", (tostring(result90)))
+        end
+
+        local ok95, result91, _, _ = pcall(function()
+            if t216.bat and t216.bat.stop then
+                t216.bat.stop()
+            end
+        end)
+
+        if not ok95 then
+            v1102("shutdown", "ERR", "bat", (tostring(result91)))
+        end
+
+        local ok96, result92, _, _ = pcall(function()
+            if u1230 and u1230.stop then
+                u1230.stop()
+            end
+        end)
+
+        if not ok96 then
+            v1102("shutdown", "ERR", "hop", (tostring(result92)))
+        end
+
+        local ok97, result93, _, _ = pcall(function()
+            if u1135 and u1135.stop then
+                u1135.stop()
+            end
+        end)
+
+        if not ok97 then
+            v1102("shutdown", "ERR", "plot", (tostring(result93)))
+        end
+
+        local ok98, result94, _, _ = pcall(function()
+            v1183(false)
+            v1150(false)
+        end)
+
+        if not ok98 then
+            v1102("shutdown", "ERR", "engineOff", (tostring(result94)))
+        end
+
+        local ok99, result95, _, _ = pcall(function()
+            for _, v in ipairs({
+				"attrConn",
+				"stConn",
+				"hpConn"
+			}) do
+                local v4581 = t165[v]
+
+                t165[v] = nil
+
+                if v4581 then
+                    pcall(function()
+                        v4581:Disconnect()
+                    end)
+                end
+            end
+        end)
+
+        if not ok99 then
+            v1102("shutdown", "ERR", "antiMob", (tostring(result95)))
+        end
+
+        local v2641 = v1137
+        local ok100, result96, _, _ = pcall(v2641)
+
+        if not ok100 then
+            v1102("shutdown", "ERR", "conns", (tostring(result96)))
+        end
+
+        local clear = u1134.clear
+        local ok101, result97, _, _ = pcall(clear)
+
+        if not ok101 then
+            v1102("shutdown", "ERR", "esp", (tostring(result97)))
+        end
+
+        local ok103, result99, _, _ = pcall(function()
+            local v4582 = v98 and v98.Parent
+            local v4583 = v49
+
+            if v4582 and type(v4583) == "string" then
+                local v4584 = v4582:FindFirstChild(v4583)
+
+                if v4584 then
+                    v4584:Destroy()
+                end
+            end
+
+            local PlayerGui = LocalPlayer:FindFirstChild("PlayerGui")
+            local v4586 = v49
+
+            if PlayerGui and type(v4586) == "string" then
+                local v4587 = PlayerGui:FindFirstChild(v4586)
+
+                if v4587 then
+                    v4587:Destroy()
+                end
+            end
+
+            if PlayerGui then
+                local KiraWorldGui = PlayerGui:FindFirstChild("KiraWorldGui")
+
+                if KiraWorldGui then
+                    KiraWorldGui:Destroy()
+                end
+            end
+
+            if gethui then
+                local ok102, result98 = pcall(gethui)
+
+                if ok102 then
+                    local v4591 = v49
+
+                    if result98 then
+                        if type(v4591) ~= "string" then
+                            return
+                        end
+
+                        local v4592 = result98:FindFirstChild(v4591)
+
+                        if v4592 then
+                            v4592:Destroy()
+                        end
+                    end
+                end
+            end
+        end)
+
+        if not ok103 then
+            v1102("shutdown", "ERR", "worldGui", (tostring(result99)))
+        end
+
+        local v2655 = v1144
+        local ok104, result100, _, _ = pcall(v2655)
+
+        if not ok104 then
+            v1102("shutdown", "ERR", "ghost", (tostring(result100)))
+        end
+
+        local ok105, result101, _, _ = pcall(function()
+            u1134.opt(false)
+        end)
+
+        if not ok105 then
+            v1102("shutdown", "ERR", "opt", (tostring(result101)))
+        end
+
+        local ok106, result102, _, _ = pcall(function()
+            v272(true)
+        end)
+
+        if not ok106 then
+            v1102("shutdown", "ERR", "saveConfig", (tostring(result102)))
+        end
+
+        local v2668 = getgenv and getgenv() or _G
+        local v2669 = v51()
+
+        v2669.unload = nil
+        v2669.alive = false
+        v2669.dump = nil
+
+        if type(v2668.KiraUI) == "table" then
+            v2668.KiraUI[str] = nil
+        end
+
+        if type(v2668.KiraDumpByUser) == "table" then
+            v2668.KiraDumpByUser[str] = nil
+        end
+
+        if v2668.UI == t149 then
+            v2668.UI = nil
+        end
+
+        if v2668.KiraUnloadUid == str then
+            v2668.KiraUnloadUid = nil
+            v2668.KiraUnload = nil
+        end
+
+        v1242()
+    end
+    t149.Destroy = u323
+    local v1243 = v50()
+    local v1244 = v51()
+    v1244.unload = u323
+    v1244.alive = true
+    v1243.KiraUnloadUid = str
+    function v1243.KiraUnload()
+        local LocalPlayer2 = Players.LocalPlayer
+        local str42 = tostring(LocalPlayer2 and LocalPlayer2.UserId or 0)
+        local KiraHub = v1243.KiraHub
+        local v2673 = type(KiraHub) == "table" and (type(KiraHub.slots) == "table" and KiraHub.slots[str42])
+
+        if type(v2673) == "table" and type(v2673.unload) == "function" then
+            v2673.unload()
+        end
+    end
+    function t149.KiraDump()
+        local Character26 = LocalPlayer.Character
+        local v2675
+
+        if not Character26 then
+            v2675 = nil
+        else
+            local Humanoid = Character26:FindFirstChildOfClass("Humanoid")
+            local HumanoidRootPart = Character26:FindFirstChild("HumanoidRootPart")
+
+            v2675 = if not not Humanoid and (not not HumanoidRootPart and not (Humanoid.Health <= 0)) then HumanoidRootPart else nil
+        end
+
+        local t305 = {
+			state = t216.state,
+			travel = t9.StealTravel,
+			stealSpeed = t9.StealSpeed,
+			bypass = t9.BypassSpeed,
+			cap = t9.BypassCap,
+			engine = u1116,
+			carrying = t216.carrying,
+			trapped = u1157,
+			trapEscaped = n14,
+			stillFor = t216.stillFor,
+			target = t216.target and t216.target.area .. " " .. t216.target.name or nil,
+			pos = v2675 and {
+				math.floor(v2675.Position.X),
+				math.floor(v2675.Position.Y),
+				math.floor(v2675.Position.Z)
+			},
+			wraps = t155 and next(t155) ~= nil,
+			areas = t9.Areas,
+			eggTypes = t9.EggTypes,
+			stealMode = t9.StealMode,
+			eggEsp = t9.EggESP,
+			plotEsp = t9.PlotESP
+		}
+        local v2679 = v1228()
+        local AreaEggCycleNightSeconds = workspace:GetAttribute("AreaEggCycleNightSeconds")
+
+        if type(AreaEggCycleNightSeconds) ~= "number" then
+            AreaEggCycleNightSeconds = 10
+        end
+
+        t305.night = v2679 <= math.clamp(AreaEggCycleNightSeconds, 1, 300)
+
+        return t305
+    end
+    local v1245 = v50()
+    v51().dump = t149.KiraDump
+    v1245.KiraDumpByUser = type(v1245.KiraDumpByUser) == "table" and v1245.KiraDumpByUser or {}
+    v1245.KiraDumpByUser[str] = t149.KiraDump
+    function v1245.KiraDump(...)
+        local LocalPlayer3 = Players.LocalPlayer
+        local str43 = tostring(LocalPlayer3 and LocalPlayer3.UserId or 0)
+        local v2683 = v1245.KiraDumpByUser and v1245.KiraDumpByUser[str43]
+
+        if type(v2683) == "function" then
+            return v2683(...)
+        end
+    end
+    print("[UI] Kira Hub ready · RightShift toggles · Dark / Light in Settings")
+    v1102("boot", "game logic attached · KiraDump() in F9")
+end)()
